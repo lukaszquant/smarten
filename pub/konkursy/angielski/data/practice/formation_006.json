@@ -1,0 +1,25 @@
+{
+  "title": "Word Formation: Sports Champions",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["COMPETE", "TRAIN", "ACHIEVE", "STRONG", "CHAMPION", "DEFEAT", "PROFESSION", "ENTHUSE", "INJURE", "BELIEVE"],
+      "title": "THE ROAD TO VICTORY",
+      "text": "Becoming a sports champion requires years of hard work and dedication. Every 1.1. ________ athlete follows a strict daily routine. Their 1.2. ________ begins early in the morning and often lasts for many hours. The biggest 1.3. ________ in any sport is winning an Olympic gold medal. Athletes need both physical 1.4. ________ and mental focus to succeed. During important 1.5. ________, thousands of fans cheer with great 1.6. ________. Sometimes players suffer painful 1.7. ________ that keep them away from the game for months. However, true champions never lose their 1.8. ________ in themselves and always come back stronger than before.",
+      "items": [
+        { "id": "1.1", "answer": "professional" },
+        { "id": "1.2", "answer": "training" },
+        { "id": "1.3", "answer": "achievement" },
+        { "id": "1.4", "answer": "strength" },
+        { "id": "1.5", "answer": "competitions" },
+        { "id": "1.6", "answer": "enthusiasm" },
+        { "id": "1.7", "answer": "injuries" },
+        { "id": "1.8", "answer": "belief" }
+      ]
+    }
+  ]
+}

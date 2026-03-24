@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Health & Body",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "If you have a high t _ m _ _ _ _ _ _ _ e, you should stay in bed and rest.",
+          "hint": "t _ m _ _ _ _ _ _ _ e",
+          "answer": "temperature"
+        },
+        {
+          "id": "1.2",
+          "stem": "The doctor gave me a p _ _ s _ _ _ _ _ _ _ n for some medicine to treat my cough.",
+          "hint": "p _ _ s _ _ _ _ _ _ _ n",
+          "answer": "prescription"
+        },
+        {
+          "id": "1.3",
+          "stem": "I have a terrible h _ _ d _ _ _ e. Can you give me some aspirin, please?",
+          "hint": "h _ _ d _ _ _ e",
+          "answer": "headache"
+        },
+        {
+          "id": "1.4",
+          "stem": "Regular physical e _ _ r _ _ _ e helps you stay fit and healthy.",
+          "hint": "e _ _ r _ _ _ e",
+          "answer": "exercise"
+        },
+        {
+          "id": "1.5",
+          "stem": "She broke her arm and had to go to the hospital for an o _ _ r _ _ _ _ n.",
+          "hint": "o _ _ r _ _ _ _ n",
+          "answer": "operation"
+        },
+        {
+          "id": "1.6",
+          "stem": "Many people are a _ _ _ _ g _ c to pollen and they sneeze a lot in spring.",
+          "hint": "a _ _ _ _ g _ c",
+          "answer": "allergic"
+        },
+        {
+          "id": "1.7",
+          "stem": "You need to make an a _ _ o _ _ _ _ _ _ t to see the doctor next week.",
+          "hint": "a _ _ o _ _ _ _ _ _ t",
+          "answer": "appointment"
+        },
+        {
+          "id": "1.8",
+          "stem": "The nurse put a b _ n _ _ _ e around my injured knee to support it.",
+          "hint": "b _ n _ _ _ e",
+          "answer": "bandage"
+        }
+      ]
+    }
+  ]
+}

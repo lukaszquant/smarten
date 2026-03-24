@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "The Discovery of Penicillin",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "THE DISCOVERY OF PENICILLIN\n\nOne of the most important medical discoveries in history came about almost entirely by accident. In September 1928, Scottish bacteriologist Alexander Fleming returned to his laboratory in London after a summer holiday and noticed something unusual about one of his petri dishes. 1. _________ What he observed would eventually save hundreds of millions of lives.\n\nFleming was studying staphylococcus bacteria, which cause serious infections in humans. The contaminated dish showed a clear zone around the mould where all the bacteria had been destroyed. 2. _________ He named the substance it produced penicillin, after the Penicillium mould that had invaded his dish.\n\nDespite this remarkable observation, Fleming struggled to develop penicillin into a practical medicine. The mould was difficult to grow in large quantities, and the antibiotic substance it produced was unstable and hard to purify. 3. _________ His findings sat largely forgotten in scientific journals for over a decade.\n\nThe real breakthrough came in the late 1930s, when a team of scientists at Oxford University led by Howard Florey and Ernst Chain read Fleming's original paper. 4. _________ By 1941, they had produced enough penicillin to treat a patient for the first time, with dramatic results.\n\nThe timing could not have been more critical. World War Two was creating thousands of battlefield casualties, and bacterial infections were killing as many soldiers as enemy fire. 5. _________ Mass production began in the United States, and by 1944 there was enough penicillin to treat all Allied wounded.\n\nFleming, Florey, and Chain were jointly awarded the Nobel Prize in Physiology or Medicine in 1945. 6. _________ Today, antibiotics remain one of the cornerstones of modern medicine, though the growing problem of antibiotic resistance is a serious concern for scientists worldwide.",
+      "options": [
+        { "letter": "A", "text": "A mould had contaminated one of the dishes and was growing alongside the bacteria." },
+        { "letter": "B", "text": "Fleming realised that the mould was producing a chemical that killed the bacteria around it." },
+        { "letter": "C", "text": "The American government funded a massive programme to manufacture the drug on an industrial scale." },
+        { "letter": "D", "text": "Their recognition brought worldwide attention to a discovery that had waited years to fulfil its potential." },
+        { "letter": "E", "text": "Fleming published his results but was unable to interest the medical community in further research." },
+        { "letter": "F", "text": "They set about solving the technical problems of producing and purifying the antibiotic in larger amounts." },
+        { "letter": "G", "text": "Many other scientists at the time were also searching for substances that could fight bacterial infections." },
+        { "letter": "H", "text": "Hospitals in the nineteenth century had extremely high rates of infection due to poor hygiene practices." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "E" },
+        { "id": "1.4", "answer": "F" },
+        { "id": "1.5", "answer": "C" },
+        { "id": "1.6", "answer": "D" }
+      ]
+    }
+  ]
+}

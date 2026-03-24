@@ -1,0 +1,124 @@
+{
+  "title": "Australia & New Zealand",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "What is the capital city of Australia?",
+          "options": [
+            "A. Sydney",
+            "B. Melbourne",
+            "C. Canberra",
+            "D. Brisbane"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "question": "The kiwi is the national symbol of _______.",
+          "options": [
+            "A. Australia",
+            "B. South Africa",
+            "C. New Zealand",
+            "D. Ireland"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "question": "The Great Barrier Reef is located off the coast of _______.",
+          "options": [
+            "A. New Zealand",
+            "B. South Africa",
+            "C. California",
+            "D. Australia"
+          ],
+          "answer": "D"
+        },
+        {
+          "id": "1.4",
+          "question": "What is the famous large red rock formation in central Australia called?",
+          "options": [
+            "A. Table Mountain",
+            "B. Uluru (Ayers Rock)",
+            "C. Mount Cook",
+            "D. Blue Mountains"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "question": "Which animal appears on the Australian coat of arms alongside the emu?",
+          "options": [
+            "A. Koala",
+            "B. Platypus",
+            "C. Kangaroo",
+            "D. Wombat"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "question": "What is the capital city of New Zealand?",
+          "options": [
+            "A. Auckland",
+            "B. Christchurch",
+            "C. Wellington",
+            "D. Queenstown"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.7",
+          "question": "The traditional war dance of the Maori people of New Zealand is called the _______.",
+          "options": [
+            "A. samba",
+            "B. haka",
+            "C. waltz",
+            "D. polka"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.8",
+          "question": "Which famous building in Sydney is shaped like sails?",
+          "options": [
+            "A. Sydney Tower",
+            "B. Harbour Bridge",
+            "C. Sydney Opera House",
+            "D. Royal Exhibition Building"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.9",
+          "question": "The indigenous people of Australia are called _______.",
+          "options": [
+            "A. Maori",
+            "B. Inuit",
+            "C. Aborigines",
+            "D. Celts"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.10",
+          "question": "In which sport is New Zealand's national team called the 'All Blacks'?",
+          "options": [
+            "A. Cricket",
+            "B. Football",
+            "C. Rugby",
+            "D. Hockey"
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

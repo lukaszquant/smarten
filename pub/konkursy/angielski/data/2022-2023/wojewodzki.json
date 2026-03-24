@@ -1,0 +1,200 @@
+{
+  "year": "2022/2023",
+  "stage": "wojewodzki",
+  "date": "2023-03-03",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "listening_true_false_ni",
+      "points": 5,
+      "instruction": "Usłyszysz dwukrotnie nagranie. Zaznacz znakiem X w tabeli, które zdania (1.1.–1.5.) są zgodne z treścią nagrania (T – True), które są z nią niezgodne (F – False) oraz które zawierają informacje niepodane w tekście nagrania (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "2",
+      "type": "listening_open",
+      "points": 5,
+      "instruction": "Usłyszysz dwukrotnie nagranie. Na podstawie informacji w nim zawartych uzupełnij luki (2.1.–2.5.) tak, aby jak najbardziej precyzyjnie oddać sens wysłuchanego nagrania i otrzymać poprawne zdania. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "3",
+      "type": "gap_fill_sentences",
+      "points": 5,
+      "instruction": "Przeczytaj tekst. Do każdej luki (3.1.–3.5.) dopasuj właściwe zdanie (A–G) tak, aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "A BRIEF HISTORY OF THE HARMONICA\n\nTraditionally, the history of the harmonica was believed to begin around 1100 B.C. with the sheng, a Chinese instrument consisting of a bundle of bamboo tubes attached to a curving pipe. The instrument contains a free reed, a strip of flexible metal that flaps up and down when a player blows through the sheng's holes, thus creating musical tones. But most present-day historians are of a different opinion. 3.1. _________ In 1780, he used the free reed to create a device meant to imitate human speech. His aim was to better understand the mechanics of voice. He called his invention, which was the size of an upright piano, a \"talking machine.\"\n\nOver the next century, more musically minded inventors reduced the size of his device, calling their various creations a terpodian or harmonium. The pocket-size \"mouth organ\" arrived in the 1820s and would spread throughout Europe, followed by the United States. One man who profited was the German instrument maker Matthias Hohner, who formed his namesake company in 1857. 3.2. _________ The company remains the leading harmonica brand to this day.\n\nAccording to Kim Field's Harmonicas, Harps and Heavy Breathers: The Evolution of the People's Instrument, \"the golden age of the mouth organ\" came between the world wars. 3.3. _________ In 1944, a former Marine from Chicago, Jerry Murad, formed a trio of harmonizing harmonica players in dinner jackets and ties, called the Harmonicats. Not long after, Sonny Boy Williamson II and Little Walter were pioneering a wow-wow-wow technique, the heart of the Chicago blues. 3.4. _________ If you are a careful listener, you will trace them in dozens of songs – from Bob Dylan to Stevie Wonder and John Popper of Blues Traveler.\n\nHohner and other brands were hit hard during the pandemic. 3.5. _________ You may wonder why. The answer is simple: It is intuitive, it is easy and it is cheap.",
+      "source": "smithsonianmag.com",
+      "options": [
+        { "letter": "A", "text": "During this period, vaudevillians toured with harmonicas and Hollywood westerns put them between the lips of glamorous cowboys." },
+        { "letter": "B", "text": "Customers avoided retail stores then, and sales fell by 25 percent, but the harmonica continues to enchant." },
+        { "letter": "C", "text": "Each of these trends had a significant influence on players of many different types of music, including folk, rock and soul." },
+        { "letter": "D", "text": "A Hohner marketing executive, Morgan Franke, is a producer of the forthcoming harmonica documentary In the Reeds." },
+        { "letter": "E", "text": "They say the harmonica's more immediate forerunner was invented by a Dutch physician and physicist." },
+        { "letter": "F", "text": "Even Taylor Swift employed the instrument when performing her new song \"Betty\" at the Academy of Country Music Awards." },
+        { "letter": "G", "text": "He found a huge market for harmonicas in America, particularly among immigrants from his native land." }
+      ],
+      "items": [
+        { "id": "3.1", "answer": "E" },
+        { "id": "3.2", "answer": "G" },
+        { "id": "3.3", "answer": "A" },
+        { "id": "3.4", "answer": "C" },
+        { "id": "3.5", "answer": "B" }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "true_false_ni",
+      "points": 10,
+      "instruction": "Przeczytaj poniższy tekst. Zaznacz znakiem X w tabeli, które zdania (4.1.–4.5.) są zgodne z treścią tekstu (T – True), które są z nią niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy lub wyrażenia, które odpowiadają definicjom podanym w punktach 4.6.–4.10., wpisując je w formie odpowiadającej podanej definicji (np. bezokolicznika). Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "BEING AN ACCESSORIES DESIGNER, BY EUGENIA KIM\n\nMy father was a doctor, so naturally, I thought my calling was to be a doctor too. But during my first semester of pre-med, while sledding on a cafeteria tray with friends, I fell off a 10-foot drop and broke my back. I was in a hospital for a month. Being unable to move and surrounded by sick people was depressing. It made me not want to work in hospitals.\n\nI minored in creative writing, and the summer after graduation I started to work at Allure beauty magazine. They paid for employees to take classes in anything relevant work-wise, so I took a hat design class. I liked the fact that hats could be made quickly – in one sitting period – and by hand, instead of on a machine.\n\nOne night, I thought it would be a good idea to cut my own hair, but it ended up very crooked, so I shaved my head. I then started making hats resembling hair, and feathered ones too, to feel more feminine. What happened next is very '90s, because this wouldn't happen today. I was shopping in SoHo, and employees at two stores commented on my hat and asked to see my collection. Nowadays, you need to have thousands of followers on social media to even get noticed as a designer! I didn't know how to create a collection, so I just made the same hat in different colors. One store, Bond07, bought my whole \"collection\" and created an entire window display of my hats. Then, someone from Barneys saw my collection in Bond07's window. I got an appointment with them. It went well and the buyer said she really liked the collection; she didn't say they were definitely placing an order, just alluded to it. But I was naive and told the Times that my collection would be available at Barneys. Right after the article came out, the Barneys buyer called me and said, \"You need to get your hats into our store ASAP.\" Maybe they were planning on ordering, maybe they weren't, but that's how I got my first big order.\n\nI didn't know how to run a business. I delivered smaller orders to boutiques by bike. I didn't know how to read a shipping manual when sending Barneys my order, so I packed one hat per box in 18 massive boxes and I rented a limo to deliver the collection.\n\nI lived then with three girls in a loft and tried to pretend I wasn't running a hat business from the apartment. My roommates complained about finding feathers everywhere: in the rice cooker, in the toilet. The landlord didn't let us renew our lease after a year because of my \"suspicious paint lines\" on the walls, which I drew to create the hats. So I found a live-work storefront on East 4th Street and my store opened.\n\nI wish I could say I had a strategy, but I was just really motivated and opportunities came by me, mainly thanks to a lot of chutzpah and a very open mind. My business was lean and grew slowly. One day, Jennifer Lopez's stylist, Andrea Lieberman, just walked by my store and came in. I designed some big, floppy hats with gold chain detail for Jennifer. Soon I got dubbed the celebrity milliner in the media – even though I only had a few celebrity clients. I started getting requests from other celebrities' stylists. One season, I was busy with fashion shows and Andrea Lieberman wanted a big band hat for a Gwen Stefani video. It didn't seem worth it, so I turned it down, but the video ended up being her huge hit \"Hollaback Girl.\" That's one of my regrets in life.\n\nA few years ago, we did a sassy sunhat with \"Do Not Disturb\" on the brim; it's our bestselling hat ever, and a viral Instagram hit. I scrambled to fill huge reorders. We also launched straw handbags. They were a natural extension, since we do straw hats. Our most successful bag, the Flavia, resembles an upside-down straw hat.\n\nI'm like the triangle player in the orchestra of fashion. Being a designer of high-end hats is very niche, but I've grown steadily, and the brand's evolved. I learn every year – every day, really – and that's why I love my job.",
+      "source": "cosmopolitan.com",
+      "items": [
+        { "id": "4.1", "statement": "An accident influenced Eugenia's career decision.", "answer": "T" },
+        { "id": "4.2", "statement": "The hat design course was related to Eugenia's job.", "answer": "T" },
+        { "id": "4.3", "statement": "Barneys were impressed by the way Eugenia delivered her hats.", "answer": "NI" },
+        { "id": "4.4", "statement": "Eugenia left her flat due to objections from her roommates.", "answer": "F" },
+        { "id": "4.5", "statement": "Eugenia thinks that refusing the order for a Gwen Stefani video was a sensible decision.", "answer": "F" }
+      ],
+      "vocabItems": [
+        { "id": "4.6", "definition": "to try to do something difficult very quickly", "answer": ["scramble"] },
+        { "id": "4.7", "definition": "expensive and of good quality", "answer": ["high-end"] },
+        { "id": "4.8", "definition": "to give somebody/something a particular name, often in a humorous or critical way", "answer": ["dub", "to dub", "to get dubbed"] },
+        { "id": "4.9", "definition": "a person's behaviour or attitude that offends or shocks people, but is so confident that they may admire it", "answer": ["chutzpah"] },
+        { "id": "4.10", "definition": "to mention something in an indirect way", "answer": ["allude to", "to allude to", "to allude to something"] }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (5.1.–5.10.) jednym wyrazem tak, aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych słów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "CAN ANY COMPOSER EQUAL BACH?\n\nEvery weekday 5.1. _________ BBC Radio 3's breakfast show, we have a feature called Bach Before 7. For just thirty minutes, 5.2. _________ 6.30 and 7.00, we play a few 5.3. _________ of music by Johann Sebastian Bach – usually something requested by our listeners, who tune 5.4. _________ from all over the globe. It's impossible that another composer could 5.5. _________ Bach's place in that slot. Even Mozart or Beethoven would not cut it.\n\nThis is not to say that JS Bach is everybody's favourite composer – of course not. But he is the ultimate composer. Trying to explain why is a fool's game: it's like the famous quote attributed 5.6. _________ several authors that \"writing about music is 5.7. _________ dancing about architecture\". It is hard to think of a more refined brain than Albert Einstein's, and yet it was he 5.8. _________ famously uttered, \"This is what I have to say about Bach – listen, play, love, revere – and keep your trap shut.\"\n\nIt is good advice. I am only ignoring it because so many people I meet, from all walks of life, who are immediately moved by Bach, ask me: just what is it about him? Why 5.9. _________ his music do that – and how? So here are a few reasons 5.10. _________ I think he is the godfather of classical music. All music…",
+      "source": "bbc.com",
+      "items": [
+        { "id": "5.1", "answer": ["on"] },
+        { "id": "5.2", "answer": ["between"] },
+        { "id": "5.3", "answer": ["pieces"] },
+        { "id": "5.4", "answer": ["in"] },
+        { "id": "5.5", "answer": ["take", "fill"] },
+        { "id": "5.6", "answer": ["to"] },
+        { "id": "5.7", "answer": ["like"] },
+        { "id": "5.8", "answer": ["who", "that"] },
+        { "id": "5.9", "answer": ["does"] },
+        { "id": "5.10", "answer": ["why"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 4,
+      "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych słów. Liczba kresek odpowiada liczbie brakujących liter w słowie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "_ _ _ w _ _ _ _", "clue": "A top model fell down on the catwalk during Stella McCartney's fashion show.", "answer": "catwalk" },
+        { "id": "6.2", "hint": "_ _ _ _ g _ _ _ _ _ _", "clue": "This novel is internationally recognised as a masterpiece of English literature.", "answer": ["recognised", "recognized"] },
+        { "id": "6.3", "hint": "_ _ _ _ d _ _ _ _ _", "clue": "The interview will be broadcast live tomorrow evening.", "answer": "broadcast" },
+        { "id": "6.4", "hint": "_ _ l _ _ _ _ _ _ _ _ _", "clue": "The cookbook is beautifully illustrated with colour photographs.", "answer": "illustrated" }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (7.1.–7.8.) jednym wyrazem, przekształcając wyrazy podane w ramce, tak aby otrzymać spójny, logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "wordBank": ["EXPERIMENT", "CONSEQUENCE", "CREATE", "DARK", "DIFFERENT", "COMBINE", "INITIAL", "MOVE", "REVOLUTION", "SATISFY"],
+      "text": "STOLEN PAINTINGS GO ON DISPLAY IN VIRTUAL REALITY\n\nIn a new virtual reality exhibition, five famous paintings that were stolen from museums over the last 50 or so years are now on view in stunning detail. The Stolen Art Gallery is not a physical gallery space; it is an app designed by the Brazilian company Compass UOL. It is now available on smartphones, though its 7.1. _________ recommend using a VR headset.\n\n\"7.2. _________ when we thought about the exhibition environment, we thought about building something similar to a typical museum, but we ended up choosing a minimalist approach. Wearing a VR headset, standing in 7.3. _________, the only thing you really are paying attention to is the art piece,\" Compass' co-founder explains. Some of the interactive elements are similar to what users might expect to find in a museum. For example, audio descriptions or seeing other people's avatars. Other elements, however, 7.4. _________ from the museum experience.\n\nCompass is just one of the many companies 7.5. _________ with art and VR. The metaverse, as virtual reality space is called, will 7.6. _________ the way we experience the internet. Our physical world will become more and more 7.7. _________ with the virtual one. It will impact industries just as the internet did in the early '90s and 7.8. _________, it will also have an influence on the art world.",
+      "source": "smithsonianmag.com",
+      "items": [
+        { "id": "7.1", "answer": ["creators"] },
+        { "id": "7.2", "answer": ["Initially"] },
+        { "id": "7.3", "answer": ["darkness"] },
+        { "id": "7.4", "answer": ["differ"] },
+        { "id": "7.5", "answer": ["experimenting"] },
+        { "id": "7.6", "answer": ["revolutionise", "revolutionize"] },
+        { "id": "7.7", "answer": ["combined"] },
+        { "id": "7.8", "answer": ["consequently"] }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (8.1.–8.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "9",
+      "type": "matching",
+      "points": 5,
+      "instruction": "Do nazwisk pisarzy (9.1.–9.5.) dopasuj tytuły książek ich autorstwa (A–G). Dwa tytuły zostały podane dodatkowo i nie odnoszą się do żadnego autora. Przenieś rozwiązania na kartę odpowiedzi.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "The Great Gatsby" },
+        { "letter": "B", "text": "Animal Farm" },
+        { "letter": "C", "text": "Pride and Prejudice" },
+        { "letter": "D", "text": "The Picture of Dorian Gray" },
+        { "letter": "E", "text": "White Fang" },
+        { "letter": "F", "text": "The Catcher in the Rye" },
+        { "letter": "G", "text": "For Whom the Bell Tolls" }
+      ],
+      "items": [
+        { "id": "9.1", "label": "George Orwell", "answer": "B" },
+        { "id": "9.2", "label": "Ernest Hemingway", "answer": "G" },
+        { "id": "9.3", "label": "Jack London", "answer": "E" },
+        { "id": "9.4", "label": "F. Scott Fitzgerald", "answer": "A" },
+        { "id": "9.5", "label": "Oscar Wilde", "answer": "D" }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "knowledge_questions",
+      "points": 3,
+      "instruction": "Odpowiedz na pytania (10.1.–10.3.), wybierając jeden z podanych wariantów odpowiedzi. Zakreśl literę A, B, C albo D. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "10.1",
+          "question": "Which Irish writer did not receive the Nobel Prize for Literature?",
+          "options": ["A. W.B. Yeats.", "B. James Joyce.", "C. Seamus Heaney.", "D. George Bernard Shaw."],
+          "answer": "B"
+        },
+        {
+          "id": "10.2",
+          "question": "Which movie award is in the shape of a theatrical mask?",
+          "options": ["A. The Academy Award.", "B. The MTV VMA.", "C. The BAFTA Award.", "D. The Golden Globe Award."],
+          "answer": "C"
+        },
+        {
+          "id": "10.3",
+          "question": "Who was Joseph Pulitzer, the founder of the Pulitzer Prize, by profession?",
+          "options": ["A. A successful poet.", "B. A French ambassador.", "C. A newspaper publisher.", "D. A pioneer of the mystery genre."],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "type": "knowledge_questions",
+      "points": 2,
+      "instruction": "Odpowiedz na pytania, udzielając odpowiedzi w języku angielskim. Wymagana jest pełna poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "11.1",
+          "question": "What is the name of the film festival held annually in Park City, Utah?",
+          "answer": ["The Sundance Film Festival"],
+          "points": 1
+        },
+        {
+          "id": "11.2",
+          "question": "Who wrote the novel 'Mrs Dalloway'?",
+          "answer": ["Virginia Woolf"],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

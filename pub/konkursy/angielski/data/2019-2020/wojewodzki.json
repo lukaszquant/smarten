@@ -1,0 +1,187 @@
+{
+  "year": "2019/2020",
+  "stage": "wojewodzki",
+  "date": "2020-02-06",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "listening_true_false_ni",
+      "points": 4,
+      "instruction": "Usłyszysz dwukrotnie nagranie. Zdecyduj, które zdania (1-7) są zgodne z jego treścią (T – True), które są niezgodne (F – False) oraz które zawierają informacje niepodane w treści nagrania (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi, wpisując T, F lub NI w miejsca na to przeznaczone.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "2",
+      "type": "listening_open",
+      "points": 6,
+      "instruction": "Usłyszysz dwukrotnie nagranie. Na podstawie informacji w nim zawartych uzupełnij luki (1-6) tak, aby jak najbardziej precyzyjnie oddać sens wysłuchanego nagrania i otrzymać zdania poprawne gramatycznie. Przenieś rozwiązania na kartę odpowiedzi, wpisując wyrazy i wyrażenia w miejsca na to przeznaczone.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "3",
+      "type": "gap_fill_sentences",
+      "points": 5,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1-5) dopasuj właściwe zdanie (A-H), aby powstał logiczny i spójny tekst. Trzy zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "ANTARCTIC METEORITES THAT HAIL FROM MARS\n\nWho would believe that a rock found in remote, freezing Antarctica, could be useful in studying Mars? In fact, teams of geologists congregate in Antarctica to find meteorites, some of which originated on Mars. Although meteorites fall all over the Earth, the cold, dry conditions of the South Pole are ideal for preserving them. 1. _________ The intense, Antarctic winds erode the ice surface away, leaving the meteorites exposed.\n\nGetting to Antarctica, however, is not a short journey for a meteorite. 2. _________ The solar system is an active place, with lots of objects in motion. 3. _________ The area between the orbits of Mars and Jupiter, called the asteroid belt, is like a bumper car pavilion when viewed over long periods of time.\n\nEvery once in a while, an object gets bumped onto a trajectory that brings it to Earth. If it reaches Earth's surface, it officially becomes a meteorite. But, objects may stay in the asteroid belt for millions of years before getting bumped out. 4. _________ They landed on Earth 10,000 years ago or less, meaning that they were kicking around in space for at least 10,990,000 years.\n\nWhat this also means is that meteorites are made of very old materials. Nakhlites contain billion-year-old magma, providing clues about geologic activity on a younger Mars. 5. _________ The Earth, its Moon (look at all the craters!) and other planets were bombarded with meteorites for reasons that scientists are still trying to understand.",
+      "source": "https://www.tweentribune.com, https://phys.org",
+      "options": [
+        { "letter": "A", "text": "They are continually colliding, causing pieces to get broken and thrown into irregular orbits." },
+        { "letter": "B", "text": "Each one is like a puzzle piece and you never know which one will complete the big picture." },
+        { "letter": "C", "text": "However, they did not collide with Earth in the period known as the Late Heavy Bombardment." },
+        { "letter": "D", "text": "Each one was originally part of some larger solar system object, whether a planet, moon or asteroid." },
+        { "letter": "E", "text": "For example, meteorites called nakhlites were ejected from Mars about 11 million years ago because of a collision." },
+        { "letter": "F", "text": "Those meteorites have to hit the surface of Mars with enough force and speed to escape its gravity." },
+        { "letter": "G", "text": "The movements of ice sheets concentrate the meteorites against mountainsides." },
+        { "letter": "H", "text": "Some meteorites can be traced back even further, to a dynamic period about 3.9 billion years ago." }
+      ],
+      "items": [
+        { "id": "3.1", "answer": "G" },
+        { "id": "3.2", "answer": "D" },
+        { "id": "3.3", "answer": "A" },
+        { "id": "3.4", "answer": "E" },
+        { "id": "3.5", "answer": "H" }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "true_false_ni",
+      "points": 10,
+      "instruction": "Przeczytaj poniższy tekst. Zdecyduj, które zdania (1-5) są zgodne z jego treścią (T – True), które są niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy i wyrażenia, które odpowiadają definicjom podanym w punktach 6-10, wpisując je w formie odpowiadającej podanej definicji. Przenieś rozwiązania na kartę odpowiedzi, wpisując T, F lub NI oraz wyrazy i wyrażenia w miejsca na to przeznaczone.",
+      "text": "THE TRUE STORY OF \"HIDDEN FIGURES\"\n\nAs America stood on the brink of a Second World War, the push for aeronautical advances grew even greater. It generated a growing demand for mathematicians in NACA, which was replaced by the NASA as the space race gained momentum. Women were the solution – they shouldered the burden of number crunching and acted as human computers before the digital age. The female population at Langley, NASA's field centre, skyrocketed. Many of these \"computers\" are finally getting their dues, but conspicuously missing from this story of female achievement are the efforts contributed by courageous, African-American women called the West Computers, after the area they were relegated to.\n\n\"These women were both ordinary and extraordinary,\" says Margot Lee Shetterly, whose book \"Hidden Figures\" shines a light on the inner details of these women's lives and accomplishments. The book's film adaptation was released in theaters in 2016.\n\nThe West Computers worked through equations, contributing to the ever-changing design of a menagerie of wartime flying machines, making them faster, safer and more aerodynamic. Eventually their stellar work allowed some of them to leave the computing pool for more specific projects. Christine Darden worked to advance supersonic flight and Katherine Johnson calculated the trajectories for the Mercury and Apollo missions. NASA dismissed the remaining few human computers in the 1970s as technological advances made their roles obsolete.\n\nExactly how many women computers worked at NACA (and later NASA) over the years is still unknown. One 1992 study estimated the total topped several hundred. Other estimates, including Shetterly's own intuition, say that the number is in the thousands.\n\nAs a child, Shetterly lived just a few miles away from Langley. She knew these brilliant mathematicians as her Girl Scout troop leaders, Sunday school teachers, next-door neighbors and as parents of schoolmates. It took decades for Shetterly to realize the magnitude of the women's work. Shetterly began researching these women, but few of them were acknowledged in academic publications. Many of them only remained at Langley for a few years. But the more Shetterly dug, the more computers she discovered. She looked through telephone directories, newspapers, employee newsletters and the NASA archives to add to her growing list of names.\n\nLangley was not just a laboratory of science and engineering. In many ways, it was a race-relations laboratory. West Computers lived with constant reminders that they were second-class citizens. The women fought many seemingly small battles, against separate bathrooms and restricted access to meetings.\n\nThe book and movie do not mark the end of Shetterly's work, and she continues to collect these names, hoping to eventually make the list available online.",
+      "source": "https://www.tweentribune.com",
+      "items": [
+        { "id": "4.1", "statement": "The text does not provide the origin of the \"the West Computer\" nickname.", "answer": "F" },
+        { "id": "4.2", "statement": "Shetterly has no hard evidence to support the number of women computers.", "answer": "T" },
+        { "id": "4.3", "statement": "Shatterly has been aware of the importance of the women's work since childhood.", "answer": "F" },
+        { "id": "4.4", "statement": "NASA archives were the most useful sources in identifying \"computers\".", "answer": "NI" },
+        { "id": "4.5", "statement": "Both the book and movie became very successful.", "answer": "NI" }
+      ],
+      "vocabItems": [
+        { "id": "4.6", "definition": "to accept that you are responsible for something difficult", "answer": ["to shoulder the burden", "shoulder the burden"] },
+        { "id": "4.7", "definition": "in a way that is easy to see or notice, or that is likely to attract attention", "answer": ["conspicuously"] },
+        { "id": "4.8", "definition": "no longer useful, because something newer and better has been invented", "answer": ["obsolete"] },
+        { "id": "4.9", "definition": "to receive what someone deserves, or something it is their right to have", "answer": ["to get their dues", "to get one's dues"] },
+        { "id": "4.10", "definition": "a diverse collection of something", "answer": ["a menagerie"] }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (1-12) jednym wyrazem tak, aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "HAPPY PI DAY!\n\nMarch 14, when written as 3/14, represents the first three digits of pi, the ratio of the circumference of a circle to its diameter. To commemorate the world's 1. _________ famous mathematical constant, enthusiasts around the globe embrace their inner nerdiness 2. _________ celebrating Pi Day. The date, 3. _________ also happens to be Einstein's birthday, inspires a variety of events every year. Four years ago was the ultimate Pi Day, as adding the year to the date notation, 3/14/15, encompassed even 4. _________ digits in the sequence. We 5. _________ not get this much pi again for 100 years.\n\nSo why are people crazy 6. _________ pi? The number 3 - followed by a ceaseless string of random numbers 7. _________ the decimal point - is irrational, meaning that it cannot be expressed through the division of two whole numbers. It is also a transcendental number - it is not the root of any algebraic number. This irrational and transcendental nature appeals 8. _________ people, perhaps because pi's continuous flow of digits reflects the unending circle it helps to trace.\n\nPi 9. _________ held an almost mystical quality for humans throughout time. Its unspoken presence can be felt in the circular ruins of Stonehenge, in the vaulted ceilings of domed Roman temples and in the celestial spheres of Plato and Ptolemy. People spend years of their lives attempting to memorize its digits, and hold contests to see 10. _________ knows the most numbers of pi. Some write \"piaku\" – poems where the number of letters in each word represents subsequent digits of pi, 11. _________ create complex works of art inspired by the randomness of pi. The list goes on and on, like pi 12. _________.",
+      "source": "https://www.tweentribune.com",
+      "items": [
+        { "id": "5.1", "answer": ["most"] },
+        { "id": "5.2", "answer": ["by"] },
+        { "id": "5.3", "answer": ["which"] },
+        { "id": "5.4", "answer": ["more"] },
+        { "id": "5.5", "answer": ["will", "shall"] },
+        { "id": "5.6", "answer": ["about"] },
+        { "id": "5.7", "answer": ["after"] },
+        { "id": "5.8", "answer": ["to"] },
+        { "id": "5.9", "answer": ["has"] },
+        { "id": "5.10", "answer": ["who"] },
+        { "id": "5.11", "answer": ["others", "some", "and"] },
+        { "id": "5.12", "answer": ["itself", "does"] }
+      ],
+      "scoringScheme": { "12-11": 5, "10-9": 4, "8-7": 3, "6-5": 2, "4-3": 1, "2-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 4,
+      "instruction": "Uzupełnij każde z poniższych zdań (1-4) jednym pasującym wyrazem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "_ _ _ _ r _ _ _", "clue": "The solution was discovered __ __ __ __ r __ __ __ by accident.", "answer": "entirely" },
+        { "id": "6.2", "hint": "_ _ _ i _ _ _ _ _", "clue": "Modern-day engines are so much more __ __ __ i __ __ __ __ __ – they work and operate quickly and effectively.", "answer": "efficient" },
+        { "id": "6.3", "hint": "_ _ a _ _ _ _ _", "clue": "This work has been based on an __ __ a __ __ __ __ __ of large mammals' behavioural patterns.", "answer": "analysis" },
+        { "id": "6.4", "hint": "_ _ _ _ o _ _ _ _", "clue": "When some substances are __ __ __ __ o __ __ __ __ in water, they undergo either a physical or chemical change.", "answer": "dissolved" }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (1-8) jednym wyrazem, przekształcając wyrazy podane w ramce tak, aby otrzymać logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "wordBank": ["INCREASE", "BE", "LONELY", "COMMIT", "DEVICE", "MANUFACTURE", "FACE", "BELIEVE", "RAISE", "HISTORY"],
+      "text": "SEE 500 YEARS OF ROBOTS\n\nInspired by his 1. _________ that people are terrified of robots, Ben Russell, who works at the science museum, has decided to arrange an exhibition, which tracks the development of robotics and mankind's obsession with replicating itself.\n\nRobots have been with us for centuries. From a 15th century Spanish clockwork monk who kisses his rosary to a Japanese newsreader with lifelike 2. _________ expressions created a few years ago.\n\nArnold Schwarzenegger's unstoppable Terminator cyborg is shown as one of the exhibits. So is Robby the Robot, star of the 1956 film \"Forbidden Planet.\" There are many other examples, including factory production-line machines blamed for taking people's jobs in recent decades or \"HuggieBot,\" a humanoid robot programmed to offer hugs to humans to ease their 3. _________.\n\nWhile it is human nature to be worried in the face of change, Russell said, the exhibit should help people \"think about who we are as human 4. _________\" and realize that when robots are \"going to come along, we have a personal involvement in how they develop.\"\n\nA total of 100 robots from the last five centuries are exhibited in the show. As a result, some of the exhibits can be perceived as the items of 5. _________ interest. For Rich Walker, managing director of the Shadow Robot Company in London, robotics is about what these 6. _________ sophisticated machines can do for humans to make their lives easier.\n\nHumans have a one percent failure rate at repetitive tasks. Only 7. _________ grave errors about once every two hours, the robotic hand could replace humans on production lines, he said.\n\nWalker predicts the further erosion of certain types of jobs if inventions such as his are successful. This, in turn, leads to questions. Some were 8. _________ at the exhibition. For instance, should the owners of robots pay taxes on the value of their output as part of a new industrial revolution?",
+      "source": "https://www.cbc.ca, https://www.nbcnews.com",
+      "items": [
+        { "id": "7.1", "answer": ["belief"] },
+        { "id": "7.2", "answer": ["facial"] },
+        { "id": "7.3", "answer": ["loneliness"] },
+        { "id": "7.4", "answer": ["beings"] },
+        { "id": "7.5", "answer": ["historical"] },
+        { "id": "7.6", "answer": ["increasingly"] },
+        { "id": "7.7", "answer": ["committing"] },
+        { "id": "7.8", "answer": ["raised"] }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1–8). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie sześć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "9",
+      "type": "matching",
+      "points": 4,
+      "instruction": "Dopasuj imiona i nazwiska osób (1-4) do opisu ich odkryć i wynalazków (A-F). Dwa określenia zostały podane dodatkowo i nie pasują do żadnej osoby. Przenieś rozwiązania na kartę odpowiedzi.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "DNA" },
+        { "letter": "B", "text": "e-mail" },
+        { "letter": "C", "text": "a phonograph" },
+        { "letter": "D", "text": "an assembly line" },
+        { "letter": "E", "text": "a pneumatic tyre" },
+        { "letter": "F", "text": "LEDs" }
+      ],
+      "items": [
+        { "id": "9.1", "label": "Ray Tomlinson", "answer": "B" },
+        { "id": "9.2", "label": "John Boyd Dunlop", "answer": "E" },
+        { "id": "9.3", "label": "Nick Holonyak, Jr", "answer": "F" },
+        { "id": "9.4", "label": "James Watson", "answer": "A" }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Odpowiedz na pytania pełnymi zdaniami w języku angielskim. Wymagana jest poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "10.1",
+          "question": "What is the name and surname of one of the richest people in the world, the co-founder of the company that revolutionised operating systems for personal computers? What is the name of this company?",
+          "answer": ["Bill Gates / Steve Jobs", "Microsoft (Corporation) / Apple"],
+          "points": 2
+        },
+        {
+          "id": "10.2",
+          "question": "Which inventor said \"Mr. Watson, come here! I want to see you\"? In what situation did he say these words?",
+          "answer": ["Alexander Graham Bell (to his assistant)", "the first words uttered through a phone"],
+          "points": 2
+        },
+        {
+          "id": "10.3",
+          "question": "Which appliance was invented due to an unintentionally melted chocolate bar in the pocket?",
+          "answer": ["a microwave (oven)"],
+          "points": 1
+        },
+        {
+          "id": "10.4",
+          "question": "What does the abbreviation GPS stand for?",
+          "answer": ["Global Positioning System"],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

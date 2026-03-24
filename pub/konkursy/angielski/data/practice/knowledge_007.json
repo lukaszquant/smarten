@@ -1,0 +1,74 @@
+{
+  "title": "Holidays and Traditions in English-Speaking Countries",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "On which date is Halloween celebrated?",
+          "options": ["A. 31st October", "B. 25th December", "C. 14th February", "D. 1st November"],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "question": "What do children say when they knock on doors on Halloween?",
+          "options": ["A. Merry Christmas!", "B. Happy New Year!", "C. Trick or treat!", "D. April Fools!"],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "question": "Thanksgiving in the United States is celebrated in _______.",
+          "options": ["A. October", "B. November", "C. December", "D. September"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "question": "Which traditional food is served at an American Thanksgiving dinner?",
+          "options": ["A. Fish and chips", "B. Haggis", "C. Turkey", "D. Hamburgers"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "question": "What is Boxing Day (26th December) traditionally associated with in the UK?",
+          "options": ["A. A boxing competition", "B. Giving gifts or money to those in need", "C. Packing up Christmas decorations", "D. Buying a new box for presents"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "question": "On St. Patrick's Day, people traditionally wear _______.",
+          "options": ["A. red", "B. blue", "C. orange", "D. green"],
+          "answer": "D"
+        },
+        {
+          "id": "1.7",
+          "question": "Guy Fawkes Night (Bonfire Night) is celebrated on 5th November in _______.",
+          "options": ["A. Australia", "B. the United States", "C. the United Kingdom", "D. Canada"],
+          "answer": "C"
+        },
+        {
+          "id": "1.8",
+          "question": "What do British people traditionally eat on Shrove Tuesday (Pancake Day)?",
+          "options": ["A. Hot dogs", "B. Pancakes", "C. Mince pies", "D. Scones"],
+          "answer": "B"
+        },
+        {
+          "id": "1.9",
+          "question": "In the UK, what is traditionally hidden inside a Christmas pudding for good luck?",
+          "options": ["A. A gold ring", "B. A small toy", "C. A silver coin", "D. A piece of chocolate"],
+          "answer": "C"
+        },
+        {
+          "id": "1.10",
+          "question": "Which country celebrates Australia Day on 26th January?",
+          "options": ["A. New Zealand", "B. Canada", "C. South Africa", "D. Australia"],
+          "answer": "D"
+        }
+      ]
+    }
+  ]
+}

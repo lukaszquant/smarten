@@ -1,0 +1,50 @@
+{
+  "type": "practice",
+  "title": "Situational Responses",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "items": [
+        {
+          "id": "1.1",
+          "prompt": "A: I'm so sorry I spilled coffee on your book! B: _______. It was old anyway.",
+          "options": ["Never mind", "No way", "Not at all"],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "prompt": "A: Would you mind passing the salt? B: _______.",
+          "options": ["Yes, I would", "Not at all", "I don't mind"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "prompt": "A: Could you give me a _______ with these heavy bags? B: Of course, let me help you.",
+          "options": ["lift", "hand", "push"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "prompt": "A: I haven't seen you in ages! How have you _______? B: Really well, thanks! And you?",
+          "options": ["been", "done", "gone"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "prompt": "A: I'm going to fail the test tomorrow! B: Take it _______. You've studied hard. You'll be fine.",
+          "options": ["easy", "lightly", "simply"],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "prompt": "A: Do you fancy going to the cinema tonight? B: I'd love to, but I'm _______ broke until payday.",
+          "options": ["totally", "flat", "fully"],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

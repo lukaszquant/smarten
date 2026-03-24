@@ -1,0 +1,25 @@
+{
+  "title": "Word Formation: Music and Art",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["PERFORM", "IMAGINE", "MUSIC", "ENJOY", "TALENT", "EXPRESS", "INSPIRE", "COLOUR", "MOVE", "TRAIN"],
+      "title": "THE WORLD OF MUSIC AND ART",
+      "text": "Art and music give people a wonderful way to express their feelings. A live 1.1. ________ by a great orchestra can be an unforgettable experience. Many 1.2. ________ start learning to play instruments at a very young age. With years of 1.3. ________ and practice, they develop incredible skills. Painting and drawing require a lot of 1.4. ________ because artists must create something from nothing. The 1.5. ________ of emotions through art can be very 1.6. ________ for both the artist and the audience. Visiting a gallery full of 1.7. ________ paintings is always a great 1.8. ________. Art and music truly make our lives richer and more meaningful.",
+      "items": [
+        { "id": "1.1", "answer": "performance" },
+        { "id": "1.2", "answer": "musicians" },
+        { "id": "1.3", "answer": "training" },
+        { "id": "1.4", "answer": "imagination" },
+        { "id": "1.5", "answer": "expression" },
+        { "id": "1.6", "answer": "moving" },
+        { "id": "1.7", "answer": "colourful" },
+        { "id": "1.8", "answer": "enjoyment" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Food, Symbols and Everyday Culture",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "What is the traditional British dish made of fried fish and fried potatoes called?",
+          "options": ["A. Bangers and mash", "B. Fish and chips", "C. Shepherd's pie", "D. Full English"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "question": "The maple leaf is the national symbol of _______.",
+          "options": ["A. Australia", "B. Ireland", "C. Canada", "D. New Zealand"],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "question": "What animal is the national symbol of Australia and appears on its coat of arms?",
+          "options": ["A. Koala", "B. Platypus", "C. Kangaroo", "D. Emu"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "question": "What is the name of the traditional afternoon meal with tea, sandwiches, and cakes in Britain?",
+          "options": ["A. Brunch", "B. High tea", "C. Afternoon tea", "D. Elevenses"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "question": "The shamrock (a three-leaf clover) is the symbol of _______.",
+          "options": ["A. Scotland", "B. Wales", "C. England", "D. Ireland"],
+          "answer": "D"
+        },
+        {
+          "id": "1.6",
+          "question": "What is the traditional Scottish dish made from sheep's stomach, oatmeal, and spices?",
+          "options": ["A. Haggis", "B. Porridge", "C. Black pudding", "D. Scotch broth"],
+          "answer": "A"
+        },
+        {
+          "id": "1.7",
+          "question": "The bald eagle is the national bird and symbol of _______.",
+          "options": ["A. Canada", "B. the United Kingdom", "C. the United States", "D. Australia"],
+          "answer": "C"
+        },
+        {
+          "id": "1.8",
+          "question": "What is Vegemite, a popular food spread in Australia, made from?",
+          "options": ["A. Peanuts", "B. Vegetables", "C. Chocolate", "D. Yeast extract"],
+          "answer": "D"
+        },
+        {
+          "id": "1.9",
+          "question": "Which flower is the national symbol of England?",
+          "options": ["A. Thistle", "B. Daffodil", "C. Rose", "D. Shamrock"],
+          "answer": "C"
+        },
+        {
+          "id": "1.10",
+          "question": "In British English, what are 'crisps'?",
+          "options": ["A. Cookies", "B. French fries", "C. Crackers", "D. Potato chips"],
+          "answer": "D"
+        }
+      ]
+    }
+  ]
+}

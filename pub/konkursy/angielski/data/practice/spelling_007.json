@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Technology & Media",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "You need a strong p _ s _ w _ _ d to protect your online accounts from hackers.",
+          "hint": "p _ s _ w _ _ d",
+          "answer": "password"
+        },
+        {
+          "id": "1.2",
+          "stem": "The journalist wrote an interesting a _ t _ c _ _ about the new smartphone.",
+          "hint": "a _ t _ c _ _",
+          "answer": "article"
+        },
+        {
+          "id": "1.3",
+          "stem": "He wants to become a s _ f _ w _ _ e developer and create mobile apps.",
+          "hint": "s _ f _ w _ _ e",
+          "answer": "software"
+        },
+        {
+          "id": "1.4",
+          "stem": "Please d _ w _ l _ _ d the latest version of the application from the website.",
+          "hint": "d _ w _ l _ _ d",
+          "answer": "download"
+        },
+        {
+          "id": "1.5",
+          "stem": "The television b _ _ a _ c _ _ t was watched by millions of people around the world.",
+          "hint": "b _ _ a _ c _ _ t",
+          "answer": "broadcast"
+        },
+        {
+          "id": "1.6",
+          "stem": "Social media can be very a _ d _ _ t _ _ e and waste a lot of your time.",
+          "hint": "a _ d _ _ t _ _ e",
+          "answer": "addictive"
+        },
+        {
+          "id": "1.7",
+          "stem": "My k _ _ b _ _ r d stopped working, so I cannot type anything on the computer.",
+          "hint": "k _ _ b _ _ r d",
+          "answer": "keyboard"
+        },
+        {
+          "id": "1.8",
+          "stem": "Scientists believe that t _ c _ n _ l _ _ y will change our lives completely in the future.",
+          "hint": "t _ c _ n _ l _ _ y",
+          "answer": "technology"
+        }
+      ]
+    }
+  ]
+}

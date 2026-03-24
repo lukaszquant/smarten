@@ -1,0 +1,24 @@
+{
+  "type": "practice",
+  "title": "Word Patterns",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 10,
+      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "items": [
+        { "id": "1.1", "stem": "She refused _______ the invitation.", "options": ["accepting", "accept", "to accept"], "answer": "C" },
+        { "id": "1.2", "stem": "I don't mind _______ up early on weekdays.", "options": ["to get", "getting", "get"], "answer": "B" },
+        { "id": "1.3", "stem": "He suggested _______ to a different restaurant.", "options": ["going", "to go", "go"], "answer": "A" },
+        { "id": "1.4", "stem": "They managed _______ the project on time.", "options": ["finishing", "finish", "to finish"], "answer": "C" },
+        { "id": "1.5", "stem": "I'm used _______ in a big city.", "options": ["to live", "to living", "living"], "answer": "B" },
+        { "id": "1.6", "stem": "She avoided _______ about the accident.", "options": ["to talk", "talking", "talk"], "answer": "B" },
+        { "id": "1.7", "stem": "He promised _______ me with the project.", "options": ["helping", "help", "to help"], "answer": "C" },
+        { "id": "1.8", "stem": "I can't imagine _______ without my phone.", "options": ["to live", "living", "live"], "answer": "B" },
+        { "id": "1.9", "stem": "She let her children _______ up late on Saturdays.", "options": ["to stay", "staying", "stay"], "answer": "C" },
+        { "id": "1.10", "stem": "We're looking forward _______ you at the party.", "options": ["to see", "seeing", "to seeing"], "answer": "C" }
+      ]
+    }
+  ]
+}

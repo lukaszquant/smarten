@@ -1,0 +1,24 @@
+{
+  "type": "practice",
+  "title": "Phrasal Verbs",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 10,
+      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "items": [
+        { "id": "1.1", "stem": "While cleaning the garage, I _______ across my old school uniform.", "options": ["came", "ran", "went"], "answer": "A" },
+        { "id": "1.2", "stem": "She had to _______ down the job offer because the salary was too low.", "options": ["put", "turn", "break"], "answer": "B" },
+        { "id": "1.3", "stem": "We need to _______ up with a solution before Friday.", "options": ["come", "make", "put"], "answer": "A" },
+        { "id": "1.4", "stem": "The meeting has been _______ off until next Monday.", "options": ["called", "set", "put"], "answer": "C" },
+        { "id": "1.5", "stem": "I can't _______ out what this word means.", "options": ["work", "take", "carry"], "answer": "A" },
+        { "id": "1.6", "stem": "Please _______ after your little sister while I'm away.", "options": ["watch", "see", "look"], "answer": "C" },
+        { "id": "1.7", "stem": "He _______ up playing football when he injured his knee.", "options": ["gave", "put", "took"], "answer": "A" },
+        { "id": "1.8", "stem": "The plane _______ off twenty minutes late due to fog.", "options": ["got", "took", "set"], "answer": "B" },
+        { "id": "1.9", "stem": "I'm really _______ forward to the summer holidays.", "options": ["seeing", "going", "looking"], "answer": "C" },
+        { "id": "1.10", "stem": "She _______ into an old friend at the shopping centre.", "options": ["came", "bumped", "walked"], "answer": "B" }
+      ]
+    }
+  ]
+}

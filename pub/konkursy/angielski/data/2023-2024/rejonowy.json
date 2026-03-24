@@ -1,0 +1,338 @@
+{
+  "year": "2023/2024",
+  "stage": "rejonowy",
+  "date": "2023-12-07",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1.1.–1.6.) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "title": "TRADITIONAL AFTERNOON TEA TAKES ON A MODERN TWIST",
+      "text": "The British ritual of afternoon tea is steeped in tradition. It was first popularised in England around the year 1840 by Anna, the seventh Duchess of Bedford. She routinely grew hungry around 4 p.m. and requested a tray of tea, bread and butter. 1.1. _________ The delicious activity remained relatively unchanged for over a century and eventually became considered old and stuffy. 1.2. _________ It seems that they have flipped the time-honoured tradition on its head and made it quirky and totally Instagrammable.\n\nFoodies can now rejoice in trying some uniquely flavourful light bites that are so different from traditional cucumber sandwiches. Five-star Baccarat Hotel in New York City, for example, now serves up, among others, a roasted fennel, feta cheese and filo pastry purse as part of their new Sultan Tea, complete with a pot of exquisite tea. 1.3. _________ The internationally acclaimed Spanish-American chef, Jose Andres, serves traditional-looking savoury and sweet snacks. The secret is that their taste is highly distinctive, which surprises many who do not expect to sample, for instance, caviar steamed buns or beetroot cookies stuffed with goat's cheese. 1.4. _________ Brown's Hotel in London actually has a guilt-free Tea-Tox, which includes low-calorie spinach bread with salmon and gluten free raspberry and pistachio brownies.\n\nAside from upping the game when it comes to the taste and ingredients, venues around the world are changing the tea-drinking game when it comes to visual appeal of food. 1.5. _________ There you can eat masterpieces based on the works of Damien Hirst, Banksy and Mark Rothko. Meanwhile, the chef at The Berkley in London has chosen the latest fashion looks to inspire their sweet treats for the appropriately named Prêt-à-Portea service. 1.6. _________ Shangrila-La Dubai's Jewellery Box Tea includes many of the traditional bites, but serves them to guests in a golden jewellery box chest of drawers.\n\nAre you wondering why all these experiments, which make traditional afternoon tea a non-traditional experience, even exist? It is simple. Nowadays, people seek out more innovative and engaging dining experiences. That is why creative interpretations of this time-honoured pastime are becoming increasingly desirable.",
+      "source": "https://www.forbes.com",
+      "options": [
+        { "letter": "A", "text": "One English hotel models its pastries after iconic modern artists." },
+        { "letter": "B", "text": "It has even transcended into the health food space." },
+        { "letter": "C", "text": "No one was astonished by these experiential game-changers." },
+        { "letter": "D", "text": "But lately, some hotels and restaurants have decided to change that perception." },
+        { "letter": "E", "text": "For others, it is about pushing the boundaries when it comes to presentation." },
+        { "letter": "F", "text": "And this luxury place is not the only one." },
+        { "letter": "G", "text": "Without a doubt, plenty of guests are discouraged by the element of surprise in this fine British tradition." },
+        { "letter": "H", "text": "Friends began to join in, and by the end of the century the new trend was in full swing." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "H" },
+        { "id": "1.2", "answer": "D" },
+        { "id": "1.3", "answer": "F" },
+        { "id": "1.4", "answer": "B" },
+        { "id": "1.5", "answer": "A" },
+        { "id": "1.6", "answer": "E" }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "true_false_ni",
+      "points": 7,
+      "instruction": "Przeczytaj poniższy tekst. Zdecyduj, które zdania (2.1.–2.4.) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False), a które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy lub wyrażenia, które odpowiadają definicjom podanym w punktach 2.5.–2.7., wpisując je w formie odpowiadającej podanej definicji (np. bezokolicznika). Wymagana jest całkowita poprawność ortograficzna i gramatyczna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "title": "BILL BRYSON EXCLUSIVE EXTRACT\n'THE SECRET HISTORY OF CHRISTMAS'",
+      "text": "I wouldn't say that the Christmases in our house when I was growing up in America in the 1950s were more delightful or brimming with cheerful affection than in other households, but they were certainly more lively. This was almost entirely because my father had a rare and remarkable talent for testing the capacity of the human body to absorb electricity.\n\nYou never knew exactly when he would demonstrate this, but you could be certain that at some point there would be a terrific bang and a searing flash of light and he would actually become airborne. This demonstration was so reliable that my sister and I used to sit on the sofa with a bowl of popcorn between us, keenly following his every movement as he unboxed and untangled the long strings of lights and carefully arrayed them around the tree.\n\nAfter all the drama and entertainment of getting the tree lit, Christmas Day itself always came as something of an anticlimax. An American Christmas is a pretty compressed affair at the best of times. It is also not a big eating or drinking occasion. Festive drinking back then was mostly reserved for New Year's Eve, and our main eating holiday was Thanksgiving, just a month before, so we weren't all that hungry either. On top of that, where I grew up, there was always about 6ft of snow outside, so if you got a bicycle or roller skates for Christmas, all you could do was ride around in tiny circles in the living room, much to the annoyance of all the adults.\n\nThen I moved to England, where I discovered an entirely different kind of Christmas – a Christmas that was fascinating, full of surprises, drenched in centuries of tradition and wholly bewildering all at once – as most things in Britain are if you are foreign. Nearly everything about it was new to me. I had never heard Santa Claus described as Father Christmas or attended a Christmas pantomime. I had never eaten a mince pie, and – I will be frank with you – for the first five or six seconds of my first one, I rather wished that I still hadn't. But then a strange sense of rapture washed over me, and I realised that mince pies are divine.\n\nYou must understand that where I come from, a foodstuff cannot properly be considered delicious unless it is about the size of a cannonball. And here was a treat so modest that you could hold it in the palm of your hand and which was filled with nothing but a shiny brown goo that rather brought to mind something pulled from a clogged drain. And yet it was delicious. What a thrilling discovery. I turned to the young woman who had just presented me with this delectable surprise.\n\n\"But I thought mince was meat,\" I said in some perplexity.\n\"It is,\" she agreed.\n\"Well, if I am completely honest with you, I don't taste any meat in this.\"\n\"That's because there's no meat in it.\"\n\"Ah!\" I cried ending our first conversation and starting to think I was beginning to understand this strange country at last.\n\nEverything was like this – fascinating and confusing and unexpected. So I trust you will understand when I say that my personal relationship with Christmas has always been a bit mixed. Don't get me wrong. I am a great admirer of Christmas and all that goes with it. But, perhaps because I have lived with two different kinds of Christmas in two different countries, I have long been struck by the mystery and wonder of it as well – by the fact that it is full of traditions and rituals that most of us have been observing all our lives but, often without having the slightest idea of where they come from.\n\nChristmas is now the single biggest annual event on the planet. To my mind, it is far and away the best day we have.",
+      "source": "https://www.telegraph.co.uk",
+      "items": [
+        { "id": "2.1", "statement": "The author and his sister used to decorate the Christmas tree with non-electric decorations.", "answer": "NI" },
+        { "id": "2.2", "statement": "The author finds the filling of mince pies unappetising when it comes to its appearance.", "answer": "T" },
+        { "id": "2.3", "statement": "The author has spent more Christmases in the USA than in the UK.", "answer": "NI" },
+        { "id": "2.4", "statement": "The author believes that the majority of people are aware of the origin of Christmas customs.", "answer": "F" }
+      ],
+      "vocabItems": [
+        { "id": "2.5", "definition": "confusing, because there are too many choices or things happening at the same time", "answer": "bewildering" },
+        { "id": "2.6", "definition": "great excitement and happiness", "answer": "rapture" },
+        { "id": "2.7", "definition": "to arrange a group of things so that they are in order", "answer": ["array", "to array"] }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (3.1.–3.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "context": "X: Are you best friends?\nY: In fact, we met only a week ago but we _______ straight away.",
+          "options": ["got it in", "took up", "hit it off"],
+          "answer": "C"
+        },
+        {
+          "id": "3.2",
+          "context": "X: He will be playing for the national team. Just like his father did 25 years ago.\nY: Yeah, he is a _______ off the old block.",
+          "options": ["mirror", "chip", "crack"],
+          "answer": "B"
+        },
+        {
+          "id": "3.3",
+          "context": "X: Can we go?\nY: I have had my hair done and bought a new dress. I'm ready to _______ the town red.",
+          "options": ["paint", "draw", "sketch"],
+          "answer": "A"
+        },
+        {
+          "id": "3.4",
+          "context": "X: Heart disease _______ in our family.\nY: That is why you should take good care of your diet and lead an active lifestyle.",
+          "options": ["works", "wins", "runs"],
+          "answer": "C"
+        },
+        {
+          "id": "3.5",
+          "context": "X: She fell _______ with her bestie.\nY: I have heard that they haven't talked for a few weeks now.",
+          "options": ["down", "away", "out"],
+          "answer": "C"
+        },
+        {
+          "id": "3.6",
+          "context": "X: Have you invited Mike? He is fun and exciting to be with.\nY: Sure thing! He is always the _______ and soul of the party.",
+          "options": ["body", "life", "joy"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (4.1.–4.10.) jednym wyrazem, tak aby otrzymać spójny, logiczny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "title": "THE CLADDAGH RING",
+      "text": "Claddagh rings have been around for centuries, with some of the earliest mention dating 4.1. _________ to the 1700s. They belong to a larger European tradition of rings known as fede rings (the Italian phrase \"mani in fede\" means 'hands joined in faith'). Claddagh rings, of course, have a whole story of 4.2. _________ own.\n\nIt starts in the small fishing village of Claddagh in county Galway, on Ireland's west coast. Legend 4.3. _________ it that a fisherman, Richard Joyce, shortly 4.4. _________ he was to get married, was captured by pirates and sold into slavery. He was made to work for a Moorish goldsmith, 4.5. _________ sensed his potential and trained Richard in his craft. All that time, Richard thought of his sweetheart at home, and he created the first Claddagh ring, with a heart for true love, a pair of hands representing friendship and a crown symbolising loyalty and fidelity. When he was eventually freed, he returned to Ireland, and he presented his sweetheart 4.6. _________ the ring he had made and they 4.7. _________ happily ever after…\n\nNowadays, the popularity of the Claddagh ring is enduring, and a wide variety of jewellery with this motif, 4.8. _________ traditional rings (worn by women and men) to modern necklaces and earrings, is available. There are many material variations – most are silver or gold, but many other metals can 4.9. _________ used. One thing does not change - the way it is worn (4.10. _________ least according to Irish tradition) shows a person's marital status.",
+      "source": "https://www.bannonjewellers.ie, https://rusticandmain.com",
+      "items": [
+        { "id": "4.1", "answer": "back" },
+        { "id": "4.2", "answer": "their" },
+        { "id": "4.3", "answer": "has" },
+        { "id": "4.4", "answer": "before" },
+        { "id": "4.5", "answer": "who" },
+        { "id": "4.6", "answer": "with" },
+        { "id": "4.7", "answer": "lived" },
+        { "id": "4.8", "answer": "from" },
+        { "id": "4.9", "answer": "be" },
+        { "id": "4.10", "answer": "at" }
+      ],
+      "scoringScheme": { "10": 5, "8-9": 4, "6-7": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+    },
+    {
+      "id": "5",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Uzupełnij każde z poniższych zdań (5.1.–5.6.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych słów. Liczba kresek odpowiada liczbie brakujących liter w słowie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "5.1",
+          "stem": "This recipe has been _ _ s _ _ _ _ down in her family for generations, so she will not share it with us.",
+          "hint": "_ _ s _ _ _ _",
+          "answer": "passed"
+        },
+        {
+          "id": "5.2",
+          "stem": "She has got Irish roots – her _ _ c _ _ _ _ _ _ _ came to America from Ireland about 150 years ago.",
+          "hint": "_ _ c _ _ _ _ _ _ _",
+          "answer": "ancestors"
+        },
+        {
+          "id": "5.3",
+          "stem": "We _ r _ _ _ _ _ n _ _ _ _ disagree, but in this matter we are basically saying the same thing.",
+          "hint": "_ r _ _ _ _ _ n _ _ _ _",
+          "answer": "frequently"
+        },
+        {
+          "id": "5.4",
+          "stem": "Ann wanted to follow in her mother's _ _ _ _ t _ _ _ _ _ _ and be a doctor.",
+          "hint": "_ _ _ _ t _ _ _ _ _ _",
+          "answer": "footsteps"
+        },
+        {
+          "id": "5.5",
+          "stem": "The children of _ _ _ r _ _ _ _ t _ _ _ _ _ _ _ _ _ parents often do not develop the skills needed to take care of themselves when they leave home.",
+          "hint": "_ _ _ r _ _ _ _ t _ _ _ _ _ _ _ _ _",
+          "answer": "overprotective"
+        },
+        {
+          "id": "5.6",
+          "stem": "The wedding will be held at the town hall and the _ _ _ _ p _ _ _ _ _ for 150 guests at the King's Hotel.",
+          "hint": "_ _ _ _ p _ _ _ _ _",
+          "answer": "reception"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (6.1.–6.8.) jednym wyrazem, przekształcając wyrazy podane w ramce, tak aby otrzymać spójny, logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "title": "THE NATIONAL EISTEDDFOD OF WALES",
+      "text": "The National Eisteddfod is the largest and oldest celebration of Welsh culture, unique throughout Europe as each year it visits a different area of Wales. Eisteddfod literally means a sitting (eistedd = to sit) and is perhaps a 6.1. _________ to the hand-carved chair traditionally given to the best poet in the ceremony 'The Crowning of the Bard'.\n\nThe first Eisteddfod took place in 1176 when Lord Rhys invited poets and musicians from all over Wales to a grand 6.2. _________ at his castle in Cardigan. A chair at the Lord's table was 6.3. _________ to the best poet and musician, a tradition that continues today in the modern Eisteddfod.\n\nFollowing 1176, many eisteddfodau were held throughout Wales. Soon the Eisteddfod developed into a huge folk festival on a grand scale. After declining in 6.4. _________ in the 18th century, it was revived in the early years of the 19th.\n\nThe Gorsedd of Bards made its first 6.5. _________ at the Eisteddfod at the Ivy Bush Inn in Carmarthen in 1819. Gorsedd members, known as druids, include poets, writers, musicians, artists and others who have made a significant 6.6. _________ to the Welsh nation, the language, and its culture. The head of the Gorsedd of Bards is the Archdruid, who is 6.7. _________ for a term of three years, and is responsible for conducting the Gorsedd ceremonies during Eisteddfod week. These ceremonies are held to honour 6.8. _________ achievements amongst Welsh poets and prose writers.\n\nSo, if you want to listen to Welsh music and language, watch dance and theatre performances and sample Welsh food and crafts, just take part in the National Eisteddfod of Wales next year.",
+      "source": "https://www.historic-uk.com, https://www.bbc.com",
+      "wordBank": ["APPEAR", "AWARD", "CHOICE", "CONTRIBUTE", "GATHER", "GRADE", "JUDGE", "LITERATURE", "POPULAR", "REFER"],
+      "items": [
+        { "id": "6.1", "answer": "reference" },
+        { "id": "6.2", "answer": "gathering" },
+        { "id": "6.3", "answer": "awarded" },
+        { "id": "6.4", "answer": "popularity" },
+        { "id": "6.5", "answer": "appearance" },
+        { "id": "6.6", "answer": "contribution" },
+        { "id": "6.7", "answer": "chosen" },
+        { "id": "6.8", "answer": ["literary", "chosen"] }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "sentence_transformation",
+      "points": 6,
+      "instruction": "Przeczytaj zdania (7.1.–7.6.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "note": "Sentence transformation with keyword - requires AI checking",
+      "items": [
+        {
+          "id": "7.1",
+          "original": "Everyone accepted our invitation but the Browns.",
+          "keyword": "FROM",
+          "transformed": "Everyone _________ accepted our invitation.",
+          "answer": "apart from the Browns"
+        },
+        {
+          "id": "7.2",
+          "original": "That's the town where I was born.",
+          "keyword": "WHICH",
+          "transformed": "That's the town _________.",
+          "answer": ["which I was born in", "in which I was born"]
+        },
+        {
+          "id": "7.3",
+          "original": "I have no doubt that your brother lied to you.",
+          "keyword": "HAVE",
+          "transformed": "Your brother _________ to you.",
+          "answer": "must have lied"
+        },
+        {
+          "id": "7.4",
+          "original": "My cousin forced me to watch all the national football team matches with him when we were kids.",
+          "keyword": "MADE",
+          "transformed": "My cousin _________ all the national football team matches with him when we were kids.",
+          "answer": "made me watch"
+        },
+        {
+          "id": "7.5",
+          "original": "Soon it will seem normal to them to appear in school plays.",
+          "keyword": "USED",
+          "transformed": "Soon they _________ in school plays.",
+          "answer": ["will get used to appearing", "will be used to appearing"]
+        },
+        {
+          "id": "7.6",
+          "original": "She visits her uncle on her way home from school.",
+          "keyword": "DROPS",
+          "transformed": "She _________ on her way home from school.",
+          "answer": ["drops in on her uncle", "drops by her uncle's house"]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "grammar_gaps",
+      "points": 4,
+      "instruction": "Uzupełnij zdania (8.1.–8.4.), wstawiając wyrazy podane w nawiasach w odpowiedniej formie. Wymagana jest pełna poprawność gramatyczna i ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "note": "Open-ended grammar transformation - requires AI checking",
+      "items": [
+        {
+          "id": "8.1",
+          "context": "Look at her. She is so happy! She _________ (not / catch) a fish before. She definitely _________ (not regret / come) here.",
+          "answer": ["hasn't (has not) caught", "doesn't (does not) regret coming / will not (won't) regret"]
+        },
+        {
+          "id": "8.2",
+          "context": "When we got to the stadium, about two thousand people _________ (queue) there. I _________ (never / see) so many people in one place before.",
+          "answer": ["were queuing", "had never seen"]
+        },
+        {
+          "id": "8.3",
+          "context": "Charles _________ (try / ask her) to marry him three times so far, but he is such a coward. I wish he _________ (have) more courage!",
+          "answer": ["has tried to ask her / has tried asking her", "had / would have"]
+        },
+        {
+          "id": "8.4",
+          "context": "As a child, I _________ (raise / respect) the elderly. You had better _________ (teach) your kids the same attitude.",
+          "answer": ["was raised to respect", "teach"]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "matching",
+      "points": 4,
+      "instruction": "Dopasuj do poszczególnych krajów związane z nimi święta, wydarzenia lub symbole (A–J). Dwa określenia zostały podane dodatkowo i nie odnoszą się do żadnego z podanych krajów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "options": [
+        { "letter": "A", "text": "The leprechaun" },
+        { "letter": "B", "text": "Hogmanay" },
+        { "letter": "C", "text": "The Lion Rampant" },
+        { "letter": "D", "text": "Dot Painting" },
+        { "letter": "E", "text": "The leek as a national symbol" },
+        { "letter": "F", "text": "Three Lions Crest" },
+        { "letter": "G", "text": "St David's Day" },
+        { "letter": "H", "text": "Glastonbury Festival" },
+        { "letter": "I", "text": "Ayers Rock" },
+        { "letter": "J", "text": "The Red Hand of Ulster" }
+      ],
+      "items": [
+        { "id": "England", "answers": ["F", "H"] },
+        { "id": "Scotland", "answers": ["B", "C"] },
+        { "id": "Wales", "answers": ["E", "G"] },
+        { "id": "Ireland", "answers": ["A", "J"] }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "knowledge_questions",
+      "points": 8,
+      "instruction": "Rozwiąż zadania (10.1.–10.6.), udzielając odpowiedzi w języku angielskim. Wymagana jest pełna poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "10.1",
+          "question": "What is the name and surname of the most famous Scottish bard? When (give the day and month) do Scottish people celebrate in honour of his life and works?",
+          "answer": "Robert Burns",
+          "secondAnswer": "25th January",
+          "points": 2
+        },
+        {
+          "id": "10.2",
+          "question": "What is the national floral emblem of Australia? What national colours of Australia is it associated with?",
+          "answer": ["the golden wattle", "acacia", "Acacia pycnantha Benth", "Acacia pycnantha"],
+          "secondAnswer": ["gold and green", "green and gold"],
+          "points": 2
+        },
+        {
+          "id": "10.3",
+          "question": "What is the Australian food spread made from yeast extract?",
+          "answer": "Vegemite",
+          "points": 1
+        },
+        {
+          "id": "10.4",
+          "question": "Which city is the Australian Open, one of the biggest tennis events in the world, held in?",
+          "answer": "Melbourne",
+          "points": 1
+        },
+        {
+          "id": "10.5",
+          "question": "What is the name of the Europe's largest street party that takes place each year in London?",
+          "answer": ["Notting Hill Carnival", "the Notting Hill Carnival"],
+          "points": 1
+        },
+        {
+          "id": "10.6",
+          "question": "What are the names of the two houses that fought in the War of the Roses?",
+          "answer": ["Lancaster", "York"],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

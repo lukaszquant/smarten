@@ -1,0 +1,23 @@
+{
+  "title": "True/False/NI: The Great Wall of China",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
+      "text": "THE GREAT WALL OF CHINA\n\nThe Great Wall of China is one of the most famous structures in the world. It stretches across northern China for thousands of kilometres. Many people believe the Wall is one continuous structure, but in fact it is made up of many separate sections that were built at different times throughout history.\n\nThe first parts of the Wall were built over 2,000 years ago during the reign of Emperor Qin Shi Huang, who wanted to protect China from attacks by nomadic tribes from the north. However, much of the Wall that visitors see today was built during the Ming Dynasty, between the 14th and 17th centuries. The Ming emperors used millions of workers, including soldiers, peasants, and prisoners, to construct and repair the Wall.\n\nThe Wall is not just a simple wall. Along its length, there are watchtowers, guard stations, and signal towers. Soldiers used smoke signals during the day and fire signals at night to send messages quickly along the Wall. This communication system allowed warnings about enemy attacks to travel hundreds of kilometres in just a few hours.\n\nThe Wall varies in height and width depending on the section. In some places, it is up to 8 metres tall and 5 metres wide at the top — wide enough for five horses to walk side by side. It was built using different materials depending on what was available locally. In the mountains, workers used stone, while in the plains they often used packed earth and later bricks.\n\nToday, the Great Wall is a UNESCO World Heritage Site and attracts millions of tourists every year. Unfortunately, some sections of the Wall are in poor condition because of natural erosion and damage caused by visitors. The Chinese government has introduced laws to protect the Wall, making it illegal to remove bricks or write graffiti on the structure.",
+      "items": [
+        { "id": "1.1", "statement": "The Great Wall of China consists of several separate sections built over different periods.", "answer": "T" },
+        { "id": "1.2", "statement": "Emperor Qin Shi Huang built the Wall to keep out invaders from the south.", "answer": "F" },
+        { "id": "1.3", "statement": "The majority of the Wall visible today dates from the Ming Dynasty.", "answer": "T" },
+        { "id": "1.4", "statement": "More than 10 million workers were involved in building the Wall during the Ming Dynasty.", "answer": "NI" },
+        { "id": "1.5", "statement": "Soldiers on the Wall used different types of signals depending on the time of day.", "answer": "T" },
+        { "id": "1.6", "statement": "The Wall is the same height and width along its entire length.", "answer": "F" },
+        { "id": "1.7", "statement": "The Great Wall can be seen from space with the naked eye.", "answer": "NI" },
+        { "id": "1.8", "statement": "It is legal to take bricks from the Wall as souvenirs.", "answer": "F" }
+      ]
+    }
+  ]
+}

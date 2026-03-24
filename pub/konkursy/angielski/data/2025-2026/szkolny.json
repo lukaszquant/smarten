@@ -1,0 +1,196 @@
+{
+  "year": "2025/2026",
+  "stage": "szkolny",
+  "date": "2025-10-10",
+  "maxPoints": 40,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Przeczytaj poniższy tekst. Zaznacz w tabeli znakiem X, które zdania (1.1.–1.6.) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "WHY DO ELEPHANTS HAVE BIG EARS?\n\nElephants are known for their intelligence, complex social behaviour, memory and size, including their giant ears. The ears of African elephants can grow up to 2 metres long and 1.2 metres wide, while Asian elephants have slightly smaller and rounder ears. It is said that African elephants have ears that resemble the continent of Africa, while Asian elephant ears look like the shape of India.\n\nElephants' ears make up about 17% of their body length. This means that, while they are the animals with the largest ears, they are not actually the ones with the largest ears relative to the size of their body. That award goes to the long-eared jerboa, but it is still very impressive to have two-metre long ears.\n\nSo why are elephants' ears so big? There is a practical reason: it keeps elephants cool. Such big animals generate a lot of heat, especially in the hot savannahs, forests and grasslands where they live. But unlike humans, elephants do not really sweat. Instead, they have other \"cooling devices\" – very little body hair and massive ears, which are full of large blood vessels (tubes that carry blood through the body). You can actually see them on the backs of elephants' ears. When blood goes through the vessels in the ear, it gets colder and then circulates around the rest of the body, helping to regulate the body temperature.\n\nAccording to American palaeontologists Advait Jukar and William Sanders, evidence from fossils (the parts of a dead animal that have turned into rock) supports this idea. Mammoths, which are relatives of modern elephants, first evolved in Africa. Mummified woolly mammoths in Siberia show they had much smaller ears compared to African savannah elephants. It seems that, as they began moving into colder climates, their ears gradually became smaller, while their fur became more woolly to stop their body heat from escaping. In other words, they developed a warming mechanism instead of a cooling one.\n\nOf course, elephants also use their ears for hearing, like any other animal. Some studies suggest that elephants use them to catch sound waves, which can help them hear low frequency sounds and vibrations. They can also identify these sounds through their feet – that allows elephants to communicate over dozens of kilometres. Their ears play an important role in their body language as well – they signal a warning, excitement or enthusiasm.\n\nTo cut a long story short, elephants' massive ears have a few functions, but the main one is to act as a personal air conditioner.",
+      "source": "www.livescience.com, www.elephantparade.com",
+      "items": [
+        { "id": "1.1", "statement": "You can recognise African and Asian elephants by looking at the shape of their ears.", "answer": "T" },
+        { "id": "1.2", "statement": "No other animal has bigger ears than elephants in comparison to their body size.", "answer": "F" },
+        { "id": "1.3", "statement": "Blood vessels are invisible on elephants' bodies.", "answer": "F" },
+        { "id": "1.4", "statement": "The fact that they have little body hair helps elephants to control their body temperature as effectively as their ears do.", "answer": "NI" },
+        { "id": "1.5", "statement": "When mammoths migrated, their fur became thinner.", "answer": "F" },
+        { "id": "1.6", "statement": "Elephants can detect more low frequency sounds with their feet than with their ears.", "answer": "NI" }
+      ],
+      "scoringScheme": { "6": 3, "5-4": 2, "3": 1, "2-0": 0 }
+    },
+    {
+      "id": "2",
+      "type": "gap_fill_sentences",
+      "points": 4,
+      "instruction": "Przeczytaj tekst. Do każdej luki (2.1.–2.4.) dopasuj właściwe zdanie (A–G), aby powstał logiczny i spójny tekst. Trzy zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "SCHOOL MOBILE PHONE BAN\n\nMobile phones are the Swiss Army knives of the modern world – they are multi-functional and very convenient. So when schools say, \"No phones allowed!\" it can feel like someone just cut the Wi-Fi during your favourite YouTube video. But here is the thing: more and more schools are banning mobile phones entirely.\n\nMobile phones bring a lot to the table, but not all of it is good. According to recent research, over 70% of teachers and school administrators say phones are major distractions. Imagine trying to solve a tricky maths problem while your friend sends you memes. 2.1. __________ Beyond just being distracting, phones can also be gateways for cheating, cyberbullying, and even social pressure.\n\nSome schools take a total ban approach, where students cannot use their phones at school – they must leave them at home, have them turned off in their lockers or keep them in a special bag with a magnetic lock. 2.2. __________ In both scenarios the goal is simple – create a learning environment where students can concentrate, communicate in real life, and feel less anxious about likes, texts, and notifications.\n\nOnce phones are out of the picture, a few things tend to happen. First, distractions do go down. Teachers report fewer students trying to sneak a peek at screens during lessons. 2.3. __________ Second, social dynamics start to change. Without screens at lunch or in between classes, students often talk more. They might toss a football, or just laugh and joke the old-fashioned way. It builds friendships and helps develop social skills.\n\nMental health may also get a boost. When there is no pressure to constantly check messages or keep up with group chats, students can feel less stressed. They are not comparing themselves to Instagram filters or counting how many people liked their post.\n\nOn the flip side, though, some students say phone bans make them feel disconnected, especially if they need to contact their parents. 2.4. __________ Whether we like it or not, phones are digital tools that shape their world.\n\nSo, while the positive impacts are real, they are not always guaranteed. Success often depends on how the ban is implemented and whether students, teachers, and parents are all on board.",
+      "source": "https://kidsdiscover.com",
+      "options": [
+        { "letter": "A", "text": "That means more eyes on boards, workbooks and paper pads with handwritten notes – and fewer on TikTok dances." },
+        { "letter": "B", "text": "These bans are a step in the right direction, even though they cut students off from a digital world." },
+        { "letter": "C", "text": "Others argue that learning how to manage phone use is a more realistic skill than just banning them altogether." },
+        { "letter": "D", "text": "When schools ban phones, they often hope to reduce bullying and help students interact face-to-face more." },
+        { "letter": "E", "text": "That is not exactly a recipe for academic success; in fact, it is safe to say that it is quite the opposite." },
+        { "letter": "F", "text": "They wake us up, let us talk to friends, snap photos of our lunch, and sometimes help with homework." },
+        { "letter": "G", "text": "Others allow phones, but only for mobile learning and specific tasks – such as research or interactive quizzes." }
+      ],
+      "items": [
+        { "id": "2.1", "answer": "E" },
+        { "id": "2.2", "answer": "G" },
+        { "id": "2.3", "answer": "A" },
+        { "id": "2.4", "answer": "C" }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "multiple_choice",
+      "points": 4,
+      "instruction": "Uzupełnij poniższe zdania (3.1.–3.4.), wybierając rozwiązanie spośród podanych wariantów. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "stem": "While cleaning the attic, I _______ across my kindergarten drawing.",
+          "options": ["came", "dropped", "met"],
+          "answer": "A"
+        },
+        {
+          "id": "3.2",
+          "stem": "I'm not free in the afternoon. I'm going to _______ my parents off at the airport.",
+          "options": ["say", "go", "see"],
+          "answer": "C"
+        },
+        {
+          "id": "3.3",
+          "stem": "The redecoration of my flat was _______ out by a local company.",
+          "options": ["brought", "made", "carried"],
+          "answer": "C"
+        },
+        {
+          "id": "3.4",
+          "stem": "I _______ their invitation because I wasn't in the mood to go out.",
+          "options": ["turned down", "put off", "called away"],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "dialogue_choice",
+      "points": 4,
+      "instruction": "Uzupełnij poniższe dialogi (4.1.–4.4.), wybierając rozwiązanie spośród podanych wariantów. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "4.1",
+          "prompt": "X: Why did Jack go to the headmaster's office?\nY: He was caught ________ -handed while cheating in the test.",
+          "options": ["fire", "red", "hot"],
+          "answer": "B"
+        },
+        {
+          "id": "4.2",
+          "prompt": "X: How are you finding your new laptop?\nY: It's great, but it cost an arm and a ________.",
+          "options": ["knee", "leg", "toe"],
+          "answer": "B"
+        },
+        {
+          "id": "4.3",
+          "prompt": "X: Are we going to watch the sunrise tomorrow?\nY: Not a chance! I'm ________.",
+          "options": ["an early bird", "an evening fly", "a night owl"],
+          "answer": "C"
+        },
+        {
+          "id": "4.4",
+          "prompt": "X: How did the Maths test go?\nY: All good. It was as easy as ________!",
+          "options": ["cake", "bread", "pie"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (5.1.–5.10.) jednym wyrazem, tak aby otrzymać spójny, logiczny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "WHITE CLOTHING AT WIMBLEDON\n\nIt 5.1. __________ Carlos Alcaraz 5 hours and 29 minutes to beat Jannik Sinner in the Roland Garros men's final 5.2. __________ June 8, 2025. For those of you who are not fond of tennis, the match 5.3. __________ gone down in tennis history for many reasons. There were also some comments on the players' unsuitable choice of clothes.\n\nThey both wore Nike tops. Alcaraz's was a striped one without a collar, while Sinner 5.4. __________ on a green polo-style shirt and blue shorts.\n\nBut things were different 5.5. __________ both players who competed again a month later in the men's final at Wimbledon, 5.6. __________ an entirely white kit is still a requirement.\n\nWearing white clothes at Wimbledon has been a rule 5.7. __________ the 19th century. 5.8. __________ first, it covered up signs of sweat and made players feel cooler in the summer heat. But as time went 5.9. __________, white clothing became part of the event's history and tradition, making Wimbledon the 5.10. __________ unique of all tennis tournaments.",
+      "source": "https://theconversation.com",
+      "items": [
+        { "id": "5.1", "answer": ["took"] },
+        { "id": "5.2", "answer": ["on"] },
+        { "id": "5.3", "answer": ["has"] },
+        { "id": "5.4", "answer": ["put", "decided", "had"] },
+        { "id": "5.5", "answer": ["for"] },
+        { "id": "5.6", "answer": ["where"] },
+        { "id": "5.7", "answer": ["since"] },
+        { "id": "5.8", "answer": ["At"] },
+        { "id": "5.9", "answer": ["on", "by"] },
+        { "id": "5.10", "answer": ["most"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 5,
+      "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.5.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "__ __ a __ __ __ __", "clue": "They were stuck in __ __ a __ __ __ __ for over an hour and missed their flight.", "answer": "traffic" },
+        { "id": "6.2", "hint": "__ __ __ s __ __ __", "clue": "I didn't know the answer, so I just __ __ __ s __ __ __ and I was right.", "answer": "guessed" },
+        { "id": "6.3", "hint": "__ __ __ d __ __ __ __", "clue": "That noise is so terrible! It's giving me a __ __ __ d __ __ __ __.", "answer": "headache" },
+        { "id": "6.4", "hint": "__ __ s __ __ __", "clue": "When we meet we __ __ s __ __ __ talk about our favourite movies and music; these are our main subjects.", "answer": "mostly" },
+        { "id": "6.5", "hint": "__ __ y __ __ __", "clue": "It seems risky, but let's try it __ __ y __ __ __.", "answer": "anyway" }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "grammar_gaps",
+      "points": 5,
+      "instruction": "Uzupełnij zdania (7.1.–7.5.) w minidialogach, wstawiając wyrazy podane w nawiasach w odpowiedniej formie. Wymagana jest pełna poprawność gramatyczna i ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "knowledge_questions",
+      "points": 3,
+      "instruction": "Uzupełnij luki (8.1.–8.4.) nazwami stolic krajów wchodzących w skład Zjednoczonego Królestwa Wielkiej Brytanii i Irlandii Północnej w języku angielskim, zgodnie z oznaczeniami – kropkami na mapie i ponumerowanymi strzałkami. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "8.1", "question": "Capital city indicated by arrow 1 (Ireland/Northern Ireland)", "answer": ["Belfast"] },
+        { "id": "8.2", "question": "Capital city indicated by arrow 2 (Scotland)", "answer": ["Edinburgh"] },
+        { "id": "8.3", "question": "Capital city indicated by arrow 3 (Wales)", "answer": ["Cardiff"] },
+        { "id": "8.4", "question": "Capital city indicated by arrow 4 (England)", "answer": ["London"] }
+      ],
+      "scoringScheme": { "4": 3, "3": 2, "2": 1, "1-0": 0 }
+    },
+    {
+      "id": "9",
+      "type": "knowledge_questions",
+      "points": 2,
+      "instruction": "W zdaniach 9.1. i 9.2. z podanych opcji A, B, C, D wybierz prawidłową odpowiedź. Zakreśl literę A, B, C albo D. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "9.1",
+          "question": "Who was the president during the American Civil War?",
+          "options": ["A. George Washington", "B. Abraham Lincoln", "C. Thomas Jefferson", "D. Martin Luther King Jr."],
+          "answer": "B"
+        },
+        {
+          "id": "9.2",
+          "question": "What is the national anthem of Canada?",
+          "options": ["A. God save Canada!", "B. The Canadian song", "C. In Canada We Trust", "D. O Canada!"],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Oglądałeś/aś vlog, w którym prowadzący twierdził, że tradycyjne polskie potrawy nie są smaczne. W e-mailu do znajomego/znajomej z Anglii: wyjaśnij, dlaczego zgadzasz / nie zgadzasz się z tą opinią, opisz wybraną potrawę z kuchni polskiej wartą spróbowania, zaproponuj restaurację w twoim mieście, którą powinniście odwiedzić podczas jego/jej wizyty, podając powody.",
+      "skipped": true,
+      "items": []
+    }
+  ]
+}

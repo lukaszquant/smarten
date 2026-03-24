@@ -1,0 +1,227 @@
+{
+  "year": "2025/2026",
+  "stage": "rejonowy",
+  "date": "2025-11-28",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 5,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1.1.–1.5.) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Trzy zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "ONE SMALL BITE FOR A MAN\n\nThe first meal astronauts eat before venturing into space is traditionally a breakfast of steak and eggs – it is one of NASA's many food traditions. Steak and eggs washed down with orange juice and tea were served to the first American in space, Alan Shepard, on May 5, 1961, before his launch in Freedom 7. 1.1. __________ But a few weeks earlier, Yuri Gagarin had been the first person to do that during his 108-minute flight, sucking beef and liver paste from a tube. Before that mission, scientists had been unsure whether swallowing in zero gravity was even possible.\n\nThe Apollo missions marked not only a giant leap for humankind, but also one for gastronomy when NASA invented the spoon-bowl pack for flights to the moon. 1.2. __________ An article from 1969 quoted one NASA scientist saying: \"The variety was satisfactory, and there was enough to satisfy their hunger and maintain their performance.\" Don Thomas, who flew four shuttle missions in the 1990s, said that space food was a lot like camping food – freeze-dried or irradiated.\n\nWith the International Space Station (ISS) came more room, better support facilities and longer mission times, so food has become more varied and of higher quality. 1.3. __________ Scientists have realized food is more than just fuel for astronauts – it plays a vital role in their mental well-being and can serve as a reminder of home.\n\nA few months ago, the second Pole to go into space, Sławosz Uznański-Wiśniewski, brought a unique culinary touch to the ISS as part of Axiom Mission 4. Pierogi stuffed with cabbage and mushrooms were part of a larger Polish menu that included tomato soup with noodles, a stew with buckwheat and apple crumble. However, bringing them into space proved more difficult than expected. 1.4. __________ Such a disastrous outcome made Sławosz collaborate with a well-known chef and a Polish family business to perfect the procedure and meet ISS's food requirements. And these are especially demanding. 1.5. __________ After multiple trials, they successfully adapted pierogi for space consumption, allowing them to be prepared with the use of hot water from the station's dispensers. And Sławosz's fellow astronauts certainly enjoyed them!",
+      "source": "https://www.forbes.com, https://www.space.com, https://www.spacedaily.com",
+      "options": [
+        { "letter": "A", "text": "Now astronauts receive regular fresh food deliveries, and can actually grow certain crops like lettuce." },
+        { "letter": "B", "text": "The initial batches kept bursting, making it clear that the freeze-drying process needed refinement." },
+        { "letter": "C", "text": "Since the 1960s, astronauts have noted that their taste buds are not effective in space." },
+        { "letter": "D", "text": "These plastic bags contained dehydrated food that could be reconstituted by adding hot water." },
+        { "letter": "E", "text": "Most astronauts find a medium-sized bowl, a tablespoon, and a reliable knife the most practical aboard." },
+        { "letter": "F", "text": "All food must be crumb-free, lightweight, and capable of remaining edible for at least 24 months." },
+        { "letter": "G", "text": "Bread can be tricky in zero gravity, as it can leave crumbs that can interfere with sensitive equipment." },
+        { "letter": "H", "text": "His flight time lasted only 15 minutes, so he did not need to eat anything while in space." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "H" },
+        { "id": "1.2", "answer": "D" },
+        { "id": "1.3", "answer": "A" },
+        { "id": "1.4", "answer": "B" },
+        { "id": "1.5", "answer": "F" }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj poniższy tekst. Zdecyduj, które zdania (2.1.–2.4.) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False), a które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy lub wyrażenia, które odpowiadają definicjom podanym w punktach 2.5.–2.8. Wymagana jest całkowita poprawność ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "BEING A FOOD NETWORK STAR AND RESTAURATEUR BY MANEET CHAUHAN\n\nThere is a standing joke in my family that I was born with a ladle in my hand. As soon as I started cooking at an extremely young age, I took over the kitchen, at times with horrendous results. But that never deterred me from trying. When my older sister went to college, I would visit her. Whenever I showed up at campus, people got excited — it always meant food – either brought from home or prepared on the spot. When I fed people, I realized that was something I loved to do and something people loved me for.\n\nThere was not a culinary school in India, just culinary specialisation within hotel management or administration. So, while my goal was always to be a chef, I ended up getting recruited for an internship in a hotel restaurant. During my first week I was peeling onions and garlic. I constantly heard snide remarks like, \"You're over 18 years old – you should be married by now.\" Finally, I turned to one of the guys who kept saying that and said, \"Do you know anyone I should be seeing?\" He had no response. After that they would not address me until I had finished peeling my bag and they handed me another one. I came home smelling of garlic and onions wondering, \"Why am I doing this?\" but I knew it was just a matter of plowing through it and showing them what I was made of.\n\nOne day, the executive chef came up and told me he admired my dedication and wanted me to work with one of the sous chefs. I was elated. Just before graduating from my internship, I asked my chef instructor which place in the entire world was the best to go to if I wanted to become a chef. Without even batting an eyelid, he said, \"The Culinary Institute of America\" in New York. So I applied and I graduated at the top of my class.\n\nMeanwhile, my aunt and uncle were opening an upscale Indian restaurant called Bombay Cuisine in New Jersey. Even though they knew I wanted to be a chef, they asked me to help oversee operations. We ventured into banquets and managed to corner the market for Indian weddings and events in New Jersey. The restaurant expanded from 70 to 130 seats, and I stayed there for four years. That is where I truly got bitten by the Indian bug as I met people who were passionate about the food. But Indian food in America varied greatly from what I grew up with, the ingredients here are so different from the ones available in India. So, it was a fascinating educational experience.\n\nI dreamed of cooking. I packed up my car, and drove to Chicago, where my sister lived, in search of new opportunities. That is when I learned of an Indian fusion restaurant that was about to open and was looking for a chef. Out of 40 men interviewed, they selected me as the executive chef. I believe I was chosen because I understood the owners' vision. My modern approach to Indian cuisine contrasted with the traditional mindset many old-school chefs held. I worked there for the next eight years – always the first to arrive and the last to leave. I relished each and every second of it.\n\nIn the meantime, the Food Network invited me to compete on the TV show Iron Chef alongside other local chefs. It was my first national appearance – an absolutely daunting experience. It is clear on screen that I was honored, but also intimidated by competing with the legends – the chefs I had always looked up to. Still, they must have seen something in me because they invited me first as a guest judge, and later, a permanent one on Chopped, a reality cooking show. The transition to a television role while still cooking was absolutely surreal. The kitchen is the most unglamorous workplace at the best of times. One day, there is a broken dishwasher in your restaurant, so you have to wash the dishes, and the next day you are all dolled up and shooting a show. Being in both roles at once is a good dose of reality for me.\n\nSoon offers began pouring in from all across the country. I received calls from Seattle, Washington, and L.A., saying, \"Why don't you come here and open a restaurant? We'll partner with you.\" Right now, I'm working on a couple of projects and I do not plan to stop exploring whatever opportunities come my way.",
+      "source": "https://www.cosmopolitan.com",
+      "items": [
+        { "id": "2.1", "statement": "When the author visited her sister in college, she used to bring more food from home than what she cooked on the campus.", "answer": "NI" },
+        { "id": "2.2", "statement": "She assumed that Indian food in America was tastier than Indian food in India.", "answer": "NI" },
+        { "id": "2.3", "statement": "She felt courageous when she appeared on a TV show for the first time.", "answer": "F" },
+        { "id": "2.4", "statement": "Working in the restaurant and being on TV at the same time helped her stay down-to-earth.", "answer": "T" }
+      ],
+      "vocabItems": [
+        { "id": "2.5", "definition": "to enjoy an experience or the thought of something", "answer": ["(to) relish"] },
+        { "id": "2.6", "definition": "unkind, often expressed in a clever, indirect way", "answer": ["snide"] },
+        { "id": "2.7", "definition": "to be more successful than any other company at selling a product or service", "answer": ["(to) corner the market"] },
+        { "id": "2.8", "definition": "to finish dealing with something difficult or boring", "answer": ["(to) plow through"] }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (3.1.–3.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "prompt": "Others have tried to copy his culinary podcast, but they've never quite cut the ______.",
+          "options": ["beef", "cheese", "mustard", "herring"],
+          "answer": "C"
+        },
+        {
+          "id": "3.2",
+          "prompt": "This project looks very promising, but the proof of the ______ is in the eating.",
+          "options": ["pudding", "roast", "sauce", "dessert"],
+          "answer": "A"
+        },
+        {
+          "id": "3.3",
+          "prompt": "Stop ______ me up! Your essay is far from being perfect, so you won't get an A for it.",
+          "options": ["creaming", "buttering", "sugaring", "icing"],
+          "answer": "B"
+        },
+        {
+          "id": "3.4",
+          "prompt": "Fixing my bike was a hard nut to ______, but I finally did it.",
+          "options": ["crash", "break", "shell", "crack"],
+          "answer": "D"
+        },
+        {
+          "id": "3.5",
+          "prompt": "I expected her to be all nervous, but she walked in as cool as a ______, as if nothing had happened.",
+          "options": ["tomato", "radish", "leek", "cucumber"],
+          "answer": "D"
+        },
+        {
+          "id": "3.6",
+          "prompt": "It's high time she got a job! Someone has to bring home the ______.",
+          "options": ["bread", "milk", "bacon", "fish"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (4.1.–4.10.) jednym wyrazem, tak aby otrzymać spójny, logiczny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "HOW A FOOD BECOMES FAMOUS\n\nNothing defines a country and its people so clearly 4.1. __________ a national food – a dish that, when it is done right, tastes like the country 4.2. __________ where it came.\n\nNational foods are so easy to categorize because of what 4.3. __________ represent. A few hundred calories can sum 4.4. __________ a people's history, values, and economy. For instance, pasta became popular in Italy when pre-Renaissance eaters realised the food could be cheaply made and easily stored. Sushi's story takes us back to a time when Japan had limited food resources, except 4.5. __________ those found in the nearby ocean.\n\nApple pie became a symbol of American prosperity in the early 20th century 4.6. __________ to the large number of apple trees, many of which were planted by the American legend Johnny Appleseed, 4.7. __________ real name was John Chapman.\n\nOf course, 4.8. __________ of these are officially approved as national foods. But that is the point – there is no official choice: an act of parliament cannot make a food widely adored, no single person can decide about it. A nation's favourite food is collectively chosen over time, quietly agreed 4.9. __________ and accepted by many generations, leaving no doubt that this food belongs 4.10. __________ all its citizens, as something everyone associates with their homeland.",
+      "source": "https://www.nationalgeographic.com",
+      "items": [
+        { "id": "4.1", "answer": ["as"] },
+        { "id": "4.2", "answer": ["from"] },
+        { "id": "4.3", "answer": ["they"] },
+        { "id": "4.4", "answer": ["up"] },
+        { "id": "4.5", "answer": ["for"] },
+        { "id": "4.6", "answer": ["due", "owing", "thanks"] },
+        { "id": "4.7", "answer": ["whose"] },
+        { "id": "4.8", "answer": ["none"] },
+        { "id": "4.9", "answer": ["upon", "on"] },
+        { "id": "4.10", "answer": ["to"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "5",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupełnij każde z poniższych zdań (5.1.–5.8.) jednym pasującym wyrazem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "5.1", "hint": "__ __ __ p __ __ __ __", "clue": "The pizza was full of cheese, olives, and all her favourite __ __ __ p __ __ __ __.", "answer": "toppings" },
+        { "id": "5.2", "hint": "__ __ p __ __ __", "clue": "After finishing her dinner, she folded her __ __ p __ __ __ and put it beside her plate.", "answer": "napkin" },
+        { "id": "5.3", "hint": "__ __ __ t __ __ __", "clue": "I usually have my lunch in the __ __ __ t __ __ __ at school. They serve tasty and nutritional food.", "answer": "canteen" },
+        { "id": "5.4", "hint": "__ __ __ d __ __", "clue": "I expected the burger to be tough and dry, but the meat was __ __ __ d __ __ and juicy.", "answer": "tender" },
+        { "id": "5.5", "hint": "__ __ r __ __ __ __", "clue": "It's a special kind of butter that __ __ r __ __ __ __ easily, even when cold.", "answer": "spreads" },
+        { "id": "5.6", "hint": "__ __ d __ __ __ __ __ __ __", "clue": "Even healthy snacks like nuts should be eaten in __ __ d __ __ __ __ __ __ __ because they are high in calories.", "answer": "moderation" },
+        { "id": "5.7", "hint": "__ __ o __ __ __", "clue": "I prefer freshly __ __ o __ __ __ pepper on my meals instead of pre-packaged powder.", "answer": "ground" },
+        { "id": "5.8", "hint": "__ u __ __ __ __ __", "clue": "We don't have enough __ u __ __ __ __ __ for ten guests – could you bring some extra knives and forks?", "answer": "cutlery" }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (6.1.–6.8.) jednym wyrazem, przekształcając wyrazy podane w ramce, tak aby otrzymać spójny, logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "wordBank": ["EXPECT", "VIEW", "RESPOND", "LOSE", "PLAYFUL", "SKIP", "REFER", "DEEP", "ASSOCIATION", "THICK"],
+      "text": "A POLISH TASTE OF SUMMER\n\nAthletes fuel themselves in many ways: they consume about 10,000 calories daily while training, drink chocolate milk after a game or eat protein bars during a match. But for one top-ranking tennis athlete, filling up is simple: strawberries and cream.\n\nNo, not the strawberries and cream we 6.1. __________ with Wimbledon, but strawberries and cream over – wait for it – pasta. According to the tennis star Iga Świątek, winner of the 2025 tournament in London, the dish is her go-to food. \"I ate it as a kid. You should try it, guys. It's just great,\" she said, when asked about her diet in a post-match interview. Her 6.2. __________ was met with audible gasps and murmurs from the Wimbledon crowd.\n\nA video clip of the interview, posted on her official Wimbledon TikTok account, has been 6.3. __________ two million times and has collected hundreds of comments. Some were sceptical, although the majority of commenters were thrilled to see this summertime dish, popular among Polish children, being so warmly praised. For many Poles it is the taste of summer, which is both 6.4. __________ sentimental and satisfying. It has all the elements of a perfect dish: carbs, fruit, dairy, sugar and a generous serving of nostalgia.\n\nPoland is the European Union's second-largest strawberry producer, which perhaps may help other nations explain the fruit's 6.5. __________ presence in this dish. But Poles are no strangers to the marriage of sweet fruit and starch. The dish is not far removed from another favourite – pierogi filled with blueberries. There is also fruit soup, in which fruits like strawberries or cherries are often simmered along with potato starch for 6.6. __________.\n\nMs. Świątek is probably far more focused on her tennis matches than the public reaction to her favourite food. But she might consider 6.7. __________ next year's Italian Open. \"I wish good luck to her when she come back to Italy!\" the Italian tennis player Flavio Cobolli 6.8. __________ commented after hearing about her pasta preference.",
+      "source": "https://www.nytimes.com",
+      "items": [
+        { "id": "6.1", "answer": ["associate"] },
+        { "id": "6.2", "answer": ["response"] },
+        { "id": "6.3", "answer": ["viewed"] },
+        { "id": "6.4", "answer": ["deeply"] },
+        { "id": "6.5", "answer": ["unexpected"] },
+        { "id": "6.6", "answer": ["thickness"] },
+        { "id": "6.7", "answer": ["skipping"] },
+        { "id": "6.8", "answer": ["playfully"] }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (7.1.–7.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Do podanych określeń (8.1.–8.6.) dopasuj związane z nimi opisy (A–J). Cztery opisy zostały podane dodatkowo i nie odnoszą się do żadnego określenia. Przenieś rozwiązania na kartę odpowiedzi.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "a Scottish soup" },
+        { "letter": "B", "text": "a Welsh soup-stew dish" },
+        { "letter": "C", "text": "a traditional Irish traybake" },
+        { "letter": "D", "text": "a jelly with raisins or currants" },
+        { "letter": "E", "text": "a traditional Northern Irish breakfast dish" },
+        { "letter": "F", "text": "a meal eaten on returning home from work" },
+        { "letter": "G", "text": "a cooking programme starring Jamie Oliver" },
+        { "letter": "H", "text": "a cookery reality show with Gordon Ramsay" },
+        { "letter": "I", "text": "a dish made from minced lamb, onions, and carrots" },
+        { "letter": "J", "text": "a savoury side dish made from a mixture similar to pancake batter" }
+      ],
+      "items": [
+        { "id": "8.1", "label": "Tea", "answer": "F" },
+        { "id": "8.2", "label": "Cawl", "answer": "B" },
+        { "id": "8.3", "label": "Fifteens", "answer": "C" },
+        { "id": "8.4", "label": "The Ulster fry", "answer": "E" },
+        { "id": "8.5", "label": "The Naked Chef", "answer": "G" },
+        { "id": "8.6", "label": "Yorkshire pudding", "answer": "J" }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiąż zadania (9.1.–9.5.), udzielając odpowiedzi w języku angielskim. Wymagana jest pełna poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "9.1",
+          "question": "Which British city is believed to be the birthplace of chicken tikka masala – the iconic British-Indian curry?",
+          "answer": ["Glasgow"],
+          "points": 1
+        },
+        {
+          "id": "9.2",
+          "question": "What does toad refer to in the dish called toad in the hole?",
+          "answer": ["sausage(s)"],
+          "points": 1
+        },
+        {
+          "id": "9.3",
+          "question": "What is, besides strawberries and whipped cream, the main ingredient in Eton mess?",
+          "answer": ["meringue (broken into chunks)"],
+          "points": 1
+        },
+        {
+          "id": "9.4",
+          "question": "What does the name of the dish bubble and squeak come from?",
+          "answer": ["the sound it makes when it cooks"],
+          "points": 1
+        },
+        {
+          "id": "9.5",
+          "question": "Haggis is usually served with neeps and tatties. What does each of these terms mean?",
+          "answer": ["neeps – (mashed) swede / turnip (rutabaga in North America)", "tatties – (mashed) potatoes"],
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

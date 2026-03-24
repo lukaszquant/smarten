@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "The Age of Exploration",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "THE AGE OF EXPLORATION\n\nBetween the fifteenth and seventeenth centuries, European sailors ventured into unknown oceans and fundamentally changed the world's map. This period, known as the Age of Exploration, connected continents that had developed in isolation for thousands of years and set in motion a process of globalisation whose effects are still felt today. 1. _________ European powers were eager to find direct sea routes to Asia that bypassed the overland Silk Road, which had fallen under Ottoman control.\n\nPortugal led the way in the early decades of exploration. Under the sponsorship of Prince Henry the Navigator, Portuguese sailors gradually pushed further south along the African coast. 2. _________ In 1498, Vasco da Gama finally sailed around the Cape of Good Hope and reached India, opening a sea route that would make Portugal enormously wealthy.\n\nWhile Portugal explored eastward, Spain looked west. When Christopher Columbus landed in the Caribbean in 1492, he believed he had reached Asia. 3. _________ The existence of two vast continents, unknown to Europeans, changed geography, trade, and human history forever.\n\nThe circumnavigation of the globe, completed by Ferdinand Magellan's expedition in 1522, proved beyond doubt that the Earth was round and that all its oceans were connected. 4. _________ Of the five ships and around 270 men who set out, only one ship and 18 men returned.\n\nThe consequences of the Age of Exploration were profound and deeply mixed. European contact brought trade, new crops, and technological exchange, but it also brought conquest, slavery, and devastating epidemics. 5. _________ Within a century of European contact, it is estimated that up to 90 percent of the indigenous population of the Americas had died from diseases to which they had no immunity.\n\nThe era also produced extraordinary advances in cartography, navigation, and astronomy. 6. _________ The maps, journals, and scientific observations brought back by explorers provided the foundation for the scientific revolution of the seventeenth century.",
+      "options": [
+        { "letter": "A", "text": "It was motivated by a mixture of commercial ambition, religious mission, and the spirit of scientific curiosity." },
+        { "letter": "B", "text": "In reality, he had stumbled upon continents previously unknown to Europeans, a fact recognised only after his death." },
+        { "letter": "C", "text": "The voyage was one of the greatest feats of navigation in history, but it came at a terrible human cost." },
+        { "letter": "D", "text": "The diseases that European explorers unknowingly carried with them proved more destructive than any weapon." },
+        { "letter": "E", "text": "Each voyage extended knowledge of the African coastline and brought back gold, ivory, and enslaved people." },
+        { "letter": "F", "text": "Sailors learned to use the stars, ocean currents, and wind patterns to navigate with increasing precision across vast distances." },
+        { "letter": "G", "text": "The Spanish Empire at its height controlled territories across the Americas, Europe, Africa, and Asia." },
+        { "letter": "H", "text": "The Treaty of Tordesillas, signed in 1494, divided the newly discovered world between Spain and Portugal." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "E" },
+        { "id": "1.3", "answer": "B" },
+        { "id": "1.4", "answer": "C" },
+        { "id": "1.5", "answer": "D" },
+        { "id": "1.6", "answer": "F" }
+      ]
+    }
+  ]
+}

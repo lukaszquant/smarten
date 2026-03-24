@@ -1,0 +1,24 @@
+{
+  "type": "practice",
+  "title": "Articles & Determiners",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 10,
+      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "items": [
+        { "id": "1.1", "stem": "_______ Sahara is the largest hot desert in the world.", "options": ["A", "The", "—"], "answer": "B" },
+        { "id": "1.2", "stem": "Could I have _______ water, please?", "options": ["a", "any", "some"], "answer": "C" },
+        { "id": "1.3", "stem": "She plays _______ violin in the school orchestra.", "options": ["a", "the", "—"], "answer": "B" },
+        { "id": "1.4", "stem": "There are _______ apples left. We need to buy more.", "options": ["few", "a few", "little"], "answer": "A" },
+        { "id": "1.5", "stem": "_______ of the students passed the exam. The teacher was delighted.", "options": ["Every", "All", "Each"], "answer": "B" },
+        { "id": "1.6", "stem": "He is _______ honest person and always tells the truth.", "options": ["a", "an", "the"], "answer": "B" },
+        { "id": "1.7", "stem": "I have _______ idea what you're talking about.", "options": ["any", "no", "none"], "answer": "B" },
+        { "id": "1.8", "stem": "We go to _______ church every Sunday.", "options": ["a", "the", "—"], "answer": "C" },
+        { "id": "1.9", "stem": "_______ student must bring their own textbook.", "options": ["All", "Every", "Each"], "answer": "C" },
+        { "id": "1.10", "stem": "She earns _______ money than her brother.", "options": ["fewer", "less", "little"], "answer": "B" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "title": "Canada & Ireland",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "The maple leaf is the national symbol of _______.",
+          "options": [
+            "A. Ireland",
+            "B. the United States",
+            "C. Canada",
+            "D. Australia"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "question": "What is the capital city of Canada?",
+          "options": [
+            "A. Toronto",
+            "B. Vancouver",
+            "C. Montreal",
+            "D. Ottawa"
+          ],
+          "answer": "D"
+        },
+        {
+          "id": "1.3",
+          "question": "What is the capital city of the Republic of Ireland?",
+          "options": [
+            "A. Belfast",
+            "B. Cork",
+            "C. Dublin",
+            "D. Galway"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "question": "Which plant is the traditional symbol of Ireland?",
+          "options": [
+            "A. Rose",
+            "B. Thistle",
+            "C. Daffodil",
+            "D. Shamrock"
+          ],
+          "answer": "D"
+        },
+        {
+          "id": "1.5",
+          "question": "Niagara Falls is located on the border between Canada and _______.",
+          "options": [
+            "A. Mexico",
+            "B. the United States",
+            "C. Alaska",
+            "D. Greenland"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "question": "What colour is associated with St. Patrick's Day in Ireland?",
+          "options": [
+            "A. Red",
+            "B. Blue",
+            "C. Orange",
+            "D. Green"
+          ],
+          "answer": "D"
+        },
+        {
+          "id": "1.7",
+          "question": "Canada has two official languages: English and _______.",
+          "options": [
+            "A. Spanish",
+            "B. French",
+            "C. German",
+            "D. Gaelic"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.8",
+          "question": "Which popular winter sport was invented in Canada?",
+          "options": [
+            "A. Skiing",
+            "B. Figure skating",
+            "C. Ice hockey",
+            "D. Bobsled"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.9",
+          "question": "The famous Irish holiday, St. Patrick's Day, is celebrated on _______.",
+          "options": [
+            "A. March 1st",
+            "B. March 17th",
+            "C. April 1st",
+            "D. February 14th"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.10",
+          "question": "What is the name of the famous Canadian food made of fries, cheese curds and gravy?",
+          "options": [
+            "A. Fish and chips",
+            "B. Poutine",
+            "C. Bannock",
+            "D. Maple pie"
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

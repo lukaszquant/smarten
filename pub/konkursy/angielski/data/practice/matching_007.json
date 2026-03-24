@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "Sports & Games",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Dopasuj nazwy sportów lub gier (1–6) do ich opisów lub zasad (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "Two teams of eleven players try to score by hitting a ball into the opponent's net using their feet or head. Hands may not be used except by the goalkeeper." },
+        { "letter": "B", "text": "Players use a racket to hit a shuttlecock over a high net. The shuttlecock must not touch the ground on your side of the net." },
+        { "letter": "C", "text": "Two players sit opposite each other at a board with 64 black and white squares. Each player has 16 pieces of different types and tries to trap the opponent's king." },
+        { "letter": "D", "text": "A team scores points by throwing a ball through a raised hoop. Players must bounce the ball while moving and cannot take more than two steps without bouncing it." },
+        { "letter": "E", "text": "Players try to hit a small white ball into a series of holes in the ground using as few strokes as possible. The course usually has 18 holes." },
+        { "letter": "F", "text": "Two players or two pairs use a racket to hit a ball over a net on a rectangular court. A player scores when the opponent fails to return the ball." },
+        { "letter": "G", "text": "Two teams of six players hit a ball over a high net using their hands. A team scores when the ball touches the floor on the opponent's side." },
+        { "letter": "H", "text": "Athletes swim four different strokes in a set order: butterfly, backstroke, breaststroke, and freestyle. This event can be individual or a relay." }
+      ],
+      "items": [
+        { "id": "1.1", "label": "Football (soccer)", "answer": "A" },
+        { "id": "1.2", "label": "Badminton", "answer": "B" },
+        { "id": "1.3", "label": "Chess", "answer": "C" },
+        { "id": "1.4", "label": "Basketball", "answer": "D" },
+        { "id": "1.5", "label": "Tennis", "answer": "F" },
+        { "id": "1.6", "label": "Volleyball", "answer": "G" }
+      ]
+    }
+  ]
+}

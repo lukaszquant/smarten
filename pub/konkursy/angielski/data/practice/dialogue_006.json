@@ -1,0 +1,50 @@
+{
+  "type": "practice",
+  "title": "Food & Drink Idioms",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "items": [
+        {
+          "id": "1.1",
+          "prompt": "That film was pure _______ — entertaining but with no real substance.",
+          "options": ["candy floss", "popcorn", "eye candy"],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "prompt": "Stop crying over _______ milk. There's nothing you can do about it now.",
+          "options": ["sour", "spilled", "wasted"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "prompt": "She's the _______ of my eye — I couldn't be more proud of her.",
+          "options": ["apple", "cherry", "plum"],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "prompt": "The new manager is quite strict. She's not everyone's _______ of tea.",
+          "options": ["mug", "cup", "pot"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "prompt": "He had to eat humble _______ after admitting he was completely wrong.",
+          "options": ["bread", "pie", "cake"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "prompt": "The new contract was the _______ on the cake after an already brilliant year.",
+          "options": ["cream", "icing", "topping"],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

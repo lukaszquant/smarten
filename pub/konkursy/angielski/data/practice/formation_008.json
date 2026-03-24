@@ -1,0 +1,25 @@
+{
+  "title": "Word Formation: Travel and Tourism",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["EXCITE", "ACCOMMODATE", "COMFORT", "ADVENTURE", "ATTRACT", "DEPART", "FORGET", "TOUR", "INFORM", "RELY"],
+      "title": "EXPLORING THE WORLD",
+      "text": "Travelling to new places is one of the most 1.1. ________ experiences you can have. Before your 1.2. ________, it is important to gather useful 1.3. ________ about your destination. Many 1.4. ________ visit famous cities like Paris, Rome, and London every summer. Finding good 1.5. ________ is essential for a pleasant stay. A 1.6. ________ hotel room with a nice view makes any holiday better. Popular 1.7. ________ such as beautiful beaches and historic castles draw millions of visitors each year. For those who love 1.8. ________ holidays, activities like hiking, diving, and climbing are available in many countries. Every trip creates unforgettable memories.",
+      "items": [
+        { "id": "1.1", "answer": "exciting" },
+        { "id": "1.2", "answer": "departure" },
+        { "id": "1.3", "answer": "information" },
+        { "id": "1.4", "answer": "tourists" },
+        { "id": "1.5", "answer": "accommodation" },
+        { "id": "1.6", "answer": "comfortable" },
+        { "id": "1.7", "answer": "attractions" },
+        { "id": "1.8", "answer": "adventurous" }
+      ]
+    }
+  ]
+}

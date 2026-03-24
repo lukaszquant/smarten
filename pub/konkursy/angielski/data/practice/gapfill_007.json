@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "Extreme Weather",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "EXTREME WEATHER\n\nOur planet's atmosphere is capable of producing weather events of staggering power and violence. From tornadoes that can tear apart entire towns in seconds to blizzards that bury cities under metres of snow, extreme weather has shaped human history and continues to pose one of the greatest natural threats to life on Earth. 1. _________ Understanding these phenomena is therefore more important than ever.\n\nTornadoes are among the most violent weather events on Earth. They form when warm, moist air from the Gulf of Mexico collides with cold, dry air moving south from Canada over the central United States. 2. _________ The most powerful tornadoes, classified as EF5 on the Enhanced Fujita scale, can produce wind speeds exceeding 300 kilometres per hour.\n\nHurricanes, also known as typhoons or cyclones in different parts of the world, are enormous rotating storm systems that form over warm tropical oceans. 3. _________ A single hurricane can release more energy in one day than all the nuclear weapons ever built.\n\nAt the other extreme, droughts can last for years and devastate vast areas. Unlike a sudden storm, a drought develops slowly, but its effects can be just as catastrophic. 4. _________ The 1930s Dust Bowl in the United States, caused by severe drought combined with poor farming practices, destroyed millions of acres of farmland and forced hundreds of thousands of people to leave their homes.\n\nScientists are increasingly linking the rise in extreme weather events to climate change. As global temperatures increase, the atmosphere holds more moisture and energy, which fuels more powerful storms. 5. _________ Heat waves that were once rare are becoming common, and record temperatures are being broken in countries around the world.\n\nPreparing for extreme weather requires international cooperation, investment in early warning systems, and better construction standards. 6. _________ Even a few extra hours of warning can give people time to evacuate and save thousands of lives.",
+      "options": [
+        { "letter": "A", "text": "These conditions create a rotating column of air known as a supercell thunderstorm, from which a tornado can descend." },
+        { "letter": "B", "text": "They draw energy from the warm ocean surface and can grow to cover an area larger than many countries." },
+        { "letter": "C", "text": "Crop failures lead to food shortages, rising prices, and, in the worst cases, widespread famine." },
+        { "letter": "D", "text": "Climate scientists predict that extreme weather events will become both more frequent and more intense in the coming decades." },
+        { "letter": "E", "text": "Modern meteorological technology, including satellites and computer models, has dramatically improved our ability to forecast dangerous storms." },
+        { "letter": "F", "text": "Scientists who study the relationship between climate change and extreme weather are called climate attribution researchers." },
+        { "letter": "G", "text": "Sea levels are also rising, increasing the risk of flooding for hundreds of millions of people living in coastal areas." },
+        { "letter": "H", "text": "The economic damage caused by extreme weather runs into hundreds of billions of dollars every year globally." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "D" },
+        { "id": "1.2", "answer": "A" },
+        { "id": "1.3", "answer": "B" },
+        { "id": "1.4", "answer": "C" },
+        { "id": "1.5", "answer": "G" },
+        { "id": "1.6", "answer": "E" }
+      ]
+    }
+  ]
+}

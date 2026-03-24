@@ -1,0 +1,23 @@
+{
+  "title": "True/False/NI: The History of the Internet",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
+      "text": "THE HISTORY OF THE INTERNET\n\nThe internet is such an important part of modern life that it is hard to imagine a world without it. However, the technology we use every day is actually quite young — its origins go back only to the late 1960s.\n\nThe story of the internet begins with a project called ARPANET, which was created by the United States Department of Defense in 1969. ARPANET was designed to allow computers at different universities and military bases to share information with each other. The first message ever sent over ARPANET was from a computer at the University of California, Los Angeles (UCLA) to one at Stanford Research Institute. The message was supposed to be the word \"LOGIN\" but the system crashed after just two letters, so the first message was actually \"LO.\"\n\nFor the next two decades, computer networks grew slowly and were used mainly by scientists, researchers, and the military. Everything changed in 1989, when Tim Berners-Lee, a British computer scientist working at CERN in Switzerland, invented the World Wide Web. The Web made it much easier for ordinary people to access and share information by using web pages and links. Berners-Lee made his invention freely available to everyone and did not try to make money from it.\n\nThe 1990s saw the internet explode in popularity. The first popular web browser, called Mosaic, was released in 1993, and it allowed users to view images alongside text for the first time. By 1995, companies like Amazon and eBay had launched their websites, and the way people shopped began to change forever.\n\nToday, over five billion people around the world use the internet. It has transformed how we communicate, learn, work, and entertain ourselves. From social media to online education, the internet continues to shape our daily lives in ways that the creators of ARPANET could never have imagined.",
+      "items": [
+        { "id": "1.1", "statement": "The internet has its roots in a project from the 1960s.", "answer": "T" },
+        { "id": "1.2", "statement": "The first ARPANET message was successfully sent without any problems.", "answer": "F" },
+        { "id": "1.3", "statement": "ARPANET was funded by a private technology company.", "answer": "F" },
+        { "id": "1.4", "statement": "Tim Berners-Lee sold his invention of the World Wide Web to a large corporation.", "answer": "F" },
+        { "id": "1.5", "statement": "Tim Berners-Lee was working in Switzerland when he created the World Wide Web.", "answer": "T" },
+        { "id": "1.6", "statement": "The Mosaic web browser allowed users to see pictures and text together on web pages.", "answer": "T" },
+        { "id": "1.7", "statement": "Google was one of the first websites to launch in 1995.", "answer": "NI" },
+        { "id": "1.8", "statement": "The majority of internet users today live in Asia.", "answer": "NI" }
+      ]
+    }
+  ]
+}

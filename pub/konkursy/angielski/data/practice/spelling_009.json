@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Emotions & Relationships",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "She felt terrible d _ s _ p _ _ _ n _ _ _ n t when she failed the exam.",
+          "hint": "d _ s _ p _ _ _ n _ _ _ n t",
+          "answer": "disappointment"
+        },
+        {
+          "id": "1.2",
+          "stem": "True f _ _ e _ d _ _ _ p means supporting each other in difficult times.",
+          "hint": "f _ _ e _ d _ _ _ p",
+          "answer": "friendship"
+        },
+        {
+          "id": "1.3",
+          "stem": "He was extremely j _ _ l _ _ s when his brother got a new bicycle.",
+          "hint": "j _ _ l _ _ s",
+          "answer": "jealous"
+        },
+        {
+          "id": "1.4",
+          "stem": "The children showed great e _ t _ _ s _ _ s m when they heard about the school trip.",
+          "hint": "e _ t _ _ s _ _ s m",
+          "answer": "enthusiasm"
+        },
+        {
+          "id": "1.5",
+          "stem": "You need to a _ _ l _ g _ _ e if you have hurt someone's feelings.",
+          "hint": "a _ _ l _ g _ _ e",
+          "answer": "apologise"
+        },
+        {
+          "id": "1.6",
+          "stem": "The whole family felt g _ _ t _ f _ l for the help they received from their neighbours.",
+          "hint": "g _ _ t _ f _ l",
+          "answer": "grateful"
+        },
+        {
+          "id": "1.7",
+          "stem": "She has always been very s _ n _ _ t _ _ e and cries easily when watching sad films.",
+          "hint": "s _ n _ _ t _ _ e",
+          "answer": "sensitive"
+        },
+        {
+          "id": "1.8",
+          "stem": "After the argument, they decided to r _ c _ n _ _ l e and become friends again.",
+          "hint": "r _ c _ n _ _ l e",
+          "answer": "reconcile"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Open Cloze: Earthquakes",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 10,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
+      "title": "UNDERSTANDING EARTHQUAKES",
+      "text": "An earthquake happens when large pieces of the Earth's surface suddenly move. 1.1. _________ pieces are called tectonic plates, and they are constantly shifting, 1.2. _________ usually so slowly that we cannot feel it. When two plates push 1.3. _________ each other or pull apart, the energy that is released causes the ground to shake.\n\nMost earthquakes occur along plate boundaries. Japan, 1.4. _________ example, experiences thousands of earthquakes every year 1.5. _________ it sits on the boundary of several plates. 1.6. _________ all earthquakes are dangerous, though. Many of 1.7. _________ are so small that people do not even notice them.\n\nScientists who study earthquakes are 1.8. _________ seismologists. They use special instruments to measure 1.9. _________ strong an earthquake is. Although we still cannot predict exactly when an earthquake will happen, we have learned a great deal 1.10. _________ what causes them.",
+      "items": [
+        { "id": "1.1", "answer": ["These", "Those"] },
+        { "id": "1.2", "answer": "but" },
+        { "id": "1.3", "answer": "against" },
+        { "id": "1.4", "answer": "for" },
+        { "id": "1.5", "answer": ["because", "as", "since"] },
+        { "id": "1.6", "answer": "Not" },
+        { "id": "1.7", "answer": "them" },
+        { "id": "1.8", "answer": "called" },
+        { "id": "1.9", "answer": "how" },
+        { "id": "1.10", "answer": "about" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Word Formation: Climate and Weather",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["POLLUTE", "DANGER", "NATURE", "PREDICT", "WARM", "STORM", "DROUGHT", "DESTROY", "FREEZE", "RAIN"],
+      "title": "OUR CHANGING CLIMATE",
+      "text": "Climate change is one of the most 1.1. ________ problems facing our planet today. Scientists can now make accurate 1.2. ________ about future weather patterns using powerful computers. Global 1.3. ________ is causing temperatures to rise every year. 1.4. ________ disasters such as floods and hurricanes are becoming more frequent. Air 1.5. ________ from factories and cars is a major cause of these changes. In some regions, 1.6. ________ weather brings heavy snow and ice, while other areas experience 1.7. ________ days with no rain for months. The 1.8. ________ of forests for farming also makes the problem worse. We all need to act now to protect our environment.",
+      "items": [
+        { "id": "1.1", "answer": "dangerous" },
+        { "id": "1.2", "answer": "predictions" },
+        { "id": "1.3", "answer": "warming" },
+        { "id": "1.4", "answer": "natural" },
+        { "id": "1.5", "answer": "pollution" },
+        { "id": "1.6", "answer": "freezing" },
+        { "id": "1.7", "answer": "rainy" },
+        { "id": "1.8", "answer": "destruction" }
+      ]
+    }
+  ]
+}

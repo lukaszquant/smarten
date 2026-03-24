@@ -1,0 +1,26 @@
+{
+  "title": "Open Cloze: Video Games",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 10,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
+      "title": "THE WORLD OF VIDEO GAMES",
+      "text": "Video games have become one of the most popular forms 1.1. _________ entertainment in the world. Millions of people play them every day, 1.2. _________ on computers, consoles, or mobile phones. The first video games were created in 1.3. _________ 1970s and were very simple compared to the ones we have today.\n\nSome people believe that video games are bad 1.4. _________ young people, but research has shown that this is not always true. Games can actually help players improve 1.5. _________ problem-solving skills and reaction times. 1.6. _________, it is important not to spend too 1.7. _________ time playing, as it can affect sleep and schoolwork.\n\nToday, professional gaming, 1.8. _________ is known as esports, has become a serious career for many young people. Tournaments are watched 1.9. _________ millions of fans around the world, and the best players can earn 1.10. _________ much as traditional sports stars.",
+      "items": [
+        { "id": "1.1", "answer": "of" },
+        { "id": "1.2", "answer": ["either", "whether"] },
+        { "id": "1.3", "answer": "the" },
+        { "id": "1.4", "answer": "for" },
+        { "id": "1.5", "answer": "their" },
+        { "id": "1.6", "answer": "However" },
+        { "id": "1.7", "answer": "much" },
+        { "id": "1.8", "answer": "which" },
+        { "id": "1.9", "answer": "by" },
+        { "id": "1.10", "answer": "as" }
+      ]
+    }
+  ]
+}

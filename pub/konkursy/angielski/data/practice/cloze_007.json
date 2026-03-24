@@ -1,0 +1,26 @@
+{
+  "title": "Open Cloze: The Sahara Desert",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 10,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
+      "title": "THE SAHARA DESERT",
+      "text": "The Sahara is 1.1. _________ largest hot desert in the world. It covers most of North Africa and is almost 1.2. _________ big as the whole of Europe. Although many people think that the Sahara is nothing 1.3. _________ sand, only about a quarter of it is actually sandy. The rest is made up 1.4. _________ rocky plains and mountains.\n\nDaytime temperatures in the Sahara 1.5. _________ reach over 50 degrees Celsius, but at night 1.6. _________ can drop below freezing. Very 1.7. _________ rain falls in this region, sometimes less than 25 millimetres a year. Despite the extreme conditions, 1.8. _________ animals and plants have adapted to life there.\n\nPeople have lived in the Sahara for thousands of years. The Tuareg are 1.9. _________ of the best-known groups. They have 1.10. _________ travelling across the desert with their camels for centuries, trading goods between different regions.",
+      "items": [
+        { "id": "1.1", "answer": "the" },
+        { "id": "1.2", "answer": "as" },
+        { "id": "1.3", "answer": "but" },
+        { "id": "1.4", "answer": "of" },
+        { "id": "1.5", "answer": "can" },
+        { "id": "1.6", "answer": ["it", "they"] },
+        { "id": "1.7", "answer": ["little", "few"] },
+        { "id": "1.8", "answer": ["some", "many"] },
+        { "id": "1.9", "answer": "one" },
+        { "id": "1.10", "answer": "been" }
+      ]
+    }
+  ]
+}

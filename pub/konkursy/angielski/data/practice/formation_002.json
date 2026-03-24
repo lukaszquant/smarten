@@ -1,0 +1,25 @@
+{
+  "title": "Word Formation: Social Media and Internet",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["COMMUNICATE", "POPULAR", "SAFE", "ADDICT", "INFORM", "FRIEND", "CARE", "CONNECT", "PRIVATE", "ENTERTAIN"],
+      "title": "LIFE ONLINE",
+      "text": "Social media has changed the way we share 1.1. ________ with each other. Platforms like Instagram and TikTok have gained enormous 1.2. ________ among young people. These apps offer hours of 1.3. ________, but users should be 1.4. ________ about what they share online. Protecting your 1.5. ________ is very important because strangers can see your posts. Some teenagers develop an 1.6. ________ to their phones and spend too many hours scrolling. It is also easy to lose real 1.7. ________ if you only talk to people through screens. To stay safe, you should follow basic internet 1.8. ________ rules and never share personal details with people you do not know.",
+      "items": [
+        { "id": "1.1", "answer": "information" },
+        { "id": "1.2", "answer": "popularity" },
+        { "id": "1.3", "answer": "entertainment" },
+        { "id": "1.4", "answer": "careful" },
+        { "id": "1.5", "answer": "privacy" },
+        { "id": "1.6", "answer": "addiction" },
+        { "id": "1.7", "answer": "friendships" },
+        { "id": "1.8", "answer": "safety" }
+      ]
+    }
+  ]
+}

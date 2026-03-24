@@ -1,0 +1,74 @@
+{
+  "title": "Mixed Knowledge: Geography, History and Culture",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "What is the capital of Australia?",
+          "options": ["A. Sydney", "B. Melbourne", "C. Canberra", "D. Brisbane"],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "question": "Which famous clock tower is located next to the Houses of Parliament in London?",
+          "options": ["A. Tower of London", "B. Big Ben", "C. London Eye", "D. The Shard"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "question": "How many states does the United States of America have?",
+          "options": ["A. 48", "B. 50", "C. 51", "D. 52"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "question": "Which river flows through London?",
+          "options": ["A. The Severn", "B. The Mersey", "C. The Thames", "D. The Avon"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "question": "The kiwi bird is a symbol of which country?",
+          "options": ["A. Australia", "B. South Africa", "C. Ireland", "D. New Zealand"],
+          "answer": "D"
+        },
+        {
+          "id": "1.6",
+          "question": "Who wrote 'The Jungle Book'?",
+          "options": ["A. Rudyard Kipling", "B. Charles Dickens", "C. Roald Dahl", "D. Lewis Carroll"],
+          "answer": "A"
+        },
+        {
+          "id": "1.7",
+          "question": "Which famous waterfall is located on the border between Canada and the United States?",
+          "options": ["A. Angel Falls", "B. Victoria Falls", "C. Niagara Falls", "D. Iguazu Falls"],
+          "answer": "C"
+        },
+        {
+          "id": "1.8",
+          "question": "What colour are the famous London double-decker buses?",
+          "options": ["A. Blue", "B. Green", "C. Yellow", "D. Red"],
+          "answer": "D"
+        },
+        {
+          "id": "1.9",
+          "question": "Which country has the Union Jack as its national flag?",
+          "options": ["A. Australia", "B. The United Kingdom", "C. Canada", "D. New Zealand"],
+          "answer": "B"
+        },
+        {
+          "id": "1.10",
+          "question": "The Statue of Liberty in New York was a gift from _______.",
+          "options": ["A. the United Kingdom", "B. Germany", "C. France", "D. Spain"],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Open Cloze: The London Underground",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 10,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
+      "title": "THE LONDON UNDERGROUND",
+      "text": "The London Underground, 1.1. _________ is also known as the Tube, is the oldest underground railway system in the world. It 1.2. _________ opened in 1863, and at that time only a 1.3. _________ thousand passengers used it each day. Today, the Underground carries more 1.4. _________ five million passengers daily. The network consists 1.5. _________ eleven lines and 272 stations, covering over 400 kilometres of track. Many tourists who visit London 1.6. _________ the first time are surprised by 1.7. _________ large the system is. Travelling by Tube is often faster than going 1.8. _________ bus or car, especially during rush hour when the streets are full of traffic. 1.9. _________ of the most famous features of the Underground is its map, which was designed in 1931 and has 1.10. _________ copied by metro systems all around the world.",
+      "items": [
+        { "id": "1.1", "answer": "which" },
+        { "id": "1.2", "answer": "was" },
+        { "id": "1.3", "answer": "few" },
+        { "id": "1.4", "answer": "than" },
+        { "id": "1.5", "answer": "of" },
+        { "id": "1.6", "answer": "for" },
+        { "id": "1.7", "answer": "how" },
+        { "id": "1.8", "answer": "by" },
+        { "id": "1.9", "answer": "One" },
+        { "id": "1.10", "answer": "been" }
+      ]
+    }
+  ]
+}

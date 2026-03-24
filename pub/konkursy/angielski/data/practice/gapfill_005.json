@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "The Mystery of Stonehenge",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "THE MYSTERY OF STONEHENGE\n\nStanding alone on the open plains of Wiltshire in southern England, Stonehenge is one of the world's most recognisable prehistoric monuments. It consists of a circular arrangement of massive standing stones, some weighing as much as 25 tonnes, and it has fascinated visitors and scholars for centuries. 1. _________ Yet despite modern technology and decades of archaeological research, its full purpose remains unknown.\n\nConstruction of Stonehenge took place in several stages over approximately 1,500 years, beginning around 3000 BC. 2. _________ Later, enormous sarsen sandstone blocks were hauled from Marlborough Downs, about 25 kilometres away, and raised into the iconic stone circle we see today.\n\nPerhaps the greatest engineering mystery is how prehistoric people, without metal tools or wheeled vehicles, managed to transport and erect such enormous stones. 3. _________ Others have suggested that wooden sledges, rollers, or even boats along rivers may have been used, though none of these theories has been conclusively proved.\n\nAs for the monument's purpose, astronomers have noted that Stonehenge is precisely aligned with the movements of the sun. 4. _________ This has led many researchers to believe that Stonehenge served as a ceremonial site connected with the agricultural calendar.\n\nArchaeological evidence also suggests that Stonehenge was a place of burial and healing. Human remains have been found at the site dating back to its earliest phase. 5. _________ People may have travelled great distances to be healed or buried at a place believed to have special spiritual power.\n\nToday, Stonehenge attracts around one and a half million visitors every year. 6. _________ Every midsummer, thousands of people gather at the site to watch the sunrise align perfectly with the Heel Stone, just as it has done for five thousand years.",
+      "options": [
+        { "letter": "A", "text": "The first stage involved digging a large circular ditch and erecting smaller bluestones brought from Wales, over 200 kilometres away." },
+        { "letter": "B", "text": "Some scientists believe that the builders used a system of levers, ropes, and large wooden frames to lift the stones into position." },
+        { "letter": "C", "text": "The site is a UNESCO World Heritage monument and one of the most visited tourist attractions in the United Kingdom." },
+        { "letter": "D", "text": "It is still not known who built it or precisely why, questions that have inspired countless legends and theories over the centuries." },
+        { "letter": "E", "text": "On midsummer's day, the rising sun lines up exactly with the central altar stone, flooding it with light." },
+        { "letter": "F", "text": "Analysis of the bones shows that some of these individuals came from as far away as the Mediterranean." },
+        { "letter": "G", "text": "Roman writers described visiting Britain and encountering the mysterious stone circles of the native population." },
+        { "letter": "H", "text": "Many stone circles and burial mounds from the same period have been found across the British Isles and northern France." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "D" },
+        { "id": "1.2", "answer": "A" },
+        { "id": "1.3", "answer": "B" },
+        { "id": "1.4", "answer": "E" },
+        { "id": "1.5", "answer": "F" },
+        { "id": "1.6", "answer": "C" }
+      ]
+    }
+  ]
+}

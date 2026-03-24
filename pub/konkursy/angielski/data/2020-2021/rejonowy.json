@@ -1,0 +1,221 @@
+{
+  "year": "2020/2021",
+  "stage": "rejonowy",
+  "date": "2020-12-01",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1.1.–1.6.) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "PERFECTIONISTIC STUDENTS – WHAT IS THE COST?\n\nFor the last few years psychologists and teachers have spent a great deal of time and effort trying to understand what makes or breaks success in students' educational achievement. Personality factors that explain how people differ have turned out to be extremely important in this regard. 1.1. _________ Perfectionists place irrational significance on achieving their excessive standards, struggle with failure and criticism, and may feel the need to be the best at everything they do.\n\nThe new study shows that perfectionists outperform their non-perfectionist counterparts in exams, receive better grades and have higher grade-point averages. Furthermore, recent evidence suggests that the number of students considered perfectionists is increasing – and has been rising for the last three decades. This may all sound like positive news. 1.2. _________ This is because they view anything short of perfect as unacceptable. When perfectionists make mistakes, fail exams or receive critical feedback, they experience significant psychological distress. 1.3. _________ It may partly explain why these students generally experience much higher rates of this serious medical illness than the majority of the population.\n\nThese issues can become particularly problematic during the transition from one stage of education to the next. 1.4. _________ Here, they are not only faced with a huge number of new stressors but also possibly, a worse performance.\n\nSo before parents and educators are tempted to promote perfectionism, they must be aware that its performance benefits will come at a much greater cost when things go wrong. 1.5. _________ By being aware of who is prone to perfectionistic tendencies, parents and teachers can more easily identify and highlight the differences between reasonable, achievable standards and excessive, perfectionist ones. And students can instead be taught to strive for more appropriate goals. 1.6. _________ But a focus on more realistic and less irrational performance outcomes will help students cope when things do not go to plan. And by encouraging realistic expectations, both parents and teachers can help students to accept their imperfections.",
+      "source": "https://theconversation.com",
+      "options": [
+        { "letter": "A", "text": "One thing that may be helpful in these situations is to better recognise perfectionist characteristics." },
+        { "letter": "B", "text": "For example, when a student leaves college and begins to study at university." },
+        { "letter": "C", "text": "Of course, there is nothing wrong with high standards." },
+        { "letter": "D", "text": "But perfectionists can pay a high price for their greater performance." },
+        { "letter": "E", "text": "This greater performance is visible throughout school, college and university." },
+        { "letter": "F", "text": "This includes stress, burnout and even depression." },
+        { "letter": "G", "text": "One prominent trait that has long been tied to performance is perfectionism." },
+        { "letter": "H", "text": "Perfectionist students are also very concentrated on their need to succeed." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "G" },
+        { "id": "1.2", "answer": "D" },
+        { "id": "1.3", "answer": "F" },
+        { "id": "1.4", "answer": "B" },
+        { "id": "1.5", "answer": "A" },
+        { "id": "1.6", "answer": "C" }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "true_false_ni",
+      "points": 6,
+      "instruction": "Przeczytaj poniższy tekst. Zdecyduj, które zdania (2.1.–2.6.) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False), a które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy i wyrażenia, które odpowiadają definicjom podanym w punktach 2.7.–2.9., wpisując je w formie odpowiadającej podanej definicji. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "HERE'S WHAT HAPPENED WHEN I TRIED A DIGITAL DETOX (PART II)\n\nIn my last post I told you that after reading about the pitfalls of overusing digital devices in both professional and personal life, I gave mine up for 24 hours. Here's the lowdown on what I learned about myself.\n\nSoaring productivity\n\nAll of a sudden, I wasn't clicking open a bunch of tabs, texting or mindlessly scrolling through Facebook. Turns out these distractions add up to a lot of time. Without them, I was able to tackle my to-do list like an old pro. Normally, I'd push back things like studying and laundry, but I no longer had an excuse. By the end of the day, I had checked everything off and felt extremely accomplished.\n\nAppreciating the peace and quiet\n\nBecause I'm so used to having background noise, washing the dishes and folding the laundry felt uncomfortable. Waiting in line: Torture! But when I got used to it, I was much more present and mindful throughout the day, and let my thoughts wander. As a creative individual, I have ideas running through my mind all day. However, I rarely write them down or remember them. Now, because I had zero distractions, I felt more inspired.\n\nMore physical activity\n\nWe all know that we should incorporate physical activity into our daily lives. Easier said than done. If only texting and running at the same time were possible! Because I didn't have a GPS at my disposal, I felt compelled to walk instead of drive. In addition, I wasn't streaming shows after dinner, so I had time to explore the world by foot and I certainly didn't have a hard time accomplishing a task of 10K steps that I had undertaken on that day.\n\nFeeling calmer and more connected\n\nBy the end of the detox, I felt refreshed. I hadn't compared myself to anyone else that day on social media, so I didn't feel vaguely jealous. Instead, I focused on my relationships in real life, and I also embraced the quiet of being alone. I even fell asleep faster, since the light from my phone was not there to confuse my body.\n\nIf you're interested in taking a digital detox, I strongly suggest you plan it in advance. If you do this, you'll feel more confident going in, and you're less likely to look for excuses (just have to check my email, or I just need to look up directions really fast…). Furthermore, make a commitment to your detox. Once it's marked in your calendar, stick to it!\n\nFinally, remember that a positive attitude will make your detox much easier. By the end of it, you'll feel like a brand new person! As Anne Lamott once said, \"Almost everything will work again if you unplug it for a few minutes, including you.\"",
+      "source": "www.tasteofhome.com",
+      "items": [
+        { "id": "2.1", "statement": "The author had some doubts about the length of her detox.", "answer": "NI" },
+        { "id": "2.2", "statement": "The author failed to complete her to-do-list on the detox day.", "answer": "F" },
+        { "id": "2.3", "statement": "The author set herself a physical challenge on the detox day.", "answer": "T" },
+        { "id": "2.4", "statement": "The author noted down her ideas during the detox.", "answer": "NI" }
+      ],
+      "vocabItems": [
+        { "id": "2.5", "definition": "careful about or conscious of something", "answer": ["mindful"] },
+        { "id": "2.6", "definition": "a promise or firm decision to do something", "answer": ["(a) commitment"] },
+        { "id": "2.7", "definition": "the most important facts about something", "answer": ["the lowdown"] },
+        { "id": "2.8", "definition": "available to be used by someone at any time", "answer": ["at sb's disposal", "at my disposal"] },
+        { "id": "2.9", "definition": "to accept something such as a new belief, idea, or way of life with great interest or enthusiasm", "answer": ["(to) embrace"] }
+      ],
+      "scoringScheme": { "9": 6, "8": 5, "7-6": 4, "5-4": 3, "3": 2, "2": 1, "1-0": 0 }
+    },
+    {
+      "id": "3",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (3.1.–3.6.), wybierając jeden z podanych wariantów. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "prompt": "I will have to _______ up on my French before going to Provence.",
+          "options": ["pick", "brush", "cram"],
+          "answer": "B"
+        },
+        {
+          "id": "3.2",
+          "prompt": "My parents took me out for ice cream as a reward because I _______ a particularly hard history test.",
+          "options": ["bombed", "failed", "aced"],
+          "answer": "C"
+        },
+        {
+          "id": "3.3",
+          "prompt": "Rachel _______ through her finals and got A's in everything.",
+          "options": ["swam", "shipped", "sailed"],
+          "answer": "C"
+        },
+        {
+          "id": "3.4",
+          "prompt": "I find this book as dull as _______. Whenever I start reading it, I feel like sleeping.",
+          "options": ["long spaghetti", "ditchwater", "sunflower oil"],
+          "answer": "B"
+        },
+        {
+          "id": "3.5",
+          "prompt": "I think I'm doing well at school – the only _______ is the physics exam in May.",
+          "options": ["cloud on the horizon", "pain in the tooth", "step in the game"],
+          "answer": "A"
+        },
+        {
+          "id": "3.6",
+          "prompt": "Anna is always the first one to do whatever the boss asks. She is such _______.",
+          "options": ["a cold fish", "an eager beaver", "a lone bird"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "open_cloze",
+      "points": 6,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (4.1.–4.10.) jednym wyrazem, tak aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "WANT TO BE A WATER SLIDE TESTER?\n\nThe most amazing thing about a job is when you get paid 4.1. _________ having fun. At the top of the list is becoming a water slide tester. Yes, you are reading this 4.2. _________. This job is real but the opportunity rare. In 4.3. _________, water slide tester is the best profession available right now because who 4.4. _________ not love water parks and above 4.5. _________, water slides?\n\nSafety on water slides is important. This is 4.6. _________ the water slide testers are hired. They check to see if the slides are both fun and safe. A real-life example of someone 4.7. _________ this job and making good money is American Seb Smith, who beat out 2,000 other applicants. Smith travels all 4.8. _________ the world testing slides at water parks before they are deemed ready for the public.\n\nWhen it 4.9. _________ to skills required, you should have good powers of observation, be calm and rational, and keep active on social media (Facebook or Instagram). You also 4.10. _________ to be dedicated, passionate and patient. I am actually waiting for the day when I can apply.",
+      "source": "https://gulfnews.com",
+      "items": [
+        { "id": "4.1", "answer": ["for"] },
+        { "id": "4.2", "answer": ["right", "correctly"] },
+        { "id": "4.3", "answer": ["fact"] },
+        { "id": "4.4", "answer": ["does", "would"] },
+        { "id": "4.5", "answer": ["all"] },
+        { "id": "4.6", "answer": ["why"] },
+        { "id": "4.7", "answer": ["doing"] },
+        { "id": "4.8", "answer": ["(a)round", "over"] },
+        { "id": "4.9", "answer": ["comes"] },
+        { "id": "4.10", "answer": ["need", "have", "ought"] }
+      ],
+      "scoringScheme": { "10": 6, "9": 5, "8-7": 4, "6-5": 3, "4-3": 2, "2": 1, "1-0": 0 }
+    },
+    {
+      "id": "5",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Uzupełnij każde z poniższych zdań (5.1.–5.6.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "5.1", "hint": "_ _ p _ _ _ _ _", "clue": "They were so __ __ p __ __ __ __ __ to get the results of the finals. They just could not wait to get them.", "answer": "impatient" },
+        { "id": "5.2", "hint": "_ _ _ i _ _ _ _", "clue": "Don't interrupt her. She is __ __ __ i __ __ __ __ for her geography exam.", "answer": "revising" },
+        { "id": "5.3", "hint": "_ _ _ _ h _ _ _", "clue": "This course is mainly for __ __ __ __ h __ __ __ but students in the second year should also benefit from it.", "answer": "freshmen" },
+        { "id": "5.4", "hint": "_ _ o _ _ _ _ _ _ _ _ n _ _ _ _", "clue": "He is good enough at football to play __ __ o __ __ __ __ __ __ __ n __ __ __ __ and get paid for it.", "answer": "professionally" },
+        { "id": "5.5", "hint": "_ _ h _ _ _ _ _ _ _ _", "clue": "It is quite an __ __ h __ __ __ __ __ __ __ to be offered a place at such a good university.", "answer": "achievement" },
+        { "id": "5.6", "hint": "_ _ e _ _ _ _", "clue": "The boy received above __ __ e __ __ __ __ marks in all subjects except history.", "answer": "average" }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (6.1.–6.8.) jednym wyrazem, przekształcając wyrazy podane w ramce, tak aby otrzymać logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "wordBank": ["ATTEND", "CONCLUDE", "COMPLAIN", "CONNECT", "DRAMA", "FINANCE", "JOIN", "PROPOSE", "SUPPORT", "WEAK"],
+      "text": "SCHOOL STARTING LATER FOR SOME HIGH SCHOOL STUDENTS\n\nMore school districts in the U.S. are following the advice of scientists who have come to the 6.1. _________ that expecting teens to show up to class before 8 a.m. is not good for their health or their report cards. Research studies have shown that later start times help combat sleep deprivation in teens, who naturally fall asleep later than their parents would like them to improve their academic success, 6.2. _________ and mental health.\n\nThe Seattle school board voted to adopt an 8:45 a.m. start time from next year for all of its high schools and most of its middle schools, 6.3. _________ 70 districts across the nation which have adopted a later start time in recent years. The movement still has a long way to go. 6.4. _________ hope that such decisions will be made more quickly as it can improve students' lives pretty 6.5. _________ in many ways.\n\nThe obstacles are mostly 6.6. _________ and concern transportation issues. St. Paul public schools in Minnesota, were not able to deal with parental 6.7. _________ about earlier start times for elementary students, which were deemed necessary because of the new later times for high school students. It would cost St. Paul about $8 million to add more buses.\n\nIn Seattle, officials encountered the same resistance. Some parents argued that later start times would get in the way of after-school activities like football practice. The Seattle change was approved in part because the district listened to parental feedback during an initial 6.8. _________ and made the final plan more expensive but also more popular.",
+      "source": "https://www.tweentribune.com",
+      "items": [
+        { "id": "6.1", "answer": ["conclusion"] },
+        { "id": "6.2", "answer": ["attendance"] },
+        { "id": "6.3", "answer": ["joining"] },
+        { "id": "6.4", "answer": ["supporters"] },
+        { "id": "6.5", "answer": ["dramatically"] },
+        { "id": "6.6", "answer": ["financial"] },
+        { "id": "6.7", "answer": ["complaints"] },
+        { "id": "6.8", "answer": ["proposal"] }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "sentence_transformation",
+      "points": 10,
+      "instruction": "Przeczytaj zdania (7.1.–7.10.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj form podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "matching_columns",
+      "points": 6,
+      "instruction": "Dopasuj opisy działalności brytyjskich firm (8.1.–8.6.) do ich nazw (A–J). Cztery nazwy zostały podane dodatkowo i nie pasują do żadnego opisu. Przenieś rozwiązania na kartę odpowiedzi.",
+      "options": [
+        { "letter": "A", "text": "Wedgwood" },
+        { "letter": "B", "text": "Twinings" },
+        { "letter": "C", "text": "Pearson" },
+        { "letter": "D", "text": "The Financial Times" },
+        { "letter": "E", "text": "Barclays" },
+        { "letter": "F", "text": "Unilever" },
+        { "letter": "G", "text": "Cadbury" },
+        { "letter": "H", "text": "Sainsbury's" },
+        { "letter": "I", "text": "Burberry" },
+        { "letter": "J", "text": "GlaxoSmithKline" }
+      ],
+      "items": [
+        { "id": "8.1", "label": "an investment bank and financial services company", "answer": "E" },
+        { "id": "8.2", "label": "a pharmaceutical company", "answer": "J" },
+        { "id": "8.3", "label": "the second largest chain of supermarkets in UK", "answer": "H" },
+        { "id": "8.4", "label": "Britain's oldest tea company", "answer": "B" },
+        { "id": "8.5", "label": "a fine china, porcelain and luxury accessories manufacturer", "answer": "A" },
+        { "id": "8.6", "label": "a confectionery company", "answer": "G" }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiąż zadania (9.1.–9.4.), udzielając odpowiedzi w języku angielskim. Wymagana jest pełna poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "9.1",
+          "question": "Put the UK's universities in order starting with the oldest: the University of Cambridge, the University of Edinburgh, the University of Oxford, the University of St Andrews.",
+          "answer": ["1. University of Oxford", "2. University of Cambridge", "3. University of St Andrews", "4. University of Edinburgh"],
+          "points": 2
+        },
+        {
+          "id": "9.2",
+          "question": "What does the notion of the three R's (or Rs) refer to in the British educational system? Explain what the three R's stand for.",
+          "answer": ["It refers to the basic areas of education (reading, writing, and mathematics) / the basic things that British children must learn in school. The three R's stand for reading, writing, and arithmetic."],
+          "points": 2
+        },
+        {
+          "id": "9.3",
+          "question": "A mortarboard, a square, a trencher are synonyms for the same thing. What is it?",
+          "answer": ["This is an academic cap / a graduation cap / a black cap with a flat square top (and a tassel) worn on formal occasions and ceremonies by some teachers and students at a college or university."],
+          "points": 1
+        },
+        {
+          "id": "9.4",
+          "question": "Eton is a well-known English public school for boys, situated close to the town of Windsor. It famously competes with another boys' public school located in northwest London. What is the name of the other school?",
+          "answer": ["Harrow", "Harrow School"],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

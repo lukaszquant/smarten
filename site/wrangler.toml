@@ -1,0 +1,7 @@
+name = "smarten"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+
+[[kv_namespaces]]
+binding = "RESULTS"
+id = "e3be877201b24c4496ad814b8799a34c"

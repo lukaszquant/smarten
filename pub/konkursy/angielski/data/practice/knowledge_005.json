@@ -1,0 +1,124 @@
+{
+  "title": "British Monarchy & Government",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "Who is the current King of the United Kingdom (as of 2024)?",
+          "options": [
+            "A. King Edward IX",
+            "B. King William V",
+            "C. King Charles III",
+            "D. King George VII"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "question": "Which palace is the official London residence of the British monarch?",
+          "options": [
+            "A. Windsor Castle",
+            "B. Kensington Palace",
+            "C. Buckingham Palace",
+            "D. Hampton Court Palace"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "question": "The British Parliament is made up of two houses: the House of Commons and the _______.",
+          "options": [
+            "A. House of Representatives",
+            "B. House of Lords",
+            "C. Senate",
+            "D. House of Nobles"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "question": "Queen Elizabeth II reigned for approximately _______ years.",
+          "options": [
+            "A. 50",
+            "B. 60",
+            "C. 70",
+            "D. 80"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "question": "Where does the British Parliament meet?",
+          "options": [
+            "A. Buckingham Palace",
+            "B. The Tower of London",
+            "C. Westminster Palace (Houses of Parliament)",
+            "D. St. James's Palace"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "question": "The head of the British government is called the _______.",
+          "options": [
+            "A. President",
+            "B. Chancellor",
+            "C. Prime Minister",
+            "D. Governor"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.7",
+          "question": "Which famous London landmark was originally built as a royal palace and later used as a prison?",
+          "options": [
+            "A. Big Ben",
+            "B. The Tower of London",
+            "C. Westminster Abbey",
+            "D. St. Paul's Cathedral"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.8",
+          "question": "The Crown Jewels of the United Kingdom are kept in _______.",
+          "options": [
+            "A. Buckingham Palace",
+            "B. Windsor Castle",
+            "C. The Tower of London",
+            "D. The British Museum"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.9",
+          "question": "Which famous queen ruled England for 45 years and the era was named after her (the Elizabethan era)?",
+          "options": [
+            "A. Queen Victoria",
+            "B. Queen Elizabeth I",
+            "C. Queen Mary I",
+            "D. Queen Anne"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.10",
+          "question": "The guards who protect the Tower of London are traditionally called _______.",
+          "options": [
+            "A. Redcoats",
+            "B. Beefeaters (Yeoman Warders)",
+            "C. Grenadiers",
+            "D. Knights"
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

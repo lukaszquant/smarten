@@ -1,0 +1,191 @@
+{
+  "year": "2020/2021",
+  "stage": "wojewodzki",
+  "date": "2021-02-08",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "listening_true_false_ni",
+      "points": 5,
+      "instruction": "Usłyszysz dwukrotnie tekst. Zaznacz znakiem X w tabeli, które zdania (1.1.–1.7.) są zgodne z treścią nagrania (T – True), które są z nią niezgodne (F – False) oraz które zawierają informacje niepodane w tekście nagrania (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": [],
+      "scoringScheme": { "7": 5, "6": 4, "5": 3, "4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "2",
+      "type": "listening_open",
+      "points": 5,
+      "instruction": "Usłyszysz dwukrotnie tekst o szkolnej wycieczce. Na podstawie informacji zawartych w nagraniu uzupełnij luki (2.1.–2.5.) tak, aby jak najbardziej precyzyjnie oddać sens wysłuchanego tekstu i otrzymać poprawne zdania. W każdą lukę możesz wpisać maksymalnie 5 wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "3",
+      "type": "gap_fill_sentences",
+      "points": 5,
+      "instruction": "Przeczytaj tekst. Do każdej luki (3.1.–3.5.) dopasuj właściwe zdanie (A–G) tak, aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "HOW WOMEN BROKE INTO THE MALE-DOMINATED WORLD OF CARTOONS AND ILLUSTRATIONS\n\nDalia Messick was a cartoonist who struggled to get her work published. She got a couple pieces of advice from her friend, a famous illustrator. 3.1. _________ Messick did both, recasting her bandit protagonist as a journalist and adopting the pen name \"Dale\". By the 1950s her strip, \"Brenda Starr, Reporter\", appeared in over 250 papers. Readers loved the globe-trotting adventures and romances of Brenda.\n\nMessick's story is just one example of the struggles faced by female artists. There is a new exhibition called \"Drawn to Purpose: American Women Illustrators and Cartoonists\" at the Library of Congress. 3.2. _________ It shows how women broke into these male-dominated fields.\n\nMartha Kennedy is the curator of popular and applied graphic arts at the Library of Congress. She centered the exhibit around two themes. 3.3. _________ Secondly, how this subject is presented in different art forms. The goal is to foster a sense of shared history among female artists. She wants to inspire younger generations entering these fields and spur further research into the library's collections.\n\n\"There are a lot of women who did really interesting, innovative work and are worthy of further study\", Kennedy says. The earliest examples are female artists from the \"Golden Age of Illustration\", the years between 1890 and 1930 that paralleled the turn-of-the-century renaissance in publishing. 3.4. _________ Female artists interested in creating cartoons and comics then were often limited to drawing cute kids and animals. Only a handful of them drew scenes from outside these subjects and examined changing conventions of the era.\n\nMessick started drawing Brenda Starr in 1940. 3.5. _________ Featuring a worthy female counterpart to male heroes in adventure strips, Brenda Starr marked a milestone among strips by women. At that point \"Dale\" Messick was able to tap into a genre of cartoons that was mostly restricted to male artists.\n\nIf you want to know the whole story, just visit the exhibition at the Library of Congress.",
+      "source": "https://www.tweentribune.com",
+      "options": [
+        { "letter": "A", "text": "The comic strip caused an important shift in subject matter." },
+        { "letter": "B", "text": "It is dedicated to exploring the lesser-known, centuries-spanning contributions of female artists." },
+        { "letter": "C", "text": "Firstly, she wanted to explore how gender relations have changed over time." },
+        { "letter": "D", "text": "It was a feminist ideal that took root in the late 19th century." },
+        { "letter": "E", "text": "She was told to change her character's profession and even her own name." },
+        { "letter": "F", "text": "She was not willing to include their work in anthologies." },
+        { "letter": "G", "text": "As magazine, newspaper and book printing flourished at that time, many women built careers illustrating children's books." }
+      ],
+      "items": [
+        { "id": "3.1", "answer": "E" },
+        { "id": "3.2", "answer": "B" },
+        { "id": "3.3", "answer": "C" },
+        { "id": "3.4", "answer": "G" },
+        { "id": "3.5", "answer": "A" }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "true_false_ni",
+      "points": 10,
+      "instruction": "Przeczytaj poniższy tekst. Zaznacz znakiem X w tabeli, które zdania (4.1.–4.7.) są zgodne z treścią tekstu (T – True), które są z nią niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy i wyrażenia, które odpowiadają definicjom podanym w punktach 4.8.–4.12., i wpisz je w formie odpowiadającej podanej definicji. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "MY FOOD TRUCK\n\nI am Erica Lassair, the Diva Dawg truck owner. It took me some time to acquire it.\n\nOnce I had graduated in 2001, I took a job with a finance company to become a retail credit analyst, the person who checks your credit when you buy a car at a dealership. The job was in Dallas and I was determined to get out of Louisiana to see different parts of the country. At our main office, we used to do a lot of potlucks. It was the first time I discovered people outside of my family loved my food. I was creative with my dishes, which always had a New Orleans Creole flavor. I would get requests from coworkers to cook at their dinner parties.\n\nWhen Hurricane Katrina hit New Orleans in 2005, my parents and little brother came to live with me in Dallas. They thought it would be just until the storm blew over, but they actually couldn't go back home for eight months. When they left, I felt so empty. I realized I wanted to be at home. I started asking for assignments that took me to Louisiana, and I would use my miles to fly home on the weekends.\n\nI was good at my job, but I was miserable. After a year, I knew I had to quit. Being at home felt good. I got a retail job and tried to map out my future. I started thinking of going into the food industry. I applied to a two-year culinary program at a community college and the prerequisite was to get a job at a restaurant. I interviewed at Commander's Palace, which is a historic restaurant in New Orleans. I was intimidated but the chef gave me a chance. I worked in the dessert department making bread pudding soufflés earning $7 an hour.\n\nI graduated from the culinary program in 2010. One day, I was craving hot dogs, and I bought some regular wieners and buns, and a can of chili. I added my Creole flavors to them and ended up eating them all week. The idea hit me to open Diva Dawg, a Creole-inspired hot dog restaurant. We got a great turnout. I could barely keep up.\n\nA year later, competition drove us out of business, and I took some time to make up my mind what to do next. I kept a smile on my face, but inside I was struggling. Even though I was in a funk, I followed through on the Urban League program that helps small-business owners sharpen up their skills with classes and networking, and at the end, there is a competition and a $10,000 prize. I put everything into it. My new business plan was to do a hot dog food truck. I decided to go for it and I won the competition.\n\nWe got approved for the loan, and my meat guy told me about someone who was selling their food truck and moving back to L.A. We cleaned the truck, painted it, and rebranded it. We mostly worked lunches, parking the truck near the hospital and some office buildings. I was determined. My ankles were swollen and I was sleep-deprived. I cried in the corner on the truck like a baby because I was so overwhelmed. After two months in business, we had money saved, and that's when I knew everything was probably going to be fine. Now we reserve the truck for festivals, catered events, and parties. Our schedule is always random and unpredictable, and we can get a call to do a job on the same day. I want to develop my own line of sauces and cookware, host a TV show and maybe one day make Diva Dawg a national brand. But I will first focus on getting into the airport, then malls. With everything that I pursue in life I have a vision first, then I have to bring it to life.",
+      "source": "https://www.cosmopolitan.com",
+      "items": [
+        { "id": "4.1", "statement": "Before moving to Dallas, Erica got a lot of praise for her food from strangers.", "answer": "F" },
+        { "id": "4.2", "statement": "Erica's family desperately wanted to get back to New Orleans.", "answer": "NI" },
+        { "id": "4.3", "statement": "When Erica came back home, she immediately started to work in the food industry.", "answer": "F" },
+        { "id": "4.4", "statement": "Erica was satisfied with her work at Commander's Palace.", "answer": "NI" },
+        { "id": "4.5", "statement": "At first, Diva Dawg was a successful restaurant.", "answer": "T" },
+        { "id": "4.6", "statement": "You have to reserve the Diva Dawg truck in advance.", "answer": "F" },
+        { "id": "4.7", "statement": "Making Diva Dawg a national brand is Erica's priority.", "answer": "F" }
+      ],
+      "vocabItems": [
+        { "id": "4.8", "definition": "to be very unhappy, miserable and without hope", "answer": ["(to be) in a funk"] },
+        { "id": "4.9", "definition": "something that is necessary before something else can happen or be done", "answer": ["(a) prerequisite"] },
+        { "id": "4.10", "definition": "to have an extremely strong desire for something", "answer": ["(to) crave", "(to) be craving"] },
+        { "id": "4.11", "definition": "a meal in which everyone who is invited brings something to eat", "answer": ["(a) potluck"] },
+        { "id": "4.12", "definition": "frightened or nervous because you are not confident in a situation", "answer": ["intimidated"] }
+      ],
+      "scoringScheme": {
+        "items": { "7": 5, "6": 4, "5": 3, "4": 2, "3-2": 1, "1-0": 0 },
+        "vocabItems": "1 punkt za poprawną odpowiedź"
+      }
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (5.1.–5.10.) jednym wyrazem tak, aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych słów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "IT ALL STARTED WITH A BATH!\n\nIn 2012, Caroline and Isabel Bercaw were, like many 11- and 12-year-old girls, obsessed 5.1. _________ bath bombs. They experimented with their own recipes for the fizzy, fragrant balls, adding a surprise in the middle, like a small toy. They tried selling a few at a local art fair in Minneapolis - and realized they had 5.2. _________ instant hit.\n\nBy 2015, their product was in 30 local shops, and following a successful trip to Atlanta for an international trade show in 2016, they started selling it in stores across the country. \"We were 5.3. _________ 20,000 bath bombs a month, in our basement\", Isabel says.\n\nThen Target (the 8th largest retailer in the US) called and everything changed. \"They wanted us in 1,800 stores\", Isabel says. \"We knew we 5.4. _________ to get our act together quickly\". That was when the sisters' mom stepped in 5.5. _________ their manager, while the sisters 5.6. _________ on product development and marketing. Production and storage moved to a nearby warehouse. The girls enrolled in their school's On the Job program, which 5.7. _________ them use a certain amount of school time as work time.\n\nToday, Da Bomb remains self-funded and generates 5.8. _________ than $20 million in annual revenue. \"It's a big business - but it's also a family business. It 5.9. _________ brought us closer. We always have each 5.10. _________ backs\".\n\nWell, almost always. \"I've been fired five times\", jokes the manager and mom Kim.",
+      "source": "https://www.entrepreneur.com",
+      "items": [
+        { "id": "5.1", "answer": ["by", "with"] },
+        { "id": "5.2", "answer": ["an"] },
+        { "id": "5.3", "answer": ["making", "producing"] },
+        { "id": "5.4", "answer": ["had"] },
+        { "id": "5.5", "answer": ["as"] },
+        { "id": "5.6", "answer": ["focused", "concentrated", "worked"] },
+        { "id": "5.7", "answer": ["let"] },
+        { "id": "5.8", "answer": ["more"] },
+        { "id": "5.9", "answer": ["has"] },
+        { "id": "5.10", "answer": ["other's"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 4,
+      "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w słowie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "_ _ _ d _ _ _ _", "clue": "He waited too long and missed the __ __ __ d __ __ __ __ to apply to university.", "answer": "deadline" },
+        { "id": "6.2", "hint": "_ _ _ l _ _ _ _ _", "clue": "Professionally __ __ __ l __ __ __ __ __ staff will give you the advice you need.", "answer": "qualified" },
+        { "id": "6.3", "hint": "_ _ p _ _ _ _ _", "clue": "He was __ __ p __ __ __ __ __ from school for hitting another student.", "answer": "expelled" },
+        { "id": "6.4", "hint": "_ _ _ _ _ u _ _", "clue": "Many interviewers are interested in how job candidates work under __ __ __ __ __ u __ __.", "answer": "pressure" }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (7.1.–7.8.) jednym wyrazem, przekształcając wyrazy podane w ramce, tak aby otrzymać spójny, logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "wordBank": ["CARE", "DIFFICULT", "ENGAGE", "EXIST", "LIKE", "MINOR", "PARTICULAR", "REMOTE", "SILENT", "SURVEY"],
+      "text": "CORONAVIRUS ONLINE LEARNING REPORT\n\nIn June 2020 about 2,000 parents and carers were 7.1. _________ about online learning in coronavirus by Stranmillis University College. It turned out that the 7.2. _________ of families had thrived, but many others had struggled. Here are the results.\n\nKey workers and parents who were working from home said they had faced certain 7.3. _________ in homeschooling their children. They had to share devices and some pupils had to try to complete work on their mobile phones.\n\nAccording to the study many parents felt overwhelmed and burnt out by the whole experience. Furthermore, there were issues around internet connectivity, 7.4. _________ in rural areas. Consequently, there were concerns that 7.5. _________ inequalities in education were 7.6. _________ to increase due to the fact children had not been in class.\n\nMany young students, if they have not got siblings in the house, have really been quite isolated in terms of social interaction with their peers over the last three months. They were left to suffer in 7.7. _________ during this pandemic as they were not in school.\n\nIn conclusion, more is needed to be done if pupils are still going to be taught 7.8. _________. What happened in the previous term, cannot be repeated going forward into September.",
+      "source": "https://www.bbc.com",
+      "items": [
+        { "id": "7.1", "answer": ["surveyed"] },
+        { "id": "7.2", "answer": ["minority"] },
+        { "id": "7.3", "answer": ["difficulties"] },
+        { "id": "7.4", "answer": ["particularly"] },
+        { "id": "7.5", "answer": ["existing"] },
+        { "id": "7.6", "answer": ["likely"] },
+        { "id": "7.7", "answer": ["silence"] },
+        { "id": "7.8", "answer": ["remotely"] }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (8.1.–8.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj form podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "9",
+      "type": "matching",
+      "points": 4,
+      "instruction": "Dopasuj do nazw uczelni (9.1.–9.4.) ich lokalizację (A–F). Dwie lokalizacje zostały podane dodatkowo i nie pasują do żadnej uczelni. Przenieś rozwiązania na kartę odpowiedzi.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "Cambridge, Massachusetts" },
+        { "letter": "B", "text": "Stanford, California" },
+        { "letter": "C", "text": "Philadelphia, Pennsylvania" },
+        { "letter": "D", "text": "Providence, Rhode Island" },
+        { "letter": "E", "text": "New York City, New York" },
+        { "letter": "F", "text": "New Haven, Connecticut" }
+      ],
+      "items": [
+        { "id": "9.1", "label": "Columbia University", "answer": "E" },
+        { "id": "9.2", "label": "Harvard University", "answer": "A" },
+        { "id": "9.3", "label": "Yale University", "answer": "F" },
+        { "id": "9.4", "label": "Brown University", "answer": "D" }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiąż zadania 10.1.–10.4., udzielając odpowiedzi w języku angielskim. Wymagana jest poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "10.1",
+          "question": "What does the abbreviation \"SAT\" in the US educational system stand for? Explain what it is.",
+          "answer": ["SAT stands for Scholastic Aptitude Test. It is a standard test / an examination that American high school students take in order to measure their abilities before they go to a college or University (it tests language and mathematical skills)."],
+          "points": 2
+        },
+        {
+          "id": "10.2",
+          "question": "What does \"K-12\" in the US educational system stand for? Explain what it is.",
+          "answer": ["It refers to US primary and secondary education from kindergarten to the 12th grade / kindergarten and grades 1-12 (ages 5-17) / from kindergarten to the last year of high school / (all education throughout these years is paid for by the government). \"K\" stands for kindergarten and \"12\" for twelfth grade (the last year of high school in the US)."],
+          "points": 2
+        },
+        {
+          "id": "10.3",
+          "question": "What is Yale's official athletic nickname?",
+          "answer": ["Bulldogs"],
+          "points": 1
+        },
+        {
+          "id": "10.4",
+          "question": "What is the name of the American multinational technology company which started as an online bookstore and is currently the e-commerce leader in the US?",
+          "answer": ["Amazon", "Amazon.com"],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

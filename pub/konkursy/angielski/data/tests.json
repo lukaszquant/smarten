@@ -1,0 +1,67 @@
+{
+  "tests": [
+    {
+      "year": "2025/2026",
+      "yearPath": "2025-2026",
+      "stages": [
+        { "stage": "szkolny", "date": "2025-10-10", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2025-11-28", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2026-03-05", "maxPoints": 60 }
+      ]
+    },
+    {
+      "year": "2024/2025",
+      "yearPath": "2024-2025",
+      "stages": [
+        { "stage": "szkolny", "date": "2024-10-11", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2024-12-10", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2025-03-07", "maxPoints": 60 }
+      ]
+    },
+    {
+      "year": "2023/2024",
+      "yearPath": "2023-2024",
+      "stages": [
+        { "stage": "szkolny", "date": "2023-10-06", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2023-12-07", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2024-03-01", "maxPoints": 60 }
+      ]
+    },
+    {
+      "year": "2022/2023",
+      "yearPath": "2022-2023",
+      "stages": [
+        { "stage": "szkolny", "date": "2022-10-20", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2023-01-05", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2023-03-03", "maxPoints": 60 }
+      ]
+    },
+    {
+      "year": "2021/2022",
+      "yearPath": "2021-2022",
+      "stages": [
+        { "stage": "szkolny", "date": "2021-10-20", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2021-12-08", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2022-02-16", "maxPoints": 60 }
+      ]
+    },
+    {
+      "year": "2020/2021",
+      "yearPath": "2020-2021",
+      "stages": [
+        { "stage": "szkolny", "date": "2020-10-23", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2020-12-01", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2021-02-08", "maxPoints": 60 }
+      ]
+    },
+    {
+      "year": "2019/2020",
+      "yearPath": "2019-2020",
+      "stages": [
+        { "stage": "szkolny", "date": "2019-10-23", "maxPoints": 40 },
+        { "stage": "rejonowy", "date": "2019-12-02", "maxPoints": 60 },
+        { "stage": "wojewodzki", "date": "2020-02-06", "maxPoints": 60 }
+      ]
+    }
+  ]
+}

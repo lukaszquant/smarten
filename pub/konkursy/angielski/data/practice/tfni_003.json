@@ -1,0 +1,23 @@
+{
+  "title": "True/False/NI: The Amazon Rainforest",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
+      "text": "THE AMAZON RAINFOREST\n\nThe Amazon Rainforest is the largest tropical rainforest on Earth, covering approximately 5.5 million square kilometres. It spreads across nine countries in South America, but the biggest part — about 60 percent — is located in Brazil. The forest is often called \"the lungs of the planet\" because its trees produce a huge amount of oxygen and absorb carbon dioxide from the atmosphere.\n\nThe Amazon is home to an incredible variety of life. Scientists estimate that the rainforest contains around 10 percent of all species found on Earth. There are approximately 40,000 plant species, 1,300 bird species, and more than 3,000 types of fish living in its rivers. New species are still being discovered regularly — researchers find an average of one new species every two days.\n\nThe Amazon River, which flows through the heart of the rainforest, is the second longest river in the world after the Nile. However, it carries more water than any other river — roughly 20 percent of all the fresh water that flows into the world's oceans comes from the Amazon. During the rainy season, parts of the river can be over 30 kilometres wide.\n\nIndigenous peoples have lived in the Amazon for thousands of years. Today, there are still about 400 different indigenous groups in the rainforest, and some of them have had almost no contact with the outside world. These communities have deep knowledge of the forest's plants and many of the medicines they use come directly from the rainforest.\n\nUnfortunately, the Amazon is under serious threat from deforestation. Every year, large areas of forest are cut down to make space for cattle farming and to grow crops such as soybeans. Between 2001 and 2020, the Amazon lost approximately 8 percent of its total area. Environmental organisations warn that if deforestation continues at this rate, it could have devastating effects on the global climate.",
+      "items": [
+        { "id": "1.1", "statement": "The Amazon Rainforest extends across nine South American nations.", "answer": "T" },
+        { "id": "1.2", "statement": "The Amazon Rainforest is called \"the lungs of the planet\" because of the oxygen its trees produce.", "answer": "T" },
+        { "id": "1.3", "statement": "Scientists have already identified all species living in the Amazon Rainforest.", "answer": "F" },
+        { "id": "1.4", "statement": "The Amazon River is the longest river in the world.", "answer": "F" },
+        { "id": "1.5", "statement": "The water temperature of the Amazon River stays above 25 degrees Celsius all year round.", "answer": "NI" },
+        { "id": "1.6", "statement": "Some indigenous groups in the Amazon have never had contact with modern civilisation.", "answer": "T" },
+        { "id": "1.7", "statement": "The Brazilian government has banned all logging in the Amazon Rainforest.", "answer": "NI" },
+        { "id": "1.8", "statement": "Cattle farming is one of the reasons for deforestation in the Amazon.", "answer": "T" }
+      ]
+    }
+  ]
+}

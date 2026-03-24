@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "The Story of the Internet",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "THE STORY OF THE INTERNET\n\nIt is hard to imagine modern life without the internet. We use it to communicate, shop, learn, work, and entertain ourselves. Yet this technology, which now connects billions of people around the world, has a surprisingly short history. 1. _________ At first, it was nothing more than a way for a handful of American universities and research centres to share data.\n\nThe origins of the internet lie in a US military project called ARPANET, which was developed in the late 1960s. 2. _________ On 29 October 1969, the first message was sent between computers at UCLA and Stanford University. The system crashed after just two letters, but the principle had been proved.\n\nFor the next two decades, the network remained a tool used almost exclusively by scientists and academics. 3. _________ This was the World Wide Web, invented by British computer scientist Tim Berners-Lee while working at the CERN laboratory in Switzerland.\n\nBerners-Lee's invention made it possible to create and link documents across the internet using a system of addresses and hyperlinks. 4. _________ Within just a few years, the number of websites grew from a handful to millions, and ordinary people began to go online for the first time.\n\nThe late 1990s saw an explosion of new internet-based businesses, a period known as the dot-com boom. 5. _________ When many of these companies collapsed in 2000, billions of dollars were lost in what became known as the dot-com crash.\n\nDespite this setback, the internet continued to evolve. Social media, smartphones, and streaming services transformed it from a tool for finding information into a platform for every aspect of life. 6. _________ Today, over five billion people are connected to the internet, and that number continues to grow.",
+      "options": [
+        { "letter": "A", "text": "The technology only became accessible to the general public in the early 1990s, when a new invention changed everything." },
+        { "letter": "B", "text": "Investors poured money into internet start-ups, many of which had no clear business plan or path to profit." },
+        { "letter": "C", "text": "Suddenly, anyone with a computer and a phone line could publish information and communicate globally for almost no cost." },
+        { "letter": "D", "text": "The internet that most people use today was born less than sixty years ago." },
+        { "letter": "E", "text": "The project was designed to allow communication to continue even if parts of the network were destroyed in a nuclear attack." },
+        { "letter": "F", "text": "The rise of mobile internet means that billions of people in developing countries now have access to information they never had before." },
+        { "letter": "G", "text": "Governments around the world have struggled to create laws that keep pace with the rapid development of online technology." },
+        { "letter": "H", "text": "Computer scientists working on ARPANET invented several key technologies, including email, which is still widely used today." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "D" },
+        { "id": "1.2", "answer": "E" },
+        { "id": "1.3", "answer": "A" },
+        { "id": "1.4", "answer": "C" },
+        { "id": "1.5", "answer": "B" },
+        { "id": "1.6", "answer": "F" }
+      ]
+    }
+  ]
+}

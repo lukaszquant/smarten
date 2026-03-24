@@ -1,0 +1,24 @@
+{
+  "type": "practice",
+  "title": "Vocabulary in Context",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 10,
+      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "items": [
+        { "id": "1.1", "stem": "The teacher asked the students to _______ attention during the lesson.", "options": ["give", "pay", "make"], "answer": "B" },
+        { "id": "1.2", "stem": "Could you _______ me a favour and post this letter?", "options": ["make", "do", "give"], "answer": "B" },
+        { "id": "1.3", "stem": "It's important to _______ a healthy diet if you want to stay fit.", "options": ["hold", "keep", "remain"], "answer": "B" },
+        { "id": "1.4", "stem": "She _______ a deep breath before walking onto the stage.", "options": ["took", "made", "did"], "answer": "A" },
+        { "id": "1.5", "stem": "We need to _______ a decision by the end of the day.", "options": ["do", "take", "make"], "answer": "C" },
+        { "id": "1.6", "stem": "He couldn't _______ the difference between the two paintings.", "options": ["say", "tell", "speak"], "answer": "B" },
+        { "id": "1.7", "stem": "I'm going to _______ an exam next week, so I need to study hard.", "options": ["make", "pass", "take"], "answer": "C" },
+        { "id": "1.8", "stem": "The shop assistant was very helpful and gave us good _______.", "options": ["advise", "advice", "advices"], "answer": "B" },
+        { "id": "1.9", "stem": "Despite the bad weather, we had a really _______ time at the festival.", "options": ["pleasant", "pleased", "pleasing"], "answer": "A" },
+        { "id": "1.10", "stem": "She _______ an apology for her rude behaviour.", "options": ["did", "gave", "made"], "answer": "C" }
+      ]
+    }
+  ]
+}

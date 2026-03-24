@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "World Capitals",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Dopasuj nazwy krajów (1–6) do ich stolic (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "Canberra" },
+        { "letter": "B", "text": "Buenos Aires" },
+        { "letter": "C", "text": "Nairobi" },
+        { "letter": "D", "text": "Ottawa" },
+        { "letter": "E", "text": "Sydney" },
+        { "letter": "F", "text": "Cairo" },
+        { "letter": "G", "text": "Brasília" },
+        { "letter": "H", "text": "Bogotá" }
+      ],
+      "items": [
+        { "id": "1.1", "label": "Australia", "answer": "A" },
+        { "id": "1.2", "label": "Argentina", "answer": "B" },
+        { "id": "1.3", "label": "Kenya", "answer": "C" },
+        { "id": "1.4", "label": "Canada", "answer": "D" },
+        { "id": "1.5", "label": "Egypt", "answer": "F" },
+        { "id": "1.6", "label": "Brazil", "answer": "G" }
+      ]
+    }
+  ]
+}

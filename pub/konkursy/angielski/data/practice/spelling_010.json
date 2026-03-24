@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Work, Jobs & Daily Life",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "She has a lot of e _ p _ r _ _ _ c e in teaching young children.",
+          "hint": "e _ p _ r _ _ _ c e",
+          "answer": "experience"
+        },
+        {
+          "id": "1.2",
+          "stem": "His daily r _ _ t _ _ e includes jogging in the morning and reading before bed.",
+          "hint": "r _ _ t _ _ e",
+          "answer": "routine"
+        },
+        {
+          "id": "1.3",
+          "stem": "The company is looking for r _ s _ _ n _ _ b _ e employees who can work independently.",
+          "hint": "r _ s _ _ n _ _ b _ e",
+          "answer": "responsible"
+        },
+        {
+          "id": "1.4",
+          "stem": "He received an excellent r _ c _ m _ _ _ d _ _ _ _ n from his previous employer.",
+          "hint": "r _ c _ m _ _ _ d _ _ _ _ n",
+          "answer": "recommendation"
+        },
+        {
+          "id": "1.5",
+          "stem": "The v _ l _ _ t _ _ r s helped clean up the park every Saturday morning.",
+          "hint": "v _ l _ _ t _ _ r s",
+          "answer": "volunteers"
+        },
+        {
+          "id": "1.6",
+          "stem": "Being p _ _ c _ _ a l is very important when you have a job interview.",
+          "hint": "p _ _ c _ _ a l",
+          "answer": "punctual"
+        },
+        {
+          "id": "1.7",
+          "stem": "She wants to become an a _ c _ _ _ t _ _ t because she is very good at maths.",
+          "hint": "a _ c _ _ _ t _ _ t",
+          "answer": "accountant"
+        },
+        {
+          "id": "1.8",
+          "stem": "The manager held a meeting to discuss the new s _ h _ d _ _ e for next month.",
+          "hint": "s _ h _ d _ _ e",
+          "answer": "schedule"
+        }
+      ]
+    }
+  ]
+}

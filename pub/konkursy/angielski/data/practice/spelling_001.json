@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Personality & Character Traits",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "My sister is really g _ n _ _ _ _ _. She always buys us wonderful presents.",
+          "hint": "g _ n _ _ _ _ _",
+          "answer": "generous"
+        },
+        {
+          "id": "1.2",
+          "stem": "Tom never shares his things with others. He only thinks about himself. He is very s _ _ _ _ s h.",
+          "hint": "s _ _ _ _ s h",
+          "answer": "selfish"
+        },
+        {
+          "id": "1.3",
+          "stem": "You can always count on Maria. She is very r _ l _ _ _ _ e.",
+          "hint": "r _ l _ _ _ _ e",
+          "answer": "reliable"
+        },
+        {
+          "id": "1.4",
+          "stem": "My brother gets angry when he has to wait. He is quite i _ p _ _ _ _ _ t.",
+          "hint": "i _ p _ _ _ _ _ t",
+          "answer": "impatient"
+        },
+        {
+          "id": "1.5",
+          "stem": "She always tells the truth, even when it is difficult. She is very h _ n _ _ t.",
+          "hint": "h _ n _ _ t",
+          "answer": "honest"
+        },
+        {
+          "id": "1.6",
+          "stem": "Jake works very hard and wants to become a doctor one day. He is extremely a _ b _ _ _ _ _ s.",
+          "hint": "a _ b _ _ _ _ _ s",
+          "answer": "ambitious"
+        },
+        {
+          "id": "1.7",
+          "stem": "Anna is so s _ _ s _ _ _ v _. She cries every time she watches a sad film.",
+          "hint": "s _ _ s _ _ _ v _",
+          "answer": "sensitive"
+        },
+        {
+          "id": "1.8",
+          "stem": "Our new neighbour is very s _ c _ _ _ _ e. He talks to everyone and makes friends easily.",
+          "hint": "s _ c _ _ _ _ e",
+          "answer": "sociable"
+        }
+      ]
+    }
+  ]
+}

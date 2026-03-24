@@ -1,0 +1,196 @@
+{
+  "year": "2020/2021",
+  "stage": "szkolny",
+  "date": "2020-10-23",
+  "maxPoints": 40,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Przeczytaj poniższy tekst. Zaznacz w tabeli znakiem X, które zdania (1.1.–1.3.) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "MEET THE ILLUSTRATOR WHO BROUGHT CHILDREN'S BOOKS TO LIFE\n\nStarting in the late 19th century, advances in printing technology allowed images to be printed cheaply and in lively colour. Consumers of newspapers and books, began to demand images to complement the words they were purchasing. These factors led to the rise of the so-called \"Golden Age of Illustration.\" One of the leading figures of this age was the English artist Arthur Rackham, who was born 150 years ago, in the South London borough of Lewisham.\n\nYou might not know his name but you will know his illustrations. Rackham created many of the fantastical creatures and people that decorated the pages of the children's books in the early 20th century. Rackham, who was modest in appearance and had a humble manner, worked as a junior insurance clerk before studying part-time at the Lambeth School of Art. There, he began to translate a youthful passion for books into vivid illustrations that he made to accompany works of classic literature.\n\nRackham's expressive, detailed style of art makes pieces like his iconic drawings of scenes in Grimm Brothers' Fairy Tales instantly recognisable. Maria Popova of Brain Pickings opines that of all the artists to tackle Lewis Carroll's Alice in Wonderland, no-one did more for the work than Rackham, whose graphic designs for a 1907 printing influence the visual vocabulary of the story, even today.",
+      "source": "https://www.tweentribune.com",
+      "items": [
+        { "id": "1.1", "statement": "The text mentions two reasons why the illustration business developed at the end of the 19th century.", "answer": "T" },
+        { "id": "1.2", "statement": "Arthur Rachkam had dreamt of being an illustrator since his childhood.", "answer": "NI" },
+        { "id": "1.3", "statement": "The text states that Arthur Rachkam was an arrogant person when he worked as a clerk.", "answer": "F" }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "gap_fill_sentences",
+      "points": 4,
+      "instruction": "Przeczytaj tekst. Do każdej luki (2.1.–2.4.) dopasuj właściwe zdanie (A–G), aby powstał logiczny i spójny tekst. Trzy zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "I TRIED A DIGITAL DETOX… (PART I)\n\nIt's officially summertime! Birds are chirping, the grass is green, gardens are blooming like crazy and the sun sets after 9 p.m. Have you observed these things… or are you distracted by incoming alerts and notifications? If so, you're not alone. 2.1. _________ While technology has certainly made our lives easier and efficient in some ways, it's not hard to become too involved in our digital lives (emails, calendar alerts, Facebook notifications, games, videos) and ignore the real world.\n\nIncreasingly, we're learning that technology can affect our health. 2.2. _________ Technology has other, more serious effects, too. It's said that Internet problems are connected with other psychological issues such as depression, anxiety, social isolation and sleeping difficulties.\n\nAlthough I am not dealing with those symptoms, I'm totally glued to my own devices. As a writer, editor and millennial, I'm constantly checking my phone and working on the computer. 2.3. _________ I've asked myself if I depend on technology way too much and need a break. To get the answer, I've decided to take a step back and do a digital detox. It includes shutting off all your devices, including phones, laptops, e-books and, yep, even the TV. You can do anything you want, apart from staring at a screen. 2.4. _________ Twenty-four hours is a good goal, but for some people even a half-day will help them to de-stress.\n\nIt sounds trivial, but I have really noticed some changes. I'll tell you more about what I've learned in my next post as it's time for me to stop using my devices for today. So read my next entry if you are not doing a digital detox yet.",
+      "source": "www.tasteofhome.com",
+      "options": [
+        { "letter": "A", "text": "I watch YouTube videos rather than read a book, and when I wash the dishes I listen to music on my phone." },
+        { "letter": "B", "text": "If you want to make it easier, consider taking a long holiday somewhere far away, without wi-fi." },
+        { "letter": "C", "text": "The study shows that smartphone users are spending less and less time on their device than a few years ago." },
+        { "letter": "D", "text": "It's pretty simple – if we're on our laptops, we aren't moving or spending time outdoors." },
+        { "letter": "E", "text": "I didn't know what to do and how to feel about limiting the amount of time that I was spending on my phone." },
+        { "letter": "F", "text": "One of the surveys shows that half of smartphone owners check their devices several times an hour." },
+        { "letter": "G", "text": "It's tempting to think about a total retreat from the digital world, but starting small sets you up for success." }
+      ],
+      "items": [
+        { "id": "2.1", "answer": "F" },
+        { "id": "2.2", "answer": "D" },
+        { "id": "2.3", "answer": "A" },
+        { "id": "2.4", "answer": "G" }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "multiple_choice",
+      "points": 4,
+      "instruction": "Uzupełnij poniższe zdania (3.1.–3.4.), wybierając spośród podanych wariantów odpowiedzi. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "stem": "I was so stressed that _______ and I wasn't able to answer any question.",
+          "options": ["I thought outside the box", "my mind went blank", "the brain was out there"],
+          "answer": "B"
+        },
+        {
+          "id": "3.2",
+          "stem": "Your sons are really great. They were as good as _______ on our walk.",
+          "options": ["a bee", "honey", "gold"],
+          "answer": "C"
+        },
+        {
+          "id": "3.3",
+          "stem": "That name rings _______ but I can't remember where I've heard it before.",
+          "options": ["a bell", "a sound", "a reminder"],
+          "answer": "A"
+        },
+        {
+          "id": "3.4",
+          "stem": "Nobody believes that Kevin is a respected politician now. He was the _______ of our primary school.",
+          "options": ["golden boy", "class clown", "teacher's pet"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "dialogue_choice",
+      "points": 4,
+      "instruction": "Uzupełnij poniższe dialogi (4.1.–4.4.), wybierając spośród podanych wariantów odpowiedzi. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "4.1",
+          "prompt": "X: What is that smell?\nY: It's this wood. It _______ a sweet, perfumed smell as it burns.",
+          "options": ["gets down", "brings out", "gives off"],
+          "answer": "C"
+        },
+        {
+          "id": "4.2",
+          "prompt": "X: Hurry up. We'll be late!\nY: You go on ahead. I will _______ you up in a minute.",
+          "options": ["catch", "speed", "quick"],
+          "answer": "A"
+        },
+        {
+          "id": "4.3",
+          "prompt": "X: I can't stand it!\nY: Come on! Stop crying and _______ yourself together!",
+          "options": ["stick", "pull", "glue"],
+          "answer": "B"
+        },
+        {
+          "id": "4.4",
+          "prompt": "X: Mike has promised to paint the house\nY: Yes, and pigs might _______!",
+          "options": ["fly", "bark", "jump"],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (5.1.–5.10.) jednym wyrazem, tak aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "DO WASPS HAVE A QUEEN LIKE BEES DO?\n\nIf you think that wasps have queens, as bees do, you are right. And if you think the opposite, then you are 5.1. _________ right! Some wasp species have queens and others do not. The same is true for bees.\n\nWasp and bee species that have queens are called social insects. They live together in large groups ranging 5.2. _________ 100 to over 50,000 and work together to raise their young. Only one or a few members of the group lay eggs – the queens. The others watch over the eggs and hunt 5.3. _________ food. The remaining bees and wasps 5.4. _________ chores such as making wax and cleaning out the hive. Most bees and wasps, 5.5. _________, are solitary insects and live alone.\n\nThough many people fear bees and wasps because they can sting, both are important for a healthy planet. Bees pollinate many flowers, including the crops people eat, such 5.6. _________ apples and almonds. And by hunting, wasps help to keep down populations of pests like caterpillars and flies.\n\nUnfortunately, these useful insects are in worldwide decline. Pesticides, 5.7. _________ are chemicals used 5.8. _________ kill pests, also kill essential bugs like bees and wasps. What is more, there are 5.9. _________ places for wasps and bees to live 5.10. _________ days because developing cities are consuming their natural habitat.",
+      "source": "https://theconversation.com",
+      "items": [
+        { "id": "5.1", "answer": ["also"] },
+        { "id": "5.2", "answer": ["from"] },
+        { "id": "5.3", "answer": ["for"] },
+        { "id": "5.4", "answer": ["do", "perform"] },
+        { "id": "5.5", "answer": ["however"] },
+        { "id": "5.6", "answer": ["as"] },
+        { "id": "5.7", "answer": ["which"] },
+        { "id": "5.8", "answer": ["to"] },
+        { "id": "5.9", "answer": ["fewer", "few"] },
+        { "id": "5.10", "answer": ["these"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3": 1, "2-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 4,
+      "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "_ _ _ k _ _ _", "clue": "__ __ __ k __ __ __ for us, the train was late and we didn't miss it.", "answer": "Luckily" },
+        { "id": "6.2", "hint": "_ _ _ l _ _ _ _", "clue": "She has mixed __ __ __ l __ __ __ __ about the movie – she liked the plot but the leading actor was terrible.", "answer": "feelings" },
+        { "id": "6.3", "hint": "_ _ _ _ r _ _ _", "clue": "My sister is really __ __ __ __ r __ __ __. She always buys us wonderful presents.", "answer": "generous" },
+        { "id": "6.4", "hint": "_ d _ _ _ _ _", "clue": "Students are __ d __ __ __ __ __ to read all the questions carefully before they start answering them.", "answer": "advised" }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "grammar_gaps",
+      "points": 6,
+      "instruction": "Uzupełnij zdania (7.1.–7.6.), wstawiając wyrazy podane w nawiasach w odpowiedniej formie. Wymagana jest pełna poprawność gramatyczna i ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "knowledge_questions",
+      "points": 5,
+      "instruction": "Odpowiedz na pytania (8.1.–8.5.), wybierając jeden z podanych wariantów odpowiedzi. Zakreśl literę A, B, C albo D. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "8.1",
+          "question": "What makes up Great Britain?",
+          "options": ["A. Wales, England, Scotland, Northern Ireland and the Republic of Ireland.", "B. Wales, England, Scotland and the Republic of Ireland.", "C. Wales, England, Scotland and Northern Ireland.", "D. Wales, England and Scotland."],
+          "answer": "D"
+        },
+        {
+          "id": "8.2",
+          "question": "Who is next in line to the British throne?",
+          "options": ["A. Prince William.", "B. Prince Charles.", "C. Prince George.", "D. Prince Harry."],
+          "answer": "B"
+        },
+        {
+          "id": "8.3",
+          "question": "What was the original name of New York?",
+          "options": ["A. New Amsterdam.", "B. Staten Island.", "C. New England.", "D. Big Apple."],
+          "answer": "A"
+        },
+        {
+          "id": "8.4",
+          "question": "What is the longest river in the USA?",
+          "options": ["A. Missouri.", "B. Mississippi.", "C. Colorado.", "D. Rio Grande."],
+          "answer": "A"
+        },
+        {
+          "id": "8.5",
+          "question": "Which street is a synonym for the financial markets and stock exchange in the USA?",
+          "options": ["A. Broadway.", "B. Fifth Avenue.", "C. Golden Park.", "D. Wall Street."],
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Z powodu przeprowadzki do innego miasta zmieniłeś szkołę. W e-mailu do wychowawcy z poprzedniej szkoły: opisz swoją codzienną drogę do nowej szkoły, porównaj budynek nowej i starej szkoły, napisz, co cię zaskoczyło na pierwszej lekcji nowego przedmiotu, którego nie było w poprzedniej szkole.",
+      "skipped": true,
+      "items": []
+    }
+  ]
+}

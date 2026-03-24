@@ -1,0 +1,24 @@
+{
+  "type": "practice",
+  "title": "Mixed Grammar",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 10,
+      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "items": [
+        { "id": "1.1", "stem": "Neither Tom _______ his brother likes swimming.", "options": ["or", "and", "nor"], "answer": "C" },
+        { "id": "1.2", "stem": "The woman _______ car was stolen reported it to the police.", "options": ["who", "whose", "which"], "answer": "B" },
+        { "id": "1.3", "stem": "There isn't _______ milk left in the fridge.", "options": ["some", "any", "no"], "answer": "B" },
+        { "id": "1.4", "stem": "She speaks English well _______ she has never been to England.", "options": ["although", "despite", "however"], "answer": "A" },
+        { "id": "1.5", "stem": "He is _______ tallest boy in the class.", "options": ["a", "an", "the"], "answer": "C" },
+        { "id": "1.6", "stem": "You _______ wear a uniform at this school. It's the rule.", "options": ["must", "should", "can"], "answer": "A" },
+        { "id": "1.7", "stem": "This is the town _______ I was born.", "options": ["which", "where", "that"], "answer": "B" },
+        { "id": "1.8", "stem": "She asked me _______ I had finished my homework.", "options": ["that", "if", "what"], "answer": "B" },
+        { "id": "1.9", "stem": "The film was _______ boring that we left the cinema early.", "options": ["such", "too", "so"], "answer": "C" },
+        { "id": "1.10", "stem": "I'd rather _______ at home tonight than go to the party.", "options": ["stay", "to stay", "staying"], "answer": "A" }
+      ]
+    }
+  ]
+}

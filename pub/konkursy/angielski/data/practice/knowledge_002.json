@@ -1,0 +1,124 @@
+{
+  "title": "US History & Culture",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 10,
+      "instruction": "Wybierz poprawna odpowiedz A, B, C lub D.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "Who was the first President of the United States?",
+          "options": [
+            "A. Thomas Jefferson",
+            "B. Abraham Lincoln",
+            "C. George Washington",
+            "D. Benjamin Franklin"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "question": "The Statue of Liberty was a gift to the United States from _______.",
+          "options": [
+            "A. the United Kingdom",
+            "B. France",
+            "C. Spain",
+            "D. the Netherlands"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "question": "On which date do Americans celebrate Independence Day?",
+          "options": [
+            "A. July 1st",
+            "B. June 4th",
+            "C. July 4th",
+            "D. August 4th"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "question": "Thanksgiving in the United States is celebrated on the fourth Thursday in _______.",
+          "options": [
+            "A. October",
+            "B. November",
+            "C. December",
+            "D. September"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "question": "Which American city is famous for Hollywood and the film industry?",
+          "options": [
+            "A. New York",
+            "B. Chicago",
+            "C. Los Angeles",
+            "D. San Francisco"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "question": "How many stars are there on the American flag?",
+          "options": [
+            "A. 13",
+            "B. 48",
+            "C. 50",
+            "D. 52"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.7",
+          "question": "What is the national sport of the United States, often called 'America's pastime'?",
+          "options": [
+            "A. American football",
+            "B. Basketball",
+            "C. Baseball",
+            "D. Ice hockey"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.8",
+          "question": "Martin Luther King Jr. was a famous leader of the _______ movement.",
+          "options": [
+            "A. women's rights",
+            "B. civil rights",
+            "C. environmental",
+            "D. labour"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.9",
+          "question": "What is the largest state in the United States by area?",
+          "options": [
+            "A. Texas",
+            "B. California",
+            "C. Montana",
+            "D. Alaska"
+          ],
+          "answer": "D"
+        },
+        {
+          "id": "1.10",
+          "question": "Which famous American building is the home of the President?",
+          "options": [
+            "A. The Capitol",
+            "B. The Pentagon",
+            "C. The White House",
+            "D. The Empire State Building"
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

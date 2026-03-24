@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "The Human Brain",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "THE HUMAN BRAIN\n\nThe human brain is the most complex object in the known universe. Weighing about 1.4 kilograms and roughly the size of a small cauliflower, it contains approximately 86 billion neurons, each connected to thousands of others through a vast network of synapses. 1. _________ Despite centuries of scientific study, the brain still holds many secrets that researchers are only beginning to unlock.\n\nThe brain is divided into several distinct regions, each responsible for different functions. The cerebral cortex, the wrinkled outer layer, is associated with higher cognitive functions such as reasoning, language, and conscious thought. 2. _________ Deeper structures such as the hippocampus play a vital role in the formation of memories, while the amygdala is linked to emotional responses including fear.\n\nOne of the most remarkable features of the brain is its plasticity, meaning its ability to change and reorganise itself throughout life. 3. _________ This ability declines with age, but it never disappears entirely, which is why people can recover from strokes or brain injuries and relearn lost skills.\n\nSleep is essential for healthy brain function. During sleep, the brain consolidates the information acquired during the day, transferring short-term memories into long-term storage. 4. _________ Chronic sleep deprivation has been linked to impaired judgement, memory problems, and an increased risk of developing conditions such as Alzheimer's disease.\n\nThe relationship between the brain and emotions is a subject of intense scientific interest. For many years, it was believed that rational thinking and emotions were separate processes. 5. _________ Emotions play a crucial role in decision-making, attention, and even memory formation.\n\nAdvances in brain scanning technology have revolutionised neuroscience over the past few decades. Techniques such as fMRI allow scientists to observe which areas of the brain are active during different tasks. 6. _________ The goal of fully mapping every connection in the human brain, a project known as the connectome, remains one of the greatest challenges in science.",
+      "options": [
+        { "letter": "A", "text": "The total number of connections in a human brain is estimated to exceed the number of stars in the Milky Way." },
+        { "letter": "B", "text": "The cerebellum, at the back of the brain, coordinates movement and balance." },
+        { "letter": "C", "text": "In childhood, the brain forms millions of new connections every day as it learns from experience." },
+        { "letter": "D", "text": "It also removes waste products from brain cells, a process that happens mainly during deep sleep." },
+        { "letter": "E", "text": "Modern neuroscience has shown that the two are deeply intertwined and cannot be fully separated." },
+        { "letter": "F", "text": "However, we are still far from understanding how the brain produces consciousness or subjective experience." },
+        { "letter": "G", "text": "The left and right hemispheres of the brain are connected by a thick bundle of nerve fibres called the corpus callosum." },
+        { "letter": "H", "text": "Some researchers believe that artificial intelligence may one day be able to replicate the functions of the human brain." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
+        { "id": "1.6", "answer": "F" }
+      ]
+    }
+  ]
+}

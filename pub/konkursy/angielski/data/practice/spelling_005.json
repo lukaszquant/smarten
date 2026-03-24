@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Nature & Environment",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Air p _ l _ _ _ _ _ n is a serious problem in many big cities around the world.",
+          "hint": "p _ l _ _ _ _ _ n",
+          "answer": "pollution"
+        },
+        {
+          "id": "1.2",
+          "stem": "We should protect e _ _ _ n _ _ _ _ d species like tigers and pandas before they disappear.",
+          "hint": "e _ _ _ n _ _ _ _ d",
+          "answer": "endangered"
+        },
+        {
+          "id": "1.3",
+          "stem": "Scientists say that climate change is caused by global w _ _ m _ _ g.",
+          "hint": "w _ _ m _ _ g",
+          "answer": "warming"
+        },
+        {
+          "id": "1.4",
+          "stem": "The Amazon r _ _ n _ _ _ _ _ t is home to millions of different plant and animal species.",
+          "hint": "r _ _ n _ _ _ _ _ t",
+          "answer": "rainforest"
+        },
+        {
+          "id": "1.5",
+          "stem": "Recycling helps to reduce the amount of waste that goes to l _ n _ _ _ _ l sites.",
+          "hint": "l _ n _ _ _ _ l",
+          "answer": "landfill"
+        },
+        {
+          "id": "1.6",
+          "stem": "A terrible e _ _ t _ _ _ _ _ e destroyed many buildings in the city last year.",
+          "hint": "e _ _ t _ _ _ _ _ e",
+          "answer": "earthquake"
+        },
+        {
+          "id": "1.7",
+          "stem": "Solar and wind energy are examples of r _ n _ _ _ _ _ e sources of power.",
+          "hint": "r _ n _ _ _ _ _ e",
+          "answer": "renewable"
+        },
+        {
+          "id": "1.8",
+          "stem": "The d _ _ _ g _ t lasted for months and all the rivers and lakes dried up completely.",
+          "hint": "d _ _ _ g _ t",
+          "answer": "drought"
+        }
+      ]
+    }
+  ]
+}

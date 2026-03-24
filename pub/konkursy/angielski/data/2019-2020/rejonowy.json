@@ -1,0 +1,220 @@
+{
+  "year": "2019/2020",
+  "stage": "rejonowy",
+  "date": "2019-12-02",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1-6) dopasuj właściwe zdanie (A-H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "UNUSUAL TEENAGER\n\nMoshe Kai Cavalin has two university degrees, but is too young to vote. 1. _________ His life is filled with contrast. A 17-year-old from San Gabriel, California, has reached major milestones unconnected to his age. He graduated from community college aged 11 and four years later, he received a bachelor's degree in math from the University of California, Los Angeles.\n\nThis year, he started online classes in order to gain a master's in cybersecurity at Brandeis University, but later decided to postpone the idea for a couple of terms, though, while he helps NASA develop new technology for airplanes and drones. 2. _________ They include publishing his second book, drawing on his experience of being bullied, and getting his airplane pilot's licence by the end of the year. Additionally, at his family's home near Los Angeles, he has a large number of trophies from martial arts tournaments.\n\nStill, Cavalin insists that he is more ordinary than people think. He credits his parents for years of focused instruction balanced by the freedom to follow his interests. He tends not to compare himself that often to other people. He just tries to do the best he can. 3. _________ At 4 months, he pointed to a jet in the sky and said the Chinese word for airplane, his first word. When Cavalin hit the limits of his home schooling after studying trigonometry at age 7, his mom started driving him to community college.\n\nBut his rapid rise has not been without unexpected twists. 4. _________ When he started taking advanced physics classes though, his interest weakened, and his fascination in cryptography led him toward computer science. 5. _________ He was surprised when NASA called with an offer of work after rejecting him in the past because of his age. Ricardo Arteaga, his boss and mentor at NASA, says Cavalin was perfect for a project that combines math, computers and aircraft technology. 6. _________ His daily work at the office has included running simulations of airplanes and drones that are headed for collision and then finding ways to route them to safety.\n\nAfter he finishes his master's from Brandeis, Cavalin hopes to get a master's in business at MIT, and later wants to start his own cybersecurity company.",
+      "source": "https://www.washingtontimes.com",
+      "options": [
+        { "letter": "A", "text": "Aside from this, he has racked up a long list of extracurricular activities." },
+        { "letter": "B", "text": "He also adds that the youth is a quiet worker with a subtle sense of humor." },
+        { "letter": "C", "text": "This has been a much better fit." },
+        { "letter": "D", "text": "He is often asked what it is like to be a genius." },
+        { "letter": "E", "text": "In his early student days, he dreamed of being an astrophysicist." },
+        { "letter": "F", "text": "Cavalin speaks with the diction of someone who chooses his words with care." },
+        { "letter": "G", "text": "He flies airplanes, but he is too young to drive a car on his own." },
+        { "letter": "H", "text": "His parents say he was always a quick learner." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "G" },
+        { "id": "1.2", "answer": "A" },
+        { "id": "1.3", "answer": "H" },
+        { "id": "1.4", "answer": "E" },
+        { "id": "1.5", "answer": "C" },
+        { "id": "1.6", "answer": "B" }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "true_false_ni",
+      "points": 6,
+      "instruction": "Przeczytaj poniższy tekst. Zdecyduj, które zdania (1-6) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy i wyrażenia, które odpowiadają definicjom podanym w punktach 7-9, wpisując je w formie odpowiadającej podanej definicji. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "FITTING ROOMS GO HIGH TECH\n\nImagine a fitting room with a \"smart\" mirror that suggests jeans to go with the red shirt you brought in. It creates a video so you can compare the image side-by-side with other colourful shirts you try on. It might even show you how the shirt will fit without having to change.\n\nA handful of upscale retailers, including Neiman Marcus and Nordstrom, are testing versions of this high-tech fitting room. Experts say that the masses will be able to try these innovations at more stores in the next few years as the technology gets cheaper. This trend is a way for stores to catch up with online rivals that are able to gather information about which items shoppers focus on and use it to recommend other products. The new technology that enables physical stores to collect the same data as online shops raises privacy questions, but executives say customers are offered a choice and the data is protected.\n\nStores have noticed the significant role the often-forgotten fitting room can play in purchase decisions. While 36 percent of browsers end up buying something, 71 percent of shoppers who try on clothes in the fitting rooms become buyers, according to Paco Underhill, a retail consultant. Yet the typical fitting room is not always inviting: \"The dressing room experience in many places has been close to miserable,\" Underhill said. \"There's bad lighting. They're dirty. And they have poor service.\"\n\nSome companies are working to change this impression. Later this year, Big Space, a technology company, plans to test a new mirror at a clothing chain that recognises the gender of a customer and makes recommendations based on that information. Customers will also be able to request or purchase the items directly from the mirror and have them shipped. In recent years, stores including Bloomingdale's and Top Shop have tested technology that has enabled shoppers to see how they look in an outfit without trying it on.\n\nA division of online seller eBay, called eBay Enterprise also has fitting-room technology that some stores are examining. Designer Rebecca Minkoff's first two stores in New York and San Francisco are testing technology that uses radio frequency identification (RFID) that embeds data in clothing tags. It works in this way: a touch screen allows a customer to flip through a catalogue and indicate which items they want in the dressing room. The customer inputs their mobile number and the sales clerk texts them when the fitting room is ready. When the shopper walks into a dressing area, the mirror recognises items and displays the different clothing on the screen. Minkoff said the two stores testing this technology are selling clothing two and a half times faster than expected and shoppers are increasing the number of items they buy by 30 percent. \"We are creating dressing room therapy,\" said Minkoff.",
+      "source": "https://nypost.com",
+      "items": [
+        { "id": "2.1", "statement": "The technology is predicted to become more available within the next few years.", "answer": "T" },
+        { "id": "2.2", "statement": "Customers have expressed their doubts about privacy issues when it comes to \"smart\" mirrors.", "answer": "NI" },
+        { "id": "2.3", "statement": "Paco Underhill explains why shoppers are not fond of dressing rooms.", "answer": "T" },
+        { "id": "2.4", "statement": "Big Space intends to try out a mirror identifying the sex of the shopper.", "answer": "T" },
+        { "id": "2.5", "statement": "The technology that allows customers to see how they look in clothes without having to try them on has been rejected by the majority of shoppers.", "answer": "NI" },
+        { "id": "2.6", "statement": "RFID technology does not involve shop staff.", "answer": "F" }
+      ],
+      "vocabItems": [
+        { "id": "2.7", "definition": "a person looking at goods but who does not intend to buy anything", "answer": ["browser", "a browser"] },
+        { "id": "2.8", "definition": "to put a computer or a piece of electronic equipment inside a product in order to control the way it operates", "answer": ["to embed", "embed"] },
+        { "id": "2.9", "definition": "of very high quality and intended for rich people", "answer": ["upscale"] }
+      ],
+      "scoringScheme": { "6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "3",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (1-6), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "prompt": "Creating a website may be time-consuming but it is not _______.",
+          "options": ["space science", "rocket science", "moon science"],
+          "answer": "B"
+        },
+        {
+          "id": "3.2",
+          "prompt": "A pharmaceutical company is looking for volunteers to act as _______ for new sleeping pills.",
+          "options": ["guinea pigs", "trial monkeys", "grey rabbits"],
+          "answer": "A"
+        },
+        {
+          "id": "3.3",
+          "prompt": "My uncle has just bought a luxury car with all _______. It cost a fortune.",
+          "options": ["the ups and downs", "the nuts and bolts", "the bells and whistles"],
+          "answer": "C"
+        },
+        {
+          "id": "3.4",
+          "prompt": "Research has discovered that _______ spend most of their time online keeping in touch with their grandchildren and reading articles.",
+          "options": ["grey boarders", "silver surfers", "senior interns"],
+          "answer": "B"
+        },
+        {
+          "id": "3.5",
+          "prompt": "They are going to _______ on the new TV show as it turned out not to be successful enough.",
+          "options": ["pull the plug", "blow a fuse", "run out of steam"],
+          "answer": "A"
+        },
+        {
+          "id": "3.6",
+          "prompt": "It is _______ bad netiquette to use capital letters in an email because it looks like YOU ARE SHOUTING.",
+          "options": ["said", "considered", "written"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "open_cloze",
+      "points": 6,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (1-10) jednym wyrazem tak, aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "RAINING POETRY\n\nIf you are walking through Boston during a downpour, make 1. _________ to keep your eyes on the pavement, as you might just see a poem appear in front of you. For the last few months, Bostonians wandering the city streets in the rain may 2. _________ come across poems written on the sidewalk.\n\nEntitled \"Raining Poetry,\" this art installation was a collaboration between the non-profit Mass Poetry and the city of Boston. The first poems were installed to commemorate 3. _________ start of National Poetry Month, with several more added to the city's streets on May the 13th last year.\n\nThe poems were 4. _________ by Danielle Legros Georges, Boston's poet laureate. She was keen on poems 5. _________ on their relationship with Boston, as the general themes of water and rain. \"I wanted to draw work from poets influential in the Boston-area literary, educational or cultural realms. I think this is a wonderful way to bring poetry to people,\" Georges said in a statement.\n\nThe poems are invisible during dry, sunny weather, but appear 7. _________ magic once raindrops start falling from the sky. Using a biodegradable spray and simple cardboard stencils, the poems can be fixed to the sidewalk in a matter of minutes and should wear away in six 8. _________ eight weeks.\n\nWhile all of the poems currently installed are written in English, Sara Siegel – program director for Mass Poetry, hopes to add new ones in the 9. _________ that are spoken throughout Boston, including Portuguese, Haitian Creole and Spanish.\n\n\"Our hope is in the next two years everyone in the state will encounter a poem in their daily lives at least 10. _________ or twice a month.\" So if you're out and about in Beantown the next time it rains, keep an eye on the ground: you might just spot a poem glistening under the raindrops.",
+      "source": "https://www.tweentribune.com",
+      "items": [
+        { "id": "4.1", "answer": ["sure"] },
+        { "id": "4.2", "answer": ["have"] },
+        { "id": "4.3", "answer": ["the"] },
+        { "id": "4.4", "answer": ["chosen", "selected"] },
+        { "id": "4.5", "answer": ["based"] },
+        { "id": "4.6", "answer": ["well"] },
+        { "id": "4.7", "answer": ["like"] },
+        { "id": "4.8", "answer": ["to", "or"] },
+        { "id": "4.9", "answer": ["languages"] },
+        { "id": "4.10", "answer": ["once"] }
+      ],
+      "scoringScheme": { "10": 6, "9": 5, "8-7": 4, "6-5": 3, "4-3": 2, "2-1": 1, "0": 0 }
+    },
+    {
+      "id": "5",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Uzupełnij każde z poniższych zdań (1-6) jednym pasującym wyrazem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "5.1", "hint": "_ _ _ d _ _ _", "clue": "Metals __ __ __ d __ __ __ electricity and heat well as they contain free electrons that can carry an electrical charge or heat energy through the metal.", "answer": "conduct" },
+        { "id": "5.2", "hint": "_ _ _ a _ _ _ _ _ _ _ _ _", "clue": "After a series of failures the research team is hoping to achieve a __ __ __ a __ __ __ __ __ __ __ __ __ in the search for a cure.", "answer": "breakthrough" },
+        { "id": "5.3", "hint": "_ _ _ _ _ n _ _ _ _", "clue": "\"Our website is __ __ __ __ __ n __ __ __ __ under construction. We will be back soon!\" – this is all you can see when you click on this link.", "answer": "currently" },
+        { "id": "5.4", "hint": "_ _ _ i _ _ _ _", "clue": "The __ __ __ i __ __ __ __ table of elements contains a wide variety of information – you just have to know how to read it.", "answer": "periodic" },
+        { "id": "5.5", "hint": "_ _ _ _ _ _ n _ _ _", "clue": "Do you know what __ __ __ __ __ __ n __ __ Radio Zet is on?", "answer": "frequency" },
+        { "id": "5.6", "hint": "_ _ _ t _ _ _ _", "clue": "Registered users can download the __ __ __ t __ __ __ __ without charge.", "answer": "software" }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (1-8) jednym wyrazem, przekształcając wyrazy podane w ramce tak, aby otrzymać logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "wordBank": ["CARE", "SURE", "EQUIP", "PRODUCE", "CONVEY", "GROW", "JUDGE", "ENTER", "SHORT", "REGULAR"],
+      "text": "ROBOT-MADE PIZZA\n\nDid robots help make your pizza? If you ordered it from Silicon Valley's Zume Pizza, the answer is yes. The California startup, which began deliveries in April, is using intelligent machines to grab a slice of the multibillion-dollar pizza delivery market.\n\nZume is one of a 1. _________ number of food-tech companies. Inside its commercial kitchen, pizza dough travels down a 2. _________ belt where machines add the sauce, spread it and 3. _________ slide the uncooked pizzas into an 800-degree oven. Zume also wants to bring innovation to pizza delivery. This fall, the startup plans to use trucks 4. _________ with 56 ovens that can bake pizzas en route to customers. The company is trying to 5. _________ delivery times with software to predict when and what kind of pizzas customers will order.\n\nRobots may be able to produce simple foods such as pizza, burgers and sandwiches, but they will not be taking over restaurants anytime soon because they still struggle with 6. _________ tasks that require fine motor skills, 7. _________ and taste. That is why the company does not plan to eliminate any of its 50 employees, but move them into new jobs as robots take over more kitchen work and the company opens new locations.\n\n\"There are so many jobs in food service that are so complex that it will be a very long time before we have robots doing them. I want to 8. _________ restaurant workers that the skills they have are still going to be of value,\" said Jay Reppert, one of Zume's founders.",
+      "source": "https://www.tweentribune.com",
+      "items": [
+        { "id": "6.1", "answer": ["growing"] },
+        { "id": "6.2", "answer": ["conveyor", "conveyer"] },
+        { "id": "6.3", "answer": ["carefully"] },
+        { "id": "6.4", "answer": ["equipped"] },
+        { "id": "6.5", "answer": ["shorten"] },
+        { "id": "6.6", "answer": ["irregular"] },
+        { "id": "6.7", "answer": ["judgment", "judgement"] },
+        { "id": "6.8", "answer": ["assure", "reassure"] }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "sentence_transformation",
+      "points": 10,
+      "instruction": "Przeczytaj zdania (1–10). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Dopasuj imiona i nazwiska osób (1-6) do opisu ich aktywności (A-H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnej osoby. Przenieś rozwiązania na kartę odpowiedzi.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "the inventor of the reflecting telescope" },
+        { "letter": "B", "text": "the 'father of computers'" },
+        { "letter": "C", "text": "the inventor of the Internet http:// protocol" },
+        { "letter": "D", "text": "the 'father of modern chemistry'" },
+        { "letter": "E", "text": "the producer of the first ATM" },
+        { "letter": "F", "text": "the inventor of the electric dynamo and motor" },
+        { "letter": "G", "text": "the inventor of the mechanical television" },
+        { "letter": "H", "text": "the fossil collector and paleontologist" }
+      ],
+      "items": [
+        { "id": "8.1", "label": "Robert Boyle", "answer": "D" },
+        { "id": "8.2", "label": "Mary Anning", "answer": "H" },
+        { "id": "8.3", "label": "Michael Faraday", "answer": "F" },
+        { "id": "8.4", "label": "Charles Babbage", "answer": "B" },
+        { "id": "8.5", "label": "John Logie Baird", "answer": "G" },
+        { "id": "8.6", "label": "Isaac Newton", "answer": "A" }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Odpowiedz na pytania pełnymi zdaniami w języku angielskim. Wymagana jest poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "9.1",
+          "question": "In which century was the world's first underground railway, the London Underground, opened? How many lines are there on the London Underground today?",
+          "answer": ["19th century", "11 lines"],
+          "points": 2
+        },
+        {
+          "id": "9.2",
+          "question": "What animal was the first successfully cloned mammal? What was it called?",
+          "answer": ["sheep", "Dolly / Dolly The Sheep"],
+          "points": 2
+        },
+        {
+          "id": "9.3",
+          "question": "A mac or mack is a name for a raincoat. What is the origin of the name?",
+          "answer": ["The name comes from Charles Macintosh / The name comes from the name of the person who invented waterproof clothing"],
+          "points": 1
+        },
+        {
+          "id": "9.4",
+          "question": "The first commercially successful model of a \"safety bicycle\" was J. K. Starley's version from 1885 (shown in the picture). What was it called?",
+          "answer": ["the Rover / the Rover Safety bike"],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "World Geography",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Dopasuj nazwy geograficzne (1–6) do ich opisów (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "This is the world's longest river, flowing northward through northeastern Africa and emptying into the Mediterranean Sea." },
+        { "letter": "B", "text": "This is the world's highest mountain above sea level. It is located in the Himalayas on the border between Nepal and Tibet." },
+        { "letter": "C", "text": "This is the largest ocean in the world, covering more than 30% of Earth's surface and stretching between the Americas, Asia, and Australia." },
+        { "letter": "D", "text": "This is the world's largest hot desert, covering most of North Africa. Very little rain falls there and temperatures can be extreme." },
+        { "letter": "E", "text": "This is the world's largest rainforest, located mainly in Brazil. It is home to an enormous variety of plants and animals." },
+        { "letter": "F", "text": "This is the deepest lake in the world, located in Siberia, Russia. It holds about 20% of the world's unfrozen surface fresh water." },
+        { "letter": "G", "text": "This is the longest mountain range in the world, running along the western coast of South America through several countries." },
+        { "letter": "H", "text": "This is the world's smallest continent and one of its largest countries. It is surrounded entirely by ocean and is famous for its unique wildlife." }
+      ],
+      "items": [
+        { "id": "1.1", "label": "The Nile", "answer": "A" },
+        { "id": "1.2", "label": "Mount Everest", "answer": "B" },
+        { "id": "1.3", "label": "The Pacific Ocean", "answer": "C" },
+        { "id": "1.4", "label": "The Sahara", "answer": "D" },
+        { "id": "1.5", "label": "The Amazon Rainforest", "answer": "E" },
+        { "id": "1.6", "label": "The Andes", "answer": "G" }
+      ]
+    }
+  ]
+}

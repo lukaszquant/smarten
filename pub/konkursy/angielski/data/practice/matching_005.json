@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "Famous Scientists",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Dopasuj imiona i nazwiska naukowców (1–6) do opisów ich odkryć lub dziedzin nauki (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
+      "categories": null,
+      "options": [
+        { "letter": "A", "text": "This scientist developed the theory of general relativity and is famous for the equation E=mc², linking energy and mass." },
+        { "letter": "B", "text": "She was a pioneering chemist who discovered two new elements, polonium and radium, and won the Nobel Prize twice." },
+        { "letter": "C", "text": "This English naturalist proposed the theory of evolution by natural selection in his book 'On the Origin of Species'." },
+        { "letter": "D", "text": "He described the laws of motion and gravity, reportedly inspired by watching an apple fall from a tree." },
+        { "letter": "E", "text": "This astronomer was the first to use a telescope to observe the moons of Jupiter and supported the idea that the Earth orbits the Sun." },
+        { "letter": "F", "text": "She discovered the double-helix structure of DNA using X-ray diffraction images, though others received the Nobel Prize for this work." },
+        { "letter": "G", "text": "This scientist classified living organisms into groups and invented the system of Latin names still used in biology today." },
+        { "letter": "H", "text": "He proved that lightning is a form of electricity by flying a kite in a storm and invented the lightning rod." }
+      ],
+      "items": [
+        { "id": "1.1", "label": "Albert Einstein", "answer": "A" },
+        { "id": "1.2", "label": "Marie Curie", "answer": "B" },
+        { "id": "1.3", "label": "Charles Darwin", "answer": "C" },
+        { "id": "1.4", "label": "Isaac Newton", "answer": "D" },
+        { "id": "1.5", "label": "Galileo Galilei", "answer": "E" },
+        { "id": "1.6", "label": "Rosalind Franklin", "answer": "F" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "type": "practice",
+  "title": "Feelings & Emotions",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "items": [
+        {
+          "id": "1.1",
+          "prompt": "I was on top of the _______ when I found out I'd been accepted to the university.",
+          "options": ["mountain", "hill", "world"],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "prompt": "She was _______ with worry when her son didn't come home by midnight.",
+          "options": ["sick", "mad", "filled"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "prompt": "He was over the _______ when he heard he'd won first prize in the competition.",
+          "options": ["top", "moon", "sky"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "prompt": "Speaking in front of an audience always gives me butterflies in my _______.",
+          "options": ["chest", "head", "stomach"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "prompt": "She was down in the _______ after failing her driving test for the third time.",
+          "options": ["dumps", "pits", "mud"],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "prompt": "He was at his _______ end after dealing with the problem for so many months.",
+          "options": ["last", "final", "wit's"],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

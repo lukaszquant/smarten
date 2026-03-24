@@ -1,0 +1,192 @@
+{
+  "year": "2021/2022",
+  "stage": "wojewodzki",
+  "date": "2022-02-16",
+  "maxPoints": 60,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "listening_true_false_ni",
+      "points": 5,
+      "instruction": "Usłyszysz dwukrotnie tekst. Zaznacz znakiem X w tabeli, które zdania (1.1.–1.5.) są zgodne z treścią nagrania (T – True), które są z nią niezgodne (F – False) oraz które zawierają informacje niepodane w tekście nagrania (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "2",
+      "type": "listening_open",
+      "points": 5,
+      "instruction": "Usłyszysz dwukrotnie tekst. Na podstawie informacji zawartych w nagraniu uzupełnij zdania (2.1.–2.5.) tak, aby precyzyjnie oddać sens wysłuchanego tekstu i otrzymać zdania poprawne gramatycznie. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "3",
+      "type": "gap_fill_sentences",
+      "points": 5,
+      "instruction": "Przeczytaj tekst. Do każdej luki (3.1.–3.5.) dopasuj właściwe zdanie (A–G) tak, aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "WHY DO SOME PEOPLE CALL FOOTBALL \"SOCCER\"?\n\nOne of the best-known differences between British and American English is that the sport known as football in Great Britain is usually called soccer in the United States. As the sport originated in England, it is often assumed that \"soccer\" is an Americanism. 3.1. _________ So why is it that Americans (not to mention Canadians, Australians, and others) are more likely to use the word than Brits are? The answer lies in how the sport developed in each country.\n\nAlthough football-type games have been around for centuries, the sport we know today is often said to have begun in 1863, when England's newly formed Football Association wrote down a set of rules. At the time, it was the most widely played game of its kind in the country. 3.2. _________ Rugby football, named after an English boarding school, was a variation that allowed players to carry and run with the ball to advance it toward the goal. The game played under the Football Association's rules thus became known as association football.\n\nInevitably, the name would be shortened. Linguistically creative students at the University of Oxford in the 1880s distinguished between the sports of \"rugger\" (rugby football) and \"assoccer\" (association football). 3.3. _________. This is how \"soccer\", sometimes spelled \"socker\" came into being. 3.4. _________. By the 20th century, rugby football was more commonly called rugby, while association football had earned the right to be known as just plain football.\n\nMeanwhile, in the United States, a sport emerged in the late 19th century that borrowed elements of both rugby and association football. 3.5. _________ In full, it was known as gridiron football, but most people never bothered with the first word. As a result, American association-football players increasingly adopted soccer to refer to their sport. The United States Football Association, which had formed in the 1910s as the official organizing body of American soccer, changed its name to the United States Soccer Football Association in 1945, and it later dispensed with the \"Football\" altogether. No longer just a nickname, \"soccer\" had stuck. And that is the whole story.",
+      "source": "www.britannica.com",
+      "options": [
+        { "letter": "A", "text": "However, it was not the only one." },
+        { "letter": "B", "text": "The latter term was further shortened." },
+        { "letter": "C", "text": "In fact, the word is thoroughly British in origin." },
+        { "letter": "D", "text": "Before long, it had proved more popular than either of them." },
+        { "letter": "E", "text": "British people stopped saying \"soccer\" because of its American connotations." },
+        { "letter": "F", "text": "Since 1980 the usage of the word \"soccer\" has declined in British publications." },
+        { "letter": "G", "text": "However, \"soccer\" never became much more than a nickname in Great Britain." }
+      ],
+      "items": [
+        { "id": "3.1", "answer": "C" },
+        { "id": "3.2", "answer": "A" },
+        { "id": "3.3", "answer": "B" },
+        { "id": "3.4", "answer": "G" },
+        { "id": "3.5", "answer": "D" }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "true_false_ni",
+      "points": 10,
+      "instruction": "Przeczytaj poniższy tekst. Zaznacz znakiem X w tabeli, które zdania (4.1.–4.5.) są zgodne z treścią tekstu (T – True), które są z nią niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Następnie znajdź w tekście wyrazy i wyrażenia, które odpowiadają definicjom podanym w punktach 4.6.–4.10., i wpisz je w formie odpowiadającej podanej definicji. Wymagana jest całkowita poprawność ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "ETHELDA BLEIBTREY, THE TRAILBLAZER FOR WOMEN'S SWIMMING\n\nBorn in Waterford, New York in 1902 but raised in Brooklyn, Ethelda Bleibtrey took up swimming in 1918 on medical advice given to her because she suffered from polio and to keep her friend, Charlotte Boyle, company.\n\nAt the time, social convention in the USA dictated that women had to cover up their legs – i.e. wear stockings – when they went swimming. In 1919, at Manhattan Beach, Bleibtrey removed her stockings before wading in for a swim. This was considered a reprehensible act of \"nudity\" and Bleibtrey was arrested. This caused public outrage, however, to such an extent that not only was she not sanctioned, but swimming was freed from stockings by a change in the law. Bleibtrey was also one of the first women to wear a swimming cap.\n\nAt the Antwerp 1920 Olympic Games, the swimming events were held in a tidal estuary. According to the swimmers who took part in the Olympic competitions the water was dark and cold, and the situation was not helped by the chilly air temperature. Bleibtrey noted that the swimming events were held \"in mud and not water\" and the swimmers were forced to huddle together to keep warm after each race.\n\nWomen competed in three swimming events. The young Bleibtrey took to the water on 23 August 1920 in the third heat of the 100m freestyle. Forty-eight hours later, in the final, she set the world record – 1:13.6 – which would last for three years and became the first American woman to win an Olympic gold medal in swimming. In the 300m freestyle, she was head and shoulders above her rivals, breaking the world record with a time of 4:34.0. Finally, on 29 August, she swam as the anchor in the 4x100m relay for the USA. The team wrapped up by setting a new world record (5:11:6), with the reigning champions, Great Britain, finishing almost 30 seconds behind them. Bleibtrey also held the world record in the backstroke and might have won four gold medals if this event had also been included in the 1920 Olympic program.\n\nWith the increased fame brought about by her Olympic gold medals, Bleibtrey continued to break barriers. There is the incredible story of what happened in Central Park: having dived into the Central Park Reservoir, Bleibtrey was arrested and spent a night in prison, before the Mayor of New York, Jimmy Walker, intervened. It subsequently came to light that the whole thing had been a publicity stunt, orchestrated by the newspaper the New York Daily News and the local star, with the aim of getting the necessary authorisation for the reservoir at the heart of the Big Apple to be used for swimming! At any rate, it was a case of enormous success: a swimming pool was built in Central Park.\n\nFollowing a success-laden amateur and professional career, Bleibtrey kept her crusade going and spent most of her life teaching swimming to handicapped youngsters in New York and trying to get more pools constructed within the city. She died in 1978 with her name recorded in the annals of the Olympic Games.",
+      "source": "https://olympics.com, www.teamusa.org, www.swimmingworldmagazine.com, www.nytimes.com",
+      "items": [
+        { "id": "4.1", "statement": "Bleibtrey's \"nude swimming\" enabled women to swim without having to wear stockings.", "answer": "T" },
+        { "id": "4.2", "statement": "It was Bleibtrey's idea that women should wear swimming caps.", "answer": "NI" },
+        { "id": "4.3", "statement": "Bleibtrey seemed to be content with the state of the Olympic swimming pool in Antwerp.", "answer": "F" },
+        { "id": "4.4", "statement": "In the Antwerp Games Bleibtrey won 3 individual gold medals.", "answer": "F" },
+        { "id": "4.5", "statement": "Bleibtrey and the New York Daily News cooperated on the project of a different use for the Central Park reservoir.", "answer": "T" }
+      ],
+      "vocabItems": [
+        { "id": "4.6", "definition": "a preliminary round in a race or contest", "answer": ["heat", "a heat"] },
+        { "id": "4.7", "definition": "to complete something successfully", "answer": ["wrap up", "to wrap up", "to wrap something up"] },
+        { "id": "4.8", "definition": "something unusual that is done to attract people's attention to a particular person, product, organization or idea", "answer": ["publicity stunt", "a publicity stunt"] },
+        { "id": "4.9", "definition": "to gather closely in a group", "answer": ["huddle", "to huddle"] },
+        { "id": "4.10", "definition": "extremely bad or unacceptable, morally wrong and deserving criticism", "answer": ["reprehensible"] }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (5.1.–5.10.) jednym wyrazem tak, aby otrzymać spójny, logiczny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych słów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "THE PARALYMPICS\n\nThe Paralympics are newer than the Olympics, but in just sixty years they have grown to encompass more than 150 countries and 4,000 elite athletes. These athletes compete 5.1. _________ wheelchairs, with prosthetic limbs, with intellectual disability and without senses 5.2. _________ as hearing or sight, across more than 20 different sports.\n\nBelow there are some interesting facts about the Paralympics so 5.3. _________ you can impress your friends and family 5.4. _________ your knowledge.\n\n• Before the Paralympics began, athletes with physical disabilities competed in the Olympics. The Paralympic Movement began in 1948 after neurologist Ludwig Guttmann began to introduce sport 5.5. _________ a method of rehabilitation for WWII soldiers.\n\n• In 1960, the first Paralympic Games were held in the same country and city as the Summer Olympic Games, in Rome. 5.6. _________ since, the Summer Paralympic Games have been organised on a four-year basis alongside the Summer Olympic Games.\n\n• Contrary 5.7. _________ what many people believe, the name of this international sport event does not come from merging the words 'paralysis' and 'Olympics' together. The term Paralympics combines the Greek word para (\"beside\") 5.8. _________ the word Olympics, because the games happen alongside the Olympics.\n\n• Goalball is designed for those with visual impairments, and in 5.9. _________ to play athletes must wear an eyeshade (to be sure that even those who partially 5.10. _________ see are playing in the dark), so they rely on their tactile and auditory senses to score goals.",
+      "source": "https://blog.oup.com",
+      "items": [
+        { "id": "5.1", "answer": ["in"] },
+        { "id": "5.2", "answer": ["such"] },
+        { "id": "5.3", "answer": ["that"] },
+        { "id": "5.4", "answer": ["with"] },
+        { "id": "5.5", "answer": ["as"] },
+        { "id": "5.6", "answer": ["Ever"] },
+        { "id": "5.7", "answer": ["to"] },
+        { "id": "5.8", "answer": ["with", "and"] },
+        { "id": "5.9", "answer": ["order"] },
+        { "id": "5.10", "answer": ["can"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 4,
+      "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym wyrazem tak, aby otrzymać logiczne i poprawne gramatycznie zdania. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "_ r _ _ _ _ _", "clue": "In the sprint relay the Canadian team __ r __ __ __ __ __ the baton on the final exchange and finished last.", "answer": ["dropped"] },
+        { "id": "6.2", "hint": "_ _ _ m _ _ _", "clue": "It takes a lot of __ __ __ m __ __ __ to run a marathon.", "answer": ["stamina"] },
+        { "id": "6.3", "hint": "_ _ _ h _ _ _ _", "clue": "A leg injury forced her to __ __ __ h __ __ __ __ from the competition.", "answer": ["withdraw"] },
+        { "id": "6.4", "hint": "_ _ _ _ o _ _ _", "clue": "He is making progress in each race – he has just run a __ __ __ __ o __ __ __ best of under four minutes.", "answer": ["personal"] }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (7.1.–7.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj form podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Uzupełnij każde zdanie (8.1.–8.8.) jednym wyrazem, przekształcając wyraz podany wielkimi literami tak, aby otrzymać logiczne i gramatycznie poprawne zdania. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "8.1", "sentence": "In October 2019 Southampton suffered a __________ defeat – they lost 9:0 to Leicester City.", "wordBase": "DISASTER", "answer": ["disastrous"] },
+        { "id": "8.2", "sentence": "The 20-year-old Polish tennis star looks __________ – she hasn't lost any match this season.", "wordBase": "BEAT", "answer": ["unbeatable"] },
+        { "id": "8.3", "sentence": "Can I ask you to __________ the basic rules of cricket to me?", "wordBase": "CLEAR", "answer": ["clarify"] },
+        { "id": "8.4", "sentence": "__________, they bet on the wrong horse and lost a large sum of money.", "wordBase": "FORTUNATE", "answer": ["Unfortunately"] },
+        { "id": "8.5", "sentence": "While I was driving, I was listening to the live radio __________ on the game - it was really good and informative.", "wordBase": "COMMENTATE", "answer": ["commentary"] },
+        { "id": "8.6", "sentence": "The team has been __________ by the forward's injury.", "wordBase": "WEAK", "answer": ["weakened"] },
+        { "id": "8.7", "sentence": "Two police officers spotted a man cycling without his hands on the __________.", "wordBase": "HANDLE", "answer": ["handlebars"] },
+        { "id": "8.8", "sentence": "Fiorentina's win against Palermo last night has __________ increased their chances of promotion this season.", "wordBase": "CONSIDER", "answer": ["considerably"] }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "knowledge_questions",
+      "points": 4,
+      "instruction": "Uzupełnij zdania (9.1.–9.4.), wybierając jeden z podanych wariantów odpowiedzi. Zakreśl literę A, B, C albo D. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "9.1",
+          "question": "The American Super Bowl is the championship game of _______.",
+          "options": ["A. soccer", "B. football", "C. baseball", "D. basketball"],
+          "answer": "B"
+        },
+        {
+          "id": "9.2",
+          "question": "_______ has never been the host of the Olympic Games in Canada.",
+          "options": ["A. Vancouver", "B. Montreal", "C. Toronto", "D. Calgary"],
+          "answer": "C"
+        },
+        {
+          "id": "9.3",
+          "question": "Jesse Owens did not win a gold medal at the 1936 Summer Olympics in Berlin in _______.",
+          "options": ["A. long jump", "B. high jump", "C. 4×100 m relay", "D. 100 metres sprint"],
+          "answer": "B"
+        },
+        {
+          "id": "9.4",
+          "question": "Michael Jordan won six championships with the _______.",
+          "options": ["A. Chicago Bulls", "B. Toronto Raptors", "C. New York Knicks", "D. Los Angeles Lakers"],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Odpowiedz na pytania, udzielając odpowiedzi w języku angielskim. Wymagana jest pełna poprawność merytoryczna i językowa odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "10.1",
+          "question": "Which American city hosted the 1984 Summer Olympic Games?",
+          "answer": ["Los Angeles"],
+          "points": 1
+        },
+        {
+          "id": "10.2",
+          "question": "What was the nickname of the famous baseball player George Herman Ruth Jr.?",
+          "answer": ["'Babe' Ruth", "Babe Ruth", "The Bambino", "The Sultan of Swat", "George Herman Ruth Jr."],
+          "points": 1
+        },
+        {
+          "id": "10.3",
+          "question": "Name the famous car race held on Memorial Day in the United States. Give both the name of the race (1 point) and the name of the holiday (1 point).",
+          "answer": ["Indy 500", "Memorial Day"],
+          "points": 2
+        },
+        {
+          "id": "10.4",
+          "question": "Name the top professional ice hockey league in North America (1 point) and the name of the trophy awarded to the champion (1 point).",
+          "answer": ["the National Hockey League", "the Stanley Cup"],
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

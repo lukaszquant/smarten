@@ -1,0 +1,26 @@
+{
+  "title": "Open Cloze: Penguins",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 10,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
+      "title": "PENGUINS",
+      "text": "Penguins are fascinating birds 1.1. _________ cannot fly, but they are excellent swimmers. There are about eighteen different species of penguins, and most of 1.2. _________ live in the Southern Hemisphere. The Emperor Penguin is the largest species, 1.3. _________ can grow up to 120 centimetres tall. These amazing birds spend much of their time 1.4. _________ the freezing waters of Antarctica, where they hunt 1.5. _________ fish and squid. Emperor Penguins are well known for the way they take care of 1.6. _________ eggs. It is the male 1.7. _________ keeps the egg warm on his feet for about two months, while the female goes to the sea to find food. Penguins live in large groups 1.8. _________ are called colonies. 1.9. _________ they cannot fly, penguins can swim at speeds of up to 36 kilometres 1.10. _________ hour, which makes them very effective hunters underwater.",
+      "items": [
+        { "id": "1.1", "answer": ["that", "which"] },
+        { "id": "1.2", "answer": "them" },
+        { "id": "1.3", "answer": ["which", "and"] },
+        { "id": "1.4", "answer": "in" },
+        { "id": "1.5", "answer": "for" },
+        { "id": "1.6", "answer": "their" },
+        { "id": "1.7", "answer": ["who", "that"] },
+        { "id": "1.8", "answer": ["that", "which"] },
+        { "id": "1.9", "answer": "Although" },
+        { "id": "1.10", "answer": ["per", "an"] }
+      ]
+    }
+  ]
+}

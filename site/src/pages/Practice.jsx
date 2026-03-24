@@ -1,0 +1,432 @@
+import { useState, useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import { useDocumentHead } from "../hooks";
+import { useUser } from "../App";
+import TaskRenderer from "../components/konkursy/TaskRenderer";
+import { scoreTest } from "../lib/scoring";
+
+const TYPE_COLORS = {
+  knowledge_questions: "#a78bfa",
+  word_spelling: "#f5a623",
+  word_formation: "#e05080",
+  true_false_ni: "#50d890",
+  open_cloze: "#42b4f5",
+  matching: "#e05080",
+  gap_fill_sentences: "#50d890",
+  multiple_choice: "#42b4f5",
+  dialogue_choice: "#e05080",
+};
+
+const TYPE_LABELS = {
+  knowledge_questions: "Wiedza o krajach",
+  true_false_ni: "Prawda / Falsz / NI",
+  gap_fill_sentences: "Luki w zdaniach",
+  multiple_choice: "Wybor A/B/C",
+  open_cloze: "Uzupelnianie luk",
+  word_spelling: "Literowanie",
+  word_formation: "Slowotworstwo",
+  matching: "Dopasowywanie",
+  dialogue_choice: "Dialogi",
+};
+
+const TYPE_DESCRIPTIONS = {
+  knowledge_questions: "Pytania wielokrotnego wyboru o krajach anglojezycznych",
+  word_spelling: "Uzupelnij brakujace slowo na podstawie kontekstu i podanych liter",
+  word_formation: "Przeksztalc wyraz w odpowiednia forme gramatyczna",
+  true_false_ni: "Przeczytaj tekst i zdecyduj: prawda, falsz lub brak informacji",
+  open_cloze: "Uzupelnij luki w tekscie jednym slowem",
+  matching: "Dopasuj elementy do odpowiednich kategorii",
+  multiple_choice: "Wybierz poprawna odpowiedz A, B lub C",
+  dialogue_choice: "Uzupelnij wypowiedzi idiomami i wyrazeniami",
+  gap_fill_sentences: "Dopasuj zdania do luk w tekscie",
+};
+
+function useExercises() {
+  const [exercises, setExercises] = useState(null);
+  useEffect(() => {
+    fetch("/konkursy/angielski/data/practice/index.json")
+      .then((r) => r.json())
+      .then(setExercises)
+      .catch(console.error);
+  }, []);
+  return exercises;
+}
+
+function useStats() {
+  const user = useUser();
+  const storageKey = `smarten_konkursy_${user?.name || "default"}`;
+  const [stats, setStats] = useState({});
+  useEffect(() => {
+    try {
+      const stored = JSON.parse(localStorage.getItem(storageKey) || "{}");
+      const attempts = stored.attempts || [];
+      const byExercise = {};
+      for (const a of attempts) {
+        const id = a.testId?.replace("practice/", "");
+        if (!id) continue;
+        if (!byExercise[id]) byExercise[id] = [];
+        byExercise[id].push(a);
+      }
+      setStats(byExercise);
+    } catch { setStats({}); }
+  }, [storageKey]);
+  return stats;
+}
+
+function PracticeList() {
+  useDocumentHead("Cwiczenia", "Cwiczenia do konkursu angielskiego");
+  const exercises = useExercises();
+  const stats = useStats();
+
+  const groups = {};
+  if (exercises) {
+    for (const ex of exercises.exercises) {
+      if (!groups[ex.taskType]) groups[ex.taskType] = [];
+      groups[ex.taskType].push(ex);
+    }
+  }
+
+  function typeStats(items) {
+    let completed = 0, totalPct = 0, bestPcts = [];
+    for (const ex of items) {
+      const attempts = stats[ex.id];
+      if (attempts && attempts.length > 0) {
+        completed++;
+        const best = Math.max(...attempts.map((a) => a.percentage));
+        bestPcts.push(best);
+        totalPct += best;
+      }
+    }
+    return { completed, total: items.length, avgBest: completed > 0 ? Math.round(totalPct / completed) : null };
+  }
+
+  return (
+    <div style={styles.page}>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet"
+      />
+      <Link to="/" style={styles.back}>&larr; Powrot do strony glownej</Link>
+      <h1 style={styles.title}>Cwiczenia</h1>
+      <p style={styles.subtitle}>Wybierz typ zadania, ktory chcesz cwiczc.</p>
+
+      {!exercises && <p style={{ color: "#7a7a90" }}>Ladowanie...</p>}
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+        {Object.entries(groups).map(([type, items]) => {
+          const color = TYPE_COLORS[type] || "#f5a623";
+          const ts = typeStats(items);
+          return (
+            <Link
+              key={type}
+              to={`/cwiczenia/${type}`}
+              style={{ ...styles.card, textDecoration: "none", color: "inherit" }}
+              onMouseEnter={(e) => { e.currentTarget.style.borderColor = color + "66"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#1e1e2e"; e.currentTarget.style.transform = "translateY(0)"; }}
+            >
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ color, fontSize: 17, fontWeight: 700, marginBottom: 4 }}>
+                    {TYPE_LABELS[type] || type}
+                  </div>
+                  <div style={{ color: "#7a7a90", fontSize: 13 }}>
+                    {TYPE_DESCRIPTIONS[type] || ""}
+                  </div>
+                </div>
+                <div style={{ textAlign: "right", marginLeft: 16, whiteSpace: "nowrap" }}>
+                  {ts.completed > 0 ? (
+                    <>
+                      <div style={{ fontSize: 13, color: "#7a7a90" }}>
+                        {ts.completed}/{ts.total} ukonczone
+                      </div>
+                      <div style={{
+                        fontSize: 15, fontWeight: 700,
+                        color: ts.avgBest >= 70 ? "#50d890" : ts.avgBest >= 40 ? "#f5a623" : "#e05050",
+                      }}>
+                        sr. {ts.avgBest}%
+                      </div>
+                    </>
+                  ) : (
+                    <span style={{ color: "#5a5a6a", fontSize: 13 }}>
+                      {items.length} cwiczen &rarr;
+                    </span>
+                  )}
+                </div>
+              </div>
+              {ts.completed > 0 && (
+                <div style={{ marginTop: 8, height: 4, borderRadius: 2, background: "#1e1e2e", overflow: "hidden" }}>
+                  <div style={{
+                    height: "100%", borderRadius: 2,
+                    width: `${(ts.completed / ts.total) * 100}%`,
+                    background: color,
+                    transition: "width 0.3s",
+                  }} />
+                </div>
+              )}
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function PracticeTypeList() {
+  const { type } = useParams();
+  const label = TYPE_LABELS[type] || type;
+  const color = TYPE_COLORS[type] || "#f5a623";
+  useDocumentHead(label, `Cwiczenia: ${label}`);
+  const exercises = useExercises();
+  const stats = useStats();
+
+  const items = exercises?.exercises.filter((ex) => ex.taskType === type) || [];
+
+  return (
+    <div style={styles.page}>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet"
+      />
+      <Link to="/cwiczenia" style={styles.back}>&larr; Powrot do cwiczen</Link>
+      <h1 style={{ ...styles.title, color }}>{label}</h1>
+      <p style={styles.subtitle}>{TYPE_DESCRIPTIONS[type] || ""}</p>
+
+      {!exercises && <p style={{ color: "#7a7a90" }}>Ladowanie...</p>}
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        {items.map((ex) => {
+          const attempts = stats[ex.id] || [];
+          const best = attempts.length > 0 ? Math.max(...attempts.map((a) => a.percentage)) : null;
+          const bestScore = attempts.length > 0 ? attempts.reduce((b, a) => a.percentage > b.percentage ? a : b).score : null;
+          const bestMax = attempts.length > 0 ? attempts.reduce((b, a) => a.percentage > b.percentage ? a : b).maxScore : null;
+          return (
+            <Link
+              key={ex.id}
+              to={`/cwiczenia/${type}/${ex.id}`}
+              style={{ ...styles.card, textDecoration: "none", color: "inherit" }}
+              onMouseEnter={(e) => { e.currentTarget.style.borderColor = color + "66"; e.currentTarget.style.transform = "translateY(-2px)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#1e1e2e"; e.currentTarget.style.transform = "translateY(0)"; }}
+            >
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                <div style={{ flex: 1 }}>
+                  <div style={{ color: "#e8e8f0", fontSize: 15, fontWeight: 600 }}>
+                    {ex.title}
+                  </div>
+                  {attempts.length > 0 && (
+                    <div style={{ color: "#5a5a6a", fontSize: 12, marginTop: 2 }}>
+                      {attempts.length === 1 ? "1 podejscie" : `${attempts.length} podejsc`}
+                    </div>
+                  )}
+                </div>
+                <div style={{ textAlign: "right", marginLeft: 12 }}>
+                  {best !== null ? (
+                    <span style={{
+                      fontSize: 14, fontWeight: 700,
+                      color: best >= 70 ? "#50d890" : best >= 40 ? "#f5a623" : "#e05050",
+                    }}>
+                      {bestScore}/{bestMax}
+                    </span>
+                  ) : (
+                    <span style={{ color: "#7a7a90", fontSize: 14 }}>{ex.points} pkt</span>
+                  )}
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function PracticeExercise() {
+  const { type, id } = useParams();
+  const user = useUser();
+  const storageKey = `smarten_konkursy_${user?.name || "default"}`;
+  const [data, setData] = useState(null);
+  const [answers, setAnswers] = useState({});
+  const [result, setResult] = useState(null);
+
+  useDocumentHead("Cwiczenie", "Cwiczenie do konkursu angielskiego");
+
+  useEffect(() => {
+    fetch(`/konkursy/angielski/data/practice/${id}.json`)
+      .then((r) => r.json())
+      .then(setData)
+      .catch(console.error);
+  }, [id]);
+
+  const handleChange = (itemId, value) => {
+    setAnswers((prev) => ({ ...prev, [itemId]: value }));
+  };
+
+  const handleSubmit = () => {
+    const res = scoreTest(data, answers);
+    setResult(res);
+    const entry = {
+      testId: `practice/${id}`,
+      date: new Date().toISOString(),
+      score: res.earned,
+      maxScore: res.max,
+      percentage: res.percentage,
+      answers,
+      taskBreakdown: res.tasks.map((t) => ({
+        taskId: t.taskId,
+        type: t.type,
+        earned: t.earned,
+        max: t.max,
+        skipped: t.skipped,
+      })),
+    };
+    try {
+      const stored = JSON.parse(localStorage.getItem(storageKey) || "{}");
+      const attempts = stored.attempts || [];
+      attempts.push(entry);
+      stored.attempts = attempts;
+      localStorage.setItem(storageKey, JSON.stringify(stored));
+    } catch (e) {
+      console.error("Failed to save results:", e);
+    }
+    fetch("/api/results", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ user: user?.name, ...entry }),
+    }).catch(() => {});
+  };
+
+  if (!data) {
+    return (
+      <div style={styles.page}>
+        <p style={{ color: "#7a7a90" }}>Ladowanie...</p>
+      </div>
+    );
+  }
+
+  const backTo = type ? `/cwiczenia/${type}` : "/cwiczenia";
+
+  return (
+    <div style={styles.page}>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet"
+      />
+
+      <Link to={backTo} style={styles.back}>&larr; Powrot do listy</Link>
+      <h1 style={styles.title}>{data.title}</h1>
+
+      {result && (
+        <div style={{
+          ...styles.resultBanner,
+          borderColor: result.percentage >= 70 ? "#50d890" : result.percentage >= 40 ? "#f5a623" : "#e05050",
+        }}>
+          <div style={{ fontSize: 36, fontWeight: 900, color: "#e8e8f0", fontFamily: "'Playfair Display', serif" }}>
+            {result.earned}/{result.max}
+          </div>
+          <div style={{ fontSize: 20, fontWeight: 700, color: "#c8c8d8" }}>{result.percentage}%</div>
+        </div>
+      )}
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+        {data.tasks.map((task) => {
+          const taskRes = result?.tasks?.find((r) => r.taskId === task.id);
+          return (
+            <div key={task.id}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+                <span style={{ color: "#e8e8f0", fontSize: 16, fontWeight: 700 }}>Zadanie {task.id}</span>
+                <span style={{ color: "#7a7a90", fontSize: 13, fontWeight: 600 }}>
+                  {result && taskRes ? (
+                    <span style={{ color: taskRes.earned === taskRes.max ? "#50d890" : taskRes.earned > 0 ? "#f5a623" : "#e05050" }}>
+                      {taskRes.earned}/{taskRes.max} pkt
+                    </span>
+                  ) : (
+                    `0\u2013${task.points} pkt`
+                  )}
+                </span>
+              </div>
+              <TaskRenderer
+                task={task}
+                answers={answers}
+                onChange={handleChange}
+                showResults={!!result}
+                taskResult={taskRes}
+              />
+            </div>
+          );
+        })}
+      </div>
+
+      {!result && (
+        <div style={{ textAlign: "center", marginTop: 32 }}>
+          <button onClick={handleSubmit} style={styles.submitBtn}>Sprawdz odpowiedzi</button>
+        </div>
+      )}
+
+      {result && (
+        <div style={{ display: "flex", justifyContent: "center", gap: 16, marginTop: 32 }}>
+          <button
+            onClick={() => { setAnswers({}); setResult(null); window.scrollTo(0, 0); }}
+            style={{ ...styles.submitBtn, background: "#2a2a3a", color: "#e8e8f0" }}
+          >
+            Sprobuj ponownie
+          </button>
+          <Link to={backTo} style={styles.submitBtn}>Powrot do listy</Link>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export { PracticeList, PracticeTypeList, PracticeExercise };
+
+const styles = {
+  page: {
+    maxWidth: 800,
+    margin: "0 auto",
+    padding: "20px 20px 60px",
+    fontFamily: "'DM Sans', 'Segoe UI', sans-serif",
+  },
+  back: {
+    color: "#7a7a90",
+    textDecoration: "none",
+    fontSize: 14,
+    display: "inline-block",
+    marginBottom: 16,
+  },
+  title: {
+    fontFamily: "'Playfair Display', Georgia, serif",
+    fontSize: 28,
+    fontWeight: 900,
+    color: "#e8e8f0",
+    marginBottom: 8,
+  },
+  subtitle: { color: "#7a7a90", fontSize: 15, marginBottom: 24 },
+  card: {
+    display: "block",
+    background: "#13131a",
+    border: "1px solid #1e1e2e",
+    borderRadius: 12,
+    padding: "16px 20px",
+    transition: "border-color 0.2s, transform 0.2s",
+  },
+  submitBtn: {
+    display: "inline-block",
+    background: "linear-gradient(135deg, #50d890, #42b4f5)",
+    color: "#0d0d14",
+    border: "none",
+    borderRadius: 10,
+    padding: "14px 48px",
+    fontSize: 16,
+    fontWeight: 700,
+    cursor: "pointer",
+    fontFamily: "'DM Sans', sans-serif",
+    textDecoration: "none",
+  },
+  resultBanner: {
+    background: "#13131a",
+    border: "2px solid",
+    borderRadius: 16,
+    padding: "24px",
+    textAlign: "center",
+    marginBottom: 32,
+  },
+};

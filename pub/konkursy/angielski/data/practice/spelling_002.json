@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Travel & Geography",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "We need to buy a return ticket at the railway s t _ _ _ _ n before we get on the train.",
+          "hint": "s t _ _ _ _ n",
+          "answer": "station"
+        },
+        {
+          "id": "1.2",
+          "stem": "The j _ _ r _ _ y from Warsaw to London by plane takes about two and a half hours.",
+          "hint": "j _ _ r _ _ y",
+          "answer": "journey"
+        },
+        {
+          "id": "1.3",
+          "stem": "Don't forget to pack your s _ _ t _ _ _ e. You will need it for all your clothes.",
+          "hint": "s _ _ t _ _ _ e",
+          "answer": "suitcase"
+        },
+        {
+          "id": "1.4",
+          "stem": "All passengers must show their p _ _ s _ _ _ t at border control.",
+          "hint": "p _ _ s _ _ _ t",
+          "answer": "passport"
+        },
+        {
+          "id": "1.5",
+          "stem": "We visited many famous tourist a _ _ r _ c _ _ _ _ _ during our holiday in Rome.",
+          "hint": "a _ _ r _ c _ _ _ _ _",
+          "answer": "attractions"
+        },
+        {
+          "id": "1.6",
+          "stem": "The hotel a _ _ _ m _ _ _ _ _ _ _ n was excellent. The rooms were clean and comfortable.",
+          "hint": "a _ _ _ m _ _ _ _ _ _ _ n",
+          "answer": "accommodation"
+        },
+        {
+          "id": "1.7",
+          "stem": "We took a lot of photos of the beautiful l _ n _ _ _ _ p _. The views were amazing.",
+          "hint": "l _ n _ _ _ _ p _",
+          "answer": "landscape"
+        },
+        {
+          "id": "1.8",
+          "stem": "Our d _ _ t _ _ _ _ _ _ n was a small village on the coast of Greece.",
+          "hint": "d _ _ t _ _ _ _ _ _ n",
+          "answer": "destination"
+        }
+      ]
+    }
+  ]
+}

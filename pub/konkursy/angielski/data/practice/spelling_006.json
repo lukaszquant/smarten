@@ -1,0 +1,62 @@
+{
+  "title": "Word Spelling: Food & Cooking",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym slowem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "We need to buy fresh v _ _ e _ _ b _ _ _ for the soup.",
+          "hint": "v _ _ e _ _ b _ _ _",
+          "answer": "vegetables"
+        },
+        {
+          "id": "1.2",
+          "stem": "The recipe says you should add a t _ _ s _ _ _ n of salt to the mixture.",
+          "hint": "t _ _ s _ _ _ n",
+          "answer": "teaspoon"
+        },
+        {
+          "id": "1.3",
+          "stem": "This dish contains several unusual i _ _ r _ d _ _ _ _ s that are hard to find in shops.",
+          "hint": "i _ _ r _ d _ _ _ _ s",
+          "answer": "ingredients"
+        },
+        {
+          "id": "1.4",
+          "stem": "My grandmother always makes delicious h _ m _ _ _ d _ cakes for Christmas.",
+          "hint": "h _ m _ _ _ d _",
+          "answer": "homemade"
+        },
+        {
+          "id": "1.5",
+          "stem": "You should keep milk in the r _ f _ _ g _ _ _ t _ r so it stays fresh.",
+          "hint": "r _ f _ _ g _ _ _ t _ r",
+          "answer": "refrigerator"
+        },
+        {
+          "id": "1.6",
+          "stem": "She is a v _ g _ _ _ r _ _ n, so she never eats meat or fish.",
+          "hint": "v _ g _ _ _ r _ _ n",
+          "answer": "vegetarian"
+        },
+        {
+          "id": "1.7",
+          "stem": "Too much sugar is very u _ h _ _ l _ _ y and can cause serious problems.",
+          "hint": "u _ h _ _ l _ _ y",
+          "answer": "unhealthy"
+        },
+        {
+          "id": "1.8",
+          "stem": "The n _ t _ _ t _ _ n information on the label tells you how many calories are in the product.",
+          "hint": "n _ t _ _ t _ _ n",
+          "answer": "nutrition"
+        }
+      ]
+    }
+  ]
+}

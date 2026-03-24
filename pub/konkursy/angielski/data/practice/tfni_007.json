@@ -1,0 +1,23 @@
+{
+  "title": "True/False/NI: Elephants",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
+      "text": "ELEPHANTS\n\nElephants are the largest land animals on Earth. There are three species of elephants: the African bush elephant, the African forest elephant, and the Asian elephant. African bush elephants are the biggest of the three and can weigh up to 6,000 kilograms and stand up to 4 metres tall at the shoulder. Asian elephants are slightly smaller and can be recognised by their smaller, rounded ears, while African elephants have large ears shaped like the continent of Africa.\n\nElephants are highly intelligent animals with excellent memories. Scientists have observed that elephants can remember locations of water sources over vast distances and recognise other elephants they have not seen for many years. They live in family groups led by the oldest female, called the matriarch. She uses her experience and knowledge to guide the herd to food and water, especially during dry seasons.\n\nAn elephant's trunk is an amazing body part. It contains over 40,000 muscles and is used for breathing, smelling, drinking, and grabbing objects. Elephants can use their trunks to pick up something as small as a single blade of grass or as heavy as a tree branch. They also use their trunks to greet each other, often by touching or wrapping their trunks together.\n\nElephants spend up to 16 hours a day eating. Their diet consists mainly of grasses, leaves, bark, and fruit. An adult elephant can eat up to 150 kilograms of food per day and drink up to 200 litres of water. Because they eat so much, elephants play an important role in their ecosystems by spreading seeds through their droppings and creating clearings in forests.\n\nSadly, elephants face serious threats from habitat loss and poaching. Hunters kill elephants illegally for their ivory tusks, which are sold on the black market. Many countries have banned the ivory trade, and conservation organisations are working hard to protect elephant populations. Despite these efforts, elephant numbers continue to decline in many parts of Africa and Asia.",
+      "items": [
+        { "id": "1.1", "statement": "There are two species of elephants in the world.", "answer": "F" },
+        { "id": "1.2", "statement": "African bush elephants can weigh as much as 6,000 kilograms.", "answer": "T" },
+        { "id": "1.3", "statement": "Elephant family groups are led by the oldest male.", "answer": "F" },
+        { "id": "1.4", "statement": "An elephant's trunk has more than 40,000 muscles.", "answer": "T" },
+        { "id": "1.5", "statement": "Elephants usually sleep for about four hours each night.", "answer": "NI" },
+        { "id": "1.6", "statement": "An adult elephant can consume up to 200 litres of water in a day.", "answer": "T" },
+        { "id": "1.7", "statement": "Elephants spend up to 10 hours a day eating.", "answer": "F" },
+        { "id": "1.8", "statement": "Asian elephants are more endangered than African elephants.", "answer": "NI" }
+      ]
+    }
+  ]
+}

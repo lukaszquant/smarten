@@ -1,0 +1,50 @@
+{
+  "type": "practice",
+  "title": "Weather & Nature Idioms",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "items": [
+        {
+          "id": "1.1",
+          "prompt": "She's been feeling a bit under the _______ since Monday. I think she's got a cold.",
+          "options": ["sky", "weather", "cloud"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "prompt": "Every _______ has a silver lining — something good can come out of any bad situation.",
+          "options": ["storm", "cloud", "rain"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "prompt": "He saved money for a _______ day, so he wasn't worried when his car broke down.",
+          "options": ["rainy", "stormy", "cloudy"],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "prompt": "The politician weathered the _______ of criticism and came out stronger than before.",
+          "options": ["flood", "storm", "wind"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "prompt": "After months of arguments, the two friends finally _______ the air and made up.",
+          "options": ["cleared", "freshened", "cleaned"],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "prompt": "It's raining _______ and dogs out there — you'd better take an umbrella!",
+          "options": ["cats", "mice", "rats"],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "practice",
+  "title": "Life in Ancient Rome",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "gap_fill_sentences",
+      "points": 6,
+      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
+      "text": "LIFE IN ANCIENT ROME\n\nAt its height, the city of Rome was home to more than a million people, making it the largest city in the ancient world. Life there was vibrant, noisy, and full of contrasts between the very rich and the very poor. 1. _________ The wealthy lived in grand houses called domus, complete with gardens, mosaic floors, and underfloor heating.\n\nThe majority of Romans, however, lived in apartment blocks known as insulae. These buildings could be up to six storeys high, and the higher the floor, the cheaper and more dangerous the accommodation. 2. _________ Fire was a constant danger, and the city suffered several devastating blazes throughout its history.\n\nFood was central to Roman social life. The wealthy held elaborate dinner parties called convivia, where guests reclined on couches and were served course after course of exotic dishes. 3. _________ These were small food stalls that lined the streets of every Roman city and sold hot food to those who had no kitchen at home.\n\nEntertainment was an important part of daily life. The Romans were passionate about spectacle, and the government regularly provided free events to keep the population happy. 4. _________ Chariot racing at the Circus Maximus was arguably even more popular, attracting crowds of up to 250,000 spectators.\n\nRoman society depended heavily on slavery. It is estimated that around a third of the population of Rome were enslaved people who worked in homes, farms, and mines. 5. _________ A few, particularly those who worked as teachers or doctors, could earn money and eventually buy their freedom.\n\nThe Romans also valued education and literacy. Boys from wealthy families attended school from an early age, learning reading, writing, arithmetic, and rhetoric. 6. _________ Latin, the language of Rome, eventually spread across the empire and gave rise to the modern Romance languages of Europe.",
+      "options": [
+        { "letter": "A", "text": "Upper floors had no running water, so residents had to carry heavy containers up many flights of stairs." },
+        { "letter": "B", "text": "Girls were usually educated at home, though some did learn to read and write alongside their brothers." },
+        { "letter": "C", "text": "Gladiatorial combat in the Colosseum drew enormous crowds eager for drama and excitement." },
+        { "letter": "D", "text": "Ordinary Romans ate most of their meals at thermopolia, the ancient equivalent of fast-food restaurants." },
+        { "letter": "E", "text": "The lives of enslaved people varied greatly depending on the work they were required to do." },
+        { "letter": "F", "text": "This gap between rich and poor was visible everywhere, from clothing and housing to the food people ate." },
+        { "letter": "G", "text": "Roman engineers built an extensive network of roads connecting every corner of the empire." },
+        { "letter": "H", "text": "The Roman army was one of the most disciplined and effective fighting forces the world had ever seen." }
+      ],
+      "items": [
+        { "id": "1.1", "answer": "F" },
+        { "id": "1.2", "answer": "A" },
+        { "id": "1.3", "answer": "D" },
+        { "id": "1.4", "answer": "C" },
+        { "id": "1.5", "answer": "E" },
+        { "id": "1.6", "answer": "B" }
+      ]
+    }
+  ]
+}

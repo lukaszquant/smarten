@@ -1,0 +1,197 @@
+{
+  "year": "2021/2022",
+  "stage": "szkolny",
+  "date": "2021-10-20",
+  "maxPoints": 40,
+  "timeMinutes": 90,
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Przeczytaj poniższy tekst. Zaznacz w tabeli znakiem X, które zdania (1.1.–1.3.) są zgodne z treścią tekstu (T – True), które są niezgodne (F – False) oraz które zawierają informacje niepodane w tekście (NI – No Information). Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "CHEESY LISTENING\n\nLast September, Swiss cheesemaker, Mr Wampfler, and a team of scientists placed nine wheels of Emmental cheese in special wooden boxes. Then, for the next six months the cheeses listened to one type of sounds for 24 hours.\n\nThe \"classical\" cheese relaxed to the sounds of Mozart's The Magic Flute and the \"rock\" cheese rocked out to Led Zeppelin's Stairway to Heaven. Some cheeses listened to hip-hop, techno and ambient music, while three other wheels were exposed to simple high, medium and low tones. There was also a control wheel of cheese that aged in silence.\n\nIn March, a team of experts including, among others TV chefs and the mayor of the town where Mr Wampfler lives, tasted all nine cheeses and picked a favourite. It turned out that each cheese had a different taste – depending on the music it had listened to. The pieces of cheese exposed to music had a milder flavour than the non-musical cheese. Some of them were sweeter or had a stronger smell and a fruitier taste than the others. For many culinary experts the hip-hop cheese came out on top. The tasting, however, was subjective and not everyone thought hip-hop was the cheesiest. \"My favourite cheese was that of Mozart. I like Mozart but it's not necessarily what I listen to... Maybe this sweet classical music does something good to cheese,\" said Swiss celebrity chef and jury member Benjamin Luzuy.\n\nMr Wampfler was delighted at how the experiment had worked out. People have already called asking for cheese that has listened to the blues, Balkan music and ACDC.\n\nAnd what about you? Would you be interested in tasting cheese based on your musical taste?",
+      "source": "https://www.smithsonianmag.com, https://phys.org",
+      "items": [
+        { "id": "1.1", "statement": "All the wedges of cheese listened to some pieces of music.", "answer": "F" },
+        { "id": "1.2", "statement": "Mr Wampfler was one of the experts who decided which cheese was the best.", "answer": "NI" },
+        { "id": "1.3", "statement": "The experiment is going to be continued with other types of music.", "answer": "NI" }
+      ],
+      "scoringScheme": { "3": 3, "2": 2, "1": 1, "0": 0 }
+    },
+    {
+      "id": "2",
+      "type": "gap_fill_sentences",
+      "points": 4,
+      "instruction": "Przeczytaj tekst. Do każdej luki (2.1.–2.4.) dopasuj właściwe zdanie (A–G), aby powstał logiczny i spójny tekst. Trzy zdania zostały podane dodatkowo i nie pasują do żadnej luki. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "VIKING TREASURE\n\nIn 2018 two amateur archaeologists, Luca and his teacher, Rene Schön, were using metal detectors in a field on Rügen Island in the Baltic Sea off northern Germany. At one point the boy found a little piece of metal that he initially thought was only aluminium rubbish. 2.1. _________ They saw that it was actually a silver coin. That's when they knew they had found something important. \"It was the biggest discovery of my life,\" said Schön.\n\nThe government's archaeology office asked Mr Schön and Luca to keep what they had found a secret. 2.2. _________ The boy and his teacher were invited to participate when the archaeologists were ready. The results of the dig were amazing. The find included rings, pearls, bracelets and up to 600 silver coins which were over 1,000 years old.\n\n2.3. _________ He was born a Viking in the 10th century, and united Danish tribes into a single kingdom. At the end of Harald's life, his son rebelled against him and took the throne. The king was forced to leave his country for Pomerania (which included Rügen Island) where he soon died.\n\nBlåtand means \"blue tooth\". The king's nickname came from the fact he had a dead tooth that looked bluish. And in case you were wondering: Yes, King Harald Bluetooth is now best known for the wireless technology. 2.4. _________ Just as PCs and mobile devices connect via a short-range wireless link. What is more, the Bluetooth symbol is created by putting the Viking letters for the initials (HB) together.",
+      "source": "https://newsforkids.net, https://most-interestingthings.com, https://nypost.com",
+      "options": [
+        { "letter": "A", "text": "Scientists think the treasure belonged to King Harald Gormsson known as \"Harald Blåtand\"." },
+        { "letter": "B", "text": "After washing their find, they recognised it was not special at all." },
+        { "letter": "C", "text": "It was named in that way after his ability to unite ancient Scandinavia." },
+        { "letter": "D", "text": "The office said that two amateurs were asked to finish their work in the field." },
+        { "letter": "E", "text": "In this way, the professionals had time to plan the excavation carefully." },
+        { "letter": "F", "text": "The archaeologists are not sure which Danish king buried the treasure in this area." },
+        { "letter": "G", "text": "When they cleaned it, they realised it was more precious." }
+      ],
+      "items": [
+        { "id": "2.1", "answer": "G" },
+        { "id": "2.2", "answer": "E" },
+        { "id": "2.3", "answer": "A" },
+        { "id": "2.4", "answer": "C" }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "multiple_choice",
+      "points": 4,
+      "instruction": "Uzupełnij poniższe zdania (3.1.–3.4.), wybierając odpowiedź spośród podanych wariantów. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "3.1",
+          "stem": "I really want to buy this guitar. Luckily, I have saved some money for a _______ day.",
+          "options": ["snowy", "rainy", "wet"],
+          "answer": "B"
+        },
+        {
+          "id": "3.2",
+          "stem": "We started to feel that we couldn't walk any further but when we saw the town in the distance we got our second _______.",
+          "options": ["blow", "breeze", "wind"],
+          "answer": "C"
+        },
+        {
+          "id": "3.3",
+          "stem": "To tell you _______, I can't stand his cooking.",
+          "options": ["the real", "the honesty", "the truth"],
+          "answer": "C"
+        },
+        {
+          "id": "3.4",
+          "stem": "My cousin is such _______. First she bought the same jacket as me, and now she's applying to my school.",
+          "options": ["a copycat", "an imitating parrot", "a fake sheep"],
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "dialogue_choice",
+      "points": 4,
+      "instruction": "Uzupełnij poniższe dialogi (4.1.–4.4.), wybierając odpowiedź spośród podanych wariantów. Zakreśl literę A, B albo C. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "4.1",
+          "prompt": "X: Do you know what he said?\nY: Go on – I'm _______.",
+          "options": ["at listening", "all ears", "on hear"],
+          "answer": "B"
+        },
+        {
+          "id": "4.2",
+          "prompt": "X: What time do you have to _______ off to be there on time?\nY: Early morning. 4 o'clock to be exact.",
+          "options": ["set", "reach", "turn"],
+          "answer": "A"
+        },
+        {
+          "id": "4.3",
+          "prompt": "X: What about a slice of chocolate cake?\nY: Absolutely. You know that I have a sweet _______.",
+          "options": ["mouth", "throat", "tooth"],
+          "answer": "C"
+        },
+        {
+          "id": "4.4",
+          "prompt": "X: Excuse me, where is the National Museum?\nY: You have to _______ off at the next stop.",
+          "options": ["go", "get", "leave"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj poniższy tekst. Uzupełnij każdą lukę (5.1.-5.10.) jednym wyrazem, tak aby otrzymać spójny i poprawny językowo tekst. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
+      "text": "MOTHER DUCK AND 76 DUCKLINGS\n\nWhen photographer Brent Cizek went out on Lake Bemidji 5.1. _________________ late June, he wasn't expecting much. But what he 5.2. _________________ really surprised him – a mother duck with about 50 ducklings swimming behind her.\n\nThe mother was a kind of duck called a Common Merganser. 5.3. _________________ first the animals seemed to be nervous. But later Mr Cizek was 5.4. _________________ to get his boat close enough to 5.5. _________________ some pictures.\n\nWhen Mr. Cizek went back to the lake later, he counted 76 ducklings. He was surprised as mergansers usually have 5.6. _________________ eight and twelve babies. But it is not unusual for a mother to take 5.7. _________________ of more babies than that. Why? Female mergansers lay some of their eggs in other birds' nests. In this way, the babies will survive, even if 5.8. _________________ bad happens to the mother. What is more, sometimes one mother can look 5.9. _________________ the babies of many others. It is like a kindergarten system.\n\nMr. Cizek has kept on going out to the lake. He says that the ducklings are growing quickly and are starting to go out on their 5.10. _________________. But as soon as mother Merganser starts going somewhere, they all follow.",
+      "source": "https://newsforkids.net/",
+      "items": [
+        { "id": "5.1", "answer": ["in"] },
+        { "id": "5.2", "answer": ["saw", "noticed", "observed"] },
+        { "id": "5.3", "answer": ["At"] },
+        { "id": "5.4", "answer": ["able"] },
+        { "id": "5.5", "answer": ["take", "snap"] },
+        { "id": "5.6", "answer": ["between"] },
+        { "id": "5.7", "answer": ["care"] },
+        { "id": "5.8", "answer": ["something"] },
+        { "id": "5.9", "answer": ["after"] },
+        { "id": "5.10", "answer": ["own"] }
+      ],
+      "scoringScheme": { "10": 5, "9-8": 4, "7-6": 3, "5-4": 2, "3-2": 1, "1-0": 0 }
+    },
+    {
+      "id": "6",
+      "type": "word_spelling",
+      "points": 4,
+      "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        { "id": "6.1", "hint": "_ _ _ k _ _", "clue": "I lost my wallet yesterday. I think it fell out of my _ _ _ k _ _.", "answer": "pocket" },
+        { "id": "6.2", "hint": "_ _ s _ _ _", "clue": "You are a great cook. The fish _ _ s _ _ _ just as good as it looks.", "answer": "tastes" },
+        { "id": "6.3", "hint": "_ _ f _ _ _ _ _ _ _", "clue": "I looked the word up in three _ _ f _ _ _ _ _ _ _ dictionaries.", "answer": "different" },
+        { "id": "6.4", "hint": "_ _ _ _ s _ _", "clue": "You're not _ _ _ _ s _ _ warmly enough – put a heavy coat on.", "answer": "dressed" }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "grammar_gaps",
+      "points": 6,
+      "instruction": "Uzupełnij zdania (7.1.–7.6.), wstawiając wyrazy podane w nawiasach w odpowiedniej formie. Wymagana jest pełna poprawność gramatyczna i ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
+      "skipped": true,
+      "items": []
+    },
+    {
+      "id": "8",
+      "type": "knowledge_questions",
+      "points": 5,
+      "instruction": "Dokończ zdania (8.1.–8.5.), wybierając jeden z podanych wariantów odpowiedzi. Zakreśl literę A, B, C albo D. Przenieś rozwiązania na kartę odpowiedzi.",
+      "items": [
+        {
+          "id": "8.1",
+          "question": "Joe Biden is the _______ president of the United States.",
+          "options": ["A. 36th", "B. 40th", "C. 46th", "D. 48th"],
+          "answer": "C"
+        },
+        {
+          "id": "8.2",
+          "question": "The Maori are the native people of _______.",
+          "options": ["A. New Zealand", "B. Northern Ireland", "C. Canada", "D. the United States"],
+          "answer": "A"
+        },
+        {
+          "id": "8.3",
+          "question": "The International Fringe Festival takes place in _______.",
+          "options": ["A. Cardiff", "B. London", "C. Dublin", "D. Edinburgh"],
+          "answer": "D"
+        },
+        {
+          "id": "8.4",
+          "question": "The harp is the symbol of _______.",
+          "options": ["A. Ireland", "B. New Zealand", "C. Scotland", "D. Canada"],
+          "answer": "A"
+        },
+        {
+          "id": "8.5",
+          "question": "Canada's longest river system is _______.",
+          "options": ["A. the Missouri River", "B. the River Severn", "C. the McKenzie River", "D. the Murray River"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Uczestniczyłeś/aś w spotkaniu ze słynnym sportowcem. W e-mailu do znajomego z Anglii: wyjaśnij, w jaki sposób zdobyłeś/aś zaproszenie na to spotkanie, zrelacjonuj przebieg spotkania, napisz, czego zaskakującego dowiedziałeś/aś się o sportowcu podczas spotkania.\n\nPodpisz się jako XYZ. Rozwiń swoją wypowiedź w każdym z trzech podpunktów. Oceniana jest umiejętność pełnego przekazania informacji oraz poprawność środków językowych.",
+      "skipped": true,
+      "items": []
+    }
+  ]
+}
