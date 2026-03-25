@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "1.1",
-          "question": "What is the traditional British dish made of fried fish and fried potatoes called?",
+          "question": "What is the traditional British dish made of battered seafood and fried potatoes called?",
           "options": ["A. Bangers and mash", "B. Fish and chips", "C. Shepherd's pie", "D. Full English"],
           "answer": "B"
         },
@@ -28,7 +28,7 @@
         },
         {
           "id": "1.4",
-          "question": "What is the name of the traditional afternoon meal with tea, sandwiches, and cakes in Britain?",
+          "question": "What is the name of the traditional British meal served around 4 PM with sandwiches and cakes?",
           "options": ["A. Brunch", "B. High tea", "C. Afternoon tea", "D. Elevenses"],
           "answer": "C"
         },

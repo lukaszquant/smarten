@@ -52,7 +52,7 @@
         },
         {
           "id": "1.8",
-          "question": "What do British people traditionally eat on Shrove Tuesday (Pancake Day)?",
+          "question": "What do British people traditionally eat on Shrove Tuesday?",
           "options": ["A. Hot dogs", "B. Pancakes", "C. Mince pies", "D. Scones"],
           "answer": "B"
         },
@@ -64,7 +64,7 @@
         },
         {
           "id": "1.10",
-          "question": "Which country celebrates Australia Day on 26th January?",
+          "question": "Which country celebrates its national day on 26th January?",
           "options": ["A. New Zealand", "B. Canada", "C. South Africa", "D. Australia"],
           "answer": "D"
         }

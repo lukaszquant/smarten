@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "1.1",
-          "question": "Who is the current King of the United Kingdom (as of 2024)?",
+          "question": "Who is the current monarch of the United Kingdom (as of 2024)?",
           "options": [
             "A. King Edward IX",
             "B. King William V",
@@ -21,7 +21,7 @@
         },
         {
           "id": "1.2",
-          "question": "Which palace is the official London residence of the British monarch?",
+          "question": "What is the official London residence of the British monarch called?",
           "options": [
             "A. Windsor Castle",
             "B. Kensington Palace",
@@ -32,7 +32,7 @@
         },
         {
           "id": "1.3",
-          "question": "The British Parliament is made up of two houses: the House of Commons and the _______.",
+          "question": "The British Parliament is made up of two chambers: the Commons and the _______.",
           "options": [
             "A. House of Representatives",
             "B. House of Lords",
@@ -76,7 +76,7 @@
         },
         {
           "id": "1.7",
-          "question": "Which famous London landmark was originally built as a royal palace and later used as a prison?",
+          "question": "Which famous landmark was originally built as a royal residence and later used as a prison?",
           "options": [
             "A. Big Ben",
             "B. The Tower of London",
@@ -98,7 +98,7 @@
         },
         {
           "id": "1.9",
-          "question": "Which famous queen ruled England for 45 years and the era was named after her (the Elizabethan era)?",
+          "question": "Which Tudor monarch ruled England for 45 years and had an entire era named after her?",
           "options": [
             "A. Queen Victoria",
             "B. Queen Elizabeth I",

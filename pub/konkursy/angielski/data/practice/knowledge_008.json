@@ -40,7 +40,7 @@
         },
         {
           "id": "1.6",
-          "question": "Which sport do you associate with the NBA (National Basketball Association)?",
+          "question": "Which sport is played in the NBA?",
           "options": ["A. Baseball", "B. Basketball", "C. Bowling", "D. Badminton"],
           "answer": "B"
         },
