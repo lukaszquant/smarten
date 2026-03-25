@@ -1,0 +1,56 @@
+{
+  "title": "Sentence Transformation: Gerunds & Infinitives",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 6,
+      "instruction": "Przeczytaj zdania. Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "It was a mistake to leave the door unlocked.",
+          "keyword": "REGRETS",
+          "transformed": "She _________ the door unlocked.",
+          "answer": "regrets leaving / regrets having left"
+        },
+        {
+          "id": "1.2",
+          "original": "\"You should try eating less sugar,\" the doctor said to him.",
+          "keyword": "ADVISED",
+          "transformed": "The doctor _________ less sugar.",
+          "answer": "advised him to eat"
+        },
+        {
+          "id": "1.3",
+          "original": "Playing video games for hours is not good for your eyes.",
+          "keyword": "AVOID",
+          "transformed": "You should _________ for hours if you want to protect your eyes.",
+          "answer": "avoid playing video games"
+        },
+        {
+          "id": "1.4",
+          "original": "He was so tired that he fell asleep during the film.",
+          "keyword": "MANAGED",
+          "transformed": "He did not (didn't) _________ awake during the film.",
+          "answer": "manage to stay"
+        },
+        {
+          "id": "1.5",
+          "original": "It is not allowed to use your phone in the library.",
+          "keyword": "FORBIDDEN",
+          "transformed": "You are _________ your phone in the library.",
+          "answer": "forbidden from using"
+        },
+        {
+          "id": "1.6",
+          "original": "I started learning French three years ago.",
+          "keyword": "BEEN",
+          "transformed": "I have _________ French for three years.",
+          "answer": "been learning"
+        }
+      ]
+    }
+  ]
+}

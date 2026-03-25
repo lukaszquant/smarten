@@ -1,0 +1,56 @@
+{
+  "title": "Sentence Transformation: Mixed Structures",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 6,
+      "instruction": "Przeczytaj zdania. Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "It is possible that the train has been delayed.",
+          "keyword": "MAY",
+          "transformed": "The train _________ delayed.",
+          "answer": "may have been"
+        },
+        {
+          "id": "1.2",
+          "original": "Despite being tired, she finished all her homework.",
+          "keyword": "ALTHOUGH",
+          "transformed": "_________ tired, she finished all her homework.",
+          "answer": "Although she was"
+        },
+        {
+          "id": "1.3",
+          "original": "The last time I saw him was two years ago.",
+          "keyword": "SEEN",
+          "transformed": "I have not (haven't) _________ two years.",
+          "answer": "seen him for"
+        },
+        {
+          "id": "1.4",
+          "original": "It is not necessary for you to bring any food to the picnic.",
+          "keyword": "NEED",
+          "transformed": "You _________ any food to the picnic.",
+          "answer": "do not (don't) need to bring / need not (needn't) bring"
+        },
+        {
+          "id": "1.5",
+          "original": "My sister is too young to watch this film.",
+          "keyword": "ENOUGH",
+          "transformed": "My sister is not _________ to watch this film.",
+          "answer": "old enough"
+        },
+        {
+          "id": "1.6",
+          "original": "We had just left the house when it started to rain.",
+          "keyword": "SOONER",
+          "transformed": "No _________ left the house than it started to rain.",
+          "answer": "sooner had we"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
-import TaskRenderer from "../components/konkursy/TaskRenderer";
+import TaskRenderer, { AI_CHECKED_TYPES } from "../components/konkursy/TaskRenderer";
 import { scoreTest } from "../lib/scoring";
 
 const TYPE_COLORS = {
@@ -15,6 +15,9 @@ const TYPE_COLORS = {
   gap_fill_sentences: "#50d890",
   multiple_choice: "#42b4f5",
   dialogue_choice: "#e05080",
+  sentence_transformation: "#f5a623",
+  grammar_gaps: "#a78bfa",
+  writing: "#42b4f5",
 };
 
 const TYPE_LABELS = {
@@ -27,6 +30,9 @@ const TYPE_LABELS = {
   word_formation: "Slowotworstwo",
   matching: "Dopasowywanie",
   dialogue_choice: "Dialogi",
+  sentence_transformation: "Transformacje zdan",
+  grammar_gaps: "Luki gramatyczne",
+  writing: "Wypowiedz pisemna",
 };
 
 const TYPE_DESCRIPTIONS = {
@@ -39,6 +45,9 @@ const TYPE_DESCRIPTIONS = {
   multiple_choice: "Wybierz poprawna odpowiedz A, B lub C",
   dialogue_choice: "Uzupelnij wypowiedzi idiomami i wyrazeniami",
   gap_fill_sentences: "Dopasuj zdania do luk w tekscie",
+  sentence_transformation: "Przeksztalc zdania uzywajac podanego slowa kluczowego",
+  grammar_gaps: "Uzupelnij luki odpowiednia forma gramatyczna",
+  writing: "Napisz e-mail lub wypowiedz na zadany temat",
 };
 
 function useExercises() {
@@ -246,6 +255,7 @@ function PracticeExercise() {
   const [data, setData] = useState(null);
   const [answers, setAnswers] = useState({});
   const [result, setResult] = useState(null);
+  const [aiChecking, setAiChecking] = useState(false);
 
   useDocumentHead("Cwiczenie", "Cwiczenie do konkursu angielskiego");
 
@@ -260,9 +270,7 @@ function PracticeExercise() {
     setAnswers((prev) => ({ ...prev, [itemId]: value }));
   };
 
-  const handleSubmit = () => {
-    const res = scoreTest(data, answers);
-    setResult(res);
+  const saveResult = (res) => {
     const entry = {
       testId: `practice/${id}`,
       date: new Date().toISOString(),
@@ -292,6 +300,61 @@ function PracticeExercise() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ user: user?.name, ...entry }),
     }).catch(() => {});
+  };
+
+  const handleSubmit = async () => {
+    const res = scoreTest(data, answers);
+
+    const aiTasks = data.tasks.filter(
+      (t) => AI_CHECKED_TYPES.includes(t.type) && t.items && t.items.length > 0
+    );
+
+    if (aiTasks.length === 0) {
+      setResult(res);
+      saveResult(res);
+      return;
+    }
+
+    setResult(res);
+    setAiChecking(true);
+
+    const aiResults = await Promise.allSettled(
+      aiTasks.map((task) =>
+        fetch("/api/check", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: task.type, task, answers }),
+        }).then((r) => r.ok ? r.json() : null)
+      )
+    );
+
+    let updatedTasks = [...res.tasks];
+    aiTasks.forEach((task, i) => {
+      const aiRes = aiResults[i].status === "fulfilled" ? aiResults[i].value : null;
+      if (!aiRes) return;
+      const idx = updatedTasks.findIndex((t) => t.taskId === task.id);
+      if (idx === -1) return;
+      updatedTasks[idx] = {
+        ...updatedTasks[idx],
+        earned: aiRes.earned,
+        max: aiRes.max,
+        skipped: false,
+        items: aiRes.items,
+      };
+    });
+
+    const earned = updatedTasks.reduce((sum, r) => sum + r.earned, 0);
+    const max = updatedTasks.filter((r) => !r.skipped).reduce((sum, r) => sum + r.max, 0);
+    const finalRes = {
+      earned,
+      max,
+      percentage: max > 0 ? Math.round((earned / max) * 100) : 0,
+      tasks: updatedTasks,
+    };
+
+    setResult(finalRes);
+    setAiChecking(false);
+    saveResult(finalRes);
   };
 
   if (!data) {
@@ -358,6 +421,12 @@ function PracticeExercise() {
       {!result && (
         <div style={{ textAlign: "center", marginTop: 32 }}>
           <button onClick={handleSubmit} style={styles.submitBtn}>Sprawdz odpowiedzi</button>
+        </div>
+      )}
+
+      {aiChecking && (
+        <div style={{ textAlign: "center", marginTop: 16 }}>
+          <p style={{ color: "#a78bfa", fontSize: 14 }}>Sprawdzanie przez AI...</p>
         </div>
       )}
 

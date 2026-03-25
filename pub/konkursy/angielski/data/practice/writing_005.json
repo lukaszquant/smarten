@@ -1,0 +1,15 @@
+{
+  "title": "Writing: Culture",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Twoj przyjaciel z Wielkiej Brytanii, Oliver, powiedzial ci, ze w jego szkole odbywal sie projekt o tradycjach i swietach roznych krajow europejskich. Oliver poprosil cie o opisanie jednej z polskich tradycji, poniewaz chcialby zaprezentowac ja swojej klasie. W e-mailu do Olivera: opisz jedna polska tradycje lub swieto (np. Wigilia, Smigus-Dyngus, Dzien Wszystkich Swietych), wyjasniajac jej znaczenie i sposob obchodzenia, porownaj te tradycje z podobnym swietem lub zwyczajem w Wielkiej Brytanii lub Stanach Zjednoczonych, wskazujac podobienstwa i roznice, zaprос Olivera do odwiedzenia Polski w czasie, gdy ta tradycja jest obchodzona, i przekonaj go, dlaczego warto to zobaczyc na wlasne oczy.",
+      "items": [
+        { "id": "1.1" }
+      ]
+    }
+  ]
+}

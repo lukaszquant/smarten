@@ -1,0 +1,15 @@
+{
+  "title": "Writing: Technology",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Przeczytales/Przeczytalas artykul w szkolnej gazetce, w ktorym autor twierdzi, ze media spolecznosciowe maja wylacznie negatywny wplyw na mlodych ludzi i powinny byc zakazane dla osob ponizej 18 roku zycia. Twoj kolega z Australii, Liam, rowniez przeczytał ten artykul i chce poznac twoja opinie. W e-mailu do Liama: wyraź swoja opinie na temat mediow spolecznosciowych i wyjasniej, czy zgadzasz sie z autorem artykulu, podajac konkretne argumenty, opisz, w jaki sposob technologia (np. internet, aplikacje, urzadzenia mobilne) pomaga ci w codziennym zyciu szkolnym lub prywatnym, polec Liamowi aplikacje lub strone internetowa, ktora uwazasz za szczegolnie uzyteczna dla uczniow, i uzasadnij swoj wybor.",
+      "items": [
+        { "id": "1.1" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Sentence Transformation: Passive Voice & Reported Speech",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 6,
+      "instruction": "Przeczytaj zdania. Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "Someone stole my bicycle last night.",
+          "keyword": "WAS",
+          "transformed": "My bicycle _________ last night.",
+          "answer": "was stolen"
+        },
+        {
+          "id": "1.2",
+          "original": "They are building a new sports hall near our school.",
+          "keyword": "BEING",
+          "transformed": "A new sports hall _________ near our school.",
+          "answer": "is being built"
+        },
+        {
+          "id": "1.3",
+          "original": "\"I have never visited London,\" said Tom.",
+          "keyword": "NEVER",
+          "transformed": "Tom said that he had _________ London.",
+          "answer": "never visited"
+        },
+        {
+          "id": "1.4",
+          "original": "\"Don't touch the paintings,\" the museum guide told us.",
+          "keyword": "NOT",
+          "transformed": "The museum guide told us _________ the paintings.",
+          "answer": "not to touch"
+        },
+        {
+          "id": "1.5",
+          "original": "People believe that the castle was built in the 12th century.",
+          "keyword": "BELIEVED",
+          "transformed": "The castle _________ built in the 12th century.",
+          "answer": "is believed to have been"
+        },
+        {
+          "id": "1.6",
+          "original": "\"Are you coming to the party tomorrow?\" Anna asked me.",
+          "keyword": "WHETHER",
+          "transformed": "Anna asked me _________ to the party the following day.",
+          "answer": "whether I was coming"
+        }
+      ]
+    }
+  ]
+}

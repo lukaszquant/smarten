@@ -1,0 +1,15 @@
+{
+  "title": "Writing: Environment",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Twoja znajoma z Kanady, Sophie, uczy sie o problemach srodowiskowych na lekcjach geografii i napisala do ciebie z prosba o informacje na temat sytuacji ekologicznej w Polsce. W e-mailu do Sophie: opisz jeden powazny problem srodowiskowy, ktory dotyka twoja okolic lub Polske jako kraj, i wyjasniej jego przyczyny oraz skutki dla ludzi i przyrody, opisz dzialania, ktore twoja szkola lub spolecznosc lokalna podejmuje, aby dbac o srodowisko naturalne, zaproponuj dwa konkretne dzialania, ktore zdaniem twoim moglaby podjac Sophie i jej rodzina w Kanadzie, aby przyczyniac sie do ochrony srodowiska na co dzien.",
+      "items": [
+        { "id": "1.1" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Writing: Travel",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Wrociles/Wrocilас niedawno z wycieczki szkolnej lub rodzinnej do miejsca, ktore bardzo ci sie podobalo. Twoja koleżanka z Irlandii, Emma, interesuje sie podrożami i pytala cie w ostatnim e-mailu o twoje przygody. W e-mailu do Emmy: opisz miejsce, ktore ostatnio odwiedziles/odwiedzilас, i wyjasniej, co najbardziej ci sie tam podobalo, porownaj to miejsce z innym miejscem, ktore znasz (np. inne miasto, region lub kraj), wskazujac co najmniej jedna wazna roznice, polec Emmie konkretne polskie miejsce, ktore powinna odwiedzic podczas swojej planowanej wizyty w Polsce, i podaj powody.",
+      "items": [
+        { "id": "1.1" }
+      ]
+    }
+  ]
+}

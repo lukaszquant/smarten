@@ -1,0 +1,15 @@
+{
+  "title": "Writing: School Life",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "writing",
+      "points": 5,
+      "instruction": "Twoj przyjaciel z Anglii, Jack, napisal do ciebie e-mail z pytaniami o polskie szkoly. Slyszal, ze system edukacji w Polsce rozni sie znacznie od brytyjskiego. W e-mailu do Jacka: porownaj polski i brytyjski system szkolny, zwracajac uwage na podobienstwa lub roznice, ktore uwazasz za najwazniejsze, opisz ostatnie wydarzenie szkolne, w ktorym uczestniczyles/uczestniczylас (np. przedstawienie, wycieczka, festyn), wytlumaczac, dlaczego bylo ono wazne dla spolecznosci szkolnej, zaproponuj jedna zajecia pozalekcyjne dostepne w twojej szkole, ktore Jackowi moglyby sie spodobac, i uzasadnij swoj wybor.",
+      "items": [
+        { "id": "1.1" }
+      ]
+    }
+  ]
+}
