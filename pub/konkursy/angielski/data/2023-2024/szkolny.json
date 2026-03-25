@@ -13,14 +13,43 @@
       "text": "JOKE ON TOURISTS\n\nQueen Elizabeth II died in September 2022 at the age of 96. Without a doubt, her reign on the British throne was filled with historic moments. But Her Majesty also had a wicked sense of humour, which only those closest to her got to witness first-hand and sometimes revealed to the rest of the world.\n\nDuring the Queen's Platinum Jubilee celebrations in June 2022, marking 70 years of her reign, some of those who knew the Queen shared some anecdotes. One of them was told by a former royal protection officer, Richard Griffin.\n\nThe story began with the monarch and Griffin walking around the grounds of Balmoral Castle, her holiday home in Scotland. She was wearing her tweed jacket and headscarf then. In fact, the Queen did often enjoy a more low-key lifestyle when staying at Balmoral. She usually swapped her eye-catching, colourful dresses that she wore to royal engagements for simple 'casual clothes' and wellington boots.\n\nWhile strolling, they met two American tourists. It was clear from the moment the Queen first stopped to say hello that they didn't recognise her. One of the Americans began telling the Queen where they came from and what sites they had already seen in Great Britain. Then he asked the Queen where she lived. She said, \"Well I live in London, but I've got a holiday home just on the other side of the hills.\" And he said, \"How often have you been coming up here?\" When the Queen responded that she had been coming up to Balmoral Castle for over 80 years, the hiker asked if she had ever met Queen Elizabeth. As quick as a flash she replied, \"Well I haven't, but Richard here meets her regularly.\"\n\nIntrigued, the American tourist instantly asked Griffin about the Queen's personality. Griffin decided to take advantage of the fact that the hikers failed to recognise her, so his response was equally hilarious. He had been with the Queen a long time and he knew he could play along with her, so he said, \"Oh, she is bad-tempered and annoying at times, but she also has a lovely sense of humour.\"\n\nThe excited American tourist immediately got his camera out. He handed it to the Queen herself and asked her to take their photo standing with the man who met the Queen. Eventually, they had one taken by Griffin with her as well. When they waved goodbye, Her Majesty turned to him and said, \"I'd love to be a fly on the wall when he shows that to his friends in America and hopefully someone tells him who I am.\"\n\nSo, if you remember the Queen for her stoic manner and calm voice, this story probably sheds a new light on the Queen's sense of humour.",
       "source": "www.dailymail.co.uk, www.insider.com, www.wionews.com",
       "items": [
-        { "id": "1.1", "statement": "The fun-loving side of the Queen's personality was rarely seen in public.", "answer": "T" },
-        { "id": "1.2", "statement": "Richard Griffin was the only royal officer who agreed to share the anecdote about the Queen.", "answer": "NI" },
-        { "id": "1.3", "statement": "The Queen's outfit when she met the tourists was different to what she usually wore at Balmoral.", "answer": "F" },
-        { "id": "1.4", "statement": "Griffin joked in a way that only he and the Queen could understand.", "answer": "T" },
-        { "id": "1.5", "statement": "Altogether, the American ended up with two different pictures of the Queen.", "answer": "F" },
-        { "id": "1.6", "statement": "The American tourists have never become aware of who they really met.", "answer": "NI" }
+        {
+          "id": "1.1",
+          "statement": "The fun-loving side of the Queen's personality was rarely seen in public.",
+          "answer": "T"
+        },
+        {
+          "id": "1.2",
+          "statement": "Richard Griffin was the only royal officer who agreed to share the anecdote about the Queen.",
+          "answer": "NI"
+        },
+        {
+          "id": "1.3",
+          "statement": "The Queen's outfit when she met the tourists was different to what she usually wore at Balmoral.",
+          "answer": "F"
+        },
+        {
+          "id": "1.4",
+          "statement": "Griffin joked in a way that only he and the Queen could understand.",
+          "answer": "T"
+        },
+        {
+          "id": "1.5",
+          "statement": "Altogether, the American ended up with two different pictures of the Queen.",
+          "answer": "F"
+        },
+        {
+          "id": "1.6",
+          "statement": "The American tourists have never become aware of who they really met.",
+          "answer": "NI"
+        }
       ],
-      "scoringScheme": { "6": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+      "scoringScheme": {
+        "6": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     },
     {
       "id": "2",
@@ -31,19 +60,52 @@
       "text": "In 2026, the area of Cortina d'Ampezzo – a town in Italy's Dolomite mountains, will host the women's Winter Olympics downhill skiing events. The locals are not worried about the snow. Why? At more than 5,000 feet above sea level, the slopes stay cold enough for artificial snow.\n\nBut other parts of Europe are not so optimistic. 2.1. _________ Last winter, many resorts saw their beautiful white scenery turn brown, and climate trends seem to show that muddy ski slopes will become a regular thing. There are likely to be periods with lots of snow mixed in with periods of rain and even heat. That would be bad for business. 2.2. _________ Snow draws skiers who spend hundreds of euros a day on lift fees, hotels, restaurants, and equipment rentals. No snow means no tourists – and no income.\n\nThe only plan for saving Italy's ski industry is to use artificial snow as much as possible, Rolando Galli says. He runs a ski lift in the resort of Abetone, in Italy. 2.3. _________ Galli decided to run the lifts without snow at that point, just for the views, but not many tourists showed up. Even though there was some snow for the rest of the season, there was no way to make up for the lost income. Artificial snow could make a big difference. Still, it would be a short-term solution because snow cannons only work at freezing temperatures or below.\n\nIn years to come, some resorts might not be able to rely on artificial snow. Changing weather is making it hard to find the right conditions for winter-sports competitions. This year, organizers of the World Cup ski races had to cancel events in Germany for lack of snow. Since 1924, 21 cities have hosted the Winter Olympics. A recent scientific report predicts that if global temperatures keep rising at the current rate, only four of those places will have conditions appropriate for competitions by the mid-21st century. 2.4. _________ Only Sapporo, Japan, is considered a reliable bet for the 2078 or 2082 games.",
       "source": "www.timeforkids.com",
       "options": [
-        { "letter": "A", "text": "Cortina d'Ampezzo, in Italy, would be rated \"unacceptable\"." },
-        { "letter": "B", "text": "Such places had to switch to summertime activities, like quad bikes and horse riding." },
-        { "letter": "C", "text": "Mountain villages depend economically on regular snow and reliable conditions." },
-        { "letter": "D", "text": "Plenty of winter resorts will fulfil these harsh conditions." },
-        { "letter": "E", "text": "It did nearly 2 million euros less business last season because there was a lack of snow for some time." },
-        { "letter": "F", "text": "They have already had a taste of a much warmer future." },
-        { "letter": "G", "text": "Promoting summertime sports is probably a good business strategy." }
+        {
+          "letter": "A",
+          "text": "Cortina d'Ampezzo, in Italy, would be rated \"unacceptable\"."
+        },
+        {
+          "letter": "B",
+          "text": "Such places had to switch to summertime activities, like quad bikes and horse riding."
+        },
+        {
+          "letter": "C",
+          "text": "Mountain villages depend economically on regular snow and reliable conditions."
+        },
+        {
+          "letter": "D",
+          "text": "Plenty of winter resorts will fulfil these harsh conditions."
+        },
+        {
+          "letter": "E",
+          "text": "It did nearly 2 million euros less business last season because there was a lack of snow for some time."
+        },
+        {
+          "letter": "F",
+          "text": "They have already had a taste of a much warmer future."
+        },
+        {
+          "letter": "G",
+          "text": "Promoting summertime sports is probably a good business strategy."
+        }
       ],
       "items": [
-        { "id": "2.1", "answer": "F" },
-        { "id": "2.2", "answer": "C" },
-        { "id": "2.3", "answer": "E" },
-        { "id": "2.4", "answer": "A" }
+        {
+          "id": "2.1",
+          "answer": "F"
+        },
+        {
+          "id": "2.2",
+          "answer": "C"
+        },
+        {
+          "id": "2.3",
+          "answer": "E"
+        },
+        {
+          "id": "2.4",
+          "answer": "A"
+        }
       ]
     },
     {
@@ -55,25 +117,41 @@
         {
           "id": "3.1",
           "stem": "I've spent too much this month and my bank account is in the _______.",
-          "options": ["grey", "black", "red"],
+          "options": [
+            "grey",
+            "black",
+            "red"
+          ],
           "answer": "C"
         },
         {
           "id": "3.2",
           "stem": "This lesson is going to be hard, so you need to pay attention _______.",
-          "options": ["ahead of time", "on time", "at all times"],
+          "options": [
+            "ahead of time",
+            "on time",
+            "at all times"
+          ],
           "answer": "C"
         },
         {
           "id": "3.3",
           "stem": "Hey, keep your _______ up! We'll get through this together!",
-          "options": ["mouths", "chin", "thumb"],
+          "options": [
+            "mouths",
+            "chin",
+            "thumb"
+          ],
           "answer": "B"
         },
         {
           "id": "3.4",
           "stem": "I was thinking about going to the concert but I've missed the _______. It's sold out.",
-          "options": ["boat", "ship", "yacht"],
+          "options": [
+            "boat",
+            "ship",
+            "yacht"
+          ],
           "answer": "A"
         }
       ]
@@ -87,25 +165,41 @@
         {
           "id": "4.1",
           "context": "X: Ouch! That hurt! I've hit my ankle against the table!\nY: Just wait a sec. The pain will soon _______.",
-          "options": ["take down", "put away", "wear off"],
+          "options": [
+            "take down",
+            "put away",
+            "wear off"
+          ],
           "answer": "C"
         },
         {
           "id": "4.2",
           "context": "X: Mum, look at the twins. They are acting strangely.\nY: They have been whispering for 10 minutes. I have no idea what they're _______.",
-          "options": ["out of", "up to", "down for"],
+          "options": [
+            "out of",
+            "up to",
+            "down for"
+          ],
           "answer": "B"
         },
         {
           "id": "4.3",
           "context": "X: Oh no, I have broken your cup!\nY: Don't worry! _______ will happen.",
-          "options": ["Mistakes", "Faults", "Accidents"],
+          "options": [
+            "Mistakes",
+            "Faults",
+            "Accidents"
+          ],
           "answer": "C"
         },
         {
           "id": "4.4",
           "context": "X: I don't know what kind of music teenagers listen to these days.\nY: Same here. I'm really out of _______!",
-          "options": ["contact", "touch", "range"],
+          "options": [
+            "contact",
+            "touch",
+            "range"
+          ],
           "answer": "B"
         }
       ]
@@ -119,18 +213,62 @@
       "text": "A new study from Fandom - 5.1. _________ world's largest entertainment and gaming fan platform - finds that millennials* spend more time gaming than both Gen Z** and teens.\n\nThe report, 5.2. _________ was published on Thursday, is based 5.3. _________ user data from Fandom.com and a global study that examines in what 5.4. _________ gamer motivations and behaviours are different between generations.\n\nIt says \"despite the fact that teens and Gen Z spend more time gaming than they 5.5. _________ last year, older generations of players spend more hours per week gaming.\"\n\nThat is why the video game companies should focus on Gen Y, but it does 5.6. _________ mean that studios and developers should start sleeping on the younger generations.\n\nAccording 5.7. _________ Fandom's \"Inside Gaming\" report, the younger generations of gamers are more interested in competitive gaming and making social connections, while older gamers are fond 5.8. _________ games with potential for intellectual stimulation. Teens are most likely 5.9. _________ play battle royal, racing and survival games, while millennials prefer MMO, strategy and RPG with games 5.10. _________ as Elden Ring or World of Warcraft.",
       "source": "https://variety.com",
       "items": [
-        { "id": "5.1", "answer": "the" },
-        { "id": "5.2", "answer": "which" },
-        { "id": "5.3", "answer": "on" },
-        { "id": "5.4", "answer": ["way", "ways", "respects"] },
-        { "id": "5.5", "answer": ["did", "spent"] },
-        { "id": "5.6", "answer": "not" },
-        { "id": "5.7", "answer": "to" },
-        { "id": "5.8", "answer": "of" },
-        { "id": "5.9", "answer": "to" },
-        { "id": "5.10", "answer": "such" }
+        {
+          "id": "5.1",
+          "answer": "the"
+        },
+        {
+          "id": "5.2",
+          "answer": "which"
+        },
+        {
+          "id": "5.3",
+          "answer": "on"
+        },
+        {
+          "id": "5.4",
+          "answer": [
+            "way",
+            "ways",
+            "respects"
+          ]
+        },
+        {
+          "id": "5.5",
+          "answer": [
+            "did",
+            "spent"
+          ]
+        },
+        {
+          "id": "5.6",
+          "answer": "not"
+        },
+        {
+          "id": "5.7",
+          "answer": "to"
+        },
+        {
+          "id": "5.8",
+          "answer": "of"
+        },
+        {
+          "id": "5.9",
+          "answer": "to"
+        },
+        {
+          "id": "5.10",
+          "answer": "such"
+        }
       ],
-      "scoringScheme": { "10": 5, "8-9": 4, "6-7": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     },
     {
       "id": "6",
@@ -169,38 +307,55 @@
       "type": "grammar_gaps",
       "points": 6,
       "instruction": "Uzupełnij zdania (7.1.–7.6.), wstawiając wyrazy podane w nawiasach w odpowiedniej formie. Wymagana jest pełna poprawność gramatyczna i ortograficzna odpowiedzi. Przenieś rozwiązania na kartę odpowiedzi.",
-      "skipped": true,
       "note": "Open-ended grammar transformation - requires AI checking",
       "items": [
         {
           "id": "7.1",
           "context": "Harry _________ (not have) a single piece of chocolate since he _________ (give) up sweets last month.",
-          "answer": ["hasn't had", "gave"]
+          "answer": [
+            "hasn't had",
+            "gave"
+          ]
         },
         {
           "id": "7.2",
           "context": "It was 11 pm. We _________ (lie) in bed when suddenly the shower shelf _________ (fall) down. We were terrified.",
-          "answer": ["were lying", "fell"]
+          "answer": [
+            "were lying",
+            "fell"
+          ]
         },
         {
           "id": "7.3",
           "context": "Even if we _________ (lose) tomorrow, we _________ (be / still) champions.",
-          "answer": ["lose", "will still be"]
+          "answer": [
+            "lose",
+            "will still be"
+          ]
         },
         {
           "id": "7.4",
           "context": "It's hard to believe. Everything _________ (look) so different now. I wonder when _________ (I / visit) this place before. Probably five, maybe six years ago.",
-          "answer": ["looks", "I visited"]
+          "answer": [
+            "looks",
+            "I visited"
+          ]
         },
         {
           "id": "7.5",
           "context": "I _________ (remember / read) this book, so I'm sure that it _________ (translate) into Polish some time ago.",
-          "answer": ["remember reading / that I read", "was translated"]
+          "answer": [
+            "remember reading / that I read",
+            "was translated"
+          ]
         },
         {
           "id": "7.6",
           "context": "I suggest _________ (plan) our holidays together. You are my best friend and I can't stand _________ (not see) you face-to-face for two months.",
-          "answer": ["planning / that we (should) plan", "not seeing"]
+          "answer": [
+            "planning / that we (should) plan",
+            "not seeing"
+          ]
         }
       ]
     },
@@ -210,25 +365,87 @@
       "points": 3,
       "instruction": "Uzupełnij tabelkę, dobierając określenia (A–L) odpowiadające danemu regionowi. Trzy określenia podano dodatkowo i nie pasują one do żadnego regionu. Przenieś rozwiązania na kartę odpowiedzi.",
       "options": [
-        { "letter": "A", "text": "Belfast" },
-        { "letter": "B", "text": "Rhode Island" },
-        { "letter": "C", "text": "Maple tree (official symbol)" },
-        { "letter": "D", "text": "Éire" },
-        { "letter": "E", "text": "Maori people" },
-        { "letter": "F", "text": "Mount Logan" },
-        { "letter": "G", "text": "Vancouver" },
-        { "letter": "H", "text": "Celtic tribes" },
-        { "letter": "I", "text": "Auckland" },
-        { "letter": "J", "text": "Third largest country in the world (by area)" },
-        { "letter": "K", "text": "Trinity College" },
-        { "letter": "L", "text": "First country in the world to give women the right to vote" }
+        {
+          "letter": "A",
+          "text": "Belfast"
+        },
+        {
+          "letter": "B",
+          "text": "Rhode Island"
+        },
+        {
+          "letter": "C",
+          "text": "Maple tree (official symbol)"
+        },
+        {
+          "letter": "D",
+          "text": "Éire"
+        },
+        {
+          "letter": "E",
+          "text": "Maori people"
+        },
+        {
+          "letter": "F",
+          "text": "Mount Logan"
+        },
+        {
+          "letter": "G",
+          "text": "Vancouver"
+        },
+        {
+          "letter": "H",
+          "text": "Celtic tribes"
+        },
+        {
+          "letter": "I",
+          "text": "Auckland"
+        },
+        {
+          "letter": "J",
+          "text": "Third largest country in the world (by area)"
+        },
+        {
+          "letter": "K",
+          "text": "Trinity College"
+        },
+        {
+          "letter": "L",
+          "text": "First country in the world to give women the right to vote"
+        }
       ],
       "items": [
-        { "id": "Canada", "answers": ["C", "F", "G"] },
-        { "id": "New Zealand", "answers": ["E", "I", "L"] },
-        { "id": "The Republic of Ireland", "answers": ["D", "H", "K"] }
+        {
+          "id": "Canada",
+          "answers": [
+            "C",
+            "F",
+            "G"
+          ]
+        },
+        {
+          "id": "New Zealand",
+          "answers": [
+            "E",
+            "I",
+            "L"
+          ]
+        },
+        {
+          "id": "The Republic of Ireland",
+          "answers": [
+            "D",
+            "H",
+            "K"
+          ]
+        }
       ],
-      "scoringScheme": { "9": 3, "7-8": 2, "5-6": 1, "0-4": 0 }
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     },
     {
       "id": "9",
@@ -239,7 +456,12 @@
         {
           "id": "9.1",
           "stem": "Which UK metropolitan area has a population of less than 1 million?",
-          "options": ["Glasgow", "Edinburgh", "Manchester", "Birmingham"],
+          "options": [
+            "Glasgow",
+            "Edinburgh",
+            "Manchester",
+            "Birmingham"
+          ],
           "answer": "B"
         },
         {

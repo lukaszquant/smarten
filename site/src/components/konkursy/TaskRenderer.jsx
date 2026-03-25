@@ -7,6 +7,9 @@ import WordFormation from "./WordFormation";
 import Matching from "./Matching";
 import MatchingColumns from "./MatchingColumns";
 import KnowledgeQuestions from "./KnowledgeQuestions";
+import SentenceTransformation from "./SentenceTransformation";
+import GrammarGaps from "./GrammarGaps";
+import Writing from "./Writing";
 import SkippedTask from "./SkippedTask";
 
 const COMPONENTS = {
@@ -20,17 +23,30 @@ const COMPONENTS = {
   matching: Matching,
   matching_columns: MatchingColumns,
   knowledge_questions: KnowledgeQuestions,
+  sentence_transformation: SentenceTransformation,
+  grammar_gaps: GrammarGaps,
+  writing: Writing,
 };
 
 const SKIPPED_TYPES = [
   "listening_true_false_ni",
   "listening_open",
+];
+
+// These types have items but need AI to grade
+export const AI_CHECKED_TYPES = [
   "sentence_transformation",
   "grammar_gaps",
+  "writing",
 ];
 
 export default function TaskRenderer({ task, answers, onChange, showResults, taskResult }) {
-  if (task.skipped || SKIPPED_TYPES.includes(task.type)) {
+  // Only skip if type is truly unrenderable (listening) or has no items and is marked skipped
+  const isListening = SKIPPED_TYPES.includes(task.type);
+  const isAIType = AI_CHECKED_TYPES.includes(task.type);
+  const hasNoItems = !task.items || task.items.length === 0;
+
+  if (isListening || (task.skipped && !isAIType) || (isAIType && hasNoItems)) {
     return <SkippedTask task={task} />;
   }
 

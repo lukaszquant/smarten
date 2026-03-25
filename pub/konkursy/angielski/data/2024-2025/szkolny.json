@@ -13,12 +13,32 @@
       "text": "THE BUSINESS OF BEES\n\nWhen she was just four years old, Asli Samanci decided to become a scientist. Later, her studies led her to a career in food science. In fact, this combines many subjects: biology, microbiology, and chemistry all together. Today, she also runs a business. Her company, Bee & You, creates health products made from propolis, a substance bees produce. For Asli, every day at work is busy and unique. She thinks about every step of the development process for her honey products. \"When you become an entrepreneur, after being a scientist, you're still a scientist,\" she says.\n\nTo make her honey-based products, Asli follows a scientific process. First comes the research and development. Then, the company does clinical studies to see how the products might work. This is unlike other companies, which make a product first and then test it. That is why it can be said that all Bee & You products are \"backed by science\".\n\nSamanci was inspired by her son to set up her company. When he was a young child, he was frequently sick. A doctor recommended propolis, which can fight bacteria. But Samanci was not satisfied with the products she found on the market. So she decided to work directly with a beekeeper to create the product her son needed.\n\nSamanci still works with beekeepers, providing her products to a larger consumer base and doing it in a balanced way. Within 10 years, her beekeeping partners have gone from managing about 50 hives to managing 300 or 400 hives. \"As they develop, they look after more bees,\" Samanci says. \"This means we are increasing the number of bees in the world. And that is good for nature, because 80% of all plants are pollinated by bees.\"\n\nWorking and being able to contribute to nature's well-being is \"a win-win business model\" for Samanci. And she advises all entrepreneurs and scientists to find a balance. \"Combine ecology and innovation. Be good to yourself and to nature. That is how life should go on.\"",
       "source": "www.timeforkids.com",
       "items": [
-        { "id": "1.1", "statement": "When Samanci got into business, her passion for science grew.", "answer": "NI" },
-        { "id": "1.2", "statement": "The methods of producing Samanci's products make her business unique in comparison to other companies.", "answer": "T" },
-        { "id": "1.3", "statement": "Samanci mentions the advantages of the propolis products recommended to her son by the doctor.", "answer": "F" },
-        { "id": "1.4", "statement": "Samanci still works with the beekeeper who was her first propolis provider.", "answer": "NI" }
+        {
+          "id": "1.1",
+          "statement": "When Samanci got into business, her passion for science grew.",
+          "answer": "NI"
+        },
+        {
+          "id": "1.2",
+          "statement": "The methods of producing Samanci's products make her business unique in comparison to other companies.",
+          "answer": "T"
+        },
+        {
+          "id": "1.3",
+          "statement": "Samanci mentions the advantages of the propolis products recommended to her son by the doctor.",
+          "answer": "F"
+        },
+        {
+          "id": "1.4",
+          "statement": "Samanci still works with the beekeeper who was her first propolis provider.",
+          "answer": "NI"
+        }
       ],
-      "scoringScheme": { "4": 2, "3": 1, "0-2": 0 },
+      "scoringScheme": {
+        "4": 2,
+        "3": 1,
+        "0-2": 0
+      },
       "openQuestion": {
         "id": "1.5",
         "question": "What does Asli Samanci mean by saying that her work is \"a win-win business model\"? Who wins what?",
@@ -35,19 +55,52 @@
       "text": "READY FOR LOVE\n\nCharlotte Liebling considers herself a \"world watcher\". That is someone who carefully observes the world around her. Here is an example: When she was in college, she volunteered at a store that sold second-hand goods. 2.1. _________ Observing that process, she could tell that the toys held great sentimental value for their owners. So she felt sad when they were sold very cheaply, put in the dog-toy section, or – worse – thrown away.\n\nOne evening when she got home from work, she started making a detailed analysis. She realised this was not happening only in her town. 2.2. _________ All through the night, Liebling scribbled ideas on sticky notes and posted them on her walls. That is how the Loved Before toy-adoption agency began.\n\nThe process starts when someone donates a soft toy. People can do so through the mail, or by taking a toy to a local drop-off point in the United Kingdom. The original owner writes down the name of the toy and a story about it. 2.3. _________ Liebling and her team believe that sharing what makes the toy special helps potential new owners understand its value. Next, the toy is cleaned, photographed, and packaged with its name and story. Every Monday, toys are posted for adoption on the Loved Before website.\n\nSince its creation in 2019, Loved Before has sold more than 50,000 stuffed toys. But the company's goal is more than just trying to save some toys from landfills. 2.4. _________ She explains that Loved Before hopes to teach kids about the value of loving second-hand things again, in the hope that the effects will go far beyond the better treatment of teddy bears.",
       "source": "www.timeforkids.com",
       "options": [
-        { "letter": "A", "text": "It aims to change perceptions on a really wide level." },
-        { "letter": "B", "text": "She saw people bringing in items to donate, including stuffed toys." },
-        { "letter": "C", "text": "She discovered that people donated stuffed toys without feeling sad." },
-        { "letter": "D", "text": "If the toy is dirty or not in a good state, they repair and refresh it carefully." },
-        { "letter": "E", "text": "She learned that millions of toys end up in landfills every year, worldwide." },
-        { "letter": "F", "text": "It intended to make a charitable donation of the profit from the sale of each toy." },
-        { "letter": "G", "text": "This can include the creature's likes and dislikes and an adventure it has been on." }
+        {
+          "letter": "A",
+          "text": "It aims to change perceptions on a really wide level."
+        },
+        {
+          "letter": "B",
+          "text": "She saw people bringing in items to donate, including stuffed toys."
+        },
+        {
+          "letter": "C",
+          "text": "She discovered that people donated stuffed toys without feeling sad."
+        },
+        {
+          "letter": "D",
+          "text": "If the toy is dirty or not in a good state, they repair and refresh it carefully."
+        },
+        {
+          "letter": "E",
+          "text": "She learned that millions of toys end up in landfills every year, worldwide."
+        },
+        {
+          "letter": "F",
+          "text": "It intended to make a charitable donation of the profit from the sale of each toy."
+        },
+        {
+          "letter": "G",
+          "text": "This can include the creature's likes and dislikes and an adventure it has been on."
+        }
       ],
       "items": [
-        { "id": "2.1", "answer": "B" },
-        { "id": "2.2", "answer": "E" },
-        { "id": "2.3", "answer": "G" },
-        { "id": "2.4", "answer": "A" }
+        {
+          "id": "2.1",
+          "answer": "B"
+        },
+        {
+          "id": "2.2",
+          "answer": "E"
+        },
+        {
+          "id": "2.3",
+          "answer": "G"
+        },
+        {
+          "id": "2.4",
+          "answer": "A"
+        }
       ]
     },
     {
@@ -59,25 +112,41 @@
         {
           "id": "3.1",
           "stem": "She finally _______ out the answer to question 7.",
-          "options": ["shaped", "figured", "solved"],
+          "options": [
+            "shaped",
+            "figured",
+            "solved"
+          ],
           "answer": "B"
         },
         {
           "id": "3.2",
           "stem": "I never expected her to come to my party, but there she was, as _______ as life.",
-          "options": ["large", "sudden", "cool"],
+          "options": [
+            "large",
+            "sudden",
+            "cool"
+          ],
           "answer": "A"
         },
         {
           "id": "3.3",
           "stem": "I won't be at the meeting after school as I've got other fish to _______, like doing the school project on pollution for tomorrow.",
-          "options": ["cook", "catch", "fry"],
+          "options": [
+            "cook",
+            "catch",
+            "fry"
+          ],
           "answer": "C"
         },
         {
           "id": "3.4",
           "stem": "Stop making a storm in a _______. It's not a serious matter.",
-          "options": ["teacup", "water glass", "hot kettle"],
+          "options": [
+            "teacup",
+            "water glass",
+            "hot kettle"
+          ],
           "answer": "A"
         }
       ]
@@ -91,25 +160,41 @@
         {
           "id": "4.1",
           "stem": "X: Which of your parents do you take _______ more?\nY: I think I'm more like my dad.",
-          "options": ["after", "care", "in"],
+          "options": [
+            "after",
+            "care",
+            "in"
+          ],
           "answer": "A"
         },
         {
           "id": "4.2",
           "stem": "X: So, you think that you're a better tennis player? _______\nY: Right! Let's play a match in half an hour.",
-          "options": ["See to it!", "Put it off!", "Bring it on!"],
+          "options": [
+            "See to it!",
+            "Put it off!",
+            "Bring it on!"
+          ],
           "answer": "C"
         },
         {
           "id": "4.3",
           "stem": "X: So there it is! That's my new car!\nY: Wait! Is that yellow Ferrari really yours or are you pulling my _______?",
-          "options": ["arm", "hair", "leg"],
+          "options": [
+            "arm",
+            "hair",
+            "leg"
+          ],
           "answer": "C"
         },
         {
           "id": "4.4",
           "stem": "X: Are you OK? You don't look well.\nY: I'm feeling a bit under the _______. I think I'm getting a cold.",
-          "options": ["weather", "umbrella", "dog"],
+          "options": [
+            "weather",
+            "umbrella",
+            "dog"
+          ],
           "answer": "A"
         }
       ]
@@ -122,18 +207,58 @@
       "text": "A TOWER WITH MANY NAMES\n\nFor most of its history, the world's 5.1. _________ famous clock tower did not have a meaningful name. It was officially called the Clock Tower, but 5.2. _________ called it that because, well, it's kind of boring. Some people called it St Stephen's Tower, 5.3. _________ is actually a smaller tower to the south. Most people knew it 5.4. _________ 'Big Ben', a nickname that is used today, even 5.5. _________ the tower was officially named the Elizabeth Tower in 2012 for the Diamond Jubilee 5.6. _________ Elizabeth II.\n\nAs any school child will tell you, 'Big Ben' is technically the name of the bell and 5.7. _________ the tower. But that's not quite right, either. 'Big Ben' is not the only bell, but 5.8. _________ of five bells. And 'Big Ben' is itself a nickname 5.9. _________ what is officially called 'the Great Bell'.\n\nWhether you call it Big Ben or the Elizabeth Tower, the Clock Tower (if you prefer this name) is a British cultural icon that has been part of a UNESCO World Heritage Site 5.10. _________ 1987.",
       "source": "https://londonist.com",
       "items": [
-        { "id": "5.1", "answer": "most" },
-        { "id": "5.2", "answer": ["nobody", "few"] },
-        { "id": "5.3", "answer": "which" },
-        { "id": "5.4", "answer": "as" },
-        { "id": "5.5", "answer": "though" },
-        { "id": "5.6", "answer": "of" },
-        { "id": "5.7", "answer": "not" },
-        { "id": "5.8", "answer": "one" },
-        { "id": "5.9", "answer": "for" },
-        { "id": "5.10", "answer": "since" }
+        {
+          "id": "5.1",
+          "answer": "most"
+        },
+        {
+          "id": "5.2",
+          "answer": [
+            "nobody",
+            "few"
+          ]
+        },
+        {
+          "id": "5.3",
+          "answer": "which"
+        },
+        {
+          "id": "5.4",
+          "answer": "as"
+        },
+        {
+          "id": "5.5",
+          "answer": "though"
+        },
+        {
+          "id": "5.6",
+          "answer": "of"
+        },
+        {
+          "id": "5.7",
+          "answer": "not"
+        },
+        {
+          "id": "5.8",
+          "answer": "one"
+        },
+        {
+          "id": "5.9",
+          "answer": "for"
+        },
+        {
+          "id": "5.10",
+          "answer": "since"
+        }
       ],
-      "scoringScheme": { "10": 5, "8-9": 4, "6-7": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     },
     {
       "id": "6",
@@ -172,38 +297,55 @@
       "type": "grammar_gaps",
       "points": 6,
       "instruction": "Uzupełnij zdania (7.1.–7.6.), wstawiając wyrazy podane w nawiasach w odpowiedniej formie. Wymagana jest pełna poprawność gramatyczna i ortograficzna odpowiedzi.",
-      "skipped": true,
       "note": "Open-ended grammar transformation - requires AI checking",
       "items": [
         {
           "id": "7.1",
           "context": "Last week I visited the National Gallery. There, I _________ (can / admire) the most beautiful painting I _________ (ever / see).",
-          "answer": ["could admire", "had ('d) ever seen"]
+          "answer": [
+            "could admire",
+            "had ('d) ever seen"
+          ]
         },
         {
           "id": "7.2",
           "context": "I am fond of sunbathing, but my sister _________ (not / enjoy / lie) on the beach. That is why she _________ (avoid / spend) her holidays at the seaside.",
-          "answer": ["does not (doesn't) enjoy lying", "avoids spending"]
+          "answer": [
+            "does not (doesn't) enjoy lying",
+            "avoids spending"
+          ]
         },
         {
           "id": "7.3",
           "context": "No, thanks. I _________ (not / want / drink) anything. I _________ (just / have) my morning herbal tea, so I am not thirsty.",
-          "answer": ["do not (don't want) to drink", "have ('ve) just had"]
+          "answer": [
+            "do not (don't want) to drink",
+            "have ('ve) just had"
+          ]
         },
         {
           "id": "7.4",
           "context": "My parents _________ (never / like / eat) seafood, so lobsters, shrimps or oysters _________ (not / eat) at our home.",
-          "answer": ["have ('ve) never liked eating / to eat", "are not (aren't) eaten"]
+          "answer": [
+            "have ('ve) never liked eating / to eat",
+            "are not (aren't) eaten"
+          ]
         },
         {
           "id": "7.5",
           "context": "- Can you tell me if _________ (you / hear) from Jenny recently?\n- Actually, she called me yesterday. She was sorry she _________ (not ring) me before.",
-          "answer": ["you have heard", "had not (hadn't) rung"]
+          "answer": [
+            "you have heard",
+            "had not (hadn't) rung"
+          ]
         },
         {
           "id": "7.6",
           "context": "- Look at her! She _________ (seem / feel) dizzy.\n- Oh no! Let's help her. I hope she _________ (not / faint) in a second.",
-          "answer": ["seems to feel, seems to be feeling", "will not (won't) faint, is not (isn't) going to faint"]
+          "answer": [
+            "seems to feel, seems to be feeling",
+            "will not (won't) faint, is not (isn't) going to faint"
+          ]
         }
       ]
     },
@@ -213,25 +355,87 @@
       "points": 3,
       "instruction": "Uzupełnij tabelkę, dobierając określenia (A–L) odpowiadające danemu krajowi. Trzy określenia podano dodatkowo i nie pasują one do żadnego kraju.",
       "options": [
-        { "letter": "A", "text": "Named after the Latin word meaning southern" },
-        { "letter": "B", "text": "Scafell Pike" },
-        { "letter": "C", "text": "Calgary" },
-        { "letter": "D", "text": "'Kiwi' (a nickname for locals)" },
-        { "letter": "E", "text": "The daffodil (an emblem)" },
-        { "letter": "F", "text": "The Outback" },
-        { "letter": "G", "text": "The platypus" },
-        { "letter": "H", "text": "Swansea" },
-        { "letter": "I", "text": "A plant on the flag" },
-        { "letter": "J", "text": "The land of song" },
-        { "letter": "K", "text": "A population (in 2023) of around 39 million" },
-        { "letter": "L", "text": "A population (in 2023) of around 336 million" }
+        {
+          "letter": "A",
+          "text": "Named after the Latin word meaning southern"
+        },
+        {
+          "letter": "B",
+          "text": "Scafell Pike"
+        },
+        {
+          "letter": "C",
+          "text": "Calgary"
+        },
+        {
+          "letter": "D",
+          "text": "'Kiwi' (a nickname for locals)"
+        },
+        {
+          "letter": "E",
+          "text": "The daffodil (an emblem)"
+        },
+        {
+          "letter": "F",
+          "text": "The Outback"
+        },
+        {
+          "letter": "G",
+          "text": "The platypus"
+        },
+        {
+          "letter": "H",
+          "text": "Swansea"
+        },
+        {
+          "letter": "I",
+          "text": "A plant on the flag"
+        },
+        {
+          "letter": "J",
+          "text": "The land of song"
+        },
+        {
+          "letter": "K",
+          "text": "A population (in 2023) of around 39 million"
+        },
+        {
+          "letter": "L",
+          "text": "A population (in 2023) of around 336 million"
+        }
       ],
       "items": [
-        { "id": "Australia", "answers": ["A", "F", "G"] },
-        { "id": "Canada", "answers": ["C", "I", "K"] },
-        { "id": "Wales", "answers": ["E", "H", "J"] }
+        {
+          "id": "Australia",
+          "answers": [
+            "A",
+            "F",
+            "G"
+          ]
+        },
+        {
+          "id": "Canada",
+          "answers": [
+            "C",
+            "I",
+            "K"
+          ]
+        },
+        {
+          "id": "Wales",
+          "answers": [
+            "E",
+            "H",
+            "J"
+          ]
+        }
       ],
-      "scoringScheme": { "9": 3, "7-8": 2, "5-6": 1, "0-4": 0 }
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     },
     {
       "id": "9",
@@ -242,7 +446,12 @@
         {
           "id": "9.1",
           "stem": "The English Channel is between England and _______.",
-          "options": ["The Republic of Ireland", "Northern Ireland", "France", "Denmark"],
+          "options": [
+            "The Republic of Ireland",
+            "Northern Ireland",
+            "France",
+            "Denmark"
+          ],
           "answer": "C"
         },
         {

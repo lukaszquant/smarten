@@ -13,11 +13,31 @@
       "skipped": true,
       "note": "Listening task - requires audio",
       "items": [
-        { "id": "1.1", "statement": "People spend more on cards than on any other valentine gift.", "answer": "F" },
-        { "id": "1.2", "statement": "The text gives five examples showing that the valentine concept existed in the 17th century or earlier.", "answer": "F" },
-        { "id": "1.3", "statement": "A letter written by Margery Brews is the most precious valentine letter in the British Library Collection.", "answer": "NI" },
-        { "id": "1.4", "statement": "In the 1840s, newspapers helped people get accustomed to valentine traditions.", "answer": "T" },
-        { "id": "1.5", "statement": "In 1847, the New York Daily Tribune published an article which was not in favour of sending valentine cards.", "answer": "T" }
+        {
+          "id": "1.1",
+          "statement": "People spend more on cards than on any other valentine gift.",
+          "answer": "F"
+        },
+        {
+          "id": "1.2",
+          "statement": "The text gives five examples showing that the valentine concept existed in the 17th century or earlier.",
+          "answer": "F"
+        },
+        {
+          "id": "1.3",
+          "statement": "A letter written by Margery Brews is the most precious valentine letter in the British Library Collection.",
+          "answer": "NI"
+        },
+        {
+          "id": "1.4",
+          "statement": "In the 1840s, newspapers helped people get accustomed to valentine traditions.",
+          "answer": "T"
+        },
+        {
+          "id": "1.5",
+          "statement": "In 1847, the New York Daily Tribune published an article which was not in favour of sending valentine cards.",
+          "answer": "T"
+        }
       ]
     },
     {
@@ -28,11 +48,31 @@
       "skipped": true,
       "note": "Listening task - requires audio",
       "items": [
-        { "id": "2.1", "question": "Why do the people of Michigan use their right hand to show where they live?", "answer": "Because the shape of the state is similar to a hand/glove." },
-        { "id": "2.2", "question": "What can you find inside a king cake in New Orleans?", "answer": "You can find a (tiny/small) plastic figure of a baby inside the cake." },
-        { "id": "2.3", "question": "What are you supposed to do if you get a lucky piece of king cake?", "answer": "You are supposed to host the next party / throw a party." },
-        { "id": "2.4", "question": "What did the four immigrants disagree about?", "answer": "They disagreed about who is more patriotic / which one of them is more patriotic / their patriotism." },
-        { "id": "2.5", "question": "In which year did Kentucky become a state?", "answer": "In 1792." }
+        {
+          "id": "2.1",
+          "question": "Why do the people of Michigan use their right hand to show where they live?",
+          "answer": "Because the shape of the state is similar to a hand/glove."
+        },
+        {
+          "id": "2.2",
+          "question": "What can you find inside a king cake in New Orleans?",
+          "answer": "You can find a (tiny/small) plastic figure of a baby inside the cake."
+        },
+        {
+          "id": "2.3",
+          "question": "What are you supposed to do if you get a lucky piece of king cake?",
+          "answer": "You are supposed to host the next party / throw a party."
+        },
+        {
+          "id": "2.4",
+          "question": "What did the four immigrants disagree about?",
+          "answer": "They disagreed about who is more patriotic / which one of them is more patriotic / their patriotism."
+        },
+        {
+          "id": "2.5",
+          "question": "In which year did Kentucky become a state?",
+          "answer": "In 1792."
+        }
       ]
     },
     {
@@ -44,20 +84,56 @@
       "text": "Hey there, teens and… parents! We all know that sometimes it feels like we're from different planets, right? 3.1. _________ In all these matters our perspectives vary, so conflict arises. And it can be really tough. Thus, it is very important to bridge this gap as soon as possible. So, here's the deal: understanding why our parents act the way they do can help us all get along better.\n\nDo you sometimes consider your parents to be a buzzkill? Remember, they grew up in a totally different world. When they were your age, they didn't have smartphones, social media, or streaming services. They had to wait for their favourite songs on the radio or play them on cassettes. They would use actual paper maps to find their way around. Crazy, right? 3.2. _________ But here's the secret: they're just worried about us. They love us and want us to be safe and successful, even if their way of showing it can be a bit…well, old-fashioned.\n\nBelieve it or not, your parents have been through a lot of the same things you're going through now. 3.3. _________ So, when they offer advice or share their experiences, it's because they genuinely want to help. Instead of brushing off their stories as \"ancient history,\" try listening. 3.4. _________ These might come in handy, rather like having a real-life cheat code for navigating life's challenges.\n\nHere's the point: we might have different ways of doing things, but we share many of the same goals. Our parents want us to be good people and make the most of our potential. When you understand their perspective and fears, it becomes easier to have open and respectful conversations. In the end, it's all about finding common ground and respecting each other's point of view. 3.5. _________ So, teens, give your parents a break. And parents, remember that your kids are growing up in a different world, but they still need your love and guidance. Let's bridge that gap and make family life a little bit smoother for everyone.",
       "source": "https://www.toppr.com, https://medium.com/",
       "options": [
-        { "letter": "A", "text": "Because of these differences, they might seem a bit overprotective or out of touch with our digital world." },
-        { "letter": "B", "text": "The other reason why parents might act in this way is because they grew up in an analogue world." },
-        { "letter": "C", "text": "We're all sailing across this crazy world together, and understanding the generation gap will help us to stay afloat." },
-        { "letter": "D", "text": "We seem to see the world through different lenses, and value contrasting opinions, attitudes, traditions, and customs." },
-        { "letter": "E", "text": "You might be surprised by the nuggets of wisdom you find and the valuable insights you pick up." },
-        { "letter": "F", "text": "As teens grow, they need space to make their own decisions and learn from their mistakes, so they don't seek such guidance." },
-        { "letter": "G", "text": "Not only did they face the pressures of school and the confusion of relationships, but also the same uncertainty about the future." }
+        {
+          "letter": "A",
+          "text": "Because of these differences, they might seem a bit overprotective or out of touch with our digital world."
+        },
+        {
+          "letter": "B",
+          "text": "The other reason why parents might act in this way is because they grew up in an analogue world."
+        },
+        {
+          "letter": "C",
+          "text": "We're all sailing across this crazy world together, and understanding the generation gap will help us to stay afloat."
+        },
+        {
+          "letter": "D",
+          "text": "We seem to see the world through different lenses, and value contrasting opinions, attitudes, traditions, and customs."
+        },
+        {
+          "letter": "E",
+          "text": "You might be surprised by the nuggets of wisdom you find and the valuable insights you pick up."
+        },
+        {
+          "letter": "F",
+          "text": "As teens grow, they need space to make their own decisions and learn from their mistakes, so they don't seek such guidance."
+        },
+        {
+          "letter": "G",
+          "text": "Not only did they face the pressures of school and the confusion of relationships, but also the same uncertainty about the future."
+        }
       ],
       "items": [
-        { "id": "3.1", "answer": "D" },
-        { "id": "3.2", "answer": "A" },
-        { "id": "3.3", "answer": "G" },
-        { "id": "3.4", "answer": "E" },
-        { "id": "3.5", "answer": "C" }
+        {
+          "id": "3.1",
+          "answer": "D"
+        },
+        {
+          "id": "3.2",
+          "answer": "A"
+        },
+        {
+          "id": "3.3",
+          "answer": "G"
+        },
+        {
+          "id": "3.4",
+          "answer": "E"
+        },
+        {
+          "id": "3.5",
+          "answer": "C"
+        }
       ]
     },
     {
@@ -69,18 +145,64 @@
       "text": "There are certain plants that play important or mysterious roles in holiday celebrations all over the world. The poinsettia is certainly one of them. This plant – much loved by horticulturists and those without green fingers – probably would not have become so central to Christmas without the Ecke family. However, the plant itself was actually named after the U.S. ambassador in Mexico, Joel Roberts Poinsett. When he returned to the United States, he brought the colourful gift from Mexican Mother Nature with him.\nThe earliest poinsettias were sold by individual florists and merchants, usually as single-cut stems instead of rooted plants in pots. But of course, most would last two or three days, at best. The Eckes not only helped transition poinsettias from ephemeral flowers to potted plants, but also developed new shapes and a wide range of colours (including shades of red, white, pink and yellow) with tempting names such as \"Ice Punch,\" \"Pink Peppermint\" and \"Strawberries and Cream\". They are vastly different from the poinsettias Americans knew a century ago, which were actually quite scraggly. The original plants provided a bright splash of red and green colour in the holiday season, which made them popular, even though they were not particularly beautiful, at least by modern standards.\nIn the 1930s, Paul Ecke Sr. took the reins and moved his family to a ranch in Encinitas, California. Soon, thousands of acres of poinsettias were growing under the family's careful eye. Through nature's normal mutations, some new types of poinsettias began to emerge. Paul Sr. started to use cuttings from those plants and propagated them, growing new varieties unlike those people had ever seen. He was a pioneer of poinsettias that could survive indoors in pots. Soon after he began to patent them to protect what he had discovered.\nIt is one thing to have a ranch bursting with new plants, but quite another to try to actually sell them. By nature, poinsettias are at their best between November and January, which aligns perfectly with the Christian advent season. For that reason, Paul Sr. started to market the plants as \"Christmas flowers.\" \"They didn't really have a holiday to go with them,\" Ecke said, compared to lilies, for instance, which were associated with Easter. The name stuck, and that was really the plant's claim to fame as the family went on to push poinsettias across the country. In later years, they provided poinsettias to the White House and to a number of magazines and television shows (including The Tonight Show).\nIn the 1960s, Paul Sr.'s son – Paul, Jr., started to experiment with cuttings – which they soon licensed to growers across the country on a royalty system – and to ship them a few months earlier in the year. This also helped him start a cultivation program. For the first time, horticulturists started intentionally crossing poinsettias and planting their seeds, studying the hybrid plants that grew and finding new ways to improve them.\nThe Ecke family has more than 500 U.S. plant patents, nearly one-fifth of them for poinsettias, and holds even more in other countries across the world. Today, the poinsettia is the most popular plant sold during the holidays and the best-selling potted plant in the United States. Within the six-week period leading up to Christmas, there are about 35 million poinsettias sold.",
       "source": "www.smithsonianmag.com, www.ambius.com, www.plantshed.com",
       "items": [
-        { "id": "4.1", "statement": "The poinsettia is favoured by professional gardeners as well as those who are poor at making plants grow.", "answer": "T" },
-        { "id": "4.2", "statement": "\"Ice Punch\", \"Pink Peppermint\" and \"Strawberries and Cream\" poinsettias are the most popular varieties in the USA.", "answer": "NI" },
-        { "id": "4.3", "statement": "Paul Ecke Sr. was the first to grow poinsettias indoors.", "answer": "T" },
-        { "id": "4.4", "statement": "It became an annual tradition for the Eckes to supply poinsettias to the White House.", "answer": "NI" },
-        { "id": "4.5", "statement": "The Eckes have over 500 patents for different poinsettia varieties.", "answer": "F" }
+        {
+          "id": "4.1",
+          "statement": "The poinsettia is favoured by professional gardeners as well as those who are poor at making plants grow.",
+          "answer": "T"
+        },
+        {
+          "id": "4.2",
+          "statement": "\"Ice Punch\", \"Pink Peppermint\" and \"Strawberries and Cream\" poinsettias are the most popular varieties in the USA.",
+          "answer": "NI"
+        },
+        {
+          "id": "4.3",
+          "statement": "Paul Ecke Sr. was the first to grow poinsettias indoors.",
+          "answer": "T"
+        },
+        {
+          "id": "4.4",
+          "statement": "It became an annual tradition for the Eckes to supply poinsettias to the White House.",
+          "answer": "NI"
+        },
+        {
+          "id": "4.5",
+          "statement": "The Eckes have over 500 patents for different poinsettia varieties.",
+          "answer": "F"
+        }
       ],
       "vocabItems": [
-        { "id": "4.6", "definition": "to match, agree with", "answer": ["align", "to align"] },
-        { "id": "4.7", "definition": "uneven and untidy in appearance", "answer": "scraggly" },
-        { "id": "4.8", "definition": "to get control over, be in charge of something", "answer": ["take the reins", "to take the reins"] },
-        { "id": "4.9", "definition": "existing or used for only a short period of time", "answer": "ephemeral" },
-        { "id": "4.10", "definition": "to a very great degree", "answer": "vastly" }
+        {
+          "id": "4.6",
+          "definition": "to match, agree with",
+          "answer": [
+            "align",
+            "to align"
+          ]
+        },
+        {
+          "id": "4.7",
+          "definition": "uneven and untidy in appearance",
+          "answer": "scraggly"
+        },
+        {
+          "id": "4.8",
+          "definition": "to get control over, be in charge of something",
+          "answer": [
+            "take the reins",
+            "to take the reins"
+          ]
+        },
+        {
+          "id": "4.9",
+          "definition": "existing or used for only a short period of time",
+          "answer": "ephemeral"
+        },
+        {
+          "id": "4.10",
+          "definition": "to a very great degree",
+          "answer": "vastly"
+        }
       ]
     },
     {
@@ -124,18 +246,55 @@
       "text": "If you decide to rent a real Christmas tree as opposed 6.1. _________ buying one, you will have a sustainable Christmas and reduce your festive waste. 6.2. _________ come? Rented trees can be re-planted and taken 6.3. _________ of by the supplier, ready to use again next year. 6.4. _________ addition, the trees provide habitats for wildlife and remove carbon dioxide from the atmosphere in between festivities. In fact, lots of people take the 6.5. _________ one home every December – they even name them!\n\nThe trees shoot up at about a foot a year, meaning families can pick one to literally grow with their children.\n\nIn 6.6. _________ to rent a tree, you'll need to pay for the tree itself as 6.7. _________ as a damage deposit. This is refundable after returning the tree in as good a condition as when you took 6.8. _________ home.\n\nWe should definitely buy a local plant. Between 60 and 80% of trees in our homes are grown in Britain, many in Scotland, where they benefit 6.9. _________ the colder weather. The closer the tree has been grown to both where it is bought and where the customer lives, 6.10. _________ better for the tree and the environment.\n\nSo, get more eco and rent a tree next time you hear \"Last Christmas\".",
       "source": "https://www.countryliving.com",
       "items": [
-        { "id": "6.1", "answer": "to" },
-        { "id": "6.2", "answer": "How" },
-        { "id": "6.3", "answer": "care" },
-        { "id": "6.4", "answer": "In" },
-        { "id": "6.5", "answer": "same" },
-        { "id": "6.6", "answer": "order" },
-        { "id": "6.7", "answer": "well" },
-        { "id": "6.8", "answer": "it" },
-        { "id": "6.9", "answer": "from" },
-        { "id": "6.10", "answer": "the" }
+        {
+          "id": "6.1",
+          "answer": "to"
+        },
+        {
+          "id": "6.2",
+          "answer": "How"
+        },
+        {
+          "id": "6.3",
+          "answer": "care"
+        },
+        {
+          "id": "6.4",
+          "answer": "In"
+        },
+        {
+          "id": "6.5",
+          "answer": "same"
+        },
+        {
+          "id": "6.6",
+          "answer": "order"
+        },
+        {
+          "id": "6.7",
+          "answer": "well"
+        },
+        {
+          "id": "6.8",
+          "answer": "it"
+        },
+        {
+          "id": "6.9",
+          "answer": "from"
+        },
+        {
+          "id": "6.10",
+          "answer": "the"
+        }
       ],
-      "scoringScheme": { "10": 5, "8-9": 4, "6-7": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     },
     {
       "id": "7",
@@ -145,16 +304,54 @@
       "title": "PRESIDENTS' BIRTHDAYS",
       "text": "Presidents' Day is popularly recognized as honouring the birth month of two of the country's most 7.1. _________ presidents – George Washington and Abraham Lincoln. They both have long been 7.2. _________ admired by many people, as they led America through some of the toughest times. The holiday is now a celebration of the birthdays and lives of all U.S. presidents.\n\nThe origin of Presidents' Day dates back to the 1880s, when the birthday of Washington – the first president of the United States and 7.3. _________ of the army during the American Revolution – was first celebrated as a federal holiday. At the time, Washington was perceived as the most important figure in American history. Many events, such as the 100th anniversary of his birth in 1832 and the start of 7.4. _________ of the Washington monument in 1848, were cause for national celebration.\n\nIn 1968, Congress passed the Uniform Monday Holiday Bill, which moved several federal holidays to the first day of the week. The change was intended to schedule certain holidays so that 7.5. _________ would have long weekends throughout the year. During the debate on the bill, there was a 7.6. _________ that Washington's Birthday holiday should be renamed Presidents' Day to honour the birthdays of both Washington and Lincoln, as they were born in the same month. 7.7. _________ a surprisingly long discussion, Congress rejected the name change.\n\nHowever, after the bill came into effect in 1971, Presidents' Day became the commonly used name. Nowadays, Presidents Day is usually 7.8. _________ by public ceremonies in Washington, D.C., and throughout the country. While most government offices are closed, many businesses offer special holiday sales.",
       "source": "www.voanews.com",
-      "wordBank": ["COMMAND", "CONSTRUCT", "DEEP", "EMPLOY", "FOLLOW", "MARK", "PREVIOUS", "PROMINENCE", "REFUSE", "SUGGEST"],
+      "wordBank": [
+        "COMMAND",
+        "CONSTRUCT",
+        "DEEP",
+        "EMPLOY",
+        "FOLLOW",
+        "MARK",
+        "PREVIOUS",
+        "PROMINENCE",
+        "REFUSE",
+        "SUGGEST"
+      ],
       "items": [
-        { "id": "7.1", "answer": "prominent" },
-        { "id": "7.2", "answer": "deeply" },
-        { "id": "7.3", "answer": "commander" },
-        { "id": "7.4", "answer": ["construction", "constructing"] },
-        { "id": "7.5", "answer": "employees" },
-        { "id": "7.6", "answer": "suggestion" },
-        { "id": "7.7", "answer": "Following" },
-        { "id": "7.8", "answer": "marked" }
+        {
+          "id": "7.1",
+          "answer": "prominent"
+        },
+        {
+          "id": "7.2",
+          "answer": "deeply"
+        },
+        {
+          "id": "7.3",
+          "answer": "commander"
+        },
+        {
+          "id": "7.4",
+          "answer": [
+            "construction",
+            "constructing"
+          ]
+        },
+        {
+          "id": "7.5",
+          "answer": "employees"
+        },
+        {
+          "id": "7.6",
+          "answer": "suggestion"
+        },
+        {
+          "id": "7.7",
+          "answer": "Following"
+        },
+        {
+          "id": "7.8",
+          "answer": "marked"
+        }
       ]
     },
     {
@@ -162,7 +359,6 @@
       "type": "sentence_transformation",
       "points": 8,
       "instruction": "Przeczytaj zdania (8.1.–8.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
-      "skipped": true,
       "note": "Sentence transformation with keyword - requires AI checking",
       "items": [
         {
@@ -177,7 +373,10 @@
           "original": "Although they disagree on some issues, they remain friends.",
           "keyword": "DESPITE",
           "transformed": "_________ on some issues, they remain friends.",
-          "answer": ["Despite their/the/some disagreements", "Despite their/them disagreeing"]
+          "answer": [
+            "Despite their/the/some disagreements",
+            "Despite their/them disagreeing"
+          ]
         },
         {
           "id": "8.3",
@@ -191,7 +390,10 @@
           "original": "When we got to the club, the dancefloor was practically empty.",
           "keyword": "HARDLY",
           "transformed": "When we got to the club, there _________ on the dancefloor.",
-          "answer": ["was hardly anyone", "were hardly any people"]
+          "answer": [
+            "was hardly anyone",
+            "were hardly any people"
+          ]
         },
         {
           "id": "8.5",
@@ -229,20 +431,61 @@
       "points": 5,
       "instruction": "Do nazw świąt (9.1.–9.5.) dopasuj dni, kiedy są obchodzone (A–G). Dwa określenia czasu podane dodatkowo i nie odnoszą się do żadnego święta. Przenieś rozwiązania na kartę odpowiedzi.",
       "options": [
-        { "letter": "A", "text": "the second Sunday of May" },
-        { "letter": "B", "text": "the third Sunday of June" },
-        { "letter": "C", "text": "the first Monday of September" },
-        { "letter": "D", "text": "the fourth Thursday of November" },
-        { "letter": "E", "text": "the last Monday of May" },
-        { "letter": "F", "text": "the second Thursday of November" },
-        { "letter": "G", "text": "the third Monday of January" }
+        {
+          "letter": "A",
+          "text": "the second Sunday of May"
+        },
+        {
+          "letter": "B",
+          "text": "the third Sunday of June"
+        },
+        {
+          "letter": "C",
+          "text": "the first Monday of September"
+        },
+        {
+          "letter": "D",
+          "text": "the fourth Thursday of November"
+        },
+        {
+          "letter": "E",
+          "text": "the last Monday of May"
+        },
+        {
+          "letter": "F",
+          "text": "the second Thursday of November"
+        },
+        {
+          "letter": "G",
+          "text": "the third Monday of January"
+        }
       ],
       "items": [
-        { "id": "9.1", "name": "Labor Day", "answer": "C" },
-        { "id": "9.2", "name": "Memorial Day", "answer": "E" },
-        { "id": "9.3", "name": "Mother's Day", "answer": "A" },
-        { "id": "9.4", "name": "Martin Luther King Jr. Day", "answer": "G" },
-        { "id": "9.5", "name": "Thanksgiving", "answer": "D" }
+        {
+          "id": "9.1",
+          "name": "Labor Day",
+          "answer": "C"
+        },
+        {
+          "id": "9.2",
+          "name": "Memorial Day",
+          "answer": "E"
+        },
+        {
+          "id": "9.3",
+          "name": "Mother's Day",
+          "answer": "A"
+        },
+        {
+          "id": "9.4",
+          "name": "Martin Luther King Jr. Day",
+          "answer": "G"
+        },
+        {
+          "id": "9.5",
+          "name": "Thanksgiving",
+          "answer": "D"
+        }
       ]
     },
     {
@@ -254,25 +497,38 @@
         {
           "id": "10.1",
           "question": "What animal indicates six more weeks of winter if it sees its shadow during a special ceremony in February?",
-          "answer": ["groundhog", "a groundhog"],
+          "answer": [
+            "groundhog",
+            "a groundhog"
+          ],
           "points": 1
         },
         {
           "id": "10.2",
           "question": "What is the symbol of remembrance inspired by the poem In Flanders Fields by John McCrae?",
-          "answer": ["poppy", "a poppy", "poppies"],
+          "answer": [
+            "poppy",
+            "a poppy",
+            "poppies"
+          ],
           "points": 1
         },
         {
           "id": "10.3",
           "question": "On which symbol of the U.S. can you read the quote \"Proclaim Liberty throughout all the land unto all the inhabitants thereof\"?",
-          "answer": ["The Liberty Bell", "Liberty Bell"],
+          "answer": [
+            "The Liberty Bell",
+            "Liberty Bell"
+          ],
           "points": 1
         },
         {
           "id": "10.4",
           "question": "What is the name of the national memorial which is a tribute to four American presidents? Which state is it situated in?",
-          "answer": ["Mount Rushmore", "Mount Rushmore National Memorial"],
+          "answer": [
+            "Mount Rushmore",
+            "Mount Rushmore National Memorial"
+          ],
           "secondAnswer": "South Dakota",
           "points": 2
         }

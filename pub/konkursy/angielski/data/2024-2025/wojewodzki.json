@@ -13,11 +13,31 @@
       "skipped": true,
       "listeningText": "Tiddles was a station cat from an earlier era; he lived at London's busy main-line Paddington station. He arrived there one cold winter's evening in 1970 in the ladies loo as a hungry six-week-old kitten in search of a meal. It was June Watson's shift. There and then the attendant adopted him, naming him Tiddles and giving him something to eat. Then she went to see the stationmaster, who gave permission for the cat to stay. On one occasion June took Tiddles home with her, thinking he might find it more comfortable, but he didn't like being away from the station, so soon returned. His favoured snoozing spot was in a large, comfortable basket under the attendant's desk.\n\nInitially, a notice was put up requesting patrons to donate any spare change towards his food, and there was always sufficient in the pot. Later there was no need for the request, and in fact it became a problem that many of his admirers gave Tiddles food and titbits.\n\nWord soon got around about Paddington's station cat, who became a London tourist attraction in his own right. Hundreds of letters and postcards for Tiddles flooded in from all corners of the country. Parcels of food were even sent to him, and he had his own personal refrigerator to store it in.\n\nThe five female toilet attendants working at Paddington played up Tiddles' celebrity status; during the 1981 Royal Wedding, they ornamented his basket with Union Flags and a cut-out Charles and Di, which visitors liked a lot.\n\nAs Tiddles did not take a lot of exercise, the inevitable result was that he became very large. Weighing an astonishing 32 pounds in 1982, he became known as \"London's fat cat champion\". No one seems to have taken much notice until it was too late. He died the following year, aged 13. The actual cause of his death was fluid on the lungs. However, it was obvious that all his health problems were caused by being fed too much.\n\nIn 1987 – a number of years after he had died – people were still writing in to London's newspapers to ask if Tiddles was still alive. So, Paddington Bear might be the furry celeb of Paddington station now, but for well over a decade, it was all about a cat called Tiddles.",
       "items": [
-        { "id": "1.1", "statement": "It was easy to convince the stationmaster to allow the cat to stay.", "answer": "NI" },
-        { "id": "1.2", "statement": "The cat's preferred sleeping place was outside the attendant's room.", "answer": "F" },
-        { "id": "1.3", "statement": "In the beginning, people were unwilling to give money towards food for the cat.", "answer": "F" },
-        { "id": "1.4", "statement": "The cat received plenty of fan mail.", "answer": "T" },
-        { "id": "1.5", "statement": "The cat was unhappy when his basket got decorated because of the royal wedding.", "answer": "NI" }
+        {
+          "id": "1.1",
+          "statement": "It was easy to convince the stationmaster to allow the cat to stay.",
+          "answer": "NI"
+        },
+        {
+          "id": "1.2",
+          "statement": "The cat's preferred sleeping place was outside the attendant's room.",
+          "answer": "F"
+        },
+        {
+          "id": "1.3",
+          "statement": "In the beginning, people were unwilling to give money towards food for the cat.",
+          "answer": "F"
+        },
+        {
+          "id": "1.4",
+          "statement": "The cat received plenty of fan mail.",
+          "answer": "T"
+        },
+        {
+          "id": "1.5",
+          "statement": "The cat was unhappy when his basket got decorated because of the royal wedding.",
+          "answer": "NI"
+        }
       ]
     },
     {
@@ -27,11 +47,46 @@
       "instruction": "Usłyszysz dwukrotnie nagranie. Na podstawie informacji w nim zawartych odpowiedz, jak najbardziej precyzyjnie w języku angielskim na pytania (2.1-2.5). Przenieś rozwiązania na kartę odpowiedzi.",
       "skipped": true,
       "items": [
-        { "id": "2.1", "question": "The other name for the \"London Fog\" was", "answer": ["pea soup", "pea soup fog"] },
-        { "id": "2.2", "question": "The legal regulation which resulted from the Great Smog was", "answer": ["Clean Air Act", "Clean Air Act (1956)"] },
-        { "id": "2.3", "question": "Jean Neuhaus' wife contributed to the pralines' success by", "answer": ["creating a (beautiful) cardboard box (which looked like a jewellery box to protect pralines/them)"] },
-        { "id": "2.4", "question": "The proportion of chocolatiers to residents in Brussels is", "answer": ["one chocolatier for every 2,000 people", "1:2000", "one to two thousand"] },
-        { "id": "2.5", "question": "Miami's nickname comes from the saying that it", "answer": ["has / had grown like magic", "grew like magic"] }
+        {
+          "id": "2.1",
+          "question": "The other name for the \"London Fog\" was",
+          "answer": [
+            "pea soup",
+            "pea soup fog"
+          ]
+        },
+        {
+          "id": "2.2",
+          "question": "The legal regulation which resulted from the Great Smog was",
+          "answer": [
+            "Clean Air Act",
+            "Clean Air Act (1956)"
+          ]
+        },
+        {
+          "id": "2.3",
+          "question": "Jean Neuhaus' wife contributed to the pralines' success by",
+          "answer": [
+            "creating a (beautiful) cardboard box (which looked like a jewellery box to protect pralines/them)"
+          ]
+        },
+        {
+          "id": "2.4",
+          "question": "The proportion of chocolatiers to residents in Brussels is",
+          "answer": [
+            "one chocolatier for every 2,000 people",
+            "1:2000",
+            "one to two thousand"
+          ]
+        },
+        {
+          "id": "2.5",
+          "question": "Miami's nickname comes from the saying that it",
+          "answer": [
+            "has / had grown like magic",
+            "grew like magic"
+          ]
+        }
       ]
     },
     {
@@ -43,20 +98,56 @@
       "text": "A 17th century house, entombed within a pyramid and topped with a giant apple. 3.1. _________ In fact, it was an 1820s plan to preserve the London home of Sir Isaac Newton.\n\nNewton's main town house stood just south of Leicester Square in St Martin's Street, on the plot of land now occupied by Westminster Reference Library. 3.2. _________ It offered comparatively dark skies for his rooftop observatory, while still being close to the learned societies of the capital. The house became an intellectual hub, and was preserved for many decades after Newton died in 1727.\n\nIn 1825 – as the centenary of that death approached — the Cambridge academic Thomas Steele wrote to The Times. He set out his ambition for a proper commemoration. 3.3. _________ And best of all, the top of it would be crowned with a great sphere. Steele's idea was three-fold. The structure would continue to serve as a meeting space and repository of knowledge. 3.4. _________ Finally, the whole structure would serve as a symbolic monument to one of the greatest minds that ever lived.\n\nIt would have been quite unlike anything else in the capital. Appropriate, too, in some ways. The truncated pyramid recalls the prism with which Newton first un-wove the rainbow. The great sphere, 'azure' in colour, presumably symbolises a planet or moon, whose motions through the heavens were first explained by Newton. But it would surely have been likened to a giant apple – the probable agent by which Newton first understood gravity.\n\nAlas for fans of bizarre architecture, the plans were never taken seriously. Newton's house lingered on for another century. 3.5. _________ The observatory was sold off in the 1870s and the building was eventually dismantled in the 1920s to make way for the library. Who knows, had history turned out differently, then Leicester Square might have become known as the Big Apple.",
       "source": "londonist.com",
       "options": [
-        { "letter": "A", "text": "The National Memorial would enclose Newton's former residence." },
-        { "letter": "B", "text": "This is not some headline-seeking intervention from a modern upstart architectural studio." },
-        { "letter": "C", "text": "However, it had no other commemoration than a plaque." },
-        { "letter": "D", "text": "When it had been erected, some noblemen claimed it to be a ridiculous momentous bauble." },
-        { "letter": "E", "text": "Newton chose this spot because, at the time, it was at the very edge of London." },
-        { "letter": "F", "text": "Newton has a couple of big memorials in London today, including one in Westminster Abbey." },
-        { "letter": "G", "text": "At the same time, it was to protect the fabric of Newton's house from degradation." }
+        {
+          "letter": "A",
+          "text": "The National Memorial would enclose Newton's former residence."
+        },
+        {
+          "letter": "B",
+          "text": "This is not some headline-seeking intervention from a modern upstart architectural studio."
+        },
+        {
+          "letter": "C",
+          "text": "However, it had no other commemoration than a plaque."
+        },
+        {
+          "letter": "D",
+          "text": "When it had been erected, some noblemen claimed it to be a ridiculous momentous bauble."
+        },
+        {
+          "letter": "E",
+          "text": "Newton chose this spot because, at the time, it was at the very edge of London."
+        },
+        {
+          "letter": "F",
+          "text": "Newton has a couple of big memorials in London today, including one in Westminster Abbey."
+        },
+        {
+          "letter": "G",
+          "text": "At the same time, it was to protect the fabric of Newton's house from degradation."
+        }
       ],
       "items": [
-        { "id": "3.1", "answer": "B" },
-        { "id": "3.2", "answer": "E" },
-        { "id": "3.3", "answer": "A" },
-        { "id": "3.4", "answer": "G" },
-        { "id": "3.5", "answer": "C" }
+        {
+          "id": "3.1",
+          "answer": "B"
+        },
+        {
+          "id": "3.2",
+          "answer": "E"
+        },
+        {
+          "id": "3.3",
+          "answer": "A"
+        },
+        {
+          "id": "3.4",
+          "answer": "G"
+        },
+        {
+          "id": "3.5",
+          "answer": "C"
+        }
       ]
     },
     {
@@ -68,18 +159,75 @@
       "text": "Cleaved in two by the river (and with a juicy northside–southside rivalry), Ireland's capital is stuffed with stories and rich in literary history. In 1922, the first edition of Ulysses by James Joyce was published, just in time for the author's 40th birthday. The book follows the experiences of three Dubliners over the course of a single day, including Leopold Bloom, an everyman whose wanderings around Dublin echo Homer's Odyssey.\n\nWhile it was decades before Ulysses and Joyce were accepted, not only in conservative 20th century Ireland, but also worldwide, today Dubliners and literature savants around the world gather on June 16 – the same day the novel takes place – for Bloomsday. Inaugurated in 1954, the festival commemorates Joyce and his novel with storytelling, Victorian-era costumes, and other spectacles.\n\nStorytelling is in Dublin's DNA. The world knows all about celebrated Dubliners – George Bernard Shaw, William Butler Yeats, and Samuel Beckett – who were honoured with the Nobel Prize for Literature. But the city's storytelling magic lies in its spaces as well as its faces. I know that because Joe Landy told me. On a visit not too long ago, I arranged to meet this retired farmer, who volunteers with the Little Museum of Dublin's \"City of a Thousand Welcomes\" initiative. Ambassadors like Landy take tourists for a pint or a cuppa to answer questions (\"What exactly happened in 1916?\") and chat.\n\nI was born in Dublin. I work here. I've lived here. I curse its winter greyness and lopsided development, its choking traffic and soaring rents. But I love it, and I can't wait to get back when I'm away.\n\nMy encounter with Landy reminded me of a slogan on one of the museum's T-shirts – \"Dublin: Europe's largest village.\" It's true. My walks have taken me from Georgian squares to the European headquarters of Facebook and Google, but streets always feel as familiar and overlapping as the lines on my hand. Some 1.3 million people live in this city, yet I always meet someone I know. Before meeting Landy, that's exactly what had happened. Walking from the train station toward town, a route I've taken a thousand times, I bumped into a colleague. He was in a cheerful mood, breezing in with a leather bag slung over a pink T-shirt, orange sneakers, and khaki shorts.\n\nI met Landy in Kehoes Bar at 4:30 p.m. on a Wednesday. We talked about storytelling. It refreshed my memory. Dublin is a place where everyone is said to have a novel in them, if only they'd go home and write it. We don't do direct here. Or literal. We talk around topics, not through them. We're embarrassed by compliments. We love casually devastating takedowns (\"she's big-boned\").\n\nGrand. The salt and pepper of our sentences. In Ireland, sorry can mean \"Excuse me,\" \"May I have your attention,\" or occasionally, \"Sorry.\" Grand means \"OK,\" \"Not bad,\" or \"That's fine\" (it does not mean \"great\" or \"magnificent\").\n\nThere's a standard Dublin greeting, \"What's the story?\" You don't have to answer. You can toss it back (\"Not much. Story with you?\"). Or you can hear some gossip (\"Wait till I tell ya…\"). Often shortened to a single word (\"Story?\"), it evokes the city's literary achievements, but also the casual, off-the-cuff creativity that lifts a good conversation. There's also an Irish word, seoraí, which describes \"the flourishes and stylish additional details in storytelling.\" Those details are the reason that \"two people tell a story, but one tells it better.\"\n\nBe it me, or Leopold Bloom, I love that sense of ordinary folk wandering around this city, that slippery language, those minute pauses, that sense that every encounter could start a short story. I thought that, yes, in moments like these, Dublin might just be the epic city Joyce set it out to be. Dublin and its stories feel like more than a place. They're a state of mind.",
       "source": "www.nationalgeographic.com",
       "items": [
-        { "id": "4.1", "statement": "Ulysses by Joyce was widely appreciated in Ireland when it was written.", "answer": "F" },
-        { "id": "4.2", "statement": "The disadvantages of his hometown discourage the author from returning to it.", "answer": "F" },
-        { "id": "4.3", "statement": "The author possesses a T-shirt with a slogan about Dublin.", "answer": "NI" },
-        { "id": "4.4", "statement": "The word 'grand' in Ireland has a moderate meaning.", "answer": "T" },
-        { "id": "4.5", "statement": "In Dublin, going into details is advantageous to storytelling.", "answer": "T" }
+        {
+          "id": "4.1",
+          "statement": "Ulysses by Joyce was widely appreciated in Ireland when it was written.",
+          "answer": "F"
+        },
+        {
+          "id": "4.2",
+          "statement": "The disadvantages of his hometown discourage the author from returning to it.",
+          "answer": "F"
+        },
+        {
+          "id": "4.3",
+          "statement": "The author possesses a T-shirt with a slogan about Dublin.",
+          "answer": "NI"
+        },
+        {
+          "id": "4.4",
+          "statement": "The word 'grand' in Ireland has a moderate meaning.",
+          "answer": "T"
+        },
+        {
+          "id": "4.5",
+          "statement": "In Dublin, going into details is advantageous to storytelling.",
+          "answer": "T"
+        }
       ],
       "vocabItems": [
-        { "id": "4.6", "definition": "an act of strongly criticizing somebody/something", "answer": ["takedown", "devastating takedown", "a takedown"] },
-        { "id": "4.7", "definition": "without previous thought or preparation, spontaneous", "answer": ["off-the-cuff", "off the cuff"] },
-        { "id": "4.8", "definition": "covering part of the same space", "answer": ["overlapping"] },
-        { "id": "4.9", "definition": "a person with great knowledge and ability", "answer": ["savant", "a savant"] },
-        { "id": "4.10", "definition": "to move in a calm and confident way", "answer": ["breeze", "breeze in", "to breeze", "to breeze in"] }
+        {
+          "id": "4.6",
+          "definition": "an act of strongly criticizing somebody/something",
+          "answer": [
+            "takedown",
+            "devastating takedown",
+            "a takedown"
+          ]
+        },
+        {
+          "id": "4.7",
+          "definition": "without previous thought or preparation, spontaneous",
+          "answer": [
+            "off-the-cuff",
+            "off the cuff"
+          ]
+        },
+        {
+          "id": "4.8",
+          "definition": "covering part of the same space",
+          "answer": [
+            "overlapping"
+          ]
+        },
+        {
+          "id": "4.9",
+          "definition": "a person with great knowledge and ability",
+          "answer": [
+            "savant",
+            "a savant"
+          ]
+        },
+        {
+          "id": "4.10",
+          "definition": "to move in a calm and confident way",
+          "answer": [
+            "breeze",
+            "breeze in",
+            "to breeze",
+            "to breeze in"
+          ]
+        }
       ],
       "vocabPoints": 5
     },
@@ -124,37 +272,133 @@
       "text": "Every August, Edinburgh Castle comes alive with the sounds of bagpipes, military bands, and cheering crowds, as The Royal Edinburgh Military Tattoo comes to town. It's an extraordinary display of tradition and musical prowess as military forces, bands and dancing groups from the 6.1. _________ world come together in this iconic celebration. It's a once-in-a-lifetime experience and if you've ever 6.2. _________ into account visiting Scotland, the Tattoo 6.3. _________ to be on your bucket list.\n\nThe Tattoo is a music and dance extravaganza that is steeped 6.4. _________ history and tradition. The first Royal Edinburgh Military Tattoo was held in 1950 with a crowd of 6,000 people. Since 6.5. _________ 1970s, the event has been able to host around 220,000 every year.\n\nThe Royal Edinburgh Military Tattoo has 6.6. _________ to do with ink on the skin. The word 'tattoo' comes from the Dutch phrase 'doe den tap toe', 6.7. _________ 'turn off the taps'. Back in the 17th century, the call would be made to drummers or trumpeters, who would then signal to the innkeepers it was 6.8. _________ to close. The British Army adopted the practice and the regiment's drummers would play it every night. Soon after, the term began to refer 6.9. _________ the last duty call of the day and now it is associated with military ceremonies.\n\nThe only real way to understand the significance of this one-of-a-kind experience is to see it in person. If you thought the Tattoo could not get more extravagant, wait 6.10. _________ you see the firework finale, which is the perfect way to conclude this remarkable experience.",
       "source": "trafalgar.com",
       "items": [
-        { "id": "6.1", "answer": ["whole", "entire"] },
-        { "id": "6.2", "answer": "taken" },
-        { "id": "6.3", "answer": ["has", "ought", "needs"] },
-        { "id": "6.4", "answer": "in" },
-        { "id": "6.5", "answer": "the" },
-        { "id": "6.6", "answer": ["nothing", "little"] },
-        { "id": "6.7", "answer": ["meaning", "or"] },
-        { "id": "6.8", "answer": "time" },
-        { "id": "6.9", "answer": "to" },
-        { "id": "6.10", "answer": ["until", "till"] }
+        {
+          "id": "6.1",
+          "answer": [
+            "whole",
+            "entire"
+          ]
+        },
+        {
+          "id": "6.2",
+          "answer": "taken"
+        },
+        {
+          "id": "6.3",
+          "answer": [
+            "has",
+            "ought",
+            "needs"
+          ]
+        },
+        {
+          "id": "6.4",
+          "answer": "in"
+        },
+        {
+          "id": "6.5",
+          "answer": "the"
+        },
+        {
+          "id": "6.6",
+          "answer": [
+            "nothing",
+            "little"
+          ]
+        },
+        {
+          "id": "6.7",
+          "answer": [
+            "meaning",
+            "or"
+          ]
+        },
+        {
+          "id": "6.8",
+          "answer": "time"
+        },
+        {
+          "id": "6.9",
+          "answer": "to"
+        },
+        {
+          "id": "6.10",
+          "answer": [
+            "until",
+            "till"
+          ]
+        }
       ],
-      "scoringScheme": { "10": 5, "8-9": 4, "6-7": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     },
     {
       "id": "7",
       "type": "word_formation",
       "points": 8,
       "instruction": "Przeczytaj tekst. Uzupełnij każdą lukę (7.1.-7.8.) jednym wyrazem, przekształcając wyrazy podane w ramce, tak aby otrzymać spójny, logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostały podane dodatkowo i nie pasują do żadnej luki. Wybrany wyraz może być użyty tylko raz. W każdą lukę można wpisać tylko jeden wyraz. Wymagana jest pełna poprawność gramatyczna i ortograficzna wpisywanych wyrazów. Przenieś rozwiązania na kartę odpowiedzi.",
-      "wordBank": ["ACCESS", "ADMINISTRATE", "CLAIM", "EXIST", "FAR", "GEOGRAPHY", "INHABIT", "MOTIVATION", "LOCATION", "SIMILAR"],
+      "wordBank": [
+        "ACCESS",
+        "ADMINISTRATE",
+        "CLAIM",
+        "EXIST",
+        "FAR",
+        "GEOGRAPHY",
+        "INHABIT",
+        "MOTIVATION",
+        "LOCATION",
+        "SIMILAR"
+      ],
       "title": "HOW DO COUNTRIES CHOOSE THEIR CAPITAL CITIES?",
       "text": "London, England. Tokyo, Japan. Buenos Aires, Argentina. They all make our lists of places to visit, and they are also national capitals – each city being the seat of its country's government. But how are capital cities chosen, anyway?\n\nLocation is often the key. Many countries have chosen a 7.1. _________ central capital in order to give equal treatment to all the regions in the country. Madrid, for instance, is situated almost exactly in the middle of Spain and, to take it one step 7.2. _________, in the middle of the Iberian Peninsula. 7.3. _________, when Nigeria decided to build a brand-new capital city, it placed Abuja, which was formally named the capital in 1991, right in the heart of the country.\n\nWhen a country would rather choose an 7.4. _________ city for its capital than build an entirely new one, population may be a primary concern. As a result, capitals are often the most populous of a country's cities.\n\nA capital can also be a sign of political compromise, as in the United States. Meanwhile, the choice of capital can sometimes be politically 7.5. _________ without compromise. The name of Myanmar's capital, Nay Pyi Taw, means \"Abode of Kings\" in Burmese, and the city's origin mirrors its name. Its construction began in 2004, and its planners were not especially worried about making it 7.6. _________ to the public, as it had initially been designed to house only government and military personnel.\n\nFinally, not all countries subscribe to the idea that there must be only one national capital. Bolivia, for example, has La Paz as its 7.7. _________ capital, which means that it is the seat of the government, and Sucre as its constitutional (official) capital.\n\nHowever a country decides on its capital, that city becomes an important symbol of nationhood. While being a home to its many 7.8. _________ and a place for tourists to visit, it is also the city chosen to represent the entire country to the world.",
       "source": "britannica.com",
       "items": [
-        { "id": "7.1", "baseWord": "GEOGRAPHY", "answer": "geographically" },
-        { "id": "7.2", "baseWord": "FAR", "answer": "further" },
-        { "id": "7.3", "baseWord": "SIMILAR", "answer": "Similarly" },
-        { "id": "7.4", "baseWord": "EXIST", "answer": "existing" },
-        { "id": "7.5", "baseWord": "MOTIVATION", "answer": "motivated" },
-        { "id": "7.6", "baseWord": "ACCESS", "answer": "accessible" },
-        { "id": "7.7", "baseWord": "ADMINISTRATE", "answer": "administrative" },
-        { "id": "7.8", "baseWord": "INHABIT", "answer": "inhabitants" }
+        {
+          "id": "7.1",
+          "baseWord": "GEOGRAPHY",
+          "answer": "geographically"
+        },
+        {
+          "id": "7.2",
+          "baseWord": "FAR",
+          "answer": "further"
+        },
+        {
+          "id": "7.3",
+          "baseWord": "SIMILAR",
+          "answer": "Similarly"
+        },
+        {
+          "id": "7.4",
+          "baseWord": "EXIST",
+          "answer": "existing"
+        },
+        {
+          "id": "7.5",
+          "baseWord": "MOTIVATION",
+          "answer": "motivated"
+        },
+        {
+          "id": "7.6",
+          "baseWord": "ACCESS",
+          "answer": "accessible"
+        },
+        {
+          "id": "7.7",
+          "baseWord": "ADMINISTRATE",
+          "answer": "administrative"
+        },
+        {
+          "id": "7.8",
+          "baseWord": "INHABIT",
+          "answer": "inhabitants"
+        }
       ]
     },
     {
@@ -162,7 +406,6 @@
       "type": "sentence_transformation",
       "points": 8,
       "instruction": "Przeczytaj zdania (8.1.-8.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
-      "skipped": true,
       "items": [
         {
           "id": "8.1",
@@ -227,25 +470,87 @@
       "type": "matching_columns",
       "points": 4,
       "instruction": "Uzupełnij tabelkę dobierając określenia (A-K) odpowiadające danej stolicy. Trzy określenia podano dodatkowo i nie pasują one do żadnego miasta. Przenieś rozwiązania na kartę odpowiedzi.",
-      "cities": ["Belfast", "Cardiff", "Dublin", "London"],
+      "cities": [
+        "Belfast",
+        "Cardiff",
+        "Dublin",
+        "London"
+      ],
       "options": [
-        { "letter": "A", "text": "Arthur's Seat" },
-        { "letter": "B", "text": "Beefeaters" },
-        { "letter": "C", "text": "Ha'penny Bridge" },
-        { "letter": "D", "text": "the birthplace of the RMS Titanic" },
-        { "letter": "E", "text": "coal export" },
-        { "letter": "F", "text": "the Palace of Holyroodhouse" },
-        { "letter": "G", "text": "the Firth of Forth" },
-        { "letter": "H", "text": "Castle Arcade" },
-        { "letter": "I", "text": "the Liffey" },
-        { "letter": "J", "text": "Nelson's Column" },
-        { "letter": "K", "text": "a seahorse as a symbol of the city" }
+        {
+          "letter": "A",
+          "text": "Arthur's Seat"
+        },
+        {
+          "letter": "B",
+          "text": "Beefeaters"
+        },
+        {
+          "letter": "C",
+          "text": "Ha'penny Bridge"
+        },
+        {
+          "letter": "D",
+          "text": "the birthplace of the RMS Titanic"
+        },
+        {
+          "letter": "E",
+          "text": "coal export"
+        },
+        {
+          "letter": "F",
+          "text": "the Palace of Holyroodhouse"
+        },
+        {
+          "letter": "G",
+          "text": "the Firth of Forth"
+        },
+        {
+          "letter": "H",
+          "text": "Castle Arcade"
+        },
+        {
+          "letter": "I",
+          "text": "the Liffey"
+        },
+        {
+          "letter": "J",
+          "text": "Nelson's Column"
+        },
+        {
+          "letter": "K",
+          "text": "a seahorse as a symbol of the city"
+        }
       ],
       "items": [
-        { "id": "Belfast", "answers": ["D", "K"] },
-        { "id": "Cardiff", "answers": ["E", "H"] },
-        { "id": "Dublin", "answers": ["C", "I"] },
-        { "id": "London", "answers": ["B", "J"] }
+        {
+          "id": "Belfast",
+          "answers": [
+            "D",
+            "K"
+          ]
+        },
+        {
+          "id": "Cardiff",
+          "answers": [
+            "E",
+            "H"
+          ]
+        },
+        {
+          "id": "Dublin",
+          "answers": [
+            "C",
+            "I"
+          ]
+        },
+        {
+          "id": "London",
+          "answers": [
+            "B",
+            "J"
+          ]
+        }
       ],
       "scoringNote": "1 punkt za dwa poprawnie dobrane określenia do każdej stolicy"
     },
@@ -258,32 +563,50 @@
         {
           "id": "10.1",
           "question": "Which famous Scottish writer is commemorated with a large monument in Edinburgh?",
-          "answer": ["Walter Scott", "Sir Walter Scott"],
+          "answer": [
+            "Walter Scott",
+            "Sir Walter Scott"
+          ],
           "points": 1
         },
         {
           "id": "10.2",
           "question": "What is the name of the famous royal yacht permanently docked in Edinburgh?",
-          "answer": ["The Royal Yacht Britannia", "Britannia", "HMY Britannia", "Her Majesty's Yacht Britannia"],
+          "answer": [
+            "The Royal Yacht Britannia",
+            "Britannia",
+            "HMY Britannia",
+            "Her Majesty's Yacht Britannia"
+          ],
           "points": 1
         },
         {
           "id": "10.3",
           "question": "What devastating event struck London in 1665?",
-          "answer": ["The Great Plague", "The Great Plague of London"],
+          "answer": [
+            "The Great Plague",
+            "The Great Plague of London"
+          ],
           "points": 1
         },
         {
           "id": "10.4",
           "question": "What is the name of the famous illuminated manuscript housed in Trinity College Dublin?",
-          "answer": ["The Book of Kells", "the Book of Columba"],
+          "answer": [
+            "The Book of Kells",
+            "the Book of Columba"
+          ],
           "points": 1
         },
         {
           "id": "10.5",
           "question": "What industry was Belfast historically famous for, and what nickname did it earn?",
-          "answer": ["the linen industry"],
-          "secondAnswer": ["Linenopolis"],
+          "answer": [
+            "the linen industry"
+          ],
+          "secondAnswer": [
+            "Linenopolis"
+          ],
           "points": 2
         }
       ]

@@ -29,8 +29,18 @@ function applyScoringScheme(correct, scheme) {
   return 0;
 }
 
+const AI_CHECKED_TYPES = ["sentence_transformation", "grammar_gaps", "writing"];
+
 function scoreTask(task, userAnswers) {
-  if (task.skipped) {
+  const isAIType = AI_CHECKED_TYPES.includes(task.type);
+  const hasItems = task.items && task.items.length > 0;
+
+  // AI tasks with items: not skipped, but scored 0 locally (AI will grade them)
+  if (isAIType && hasItems) {
+    return { taskId: task.id, type: task.type, earned: 0, max: task.points, skipped: false, items: [] };
+  }
+
+  if (task.skipped || (isAIType && !hasItems)) {
     return { taskId: task.id, type: task.type, earned: 0, max: task.points, skipped: true, items: [] };
   }
 

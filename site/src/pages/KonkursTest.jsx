@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
-import TaskRenderer from "../components/konkursy/TaskRenderer";
+import TaskRenderer, { AI_CHECKED_TYPES } from "../components/konkursy/TaskRenderer";
 import { scoreTest } from "../lib/scoring";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
@@ -14,6 +14,7 @@ export default function KonkursTest() {
   const [testData, setTestData] = useState(null);
   const [answers, setAnswers] = useState({});
   const [result, setResult] = useState(null);
+  const [aiChecking, setAiChecking] = useState(false);
   const [started, setStarted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(null);
   const timerRef = useRef(null);
@@ -59,10 +60,7 @@ export default function KonkursTest() {
     setAnswers((prev) => ({ ...prev, [itemId]: value }));
   };
 
-  const handleSubmit = () => {
-    clearInterval(timerRef.current);
-    const res = scoreTest(testData, answers);
-    setResult(res);
+  const saveResult = (res) => {
     const entry = {
       testId: `${year}/${stage}`,
       date: new Date().toISOString(),
@@ -92,6 +90,66 @@ export default function KonkursTest() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ user: user?.name, ...entry }),
     }).catch(() => {});
+  };
+
+  const handleSubmit = async () => {
+    clearInterval(timerRef.current);
+    const res = scoreTest(testData, answers);
+
+    // Find AI tasks that have items
+    const aiTasks = testData.tasks.filter(
+      (t) => AI_CHECKED_TYPES.includes(t.type) && t.items && t.items.length > 0
+    );
+
+    if (aiTasks.length === 0) {
+      setResult(res);
+      saveResult(res);
+      return;
+    }
+
+    // Show local results immediately, then overlay AI results
+    setResult(res);
+    setAiChecking(true);
+
+    // Send AI tasks for grading in parallel
+    const aiResults = await Promise.allSettled(
+      aiTasks.map((task) =>
+        fetch("/api/check", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: task.type, task, answers }),
+        }).then((r) => r.ok ? r.json() : null)
+      )
+    );
+
+    // Merge AI results into the score
+    let updatedTasks = [...res.tasks];
+    aiTasks.forEach((task, i) => {
+      const aiRes = aiResults[i].status === "fulfilled" ? aiResults[i].value : null;
+      if (!aiRes) return;
+      const idx = updatedTasks.findIndex((t) => t.taskId === task.id);
+      if (idx === -1) return;
+      updatedTasks[idx] = {
+        ...updatedTasks[idx],
+        earned: aiRes.earned,
+        max: aiRes.max,
+        skipped: false,
+        items: aiRes.items,
+      };
+    });
+
+    const earned = updatedTasks.reduce((sum, r) => sum + r.earned, 0);
+    const max = updatedTasks.filter((r) => !r.skipped).reduce((sum, r) => sum + r.max, 0);
+    const finalRes = {
+      earned,
+      max,
+      percentage: max > 0 ? Math.round((earned / max) * 100) : 0,
+      tasks: updatedTasks,
+    };
+
+    setResult(finalRes);
+    setAiChecking(false);
+    saveResult(finalRes);
   };
 
   const formatTime = (seconds) => {
@@ -200,6 +258,12 @@ export default function KonkursTest() {
       {!result && (
         <div style={{ textAlign: "center", marginTop: 32 }}>
           <button onClick={handleSubmit} style={styles.submitBtn}>Sprawdz odpowiedzi</button>
+        </div>
+      )}
+
+      {aiChecking && (
+        <div style={{ textAlign: "center", marginTop: 16 }}>
+          <p style={{ color: "#a78bfa", fontSize: 14 }}>Sprawdzanie zadan otwartych przez AI...</p>
         </div>
       )}
 

@@ -13,11 +13,31 @@
       "skipped": true,
       "note": "Listening task - requires audio",
       "items": [
-        { "id": "1.1", "statement": "Compared to Hans Raffert, Roland Mesnier prepared a larger number of gingerbread houses.", "answer": "NI" },
-        { "id": "1.2", "statement": "Barbara Bush had no specific requirements when it came to gingerbread house designs.", "answer": "T" },
-        { "id": "1.3", "statement": "The Clintons' cat tasted a part of the gingerbread White House.", "answer": "T" },
-        { "id": "1.4", "statement": "Laura Bush let the pastry chef create a futuristic version of the White House.", "answer": "F" },
-        { "id": "1.5", "statement": "Volunteers dedicated two weeks in 2024 to decorating the White House.", "answer": "F" }
+        {
+          "id": "1.1",
+          "statement": "Compared to Hans Raffert, Roland Mesnier prepared a larger number of gingerbread houses.",
+          "answer": "NI"
+        },
+        {
+          "id": "1.2",
+          "statement": "Barbara Bush had no specific requirements when it came to gingerbread house designs.",
+          "answer": "T"
+        },
+        {
+          "id": "1.3",
+          "statement": "The Clintons' cat tasted a part of the gingerbread White House.",
+          "answer": "T"
+        },
+        {
+          "id": "1.4",
+          "statement": "Laura Bush let the pastry chef create a futuristic version of the White House.",
+          "answer": "F"
+        },
+        {
+          "id": "1.5",
+          "statement": "Volunteers dedicated two weeks in 2024 to decorating the White House.",
+          "answer": "F"
+        }
       ]
     },
     {
@@ -28,11 +48,31 @@
       "skipped": true,
       "note": "Listening task - requires audio",
       "items": [
-        { "id": "2.1", "sentence": "Confucius is known for _______________________________________ the use of certain kitchen utensils.", "answer": "his/a dislike/disregard for/ not liking/disregarding / not being a fan/supporter of" },
-        { "id": "2.2", "sentence": "Around 400 BC, cooks began _______________________________________ which sped up the cooking process.", "answer": "cutting / chopping food into/in small pieces" },
-        { "id": "2.3", "sentence": "In Japan, chopsticks were primarily used during _________________________________.", "answer": "religious ceremonies" },
-        { "id": "2.4", "sentence": "Garlic, onions, and _______________________________________ react with silver, causing it to change colour.", "answer": "rotten eggs" },
-        { "id": "2.5", "sentence": "There is a belief that receiving a pair of chopsticks of different length may result in _________________________________.", "answer": "[you(r)/one('s)/someone('s)/this person('s)/the person('s)] missing a boat or plane" }
+        {
+          "id": "2.1",
+          "sentence": "Confucius is known for _______________________________________ the use of certain kitchen utensils.",
+          "answer": "his/a dislike/disregard for/ not liking/disregarding / not being a fan/supporter of"
+        },
+        {
+          "id": "2.2",
+          "sentence": "Around 400 BC, cooks began _______________________________________ which sped up the cooking process.",
+          "answer": "cutting / chopping food into/in small pieces"
+        },
+        {
+          "id": "2.3",
+          "sentence": "In Japan, chopsticks were primarily used during _________________________________.",
+          "answer": "religious ceremonies"
+        },
+        {
+          "id": "2.4",
+          "sentence": "Garlic, onions, and _______________________________________ react with silver, causing it to change colour.",
+          "answer": "rotten eggs"
+        },
+        {
+          "id": "2.5",
+          "sentence": "There is a belief that receiving a pair of chopsticks of different length may result in _________________________________.",
+          "answer": "[you(r)/one('s)/someone('s)/this person('s)/the person('s)] missing a boat or plane"
+        }
       ]
     },
     {
@@ -44,21 +84,60 @@
       "text": "Food with ingredients that have been saved from going to waste is said to be \"upcycled.\" This rather broad definition includes by-products from the food industry, such as spent grains left over from beer manufacturing or apple pulp that does not make it into juice. 3.1. _________ With rising concern over food waste, the idea has quickly crossed borders.\n\nEven if you are not familiar with the idea, perhaps you have already bought upcycled produce in the form of wonky carrots and potatoes. 3.2. _________ Nevertheless, it is still tasty and perfectly good to eat. Elsewhere, food manufacturers are making products that include upcycled ingredients.\n\nYou may wonder why we should upcycle food in the first place. 3.3. _________ The US government agency rates it as effective as donating or redistributing food to charity kitchens and shelters. Wasted food, after all, can generate harmful greenhouse gases if left to rot in landfills.\n\nAccording to the US upcycled food certification standard, a product only needs to contain a minimum of 10% upcycled inputs by weight in order to be certified as upcycled. Compare that with organic food. In both the United States and the European Union, a product must contain a minimum of 95% of certified organic ingredients to be labelled organic. This is very far from the above mentioned 10%. 3.4. _________ Think about a biscuit. Most of the major basic ingredients – flour, butter, sugar – would need to be upcycled, which seems, in that case, just impossible. On the other hand, would 10% be enough to encourage you to buy food certified as upcycled?\n\nWhile I believe including upcycled ingredients in food should be encouraged, no matter how big or small the percentage, it is important to have rules in place. However, in the EU, upcycled foods are not regulated and there are no certification standards. Besides, consumers are often asked to pay more for upcycled food, even though it contains ingredients that otherwise would have gone to waste. 3.5. _________ As a result, they have to charge more.\n\nIf we want upcycled foods to become more common, and so reduce waste, we have to ensure consumers are well-informed. If consumers trust, value and understand these products, they are more likely to succeed in the market.",
       "source": "Na podstawie: https://theconversation.com/",
       "options": [
-        { "letter": "A", "text": "The answer is fairly straightforward – it benefits the planet by reducing the food system's environmental impact." },
-        { "letter": "B", "text": "So, if ingredients are not used for human consumption, they are simply thrown away." },
-        { "letter": "C", "text": "This is because the producers are often small start-ups with high production costs." },
-        { "letter": "D", "text": "If upcycled ingredients are listed first on the packaging, it means the producers care for the planet." },
-        { "letter": "E", "text": "Obviously, it may be quite hard to make certain products with so many upcycled ingredients." },
-        { "letter": "F", "text": "The term originated in the US, though it has also been adopted on this side of the Atlantic." },
-        { "letter": "G", "text": "Therefore, consumers may buy such products thinking they are making a more eco-friendly choice." },
-        { "letter": "H", "text": "This is food that does not meet the visual standards of most supermarkets." }
+        {
+          "letter": "A",
+          "text": "The answer is fairly straightforward – it benefits the planet by reducing the food system's environmental impact."
+        },
+        {
+          "letter": "B",
+          "text": "So, if ingredients are not used for human consumption, they are simply thrown away."
+        },
+        {
+          "letter": "C",
+          "text": "This is because the producers are often small start-ups with high production costs."
+        },
+        {
+          "letter": "D",
+          "text": "If upcycled ingredients are listed first on the packaging, it means the producers care for the planet."
+        },
+        {
+          "letter": "E",
+          "text": "Obviously, it may be quite hard to make certain products with so many upcycled ingredients."
+        },
+        {
+          "letter": "F",
+          "text": "The term originated in the US, though it has also been adopted on this side of the Atlantic."
+        },
+        {
+          "letter": "G",
+          "text": "Therefore, consumers may buy such products thinking they are making a more eco-friendly choice."
+        },
+        {
+          "letter": "H",
+          "text": "This is food that does not meet the visual standards of most supermarkets."
+        }
       ],
       "items": [
-        { "id": "3.1", "answer": "F" },
-        { "id": "3.2", "answer": "H" },
-        { "id": "3.3", "answer": "A" },
-        { "id": "3.4", "answer": "E" },
-        { "id": "3.5", "answer": "C" }
+        {
+          "id": "3.1",
+          "answer": "F"
+        },
+        {
+          "id": "3.2",
+          "answer": "H"
+        },
+        {
+          "id": "3.3",
+          "answer": "A"
+        },
+        {
+          "id": "3.4",
+          "answer": "E"
+        },
+        {
+          "id": "3.5",
+          "answer": "C"
+        }
       ]
     },
     {
@@ -70,18 +149,68 @@
       "text": "All-night diners used to be a signature New York institution. Now, New York may be losing its identity as the city that never sleeps, because round-the-clock diners are disappearing as costs rise, food delivery booms and many citizens keep to the earlier-to-bed schedules they developed during the pandemic. However, in the midst of all the closures, at least one place has been reborn: Kellogg's Diner, a stalwart of Williamsburg, Brooklyn since 1928. It returned in September after a half-year hiatus, with new ownership, a refurbished interior, a slightly fancier menu by the chef Jackie Carnesi – and two months later, 24-hour service. To better appreciate the magic of a restaurant that never closes, I spent a Friday night at Kellogg's, dining nonstop from 8 p.m. to 8 a.m., seeing the restaurant through each of its transformations and meeting a motley mix of customers.\n\n8 to 11 p.m.\nThe dinner crowds at Kellogg's are relatively tame compared with the diners who arrive later. With its cushiony booths, string lights, glass case of pies and neon sign glowing out front, Kellogg's looks every inch the archetypal diner. But for my first few hours there, it felt like any other popular restaurant in prime time. Crowds waited for tables in the entryway. Groups of friends shared platters of nachos and bottles of orange wine chilled in buckets. Solo diners lingered over slices of pecan pie at the bar.\n\n11 p.m. to 2 a.m.\nAfter dinner, Kellogg's fills up with energetic partygoers. This new crop of guests arrived either to gear up for a night out or to keep the party going. They included Brandon Reyes, who would deploy to Italy on Monday for his next Navy posting. Four friends had descended on New York from across the country to see him off, and he had taken them to his favorite place since childhood: Kellogg's. \"It is embedded in my culture,\" said Mr. Reyes, 23, who grew up nearby. \"It is part of my family. My grandmother has been coming here for years.\"\nAt 1 a.m., Kellogg's switches to a late-night menu that includes fewer items, but with some additions, like a Cuban sandwich and cornmeal pancakes.\n\n2 to 5 a.m.\nAt 2 a.m., the playlist suddenly changed from Top 40 hits to 1970s and '80s pop — Abba, the Go-Go's, Boney M. The room became noisier and more raucous as people tumbled in from bars and clubs. A group of recent Stanford graduates from a nearby Afrobeats club appeared around 3 a.m. looking for solid food. But the crowd wasn't all 20-somethings. Maria Pino, 60, an intensive-care-unit nurse, came in with her partner. Ms. Pino loves the eccentric people she meets at all-night diners, and even witnessed a spontaneous wedding in one ten years ago. She hoped the city would never lose these spots. \"This is not Arizona, this is not Virginia, this is New York,\" she said. \"New York is 24 hours. You need a place to go.\"\n\n5 to 8 a.m.\nThe blinds stayed drawn through the night. But around 6 a.m., sunlight slowly crept in through the slats, reminding me how long I'd been there. Just before that, the lighting inside the restaurant softened to a yellowish glow, a server beginning his shift dropped a breakfast menu at our table and the playlist shifted to jazz. The manager said this was his way of indicating to the inebriated that they needed to leave or quiet down as a morning meal was going to be served.\nRachel Prucha and Lo Logsdon, both bartenders in Manhattan, had recently finished their shifts and were debriefing over enchiladas and espressos. \"This is our dinner,\" said Ms. Prucha, 30. \"And breakfast.\" Then there were the guests just beginning their days, like D.Y. Kim, a project manager at Google, who had just flown back from South Korea a day earlier and was digging into a plate of pancakes and an omelet. He had woken up jet-lagged and craving breakfast food, so he drove from his home in Downtown Brooklyn to Kellogg's – one of the few places open this early. \"We don't have diners in Korea,\" said Mr. Kim, 35. \"I was looking forward to an American breakfast.\" And is there any more American place to eat in than a 24-hour diner?",
       "source": "Na podstawie: https://www.nytimes.com",
       "items": [
-        { "id": "4.1", "statement": "There are specific reasons why all-night diners are closing down.", "answer": "T" },
-        { "id": "4.2", "statement": "Kellogg's has been open 24 hours a day since its reopening in September 2024.", "answer": "F" },
-        { "id": "4.3", "statement": "Customers in the entryway caused a disturbance.", "answer": "NI" },
-        { "id": "4.4", "statement": "Kellogg's draws many regulars who have lived in the neighborhood for decades.", "answer": "NI" },
-        { "id": "4.5", "statement": "A nurse who came in with her partner had just finished her shift at work.", "answer": "NI" },
-        { "id": "4.6", "statement": "The change in lighting before 6 a.m. signals to the guests that it is breakfast time.", "answer": "T" }
+        {
+          "id": "4.1",
+          "statement": "There are specific reasons why all-night diners are closing down.",
+          "answer": "T"
+        },
+        {
+          "id": "4.2",
+          "statement": "Kellogg's has been open 24 hours a day since its reopening in September 2024.",
+          "answer": "F"
+        },
+        {
+          "id": "4.3",
+          "statement": "Customers in the entryway caused a disturbance.",
+          "answer": "NI"
+        },
+        {
+          "id": "4.4",
+          "statement": "Kellogg's draws many regulars who have lived in the neighborhood for decades.",
+          "answer": "NI"
+        },
+        {
+          "id": "4.5",
+          "statement": "A nurse who came in with her partner had just finished her shift at work.",
+          "answer": "NI"
+        },
+        {
+          "id": "4.6",
+          "statement": "The change in lighting before 6 a.m. signals to the guests that it is breakfast time.",
+          "answer": "T"
+        }
       ],
       "vocabItems": [
-        { "id": "4.7", "definition": "sounding unpleasantly loud", "answer": ["raucous"] },
-        { "id": "4.8", "definition": "a break in an activity when nothing happens", "answer": ["hiatus", "a hiatus"] },
-        { "id": "4.9", "definition": "to prepare for an activity or event", "answer": ["gear up", "to gear up"] },
-        { "id": "4.10", "definition": "consisting of many different types that do not appear to go together", "answer": ["motley"] }
+        {
+          "id": "4.7",
+          "definition": "sounding unpleasantly loud",
+          "answer": [
+            "raucous"
+          ]
+        },
+        {
+          "id": "4.8",
+          "definition": "a break in an activity when nothing happens",
+          "answer": [
+            "hiatus",
+            "a hiatus"
+          ]
+        },
+        {
+          "id": "4.9",
+          "definition": "to prepare for an activity or event",
+          "answer": [
+            "gear up",
+            "to gear up"
+          ]
+        },
+        {
+          "id": "4.10",
+          "definition": "consisting of many different types that do not appear to go together",
+          "answer": [
+            "motley"
+          ]
+        }
       ]
     },
     {
@@ -94,25 +223,33 @@
           "id": "5.1",
           "sentence": "Taste the soup and adjust the __ __ __ s __ __ __ __ __ , like salt and pepper, and herbs to suit your preference.",
           "hint": "__ __ __ s __ __ __ __ __",
-          "answer": ["seasoning"]
+          "answer": [
+            "seasoning"
+          ]
         },
         {
           "id": "5.2",
           "sentence": "Jenny adds __ d __ __ __ __ flowers to her cupcakes to give them a special look and a light floral taste. Her guests are surprised that they can eat both – the cupcakes and the flowers.",
           "hint": "__ d __ __ __ __",
-          "answer": ["edible"]
+          "answer": [
+            "edible"
+          ]
         },
         {
           "id": "5.3",
           "sentence": "She has developed a milk __ __ t __ __ __ __ __ __ __ __ , so she cannot eat dairy products.",
           "hint": "__ __ t __ __ __ __ __ __ __ __",
-          "answer": ["intolerance"]
+          "answer": [
+            "intolerance"
+          ]
         },
         {
           "id": "5.4",
           "sentence": "Right before serving, I always __ __ __ z __ __ __ lemon juice over the fish.",
           "hint": "__ __ __ z __ __ __",
-          "answer": ["drizzle"]
+          "answer": [
+            "drizzle"
+          ]
         }
       ]
     },
@@ -125,18 +262,76 @@
       "text": "I can solemnly swear that as a child, nothing 6.1. _________ me happier than ice cream. It won't be an exaggeration to say that the same holds true now, when the heart 6.2. _________ faster and the world feels happier, all because you've got your favourite ice cream! Well, whoever invented ice cream must 6.3. _________ had incredible taste to combine something creamy with something icy, and turn it into the best thing ever!\n\nWhat about you? Check out these ice cream lover traits.\n\n1. You never say no to ice cream! Even if you're \"too full\" after dinner or trying to cut 6.4. _________ on sugar, if someone offers you ice cream, you always say yes. Yes, you do have a 6.5. _________ tooth. But the unconditional love you have for ice cream always wins with any other treat like halva, chocolate chip cookies or cheesecake.\n\n2. Weather doesn't matter to you! The chilly weather stands 6.6. _________ chance of coming between you and your favourite ice cream. Even in winter, you'll surprise everyone by picking ice cream over any warm dessert.\n\n3. You are never satisfied with a single serving! Who eats just one scoop of ice cream? There should be at 6.7. _________ three scoops to satisfy your ice cream cravings.\n\n4. You're most excited to try new ice cream flavours and places! While others get excited about new cafes or restaurants, you're always hunting 6.8. _________ a place that serves unique ice cream flavours. Activated charcoal? Spicy chilli chocolate? You're ready for anything as long as it's ice cream.\n\n5. Ice cream is your answer to any situation! Bad day at school? Ice cream. Celebrating a win? Ice cream. Catching 6.9. _________ with your bestie? Ice cream. It is your perfect accompaniment to any kind of situation in life.\n\nIf you could relate 6.10. _________ all of these traits, congratulations, you are an ice cream lover in the truest sense.",
       "source": "Na podstawie: https://food.ndtv.com",
       "items": [
-        { "id": "6.1", "answer": ["made"] },
-        { "id": "6.2", "answer": ["beats", "goes"] },
-        { "id": "6.3", "answer": ["have"] },
-        { "id": "6.4", "answer": ["down"] },
-        { "id": "6.5", "answer": ["sweet"] },
-        { "id": "6.6", "answer": ["no"] },
-        { "id": "6.7", "answer": ["least"] },
-        { "id": "6.8", "answer": ["for"] },
-        { "id": "6.9", "answer": ["up"] },
-        { "id": "6.10", "answer": ["to"] }
+        {
+          "id": "6.1",
+          "answer": [
+            "made"
+          ]
+        },
+        {
+          "id": "6.2",
+          "answer": [
+            "beats",
+            "goes"
+          ]
+        },
+        {
+          "id": "6.3",
+          "answer": [
+            "have"
+          ]
+        },
+        {
+          "id": "6.4",
+          "answer": [
+            "down"
+          ]
+        },
+        {
+          "id": "6.5",
+          "answer": [
+            "sweet"
+          ]
+        },
+        {
+          "id": "6.6",
+          "answer": [
+            "no"
+          ]
+        },
+        {
+          "id": "6.7",
+          "answer": [
+            "least"
+          ]
+        },
+        {
+          "id": "6.8",
+          "answer": [
+            "for"
+          ]
+        },
+        {
+          "id": "6.9",
+          "answer": [
+            "up"
+          ]
+        },
+        {
+          "id": "6.10",
+          "answer": [
+            "to"
+          ]
+        }
       ],
-      "scoringScheme": { "10": 5, "8-9": 4, "6-7": 3, "4-5": 2, "2-3": 1, "0-1": 0 }
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     },
     {
       "id": "7",
@@ -146,16 +341,69 @@
       "title": "IS AN APPLE A DAY REALLY GOOD FOR YOUR HEALTH?",
       "text": "The popular phrase \"an apple a day keeps the doctor away\" 7.1. _________ from a wordier Welsh proverb written in 1866: \"Eat an apple on going to bed and you'll keep the doctor from earning his bread.\" But is there any 7.2. _________ in this maxim? And are apples especially healthy compared with other fruit?\n\nApples contain, of course, various compounds linked to 7.3. _________ health benefits, e.g. improving heart health. There is also plenty of fibre in apples, 7.4. _________ pectin, which reduces the unhealthy form of cholesterol in our blood. Pectin also 7.5. _________ the amount of sugar and fat we absorb from food. Moreover, apples are a good source of phenolic compounds, which decrease the risk of heart disease, asthma, diabetes and 7.6. _________.\n\nHowever, apples alone are not enough to stop you having to visit the GP, as the most important thing is maintaining a healthy diet overall. The apple-a-day phrase refers to regularly eating plant-based foods, and apples are a good example because they are widely available, 7.7. _________ and have a long shelf-life.\n\nEating an apple a day is great (without removing the skin as this is where the majority of the most 7.8. _________ compounds can be found), but only if it is part of a balanced diet. And that is what the saying is getting at.",
       "source": "Na podstawie: https://www.bbc.com",
-      "wordBank": ["AFFORD", "FAIL", "LARGE", "LOW", "NUTRITION", "NUMBER", "OBESE", "ORIGIN", "RESEARCH", "TRUE"],
+      "wordBank": [
+        "AFFORD",
+        "FAIL",
+        "LARGE",
+        "LOW",
+        "NUTRITION",
+        "NUMBER",
+        "OBESE",
+        "ORIGIN",
+        "RESEARCH",
+        "TRUE"
+      ],
       "items": [
-        { "id": "7.1", "answer": ["originates"] },
-        { "id": "7.2", "answer": ["truth"] },
-        { "id": "7.3", "answer": ["numerous", "nutritional"] },
-        { "id": "7.4", "answer": ["largely"] },
-        { "id": "7.5", "answer": ["lowers"] },
-        { "id": "7.6", "answer": ["obesity"] },
-        { "id": "7.7", "answer": ["affordable"] },
-        { "id": "7.8", "answer": ["nutritional", "nutritious"] }
+        {
+          "id": "7.1",
+          "answer": [
+            "originates"
+          ]
+        },
+        {
+          "id": "7.2",
+          "answer": [
+            "truth"
+          ]
+        },
+        {
+          "id": "7.3",
+          "answer": [
+            "numerous",
+            "nutritional"
+          ]
+        },
+        {
+          "id": "7.4",
+          "answer": [
+            "largely"
+          ]
+        },
+        {
+          "id": "7.5",
+          "answer": [
+            "lowers"
+          ]
+        },
+        {
+          "id": "7.6",
+          "answer": [
+            "obesity"
+          ]
+        },
+        {
+          "id": "7.7",
+          "answer": [
+            "affordable"
+          ]
+        },
+        {
+          "id": "7.8",
+          "answer": [
+            "nutritional",
+            "nutritious"
+          ]
+        }
       ],
       "note": "7.8: nutritional/nutritious – jeżeli nie było użyte w 7.3"
     },
@@ -164,7 +412,6 @@
       "type": "sentence_transformation",
       "points": 8,
       "instruction": "Przeczytaj zdania (8.1.–8.8.). Wykorzystując wyrazy podane wielkimi literami, uzupełnij każde zdanie z luką tak, aby precyzyjnie oddać sens zdania wyjściowego. Wymagana jest pełna poprawność ortograficzna i gramatyczna wpisywanych fragmentów zdań. Uwaga: nie zmieniaj formy podanych wyrazów. W każdą lukę możesz wpisać maksymalnie pięć wyrazów, wliczając w to wyraz już podany. Formy skrócone (np. needn't, they're) są liczone jako dwa wyrazy. Przenieś rozwiązania na kartę odpowiedzi.",
-      "skipped": true,
       "note": "Sentence transformation with keyword - requires human/AI checking",
       "items": [
         {
@@ -186,7 +433,11 @@
           "original": "Could you lend me your garlic press?",
           "keyword": "MIND",
           "transformed": "Would _________ your garlic press?",
-          "answer": ["you mind lending me", "you mind my/me borrowing", "you mind if I borrowed"]
+          "answer": [
+            "you mind lending me",
+            "you mind my/me borrowing",
+            "you mind if I borrowed"
+          ]
         },
         {
           "id": "8.4",
@@ -200,7 +451,10 @@
           "original": "A local confectioner has decorated the cake for her.",
           "keyword": "DECORATED",
           "transformed": "She _________ by a local confectioner.",
-          "answer": ["has had", "got the cake decorated"]
+          "answer": [
+            "has had",
+            "got the cake decorated"
+          ]
         },
         {
           "id": "8.6",
@@ -231,22 +485,69 @@
       "points": 5,
       "instruction": "Do podanych określeń (9.1.–9.5.) dopasuj ich wyjaśnienia (A–I). Cztery wyjaśnienia zostały podane dodatkowo i nie odnoszą się do żadnego określenia. Przenieś rozwiązania na kartę odpowiedzi.",
       "options": [
-        { "letter": "A", "text": "3.78 liters in U.S." },
-        { "letter": "B", "text": "A New Zealand ice cream" },
-        { "letter": "C", "text": "an Aboriginal bread" },
-        { "letter": "D", "text": "an Australian cake" },
-        { "letter": "E", "text": "the breadbasket of America" },
-        { "letter": "F", "text": "a symbol of Maine" },
-        { "letter": "G", "text": "568 millilitres in the UK" },
-        { "letter": "H", "text": "a Canadian dessert" },
-        { "letter": "I", "text": "a Canadian bread of Scottish origin" }
+        {
+          "letter": "A",
+          "text": "3.78 liters in U.S."
+        },
+        {
+          "letter": "B",
+          "text": "A New Zealand ice cream"
+        },
+        {
+          "letter": "C",
+          "text": "an Aboriginal bread"
+        },
+        {
+          "letter": "D",
+          "text": "an Australian cake"
+        },
+        {
+          "letter": "E",
+          "text": "the breadbasket of America"
+        },
+        {
+          "letter": "F",
+          "text": "a symbol of Maine"
+        },
+        {
+          "letter": "G",
+          "text": "568 millilitres in the UK"
+        },
+        {
+          "letter": "H",
+          "text": "a Canadian dessert"
+        },
+        {
+          "letter": "I",
+          "text": "a Canadian bread of Scottish origin"
+        }
       ],
       "items": [
-        { "id": "9.1", "name": "The Midwest", "answer": "E" },
-        { "id": "9.2", "name": "Hokey Pokey", "answer": "B" },
-        { "id": "9.3", "name": "Bannocks", "answer": "I" },
-        { "id": "9.4", "name": "Pint", "answer": "G" },
-        { "id": "9.5", "name": "Lamington", "answer": "D" }
+        {
+          "id": "9.1",
+          "name": "The Midwest",
+          "answer": "E"
+        },
+        {
+          "id": "9.2",
+          "name": "Hokey Pokey",
+          "answer": "B"
+        },
+        {
+          "id": "9.3",
+          "name": "Bannocks",
+          "answer": "I"
+        },
+        {
+          "id": "9.4",
+          "name": "Pint",
+          "answer": "G"
+        },
+        {
+          "id": "9.5",
+          "name": "Lamington",
+          "answer": "D"
+        }
       ]
     },
     {
@@ -258,31 +559,42 @@
         {
           "id": "10.1",
           "question": "What is Tex-Mex in reference to food?",
-          "answer": ["The mix of Mexican and American / Texan flavours / foods / cuisines"],
+          "answer": [
+            "The mix of Mexican and American / Texan flavours / foods / cuisines"
+          ],
           "points": 1
         },
         {
           "id": "10.2",
           "question": "Which state are hot-dogs believed to come from?",
-          "answer": ["Illinois"],
+          "answer": [
+            "Illinois"
+          ],
           "points": 1
         },
         {
           "id": "10.3",
           "question": "The pavlova dessert was named after Anna Pavlova. What was her profession?",
-          "answer": ["(a) (Russian) ballerina", "ballet dancer"],
+          "answer": [
+            "(a) (Russian) ballerina",
+            "ballet dancer"
+          ],
           "points": 1
         },
         {
           "id": "10.4",
           "question": "What does poutine include except for French fries?",
-          "answer": ["Cheese (curd) and gravy"],
+          "answer": [
+            "Cheese (curd) and gravy"
+          ],
           "points": 1
         },
         {
           "id": "10.5",
           "question": "What is hangi?",
-          "answer": ["a traditional Maori way / method of cooking in New Zealand in underground steam ovens / using heated rocks (buried in a pit oven)"],
+          "answer": [
+            "a traditional Maori way / method of cooking in New Zealand in underground steam ovens / using heated rocks (buried in a pit oven)"
+          ],
           "points": 1
         }
       ]
