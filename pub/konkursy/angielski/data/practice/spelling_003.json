@@ -10,51 +10,51 @@
       "items": [
         {
           "id": "1.1",
-          "stem": "Our teacher asked us to write an essay as our h _ m _ _ _ _ k for Monday.",
-          "hint": "h _ m _ _ _ _ k",
-          "answer": "homework"
+          "stem": "Students who want to enter university must pass a difficult _ _ _ r _ _ _ _ examination.",
+          "hint": "_ _ _ r _ _ _ _",
+          "answer": "entrance"
         },
         {
           "id": "1.2",
-          "stem": "Students who get the best results receive a s _ _ _ l _ _ _ _ _ p to study at university.",
-          "hint": "s _ _ _ l _ _ _ _ _ p",
-          "answer": "scholarship"
+          "stem": "The school _ _ _ _ _ c _ _ _ _ covers all the subjects that students study during the year.",
+          "hint": "_ _ _ _ _ c _ _ _ _",
+          "answer": "curriculum"
         },
         {
           "id": "1.3",
-          "stem": "We had a geography e _ a _ _ _ _ _ _ _ n last Friday and it was really difficult.",
-          "hint": "e _ a _ _ _ _ _ _ _ n",
-          "answer": "examination"
+          "stem": "She received a _ _ _ _ _ _ r _ _ _ _ that covered all her university fees and living costs.",
+          "hint": "_ _ _ _ _ _ r _ _ _ _",
+          "answer": "scholarship"
         },
         {
           "id": "1.4",
-          "stem": "The school t _ _ e _ _ _ _ e shows what lessons we have each day of the week.",
-          "hint": "t _ _ e _ _ _ _ e",
-          "answer": "timetable"
+          "stem": "The teacher asked the students to hand in their _ _ _ _ _ n _ _ _ _ _ by Friday.",
+          "hint": "_ _ _ _ _ n _ _ _ _ _",
+          "answer": "assignments"
         },
         {
           "id": "1.5",
-          "stem": "My favourite s _ b _ _ _ t at school is biology because I love learning about animals.",
-          "hint": "s _ b _ _ _ t",
-          "answer": "subject"
+          "stem": "After finishing secondary school, many young people continue their _ _ _ _ _ t _ _ _ at university.",
+          "hint": "_ _ _ _ _ t _ _ _",
+          "answer": "education"
         },
         {
           "id": "1.6",
-          "stem": "You should use a d _ c _ _ _ _ _ _ y when you don't know the meaning of a word.",
-          "hint": "d _ c _ _ _ _ _ _ y",
-          "answer": "dictionary"
+          "stem": "The headmaster gave a speech during the graduation _ _ _ _ _ o _ _ in the school hall.",
+          "hint": "_ _ _ _ _ o _ _",
+          "answer": "ceremony"
         },
         {
           "id": "1.7",
-          "stem": "Students who behave badly at school sometimes get a p _ _ _ s _ _ _ _ t from the headmaster.",
-          "hint": "p _ _ _ s _ _ _ _ t",
-          "answer": "punishment"
+          "stem": "All students must wear a school _ _ _ _ _ r _ according to the new rules.",
+          "hint": "_ _ _ _ _ r _",
+          "answer": "uniform"
         },
         {
           "id": "1.8",
-          "stem": "We did a science e _ p _ _ _ _ _ _ t in the laboratory today. It was very exciting.",
-          "hint": "e _ p _ _ _ _ _ _ t",
-          "answer": "experiment"
+          "stem": "Our chemistry _ _ _ _ _ _ t _ _ _ is well equipped with modern scientific instruments.",
+          "hint": "_ _ _ _ _ _ t _ _ _",
+          "answer": "laboratory"
         }
       ]
     }

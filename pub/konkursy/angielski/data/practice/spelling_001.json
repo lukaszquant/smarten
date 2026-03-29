@@ -10,50 +10,50 @@
       "items": [
         {
           "id": "1.1",
-          "stem": "My sister is really g _ n _ _ _ _ _. She always buys us wonderful presents.",
-          "hint": "g _ n _ _ _ _ _",
+          "stem": "She always buys wonderful presents for everyone because she is incredibly _ _ n _ _ _ _ _.",
+          "hint": "_ _ n _ _ _ _ _",
           "answer": "generous"
         },
         {
           "id": "1.2",
-          "stem": "Tom never shares his things with others. He only thinks about himself. He is very s _ _ _ _ s h.",
-          "hint": "s _ _ _ _ s h",
+          "stem": "Tom only thinks about himself and never shares anything, which makes him extremely _ _ _ _ _ s _.",
+          "hint": "_ _ _ _ _ s _",
           "answer": "selfish"
         },
         {
           "id": "1.3",
-          "stem": "You can always count on Maria. She is very r _ l _ _ _ _ e.",
-          "hint": "r _ l _ _ _ _ e",
+          "stem": "You can always count on Maria because she is the most _ _ _ _ _ b _ _ person I know.",
+          "hint": "_ _ _ _ _ b _ _",
           "answer": "reliable"
         },
         {
           "id": "1.4",
-          "stem": "My brother gets angry when he has to wait. He is quite i _ p _ _ _ _ _ t.",
-          "hint": "i _ p _ _ _ _ _ t",
+          "stem": "My brother cannot stand waiting in queues because he is terribly _ _ _ _ t _ _ _ _.",
+          "hint": "_ _ _ _ t _ _ _ _",
           "answer": "impatient"
         },
         {
           "id": "1.5",
-          "stem": "She always tells the truth, even when it is difficult. She is very h _ n _ _ t.",
-          "hint": "h _ n _ _ t",
+          "stem": "People respect her because she is always _ _ _ _ s _ and tells the truth even when it is difficult.",
+          "hint": "_ _ _ _ s _",
           "answer": "honest"
         },
         {
           "id": "1.6",
-          "stem": "Jake works very hard and wants to become a doctor one day. He is extremely a _ b _ _ _ _ _ s.",
-          "hint": "a _ b _ _ _ _ _ s",
+          "stem": "Jake studies day and night because he is very _ _ _ _ t _ _ _ _ and dreams of becoming a surgeon.",
+          "hint": "_ _ _ _ t _ _ _ _",
           "answer": "ambitious"
         },
         {
           "id": "1.7",
-          "stem": "Anna is so s _ _ s _ _ _ v _. She cries every time she watches a sad film.",
-          "hint": "s _ _ s _ _ _ v _",
+          "stem": "Anna cries every time she watches a sad film because she is extremely _ _ _ _ _ t _ _ _.",
+          "hint": "_ _ _ _ _ t _ _ _",
           "answer": "sensitive"
         },
         {
           "id": "1.8",
-          "stem": "Our new neighbour is very s _ c _ _ _ _ e. He talks to everyone and makes friends easily.",
-          "hint": "s _ c _ _ _ _ e",
+          "stem": "Our new neighbour talks to everyone and makes friends easily because he is very _ _ _ _ _ b _ _.",
+          "hint": "_ _ _ _ _ b _ _",
           "answer": "sociable"
         }
       ]

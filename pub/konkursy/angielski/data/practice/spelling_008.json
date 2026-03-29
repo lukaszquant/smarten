@@ -10,51 +10,51 @@
       "items": [
         {
           "id": "1.1",
-          "stem": "Our school team won the basketball c _ a _ p _ _ n _ _ _ p last year.",
-          "hint": "c _ a _ p _ _ n _ _ _ p",
-          "answer": "championship"
+          "stem": "The _ _ _ _ _ t _ _ _ _ _ took place in a huge stadium that could hold 80,000 spectators.",
+          "hint": "_ _ _ _ _ t _ _ _ _ _",
+          "answer": "competition"
         },
         {
           "id": "1.2",
-          "stem": "The e _ _ _ p _ _ n t you need for rock climbing is quite expensive.",
-          "hint": "e _ _ _ p _ _ n t",
-          "answer": "equipment"
+          "stem": "She has been collecting stamps since childhood and now has an impressive _ _ _ _ _ c _ _ _ _ of over 5,000.",
+          "hint": "_ _ _ _ _ c _ _ _ _",
+          "answer": "collection"
         },
         {
           "id": "1.3",
-          "stem": "She goes to the gym r _ g _ _ _ r _ y, at least three times a week.",
-          "hint": "r _ g _ _ _ r _ y",
-          "answer": "regularly"
+          "stem": "The football player scored a _ _ _ _ _ f _ _ _ _ _ goal in the last minute of the match.",
+          "hint": "_ _ _ _ _ f _ _ _ _ _",
+          "answer": "magnificent"
         },
         {
           "id": "1.4",
-          "stem": "The coach told the players to p _ _ c _ _ s _ their free kicks before the match.",
-          "hint": "p _ _ c _ _ s _",
-          "answer": "practise"
-        },
-        {
-          "id": "1.5",
-          "stem": "Photography is a wonderful hobby that requires patience and c _ e _ t _ _ _ t y.",
-          "hint": "c _ e _ t _ _ _ t y",
-          "answer": "creativity"
-        },
-        {
-          "id": "1.6",
-          "stem": "The a _ h _ _ t e broke the world record in the 100-metre sprint.",
-          "hint": "a _ h _ _ t e",
-          "answer": "athlete"
-        },
-        {
-          "id": "1.7",
-          "stem": "Swimming is an excellent form of e _ _ r _ _ s e that works your whole body.",
-          "hint": "e _ _ r _ _ s e",
+          "stem": "Regular physical _ _ _ _ c _ _ _ is essential for staying fit and maintaining good health.",
+          "hint": "_ _ _ _ c _ _ _",
           "answer": "exercise"
         },
         {
+          "id": "1.5",
+          "stem": "The young _ _ _ _ _ _ _ e _ won three gold medals at the national swimming championship.",
+          "hint": "_ _ _ _ _ _ _ e _",
+          "answer": "volunteer"
+        },
+        {
+          "id": "1.6",
+          "stem": "The team celebrated their _ _ _ _ _ r _ after winning the cup for the third year in a row.",
+          "hint": "_ _ _ _ _ r _",
+          "answer": "victory"
+        },
+        {
+          "id": "1.7",
+          "stem": "The coach decided to _ _ _ _ _ _ t _ _ _ the weakest player with a more experienced one.",
+          "hint": "_ _ _ _ _ _ t _ _ _",
+          "answer": "substitute"
+        },
+        {
           "id": "1.8",
-          "stem": "The c _ m _ _ t _ _ _ _ n was fierce and only the best players reached the final.",
-          "hint": "c _ m _ _ t _ _ _ _ n",
-          "answer": "competition"
+          "stem": "Playing chess requires great _ _ _ _ _ n _ _ _ _ _ _ _ and the ability to think several moves ahead.",
+          "hint": "_ _ _ _ _ n _ _ _ _ _ _ _",
+          "answer": "concentration"
         }
       ]
     }

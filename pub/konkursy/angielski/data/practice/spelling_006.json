@@ -10,51 +10,51 @@
       "items": [
         {
           "id": "1.1",
-          "stem": "We need to buy fresh v _ _ e _ _ b _ _ _ for the soup.",
-          "hint": "v _ _ e _ _ b _ _ _",
-          "answer": "vegetables"
-        },
-        {
-          "id": "1.2",
-          "stem": "The recipe says you should add a t _ _ s _ _ _ n of salt to the mixture.",
-          "hint": "t _ _ s _ _ _ n",
-          "answer": "teaspoon"
-        },
-        {
-          "id": "1.3",
-          "stem": "This dish contains several unusual i _ _ r _ d _ _ _ _ s that are hard to find in shops.",
-          "hint": "i _ _ r _ d _ _ _ _ s",
+          "stem": "The chef added several different _ _ _ r _ _ _ _ _ _ _ to make the soup more flavourful.",
+          "hint": "_ _ _ r _ _ _ _ _ _ _",
           "answer": "ingredients"
         },
         {
-          "id": "1.4",
-          "stem": "My grandmother always makes delicious h _ m _ _ _ d _ cakes for Christmas.",
-          "hint": "h _ m _ _ _ d _",
-          "answer": "homemade"
+          "id": "1.2",
+          "stem": "Could you pass me the salt and _ _ _ p _ _ please? The soup is a bit bland.",
+          "hint": "_ _ _ p _ _",
+          "answer": "pepper"
         },
         {
-          "id": "1.5",
-          "stem": "You should keep milk in the r _ f _ _ g _ _ _ t _ r so it stays fresh.",
-          "hint": "r _ f _ _ g _ _ _ t _ r",
-          "answer": "refrigerator"
-        },
-        {
-          "id": "1.6",
-          "stem": "She is a v _ g _ _ _ r _ _ n, so she never eats meat or fish.",
-          "hint": "v _ g _ _ _ r _ _ n",
+          "id": "1.3",
+          "stem": "The restaurant is famous for its _ _ _ _ _ t _ _ _ _ dishes from all over the world.",
+          "hint": "_ _ _ _ _ t _ _ _ _",
           "answer": "vegetarian"
         },
         {
+          "id": "1.4",
+          "stem": "She followed the _ _ _ _ p _ carefully and the cake turned out perfectly.",
+          "hint": "_ _ _ _ p _",
+          "answer": "recipe"
+        },
+        {
+          "id": "1.5",
+          "stem": "The waiter brought us the _ _ _ _ _ r _ and we spent ten minutes choosing what to eat.",
+          "hint": "_ _ _ _ _ r _",
+          "answer": "dessert"
+        },
+        {
+          "id": "1.6",
+          "stem": "People who eat too much junk food often suffer from _ _ _ _ _ t _ because of all the sugar.",
+          "hint": "_ _ _ _ _ t _",
+          "answer": "obesity"
+        },
+        {
           "id": "1.7",
-          "stem": "Too much sugar is very u _ h _ _ l _ _ y and can cause serious problems.",
-          "hint": "u _ h _ _ l _ _ y",
-          "answer": "unhealthy"
+          "stem": "The bread was baked fresh this morning in the _ _ _ _ r _ on the corner of our street.",
+          "hint": "_ _ _ _ r _",
+          "answer": "bakery"
         },
         {
           "id": "1.8",
-          "stem": "The n _ t _ _ t _ _ n information on the label tells you how many calories are in the product.",
-          "hint": "n _ t _ _ t _ _ n",
-          "answer": "nutrition"
+          "stem": "A healthy _ _ _ _ k _ _ _ _ is the most important meal of the day according to many doctors.",
+          "hint": "_ _ _ _ k _ _ _ _",
+          "answer": "breakfast"
         }
       ]
     }
