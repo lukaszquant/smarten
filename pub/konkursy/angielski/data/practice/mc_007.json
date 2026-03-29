@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Word Patterns",
   "type": "practice",
-  "title": "Word Patterns",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "She refused _______ the invitation.", "options": ["accepting", "accept", "to accept"], "answer": "C" },
-        { "id": "1.2", "stem": "I don't mind _______ up early on weekdays.", "options": ["to get", "getting", "get"], "answer": "B" },
-        { "id": "1.3", "stem": "He suggested _______ to a different restaurant.", "options": ["going", "to go", "go"], "answer": "A" },
-        { "id": "1.4", "stem": "They managed _______ the project on time.", "options": ["finishing", "finish", "to finish"], "answer": "C" },
-        { "id": "1.5", "stem": "I'm used _______ in a big city.", "options": ["to live", "to living", "living"], "answer": "B" },
-        { "id": "1.6", "stem": "She avoided _______ about the accident.", "options": ["to talk", "talking", "talk"], "answer": "B" },
-        { "id": "1.7", "stem": "He promised _______ me with the project.", "options": ["helping", "help", "to help"], "answer": "C" },
-        { "id": "1.8", "stem": "I can't imagine _______ without my phone.", "options": ["to live", "living", "live"], "answer": "B" },
-        { "id": "1.9", "stem": "She let her children _______ up late on Saturdays.", "options": ["to stay", "staying", "stay"], "answer": "C" },
-        { "id": "1.10", "stem": "We're looking forward _______ you at the party.", "options": ["to see", "seeing", "to seeing"], "answer": "C" }
+        {
+          "id": "1.1",
+          "stem": "The new regulations resulted _________ a significant drop in pollution levels across the region.",
+          "options": ["A) with", "B) in", "C) to"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "\"Why did you leave the party so early?\" -- \"I wasn't keen _________ staying any longer -- the music was far too loud.\"",
+          "options": ["A) on", "B) for", "C) about"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "The researchers have been accused _________ manipulating the data to support their hypothesis.",
+          "options": ["A) for", "B) with", "C) of"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "She takes great pride _________ her ability to resolve conflicts between team members.",
+          "options": ["A) of", "B) in", "C) about"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "\"Have you heard from the landlord yet?\" -- \"Yes, he finally agreed _________ reducing the rent by ten per cent.\"",
+          "options": ["A) on", "B) with", "C) to"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "The witness's account was not consistent _________ the evidence found at the scene.",
+          "options": ["A) to", "B) with", "C) for"],
+          "answer": "B"
+        }
       ]
     }
   ]

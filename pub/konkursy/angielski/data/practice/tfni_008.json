@@ -5,19 +5,27 @@
     {
       "id": "1",
       "type": "true_false_ni",
-      "points": 8,
-      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
-      "text": "WILLIAM SHAKESPEARE\n\nWilliam Shakespeare is widely regarded as the greatest writer in the English language. He was born in 1564 in Stratford-upon-Avon, a small town in central England. His father, John Shakespeare, was a successful glove maker and local politician. William attended the local grammar school, where he studied Latin and classical literature, but he never went to university.\n\nAt the age of 18, Shakespeare married Anne Hathaway, who was eight years older than him. Together they had three children: Susanna, and twins named Hamnet and Judith. Sometime in the late 1580s, Shakespeare left Stratford and moved to London, where he began his career in the theatre as both an actor and a playwright.\n\nIn London, Shakespeare joined a theatre company called the Lord Chamberlain's Men, which later became known as the King's Men. The company performed at the famous Globe Theatre, a round, open-air theatre on the south bank of the River Thames. The Globe could hold up to 3,000 spectators. The cheapest tickets cost just one penny, and those audience members had to stand in front of the stage. They were called \"groundlings.\"\n\nDuring his career, Shakespeare wrote approximately 37 plays and 154 sonnets. His plays are usually divided into three categories: comedies, tragedies, and histories. Some of his most famous tragedies include Hamlet, Macbeth, Othello, and Romeo and Juliet. His comedies, such as A Midsummer Night's Dream and Much Ado About Nothing, are still performed regularly around the world today.\n\nShakespeare retired to Stratford-upon-Avon around 1613 and died there on 23 April 1616, at the age of 52. His works have been translated into every major language and continue to be studied and performed more than 400 years after his death. Many common English phrases, such as \"break the ice\" and \"heart of gold,\" were first used by Shakespeare.",
+      "points": 3,
+      "instruction": "Przeczytaj ponizszy tekst. Zaznacz, ktore zdania (1.1-1.4) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie odpowiedz pelnym zdaniem na pytanie 1.5.",
+      "text": "WILLIAM SHAKESPEARE\n\nWilliam Shakespeare is widely regarded as the greatest writer in the English language. He was born in Stratford-upon-Avon in 1564, and although details of his early life are scarce, records show that he attended the local grammar school, where he would have studied Latin, rhetoric, and classical literature.\n\nBy the early 1590s, Shakespeare had moved to London and established himself as both an actor and a playwright. He joined a theatre company called the Lord Chamberlain's Men, which later became the King's Men under the patronage of King James I. The company performed at several theatres, most famously at the Globe Theatre, which was built in 1599 on the south bank of the River Thames. The Globe was an open-air theatre that could hold up to 3,000 spectators. Wealthier audience members sat in covered galleries, while ordinary people, known as 'groundlings', stood in the yard in front of the stage and paid just one penny for admission.\n\nShakespeare wrote approximately 37 plays, which are commonly divided into three categories: comedies, tragedies, and histories. His tragedies, including Hamlet, Macbeth, Othello, and King Lear, are considered masterpieces of world literature. He also composed 154 sonnets, many of which explore themes of love, beauty, and the passage of time.\n\nOne of Shakespeare's most lasting contributions is the enormous number of words and phrases he introduced to the English language. Scholars estimate that he invented over 1,700 words, including 'lonely', 'generous', 'eyeball', and 'bedroom'. Everyday expressions such as 'break the ice', 'heart of gold', and 'wild goose chase' all originated in his works.\n\nShakespeare retired to Stratford-upon-Avon around 1613 and died on 23 April 1616, at the age of 52. His plays continue to be performed more often than those of any other playwright in history.",
       "items": [
-        { "id": "1.1", "statement": "Shakespeare was born in London.", "answer": "F" },
-        { "id": "1.2", "statement": "Shakespeare's father worked as a glove maker.", "answer": "T" },
-        { "id": "1.3", "statement": "Shakespeare studied at Oxford University before becoming a writer.", "answer": "F" },
-        { "id": "1.4", "statement": "Shakespeare and his wife had three children.", "answer": "T" },
-        { "id": "1.5", "statement": "The Globe Theatre could hold up to 5,000 people.", "answer": "F" },
-        { "id": "1.6", "statement": "Shakespeare earned more money from his sonnets than from his plays.", "answer": "NI" },
-        { "id": "1.7", "statement": "Romeo and Juliet is classified as one of Shakespeare's tragedies.", "answer": "T" },
-        { "id": "1.8", "statement": "Shakespeare's plays were first published as a complete collection during his lifetime.", "answer": "NI" }
-      ]
+        { "id": "1.1", "statement": "Shakespeare's education at grammar school focused exclusively on English literature and writing.", "answer": "F" },
+        { "id": "1.2", "statement": "The Globe Theatre offered different experiences depending on how much the audience was willing to pay.", "answer": "T" },
+        { "id": "1.3", "statement": "Shakespeare considered his tragedies to be his finest work.", "answer": "NI" },
+        { "id": "1.4", "statement": "Many common English expressions that people use today were originally created by Shakespeare.", "answer": "T" }
+      ],
+      "scoringScheme": {
+        "4": 2,
+        "3": 1,
+        "0-2": 0
+      },
+      "openQuestion": {
+        "id": "1.5",
+        "question": "In what way did Shakespeare contribute to the development of the English language beyond writing plays and poems?",
+        "modelAnswer": "Shakespeare invented over 1,700 new words (such as 'lonely', 'generous', 'eyeball') and created many everyday expressions (such as 'break the ice', 'heart of gold') that are still used in English today.",
+        "points": 1,
+        "skipped": true
+      }
     }
   ]
 }

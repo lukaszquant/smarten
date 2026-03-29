@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Linking Words & Conjunctions",
   "type": "practice",
-  "title": "Linking Words & Conjunctions",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "_______ the rain, they decided to go for a walk.", "options": ["Although", "Despite", "However"], "answer": "B" },
-        { "id": "1.2", "stem": "She studied hard. _______, she failed the test.", "options": ["Moreover", "Therefore", "However"], "answer": "C" },
-        { "id": "1.3", "stem": "He went to bed early _______ he was very tired.", "options": ["so that", "because", "in order to"], "answer": "B" },
-        { "id": "1.4", "stem": "_______ being ill, she went to school.", "options": ["Although", "In spite of", "Even"], "answer": "B" },
-        { "id": "1.5", "stem": "I'll lend you the book _______ you promise to return it.", "options": ["unless", "as long as", "until"], "answer": "B" },
-        { "id": "1.6", "stem": "She speaks not only English _______ also French and German.", "options": ["and", "but", "or"], "answer": "B" },
-        { "id": "1.7", "stem": "He took an umbrella _______ it rained later.", "options": ["so that", "in case", "unless"], "answer": "B" },
-        { "id": "1.8", "stem": "The hotel was expensive. _______, the service was excellent.", "options": ["On the other hand", "In addition", "As a result"], "answer": "A" },
-        { "id": "1.9", "stem": "We hurried _______ we wouldn't be late for the concert.", "options": ["in order", "so that", "for"], "answer": "B" },
-        { "id": "1.10", "stem": "_______ I agree with you, I think we should consider other options.", "options": ["While", "Despite", "Because"], "answer": "A" }
+        {
+          "id": "1.1",
+          "stem": "_________ having received several warnings, the factory continued to dump waste into the river.",
+          "options": ["A) Although", "B) Despite", "C) Whereas"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "\"Can I borrow the car tonight?\" -- \"Yes, _________ you fill up the tank before you bring it back.\"",
+          "options": ["A) as long as", "B) even though", "C) in spite of"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "The northern region relies heavily on tourism, _________ the south depends almost entirely on agriculture.",
+          "options": ["A) however", "B) although", "C) whereas"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "We will proceed with the outdoor ceremony _________ it starts raining, in which case we will move indoors.",
+          "options": ["A) provided that", "B) unless", "C) even if"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "\"Why are you taking a first-aid kit on the hike?\" -- \"Just _________ someone gets injured along the way.\"",
+          "options": ["A) so that", "B) in case", "C) provided that"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "_________ the fact that the evidence was overwhelming, the jury took three days to reach a verdict.",
+          "options": ["A) Although", "B) Notwithstanding", "C) Whereas"],
+          "answer": "B"
+        }
       ]
     }
   ]

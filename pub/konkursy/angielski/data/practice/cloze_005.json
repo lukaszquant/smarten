@@ -5,22 +5,29 @@
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "THE OLYMPIC GAMES",
-      "text": "The Olympic Games are the most important international sports competition, 1.1. _________ they have a very long history. The first Olympics were held in ancient Greece more 1.2. _________ 2,700 years ago. At that time, only men were allowed 1.3. _________ compete, and the games lasted just one day. The modern Olympic Games were started 1.4. _________ a French man called Pierre de Coubertin in 1896. Since then, the Games 1.5. _________ been held every four years, except during the two World Wars. Today, thousands of athletes from 1.6. _________ over the world take part in the Olympics. 1.7. _________ are two types of Olympic Games: the Summer Olympics and the Winter Olympics. 1.8. _________ of them takes place every four years, but they are held two years apart from 1.9. _________ other. Winning a gold medal at the Olympics is considered 1.10. _________ be the greatest achievement for any athlete.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "The Olympic Games, _________ (1.1) origins date back nearly three thousand years, remain the most prestigious sporting event in the world. In ancient Greece, the Games were held every four years at Olympia in _________ (1.2) of the god Zeus. Only free Greek men were permitted to take _________ (1.3), and the competitions were limited to a handful of events such as running, wrestling and chariot racing. The modern Olympics owe their _________ (1.4) to Pierre de Coubertin, a French educator who believed that international sport could promote peace among nations. The first modern Games took _________ (1.5) in Athens in 1896, featuring just 241 athletes from fourteen countries. Since _________ (1.6), the Olympics have grown into a massive global spectacle, with thousands of competitors representing over two hundred nations. A major turning _________ (1.7) came in 1924, when the Winter Olympics were introduced to _________ (1.8) for sports that could not be held in summer. Today, host cities invest billions of dollars in _________ (1.9) for the Games, though there is growing debate about whether the long-term costs _________ (1.10) the benefits.",
       "items": [
-        { "id": "1.1", "answer": "and" },
-        { "id": "1.2", "answer": "than" },
-        { "id": "1.3", "answer": "to" },
-        { "id": "1.4", "answer": "by" },
-        { "id": "1.5", "answer": "have" },
-        { "id": "1.6", "answer": "all" },
-        { "id": "1.7", "answer": "There" },
-        { "id": "1.8", "answer": "Each" },
-        { "id": "1.9", "answer": "each" },
-        { "id": "1.10", "answer": "to" }
-      ]
+        { "id": "1.1", "answer": "whose" },
+        { "id": "1.2", "answer": "honour" },
+        { "id": "1.3", "answer": "part" },
+        { "id": "1.4", "answer": ["revival", "existence"] },
+        { "id": "1.5", "answer": "place" },
+        { "id": "1.6", "answer": "then" },
+        { "id": "1.7", "answer": "point" },
+        { "id": "1.8", "answer": ["cater", "account", "allow"] },
+        { "id": "1.9", "answer": ["preparation", "preparations"] },
+        { "id": "1.10", "answer": "outweigh" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

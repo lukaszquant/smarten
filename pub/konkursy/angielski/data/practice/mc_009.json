@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Articles & Determiners",
   "type": "practice",
-  "title": "Articles & Determiners",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "_______ Sahara is the largest hot desert in the world.", "options": ["A", "The", "—"], "answer": "B" },
-        { "id": "1.2", "stem": "Could I have _______ water, please?", "options": ["a", "any", "some"], "answer": "C" },
-        { "id": "1.3", "stem": "She plays _______ violin in the school orchestra.", "options": ["a", "the", "—"], "answer": "B" },
-        { "id": "1.4", "stem": "There are _______ apples left. We need to buy more.", "options": ["few", "a few", "little"], "answer": "A" },
-        { "id": "1.5", "stem": "_______ of the students passed the exam. The teacher was delighted.", "options": ["Every", "All", "Each"], "answer": "B" },
-        { "id": "1.6", "stem": "He is _______ honest person and always tells the truth.", "options": ["a", "an", "the"], "answer": "B" },
-        { "id": "1.7", "stem": "I have _______ idea what you're talking about.", "options": ["any", "no", "none"], "answer": "B" },
-        { "id": "1.8", "stem": "We go to _______ church every Sunday.", "options": ["a", "the", "—"], "answer": "C" },
-        { "id": "1.9", "stem": "_______ student must bring their own textbook.", "options": ["All", "Every", "Each"], "answer": "C" },
-        { "id": "1.10", "stem": "She earns _______ money than her brother.", "options": ["fewer", "less", "little"], "answer": "B" }
+        {
+          "id": "1.1",
+          "stem": "_________ information we received turned out to be completely inaccurate.",
+          "options": ["A) An", "B) The", "C) ---"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "\"How was the conference?\" -- \"Disappointing, actually. _________ of the speakers said anything I hadn't heard before.\"",
+          "options": ["A) Neither", "B) None", "C) Every"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "_________ child develops at their own pace, so parents should avoid making comparisons.",
+          "options": ["A) All", "B) Every", "C) The"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "Life on _________ Mars has fascinated scientists for over a century.",
+          "options": ["A) a", "B) the", "C) ---"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "\"Is there any milk left?\" -- \"Only _________. We should get some more.\"",
+          "options": ["A) a little", "B) a few", "C) little"],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "_________ the students in this class are expected to submit their essays by Friday without exception.",
+          "options": ["A) Each", "B) Every", "C) All"],
+          "answer": "C"
+        }
       ]
     }
   ]

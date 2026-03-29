@@ -1,24 +1,23 @@
 {
-  "title": "Word Formation: Inventions and Technology",
+  "title": "Word Formation: Great Inventions",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["INVENT", "USE", "DEVELOP", "ELECTRIC", "REVOLUTION", "BELIEVE", "IMPROVE", "SCIENCE", "REPLACE", "WIDE"],
-      "title": "GREAT INVENTIONS THAT CHANGED THE WORLD",
-      "text": "Throughout history, brilliant 1.1. ________ have changed the way we live. The 1.2. ________ of the light bulb was truly 1.3. ________ because it allowed people to work and read after dark. Today, 1.4. ________ cars are becoming more popular as people look for cleaner ways to travel. The 1.5. ________ of smartphones has been 1.6. ________ fast in recent years. Modern technology brings constant 1.7. ________ to our daily lives, from better medicine to faster transport. Some people worry that robots will be 1.8. ________ for human workers, but most experts say technology will create new types of jobs instead. The future looks exciting for everyone.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["INNOVATE", "MINIATURE", "DISPENSE", "QUESTION", "FORESEE", "REVOLVE", "ACCESS", "AUTOMATE", "CONCEIVE", "PERSEVERE"],
+      "text": "The history of technology is defined by groundbreaking 1.1. _________ (1.1) that have reshaped human civilisation. The 1.2. _________ (1.2) of electronic components made it possible to fit powerful computers into our pockets. Many experts believe that skilled technicians will become 1.3. _________ (1.3) as factories rely more heavily on complex machinery. The 1.4. _________ (1.4) of manufacturing processes has increased efficiency beyond anything previously 1.5. _________ (1.5). Some inventions were initially met with 1.6. _________ (1.6) scepticism, yet their creators showed remarkable 1.7. _________ (1.7) in proving the critics wrong. These 1.8. _________ (1.8) changes have made technology products available to people of all backgrounds worldwide.",
       "items": [
-        { "id": "1.1", "answer": "inventions" },
-        { "id": "1.2", "answer": "development" },
-        { "id": "1.3", "answer": "revolutionary" },
-        { "id": "1.4", "answer": "electric" },
-        { "id": "1.5", "answer": "usefulness" },
-        { "id": "1.6", "answer": "unbelievably" },
-        { "id": "1.7", "answer": "improvements" },
-        { "id": "1.8", "answer": "replacements" }
+        { "id": "1.1", "baseWord": "INNOVATE", "answer": "innovations" },
+        { "id": "1.2", "baseWord": "MINIATURE", "answer": "miniaturisation" },
+        { "id": "1.3", "baseWord": "DISPENSE", "answer": "indispensable" },
+        { "id": "1.4", "baseWord": "AUTOMATE", "answer": "automation" },
+        { "id": "1.5", "baseWord": "CONCEIVE", "answer": "conceivable" },
+        { "id": "1.6", "baseWord": "QUESTION", "answer": "unquestionable" },
+        { "id": "1.7", "baseWord": "PERSEVERE", "answer": "perseverance" },
+        { "id": "1.8", "baseWord": "REVOLVE", "answer": "revolutionary" }
       ]
     }
   ]

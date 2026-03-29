@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Conditionals & Modals",
   "type": "practice",
-  "title": "Conditionals & Modals",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "If it _______ tomorrow, we'll cancel the picnic.", "options": ["will rain", "rains", "rained"], "answer": "B" },
-        { "id": "1.2", "stem": "You _______ have told me earlier — now it's too late.", "options": ["could", "should", "would"], "answer": "B" },
-        { "id": "1.3", "stem": "If I had studied harder, I _______ the exam.", "options": ["would pass", "would have passed", "will pass"], "answer": "B" },
-        { "id": "1.4", "stem": "She _______ be at home — her car is in the driveway.", "options": ["can", "must", "shall"], "answer": "B" },
-        { "id": "1.5", "stem": "You _______ touch that wire. It's very dangerous.", "options": ["mustn't", "don't have to", "needn't"], "answer": "A" },
-        { "id": "1.6", "stem": "If only I _______ more free time to travel.", "options": ["have", "had", "would have"], "answer": "B" },
-        { "id": "1.7", "stem": "He _______ swim when he was just four years old.", "options": ["could", "might", "should"], "answer": "A" },
-        { "id": "1.8", "stem": "Unless you _______ now, you'll miss the train.", "options": ["don't leave", "leave", "won't leave"], "answer": "B" },
-        { "id": "1.9", "stem": "You _______ wear a suit. It's a casual event.", "options": ["mustn't", "don't have to", "can't"], "answer": "B" },
-        { "id": "1.10", "stem": "If she _______ the truth, she wouldn't have been so upset.", "options": ["knew", "knows", "had known"], "answer": "C" }
+        {
+          "id": "1.1",
+          "stem": "If she _________ the manager before the deadline, the contract would never have been signed.",
+          "options": ["A) didn't contact", "B) hadn't contacted", "C) wouldn't contact"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "\"Why is Tom so upset?\" -- \"He _________ have overheard what we said about his presentation.\"",
+          "options": ["A) might", "B) should", "C) would"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "I wish the council _________ the old library last year. It was a beautiful building.",
+          "options": ["A) didn't demolish", "B) wouldn't demolish", "C) hadn't demolished"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "If it _________ for the paramedics' quick response, the climber might not have survived.",
+          "options": ["A) weren't", "B) hadn't been", "C) wouldn't be"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "\"Do you think Sarah passed the driving test?\" -- \"She _________ have done -- she looked really cheerful afterwards.\"",
+          "options": ["A) can't", "B) needn't", "C) must"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "If only the government _________ more in renewable energy, we wouldn't be facing such severe pollution now.",
+          "options": ["A) invested", "B) had invested", "C) would invest"],
+          "answer": "B"
+        }
       ]
     }
   ]

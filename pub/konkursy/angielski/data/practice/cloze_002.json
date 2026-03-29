@@ -1,26 +1,33 @@
 {
-  "title": "Open Cloze: Penguins",
+  "title": "Open Cloze: The World of Penguins",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "PENGUINS",
-      "text": "Penguins are fascinating birds 1.1. _________ cannot fly, but they are excellent swimmers. There are about eighteen different species of penguins, and most of 1.2. _________ live in the Southern Hemisphere. The Emperor Penguin is the largest species, 1.3. _________ can grow up to 120 centimetres tall. These amazing birds spend much of their time 1.4. _________ the freezing waters of Antarctica, where they hunt 1.5. _________ fish and squid. Emperor Penguins are well known for the way they take care of 1.6. _________ eggs. It is the male 1.7. _________ keeps the egg warm on his feet for about two months, while the female goes to the sea to find food. Penguins live in large groups 1.8. _________ are called colonies. 1.9. _________ they cannot fly, penguins can swim at speeds of up to 36 kilometres 1.10. _________ hour, which makes them very effective hunters underwater.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Penguins are remarkable creatures that have adapted to some of the harshest environments on Earth. _________ (1.1) there are eighteen recognised species, they vary enormously in size, from the tiny Little Blue Penguin, which stands just 30 centimetres tall, to the Emperor Penguin, _________ (1.2) can reach well over a metre in height. What sets penguins _________ (1.3) from other birds is their complete inability to fly. Instead, their wings have evolved into powerful flippers _________ (1.4) allow them to dive to impressive depths in search of food. Emperor Penguins, in _________ (1.5), are capable of holding their _________ (1.6) for up to twenty minutes while hunting beneath the Antarctic ice. The breeding habits of penguins are equally fascinating. Males often play a key _________ (1.7) in incubating eggs, balancing them on their feet to keep them off the frozen ground. Penguin colonies can number in the hundreds of thousands, and the noise they _________ (1.8) is truly deafening. Sadly, _________ (1.9) to climate change and overfishing, several penguin species now face serious threats to their survival. Conservation efforts are under _________ (1.10) in many parts of the Southern Hemisphere, but scientists warn that much more needs to be done.",
       "items": [
-        { "id": "1.1", "answer": ["that", "which"] },
-        { "id": "1.2", "answer": "them" },
-        { "id": "1.3", "answer": ["which", "and"] },
-        { "id": "1.4", "answer": "in" },
-        { "id": "1.5", "answer": "for" },
-        { "id": "1.6", "answer": "their" },
-        { "id": "1.7", "answer": ["who", "that"] },
-        { "id": "1.8", "answer": ["that", "which"] },
-        { "id": "1.9", "answer": "Although" },
-        { "id": "1.10", "answer": ["per", "an"] }
-      ]
+        { "id": "1.1", "answer": ["Although", "While", "Though"] },
+        { "id": "1.2", "answer": "which" },
+        { "id": "1.3", "answer": "apart" },
+        { "id": "1.4", "answer": ["that", "which"] },
+        { "id": "1.5", "answer": "particular" },
+        { "id": "1.6", "answer": "breath" },
+        { "id": "1.7", "answer": ["role", "part"] },
+        { "id": "1.8", "answer": ["make", "produce"] },
+        { "id": "1.9", "answer": ["due", "owing"] },
+        { "id": "1.10", "answer": "way" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

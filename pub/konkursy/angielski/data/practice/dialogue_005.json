@@ -1,47 +1,47 @@
 {
+  "title": "Dialogue: Apologising & Complaining",
   "type": "practice",
-  "title": "Situational Responses",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "A: I'm so sorry I spilled coffee on your book! B: _______. It was old anyway.",
-          "options": ["Never mind", "No way", "Not at all"],
+          "stem": "X: I'm really sorry about breaking your vase.\nY: _________",
+          "options": ["A) Don't worry about it. These things happen.", "B) Don't worry about it. These things are happening.", "C) Don't worry about it. These things have happened."],
           "answer": "A"
         },
         {
           "id": "1.2",
-          "prompt": "A: Would you mind passing the salt? B: _______.",
-          "options": ["Yes, I would", "Not at all", "I don't mind"],
+          "stem": "X: The food we were served was absolutely disgusting.\nY: _________",
+          "options": ["A) I apologise for inconvenience.", "B) I do apologise for any inconvenience.", "C) I apologise you for the inconvenience."],
           "answer": "B"
         },
         {
           "id": "1.3",
-          "prompt": "A: Could you give me a _______ with these heavy bags? B: Of course, let me help you.",
-          "options": ["lift", "hand", "push"],
+          "stem": "X: I'm afraid I've lost the book you lent me.\nY: _________",
+          "options": ["A) Oh no! I wish you would have been more careful.", "B) Oh no! I wish you had been more careful.", "C) Oh no! I wish you were more careful."],
           "answer": "B"
         },
         {
           "id": "1.4",
-          "prompt": "A: I haven't seen you in ages! How have you _______? B: Really well, thanks! And you?",
-          "options": ["been", "done", "gone"],
+          "stem": "X: I'd like to make a complaint about the noise from room 214.\nY: _________",
+          "options": ["A) I'll look into it straight away.", "B) I'll look it into straight away.", "C) I'll look after it straight away."],
           "answer": "A"
         },
         {
           "id": "1.5",
-          "prompt": "A: I'm going to fail the test tomorrow! B: Take it _______. You've studied hard. You'll be fine.",
-          "options": ["easy", "lightly", "simply"],
+          "stem": "X: You promised you'd pick me up at eight, and I waited for over an hour!\nY: _________",
+          "options": ["A) I know, and I can't apologise enough. I should have called.", "B) I know, and I can't apologise enough. I should call.", "C) I know, and I can't apologise enough. I must have called."],
           "answer": "A"
         },
         {
           "id": "1.6",
-          "prompt": "A: Do you fancy going to the cinema tonight? B: I'd love to, but I'm _______ broke until payday.",
-          "options": ["totally", "flat", "fully"],
+          "stem": "X: The product I ordered arrived damaged. I'd like a full refund.\nY: _________",
+          "options": ["A) I'm sorry to hear that. Let me to sort this out for you.", "B) I'm sorry to hear that. Let me sort this out for you.", "C) I'm sorry hearing that. Let me sort this out for you."],
           "answer": "B"
         }
       ]

@@ -1,47 +1,47 @@
 {
+  "title": "Dialogue: Everyday Conversations",
   "type": "practice",
-  "title": "Idioms with Animals",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "Stop beating around the bush and just tell me what happened. Don't be such a _______.",
-          "options": ["chicken", "tiger", "wolf"],
+          "stem": "X: Are you enjoying your new job?\nY: _________",
+          "options": ["A) I'm getting used to it.", "B) I used to enjoy it.", "C) I'm used to enjoy it."],
           "answer": "A"
         },
         {
           "id": "1.2",
-          "prompt": "I've been working like a _______ all week and I still haven't finished the project.",
-          "options": ["cat", "dog", "bird"],
-          "answer": "B"
+          "stem": "X: I haven't seen Tom for ages. Do you know what he's up to?\nY: _________",
+          "options": ["A) He's been travelling since last month.", "B) He travelled since last month.", "C) He was travelling since last month."],
+          "answer": "A"
         },
         {
           "id": "1.3",
-          "prompt": "She let the _______ out of the bag and told everyone about the surprise party.",
-          "options": ["rabbit", "mouse", "cat"],
-          "answer": "C"
+          "stem": "X: Could you give me a hand with these boxes?\nY: _________",
+          "options": ["A) Sure, I'll carry them for you.", "B) Sure, I carry them for you.", "C) Sure, I'm carrying them for you."],
+          "answer": "A"
         },
         {
           "id": "1.4",
-          "prompt": "That new student is a real dark _______. Nobody expected him to win the competition.",
-          "options": ["horse", "sheep", "crow"],
+          "stem": "X: Do you fancy going to the cinema tonight?\nY: _________",
+          "options": ["A) I'd love to, but I have to work late.", "B) I'd love, but I have to work late.", "C) I love to, but I have to work late."],
           "answer": "A"
         },
         {
           "id": "1.5",
-          "prompt": "He's always borrowing money and never paying it back. He's a real _______.",
-          "options": ["parrot", "leech", "fox"],
+          "stem": "X: I've just passed my driving test!\nY: _________",
+          "options": ["A) Well done! You should be proud of you.", "B) Well done! You must be so pleased.", "C) Well done! You must be so pleasing."],
           "answer": "B"
         },
         {
           "id": "1.6",
-          "prompt": "When the teacher walked in, the noisy class went quiet — you could have heard a _______ drop.",
-          "options": ["feather", "pin", "leaf"],
+          "stem": "X: Sorry, but I don't think I can make it to your party.\nY: _________",
+          "options": ["A) That's a pity. Maybe the next time.", "B) That's a pity. Maybe next time.", "C) That's pity. Maybe next time."],
           "answer": "B"
         }
       ]

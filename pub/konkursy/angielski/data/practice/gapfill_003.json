@@ -1,30 +1,30 @@
 {
+  "title": "Gap Fill: How Bees Make Honey",
   "type": "practice",
-  "title": "The Discovery of Penicillin",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "THE DISCOVERY OF PENICILLIN\n\nOne of the most important medical discoveries in history came about almost entirely by accident. In September 1928, Scottish bacteriologist Alexander Fleming returned to his laboratory in London after a summer holiday and noticed something unusual about one of his petri dishes. 1. _________ What he observed would eventually save hundreds of millions of lives.\n\nFleming was studying staphylococcus bacteria, which cause serious infections in humans. The contaminated dish showed a clear zone around the mould where all the bacteria had been destroyed. 2. _________ He named the substance it produced penicillin, after the Penicillium mould that had invaded his dish.\n\nDespite this remarkable observation, Fleming struggled to develop penicillin into a practical medicine. The mould was difficult to grow in large quantities, and the antibiotic substance it produced was unstable and hard to purify. 3. _________ His findings sat largely forgotten in scientific journals for over a decade.\n\nThe real breakthrough came in the late 1930s, when a team of scientists at Oxford University led by Howard Florey and Ernst Chain read Fleming's original paper. 4. _________ By 1941, they had produced enough penicillin to treat a patient for the first time, with dramatic results.\n\nThe timing could not have been more critical. World War Two was creating thousands of battlefield casualties, and bacterial infections were killing as many soldiers as enemy fire. 5. _________ Mass production began in the United States, and by 1944 there was enough penicillin to treat all Allied wounded.\n\nFleming, Florey, and Chain were jointly awarded the Nobel Prize in Physiology or Medicine in 1945. 6. _________ Today, antibiotics remain one of the cornerstones of modern medicine, though the growing problem of antibiotic resistance is a serious concern for scientists worldwide.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "HOW BEES MAKE HONEY\n\nHoney is one of nature's most extraordinary products, yet few people understand the remarkable process behind its creation. A single jar of honey represents the combined effort of thousands of bees, each performing a highly specialised task within a colony that operates with astonishing efficiency. _________ (1.1) Without this division of labour, the complex chain of events that turns watery nectar into a substance that can last for millennia would be impossible.\n\nThe process begins when forager bees leave the hive in search of nectar-producing flowers. They can travel up to five kilometres from the hive and visit hundreds of blooms on a single trip. _________ (1.2) This organ is separate from the bee's digestive stomach, which means the nectar is stored without being digested.\n\nUpon returning to the hive, the forager transfers her cargo to a younger house bee through a mouth-to-mouth exchange called trophallaxis. _________ (1.3) By the time the nectar has been passed between several bees, its chemical composition has already begun to change significantly.\n\nThe partially processed nectar is then deposited into hexagonal wax cells in the honeycomb. At this stage, it still contains roughly eighty percent water, far too much for long-term storage. _________ (1.4) This collective effort generates enough warmth and airflow to reduce the water content to approximately seventeen percent within a few days.\n\nOnce the honey has reached the right consistency, the bees seal each cell with a thin cap of fresh beeswax. _________ (1.5) Its naturally low moisture, high acidity, and the presence of hydrogen peroxide produced by bee enzymes create conditions in which virtually no microorganism can survive.\n\nHumans have been harvesting honey for at least eight thousand years, as evidenced by prehistoric cave paintings in Spain. _________ (1.6) Today, honeybees pollinate roughly a third of the food crops humans consume, making their importance to agriculture arguably even greater than their role as honey producers.",
       "options": [
-        { "letter": "A", "text": "A mould had contaminated one of the dishes and was growing alongside the bacteria." },
-        { "letter": "B", "text": "Fleming realised that the mould was producing a chemical that killed the bacteria around it." },
-        { "letter": "C", "text": "The American government funded a massive programme to manufacture the drug on an industrial scale." },
-        { "letter": "D", "text": "Their recognition brought worldwide attention to a discovery that had waited years to fulfil its potential." },
-        { "letter": "E", "text": "Fleming published his results but was unable to interest the medical community in further research." },
-        { "letter": "F", "text": "They set about solving the technical problems of producing and purifying the antibiotic in larger amounts." },
-        { "letter": "G", "text": "Many other scientists at the time were also searching for substances that could fight bacterial infections." },
-        { "letter": "H", "text": "Hospitals in the nineteenth century had extremely high rates of infection due to poor hygiene practices." }
+        { "letter": "A", "text": "Using a specially adapted tongue, the bee sucks up nectar and stores it in a pouch called the honey stomach." },
+        { "letter": "B", "text": "During each transfer, the receiving bee adds digestive enzymes that break down complex sugars into simpler ones." },
+        { "letter": "C", "text": "To evaporate the excess moisture, thousands of worker bees position themselves around the open cells and fan their wings in unison." },
+        { "letter": "D", "text": "This airtight seal is what allows honey to remain edible almost indefinitely, even for thousands of years." },
+        { "letter": "E", "text": "The ancient Egyptians were among the first to keep bees domestically, using honey as a sweetener, a medicine, and an embalming agent." },
+        { "letter": "F", "text": "Every member of the colony, from the queen who lays the eggs to the drones whose sole purpose is reproduction, has a clearly defined role." },
+        { "letter": "G", "text": "Bees communicate the location of rich nectar sources to their hive-mates through a series of movements known as the waggle dance." },
+        { "letter": "H", "text": "The hexagonal shape of honeycomb cells is the most efficient geometric form for storing the maximum amount of honey using the least wax." }
       ],
       "items": [
-        { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "B" },
-        { "id": "1.3", "answer": "E" },
-        { "id": "1.4", "answer": "F" },
-        { "id": "1.5", "answer": "C" },
-        { "id": "1.6", "answer": "D" }
+        { "id": "1.1", "answer": "F" },
+        { "id": "1.2", "answer": "A" },
+        { "id": "1.3", "answer": "B" },
+        { "id": "1.4", "answer": "C" },
+        { "id": "1.5", "answer": "D" },
+        { "id": "1.6", "answer": "E" }
       ]
     }
   ]

@@ -1,30 +1,30 @@
 {
+  "title": "Gap Fill: The Mystery of Stonehenge",
   "type": "practice",
-  "title": "How Bees Make Honey",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "HOW BEES MAKE HONEY\n\nHoney is one of the most remarkable foods produced in the natural world. It is made by honeybees from the nectar of flowering plants, and the process by which they transform a thin, sugary liquid into thick, golden honey is both complex and fascinating. 1. _________ A single hive may contain up to 60,000 bees, all working together with extraordinary efficiency.\n\nThe process begins when forager bees fly out from the hive in search of flowers. Using a combination of eyesight and their sensitivity to ultraviolet light, they locate blooms that are rich in nectar. 2. _________ The nectar mixes with enzymes in the bee's body, beginning the chemical transformation into honey even before the bee returns to the hive.\n\nBack at the hive, the forager passes the nectar to younger worker bees through a process called trophallaxis, where the liquid is passed from mouth to mouth. 3. _________ Eventually, the processed nectar is deposited into a wax cell in the honeycomb.\n\nAt this stage, the nectar still contains too much water to be stored safely as honey. 4. _________ This creates a warm airflow through the hive that rapidly evaporates the excess moisture. When the water content drops to around 17 percent, the honey is ready.\n\nThe bees then seal each cell with a thin layer of beeswax to preserve the honey. 5. _________ Its low water content, high sugar concentration, and natural acidity all combine to prevent the growth of bacteria and mould.\n\nHumans have been harvesting honey for thousands of years. Cave paintings in Spain dating back 8,000 years show figures climbing to reach wild beehives. 6. _________ Today, honey is still valued not only as a food but also for its medicinal properties, which include helping to soothe sore throats and heal minor wounds.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "THE MYSTERY OF STONEHENGE\n\nRising from the flat grasslands of Salisbury Plain in southern England, Stonehenge has puzzled scholars, mystics, and tourists for centuries. The monument consists of a ring of massive standing stones, some topped with horizontal lintels, arranged with a precision that seems impossible for a people who possessed neither metal tools nor the wheel. _________ (1.1) Each generation of researchers has proposed new theories, yet a complete explanation continues to elude us.\n\nThe site was constructed in several distinct phases spanning roughly 1,500 years. The earliest stage, begun around 3000 BC, was a simple circular ditch and bank. _________ (1.2) How prehistoric builders transported stones weighing up to four tonnes over such a vast distance, across mountains and rivers, remains one of archaeology's most hotly debated questions.\n\nThe later phase saw the arrival of the enormous sarsen stones, quarried from the Marlborough Downs about twenty-five kilometres to the north. Each sarsen weighs up to twenty-five tonnes, and raising them into vertical positions required extraordinary engineering. _________ (1.3) Whatever method was used, it demanded a level of social organisation and collective effort that challenges our assumptions about prehistoric societies.\n\nAstronomers have long noted that the monument is aligned with key solar events. On the summer solstice, the rising sun shines directly along the main axis of the stone circle and strikes the central altar stone. _________ (1.4) This dual alignment strongly suggests that the builders possessed sophisticated astronomical knowledge and that the monument served a calendrical function tied to the agricultural year.\n\nRecent archaeological discoveries have added new dimensions to the mystery. Analysis of human remains found at the site reveals that some individuals buried there originated in places as distant as the Mediterranean. _________ (1.5) If so, its significance may have extended far beyond the local community that built it.\n\nToday, Stonehenge is a UNESCO World Heritage Site visited by over 1.5 million people annually. _________ (1.6) For all our modern technology, we can still only guess at the full meaning of these ancient stones, and perhaps that enduring mystery is part of what makes Stonehenge so compelling.",
       "options": [
-        { "letter": "A", "text": "They drink the nectar and store it in a special second stomach known as the honey stomach." },
-        { "letter": "B", "text": "Each exchange adds more enzymes and reduces the water content of the liquid." },
-        { "letter": "C", "text": "To drive out moisture, thousands of bees fan their wings over the open cells simultaneously." },
-        { "letter": "D", "text": "This is what makes honey one of the very few foods that never spoils, even after thousands of years." },
-        { "letter": "E", "text": "The ancient Egyptians kept bees domestically and used honey both as a sweetener and as an offering to the gods." },
-        { "letter": "F", "text": "Honey production is a highly organised collective effort that depends on every bee performing its specific role." },
-        { "letter": "G", "text": "Bees also produce beeswax, royal jelly, and propolis, all of which have uses for both the hive and for humans." },
-        { "letter": "H", "text": "The queen bee is responsible for laying all the eggs in the hive and can produce up to 2,000 a day." }
+        { "letter": "A", "text": "It is this very combination of apparent simplicity and hidden complexity that makes the monument so endlessly fascinating." },
+        { "letter": "B", "text": "Several centuries later, smaller bluestones were brought to the site from the Preseli Hills in Wales, a journey of over two hundred kilometres." },
+        { "letter": "C", "text": "Experiments using replica stones have tested theories involving wooden sledges, rollers, and even rafts, but none has proved entirely convincing." },
+        { "letter": "D", "text": "Equally significant is the fact that on the winter solstice, the setting sun aligns with the same axis when viewed from the opposite direction." },
+        { "letter": "E", "text": "This evidence has led some researchers to propose that Stonehenge functioned as a pilgrimage destination or a sacred healing centre." },
+        { "letter": "F", "text": "Yet despite decades of excavation, scanning, and computer modelling, no single interpretation has gained universal acceptance." },
+        { "letter": "G", "text": "The surrounding landscape contains hundreds of other prehistoric monuments, including burial mounds, cursus earthworks, and timber circles." },
+        { "letter": "H", "text": "Medieval writers attributed the construction of Stonehenge to the wizard Merlin, who was said to have magically transported the stones from Ireland." }
       ],
       "items": [
-        { "id": "1.1", "answer": "F" },
-        { "id": "1.2", "answer": "A" },
-        { "id": "1.3", "answer": "B" },
-        { "id": "1.4", "answer": "C" },
-        { "id": "1.5", "answer": "D" },
-        { "id": "1.6", "answer": "E" }
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
+        { "id": "1.6", "answer": "F" }
       ]
     }
   ]

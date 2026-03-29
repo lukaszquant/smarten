@@ -5,19 +5,27 @@
     {
       "id": "1",
       "type": "true_false_ni",
-      "points": 8,
-      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
+      "points": 3,
+      "instruction": "Przeczytaj ponizszy tekst. Zaznacz, ktore zdania (1.1-1.4) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie odpowiedz pelnym zdaniem na pytanie 1.5.",
       "text": "THE GREAT WALL OF CHINA\n\nThe Great Wall of China is one of the most famous structures in the world. It stretches across northern China for thousands of kilometres. Many people believe the Wall is one continuous structure, but in fact it is made up of many separate sections that were built at different times throughout history.\n\nThe first parts of the Wall were built over 2,000 years ago during the reign of Emperor Qin Shi Huang, who wanted to protect China from attacks by nomadic tribes from the north. However, much of the Wall that visitors see today was built during the Ming Dynasty, between the 14th and 17th centuries. The Ming emperors used millions of workers, including soldiers, peasants, and prisoners, to construct and repair the Wall.\n\nThe Wall is not just a simple wall. Along its length, there are watchtowers, guard stations, and signal towers. Soldiers used smoke signals during the day and fire signals at night to send messages quickly along the Wall. This communication system allowed warnings about enemy attacks to travel hundreds of kilometres in just a few hours.\n\nThe Wall varies in height and width depending on the section. In some places, it is up to 8 metres tall and 5 metres wide at the top — wide enough for five horses to walk side by side. It was built using different materials depending on what was available locally. In the mountains, workers used stone, while in the plains they often used packed earth and later bricks.\n\nToday, the Great Wall is a UNESCO World Heritage Site and attracts millions of tourists every year. Unfortunately, some sections of the Wall are in poor condition because of natural erosion and damage caused by visitors. The Chinese government has introduced laws to protect the Wall, making it illegal to remove bricks or write graffiti on the structure.",
       "items": [
-        { "id": "1.1", "statement": "The Great Wall of China consists of several separate sections built over different periods.", "answer": "T" },
-        { "id": "1.2", "statement": "Emperor Qin Shi Huang built the Wall to keep out invaders from the south.", "answer": "F" },
-        { "id": "1.3", "statement": "The majority of the Wall visible today dates from the Ming Dynasty.", "answer": "T" },
-        { "id": "1.4", "statement": "More than 10 million workers were involved in building the Wall during the Ming Dynasty.", "answer": "NI" },
-        { "id": "1.5", "statement": "Soldiers on the Wall used different types of signals depending on the time of day.", "answer": "T" },
-        { "id": "1.6", "statement": "The Wall is the same height and width along its entire length.", "answer": "F" },
-        { "id": "1.7", "statement": "The Great Wall can be seen from space with the naked eye.", "answer": "NI" },
-        { "id": "1.8", "statement": "It is legal to take bricks from the Wall as souvenirs.", "answer": "F" }
-      ]
+        { "id": "1.1", "statement": "Emperor Qin Shi Huang's original construction makes up the majority of what tourists visit today.", "answer": "F" },
+        { "id": "1.2", "statement": "The communication system along the Wall could only be used effectively during daylight hours.", "answer": "F" },
+        { "id": "1.3", "statement": "The Wall's construction methods were adapted to suit the geography of each region.", "answer": "T" },
+        { "id": "1.4", "statement": "Tourist numbers have decreased in recent years due to the poor condition of certain sections.", "answer": "NI" }
+      ],
+      "scoringScheme": {
+        "4": 2,
+        "3": 1,
+        "0-2": 0
+      },
+      "openQuestion": {
+        "id": "1.5",
+        "question": "Why does the author say that the Great Wall 'is not just a simple wall'? Give two reasons based on the text.",
+        "modelAnswer": "The Wall has additional structures such as watchtowers, guard stations, and signal towers along its length. It also served as a communication system, allowing soldiers to send warnings about enemy attacks over long distances.",
+        "points": 1,
+        "skipped": true
+      }
     }
   ]
 }

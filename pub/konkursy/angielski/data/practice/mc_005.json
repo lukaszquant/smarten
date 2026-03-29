@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Mixed Grammar",
   "type": "practice",
-  "title": "Mixed Grammar",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "Neither Tom _______ his brother likes swimming.", "options": ["or", "and", "nor"], "answer": "C" },
-        { "id": "1.2", "stem": "The woman _______ car was stolen reported it to the police.", "options": ["who", "whose", "which"], "answer": "B" },
-        { "id": "1.3", "stem": "There isn't _______ milk left in the fridge.", "options": ["some", "any", "no"], "answer": "B" },
-        { "id": "1.4", "stem": "She speaks English well _______ she has never been to England.", "options": ["although", "despite", "however"], "answer": "A" },
-        { "id": "1.5", "stem": "He is _______ tallest boy in the class.", "options": ["a", "an", "the"], "answer": "C" },
-        { "id": "1.6", "stem": "You _______ wear a uniform at this school. It's the rule.", "options": ["must", "should", "can"], "answer": "A" },
-        { "id": "1.7", "stem": "This is the town _______ I was born.", "options": ["which", "where", "that"], "answer": "B" },
-        { "id": "1.8", "stem": "She asked me _______ I had finished my homework.", "options": ["that", "if", "what"], "answer": "B" },
-        { "id": "1.9", "stem": "The film was _______ boring that we left the cinema early.", "options": ["such", "too", "so"], "answer": "C" },
-        { "id": "1.10", "stem": "I'd rather _______ at home tonight than go to the party.", "options": ["stay", "to stay", "staying"], "answer": "A" }
+        {
+          "id": "1.1",
+          "stem": "The artist, _________ paintings are displayed in the national gallery, never became famous during his lifetime.",
+          "options": ["A) who", "B) whose", "C) which"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "She told me that she _________ the report by the following Monday.",
+          "options": ["A) will finish", "B) would have finished", "C) had finished"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "Teacher: Why didn't you submit your essay? Student: I wish I _________ more time to work on it last week.",
+          "options": ["A) had had", "B) have had", "C) would have"],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "The new hospital is expected _________ by the end of next year.",
+          "options": ["A) to be completed", "B) to complete", "C) being completed"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "Kate: Do you know where the concert is? Mike: It's the hall _________ the charity event took place last spring.",
+          "options": ["A) which", "B) that", "C) where"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "If only the government _________ more in education, the situation would be different now.",
+          "options": ["A) invested", "B) had invested", "C) would invest"],
+          "answer": "B"
+        }
       ]
     }
   ]

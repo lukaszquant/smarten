@@ -1,48 +1,48 @@
 {
+  "title": "Dialogue: Travel Situations",
   "type": "practice",
-  "title": "Weather & Nature Idioms",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "She's been feeling a bit under the _______ since Monday. I think she's got a cold.",
-          "options": ["sky", "weather", "cloud"],
-          "answer": "B"
+          "stem": "X: Excuse me, could you tell me how to get to the cathedral?\nY: _________",
+          "options": ["A) Go straight on and turn left at the traffic lights.", "B) Go straight on and turn at left at the traffic lights.", "C) Go straight on and turn to the left at traffic lights."],
+          "answer": "A"
         },
         {
           "id": "1.2",
-          "prompt": "Every _______ has a silver lining — something good can come out of any bad situation.",
-          "options": ["storm", "cloud", "rain"],
-          "answer": "B"
+          "stem": "X: I'm afraid our flight has been delayed by three hours.\nY: _________",
+          "options": ["A) That's annoying. I wish we had booked a direct flight.", "B) That's annoying. I wish we booked a direct flight.", "C) That's annoying. I wish we would book a direct flight."],
+          "answer": "A"
         },
         {
           "id": "1.3",
-          "prompt": "He saved money for a _______ day, so he wasn't worried when his car broke down.",
-          "options": ["rainy", "stormy", "cloudy"],
-          "answer": "A"
-        },
-        {
-          "id": "1.4",
-          "prompt": "The politician weathered the _______ of criticism and came out stronger than before.",
-          "options": ["flood", "storm", "wind"],
+          "stem": "X: Do you happen to know what time the last train leaves?\nY: _________",
+          "options": ["A) If I'm not mistaking, it departs at quarter to eleven.", "B) If I'm not mistaken, it departs at a quarter to eleven.", "C) If I'm not mistaken, it departs at quarter to eleven."],
           "answer": "B"
         },
         {
-          "id": "1.5",
-          "prompt": "After months of arguments, the two friends finally _______ the air and made up.",
-          "options": ["cleared", "freshened", "cleaned"],
+          "id": "1.4",
+          "stem": "X: We've missed the connecting bus. What do we do now?\nY: _________",
+          "options": ["A) We might as well get a taxi. There isn't another bus until morning.", "B) We might as well to get a taxi. There isn't another bus until morning.", "C) We may as well getting a taxi. There isn't another bus until morning."],
           "answer": "A"
         },
         {
+          "id": "1.5",
+          "stem": "X: I'd like to check in. I have a reservation under the name Porter.\nY: _________",
+          "options": ["A) Certainly. Could I see your passport, please?", "B) Certainly. May I see your passport, please?", "C) Certainly. Shall I see your passport, please?"],
+          "answer": "B"
+        },
+        {
           "id": "1.6",
-          "prompt": "It's raining _______ and dogs out there — you'd better take an umbrella!",
-          "options": ["cats", "mice", "rats"],
-          "answer": "A"
+          "stem": "X: Is it worth visiting the old town?\nY: _________",
+          "options": ["A) Absolutely. It's well worth to see.", "B) Absolutely. It's well worth a visit.", "C) Absolutely. It's well worthy of a visit."],
+          "answer": "B"
         }
       ]
     }

@@ -5,22 +5,29 @@
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "THE HISTORY OF FOOTBALL",
-      "text": "Football is 1.1. _________ most popular sport in the world, with billions of fans on every continent. People have been kicking balls around for thousands of years, 1.2. _________ modern football as we know it began in England in the nineteenth century. The first official rules 1.3. _________ written in 1863, when the Football Association was founded in London.\n\nThe sport spread quickly to 1.4. _________ countries, especially in Europe and South America. The first World Cup 1.5. _________ held in Uruguay in 1930, and only thirteen teams took part 1.6. _________ it. Today, more 1.7. _________ two hundred nations compete to qualify for the tournament.\n\nFootball has produced 1.8. _________ legendary players, such as Pele, Maradona, and Messi. 1.9. _________ of them became famous not only for their skills but also for their dedication to the game. There is 1.10. _________ doubt that football will continue to grow in popularity for many years to come.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Although various forms of ball games have existed 1.1. _________ ancient times, the sport we now call football took shape in nineteenth-century England. Before standardised rules were introduced, different schools played by their 1.2. _________ sets of regulations, which often led to confusion and disputes. It was not 1.3. _________ 1863, when the Football Association was established in London, that a unified code of rules was finally agreed upon.\n\nThe game quickly gained 1.4. _________ across Europe and South America, where it became deeply rooted in local cultures. The first World Cup, 1.5. _________ in Uruguay in 1930, attracted just thirteen participating nations. Today, the tournament draws over two hundred teams, making it the most widely followed sporting 1.6. _________ on Earth.\n\nOver the years, football has produced a 1.7. _________ of legendary figures, from Pele and Maradona to Messi and Ronaldo. These players have not only demonstrated extraordinary 1.8. _________ on the pitch but have also served as role models for millions. Looking 1.9. _________, there is every reason to believe that football will continue to thrive, 1.10. _________ the fact that it faces growing competition from other forms of entertainment.",
       "items": [
-        { "id": "1.1", "answer": "the" },
-        { "id": "1.2", "answer": "but" },
-        { "id": "1.3", "answer": "were" },
-        { "id": "1.4", "answer": "other" },
-        { "id": "1.5", "answer": "was" },
-        { "id": "1.6", "answer": "in" },
-        { "id": "1.7", "answer": "than" },
-        { "id": "1.8", "answer": ["many", "some"] },
-        { "id": "1.9", "answer": ["All", "Each"] },
-        { "id": "1.10", "answer": "no" }
-      ]
+        { "id": "1.1", "answer": "since" },
+        { "id": "1.2", "answer": "own" },
+        { "id": "1.3", "answer": "until" },
+        { "id": "1.4", "answer": "popularity" },
+        { "id": "1.5", "answer": "held" },
+        { "id": "1.6", "answer": "event" },
+        { "id": "1.7", "answer": ["number", "host"] },
+        { "id": "1.8", "answer": ["skill", "talent"] },
+        { "id": "1.9", "answer": ["ahead", "forward"] },
+        { "id": "1.10", "answer": "despite" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

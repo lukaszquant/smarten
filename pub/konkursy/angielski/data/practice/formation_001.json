@@ -1,24 +1,23 @@
 {
-  "title": "Word Formation: Space Exploration",
+  "title": "Word Formation: Journey to the Stars",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["DISCOVER", "SCIENCE", "AMAZE", "POSSIBLE", "EXPLORE", "DARK", "SUCCESS", "DIFFER", "WEIGHT", "CREATE"],
-      "title": "JOURNEY TO THE STARS",
-      "text": "Space is full of 1.1. ________ surprises. Every year, 1.2. ________ make new findings about distant planets and galaxies. The 1.3. ________ of Mars has been a dream for many people. In the past, travelling to space seemed 1.4. ________, but today astronauts regularly visit the International Space Station. One of the most important 1.5. ________ in space history was finding water on the Moon. Astronauts experience 1.6. ________ in space, which means they float freely inside the spacecraft. The 1.7. ________ launch of the James Webb Telescope allowed us to see into the 1.8. ________ of the universe further than ever before. Scientists hope to find new forms of life beyond Earth one day.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["COMMERCE", "INHABIT", "SIGNIFY", "COMPREHEND", "WEIGH", "CONCEIVE", "PRESTIGE", "REVOLUTIONISE", "FATHOM", "MAINTAIN"],
+      "text": "The dream of sending humans beyond our solar system remains one of the most 1.1. _________ (1.1) challenges in modern science. Since the early days of 1.2. _________ (1.2) space travel, agencies like NASA have made 1.3. _________ (1.3) progress in understanding the cosmos. The sheer distances involved are almost 1.4. _________ (1.4) to the human mind, stretching across billions of light years. Scientists now believe that certain exoplanets may be 1.5. _________ (1.5), with conditions suitable for sustaining life. The development of reusable rockets has been truly 1.6. _________ (1.6), dramatically reducing the cost of reaching orbit. Future missions will require solving the problem of 1.7. _________ (1.7) in zero gravity, which causes serious health issues for crew members over long periods. The 1.8. _________ (1.8) of spacecraft systems during years-long voyages presents another enormous engineering obstacle.",
       "items": [
-        { "id": "1.1", "answer": "amazing" },
-        { "id": "1.2", "answer": "scientists" },
-        { "id": "1.3", "answer": "exploration" },
-        { "id": "1.4", "answer": "impossible" },
-        { "id": "1.5", "answer": "discoveries" },
-        { "id": "1.6", "answer": "weightlessness" },
-        { "id": "1.7", "answer": "successful" },
-        { "id": "1.8", "answer": "darkness" }
+        { "id": "1.1", "baseWord": "CONCEIVE", "answer": "inconceivable" },
+        { "id": "1.2", "baseWord": "COMMERCE", "answer": "commercial" },
+        { "id": "1.3", "baseWord": "SIGNIFY", "answer": "significant" },
+        { "id": "1.4", "baseWord": "COMPREHEND", "answer": "incomprehensible" },
+        { "id": "1.5", "baseWord": "INHABIT", "answer": "inhabitable" },
+        { "id": "1.6", "baseWord": "REVOLUTIONISE", "answer": "revolutionary" },
+        { "id": "1.7", "baseWord": "WEIGH", "answer": "weightlessness" },
+        { "id": "1.8", "baseWord": "MAINTAIN", "answer": "maintenance" }
       ]
     }
   ]

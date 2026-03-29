@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Phrasal Verbs",
   "type": "practice",
-  "title": "Phrasal Verbs",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "While cleaning the garage, I _______ across my old school uniform.", "options": ["came", "ran", "went"], "answer": "A" },
-        { "id": "1.2", "stem": "She had to _______ down the job offer because the salary was too low.", "options": ["put", "turn", "break"], "answer": "B" },
-        { "id": "1.3", "stem": "We need to _______ up with a solution before Friday.", "options": ["come", "make", "put"], "answer": "A" },
-        { "id": "1.4", "stem": "The meeting has been _______ off until next Monday.", "options": ["called", "set", "put"], "answer": "C" },
-        { "id": "1.5", "stem": "I can't _______ out what this word means.", "options": ["work", "take", "carry"], "answer": "A" },
-        { "id": "1.6", "stem": "Please _______ after your little sister while I'm away.", "options": ["watch", "see", "look"], "answer": "C" },
-        { "id": "1.7", "stem": "He _______ up playing football when he injured his knee.", "options": ["gave", "put", "took"], "answer": "A" },
-        { "id": "1.8", "stem": "The plane _______ off twenty minutes late due to fog.", "options": ["got", "took", "set"], "answer": "B" },
-        { "id": "1.9", "stem": "I'm really _______ forward to the summer holidays.", "options": ["seeing", "going", "looking"], "answer": "C" },
-        { "id": "1.10", "stem": "She _______ into an old friend at the shopping centre.", "options": ["came", "bumped", "walked"], "answer": "B" }
+        {
+          "id": "1.1",
+          "stem": "Despite having no evidence, he managed to _________ with the lie for months.",
+          "options": ["A) get away", "B) put up", "C) come along"],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "stem": "Tom: How did the interview go? Sarah: It _________ that they had already filled the position before I arrived.",
+          "options": ["A) came out", "B) turned out", "C) worked out"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "I can't _________ with his constant complaining any longer.",
+          "options": ["A) keep up", "B) catch up", "C) put up"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "While researching for her essay, she _________ across a fascinating article about ancient Rome.",
+          "options": ["A) came", "B) ran", "C) stumbled"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "Mark: Why is Lisa so upset? Jane: She's been trying to _________ out why her application was rejected.",
+          "options": ["A) work", "B) figure", "C) sort"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "The company had to _________ off over two hundred employees due to the financial crisis.",
+          "options": ["A) lay", "B) put", "C) pay"],
+          "answer": "A"
+        }
       ]
     }
   ]

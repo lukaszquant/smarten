@@ -5,22 +5,29 @@
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "AMAZING DOLPHINS",
-      "text": "Dolphins are among 1.1. _________ most intelligent animals on Earth. They live in groups called pods, which can consist 1.2. _________ up to a hundred individuals. Dolphins communicate with 1.3. _________ other by using clicks, whistles, and body movements. Scientists have 1.4. _________ studying dolphin behaviour for decades and they are still discovering new things about these fascinating creatures.\n\nUnlike most fish, dolphins are 1.5. _________ able to breathe underwater. They must come to the surface regularly to get air. A dolphin 1.6. _________ hold its breath for about eight to ten minutes before it needs to breathe again. Baby dolphins, 1.7. _________ are called calves, stay close to their mothers for several years.\n\nDolphins are known 1.8. _________ their playful nature. They often ride the waves created 1.9. _________ boats and enjoy jumping out of the water. 1.10. _________ of these behaviours help dolphins develop skills they need for hunting and survival.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Dolphins are widely regarded 1.1. _________ some of the most remarkable creatures in the ocean. They belong to a group of marine mammals known as cetaceans, which also 1.2. _________ whales and porpoises. Living in tightly bonded social groups called pods, dolphins rely on a sophisticated system of clicks and whistles to communicate with one 1.3. _________. Researchers have even suggested that individual dolphins may have signature whistles that function 1.4. _________ names.\n\nOne of the most fascinating aspects of dolphin behaviour is their intelligence. They have been observed using sea sponges as tools to protect their snouts while foraging on the ocean 1.5. _________, a skill that mothers pass 1.6. _________ to their young. Furthermore, dolphins display a strong sense of 1.7. _________, often coming to the aid of injured companions or even stranded humans.\n\n1.8. _________ their apparent resilience, dolphin populations face serious threats from pollution, fishing nets, and habitat 1.9. _________. Conservation efforts are under way in many parts of the world, but scientists warn that 1.10. _________ more is done to address these dangers, several species could decline significantly within the coming decades.",
       "items": [
-        { "id": "1.1", "answer": "the" },
-        { "id": "1.2", "answer": "of" },
-        { "id": "1.3", "answer": ["each", "one"] },
-        { "id": "1.4", "answer": "been" },
-        { "id": "1.5", "answer": "not" },
-        { "id": "1.6", "answer": "can" },
-        { "id": "1.7", "answer": ["which", "who"] },
-        { "id": "1.8", "answer": "for" },
-        { "id": "1.9", "answer": "by" },
-        { "id": "1.10", "answer": ["some", "many"] }
-      ]
+        { "id": "1.1", "answer": "as" },
+        { "id": "1.2", "answer": "includes" },
+        { "id": "1.3", "answer": "another" },
+        { "id": "1.4", "answer": ["as", "like"] },
+        { "id": "1.5", "answer": ["floor", "bed"] },
+        { "id": "1.6", "answer": ["down", "on"] },
+        { "id": "1.7", "answer": "compassion" },
+        { "id": "1.8", "answer": "Despite" },
+        { "id": "1.9", "answer": ["loss", "destruction"] },
+        { "id": "1.10", "answer": "unless" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

@@ -1,24 +1,23 @@
 {
-  "title": "Word Formation: Climate and Weather",
+  "title": "Word Formation: Our Changing Climate",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["POLLUTE", "DANGER", "NATURE", "PREDICT", "WARM", "STORM", "DROUGHT", "DESTROY", "FREEZE", "RAIN"],
-      "title": "OUR CHANGING CLIMATE",
-      "text": "Climate change is one of the most 1.1. ________ problems facing our planet today. Scientists can now make accurate 1.2. ________ about future weather patterns using powerful computers. Global 1.3. ________ is causing temperatures to rise every year. 1.4. ________ disasters such as floods and hurricanes are becoming more frequent. Air 1.5. ________ from factories and cars is a major cause of these changes. In some regions, 1.6. ________ weather brings heavy snow and ice, while other areas experience 1.7. ________ days with no rain for months. The 1.8. ________ of forests for farming also makes the problem worse. We all need to act now to protect our environment.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["CATASTROPHE", "REVERSE", "CARBON", "NEGOTIATE", "CONTROVERSY", "SUSTAIN", "DEGRADE", "ACKNOWLEDGE", "PROPORTION", "RECKLESS"],
+      "text": "Climate change poses a threat of 1.1. _________ (1.1) proportions to ecosystems around the globe. International 1.2. _________ (1.2) on emission targets have proved extremely difficult, with nations often failing to reach agreement. The environmental 1.3. _________ (1.3) caused by decades of pollution may be 1.4. _________ (1.4) in some regions, leaving permanent scars on the landscape. Many governments have been criticised for their 1.5. _________ (1.5) in addressing the crisis, as the measures taken remain 1.6. _________ (1.6) to the scale of the problem. There is growing 1.7. _________ (1.7) among scientists that only a dramatic shift towards 1.8. _________ (1.8) energy sources can prevent the worst outcomes.",
       "items": [
-        { "id": "1.1", "answer": "dangerous" },
-        { "id": "1.2", "answer": "predictions" },
-        { "id": "1.3", "answer": "warming" },
-        { "id": "1.4", "answer": "natural" },
-        { "id": "1.5", "answer": "pollution" },
-        { "id": "1.6", "answer": "freezing" },
-        { "id": "1.7", "answer": "rainy" },
-        { "id": "1.8", "answer": "destruction" }
+        { "id": "1.1", "baseWord": "CATASTROPHE", "answer": "catastrophic" },
+        { "id": "1.2", "baseWord": "NEGOTIATE", "answer": "negotiations" },
+        { "id": "1.3", "baseWord": "DEGRADE", "answer": "degradation" },
+        { "id": "1.4", "baseWord": "REVERSE", "answer": "irreversible" },
+        { "id": "1.5", "baseWord": "RECKLESS", "answer": "recklessness" },
+        { "id": "1.6", "baseWord": "PROPORTION", "answer": "disproportionate" },
+        { "id": "1.7", "baseWord": "ACKNOWLEDGE", "answer": "acknowledgement" },
+        { "id": "1.8", "baseWord": "SUSTAIN", "answer": "sustainable" }
       ]
     }
   ]

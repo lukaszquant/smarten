@@ -5,22 +5,29 @@
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "THE SAHARA DESERT",
-      "text": "The Sahara is 1.1. _________ largest hot desert in the world. It covers most of North Africa and is almost 1.2. _________ big as the whole of Europe. Although many people think that the Sahara is nothing 1.3. _________ sand, only about a quarter of it is actually sandy. The rest is made up 1.4. _________ rocky plains and mountains.\n\nDaytime temperatures in the Sahara 1.5. _________ reach over 50 degrees Celsius, but at night 1.6. _________ can drop below freezing. Very 1.7. _________ rain falls in this region, sometimes less than 25 millimetres a year. Despite the extreme conditions, 1.8. _________ animals and plants have adapted to life there.\n\nPeople have lived in the Sahara for thousands of years. The Tuareg are 1.9. _________ of the best-known groups. They have 1.10. _________ travelling across the desert with their camels for centuries, trading goods between different regions.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Stretching across much of North Africa, the Sahara is by 1.1. _________ the largest hot desert on the planet, covering an area roughly the size of the United States. Contrary to popular 1.2. _________, the Sahara is not entirely made up of sand dunes. In 1.3. _________, sandy areas account for only about a quarter of its total surface, while the remainder consists of rocky plateaus, gravel plains, and even mountain 1.4. _________.\n\nTemperatures in the Sahara can 1.5. _________ dramatically. During the day, the thermometer may climb above 50 degrees Celsius, yet after sunset, it is not 1.6. _________ for the temperature to drop below freezing. This extreme variation poses a serious 1.7. _________ to both plants and animals. Nevertheless, a surprising number of species have managed to 1.8. _________ to these harsh conditions, including the fennec fox, whose oversized ears help release excess body heat.\n\nFor centuries, the Tuareg people have 1.9. _________ their living by trading goods across the desert using camel caravans. Although modern transport has reduced the need for such journeys, their traditions remain an essential part of the region's cultural 1.10. _________.",
       "items": [
-        { "id": "1.1", "answer": "the" },
-        { "id": "1.2", "answer": "as" },
-        { "id": "1.3", "answer": "but" },
-        { "id": "1.4", "answer": "of" },
-        { "id": "1.5", "answer": "can" },
-        { "id": "1.6", "answer": ["it", "they"] },
-        { "id": "1.7", "answer": ["little", "few"] },
-        { "id": "1.8", "answer": ["some", "many"] },
-        { "id": "1.9", "answer": "one" },
-        { "id": "1.10", "answer": "been" }
-      ]
+        { "id": "1.1", "answer": "far" },
+        { "id": "1.2", "answer": "belief" },
+        { "id": "1.3", "answer": "fact" },
+        { "id": "1.4", "answer": ["ranges", "chains"] },
+        { "id": "1.5", "answer": ["vary", "fluctuate"] },
+        { "id": "1.6", "answer": ["uncommon", "unusual"] },
+        { "id": "1.7", "answer": ["challenge", "threat"] },
+        { "id": "1.8", "answer": "adapt" },
+        { "id": "1.9", "answer": ["earned", "made"] },
+        { "id": "1.10", "answer": ["heritage", "identity"] }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

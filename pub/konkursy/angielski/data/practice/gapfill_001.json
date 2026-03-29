@@ -1,30 +1,30 @@
 {
+  "title": "Gap Fill: The Discovery of Penicillin",
   "type": "practice",
-  "title": "The History of Cinema",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "THE HISTORY OF CINEMA\n\nThe history of cinema is one of the most fascinating stories of human creativity and technological progress. It all began in the late nineteenth century, when inventors across Europe and America were racing to capture moving images on film. 1. _________ Their device, called the Cinematographe, was small enough to be carried and used both as a camera and a projector.\n\nThe first public screening took place in Paris in December 1895, where a small audience watched short clips of everyday life. 2. _________ Early audiences were so amazed by the moving pictures that some reportedly ran from the room in fright when they saw a train approaching on screen.\n\nIn the early years, films were silent and accompanied by live piano music in the theatre. Directors quickly learned how to tell stories through images alone, developing techniques such as close-ups and editing. 3. _________ This transformed cinema into a powerful storytelling medium that could reach millions of people.\n\nThe 1920s brought another revolution: sound. When The Jazz Singer was released in 1927, audiences heard an actor speak for the first time on screen. 4. _________ Hollywood studios invested heavily in new technology, and the golden age of cinema had truly begun.\n\nColour film became widely used in the 1950s, just as television was beginning to compete for audiences. 5. _________ Studios responded by making bigger, more spectacular productions that could not be replicated on a small screen at home.\n\nToday, digital technology has completely changed how films are made and watched. 6. _________ Yet despite all these changes, the magic of sitting in a dark room and being transported to another world remains as powerful as ever.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "THE DISCOVERY OF PENICILLIN\n\nFew scientific breakthroughs have owed as much to chance as the discovery of penicillin. In the summer of 1928, Alexander Fleming, a Scottish bacteriologist working at St Mary's Hospital in London, left a stack of petri dishes on his laboratory bench before departing for a holiday. _________ (1.1) Rather than discarding the contaminated dish, Fleming examined it more closely and made an observation that would transform the course of medicine.\n\nAround the bluish-green mould, there was a clear ring where the staphylococcus bacteria had been completely destroyed. Fleming deduced that the mould was secreting a substance lethal to bacteria, and he named it penicillin. _________ (1.2) The mould was notoriously difficult to cultivate under controlled conditions, and the active compound broke down rapidly once extracted.\n\nFleming published a paper on his findings in 1929, but it attracted remarkably little attention from the wider medical community. _________ (1.3) It was not until a decade later that two Oxford researchers, Howard Florey and Ernst Chain, revisited his work with the resources and expertise needed to develop the drug.\n\nFlorey and Chain faced enormous technical challenges. Producing even small quantities of purified penicillin required vast amounts of mould culture. _________ (1.4) Their persistence paid off in 1941, when penicillin was used to treat a policeman suffering from a severe bacterial infection, with remarkable initial results.\n\nThe outbreak of World War Two created an urgent demand for an effective antibacterial drug. Battlefield wounds frequently became infected, and existing treatments were inadequate. _________ (1.5) By D-Day in June 1944, enough penicillin was available to treat every Allied soldier who needed it.\n\nIn 1945, Fleming, Florey, and Chain shared the Nobel Prize in Physiology or Medicine. In his acceptance speech, Fleming issued a prescient warning about bacteria developing resistance if antibiotics were used carelessly. _________ (1.6) The search for new antibiotics to replace those that bacteria have learned to resist is now one of the most pressing challenges in global health.",
       "options": [
-        { "letter": "A", "text": "Many actors who had become famous in silent films found that their voices did not suit the new talking pictures." },
-        { "letter": "B", "text": "The French brothers Auguste and Louis Lumiere are widely credited with inventing practical cinema." },
-        { "letter": "C", "text": "Those first paying customers had no idea they were witnessing the birth of a new art form." },
-        { "letter": "D", "text": "Cinema attendance dropped sharply as more and more families bought television sets." },
-        { "letter": "E", "text": "Special effects that once required enormous sets and hundreds of extras can now be created entirely by computer." },
-        { "letter": "F", "text": "A breakthrough came when filmmakers discovered they could cut between different scenes to create suspense and drama." },
-        { "letter": "G", "text": "Many countries around the world have developed their own distinctive national cinema traditions." },
-        { "letter": "H", "text": "The cost of producing a major Hollywood film has risen dramatically over the past few decades." }
+        { "letter": "A", "text": "Upon his return, he noticed that a mould had drifted onto one of the dishes containing colonies of Staphylococcus aureus." },
+        { "letter": "B", "text": "However, turning this laboratory curiosity into a usable medicine proved far more difficult than anyone had anticipated." },
+        { "letter": "C", "text": "At the time, most scientists regarded mould contamination as a nuisance rather than a potential source of therapeutic agents." },
+        { "letter": "D", "text": "They devised an ingenious method of growing the mould in hundreds of ceramic bedpans to increase the yield of the precious substance." },
+        { "letter": "E", "text": "American pharmaceutical companies were recruited to scale up production using deep-tank fermentation, a technique borrowed from the brewing industry." },
+        { "letter": "F", "text": "That warning, largely ignored for decades, now seems alarmingly accurate as antibiotic-resistant infections spread worldwide." },
+        { "letter": "G", "text": "Fleming had previously served as a battlefield medic during the First World War, where he witnessed countless soldiers die from infected wounds." },
+        { "letter": "H", "text": "Several other naturally occurring antibiotics were discovered in soil bacteria during the 1940s, including streptomycin and chloramphenicol." }
       ],
       "items": [
-        { "id": "1.1", "answer": "B" },
-        { "id": "1.2", "answer": "C" },
-        { "id": "1.3", "answer": "F" },
-        { "id": "1.4", "answer": "A" },
-        { "id": "1.5", "answer": "D" },
-        { "id": "1.6", "answer": "E" }
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
+        { "id": "1.6", "answer": "F" }
       ]
     }
   ]

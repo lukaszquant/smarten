@@ -1,47 +1,47 @@
 {
+  "title": "Dialogue: Shopping & Services",
   "type": "practice",
-  "title": "Food & Drink Idioms",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "That film was pure _______ — entertaining but with no real substance.",
-          "options": ["candy floss", "popcorn", "eye candy"],
-          "answer": "C"
+          "stem": "X: I'm looking for a pair of jeans in a size 32.\nY: _________",
+          "options": ["A) I'll check if we have any left in stock.", "B) I'll check if we have some left in stock.", "C) I'll check if we have any left on stock."],
+          "answer": "A"
         },
         {
           "id": "1.2",
-          "prompt": "Stop crying over _______ milk. There's nothing you can do about it now.",
-          "options": ["sour", "spilled", "wasted"],
+          "stem": "X: I bought this jacket last week, but the zip is broken.\nY: _________",
+          "options": ["A) Would you like to exchange it or you prefer a refund?", "B) Would you like to exchange it or would you prefer a refund?", "C) Would you like exchanging it or prefer a refund?"],
           "answer": "B"
         },
         {
           "id": "1.3",
-          "prompt": "She's the _______ of my eye — I couldn't be more proud of her.",
-          "options": ["apple", "cherry", "plum"],
+          "stem": "X: How much does it cost to have this suit dry-cleaned?\nY: _________",
+          "options": ["A) That comes to twelve pounds. It'll be ready by Thursday.", "B) That comes at twelve pounds. It'll be ready by Thursday.", "C) That goes to twelve pounds. It'll be ready by Thursday."],
           "answer": "A"
         },
         {
           "id": "1.4",
-          "prompt": "The new manager is quite strict. She's not everyone's _______ of tea.",
-          "options": ["mug", "cup", "pot"],
+          "stem": "X: Could I try these shoes on in a size 8?\nY: _________",
+          "options": ["A) Of course. I'm afraid we've been running out of that size, though.", "B) Of course. I'm afraid we've run out of that size, though.", "C) Of course. I'm afraid we run out of that size, though."],
           "answer": "B"
         },
         {
           "id": "1.5",
-          "prompt": "He had to eat humble _______ after admitting he was completely wrong.",
-          "options": ["bread", "pie", "cake"],
-          "answer": "B"
+          "stem": "X: I'd like to take this dress, but it's a bit too long.\nY: _________",
+          "options": ["A) We can have it taken up for you if you like.", "B) We can have it taking up for you if you like.", "C) We can get it take up for you if you like."],
+          "answer": "A"
         },
         {
           "id": "1.6",
-          "prompt": "The new contract was the _______ on the cake after an already brilliant year.",
-          "options": ["cream", "icing", "topping"],
+          "stem": "X: I ordered a table online, but it hasn't arrived yet.\nY: _________",
+          "options": ["A) Let me track the delivery. It should have dispatched yesterday.", "B) Let me track the delivery. It should have been dispatched yesterday.", "C) Let me track the delivery. It should be dispatching yesterday."],
           "answer": "B"
         }
       ]

@@ -1,31 +1,37 @@
 {
+  "title": "Matching: UK, USA & Australia",
   "type": "practice",
-  "title": "Famous Inventors",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj imiona i nazwiska wynalazców (1–6) do opisów ich wynalazków (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "He invented the telephone in 1876, making it possible for people to speak to each other over long distances." },
-        { "letter": "B", "text": "He created the first practical light bulb in 1879 and also developed the phonograph for recording sound." },
-        { "letter": "C", "text": "This engineer built the first successful petrol-powered motor car and founded one of the world's first automobile companies." },
-        { "letter": "D", "text": "He invented the World Wide Web in 1989, a system that allows people to share information over the internet." },
-        { "letter": "E", "text": "This Polish-born scientist invented a method of using X-rays to take pictures inside the human body." },
-        { "letter": "F", "text": "He invented the printing press with movable type in Europe around 1440, revolutionising the spread of books." },
-        { "letter": "G", "text": "She invented Kevlar, an extremely strong material used in bulletproof vests and protective equipment." },
-        { "letter": "H", "text": "He developed the first working steam engine that was efficient enough to power factories and locomotives." }
+        { "letter": "A", "text": "The bald eagle is the national bird of this country" },
+        { "letter": "B", "text": "Stonehenge is located on Salisbury Plain in this country" },
+        { "letter": "C", "text": "The Great Barrier Reef lies off the coast of this country" },
+        { "letter": "D", "text": "The Stars and Stripes is the name of this country's flag" },
+        { "letter": "E", "text": "Big Ben is a famous clock tower in this country's capital" },
+        { "letter": "F", "text": "Uluru is a sacred sandstone rock formation in this country" },
+        { "letter": "G", "text": "The Grand Canyon is one of this country's natural wonders" },
+        { "letter": "H", "text": "The Union Jack is the national flag of this country" },
+        { "letter": "I", "text": "The kangaroo and emu appear on this country's coat of arms" },
+        { "letter": "J", "text": "The Eiffel Tower is the most visited landmark in this country" },
+        { "letter": "K", "text": "The Taj Mahal is a famous marble mausoleum in this country" },
+        { "letter": "L", "text": "Niagara Falls is shared between this country and the USA" }
       ],
       "items": [
-        { "id": "1.1", "label": "Alexander Graham Bell", "answer": "A" },
-        { "id": "1.2", "label": "Thomas Edison", "answer": "B" },
-        { "id": "1.3", "label": "Karl Benz", "answer": "C" },
-        { "id": "1.4", "label": "Tim Berners-Lee", "answer": "D" },
-        { "id": "1.5", "label": "Johannes Gutenberg", "answer": "F" },
-        { "id": "1.6", "label": "Stephanie Kwolek", "answer": "G" }
-      ]
+        { "id": "United Kingdom", "answers": ["B", "E", "H"] },
+        { "id": "United States", "answers": ["A", "D", "G"] },
+        { "id": "Australia", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

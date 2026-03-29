@@ -1,31 +1,37 @@
 {
+  "title": "Matching: British Holidays",
   "type": "practice",
-  "title": "British Traditions",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj nazwy brytyjskich tradycji lub świąt (1–6) do ich opisów (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "On this night, 5th November, people light bonfires and watch firework displays to remember the failed Gunpowder Plot of 1605." },
-        { "letter": "B", "text": "This is a traditional afternoon meal consisting of sandwiches, scones with clotted cream and jam, and small cakes, served with tea." },
-        { "letter": "C", "text": "On this day, 26th December, shops hold big sales and many people go shopping. It is also a bank holiday in the UK." },
-        { "letter": "D", "text": "This annual race takes place on the River Thames between Oxford and Cambridge university rowing teams, usually in spring." },
-        { "letter": "E", "text": "This ceremony happens every morning outside Buckingham Palace, when one group of soldiers officially takes over guard duty from another." },
-        { "letter": "F", "text": "This is the night before 1st November when children dress in costumes, carve pumpkins, and go from door to door asking for sweets." },
-        { "letter": "G", "text": "This popular annual event is a large outdoor music festival held in Somerset. It features hundreds of bands on many stages over several days." },
-        { "letter": "H", "text": "This is a bank holiday in late August when a famous street carnival takes place in the Notting Hill area of London, celebrating Caribbean culture." }
+        { "letter": "A", "text": "Children search for chocolate eggs hidden in the garden" },
+        { "letter": "B", "text": "People light bonfires and set off fireworks" },
+        { "letter": "C", "text": "Families pull crackers at the dinner table" },
+        { "letter": "D", "text": "It falls on the 5th of November each year" },
+        { "letter": "E", "text": "A roast turkey is the traditional main dish" },
+        { "letter": "F", "text": "Hot cross buns are eaten during this holiday" },
+        { "letter": "G", "text": "It commemorates the failed Gunpowder Plot of 1605" },
+        { "letter": "H", "text": "Children hang stockings by the fireplace" },
+        { "letter": "I", "text": "People dress up in costumes and go trick-or-treating" },
+        { "letter": "J", "text": "The date changes every year as it follows the lunar calendar" },
+        { "letter": "K", "text": "People carve faces into pumpkins and display them" },
+        { "letter": "L", "text": "A figure called the Guy is burned on top of the fire" }
       ],
       "items": [
-        { "id": "1.1", "label": "Bonfire Night", "answer": "A" },
-        { "id": "1.2", "label": "Afternoon Tea", "answer": "B" },
-        { "id": "1.3", "label": "Boxing Day", "answer": "C" },
-        { "id": "1.4", "label": "The Boat Race", "answer": "D" },
-        { "id": "1.5", "label": "Changing of the Guard", "answer": "E" },
-        { "id": "1.6", "label": "Notting Hill Carnival", "answer": "H" }
-      ]
+        { "id": "Christmas", "answers": ["C", "E", "H"] },
+        { "id": "Bonfire Night", "answers": ["B", "D", "G"] },
+        { "id": "Easter", "answers": ["A", "F", "J"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

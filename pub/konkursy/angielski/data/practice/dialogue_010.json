@@ -1,48 +1,48 @@
 {
+  "title": "Dialogue: Mixed Social Situations",
   "type": "practice",
-  "title": "Mixed Idioms & Expressions",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "Don't count your _______ before they hatch. Wait until you actually get the offer.",
-          "options": ["eggs", "chickens", "birds"],
-          "answer": "B"
+          "stem": "X: Would you mind if I opened the window? It's very stuffy in here.\nY: _________",
+          "options": ["A) No, go ahead.", "B) Yes, go ahead.", "C) No, I'd rather you don't."],
+          "answer": "A"
         },
         {
           "id": "1.2",
-          "prompt": "We hit it _______ straight away — it felt like we'd known each other for years.",
-          "options": ["well", "off", "right"],
-          "answer": "B"
+          "stem": "X: I hear you've been promoted. That's wonderful news!\nY: _________",
+          "options": ["A) Thanks! I'm over the moon about it.", "B) Thanks! I'm over moon about it.", "C) Thanks! I'm on the moon about it."],
+          "answer": "A"
         },
         {
           "id": "1.3",
-          "prompt": "She passed her exams with flying _______ and got the highest marks in the class.",
-          "options": ["grades", "colours", "scores"],
-          "answer": "B"
+          "stem": "X: I'm a bit nervous about meeting your parents for the first time.\nY: _________",
+          "options": ["A) There's nothing to worry about. They'll love you.", "B) There's nothing to worry. They'll love you.", "C) There's nothing for worry about. They'll love you."],
+          "answer": "A"
         },
         {
           "id": "1.4",
-          "prompt": "The lecture went completely over my _______. I didn't understand a word.",
-          "options": ["head", "mind", "brain"],
+          "stem": "X: Could you keep an eye on my bag while I go to the counter?\nY: _________",
+          "options": ["A) Sure, no problem. Take your time.", "B) Sure, no problem. Take the time.", "C) Sure, no problem. Have your time."],
           "answer": "A"
         },
         {
           "id": "1.5",
-          "prompt": "They decided to bury the _______ and stop arguing after five years of not speaking.",
-          "options": ["sword", "axe", "hatchet"],
-          "answer": "C"
+          "stem": "X: It was lovely to see you again. We really must catch up more often.\nY: _________",
+          "options": ["A) Definitely. Let's not leave it so long next time.", "B) Definitely. Let's not leave it such long next time.", "C) Definitely. Let's don't leave it so long next time."],
+          "answer": "A"
         },
         {
           "id": "1.6",
-          "prompt": "The two brothers are like two _______ in a pod — they look and act exactly the same.",
-          "options": ["beans", "peas", "seeds"],
-          "answer": "B"
+          "stem": "X: I wonder if you could do me a favour.\nY: _________",
+          "options": ["A) That depends on what it is.", "B) That depends of what it is.", "C) That is depending on what it is."],
+          "answer": "A"
         }
       ]
     }

@@ -5,19 +5,27 @@
     {
       "id": "1",
       "type": "true_false_ni",
-      "points": 8,
-      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1-1.8) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information).",
-      "text": "THE AMAZON RAINFOREST\n\nThe Amazon Rainforest is the largest tropical rainforest on Earth, covering approximately 5.5 million square kilometres. It spreads across nine countries in South America, but the biggest part — about 60 percent — is located in Brazil. The forest is often called \"the lungs of the planet\" because its trees produce a huge amount of oxygen and absorb carbon dioxide from the atmosphere.\n\nThe Amazon is home to an incredible variety of life. Scientists estimate that the rainforest contains around 10 percent of all species found on Earth. There are approximately 40,000 plant species, 1,300 bird species, and more than 3,000 types of fish living in its rivers. New species are still being discovered regularly — researchers find an average of one new species every two days.\n\nThe Amazon River, which flows through the heart of the rainforest, is the second longest river in the world after the Nile. However, it carries more water than any other river — roughly 20 percent of all the fresh water that flows into the world's oceans comes from the Amazon. During the rainy season, parts of the river can be over 30 kilometres wide.\n\nIndigenous peoples have lived in the Amazon for thousands of years. Today, there are still about 400 different indigenous groups in the rainforest, and some of them have had almost no contact with the outside world. These communities have deep knowledge of the forest's plants and many of the medicines they use come directly from the rainforest.\n\nUnfortunately, the Amazon is under serious threat from deforestation. Every year, large areas of forest are cut down to make space for cattle farming and to grow crops such as soybeans. Between 2001 and 2020, the Amazon lost approximately 8 percent of its total area. Environmental organisations warn that if deforestation continues at this rate, it could have devastating effects on the global climate.",
+      "points": 3,
+      "instruction": "Przeczytaj ponizszy tekst. Zaznacz, ktore zdania (1.1-1.4) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie odpowiedz pelnym zdaniem na pytanie 1.5.",
+      "text": "THE AMAZON RAINFOREST\n\nThe Amazon rainforest is the largest tropical rainforest on Earth, covering an area of approximately 5.5 million square kilometres across nine South American countries. Brazil contains roughly 60 percent of the forest, but it also extends into Peru, Colombia, Venezuela, and several other nations. Scientists estimate that the Amazon is home to around 10 percent of all known species on the planet.\n\nThe forest plays a vital role in regulating the world's climate. The trees absorb enormous quantities of carbon dioxide from the atmosphere and release oxygen in return. For this reason, the Amazon is often referred to as 'the lungs of the Earth', although some scientists argue that this description is misleading because the forest also consumes much of the oxygen it produces through natural processes.\n\nThe Amazon River, which flows through the heart of the rainforest, is the second longest river in the world after the Nile. However, it carries more water than any other river — in fact, it accounts for roughly one-fifth of all the fresh water that flows into the world's oceans. The river is so wide in some places that during the rainy season, it is impossible to see from one bank to the other.\n\nDespite its importance, the Amazon faces serious threats. Deforestation, mainly driven by cattle ranching and soybean farming, has destroyed large areas of the forest. Between 2001 and 2020, Brazil lost approximately 26 million hectares of tree cover. While the Brazilian government has introduced measures to slow deforestation, enforcement remains a challenge, particularly in remote areas where illegal logging continues.\n\nIndigenous communities have lived in the Amazon for thousands of years and possess deep knowledge of the forest's plants and animals. Many conservation organisations now recognise that involving these communities in protection efforts is essential for the long-term survival of the rainforest.",
       "items": [
-        { "id": "1.1", "statement": "The Amazon Rainforest extends across nine South American nations.", "answer": "T" },
-        { "id": "1.2", "statement": "The Amazon Rainforest is called \"the lungs of the planet\" because of the oxygen its trees produce.", "answer": "T" },
-        { "id": "1.3", "statement": "Scientists have already identified all species living in the Amazon Rainforest.", "answer": "F" },
-        { "id": "1.4", "statement": "The Amazon River is the longest river in the world.", "answer": "F" },
-        { "id": "1.5", "statement": "The water temperature of the Amazon River stays above 25 degrees Celsius all year round.", "answer": "NI" },
-        { "id": "1.6", "statement": "Some indigenous groups in the Amazon have never had contact with modern civilisation.", "answer": "T" },
-        { "id": "1.7", "statement": "The Brazilian government has banned all logging in the Amazon Rainforest.", "answer": "NI" },
-        { "id": "1.8", "statement": "Cattle farming is one of the reasons for deforestation in the Amazon.", "answer": "T" }
-      ]
+        { "id": "1.1", "statement": "All scientists agree that calling the Amazon 'the lungs of the Earth' is an accurate description.", "answer": "F" },
+        { "id": "1.2", "statement": "The Amazon River carries a greater volume of water than any other river in the world.", "answer": "T" },
+        { "id": "1.3", "statement": "Brazil's anti-deforestation laws have been largely successful in stopping illegal logging.", "answer": "F" },
+        { "id": "1.4", "statement": "Indigenous communities have developed medicines from plants found in the Amazon.", "answer": "NI" }
+      ],
+      "scoringScheme": {
+        "4": 2,
+        "3": 1,
+        "0-2": 0
+      },
+      "openQuestion": {
+        "id": "1.5",
+        "question": "Why do conservation organisations believe that indigenous communities are important for protecting the Amazon?",
+        "modelAnswer": "Indigenous communities have lived in the Amazon for thousands of years and have deep knowledge of the forest's plants and animals, which makes their involvement essential for the long-term survival of the rainforest.",
+        "points": 1,
+        "skipped": true
+      }
     }
   ]
 }

@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Mixed Practice",
   "type": "practice",
-  "title": "Mixed Practice",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "She's the girl _______ father is a famous scientist.", "options": ["who", "whose", "which"], "answer": "B" },
-        { "id": "1.2", "stem": "I haven't seen him _______ last Christmas.", "options": ["for", "from", "since"], "answer": "C" },
-        { "id": "1.3", "stem": "He ran fast _______ to catch the bus.", "options": ["enough", "too", "such"], "answer": "A" },
-        { "id": "1.4", "stem": "They _______ have arrived by now — the flight landed an hour ago.", "options": ["can", "should", "need"], "answer": "B" },
-        { "id": "1.5", "stem": "This is _______ film I've ever seen.", "options": ["the worst", "worse", "the worse"], "answer": "A" },
-        { "id": "1.6", "stem": "She made her children _______ their rooms before going out.", "options": ["to tidy", "tidying", "tidy"], "answer": "C" },
-        { "id": "1.7", "stem": "I _______ rather go by train than by car.", "options": ["had", "would", "will"], "answer": "B" },
-        { "id": "1.8", "stem": "He's been working here _______ five years.", "options": ["since", "for", "during"], "answer": "B" },
-        { "id": "1.9", "stem": "The cake smells _______. Can I have a piece?", "options": ["deliciously", "delicious", "delightful"], "answer": "B" },
-        { "id": "1.10", "stem": "_______ of us knew the answer, so the teacher explained it again.", "options": ["Neither", "None", "Both"], "answer": "B" }
+        {
+          "id": "1.1",
+          "stem": "By the time the rescue team arrived, the hikers _________ for almost forty-eight hours without food.",
+          "options": ["A) had been waiting", "B) were waiting", "C) have waited"],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "stem": "\"Did you enjoy the exhibition?\" -- \"To be honest, it wasn't worth _________ all the way across town for.\"",
+          "options": ["A) to travel", "B) travelling", "C) travel"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "The building, _________ was designed by a famous architect in the 1920s, is now a protected monument.",
+          "options": ["A) that", "B) what", "C) which"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "Seldom _________ such a moving performance in all my years of attending the theatre.",
+          "options": ["A) I have seen", "B) have I seen", "C) I saw"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "\"Why didn't you call for help?\" -- \"I _________, but my phone had run out of battery.\"",
+          "options": ["A) would", "B) would have", "C) had"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "The more carefully you plan the experiment, the _________ reliable your results will be.",
+          "options": ["A) most", "B) more", "C) much"],
+          "answer": "B"
+        }
       ]
     }
   ]

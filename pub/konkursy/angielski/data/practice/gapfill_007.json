@@ -1,30 +1,30 @@
 {
+  "title": "Gap Fill: The Human Brain",
   "type": "practice",
-  "title": "Extreme Weather",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "EXTREME WEATHER\n\nOur planet's atmosphere is capable of producing weather events of staggering power and violence. From tornadoes that can tear apart entire towns in seconds to blizzards that bury cities under metres of snow, extreme weather has shaped human history and continues to pose one of the greatest natural threats to life on Earth. 1. _________ Understanding these phenomena is therefore more important than ever.\n\nTornadoes are among the most violent weather events on Earth. They form when warm, moist air from the Gulf of Mexico collides with cold, dry air moving south from Canada over the central United States. 2. _________ The most powerful tornadoes, classified as EF5 on the Enhanced Fujita scale, can produce wind speeds exceeding 300 kilometres per hour.\n\nHurricanes, also known as typhoons or cyclones in different parts of the world, are enormous rotating storm systems that form over warm tropical oceans. 3. _________ A single hurricane can release more energy in one day than all the nuclear weapons ever built.\n\nAt the other extreme, droughts can last for years and devastate vast areas. Unlike a sudden storm, a drought develops slowly, but its effects can be just as catastrophic. 4. _________ The 1930s Dust Bowl in the United States, caused by severe drought combined with poor farming practices, destroyed millions of acres of farmland and forced hundreds of thousands of people to leave their homes.\n\nScientists are increasingly linking the rise in extreme weather events to climate change. As global temperatures increase, the atmosphere holds more moisture and energy, which fuels more powerful storms. 5. _________ Heat waves that were once rare are becoming common, and record temperatures are being broken in countries around the world.\n\nPreparing for extreme weather requires international cooperation, investment in early warning systems, and better construction standards. 6. _________ Even a few extra hours of warning can give people time to evacuate and save thousands of lives.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "THE HUMAN BRAIN\n\nThe human brain, weighing roughly 1.4 kilograms and containing approximately 86 billion neurons, is the most complex structure known to science. Each neuron can form thousands of connections with other neurons, producing a network whose total number of pathways exceeds the number of stars in the Milky Way. _________ (1.1) Despite extraordinary advances in neuroscience, we are still far from understanding how this three-pound organ generates consciousness, emotion, and thought.\n\nDifferent regions of the brain are responsible for distinct functions. The cerebral cortex, the deeply folded outer layer, handles reasoning, language, and voluntary movement. Beneath it, the hippocampus is essential for forming new memories, while the amygdala processes emotional responses such as fear and pleasure. _________ (1.2) Damage to even a small area can produce dramatic changes in personality, memory, or perception.\n\nOne of the brain's most remarkable properties is neuroplasticity: its ability to reorganise itself by forming new neural connections throughout life. _________ (1.3) Although this capacity diminishes with age, it never disappears entirely, which is why stroke patients can relearn lost abilities through intensive rehabilitation.\n\nSleep plays a far more active role in brain function than scientists once believed. During sleep, the brain replays and consolidates the day's experiences, transferring information from short-term to long-term storage. _________ (1.4) Chronic sleep deprivation has been linked not only to impaired concentration and memory but also to an increased risk of neurodegenerative diseases such as Alzheimer's.\n\nFor much of history, reason and emotion were considered separate, even opposing forces. _________ (1.5) Patients with damage to the brain's emotional centres often struggle to make even simple decisions, demonstrating that feelings are not obstacles to rational thought but essential components of it.\n\nModern brain-imaging techniques such as functional MRI have revolutionised our understanding by allowing researchers to observe the brain in action. _________ (1.6) The ultimate goal of mapping every connection in the human brain, a project known as the connectome, remains one of the most ambitious undertakings in the history of science.",
       "options": [
-        { "letter": "A", "text": "These conditions create a rotating column of air known as a supercell thunderstorm, from which a tornado can descend." },
-        { "letter": "B", "text": "They draw energy from the warm ocean surface and can grow to cover an area larger than many countries." },
-        { "letter": "C", "text": "Crop failures lead to food shortages, rising prices, and, in the worst cases, widespread famine." },
-        { "letter": "D", "text": "Climate scientists predict that extreme weather events will become both more frequent and more intense in the coming decades." },
-        { "letter": "E", "text": "Modern meteorological technology, including satellites and computer models, has dramatically improved our ability to forecast dangerous storms." },
-        { "letter": "F", "text": "Scientists who study the relationship between climate change and extreme weather are called climate attribution researchers." },
-        { "letter": "G", "text": "Sea levels are also rising, increasing the risk of flooding for hundreds of millions of people living in coastal areas." },
-        { "letter": "H", "text": "The economic damage caused by extreme weather runs into hundreds of billions of dollars every year globally." }
+        { "letter": "A", "text": "It is this staggering complexity that makes the brain both the most studied and the least understood of all human organs." },
+        { "letter": "B", "text": "These regions do not operate in isolation but work together through intricate circuits, each contributing to the whole." },
+        { "letter": "C", "text": "In children, the brain forms millions of new synaptic connections daily, sculpted by experience into the neural architecture that will serve them for life." },
+        { "letter": "D", "text": "It also activates a waste-clearance system called the glymphatic pathway, which flushes out toxic proteins that accumulate during waking hours." },
+        { "letter": "E", "text": "Modern neuroscience has overturned this view, revealing that the two are deeply intertwined and mutually dependent." },
+        { "letter": "F", "text": "Yet these scans capture activity at a scale far coarser than individual neurons, meaning that much of what the brain does still occurs below the resolution of our instruments." },
+        { "letter": "G", "text": "Artificial neural networks, inspired by the architecture of the biological brain, now power technologies ranging from language translation to image recognition." },
+        { "letter": "H", "text": "The two hemispheres of the brain are connected by a thick bundle of nerve fibres called the corpus callosum, which allows them to share information." }
       ],
       "items": [
-        { "id": "1.1", "answer": "D" },
-        { "id": "1.2", "answer": "A" },
-        { "id": "1.3", "answer": "B" },
-        { "id": "1.4", "answer": "C" },
-        { "id": "1.5", "answer": "G" },
-        { "id": "1.6", "answer": "E" }
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
+        { "id": "1.6", "answer": "F" }
       ]
     }
   ]

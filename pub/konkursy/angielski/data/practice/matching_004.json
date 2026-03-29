@@ -1,31 +1,37 @@
 {
+  "title": "Matching: Canada, South Africa & India",
   "type": "practice",
-  "title": "English-Speaking Countries",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj nazwy krajów anglojęzycznych (1–6) do opisów słynnych miejsc lub zabytków w tych krajach (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "This country is home to Uluru, a massive red sandstone rock sacred to the Aboriginal people, located in the Northern Territory." },
-        { "letter": "B", "text": "The Statue of Liberty, a gift from France, stands on an island in the harbour of its largest city and is a symbol of freedom." },
-        { "letter": "C", "text": "Stonehenge, a prehistoric circle of giant standing stones, can be found on Salisbury Plain in this country." },
-        { "letter": "D", "text": "Table Mountain, a flat-topped mountain overlooking a major coastal city, is one of the most famous landmarks in this country." },
-        { "letter": "E", "text": "The CN Tower in Toronto was once the world's tallest free-standing structure and dominates the skyline of this country's most populous city." },
-        { "letter": "F", "text": "The Sydney Opera House, with its distinctive sail-shaped roofs, is located on a harbour in this country's largest city." },
-        { "letter": "G", "text": "The Giant's Causeway, made of thousands of hexagonal basalt columns, is a natural wonder on the northern coast of this island." },
-        { "letter": "H", "text": "Milford Sound, a dramatic fjord surrounded by steep cliffs and waterfalls, is one of the most visited natural sites in this country." }
+        { "letter": "A", "text": "The maple leaf appears on this country's national flag" },
+        { "letter": "B", "text": "Table Mountain overlooks Cape Town in this country" },
+        { "letter": "C", "text": "The Taj Mahal is a famous white marble monument in this country" },
+        { "letter": "D", "text": "Ottawa is the capital city of this country" },
+        { "letter": "E", "text": "Nelson Mandela was the first democratic president of this country" },
+        { "letter": "F", "text": "The Ganges is considered a sacred river in this country" },
+        { "letter": "G", "text": "Niagara Falls is partly located in this country" },
+        { "letter": "H", "text": "Kruger National Park is a famous wildlife reserve in this country" },
+        { "letter": "I", "text": "Bollywood is the largest film industry in this country" },
+        { "letter": "J", "text": "The kiwi is the national bird of this country" },
+        { "letter": "K", "text": "The didgeridoo is a traditional instrument from this country" },
+        { "letter": "L", "text": "Haggis is a traditional dish of this country" }
       ],
       "items": [
-        { "id": "1.1", "label": "Australia", "answer": "A" },
-        { "id": "1.2", "label": "United States", "answer": "B" },
-        { "id": "1.3", "label": "United Kingdom", "answer": "C" },
-        { "id": "1.4", "label": "South Africa", "answer": "D" },
-        { "id": "1.5", "label": "Canada", "answer": "E" },
-        { "id": "1.6", "label": "New Zealand", "answer": "H" }
-      ]
+        { "id": "Canada", "answers": ["A", "D", "G"] },
+        { "id": "South Africa", "answers": ["B", "E", "H"] },
+        { "id": "India", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

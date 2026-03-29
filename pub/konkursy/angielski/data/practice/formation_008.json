@@ -1,24 +1,23 @@
 {
-  "title": "Word Formation: Travel and Tourism",
+  "title": "Word Formation: Exploring the World",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["EXCITE", "ACCOMMODATE", "COMFORT", "ADVENTURE", "ATTRACT", "DEPART", "FORGET", "TOUR", "INFORM", "RELY"],
-      "title": "EXPLORING THE WORLD",
-      "text": "Travelling to new places is one of the most 1.1. ________ experiences you can have. Before your 1.2. ________, it is important to gather useful 1.3. ________ about your destination. Many 1.4. ________ visit famous cities like Paris, Rome, and London every summer. Finding good 1.5. ________ is essential for a pleasant stay. A 1.6. ________ hotel room with a nice view makes any holiday better. Popular 1.7. ________ such as beautiful beaches and historic castles draw millions of visitors each year. For those who love 1.8. ________ holidays, activities like hiking, diving, and climbing are available in many countries. Every trip creates unforgettable memories.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["ACCOMMODATE", "HOSPITAL", "BUREAU", "ACQUAINT", "TREACHERY", "BREATHE", "RENOVATE", "PICTURE", "DISORIENTATE", "INAUGURATE"],
+      "text": "Travelling to remote destinations offers 1.1. _________ (1.1) scenery that no photograph can fully capture. Before setting off, experienced travellers recommend getting 1.2. _________ (1.2) with local customs and traditions to avoid cultural misunderstandings. Finding suitable 1.3. _________ (1.3) can be challenging in less touristy areas, though the 1.4. _________ (1.4) of local people often compensates for basic facilities. Many historic hotels have undergone extensive 1.5. _________ (1.5) to meet modern standards while preserving their original charm. Mountain trails can be 1.6. _________ (1.6) for inexperienced hikers, particularly when fog causes complete 1.7. _________ (1.7). The 1.8. _________ (1.8) of new travel routes between previously isolated regions has opened up exciting possibilities for adventurous explorers.",
       "items": [
-        { "id": "1.1", "answer": "exciting" },
-        { "id": "1.2", "answer": "departure" },
-        { "id": "1.3", "answer": "information" },
-        { "id": "1.4", "answer": "tourists" },
-        { "id": "1.5", "answer": "accommodation" },
-        { "id": "1.6", "answer": "comfortable" },
-        { "id": "1.7", "answer": "attractions" },
-        { "id": "1.8", "answer": "adventurous" }
+        { "id": "1.1", "baseWord": "BREATHE", "answer": "breathtaking" },
+        { "id": "1.2", "baseWord": "ACQUAINT", "answer": "acquainted" },
+        { "id": "1.3", "baseWord": "ACCOMMODATE", "answer": "accommodation" },
+        { "id": "1.4", "baseWord": "HOSPITAL", "answer": "hospitality" },
+        { "id": "1.5", "baseWord": "RENOVATE", "answer": "renovations" },
+        { "id": "1.6", "baseWord": "TREACHERY", "answer": "treacherous" },
+        { "id": "1.7", "baseWord": "DISORIENTATE", "answer": "disorientation" },
+        { "id": "1.8", "baseWord": "INAUGURATE", "answer": "inauguration" }
       ]
     }
   ]

@@ -1,31 +1,37 @@
 {
+  "title": "Matching: Wales, England & Northern Ireland",
   "type": "practice",
-  "title": "Musical Instruments",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj nazwy instrumentów muzycznych (1–6) do ich opisów (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "This large keyboard instrument produces sound when felt-covered hammers strike metal strings inside a wooden case. It has 88 keys." },
-        { "letter": "B", "text": "This string instrument is held under the chin and played with a bow. It is the smallest and highest-pitched in its family." },
-        { "letter": "C", "text": "This brass instrument has a wide bell and three valves. It is often used to play fanfares and is central to jazz music." },
-        { "letter": "D", "text": "This woodwind instrument is a long metal tube with keys. The player blows across a hole near one end to produce sound." },
-        { "letter": "E", "text": "This percussion instrument consists of a set of drums and cymbals played by one person using sticks and foot pedals." },
-        { "letter": "F", "text": "This plucked string instrument has a round or figure-of-eight shaped body with a long neck. It usually has six strings." },
-        { "letter": "G", "text": "This large string instrument is played sitting down, held between the knees. It has a deep, rich sound, lower than a violin." },
-        { "letter": "H", "text": "This wind instrument is a long curved tube that produces a deep, low sound. It is the largest instrument in the brass family." }
+        { "letter": "A", "text": "The daffodil is one of its national flowers" },
+        { "letter": "B", "text": "Home to the Giant's Causeway" },
+        { "letter": "C", "text": "Cardiff is its capital city" },
+        { "letter": "D", "text": "The red rose is its national flower" },
+        { "letter": "E", "text": "Belfast is its capital city" },
+        { "letter": "F", "text": "Home to Stonehenge and Big Ben" },
+        { "letter": "G", "text": "Edinburgh is its capital city" },
+        { "letter": "H", "text": "Its flag features a red dragon" },
+        { "letter": "I", "text": "The Highland Games are held here every year" },
+        { "letter": "J", "text": "Home to the tradition of St Patrick's Day parades" },
+        { "letter": "K", "text": "The thistle is its national emblem" },
+        { "letter": "L", "text": "The Three Lions appear on its football badge" }
       ],
       "items": [
-        { "id": "1.1", "label": "Piano", "answer": "A" },
-        { "id": "1.2", "label": "Violin", "answer": "B" },
-        { "id": "1.3", "label": "Trumpet", "answer": "C" },
-        { "id": "1.4", "label": "Flute", "answer": "D" },
-        { "id": "1.5", "label": "Drum kit", "answer": "E" },
-        { "id": "1.6", "label": "Guitar", "answer": "F" }
-      ]
+        { "id": "Wales", "answers": ["A", "C", "H"] },
+        { "id": "England", "answers": ["D", "F", "L"] },
+        { "id": "Northern Ireland", "answers": ["B", "E", "J"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

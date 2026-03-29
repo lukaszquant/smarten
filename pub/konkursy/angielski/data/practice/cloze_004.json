@@ -5,22 +5,29 @@
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "VOLCANOES",
-      "text": "A volcano is an opening in the Earth's surface 1.1. _________ which hot melted rock, called magma, escapes from deep underground. When magma reaches the surface, 1.2. _________ is called lava. There are about 1,500 active volcanoes 1.3. _________ the world, and roughly 80 of them are found under the ocean. Volcanoes can be very dangerous, 1.4. _________ they also have some benefits. For example, volcanic soil is extremely good 1.5. _________ farming because it contains 1.6. _________ many useful minerals. Some countries, 1.7. _________ as Iceland, even use heat from volcanoes to produce electricity. The most famous volcanic eruption in history 1.8. _________ probably the one that destroyed the Roman city of Pompeii in 79 AD. Scientists 1.9. _________ study volcanoes are called volcanologists, and their work helps us understand when a volcano 1.10. _________ erupt next.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Volcanoes are among the most powerful and destructive forces of _________ (1.1), yet they have also played a crucial role in shaping the world as we know it. A volcanic eruption occurs when pressure builds up deep beneath the Earth's _________ (1.2), forcing molten rock, known as magma, to rise to the surface. Once magma has been released, it is _________ (1.3) to as lava, and it can reach temperatures in _________ (1.4) of 1,000 degrees Celsius. The vast _________ (1.5) of the world's active volcanoes are located along the so-called Ring of Fire, a horseshoe-shaped zone that runs around the edges of the Pacific Ocean. Although eruptions can cause widespread devastation, volcanoes are not _________ (1.6) destructive. Volcanic ash enriches the surrounding soil, which is _________ (1.7) farmland near volcanoes tends to be exceptionally fertile. _________ (1.8), geothermal energy harnessed from volcanic activity provides a clean source of power in countries such _________ (1.9) Iceland and New Zealand. Scientists who specialise in studying volcanoes, called volcanologists, work tirelessly to develop better methods of predicting eruptions so that lives can be saved well in _________ (1.10).",
       "items": [
-        { "id": "1.1", "answer": "through" },
-        { "id": "1.2", "answer": "it" },
-        { "id": "1.3", "answer": ["in", "around"] },
-        { "id": "1.4", "answer": "but" },
-        { "id": "1.5", "answer": "for" },
-        { "id": "1.6", "answer": "so" },
-        { "id": "1.7", "answer": "such" },
-        { "id": "1.8", "answer": ["was", "is"] },
-        { "id": "1.9", "answer": ["who", "that"] },
-        { "id": "1.10", "answer": ["might", "may", "will", "could"] }
-      ]
+        { "id": "1.1", "answer": "nature" },
+        { "id": "1.2", "answer": ["surface", "crust"] },
+        { "id": "1.3", "answer": "referred" },
+        { "id": "1.4", "answer": "excess" },
+        { "id": "1.5", "answer": "majority" },
+        { "id": "1.6", "answer": ["entirely", "purely", "solely"] },
+        { "id": "1.7", "answer": "why" },
+        { "id": "1.8", "answer": ["Furthermore", "Moreover", "Additionally"] },
+        { "id": "1.9", "answer": "as" },
+        { "id": "1.10", "answer": "advance" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

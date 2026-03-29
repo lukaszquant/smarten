@@ -1,24 +1,23 @@
 {
-  "title": "Word Formation: Sports Champions",
+  "title": "Word Formation: The Road to Victory",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["COMPETE", "TRAIN", "ACHIEVE", "STRONG", "CHAMPION", "DEFEAT", "PROFESSION", "ENTHUSE", "INJURE", "BELIEVE"],
-      "title": "THE ROAD TO VICTORY",
-      "text": "Becoming a sports champion requires years of hard work and dedication. Every 1.1. ________ athlete follows a strict daily routine. Their 1.2. ________ begins early in the morning and often lasts for many hours. The biggest 1.3. ________ in any sport is winning an Olympic gold medal. Athletes need both physical 1.4. ________ and mental focus to succeed. During important 1.5. ________, thousands of fans cheer with great 1.6. ________. Sometimes players suffer painful 1.7. ________ that keep them away from the game for months. However, true champions never lose their 1.8. ________ in themselves and always come back stronger than before.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["ACHIEVE", "TRIUMPH", "PERSEVERE", "EXHAUST", "ELIMINATE", "PREDICT", "RELENT", "DEMORALISE", "SPORTSMANSHIP", "ENDURE"],
+      "text": "The path to sporting greatness demands 1.1. _________ (1.1) dedication and sacrifice. Athletes often push themselves through 1.2. _________ (1.2) training sessions that test the limits of human 1.3. _________ (1.3). The greatest 1.4. _________ (1.4) in sport come not from raw talent alone but from years of disciplined preparation. During major tournaments, the 1.5. _________ (1.5) rounds can be particularly nerve-wracking for competitors and fans alike. A single defeat can be deeply 1.6. _________ (1.6), yet true champions show remarkable 1.7. _________ (1.7) in bouncing back from setbacks. What makes sport truly captivating is its 1.8. _________ (1.8) nature, where the outcome is never certain until the final whistle.",
       "items": [
-        { "id": "1.1", "answer": "professional" },
-        { "id": "1.2", "answer": "training" },
-        { "id": "1.3", "answer": "achievement" },
-        { "id": "1.4", "answer": "strength" },
-        { "id": "1.5", "answer": "competitions" },
-        { "id": "1.6", "answer": "enthusiasm" },
-        { "id": "1.7", "answer": "injuries" },
-        { "id": "1.8", "answer": "belief" }
+        { "id": "1.1", "baseWord": "RELENT", "answer": "relentless" },
+        { "id": "1.2", "baseWord": "EXHAUST", "answer": "exhausting" },
+        { "id": "1.3", "baseWord": "ENDURE", "answer": "endurance" },
+        { "id": "1.4", "baseWord": "ACHIEVE", "answer": "achievements" },
+        { "id": "1.5", "baseWord": "ELIMINATE", "answer": "elimination" },
+        { "id": "1.6", "baseWord": "DEMORALISE", "answer": "demoralising" },
+        { "id": "1.7", "baseWord": "PERSEVERE", "answer": "perseverance" },
+        { "id": "1.8", "baseWord": "PREDICT", "answer": "unpredictable" }
       ]
     }
   ]

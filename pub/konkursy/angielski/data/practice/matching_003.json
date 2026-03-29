@@ -1,31 +1,37 @@
 {
+  "title": "Matching: Scotland, Ireland & New Zealand",
   "type": "practice",
-  "title": "Literary Characters",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj imiona postaci literackich (1–6) do tytułów książek, w których się pojawiają (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "Alice's Adventures in Wonderland by Lewis Carroll" },
-        { "letter": "B", "text": "The Adventures of Tom Sawyer by Mark Twain" },
-        { "letter": "C", "text": "Robinson Crusoe by Daniel Defoe" },
-        { "letter": "D", "text": "Treasure Island by Robert Louis Stevenson" },
-        { "letter": "E", "text": "Great Expectations by Charles Dickens" },
-        { "letter": "F", "text": "The Jungle Book by Rudyard Kipling" },
-        { "letter": "G", "text": "The Call of the Wild by Jack London" },
-        { "letter": "H", "text": "Gulliver's Travels by Jonathan Swift" }
+        { "letter": "A", "text": "The thistle is the national flower of this country" },
+        { "letter": "B", "text": "The shamrock is the traditional symbol of this country" },
+        { "letter": "C", "text": "The kiwi bird is the national symbol of this country" },
+        { "letter": "D", "text": "Loch Ness is a famous lake known for its legendary monster" },
+        { "letter": "E", "text": "St Patrick's Day on 17 March is celebrated in this country" },
+        { "letter": "F", "text": "The haka is a traditional Maori war dance from this country" },
+        { "letter": "G", "text": "Edinburgh is the capital city of this country" },
+        { "letter": "H", "text": "The Cliffs of Moher are a famous coastal landmark here" },
+        { "letter": "I", "text": "Milford Sound is a spectacular fjord in this country" },
+        { "letter": "J", "text": "The maple leaf is the national symbol of this country" },
+        { "letter": "K", "text": "The leek is the national emblem of this country" },
+        { "letter": "L", "text": "The bald eagle appears on the Great Seal of this country" }
       ],
       "items": [
-        { "id": "1.1", "label": "Alice", "answer": "A" },
-        { "id": "1.2", "label": "Tom Sawyer", "answer": "B" },
-        { "id": "1.3", "label": "Robinson Crusoe", "answer": "C" },
-        { "id": "1.4", "label": "Jim Hawkins", "answer": "D" },
-        { "id": "1.5", "label": "Mowgli", "answer": "F" },
-        { "id": "1.6", "label": "Lemuel Gulliver", "answer": "H" }
-      ]
+        { "id": "Scotland", "answers": ["A", "D", "G"] },
+        { "id": "Ireland", "answers": ["B", "E", "H"] },
+        { "id": "New Zealand", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

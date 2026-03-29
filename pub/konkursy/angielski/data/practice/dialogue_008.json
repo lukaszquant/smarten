@@ -1,48 +1,48 @@
 {
+  "title": "Dialogue: School & Study",
   "type": "practice",
-  "title": "Work & Money Expressions",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "He started his own business from _______ with almost no money and became very successful.",
-          "options": ["zero", "scratch", "nothing"],
-          "answer": "B"
-        },
-        {
-          "id": "1.2",
-          "prompt": "She's always burning the midnight _______ to get her reports finished on time.",
-          "options": ["candle", "oil", "lamp"],
-          "answer": "B"
-        },
-        {
-          "id": "1.3",
-          "prompt": "The company decided to _______ corners to cut costs, but the product quality suffered.",
-          "options": ["cut", "trim", "shave"],
+          "stem": "X: Have you finished your history essay yet?\nY: _________",
+          "options": ["A) Not yet. I've been working on it all weekend, though.", "B) Not yet. I work on it all weekend, though.", "C) Not yet. I'm working on it all weekend, though."],
           "answer": "A"
         },
         {
+          "id": "1.2",
+          "stem": "X: I'm finding the chemistry course really hard to keep up with.\nY: _________",
+          "options": ["A) Have you thought about joining the study group?", "B) Have you thought to join the study group?", "C) Did you think about joining the study group?"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: I can't believe I failed the maths test again.\nY: _________",
+          "options": ["A) Cheer up. You can't have revised hard enough, but you'll do better next time.", "B) Cheer up. You can't have revised hardly enough, but you'll do better next time.", "C) Cheer up. You may not have revised hard enough, but you'll do better next time."],
+          "answer": "C"
+        },
+        {
           "id": "1.4",
-          "prompt": "He got the job because he knew someone on the inside. It really pays to know the right _______ .",
-          "options": ["faces", "people", "contacts"],
-          "answer": "B"
+          "stem": "X: The teacher said we need to hand in our projects by Friday.\nY: _________",
+          "options": ["A) I know. It's about time we got started.", "B) I know. It's about time we get started.", "C) I know. It's about time we start."],
+          "answer": "A"
         },
         {
           "id": "1.5",
-          "prompt": "The new project is really taking _______ — we've already signed three major clients.",
-          "options": ["flight", "off", "shape"],
-          "answer": "B"
+          "stem": "X: Do you think I should switch from physics to biology?\nY: _________",
+          "options": ["A) It depends on what career you're hoping to pursue.", "B) It depends on what career you hope pursuing.", "C) It depends what career you're hoping to pursue."],
+          "answer": "A"
         },
         {
           "id": "1.6",
-          "prompt": "Money doesn't grow on _______, you know. We have to be careful how we spend it.",
-          "options": ["branches", "trees", "plants"],
-          "answer": "B"
+          "stem": "X: I've just been offered a place at the University of Edinburgh!\nY: _________",
+          "options": ["A) Congratulations! You should be really proud of yourself.", "B) Congratulations! You should be really proud of you.", "C) Congratulations! You ought to be really proud of yourself."],
+          "answer": "A"
         }
       ]
     }

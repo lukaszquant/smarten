@@ -1,23 +1,49 @@
 {
+  "title": "Multiple Choice: Prepositions & Collocations",
   "type": "practice",
-  "title": "Prepositions & Collocations",
   "tasks": [
     {
       "id": "1",
       "type": "multiple_choice",
-      "points": 10,
-      "instruction": "Uzupełnij poniższe zdania (1.1.–1.10.), wybierając właściwy wariant odpowiedzi. Zakreśl literę A, B albo C.",
+      "points": 6,
+      "instruction": "Wybierz poprawna odpowiedz A, B lub C.",
       "items": [
-        { "id": "1.1", "stem": "She is very good _______ playing the piano.", "options": ["in", "at", "with"], "answer": "B" },
-        { "id": "1.2", "stem": "I'm not interested _______ watching horror films.", "options": ["at", "for", "in"], "answer": "C" },
-        { "id": "1.3", "stem": "He apologised _______ being late to the meeting.", "options": ["for", "about", "of"], "answer": "A" },
-        { "id": "1.4", "stem": "The town is famous _______ its beautiful castle.", "options": ["of", "for", "with"], "answer": "B" },
-        { "id": "1.5", "stem": "We arrived _______ the airport just in time.", "options": ["to", "in", "at"], "answer": "C" },
-        { "id": "1.6", "stem": "She has been waiting _______ the bus for half an hour.", "options": ["for", "on", "to"], "answer": "A" },
-        { "id": "1.7", "stem": "He depends _______ his parents for financial support.", "options": ["from", "on", "at"], "answer": "B" },
-        { "id": "1.8", "stem": "I'm fed up _______ doing the same thing every day.", "options": ["of", "about", "with"], "answer": "C" },
-        { "id": "1.9", "stem": "She complained _______ the noise from the neighbours.", "options": ["about", "for", "on"], "answer": "A" },
-        { "id": "1.10", "stem": "The book consists _______ twelve chapters.", "options": ["from", "of", "in"], "answer": "B" }
+        {
+          "id": "1.1",
+          "stem": "The success of the project depends entirely _________ the amount of funding we receive.",
+          "options": ["A) from", "B) on", "C) with"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "She finally succeeded _________ persuading her parents to let her study abroad.",
+          "options": ["A) in", "B) at", "C) with"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "Teacher: What caused the experiment to fail? Student: The mistake resulted _________ a miscalculation in the formula.",
+          "options": ["A) in", "B) from", "C) by"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "The new medicine has proved to be very effective _________ treating the disease.",
+          "options": ["A) for", "B) at", "C) in"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "Anna: Why did they punish him? Ben: He was accused _________ cheating during the exam.",
+          "options": ["A) for", "B) of", "C) with"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "The police are looking into a case that bears a strong resemblance _________ one from last year.",
+          "options": ["A) with", "B) of", "C) to"],
+          "answer": "C"
+        }
       ]
     }
   ]

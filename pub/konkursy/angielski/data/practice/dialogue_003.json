@@ -1,48 +1,48 @@
 {
+  "title": "Dialogue: Giving Advice",
   "type": "practice",
-  "title": "Everyday Expressions",
   "tasks": [
     {
       "id": "1",
       "type": "dialogue_choice",
       "points": 6,
-      "instruction": "Uzupełnij poniższe wypowiedzi (1.1.–1.6.), wybierając spośród podanych możliwości. Zakreśl literę A, B albo C.",
+      "instruction": "Uzupelnij kazdy z ponizszych dialogow (1.1-1.6), wybierajac odpowiedz A, B lub C.",
       "items": [
         {
           "id": "1.1",
-          "prompt": "A: I'm not sure I can come to the party tonight. B: Oh, come on! Don't let us _______. We're counting on you.",
-          "options": ["down", "off", "away"],
+          "stem": "X: I keep getting headaches when I study.\nY: _________",
+          "options": ["A) If I were you, I'd get my eyes tested.", "B) If I was you, I'll get my eyes tested.", "C) If I am you, I'd get my eyes tested."],
           "answer": "A"
         },
         {
           "id": "1.2",
-          "prompt": "A: How did the exam go? B: It was a _______ of cake. I finished in twenty minutes.",
-          "options": ["slice", "piece", "bit"],
+          "stem": "X: I'm not sure whether to take the job offer in Berlin.\nY: _________",
+          "options": ["A) You'd better to think it over carefully.", "B) You'd better think it over carefully.", "C) You'd better thinking it over carefully."],
           "answer": "B"
         },
         {
           "id": "1.3",
-          "prompt": "A: Should I tell him the truth? B: Yes, it's better to _______ the bullet and get it over with.",
-          "options": ["chew", "bite", "swallow"],
-          "answer": "B"
+          "stem": "X: My neighbour plays loud music every night. What should I do?\nY: _________",
+          "options": ["A) Why don't you have a word with him about it?", "B) Why you don't have a word with him about it?", "C) Why not you have a word with him about it?"],
+          "answer": "A"
         },
         {
           "id": "1.4",
-          "prompt": "A: We need to make a decision soon. B: Let's not jump the _______. We still have time to think.",
-          "options": ["fence", "line", "gun"],
-          "answer": "C"
+          "stem": "X: I've been feeling really run-down lately.\nY: _________",
+          "options": ["A) You should have taken up a sport.", "B) You should take up a sport.", "C) You should to take up a sport."],
+          "answer": "B"
         },
         {
           "id": "1.5",
-          "prompt": "A: What do you think about moving abroad? B: To be _______, I have mixed feelings about it.",
-          "options": ["blunt", "honest", "frank"],
-          "answer": "C"
+          "stem": "X: I wish I hadn't spent all my savings on that car.\nY: _________",
+          "options": ["A) There's no point in crying over spilt milk.", "B) There's no point to cry over spilt milk.", "C) There's no point of crying over spilt milk."],
+          "answer": "A"
         },
         {
           "id": "1.6",
-          "prompt": "A: I can't solve this puzzle. B: Don't worry, once you see the trick, it'll ring a _______ and become obvious.",
-          "options": ["bell", "tone", "note"],
-          "answer": "A"
+          "stem": "X: I'm thinking of confronting my boss about the unfair schedule.\nY: _________",
+          "options": ["A) I wouldn't do that if I'd be you.", "B) I wouldn't do that if I were you.", "C) I won't do that if I were you."],
+          "answer": "B"
         }
       ]
     }

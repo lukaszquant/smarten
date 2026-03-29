@@ -1,24 +1,23 @@
 {
-  "title": "Word Formation: Animals and Wildlife",
+  "title": "Word Formation: Saving Our Wildlife",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["DANGER", "NATURE", "PROTECT", "HUNT", "POLLUTE", "BEAUTY", "SURVIVE", "DISAPPEAR", "HOME", "POWER"],
-      "title": "SAVING OUR WILDLIFE",
-      "text": "Many animal species are in 1.1. ________ because of human activity. The destruction of 1.2. ________ habitats forces animals to leave their homes. 1.3. ________ of rivers and forests makes it harder for wildlife to find clean water and food. Some 1.4. ________ kill rare animals illegally, which is a serious crime. Without proper 1.5. ________, many 1.6. ________ creatures may vanish forever. The 1.7. ________ of entire species would be a tragedy for our planet. Fortunately, many organisations work 1.8. ________ to save endangered animals. National parks and nature reserves give wildlife a safe place to live and grow.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["DANGER", "FOREST", "INDUSTRY", "REVERSE", "CONSERVE", "AUTHORISE", "CATASTROPHE", "IDENTIFY", "SUSTAIN", "ERADICATE"],
+      "text": "The number of 1.1. _________ (1.1) species worldwide has reached alarming levels. Rapid 1.2. _________ (1.2) has destroyed vast areas of natural habitat, leaving countless animals without shelter. Large-scale 1.3. _________ (1.3) has resulted in the clearing of tropical rainforests at an unprecedented rate. Wildlife 1.4. _________ (1.4) organisations work tirelessly to prevent the complete 1.5. _________ (1.5) of vulnerable species. The 1.6. _________ (1.6) of new breeding programmes requires approval from government 1.7. _________ (1.7). Scientists warn that without 1.8. _________ (1.8) funding and international cooperation, the ecological damage may become truly catastrophic.",
       "items": [
-        { "id": "1.1", "answer": "danger" },
-        { "id": "1.2", "answer": "natural" },
-        { "id": "1.3", "answer": "pollution" },
-        { "id": "1.4", "answer": "hunters" },
-        { "id": "1.5", "answer": "protection" },
-        { "id": "1.6", "answer": "beautiful" },
-        { "id": "1.7", "answer": "disappearance" },
-        { "id": "1.8", "answer": "powerfully" }
+        { "id": "1.1", "baseWord": "DANGER", "answer": "endangered" },
+        { "id": "1.2", "baseWord": "INDUSTRY", "answer": "industrialisation" },
+        { "id": "1.3", "baseWord": "FOREST", "answer": "deforestation" },
+        { "id": "1.4", "baseWord": "CONSERVE", "answer": "conservation" },
+        { "id": "1.5", "baseWord": "ERADICATE", "answer": "eradication" },
+        { "id": "1.6", "baseWord": "IDENTIFY", "answer": "identification" },
+        { "id": "1.7", "baseWord": "AUTHORISE", "answer": "authorities" },
+        { "id": "1.8", "baseWord": "SUSTAIN", "answer": "sustainable" }
       ]
     }
   ]

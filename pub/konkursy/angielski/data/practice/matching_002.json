@@ -1,31 +1,37 @@
 {
+  "title": "Matching: London, New York & Sydney",
   "type": "practice",
-  "title": "World Capitals",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj nazwy krajów (1–6) do ich stolic (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "Canberra" },
-        { "letter": "B", "text": "Buenos Aires" },
-        { "letter": "C", "text": "Nairobi" },
-        { "letter": "D", "text": "Ottawa" },
-        { "letter": "E", "text": "Sydney" },
-        { "letter": "F", "text": "Cairo" },
-        { "letter": "G", "text": "Brasília" },
-        { "letter": "H", "text": "Bogotá" }
+        { "letter": "A", "text": "The Tower of London is a historic castle in this city" },
+        { "letter": "B", "text": "Central Park is a large public park in the heart of this city" },
+        { "letter": "C", "text": "The Opera House with sail-shaped roofs stands in this city" },
+        { "letter": "D", "text": "The Tube is the name of the underground railway in this city" },
+        { "letter": "E", "text": "The Statue of Liberty stands on an island near this city" },
+        { "letter": "F", "text": "Bondi Beach is one of the most famous beaches in this city" },
+        { "letter": "G", "text": "Buckingham Palace is the residence of the monarch in this city" },
+        { "letter": "H", "text": "Broadway is the world-famous theatre district in this city" },
+        { "letter": "I", "text": "The Harbour Bridge is a landmark steel arch bridge in this city" },
+        { "letter": "J", "text": "The Colosseum is an ancient amphitheatre in this city" },
+        { "letter": "K", "text": "The Golden Gate Bridge is an iconic landmark of this city" },
+        { "letter": "L", "text": "The Sagrada Familia is an unfinished basilica in this city" }
       ],
       "items": [
-        { "id": "1.1", "label": "Australia", "answer": "A" },
-        { "id": "1.2", "label": "Argentina", "answer": "B" },
-        { "id": "1.3", "label": "Kenya", "answer": "C" },
-        { "id": "1.4", "label": "Canada", "answer": "D" },
-        { "id": "1.5", "label": "Egypt", "answer": "F" },
-        { "id": "1.6", "label": "Brazil", "answer": "G" }
-      ]
+        { "id": "London", "answers": ["A", "D", "G"] },
+        { "id": "New York", "answers": ["B", "E", "H"] },
+        { "id": "Sydney", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

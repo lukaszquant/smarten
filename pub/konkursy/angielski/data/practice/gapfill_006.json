@@ -1,29 +1,29 @@
 {
+  "title": "Gap Fill: Extreme Weather",
   "type": "practice",
-  "title": "The Story of the Internet",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "THE STORY OF THE INTERNET\n\nIt is hard to imagine modern life without the internet. We use it to communicate, shop, learn, work, and entertain ourselves. Yet this technology, which now connects billions of people around the world, has a surprisingly short history. 1. _________ At first, it was nothing more than a way for a handful of American universities and research centres to share data.\n\nThe origins of the internet lie in a US military project called ARPANET, which was developed in the late 1960s. 2. _________ On 29 October 1969, the first message was sent between computers at UCLA and Stanford University. The system crashed after just two letters, but the principle had been proved.\n\nFor the next two decades, the network remained a tool used almost exclusively by scientists and academics. 3. _________ This was the World Wide Web, invented by British computer scientist Tim Berners-Lee while working at the CERN laboratory in Switzerland.\n\nBerners-Lee's invention made it possible to create and link documents across the internet using a system of addresses and hyperlinks. 4. _________ Within just a few years, the number of websites grew from a handful to millions, and ordinary people began to go online for the first time.\n\nThe late 1990s saw an explosion of new internet-based businesses, a period known as the dot-com boom. 5. _________ When many of these companies collapsed in 2000, billions of dollars were lost in what became known as the dot-com crash.\n\nDespite this setback, the internet continued to evolve. Social media, smartphones, and streaming services transformed it from a tool for finding information into a platform for every aspect of life. 6. _________ Today, over five billion people are connected to the internet, and that number continues to grow.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "EXTREME WEATHER\n\nThe atmosphere that surrounds our planet is a dynamic system capable of generating weather events of extraordinary violence. Tornadoes, hurricanes, droughts, and blizzards have shaped human history, destroyed cities, and altered the fates of nations. _________ (1.1) Understanding why these events occur, and whether they are becoming more frequent, is therefore one of the most urgent tasks facing modern science.\n\nTornadoes are among the most destructive phenomena in nature. They form when contrasting air masses collide: warm, humid air rises rapidly and begins to rotate within a powerful thunderstorm known as a supercell. _________ (1.2) The most violent tornadoes can generate wind speeds exceeding 300 kilometres per hour and leave a trail of devastation several kilometres wide.\n\nHurricanes operate on an entirely different scale. These vast rotating storm systems, which can span hundreds of kilometres, draw their energy from warm tropical ocean surfaces. _________ (1.3) A single hurricane can release as much energy in one day as the entire United States consumes in electricity in a year.\n\nWhile storms are dramatic and sudden, droughts inflict damage through prolonged absence rather than violent presence. _________ (1.4) The American Dust Bowl of the 1930s, in which years of drought combined with unsustainable farming practices turned fertile plains into desert, displaced hundreds of thousands of people and reshaped government agricultural policy.\n\nClimate scientists have established a clear link between rising global temperatures and the intensification of extreme weather. A warmer atmosphere holds more moisture, providing additional fuel for storms, while shifting jet-stream patterns can lock weather systems in place for weeks. _________ (1.5) Heat waves that were once statistical rarities are now occurring with alarming regularity across every continent.\n\nImproved forecasting technology has saved countless lives in recent decades. Satellites, radar networks, and computer models can now predict the path of a hurricane days in advance. _________ (1.6) Even a few additional hours of warning can mean the difference between an orderly evacuation and a catastrophe.",
       "options": [
-        { "letter": "A", "text": "The technology only became accessible to the general public in the early 1990s, when a new invention changed everything." },
-        { "letter": "B", "text": "Investors poured money into internet start-ups, many of which had no clear business plan or path to profit." },
-        { "letter": "C", "text": "Suddenly, anyone with a computer and a phone line could publish information and communicate globally for almost no cost." },
-        { "letter": "D", "text": "The internet that most people use today was born less than sixty years ago." },
-        { "letter": "E", "text": "The project was designed to allow communication to continue even if parts of the network were destroyed in a nuclear attack." },
-        { "letter": "F", "text": "The rise of mobile internet means that billions of people in developing countries now have access to information they never had before." },
-        { "letter": "G", "text": "Governments around the world have struggled to create laws that keep pace with the rapid development of online technology." },
-        { "letter": "H", "text": "Computer scientists working on ARPANET invented several key technologies, including email, which is still widely used today." }
+        { "letter": "A", "text": "As climate change accelerates, many scientists warn that the worst impacts are still to come." },
+        { "letter": "B", "text": "If the rotation tightens and descends from the cloud base to the ground, it becomes a tornado." },
+        { "letter": "C", "text": "As the water evaporates and rises, it fuels a self-sustaining cycle of intensifying winds and rainfall that can persist for weeks." },
+        { "letter": "D", "text": "Crops fail, water supplies dwindle, and ecosystems collapse, often triggering famine and mass displacement that unfold over months or years." },
+        { "letter": "E", "text": "This combination means that what were once considered hundred-year weather events may soon become commonplace." },
+        { "letter": "F", "text": "However, translating accurate forecasts into effective public response remains a significant challenge, particularly in less developed regions." },
+        { "letter": "G", "text": "Lightning strikes cause thousands of wildfires each year, particularly in regions where dry vegetation provides abundant fuel." },
+        { "letter": "H", "text": "The economic cost of weather-related disasters has risen sharply, partly because more people now live in vulnerable coastal and flood-prone areas." }
       ],
       "items": [
-        { "id": "1.1", "answer": "D" },
-        { "id": "1.2", "answer": "E" },
-        { "id": "1.3", "answer": "A" },
-        { "id": "1.4", "answer": "C" },
-        { "id": "1.5", "answer": "B" },
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
         { "id": "1.6", "answer": "F" }
       ]
     }

@@ -5,22 +5,29 @@
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "UNDERSTANDING EARTHQUAKES",
-      "text": "An earthquake happens when large pieces of the Earth's surface suddenly move. 1.1. _________ pieces are called tectonic plates, and they are constantly shifting, 1.2. _________ usually so slowly that we cannot feel it. When two plates push 1.3. _________ each other or pull apart, the energy that is released causes the ground to shake.\n\nMost earthquakes occur along plate boundaries. Japan, 1.4. _________ example, experiences thousands of earthquakes every year 1.5. _________ it sits on the boundary of several plates. 1.6. _________ all earthquakes are dangerous, though. Many of 1.7. _________ are so small that people do not even notice them.\n\nScientists who study earthquakes are 1.8. _________ seismologists. They use special instruments to measure 1.9. _________ strong an earthquake is. Although we still cannot predict exactly when an earthquake will happen, we have learned a great deal 1.10. _________ what causes them.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Earthquakes are among the most destructive natural disasters on Earth, yet they are also one of the least 1.1. _________. They occur when enormous slabs of rock beneath the surface, known 1.2. _________ tectonic plates, suddenly shift and release stored energy. The point underground where the movement begins is called the focus, while the spot directly 1.3. _________ it on the surface is known as the epicentre.\n\nThe 1.4. _________ of earthquakes varies greatly from region to region. Countries that lie along plate 1.5. _________, such as Japan, Chile, and Indonesia, experience tremors on an almost daily basis. In 1.6. _________, regions in the middle of tectonic plates rarely feel any seismic activity at all. 1.7. _________, when earthquakes do strike in unexpected locations, the consequences can be devastating because buildings there are seldom designed to 1.8. _________ the shaking.\n\nDespite advances in technology, scientists are still 1.9. _________ to predict exactly when or where the next major earthquake will occur. What they can do, however, is identify high-risk zones and help communities prepare. Investing in earthquake-resistant infrastructure and early 1.10. _________ systems has already saved countless lives around the world.",
       "items": [
-        { "id": "1.1", "answer": ["These", "Those"] },
-        { "id": "1.2", "answer": "but" },
-        { "id": "1.3", "answer": "against" },
-        { "id": "1.4", "answer": "for" },
-        { "id": "1.5", "answer": ["because", "as", "since"] },
-        { "id": "1.6", "answer": "Not" },
-        { "id": "1.7", "answer": "them" },
-        { "id": "1.8", "answer": "called" },
-        { "id": "1.9", "answer": "how" },
-        { "id": "1.10", "answer": "about" }
-      ]
+        { "id": "1.1", "answer": "predictable" },
+        { "id": "1.2", "answer": "as" },
+        { "id": "1.3", "answer": "above" },
+        { "id": "1.4", "answer": "frequency" },
+        { "id": "1.5", "answer": "boundaries" },
+        { "id": "1.6", "answer": "contrast" },
+        { "id": "1.7", "answer": "However" },
+        { "id": "1.8", "answer": ["withstand", "resist"] },
+        { "id": "1.9", "answer": "unable" },
+        { "id": "1.10", "answer": "warning" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }

@@ -1,29 +1,29 @@
 {
+  "title": "Gap Fill: The Age of Exploration",
   "type": "practice",
-  "title": "Endangered Species",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "ENDANGERED SPECIES\n\nScientists estimate that the Earth is currently experiencing its sixth mass extinction event, with species disappearing at a rate estimated to be between 100 and 1,000 times higher than the natural background rate. 1. _________ Unlike previous mass extinctions caused by asteroid impacts or volcanic eruptions, this one has a single primary cause: human activity.\n\nThe main driver of species loss is habitat destruction. As forests are cleared for agriculture, wetlands are drained, and coastlines are developed, the natural environments on which wildlife depends are reduced to ever-smaller fragments. 2. _________ Many species simply cannot survive in such isolated, reduced habitats and eventually disappear.\n\nClimate change is adding a new layer of threat. As temperatures rise and weather patterns shift, many species find that the environment they have adapted to over thousands of years is changing faster than they can evolve to cope. 3. _________ Species that depend on sea ice, such as polar bears and certain seal species, are particularly vulnerable.\n\nPoaching and the illegal wildlife trade remain serious problems, especially for large, iconic animals. Despite international agreements, elephants are still killed for their ivory, rhinos for their horns, and tigers for their bones and skin. 4. _________ This creates a powerful financial incentive that is difficult to combat, particularly in regions where poverty is widespread.\n\nConservation efforts have achieved some notable successes. The mountain gorilla population has increased significantly in recent years thanks to intensive protection programmes in Rwanda, Uganda, and the Democratic Republic of Congo. 5. _________ Its recovery from near extinction in the twentieth century is considered one of conservation's greatest achievements.\n\nUltimately, protecting biodiversity requires more than saving individual species. It requires preserving entire ecosystems and changing the way humans use natural resources. 6. _________ Without nature's services, human societies themselves would struggle to survive.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "THE AGE OF EXPLORATION\n\nBetween the fifteenth and seventeenth centuries, European sailors ventured into oceans that no European ship had ever crossed, connecting continents that had developed in isolation for thousands of years. _________ (1.1) The consequences of these voyages, both magnificent and devastating, continue to shape the modern world.\n\nPortugal was the first European nation to pursue systematic oceanic exploration. Under the patronage of Prince Henry the Navigator, Portuguese sailors gradually extended their knowledge of the African coast, establishing trading posts as they went. _________ (1.2) This achievement gave Portugal direct access to the lucrative spice trade and made the small nation, for a time, one of the wealthiest in Europe.\n\nWhile Portugal sailed eastward, Spain looked west. When Christopher Columbus reached the Caribbean in 1492, he was convinced he had found a western route to Asia. _________ (1.3) The realisation that two vast continents lay between Europe and Asia forced cartographers to redraw the map of the world entirely.\n\nThe first circumnavigation of the globe, completed by the remnants of Ferdinand Magellan's expedition in 1522, confirmed that the Earth was round and that all oceans were connected. _________ (1.4) Of the approximately 270 men and five ships that set sail from Spain, only eighteen men aboard a single battered vessel completed the journey.\n\nThe human cost of the Age of Exploration extended far beyond the sailors themselves. European contact brought diseases such as smallpox, measles, and influenza to populations that had no immunity. _________ (1.5) Entire civilisations, including the Aztec and Inca empires, collapsed under the combined impact of epidemic disease, military conquest, and forced labour.\n\nThe era also produced lasting advances in navigation, cartography, and natural science. _________ (1.6) The detailed maps, astronomical observations, and botanical specimens brought back by explorers laid the groundwork for the scientific revolution that followed in the seventeenth and eighteenth centuries.",
       "options": [
-        { "letter": "A", "text": "Wildlife from isolated patches of habitat cannot move, find mates, or adapt to changing conditions." },
-        { "letter": "B", "text": "Coral reefs are bleaching and dying as ocean temperatures rise, destroying habitats for thousands of marine species." },
-        { "letter": "C", "text": "Illegal wildlife products can fetch extraordinary prices on the black market." },
-        { "letter": "D", "text": "The bald eagle, the national symbol of the United States, was saved from extinction by banning the pesticide DDT." },
-        { "letter": "E", "text": "Every species lost represents a permanent reduction in the richness and resilience of life on our planet." },
-        { "letter": "F", "text": "Every ecosystem provides services that humans depend on, from clean water and air to pollination of crops." },
-        { "letter": "G", "text": "Zoological parks and botanical gardens around the world maintain breeding programmes for hundreds of endangered species." },
-        { "letter": "H", "text": "International conservation agreements have been signed by most of the world's governments, though enforcement remains a challenge." }
+        { "letter": "A", "text": "This period, driven by a volatile mixture of commercial ambition, religious zeal, and genuine curiosity, is known as the Age of Exploration." },
+        { "letter": "B", "text": "In 1498, Vasco da Gama rounded the southern tip of Africa and reached India by sea, a feat that had eluded European sailors for decades." },
+        { "letter": "C", "text": "It was only after subsequent voyages by Amerigo Vespucci and others that Europeans began to accept they had encountered previously unknown lands." },
+        { "letter": "D", "text": "The voyage was a triumph of human endurance and navigation, but it came at a staggering human price." },
+        { "letter": "E", "text": "Within a century of first contact, it is estimated that up to ninety percent of the indigenous population of the Americas had perished." },
+        { "letter": "F", "text": "Sailors learned to read ocean currents, wind patterns, and the positions of the stars with a precision that allowed them to cross thousands of kilometres of open water." },
+        { "letter": "G", "text": "The Treaty of Tordesillas, signed in 1494, attempted to divide the newly discovered territories between Spain and Portugal along a line of longitude." },
+        { "letter": "H", "text": "The plantation system established in the Americas created an enormous demand for labour, which was met through the transatlantic slave trade." }
       ],
       "items": [
-        { "id": "1.1", "answer": "E" },
-        { "id": "1.2", "answer": "A" },
-        { "id": "1.3", "answer": "B" },
-        { "id": "1.4", "answer": "C" },
-        { "id": "1.5", "answer": "D" },
+        { "id": "1.1", "answer": "A" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
         { "id": "1.6", "answer": "F" }
       ]
     }

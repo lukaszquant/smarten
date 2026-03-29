@@ -1,31 +1,37 @@
 {
+  "title": "Matching: Famous Scientists",
   "type": "practice",
-  "title": "Animal Facts",
   "tasks": [
     {
       "id": "1",
       "type": "matching",
-      "points": 6,
-      "instruction": "Dopasuj nazwy zwierząt (1–6) do ciekawych faktów na ich temat (A–H). Dwa opisy zostały podane dodatkowo i nie pasują do żadnego elementu.",
-      "categories": null,
+      "points": 3,
+      "instruction": "Uzupelnij tabelke, dobierajac okreslenia (A-L) odpowiadajace danej kategorii. Trzy okreslenia podano dodatkowo i nie pasuja one do zadnej kategorii.",
       "options": [
-        { "letter": "A", "text": "This large black and white mammal from China eats almost nothing but bamboo. It is one of the world's most endangered animals." },
-        { "letter": "B", "text": "This African mammal is the tallest animal in the world. Its extremely long neck helps it reach leaves high up in trees." },
-        { "letter": "C", "text": "This sea mammal uses a system called echolocation to navigate and hunt in dark water. It is highly intelligent and lives in groups called pods." },
-        { "letter": "D", "text": "This bird cannot fly but is an excellent swimmer. It lives mainly in Antarctica and uses its wings as flippers to move through water." },
-        { "letter": "E", "text": "This nocturnal animal from Australia carries its young in a pouch. It moves by hopping on its powerful back legs." },
-        { "letter": "F", "text": "This reptile can change the colour of its skin to communicate and camouflage itself. Its eyes move independently of each other." },
-        { "letter": "G", "text": "This large spider builds strong webs and is found on every continent except Antarctica. Some species can catch and eat small birds." },
-        { "letter": "H", "text": "This insect travels thousands of kilometres during its annual migration between North America and Mexico, guided by the position of the Sun." }
+        { "letter": "A", "text": "He described three laws of motion still taught in physics" },
+        { "letter": "B", "text": "She discovered the elements polonium and radium" },
+        { "letter": "C", "text": "He published On the Origin of Species in 1859" },
+        { "letter": "D", "text": "He explained how gravity works after observing a falling apple" },
+        { "letter": "E", "text": "She was the first person to win two Nobel Prizes" },
+        { "letter": "F", "text": "He travelled on HMS Beagle to study wildlife" },
+        { "letter": "G", "text": "He invented the first practical electric light bulb" },
+        { "letter": "H", "text": "She carried out pioneering research on radioactivity" },
+        { "letter": "I", "text": "He proposed the theory of evolution by natural selection" },
+        { "letter": "J", "text": "He developed calculus independently around the same time as Leibniz" },
+        { "letter": "K", "text": "He formulated the theory of relativity and the equation E=mc2" },
+        { "letter": "L", "text": "He invented the phonograph and held over a thousand patents" }
       ],
       "items": [
-        { "id": "1.1", "label": "Giant panda", "answer": "A" },
-        { "id": "1.2", "label": "Giraffe", "answer": "B" },
-        { "id": "1.3", "label": "Dolphin", "answer": "C" },
-        { "id": "1.4", "label": "Penguin", "answer": "D" },
-        { "id": "1.5", "label": "Kangaroo", "answer": "E" },
-        { "id": "1.6", "label": "Chameleon", "answer": "F" }
-      ]
+        { "id": "Isaac Newton", "answers": ["A", "D", "J"] },
+        { "id": "Marie Curie", "answers": ["B", "E", "H"] },
+        { "id": "Charles Darwin", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
     }
   ]
 }

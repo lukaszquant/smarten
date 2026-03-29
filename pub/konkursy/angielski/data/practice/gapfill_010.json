@@ -1,29 +1,29 @@
 {
+  "title": "Gap Fill: The History of Cinema",
   "type": "practice",
-  "title": "The Age of Exploration",
   "tasks": [
     {
       "id": "1",
       "type": "gap_fill_sentences",
       "points": 6,
-      "instruction": "Przeczytaj tekst. Do każdej luki (1–6) dopasuj właściwe zdanie (A–H), aby powstał logiczny i spójny tekst. Dwa zdania zostały podane dodatkowo i nie pasują do żadnej luki.",
-      "text": "THE AGE OF EXPLORATION\n\nBetween the fifteenth and seventeenth centuries, European sailors ventured into unknown oceans and fundamentally changed the world's map. This period, known as the Age of Exploration, connected continents that had developed in isolation for thousands of years and set in motion a process of globalisation whose effects are still felt today. 1. _________ European powers were eager to find direct sea routes to Asia that bypassed the overland Silk Road, which had fallen under Ottoman control.\n\nPortugal led the way in the early decades of exploration. Under the sponsorship of Prince Henry the Navigator, Portuguese sailors gradually pushed further south along the African coast. 2. _________ In 1498, Vasco da Gama finally sailed around the Cape of Good Hope and reached India, opening a sea route that would make Portugal enormously wealthy.\n\nWhile Portugal explored eastward, Spain looked west. When Christopher Columbus landed in the Caribbean in 1492, he believed he had reached Asia. 3. _________ The existence of two vast continents, unknown to Europeans, changed geography, trade, and human history forever.\n\nThe circumnavigation of the globe, completed by Ferdinand Magellan's expedition in 1522, proved beyond doubt that the Earth was round and that all its oceans were connected. 4. _________ Of the five ships and around 270 men who set out, only one ship and 18 men returned.\n\nThe consequences of the Age of Exploration were profound and deeply mixed. European contact brought trade, new crops, and technological exchange, but it also brought conquest, slavery, and devastating epidemics. 5. _________ Within a century of European contact, it is estimated that up to 90 percent of the indigenous population of the Americas had died from diseases to which they had no immunity.\n\nThe era also produced extraordinary advances in cartography, navigation, and astronomy. 6. _________ The maps, journals, and scientific observations brought back by explorers provided the foundation for the scientific revolution of the seventeenth century.",
+      "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
+      "text": "THE HISTORY OF CINEMA\n\nThe story of cinema begins in the final years of the nineteenth century, when inventors across Europe and America competed to capture and reproduce moving images. _________ (1.1) Their portable device, called the Cinematographe, could record, develop, and project film, and it gave the world its first true cinema experience.\n\nThe first public screening took place in a Paris basement on 28 December 1895, before an audience of just thirty-three people. The short films showed everyday scenes: workers leaving a factory, a train arriving at a station. _________ (1.2) According to legend, some audience members fled in panic when the on-screen train appeared to rush toward them.\n\nIn the early decades, films were silent, accompanied by live music played in the theatre. Directors quickly developed visual storytelling techniques, including close-ups, cross-cutting between scenes, and the use of lighting to create mood. _________ (1.3) By the 1920s, films had evolved from simple novelties into a sophisticated art form capable of conveying complex narratives and powerful emotions.\n\nThe introduction of synchronised sound in 1927, with the release of The Jazz Singer, triggered a revolution that reshaped the entire industry. _________ (1.4) Studios scrambled to convert their equipment and retrain their staff, and within just a few years, silent cinema had virtually disappeared.\n\nColour film became widespread in the 1950s, precisely when television began to compete for audiences. Cinema attendance declined sharply as families chose to stay home and watch their new television sets. _________ (1.5) Widescreen formats, stereophonic sound, and epic historical productions offered an experience that a small black-and-white television screen could not replicate.\n\nToday, digital technology has transformed every aspect of filmmaking, from shooting and editing to distribution and exhibition. _________ (1.6) Yet for all these technological revolutions, the fundamental appeal of cinema remains what it was in that Paris basement in 1895: the magic of sitting in a darkened room and being transported to another world.",
       "options": [
-        { "letter": "A", "text": "It was motivated by a mixture of commercial ambition, religious mission, and the spirit of scientific curiosity." },
-        { "letter": "B", "text": "In reality, he had stumbled upon continents previously unknown to Europeans, a fact recognised only after his death." },
-        { "letter": "C", "text": "The voyage was one of the greatest feats of navigation in history, but it came at a terrible human cost." },
-        { "letter": "D", "text": "The diseases that European explorers unknowingly carried with them proved more destructive than any weapon." },
-        { "letter": "E", "text": "Each voyage extended knowledge of the African coastline and brought back gold, ivory, and enslaved people." },
-        { "letter": "F", "text": "Sailors learned to use the stars, ocean currents, and wind patterns to navigate with increasing precision across vast distances." },
-        { "letter": "G", "text": "The Spanish Empire at its height controlled territories across the Americas, Europe, Africa, and Asia." },
-        { "letter": "H", "text": "The Treaty of Tordesillas, signed in 1494, divided the newly discovered world between Spain and Portugal." }
+        { "letter": "A", "text": "Among the most successful were the French brothers Auguste and Louis Lumiere, who are widely regarded as the founders of commercial cinema." },
+        { "letter": "B", "text": "Yet what seems unremarkable today was utterly astonishing to an audience that had never seen photographic images move." },
+        { "letter": "C", "text": "These innovations transformed what had been a fairground curiosity into a medium with genuine artistic potential." },
+        { "letter": "D", "text": "Audiences were thrilled to hear actors speak, but many silent-film stars whose voices did not match their screen image saw their careers collapse overnight." },
+        { "letter": "E", "text": "The film industry responded by offering audiences something television could not: scale, spectacle, and technical innovation." },
+        { "letter": "F", "text": "Films can now be shot on lightweight digital cameras, enhanced with computer-generated imagery, and streamed directly to viewers' homes on the day of release." },
+        { "letter": "G", "text": "Hollywood's studio system, in which a handful of major companies controlled production, distribution, and exhibition, dominated the industry from the 1920s to the 1960s." },
+        { "letter": "H", "text": "National cinema traditions in countries such as India, Japan, and France have produced distinctive styles that have influenced filmmakers worldwide." }
       ],
       "items": [
         { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "E" },
-        { "id": "1.3", "answer": "B" },
-        { "id": "1.4", "answer": "C" },
-        { "id": "1.5", "answer": "D" },
+        { "id": "1.2", "answer": "B" },
+        { "id": "1.3", "answer": "C" },
+        { "id": "1.4", "answer": "D" },
+        { "id": "1.5", "answer": "E" },
         { "id": "1.6", "answer": "F" }
       ]
     }

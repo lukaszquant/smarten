@@ -6,19 +6,18 @@
       "id": "1",
       "type": "word_formation",
       "points": 8,
-      "instruction": "Przeczytaj tekst. Uzupelnij kazda luke (1.1-1.8) jednym wyrazem, przeksztalcajac wyrazy podane w ramce tak, aby otrzymac logiczny i gramatycznie poprawny tekst. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
-      "wordBank": ["PERFORM", "IMAGINE", "MUSIC", "ENJOY", "TALENT", "EXPRESS", "INSPIRE", "COLOUR", "MOVE", "TRAIN"],
-      "title": "THE WORLD OF MUSIC AND ART",
-      "text": "Art and music give people a wonderful way to express their feelings. A live 1.1. ________ by a great orchestra can be an unforgettable experience. Many 1.2. ________ start learning to play instruments at a very young age. With years of 1.3. ________ and practice, they develop incredible skills. Painting and drawing require a lot of 1.4. ________ because artists must create something from nothing. The 1.5. ________ of emotions through art can be very 1.6. ________ for both the artist and the audience. Visiting a gallery full of 1.7. ________ paintings is always a great 1.8. ________. Art and music truly make our lives richer and more meaningful.",
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": ["ICON", "MESMERISE", "COMPARE", "DISTINGUISH", "PHILANTHROPY", "CONTROVERSY", "INTERPRET", "APPRECIATE", "EXHAUST", "PERCEIVE"],
+      "text": "Throughout history, certain artists have achieved 1.1. _________ (1.1) status, their names recognised across generations. The 1.2. _________ (1.2) of a masterpiece can vary greatly depending on the viewer's cultural background and personal 1.3. _________ (1.3). Attending a live concert by a world-class pianist can be a truly 1.4. _________ (1.4) experience that leaves the audience speechless. Some works of modern art have sparked 1.5. _________ (1.5) debates about what truly constitutes artistic merit. 1.6. _________ (1.6) musicians are easily recognised by their 1.7. _________ (1.7) technique and emotional depth. True 1.8. _________ (1.8) of art requires years of study and an open mind.",
       "items": [
-        { "id": "1.1", "answer": "performance" },
-        { "id": "1.2", "answer": "musicians" },
-        { "id": "1.3", "answer": "training" },
-        { "id": "1.4", "answer": "imagination" },
-        { "id": "1.5", "answer": "expression" },
-        { "id": "1.6", "answer": "moving" },
-        { "id": "1.7", "answer": "colourful" },
-        { "id": "1.8", "answer": "enjoyment" }
+        { "id": "1.1", "baseWord": "ICON", "answer": "iconic" },
+        { "id": "1.2", "baseWord": "INTERPRET", "answer": "interpretation" },
+        { "id": "1.3", "baseWord": "PERCEIVE", "answer": "perception" },
+        { "id": "1.4", "baseWord": "MESMERISE", "answer": "mesmerising" },
+        { "id": "1.5", "baseWord": "CONTROVERSY", "answer": "controversial" },
+        { "id": "1.6", "baseWord": "DISTINGUISH", "answer": "distinguished" },
+        { "id": "1.7", "baseWord": "COMPARE", "answer": "incomparable" },
+        { "id": "1.8", "baseWord": "APPRECIATE", "answer": "appreciation" }
       ]
     }
   ]

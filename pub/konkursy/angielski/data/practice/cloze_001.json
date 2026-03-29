@@ -1,26 +1,33 @@
 {
-  "title": "Open Cloze: The History of Chocolate",
+  "title": "Open Cloze: The Story of Chocolate",
   "type": "practice",
   "tasks": [
     {
       "id": "1",
       "type": "open_cloze",
-      "points": 10,
-      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym wyrazem, tak aby otrzymac spojny, logiczny i poprawny jezykowo tekst. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow.",
-      "title": "THE HISTORY OF CHOCOLATE",
-      "text": "Chocolate is one of 1.1. _________ most popular sweets in the world. It was first used 1.2. _________ the ancient Maya and Aztec people in Central America. They made a bitter drink 1.3. _________ cocoa beans, which was very different from the chocolate we eat today. When Spanish explorers arrived in Mexico in the 16th century, they brought cocoa beans back 1.4. _________ Europe. At first, only rich people 1.5. _________ afford to buy chocolate because 1.6. _________ was extremely expensive. However, 1.7. _________ the 19th century, new machines were invented that made chocolate cheaper to produce. A Swiss chocolatier added milk 1.8. _________ chocolate in 1875, and this new type became very popular. Today, 1.9. _________ than seven million tonnes of chocolate are consumed every year. Most people do not know that 1.10. _________ takes about 400 cocoa beans to make just one bar of chocolate.",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "The story of chocolate stretches back over three thousand years to the ancient civilisations of Central America. The Maya were among the first people to cultivate cocoa trees, and they used the beans to prepare a bitter, spicy _________ (1.1) that bore little resemblance to modern hot chocolate. Cocoa held such great _________ (1.2) in Aztec society that the beans were even used as a form of currency. When the Spanish conquistadors arrived in the 16th century, they were initially put _________ (1.3) by the drink's bitter taste, but they soon learned to sweeten it _________ (1.4) adding sugar and vanilla. It was not _________ (1.5) the mid-17th century that chocolate drinking spread across Europe, largely thanks to trade routes _________ (1.6) connected the New World with major European ports. For a long time, chocolate remained a luxury that _________ (1.7) the wealthy could afford. The real turning _________ (1.8) came in 1828, when a Dutch chemist invented a press that separated cocoa butter from the roasted beans. This breakthrough paved the _________ (1.9) for the creation of solid chocolate bars, which quickly gained popularity. Today, the global chocolate industry is _________ (1.10) billions of dollars annually, yet most of the world's cocoa is still grown in West Africa under conditions that raise serious ethical concerns.",
       "items": [
-        { "id": "1.1", "answer": "the" },
-        { "id": "1.2", "answer": "by" },
-        { "id": "1.3", "answer": "from" },
-        { "id": "1.4", "answer": "to" },
-        { "id": "1.5", "answer": "could" },
-        { "id": "1.6", "answer": "it" },
-        { "id": "1.7", "answer": "in" },
-        { "id": "1.8", "answer": "to" },
-        { "id": "1.9", "answer": "more" },
-        { "id": "1.10", "answer": "it" }
-      ]
+        { "id": "1.1", "answer": ["drink", "beverage"] },
+        { "id": "1.2", "answer": ["value", "importance", "significance"] },
+        { "id": "1.3", "answer": "off" },
+        { "id": "1.4", "answer": "by" },
+        { "id": "1.5", "answer": "until" },
+        { "id": "1.6", "answer": ["that", "which"] },
+        { "id": "1.7", "answer": "only" },
+        { "id": "1.8", "answer": "point" },
+        { "id": "1.9", "answer": "way" },
+        { "id": "1.10", "answer": "worth" }
+      ],
+      "scoringScheme": {
+        "10": 5,
+        "8-9": 4,
+        "6-7": 3,
+        "4-5": 2,
+        "2-3": 1,
+        "0-1": 0
+      }
     }
   ]
 }
