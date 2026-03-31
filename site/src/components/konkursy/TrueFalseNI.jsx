@@ -53,9 +53,17 @@ export default function TrueFalseNI({ task, answers, onChange, showResults, task
 
       {showResults && items.map((item) => {
         const ir = getItemResult(taskResult, item.id);
-        return !ir?.correct ? (
-          <div key={item.id} style={s.correctAnswer}>{item.id}: {ir?.correctAnswer}</div>
-        ) : null;
+        if (!ir) return null;
+        return (
+          <div key={item.id} style={{ marginBottom: 10, padding: "8px 12px", borderRadius: 6, background: ir.correct ? "#50d89010" : "#e0505010" }}>
+            <div style={{ fontSize: 13, fontWeight: 600, color: ir.correct ? "#50d890" : "#e05050", marginBottom: 4 }}>
+              {item.id}: {ir.correct ? "Correct" : `Correct answer: ${ir.correctAnswer}`}
+            </div>
+            {item.explanation && (
+              <div style={{ fontSize: 13, color: "#a0a0b8", lineHeight: 1.5 }}>{item.explanation}</div>
+            )}
+          </div>
+        );
       })}
 
       {vocabItems.length > 0 && (
