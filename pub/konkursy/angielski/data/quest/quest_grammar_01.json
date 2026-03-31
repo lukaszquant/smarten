@@ -1,0 +1,50 @@
+{
+  "title": "Tense Challenge",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "I _________ this book for two weeks and I still haven't finished it.",
+          "options": ["A) read", "B) am reading", "C) have been reading"],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "stem": "If it _________ tomorrow, we'll have the party inside.",
+          "options": ["A) will rain", "B) rains", "C) is raining"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "By the time we got to the cinema, the film _________ already _________.",
+          "options": ["A) has ... started", "B) had ... started", "C) was ... starting"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "When I was young, we _________ visit our grandparents every Sunday.",
+          "options": ["A) used to", "B) were used to", "C) use to"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "She asked me if I _________ her new haircut.",
+          "options": ["A) have noticed", "B) notice", "C) had noticed"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "This time next week, we _________ on a beach in Spain!",
+          "options": ["A) will be lying", "B) will lie", "C) are lying"],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

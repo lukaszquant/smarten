@@ -1,0 +1,37 @@
+{
+  "branches": [
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "color": "#f59e0b",
+      "bridgeTypes": ["word_spelling", "word_formation"],
+      "exercises": [
+        { "id": "quest_vocab_01", "title": "Animals Around Us", "taskType": "word_spelling", "points": 6 },
+        { "id": "quest_vocab_02", "title": "At School", "taskType": "word_spelling", "points": 6 },
+        { "id": "quest_vocab_03", "title": "In the Kitchen", "taskType": "multiple_choice", "points": 6 }
+      ]
+    },
+    {
+      "id": "grammar",
+      "name": "Grammar",
+      "color": "#8b5cf6",
+      "bridgeTypes": ["multiple_choice", "open_cloze"],
+      "exercises": [
+        { "id": "quest_grammar_01", "title": "Tense Challenge", "taskType": "multiple_choice", "points": 6 },
+        { "id": "quest_grammar_02", "title": "Tricky Prepositions", "taskType": "multiple_choice", "points": 6 },
+        { "id": "quest_grammar_03", "title": "Fill the Gap", "taskType": "open_cloze", "points": 6 }
+      ]
+    },
+    {
+      "id": "reading",
+      "name": "Reading",
+      "color": "#3b82f6",
+      "bridgeTypes": ["true_false_ni", "matching"],
+      "exercises": [
+        { "id": "quest_reading_01", "title": "My Pet Dog", "taskType": "true_false_ni", "points": 3 },
+        { "id": "quest_reading_02", "title": "A Day at the Beach", "taskType": "true_false_ni", "points": 3 },
+        { "id": "quest_reading_03", "title": "Match the Facts", "taskType": "matching", "points": 3 }
+      ]
+    }
+  ]
+}

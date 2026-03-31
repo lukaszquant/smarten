@@ -1,0 +1,50 @@
+{
+  "title": "At School",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Complete each sentence with one word. The dashes show you the missing letters.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Please open your _ _ x _ _ _ _ _ to page thirty-five and start reading.",
+          "hint": "_ _ x _ _ _ _ _",
+          "answer": "textbook"
+        },
+        {
+          "id": "1.2",
+          "stem": "The _ _ a _ _ _ _ writes on the whiteboard to explain the lesson.",
+          "hint": "_ _ a _ _ _ _",
+          "answer": "teacher"
+        },
+        {
+          "id": "1.3",
+          "stem": "I forgot my _ _ l _ _ so I had to borrow one to draw a straight line.",
+          "hint": "_ _ l _ _",
+          "answer": "ruler"
+        },
+        {
+          "id": "1.4",
+          "stem": "We have a science _ _ b _ _ _ _ _ _ _ every Wednesday where we do fun experiments.",
+          "hint": "_ _ b _ _ _ _ _ _ _",
+          "answer": "laboratory"
+        },
+        {
+          "id": "1.5",
+          "stem": "The school _ _ b _ _ _ _ has thousands of books that students can borrow.",
+          "hint": "_ _ b _ _ _ _",
+          "answer": "library"
+        },
+        {
+          "id": "1.6",
+          "stem": "I need to use an _ _ a _ _ _ to fix the mistake in my notebook.",
+          "hint": "_ _ a _ _ _",
+          "answer": "eraser"
+        }
+      ]
+    }
+  ]
+}

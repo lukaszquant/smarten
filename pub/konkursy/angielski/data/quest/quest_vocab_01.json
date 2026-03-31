@@ -1,0 +1,50 @@
+{
+  "title": "Animals Around Us",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Complete each sentence with one word. The dashes show you the missing letters.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "A _ _ e _ _ _ _ _ is a very large grey animal with a long trunk and big ears.",
+          "hint": "_ _ e _ _ _ _ _",
+          "answer": "elephant"
+        },
+        {
+          "id": "1.2",
+          "stem": "My grandmother has a _ _ r _ _ _ that can repeat words and fly around the house.",
+          "hint": "_ _ r _ _ _",
+          "answer": "parrot"
+        },
+        {
+          "id": "1.3",
+          "stem": "We saw a beautiful _ _ t _ _ _ _ _ _ flying over the lake near our hotel.",
+          "hint": "_ _ t _ _ _ _ _ _",
+          "answer": "butterfly"
+        },
+        {
+          "id": "1.4",
+          "stem": "The _ _ t _ _ _ caught a mouse in the garden last night.",
+          "hint": "_ _ t _ _ _",
+          "answer": "kitten"
+        },
+        {
+          "id": "1.5",
+          "stem": "An _ _ _ _ p _ _ is a sea animal with eight long arms.",
+          "hint": "_ _ _ _ p _ _",
+          "answer": "octopus"
+        },
+        {
+          "id": "1.6",
+          "stem": "We could hear the _ _ b _ _ singing beautifully in the tree every morning.",
+          "hint": "_ _ b _ _",
+          "answer": "robin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+import { BASE_XP, FIRST_COMPLETION_BONUS, PERFECT_BONUS, XP_LEVELS, BRIDGE_THRESHOLD } from "./questData";
+
+const STORAGE_PREFIX = "smarten_quest_";
+
+function storageKey(username) {
+  return `${STORAGE_PREFIX}${username || "default"}`;
+}
+
+const EMPTY_PROGRESS = {
+  xp: 0,
+  branches: {
+    vocabulary: { bestScores: {} },
+    grammar: { bestScores: {} },
+    reading: { bestScores: {} },
+  },
+  attempts: [],
+};
+
+export function loadProgress(username) {
+  try {
+    const raw = localStorage.getItem(storageKey(username));
+    if (!raw) return structuredClone(EMPTY_PROGRESS);
+    const parsed = JSON.parse(raw);
+    // Ensure all branches exist
+    for (const b of ["vocabulary", "grammar", "reading"]) {
+      if (!parsed.branches[b]) parsed.branches[b] = { bestScores: {} };
+      if (!parsed.branches[b].bestScores) parsed.branches[b].bestScores = {};
+    }
+    if (!parsed.attempts) parsed.attempts = [];
+    if (typeof parsed.xp !== "number") parsed.xp = 0;
+    return parsed;
+  } catch {
+    return structuredClone(EMPTY_PROGRESS);
+  }
+}
+
+export function saveProgress(username, progress) {
+  try {
+    localStorage.setItem(storageKey(username), JSON.stringify(progress));
+  } catch (e) {
+    console.error("Failed to save quest progress:", e);
+  }
+}
+
+export function calculateXP(percentage, isFirstAttempt) {
+  let xp = Math.floor(BASE_XP * (percentage / 100));
+  if (isFirstAttempt) xp += FIRST_COMPLETION_BONUS;
+  if (percentage === 100) xp += PERFECT_BONUS;
+  return xp;
+}
+
+export function getPlayerLevel(totalXP) {
+  let current = XP_LEVELS[0];
+  let next = XP_LEVELS[1] || null;
+  for (let i = XP_LEVELS.length - 1; i >= 0; i--) {
+    if (totalXP >= XP_LEVELS[i].xp) {
+      current = XP_LEVELS[i];
+      next = XP_LEVELS[i + 1] || null;
+      break;
+    }
+  }
+  const xpInLevel = totalXP - current.xp;
+  const xpForNext = next ? next.xp - current.xp : 0;
+  return {
+    level: current.level,
+    title: current.title,
+    xpInLevel,
+    xpForNext,
+    progress: next ? xpInLevel / xpForNext : 1,
+  };
+}
+
+export function processResult(progress, branch, exerciseId, score, maxScore) {
+  const percentage = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
+  const branchData = progress.branches[branch];
+  const isFirstAttempt = !(exerciseId in branchData.bestScores);
+  const xpEarned = calculateXP(percentage, isFirstAttempt);
+
+  // Update best score (keep highest)
+  const prevBest = branchData.bestScores[exerciseId] ?? -1;
+  if (percentage > prevBest) {
+    branchData.bestScores[exerciseId] = percentage;
+  }
+
+  // Add XP
+  const prevLevel = getPlayerLevel(progress.xp);
+  progress.xp += xpEarned;
+  const newLevel = getPlayerLevel(progress.xp);
+  const levelUp = newLevel.level > prevLevel.level;
+
+  // Record attempt
+  progress.attempts.push({
+    exerciseId,
+    branch,
+    date: new Date().toISOString(),
+    score,
+    maxScore,
+    percentage,
+    xpEarned,
+  });
+
+  return { xpEarned, levelUp, newLevel };
+}
+
+export function isBranchComplete(progress, branch, exercises) {
+  const branchData = progress.branches[branch];
+  if (!branchData) return false;
+  return exercises.every(
+    (ex) => (branchData.bestScores[ex.id] ?? 0) >= BRIDGE_THRESHOLD
+  );
+}

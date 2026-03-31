@@ -1,0 +1,30 @@
+{
+  "title": "Fill the Gap",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 6,
+      "instruction": "Read the text below. Fill in each gap (1.1-1.6) with one word to make the text correct.",
+      "text": "Dolphins are some of the smartest animals in the ocean. They live in groups 1.1. _________ are called pods, and they help each other find food and stay safe. Unlike most fish, dolphins 1.2. _________ not lay eggs — they give birth to live babies and feed 1.3. _________ with milk, just like cats or dogs do.\n\nDolphins communicate with each other 1.4. _________ making clicking and whistling sounds. Scientists believe that each dolphin has its 1.5. _________ special whistle, almost like a name. Some researchers have even managed to teach dolphins to understand simple commands, 1.6. _________ nobody has worked out how to have a real conversation with them yet.",
+      "items": [
+        { "id": "1.1", "answer": ["that", "which"] },
+        { "id": "1.2", "answer": "do" },
+        { "id": "1.3", "answer": "them" },
+        { "id": "1.4", "answer": "by" },
+        { "id": "1.5", "answer": "own" },
+        { "id": "1.6", "answer": ["but", "although", "though"] }
+      ],
+      "scoringScheme": {
+        "6": 6,
+        "5": 5,
+        "4": 4,
+        "3": 3,
+        "2": 2,
+        "1": 1,
+        "0": 0
+      }
+    }
+  ]
+}

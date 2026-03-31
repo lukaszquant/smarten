@@ -1,0 +1,50 @@
+{
+  "title": "In the Kitchen",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Could you _________ the soup while I chop the vegetables?",
+          "options": ["A) spread", "B) stir", "C) squeeze"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "The recipe says to _________ the eggs into a bowl and mix them with flour.",
+          "options": ["A) crack", "B) slice", "C) grate"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "I'll have a _________ of cake, please — not too big.",
+          "options": ["A) loaf", "B) slice", "C) bunch"],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "Be careful — the _________ is very hot. Don't touch it without gloves.",
+          "options": ["A) oven", "B) fridge", "C) sink"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "Mum asked me to _________ some cheese on top of the pasta.",
+          "options": ["A) peel", "B) pour", "C) grate"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "We bought a _________ of bread and a carton of milk from the shop.",
+          "options": ["A) jar", "B) loaf", "C) tin"],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

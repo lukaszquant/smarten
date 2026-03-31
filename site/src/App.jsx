@@ -7,6 +7,8 @@ import KonkursTest from "./pages/KonkursTest";
 import Progress from "./pages/Progress";
 import { PracticeList, PracticeTypeList, PracticeExercise } from "./pages/Practice";
 import NotFound from "./pages/NotFound";
+import QuestHome from "./pages/quest/QuestHome";
+import QuestExercise from "./pages/quest/QuestExercise";
 
 const USERS = [
   { name: "Tadzio", password: "smart1" },
@@ -101,6 +103,8 @@ export default function App() {
           <Route path="/cwiczenia" element={<PracticeList />} />
           <Route path="/cwiczenia/:type" element={<PracticeTypeList />} />
           <Route path="/cwiczenia/:type/:id" element={<PracticeExercise />} />
+          <Route path="/quest" element={<QuestHome />} />
+          <Route path="/quest/:branch/:id" element={<QuestExercise />} />
           <Route path="/:year/:stage" element={<KonkursTest />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

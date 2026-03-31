@@ -1,0 +1,25 @@
+{
+  "title": "My Pet Dog",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Read the text below. Decide if each sentence (1.1-1.4) is True (T), False (F), or if the information is Not In the text (NI).",
+      "text": "MY PET DOG\n\nMy name is Emma and I have a dog called Biscuit. He is a golden retriever and he is three years old. We got him from an animal shelter when he was a tiny puppy.\n\nBiscuit loves going for walks in the park near our house. His favourite thing is chasing squirrels, but he never catches them! After our walks, he always drinks a big bowl of water and then falls asleep on the sofa.\n\nBiscuit is very friendly with other dogs and with people. When my friends come to visit, he runs to the door and wags his tail. My mum says he eats too much, but I think he is perfect just the way he is.",
+      "items": [
+        { "id": "1.1", "statement": "Biscuit was born at Emma's house.", "answer": "F", "explanation": "FALSE — The text says they got him from an animal shelter when he was a puppy." },
+        { "id": "1.2", "statement": "Biscuit sometimes catches squirrels in the park.", "answer": "F", "explanation": "FALSE — The text says 'he never catches them'." },
+        { "id": "1.3", "statement": "Biscuit sleeps in Emma's bedroom at night.", "answer": "NI", "explanation": "NO INFORMATION — The text says he falls asleep on the sofa after walks, but it does not say where he sleeps at night." },
+        { "id": "1.4", "statement": "Biscuit is happy to see Emma's friends when they visit.", "answer": "T", "explanation": "TRUE — The text says 'he runs to the door and wags his tail' when friends come to visit." }
+      ],
+      "scoringScheme": {
+        "4": 3,
+        "3": 2,
+        "2": 1,
+        "0-1": 0
+      }
+    }
+  ]
+}

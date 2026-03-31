@@ -182,6 +182,29 @@ export default function Home() {
         </div>
       )}
 
+      <div style={{ display: "flex", gap: 12, marginBottom: 12 }}>
+        <Link
+          to="/quest"
+          style={{
+            flex: 1,
+            display: "block",
+            background: "#13131a",
+            border: "1px solid #1e1e2e",
+            borderRadius: 10,
+            padding: "16px 20px",
+            textDecoration: "none",
+            transition: "border-color 0.2s",
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#a78bfa66"; }}
+          onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#1e1e2e"; }}
+        >
+          <span style={{ color: "#a78bfa", fontWeight: 700, fontSize: 15 }}>Quest</span>
+          <span style={{ color: "#7a7a90", fontSize: 13, display: "block", marginTop: 4 }}>
+            Fun English practice &rarr;
+          </span>
+        </Link>
+      </div>
+
       <div style={{ display: "flex", gap: 12, marginBottom: 40 }}>
         <Link
           to="/postepy"
