@@ -1,5 +1,5 @@
 import { useState, createContext, useContext } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import { ScrollToTop } from "./hooks";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
@@ -13,6 +13,7 @@ import QuestExercise from "./pages/quest/QuestExercise";
 const USERS = [
   { name: "Tadzio", password: "smart1" },
   { name: "Zosia", password: "smart2" },
+  { name: "Lidia", password: "smart3", questOnly: true },
 ];
 
 const UserContext = createContext(null);
@@ -26,7 +27,7 @@ function Gate({ children }) {
   const [val, setVal] = useState("");
   const [err, setErr] = useState(false);
 
-  if (user) return <UserContext.Provider value={user}>{children}</UserContext.Provider>;
+  if (user) return <UserContext.Provider value={user}>{typeof children === "function" ? children(user) : children}</UserContext.Provider>;
 
   const submit = (e) => {
     e.preventDefault();
@@ -92,23 +93,42 @@ function Gate({ children }) {
   );
 }
 
+function QuestOnlyRoutes() {
+  return (
+    <Layout>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/quest" element={<QuestHome />} />
+        <Route path="/quest/:branch/:id" element={<QuestExercise />} />
+        <Route path="*" element={<Navigate to="/quest" replace />} />
+      </Routes>
+    </Layout>
+  );
+}
+
+function FullRoutes() {
+  return (
+    <Layout>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/postepy" element={<Progress />} />
+        <Route path="/cwiczenia" element={<PracticeList />} />
+        <Route path="/cwiczenia/:type" element={<PracticeTypeList />} />
+        <Route path="/cwiczenia/:type/:id" element={<PracticeExercise />} />
+        <Route path="/quest" element={<QuestHome />} />
+        <Route path="/quest/:branch/:id" element={<QuestExercise />} />
+        <Route path="/:year/:stage" element={<KonkursTest />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Layout>
+  );
+}
+
 export default function App() {
   return (
     <Gate>
-      <Layout>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/postepy" element={<Progress />} />
-          <Route path="/cwiczenia" element={<PracticeList />} />
-          <Route path="/cwiczenia/:type" element={<PracticeTypeList />} />
-          <Route path="/cwiczenia/:type/:id" element={<PracticeExercise />} />
-          <Route path="/quest" element={<QuestHome />} />
-          <Route path="/quest/:branch/:id" element={<QuestExercise />} />
-          <Route path="/:year/:stage" element={<KonkursTest />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </Layout>
+      {(user) => user.questOnly ? <QuestOnlyRoutes /> : <FullRoutes />}
     </Gate>
   );
 }
