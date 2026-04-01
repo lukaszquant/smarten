@@ -1,0 +1,48 @@
+{
+  "title": "Present or Past?",
+  "type": "practice",
+  "tasks": [{
+    "id": "1",
+    "type": "multiple_choice",
+    "points": 6,
+    "instruction": "Choose the correct answer A, B or C.",
+    "items": [
+      {
+        "id": "1.1",
+        "stem": "My dad _________ coffee every morning, but yesterday he _________ tea.",
+        "options": ["A) drinks / drank", "B) drank / drinks", "C) drinks / drinks"],
+        "answer": "A"
+      },
+      {
+        "id": "1.2",
+        "stem": "We usually _________ to school by bus, but last Friday we _________.",
+        "options": ["A) went / walk", "B) go / walked", "C) go / go"],
+        "answer": "B"
+      },
+      {
+        "id": "1.3",
+        "stem": "She _________ English very well. She _________ it when she was five.",
+        "options": ["A) spoke / speaks", "B) speaks / started", "C) speak / started"],
+        "answer": "B"
+      },
+      {
+        "id": "1.4",
+        "stem": "I _________ pizza for lunch every day, but on my birthday I _________ sushi.",
+        "options": ["A) ate / have", "B) have / have", "C) have / had"],
+        "answer": "C"
+      },
+      {
+        "id": "1.5",
+        "stem": "Tom _________ football after school yesterday.",
+        "options": ["A) plays", "B) played", "C) play"],
+        "answer": "B"
+      },
+      {
+        "id": "1.6",
+        "stem": "My cat _________ on the sofa right now. This morning it _________ under the bed.",
+        "options": ["A) sleeps / slept", "B) slept / sleeps", "C) sleeps / sleeps"],
+        "answer": "A"
+      }
+    ]
+  }]
+}

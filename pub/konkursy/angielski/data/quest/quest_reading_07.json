@@ -1,0 +1,45 @@
+{
+  "title": "The New Neighbour",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Read the text below. Decide if each sentence (1.1-1.4) is True (T), False (F), or if the information is Not In the text (NI).",
+      "text": "THE NEW NEIGHBOUR\n\nLast Saturday, a big lorry stopped in front of the empty house next to ours. A family was moving in. I watched from my bedroom window as two men carried boxes and furniture inside. Then I saw a boy who looked about my age. He was holding a skateboard and wearing a T-shirt with a dinosaur on it. I have the same T-shirt!\n\nMum said we should bring them some cake, so we walked over together. The boy's name was Tom. He seemed a bit shy at first because he only smiled and didn't say much. But when he noticed my football in the garden, his eyes lit up. We played until it got dark. He was really good — much better than me! I think we are going to be great friends.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The narrator and Tom are probably the same age.",
+          "answer": "T",
+          "explanation": "TRUE — The text says the boy 'looked about my age', so this is true."
+        },
+        {
+          "id": "1.2",
+          "statement": "Tom brought a football with him to the new house.",
+          "answer": "F",
+          "explanation": "FALSE — Tom was holding a skateboard. The football belonged to the narrator and was already in the garden."
+        },
+        {
+          "id": "1.3",
+          "statement": "Tom was nervous about meeting new people.",
+          "answer": "T",
+          "explanation": "TRUE — The text says Tom 'seemed a bit shy at first' and 'only smiled and didn't say much', which implies he was nervous."
+        },
+        {
+          "id": "1.4",
+          "statement": "Tom moved from another city.",
+          "answer": "NI",
+          "explanation": "NOT IN THE TEXT — The text says a family moved into the house next door but does not mention where they came from."
+        }
+      ],
+      "scoringScheme": {
+        "4": 3,
+        "3": 2,
+        "2": 1,
+        "0-1": 0
+      }
+    }
+  ]
+}

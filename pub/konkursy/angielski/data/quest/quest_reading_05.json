@@ -1,0 +1,45 @@
+{
+  "title": "Lucy's Saturday",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Read the text below. Decide if each sentence (1.1-1.4) is True (T), False (F), or if the information is Not In the text (NI).",
+      "text": "LUCY'S SATURDAY\n\nEvery Saturday, Lucy wakes up at nine o'clock, which is much later than on school days. After breakfast, she usually rides her bike to the park with her older brother Tom. They like to play badminton there if the weather is nice. At around noon, Lucy goes home and has lunch with her family. In the afternoon, she often visits her best friend Anna. They love baking together, and their favourite thing to make is chocolate cake. Sometimes they watch a film afterwards. In the evening, Lucy helps her mum prepare dinner. Before bed, she always reads for at least thirty minutes. Lucy thinks Saturday is the best day of the week because she can do all the things she enjoys.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "Lucy wakes up earlier on Saturdays than on school days.",
+          "answer": "F",
+          "explanation": "FALSE - The text says she wakes up at nine, 'which is much later than on school days'."
+        },
+        {
+          "id": "1.2",
+          "statement": "Lucy and Tom play badminton in the garden.",
+          "answer": "F",
+          "explanation": "FALSE - The text says they play badminton in the park, not in the garden."
+        },
+        {
+          "id": "1.3",
+          "statement": "Anna is in the same class as Lucy at school.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION - The text says Anna is Lucy's best friend but does not mention whether they are in the same class."
+        },
+        {
+          "id": "1.4",
+          "statement": "Lucy reads before going to sleep on Saturdays.",
+          "answer": "T",
+          "explanation": "TRUE - The text says 'Before bed, she always reads for at least thirty minutes'."
+        }
+      ],
+      "scoringScheme": {
+        "4": 3,
+        "3": 2,
+        "2": 1,
+        "0-1": 0
+      }
+    }
+  ]
+}

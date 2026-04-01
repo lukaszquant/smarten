@@ -1,0 +1,75 @@
+{
+  "title": "Homework: Yes or No?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Read the text below. Choose the correct answer A, B or C for each question.",
+      "text": "HOMEWORK: YES OR NO?\n\nSome students hate homework, but I actually think it is useful — if there is not too much of it. A little homework every day helps me remember what I learned in class. For example, when I practise maths problems at home, I understand them much better the next day.\n\nHowever, I believe teachers sometimes give us too much. Last week, I had homework in five subjects on the same evening. I spent three hours at my desk and had no time to play outside. That is not fair.\n\nIn my view, the best solution is short homework — about thirty minutes a day. This way, students can revise the material and still have free time for sports, hobbies, or just relaxing with their family. Teachers should also talk to each other so they do not all give homework on the same day.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "What does the author think about homework in general?",
+          "options": [
+            "A) It is always a waste of time.",
+            "B) It is helpful when there is not too much.",
+            "C) It is only useful for maths."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "Why does the author mention maths problems?",
+          "options": [
+            "A) To show that maths is the hardest subject.",
+            "B) To give an example of how homework helps learning.",
+            "C) To explain why maths teachers give too much work."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "What happened to the author last week?",
+          "options": [
+            "A) The author failed a maths test.",
+            "B) The author had too much homework in one evening.",
+            "C) The author forgot to do homework for five subjects."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "How long does the author think homework should take each day?",
+          "options": [
+            "A) About half an hour.",
+            "B) About one hour.",
+            "C) About three hours."
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "What does the author suggest teachers should do?",
+          "options": [
+            "A) Stop giving homework completely.",
+            "B) Give homework only at weekends.",
+            "C) Communicate with each other about homework days."
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "Which sentence best describes the author's opinion?",
+          "options": [
+            "A) Homework is important but it needs to be limited.",
+            "B) Students should decide how much homework they do.",
+            "C) Homework should only be given in subjects you enjoy."
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "A, An or The?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "I saw _________ elephant at the zoo.",
+          "options": ["A) a", "B) an", "C) the"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "Can you close _________ window, please? It's cold.",
+          "options": ["A) a", "B) an", "C) the"],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "stem": "My sister wants to be _________ doctor when she grows up.",
+          "options": ["A) a", "B) an", "C) the"],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "He ate _________ orange for breakfast.",
+          "options": ["A) a", "B) an", "C) the"],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "Look! _________ sun is shining today.",
+          "options": ["A) A", "B) An", "C) The"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "There is _________ big park near my house.",
+          "options": ["A) a", "B) an", "C) the"],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Getting Dressed",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Complete each sentence with one word. The dashes show you the missing letters.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "It's cold outside, so put on your _ _ a _ _ and wrap it around your neck.",
+          "hint": "_ _ a _ _",
+          "answer": "scarf"
+        },
+        {
+          "id": "1.2",
+          "stem": "My hands are freezing — I forgot to bring my _ _ o _ _ _ today.",
+          "hint": "_ _ o _ _ _",
+          "answer": "gloves"
+        },
+        {
+          "id": "1.3",
+          "stem": "Grandma knitted me a warm wool _ _ e _ _ _ _ for my birthday.",
+          "hint": "_ _ e _ _ _ _",
+          "answer": "sweater"
+        },
+        {
+          "id": "1.4",
+          "stem": "I always wear my _ _ a _ _ _ _ _ when we have PE at school because they are comfortable.",
+          "hint": "_ _ a _ _ _ _ _",
+          "answer": "trainers"
+        },
+        {
+          "id": "1.5",
+          "stem": "I changed into my _ _ j _ _ _ _ and brushed my teeth before going to bed.",
+          "hint": "_ _ j _ _ _ _",
+          "answer": "pyjamas"
+        },
+        {
+          "id": "1.6",
+          "stem": "Don't forget to take a _ _ c _ _ _ in case it gets chilly in the evening.",
+          "hint": "_ _ c _ _ _",
+          "answer": "jacket"
+        }
+      ]
+    }
+  ]
+}

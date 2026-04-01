@@ -1,0 +1,45 @@
+{
+  "title": "The Invention of the Internet",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Read the text below. Decide if each sentence (1.1-1.4) is True (T), False (F), or if the information is Not In the text (NI).",
+      "text": "THE INVENTION OF THE INTERNET\n\nToday, billions of people use the internet every day, but it was not always this way. The internet began as a secret military project in the United States in the late 1960s. Scientists working for the American government wanted to create a network that could still send messages even if part of it was destroyed. They called it ARPANET, and at first only four universities were connected to it.\n\nFor many years, the internet was used mainly by scientists and researchers. Then, in 1989, a British scientist named Tim Berners-Lee invented the World Wide Web while working in Switzerland. This made it much easier for ordinary people to find and share information online. By the mid-1990s, millions of homes had internet access, and new websites appeared every day.\n\nThe internet has changed the way we learn, communicate, and even shop. It is hard to imagine life without it.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The internet was originally created for business purposes.",
+          "answer": "F",
+          "explanation": "FALSE — The text states the internet began as 'a secret military project', not a business one."
+        },
+        {
+          "id": "1.2",
+          "statement": "Tim Berners-Lee was American.",
+          "answer": "F",
+          "explanation": "FALSE — The text describes him as 'a British scientist', even though he was working in Switzerland at the time."
+        },
+        {
+          "id": "1.3",
+          "statement": "ARPANET was available to the general public from the very beginning.",
+          "answer": "F",
+          "explanation": "FALSE — The text says 'at first only four universities were connected to it' and it was used 'mainly by scientists and researchers' for many years."
+        },
+        {
+          "id": "1.4",
+          "statement": "More people use the internet in the United States than in any other country.",
+          "answer": "NI",
+          "explanation": "NOT IN THE TEXT — The text mentions that the internet started in the US and that billions of people use it, but it never compares usage between countries."
+        }
+      ],
+      "scoringScheme": {
+        "4": 3,
+        "3": 2,
+        "2": 1,
+        "0-1": 0
+      }
+    }
+  ]
+}

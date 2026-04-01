@@ -1,0 +1,50 @@
+{
+  "title": "How Do You Feel?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Complete each sentence with one word. The dashes show you the missing letters.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "She was so e _ _ _ _ _ _ when she found out about the surprise party.",
+          "hint": "_ _ _ _ _ _ _",
+          "answer": "excited"
+        },
+        {
+          "id": "1.2",
+          "stem": "Tom felt w _ _ _ _ _ _ about the maths test because he didn't study enough.",
+          "hint": "_ _ _ _ _ _ _",
+          "answer": "worried"
+        },
+        {
+          "id": "1.3",
+          "stem": "We were really s _ _ _ _ _ _ _ _ when the teacher cancelled the homework.",
+          "hint": "_ _ _ _ _ _ _ _ _",
+          "answer": "surprised"
+        },
+        {
+          "id": "1.4",
+          "stem": "I always feel n _ _ _ _ _ _ before speaking in front of the whole class.",
+          "hint": "_ _ _ _ _ _ _",
+          "answer": "nervous"
+        },
+        {
+          "id": "1.5",
+          "stem": "Dad was very p _ _ _ _ when I won first place in the swimming race.",
+          "hint": "_ _ _ _ _",
+          "answer": "proud"
+        },
+        {
+          "id": "1.6",
+          "stem": "My sister felt j _ _ _ _ _ _ when her friend got a brand new phone.",
+          "hint": "_ _ _ _ _ _ _",
+          "answer": "jealous"
+        }
+      ]
+    }
+  ]
+}

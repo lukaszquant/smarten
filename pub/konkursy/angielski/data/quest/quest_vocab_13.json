@@ -1,0 +1,50 @@
+{
+  "title": "Make or Do?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "I need to _________ my homework before I can go out.",
+          "options": ["A) make", "B) do", "C) take"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "Can you _________ a photo of us in front of the castle?",
+          "options": ["A) make", "B) do", "C) take"],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "stem": "It's hard to _________ a decision when both options are good.",
+          "options": ["A) make", "B) do", "C) have"],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "We should _________ exercise every day to stay healthy.",
+          "options": ["A) make", "B) have", "C) do"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "She always _________ friends easily at summer camp.",
+          "options": ["A) makes", "B) does", "C) gets"],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "Come and _________ a look at this amazing butterfly!",
+          "options": ["A) do", "B) make", "C) have"],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

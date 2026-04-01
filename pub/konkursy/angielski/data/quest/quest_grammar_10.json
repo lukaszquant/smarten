@@ -1,0 +1,18 @@
+{
+  "title": "Must, Should or Can?",
+  "type": "practice",
+  "tasks": [{
+    "id": "1",
+    "type": "multiple_choice",
+    "points": 6,
+    "instruction": "Choose the correct answer A, B or C.",
+    "items": [
+      { "id": "1.1", "stem": "You _________ wear a helmet when you ride a bike. It's the law.", "options": ["A) should", "B) can", "C) must"], "answer": "C" },
+      { "id": "1.2", "stem": "I _________ swim really well. I go to the pool three times a week.", "options": ["A) must", "B) can", "C) should"], "answer": "B" },
+      { "id": "1.3", "stem": "You look tired. You _________ go to bed earlier tonight.", "options": ["A) should", "B) must", "C) can"], "answer": "A" },
+      { "id": "1.4", "stem": "_________ I borrow your rubber, please?", "options": ["A) Must", "B) Should", "C) Could"], "answer": "C" },
+      { "id": "1.5", "stem": "Students _________ use their phones during the test. It's not allowed.", "options": ["A) can't", "B) shouldn't", "C) couldn't"], "answer": "A" },
+      { "id": "1.6", "stem": "It's raining hard. We _________ take an umbrella or we'll get wet.", "options": ["A) can", "B) could", "C) should"], "answer": "C" }
+    ]
+  }]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Weather Report",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 6,
+      "instruction": "Complete each sentence with one word. The dashes show you the missing letters.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "It was _ _ o _ _ _ all day so we didn't see the sun at all.",
+          "hint": "_ _ o _ _ _",
+          "answer": "cloudy"
+        },
+        {
+          "id": "1.2",
+          "stem": "We heard loud _ _ u _ _ _ _ during the storm and the dog hid under the bed.",
+          "hint": "_ _ u _ _ _ _",
+          "answer": "thunder"
+        },
+        {
+          "id": "1.3",
+          "stem": "After the rain stopped, a beautiful _ _ i _ _ _ _ appeared in the sky.",
+          "hint": "_ _ i _ _ _ _",
+          "answer": "rainbow"
+        },
+        {
+          "id": "1.4",
+          "stem": "It was very _ _ g _ _ this morning and we could barely see the road ahead.",
+          "hint": "_ _ g _ _",
+          "answer": "foggy"
+        },
+        {
+          "id": "1.5",
+          "stem": "The temperature dropped below zero — it was absolutely _ _ e _ _ _ _ _ outside.",
+          "hint": "_ _ e _ _ _ _ _",
+          "answer": "freezing"
+        },
+        {
+          "id": "1.6",
+          "stem": "There was a gentle _ _ e _ _ _ blowing from the sea and it felt lovely.",
+          "hint": "_ _ e _ _ _",
+          "answer": "breeze"
+        }
+      ]
+    }
+  ]
+}

@@ -4,12 +4,14 @@ import { useUser } from "../../App";
 import { useDocumentHead } from "../../hooks";
 import { scoreTest } from "../../lib/scoring";
 import { loadProgress, saveProgress, processResult, getPlayerLevel } from "../../lib/questProgress";
+import { getExerciseLevel, getNextExercise } from "../../lib/questData";
 import TaskRenderer from "../../components/konkursy/TaskRenderer";
 
 export default function QuestExercise() {
   const { branch, id } = useParams();
   const user = useUser();
   const [data, setData] = useState(null);
+  const [index, setIndex] = useState(null);
   const [answers, setAnswers] = useState({});
   const [result, setResult] = useState(null);
   const [xpInfo, setXpInfo] = useState(null);
@@ -27,6 +29,13 @@ export default function QuestExercise() {
       .then(setData)
       .catch(console.error);
   }, [id]);
+
+  useEffect(() => {
+    fetch("/konkursy/angielski/data/quest/index.json")
+      .then((r) => r.json())
+      .then(setIndex)
+      .catch(console.error);
+  }, []);
 
   const handleChange = (itemId, value) => {
     setAnswers((prev) => ({ ...prev, [itemId]: value }));
@@ -54,6 +63,11 @@ export default function QuestExercise() {
     return <div style={styles.page}><p style={{ color: "#5a5e72" }}>Loading...</p></div>;
   }
 
+  // Derive level context and next exercise from index
+  const branchData = index?.branches?.find((b) => b.id === branch);
+  const levelNum = branchData ? getExerciseLevel(branchData, id) : null;
+  const next = branchData ? getNextExercise(branchData, id) : null;
+
   return (
     <div style={styles.page}>
       <link
@@ -62,6 +76,15 @@ export default function QuestExercise() {
       />
 
       <Link to="/quest" style={styles.back}>&larr; Back to Quest</Link>
+
+      {/* Level context */}
+      {branchData && levelNum && (
+        <div style={styles.levelContext}>
+          <span style={{ color: branchData.color }}>{branchData.name}</span>
+          <span style={{ color: "#9ca3af" }}> — Level {levelNum}</span>
+        </div>
+      )}
+
       <h1 style={styles.title}>{data.title}</h1>
 
       {/* Result banner */}
@@ -129,9 +152,14 @@ export default function QuestExercise() {
 
       {/* Post-result actions */}
       {result && (
-        <div style={{ display: "flex", justifyContent: "center", gap: 16, marginTop: 32 }}>
+        <div style={{ display: "flex", justifyContent: "center", gap: 16, marginTop: 32, flexWrap: "wrap" }}>
           <button onClick={handleRetry} style={styles.retryBtn}>Try again</button>
-          <Link to="/quest" style={styles.submitBtn}>Back to Quest</Link>
+          {next && (
+            <Link to={`/quest/${next.branchId}/${next.exerciseId}`} style={styles.submitBtn}>
+              Next exercise &rarr;
+            </Link>
+          )}
+          <Link to="/quest" style={next ? styles.retryBtn : styles.submitBtn}>Back to Quest</Link>
         </div>
       )}
     </div>
@@ -150,7 +178,12 @@ const styles = {
     textDecoration: "none",
     fontSize: 14,
     display: "inline-block",
-    marginBottom: 16,
+    marginBottom: 8,
+  },
+  levelContext: {
+    fontSize: 14,
+    fontWeight: 600,
+    marginBottom: 4,
   },
   title: {
     fontFamily: "'Fredoka', sans-serif",
@@ -232,5 +265,6 @@ const styles = {
     fontWeight: 700,
     cursor: "pointer",
     fontFamily: "'DM Sans', sans-serif",
+    textDecoration: "none",
   },
 };

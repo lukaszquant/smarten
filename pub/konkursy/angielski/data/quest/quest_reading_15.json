@@ -1,0 +1,37 @@
+{
+  "title": "Famous Places",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 3,
+      "instruction": "Read the descriptions (A-L) below. Match each description to the correct city: London, Paris, or New York. Each city has three matching descriptions. Three descriptions do not match any of these cities.",
+      "options": [
+        { "letter": "A", "text": "This city's underground railway, opened in 1863, was the first in the world." },
+        { "letter": "B", "text": "A famous iron tower, built for a world fair in 1889, stands 330 metres tall in this city." },
+        { "letter": "C", "text": "A giant green statue holding a torch welcomes visitors arriving by sea to this city." },
+        { "letter": "D", "text": "Every year, millions of tourists come here to watch the Changing of the Guard at a royal palace." },
+        { "letter": "E", "text": "The world's most visited art museum, home to the Mona Lisa, is located in this city." },
+        { "letter": "F", "text": "This city's famous park, right in the centre, covers over 340 hectares and has its own zoo." },
+        { "letter": "G", "text": "A large clock tower next to the Houses of Parliament is one of this city's most recognisable symbols." },
+        { "letter": "H", "text": "People in this city eat about 30 million croissants every day and its bakeries are world-famous." },
+        { "letter": "I", "text": "This city has five areas called boroughs, and over 800 languages are spoken there." },
+        { "letter": "J", "text": "This city is famous for its ancient Colosseum, where gladiators once fought." },
+        { "letter": "K", "text": "Cherry blossom trees around a tidal basin make this city especially beautiful in spring." },
+        { "letter": "L", "text": "Kangaroos and koalas can be seen in wildlife parks near this harbour city." }
+      ],
+      "items": [
+        { "id": "London", "answers": ["A", "D", "G"] },
+        { "id": "Paris", "answers": ["B", "E", "H"] },
+        { "id": "New York", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
+    }
+  ]
+}

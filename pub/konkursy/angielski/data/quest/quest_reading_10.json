@@ -1,0 +1,45 @@
+{
+  "title": "Should Kids Have Phones?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 3,
+      "instruction": "Read the text below. Decide if each sentence (1.1-1.4) is True (T), False (F), or if the information is Not In the text (NI).",
+      "text": "SHOULD KIDS HAVE PHONES?\n\nI am eleven years old, and I believe children my age should have their own phones. Many people say phones are bad for kids, but I disagree. First, a phone helps you stay safe. When I walk home from school, I can call my mum if anything goes wrong. Last winter, my bus was late and I used my phone to let her know. Without it, she would have been really worried.\n\nSecond, phones are great for learning. I use mine to look up words in English and watch educational videos. Of course, parents should set some rules — for example, no phone during dinner or after nine o'clock at night. I follow these rules at home and I still have plenty of time to use my phone.\n\nIn my opinion, if children use phones responsibly, there is nothing wrong with having one.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The author thinks children should not have phones until they are teenagers.",
+          "answer": "F",
+          "explanation": "FALSE — The author is eleven and clearly states that children his age should have their own phones."
+        },
+        {
+          "id": "1.2",
+          "statement": "The author once used his phone to contact his mother when the bus was delayed.",
+          "answer": "T",
+          "explanation": "TRUE — The text says 'my bus was late and I used my phone to let her know'."
+        },
+        {
+          "id": "1.3",
+          "statement": "The author's school does not allow phones in class.",
+          "answer": "NI",
+          "explanation": "NOT IN THE TEXT — The text mentions rules at home but says nothing about school rules on phones."
+        },
+        {
+          "id": "1.4",
+          "statement": "The author believes parents should set rules about phone use.",
+          "answer": "T",
+          "explanation": "TRUE — The text says 'parents should set some rules' and gives examples like no phone during dinner or after nine o'clock."
+        }
+      ],
+      "scoringScheme": {
+        "4": 3,
+        "3": 2,
+        "2": 1,
+        "0-1": 0
+      }
+    }
+  ]
+}

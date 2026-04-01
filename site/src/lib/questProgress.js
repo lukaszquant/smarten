@@ -1,4 +1,4 @@
-import { BASE_XP, FIRST_COMPLETION_BONUS, PERFECT_BONUS, XP_LEVELS, BRIDGE_THRESHOLD } from "./questData";
+import { BASE_XP, FIRST_COMPLETION_BONUS, PERFECT_BONUS, XP_LEVELS, BRIDGE_THRESHOLD, flattenExercises } from "./questData";
 
 const STORAGE_PREFIX = "smarten_quest_";
 
@@ -102,10 +102,43 @@ export function processResult(progress, branch, exerciseId, score, maxScore) {
   return { xpEarned, levelUp, newLevel };
 }
 
-export function isBranchComplete(progress, branch, exercises) {
-  const branchData = progress.branches[branch];
+/** Check if all exercises in a single level have bestScore >= threshold */
+export function isLevelComplete(progress, branchId, levelExercises) {
+  const branchData = progress.branches[branchId];
   if (!branchData) return false;
-  return exercises.every(
+  return levelExercises.every(
+    (ex) => (branchData.bestScores[ex.id] ?? 0) >= BRIDGE_THRESHOLD
+  );
+}
+
+/** Get the highest unlocked level (1-based; level 1 always unlocked) */
+export function getHighestUnlockedLevel(progress, branchId, levels) {
+  if (!levels || levels.length === 0) return 1;
+  let highest = 1;
+  for (let i = 0; i < levels.length - 1; i++) {
+    if (isLevelComplete(progress, branchId, levels[i].exercises)) {
+      highest = levels[i + 1].level;
+    } else {
+      break;
+    }
+  }
+  return highest;
+}
+
+/** Check if entire branch is complete (all levels) */
+export function isBranchComplete(progress, branchId, branch) {
+  // Support both old flat format and new nested format
+  if (branch.levels) {
+    return branch.levels.every((lvl) =>
+      isLevelComplete(progress, branchId, lvl.exercises)
+    );
+  }
+  // Flat fallback
+  const exercises = branch.exercises || branch;
+  const branchData = progress.branches[branchId];
+  if (!branchData) return false;
+  const list = Array.isArray(exercises) ? exercises : [];
+  return list.every(
     (ex) => (branchData.bestScores[ex.id] ?? 0) >= BRIDGE_THRESHOLD
   );
 }

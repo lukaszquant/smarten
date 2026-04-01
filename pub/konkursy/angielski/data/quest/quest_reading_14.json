@@ -1,0 +1,75 @@
+{
+  "title": "A Letter from London",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Read the text below. Choose the correct answer A, B or C for each question.",
+      "text": "A LETTER FROM LONDON\n\nHi Zosia!\n\nI'm having an amazing time in London! We arrived on Monday and it's already Wednesday — the days are flying by. Yesterday, we visited the Tower of London. Did you know it's almost a thousand years old? We saw the Crown Jewels there, and they were absolutely stunning. The guard told us that ravens have lived at the Tower for centuries because people believe that if they ever leave, the kingdom will fall.\n\nToday we went on the London Eye. I was a bit scared at first because the wheel is 135 metres tall, but once we were at the top, the view was incredible. I could see Big Ben, the Thames, and even tiny boats far below. After that, we had fish and chips near the river — Mum says it's the most British meal you can eat!\n\nTomorrow we're going to the Natural History Museum. My brother is desperate to see the dinosaur skeletons. I'm more excited about the gemstone collection, but don't tell him that!\n\nWish you were here!\nKasia",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "When did Kasia arrive in London?",
+          "options": [
+            "A) On Wednesday.",
+            "B) On Monday.",
+            "C) On Tuesday."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "Why do ravens live at the Tower of London?",
+          "options": [
+            "A) Because the guards feed them every day.",
+            "B) Because they have always lived near rivers.",
+            "C) Because there is a belief that the kingdom will fall if they leave."
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "stem": "How did Kasia feel at first on the London Eye?",
+          "options": [
+            "A) She felt a bit frightened.",
+            "B) She felt very excited.",
+            "C) She felt bored."
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "What could Kasia see from the top of the London Eye?",
+          "options": [
+            "A) The Tower of London and the Crown Jewels.",
+            "B) Big Ben, the river, and boats.",
+            "C) The Natural History Museum and dinosaurs."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "What does Kasia's mum think about fish and chips?",
+          "options": [
+            "A) It is too expensive to eat near the river.",
+            "B) It is a very traditional British dish.",
+            "C) It is not as good as Polish food."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "What is Kasia most looking forward to at the museum?",
+          "options": [
+            "A) The dinosaur skeletons.",
+            "B) The gift shop.",
+            "C) The gemstone collection."
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

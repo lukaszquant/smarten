@@ -1,0 +1,75 @@
+{
+  "title": "The Birthday Party",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Read the text below. Choose the correct answer A, B or C for each question.",
+      "text": "THE BIRTHDAY PARTY\n\nEmma was turning ten, and she wanted a special party. Her parents decided to have it at Green Hill Park because their flat was too small for all her friends. Mum made a huge chocolate cake with pink candles, and Dad prepared games like a treasure hunt and a water balloon race.\n\nFifteen children came, including Emma's cousin Leo, who travelled from another town. Emma was very happy when she opened her presents. Her favourite gift was a set of watercolour paints from her best friend Mia. She had wanted them for months!\n\nAfter the cake, it started to rain, so everyone ran to the big shelter near the playground. They kept playing games there and nobody wanted to go home. It was the best birthday Emma had ever had.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Why was the party held in a park?",
+          "options": [
+            "A) Emma liked parks more than anything.",
+            "B) Their flat did not have enough space.",
+            "C) The park had a swimming pool."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "Who made the birthday cake?",
+          "options": [
+            "A) Emma's dad.",
+            "B) Emma's best friend.",
+            "C) Emma's mum."
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "stem": "What can we understand about Leo?",
+          "options": [
+            "A) He does not live in the same town as Emma.",
+            "B) He is Emma's classmate.",
+            "C) He gave Emma the watercolour paints."
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "Why was the gift from Mia Emma's favourite?",
+          "options": [
+            "A) It was the most expensive present.",
+            "B) Mia was her cousin.",
+            "C) Emma had been wanting it for a long time."
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "What happened after they ate the cake?",
+          "options": [
+            "A) The children went home.",
+            "B) The weather changed.",
+            "C) They opened the presents."
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "How did the rain affect the party?",
+          "options": [
+            "A) It ruined the party completely.",
+            "B) The children stopped playing games.",
+            "C) Everyone moved to a covered area and continued having fun."
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

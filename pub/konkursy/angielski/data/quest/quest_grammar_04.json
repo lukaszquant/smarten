@@ -1,0 +1,50 @@
+{
+  "title": "What Happened Yesterday?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "She _________ to school by bus yesterday.",
+          "options": ["A) goes", "B) went", "C) goed"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "We _________ a really good film last Saturday.",
+          "options": ["A) watched", "B) watch", "C) watchd"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "Tom _________ his homework after dinner.",
+          "options": ["A) does", "B) doed", "C) did"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "I _________ football with my friends in the park.",
+          "options": ["A) played", "B) plaied", "C) plays"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "They _________ a sandcastle on the beach last summer.",
+          "options": ["A) builded", "B) build", "C) built"],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "My mum _________ a delicious cake for my birthday.",
+          "options": ["A) maked", "B) made", "C) makes"],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

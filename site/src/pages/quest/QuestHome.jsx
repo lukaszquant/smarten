@@ -2,13 +2,14 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../App";
 import { useDocumentHead } from "../../hooks";
-import { loadProgress, getPlayerLevel, isBranchComplete } from "../../lib/questProgress";
-import { TYPE_LABELS } from "../../lib/questData";
+import { loadProgress, getPlayerLevel, isBranchComplete, isLevelComplete, getHighestUnlockedLevel } from "../../lib/questProgress";
+import { TYPE_LABELS, flattenExercises } from "../../lib/questData";
 
 export default function QuestHome() {
   const user = useUser();
   const [index, setIndex] = useState(null);
   const [progress, setProgress] = useState(null);
+  const [expanded, setExpanded] = useState({}); // { "vocabulary-2": true }
 
   useDocumentHead("SmartEn Quest", "Fun English practice for young learners");
 
@@ -66,49 +67,89 @@ export default function QuestHome() {
       <div style={styles.branches}>
         {index.branches.map((branch) => {
           const branchProgress = progress.branches[branch.id] || { bestScores: {} };
-          const completedCount = branch.exercises.filter(
+          const allExercises = flattenExercises(branch);
+          const completedCount = allExercises.filter(
             (ex) => ex.id in branchProgress.bestScores
           ).length;
-          const complete = isBranchComplete(progress, branch.id, branch.exercises);
+          const complete = isBranchComplete(progress, branch.id, branch);
+          const highestUnlocked = getHighestUnlockedLevel(progress, branch.id, branch.levels);
 
           return (
             <div key={branch.id} style={{ ...styles.branchCard, borderLeftColor: branch.color }}>
               <div style={styles.branchHeader}>
                 <h2 style={{ ...styles.branchName, color: branch.color }}>{branch.name}</h2>
                 <span style={styles.branchCount}>
-                  {completedCount}/{branch.exercises.length} done
+                  {completedCount}/{allExercises.length} done
                 </span>
               </div>
 
-              <div style={styles.exerciseList}>
-                {branch.exercises.map((ex) => {
-                  const best = branchProgress.bestScores[ex.id];
-                  const hasBest = best !== undefined;
-                  return (
-                    <Link
-                      key={ex.id}
-                      to={`/quest/${branch.id}/${ex.id}`}
-                      style={styles.exerciseRow}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.background = "#f0f2f6";
+              {/* Levels */}
+              {branch.levels.map((lvl) => {
+                const locked = lvl.level > highestUnlocked;
+                const lvlComplete = isLevelComplete(progress, branch.id, lvl.exercises);
+                const key = `${branch.id}-${lvl.level}`;
+                // Default: expand the highest unlocked incomplete level
+                const isDefaultExpanded = !locked && !lvlComplete;
+                const isExpanded = expanded[key] !== undefined ? expanded[key] : isDefaultExpanded;
+
+                return (
+                  <div key={lvl.level} style={{ marginBottom: 4 }}>
+                    {/* Level header — clickable unless locked */}
+                    <button
+                      onClick={() => {
+                        if (locked) return;
+                        setExpanded((prev) => ({ ...prev, [key]: !isExpanded }));
                       }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.background = "transparent";
+                      style={{
+                        ...styles.levelHeader,
+                        cursor: locked ? "default" : "pointer",
+                        opacity: locked ? 0.45 : 1,
                       }}
                     >
-                      <span style={styles.exerciseTitle}>{ex.title}</span>
-                      <span style={{
-                        ...styles.exerciseScore,
-                        color: hasBest
-                          ? (best >= 70 ? "#16a34a" : best >= 40 ? "#d97706" : "#dc2626")
-                          : "#9ca3af",
-                      }}>
-                        {hasBest ? `${best}%` : "Not started"}
+                      <span style={styles.levelTitle}>
+                        {locked ? "\u{1F512} " : lvlComplete ? "\u2705 " : ""}
+                        Level {lvl.level}: {lvl.title}
                       </span>
-                    </Link>
-                  );
-                })}
-              </div>
+                      <span style={styles.levelArrow}>
+                        {locked ? "" : isExpanded ? "\u25B2" : "\u25BC"}
+                      </span>
+                    </button>
+
+                    {/* Exercise list */}
+                    {isExpanded && !locked && (
+                      <div style={styles.exerciseList}>
+                        {lvl.exercises.map((ex) => {
+                          const best = branchProgress.bestScores[ex.id];
+                          const hasBest = best !== undefined;
+                          return (
+                            <Link
+                              key={ex.id}
+                              to={`/quest/${branch.id}/${ex.id}`}
+                              style={styles.exerciseRow}
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.background = "#f0f2f6";
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.background = "transparent";
+                              }}
+                            >
+                              <span style={styles.exerciseTitle}>{ex.title}</span>
+                              <span style={{
+                                ...styles.exerciseScore,
+                                color: hasBest
+                                  ? (best >= 70 ? "#16a34a" : best >= 40 ? "#d97706" : "#dc2626")
+                                  : "#9ca3af",
+                              }}>
+                                {hasBest ? `${best}%` : "Not started"}
+                              </span>
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
 
               {complete && (
                 <div style={styles.bridgeCard}>
@@ -232,10 +273,33 @@ const styles = {
     fontWeight: 600,
     color: "#6b7280",
   },
+  levelHeader: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    padding: "8px 12px",
+    border: "none",
+    borderRadius: 8,
+    background: "#f8f9fc",
+    fontFamily: "'DM Sans', sans-serif",
+    fontSize: 14,
+    fontWeight: 600,
+    color: "#374151",
+  },
+  levelTitle: {
+    fontSize: 14,
+    fontWeight: 600,
+  },
+  levelArrow: {
+    fontSize: 10,
+    color: "#9ca3af",
+  },
   exerciseList: {
     display: "flex",
     flexDirection: "column",
     gap: 2,
+    paddingLeft: 8,
   },
   exerciseRow: {
     display: "flex",

@@ -1,0 +1,50 @@
+{
+  "title": "Going on Holiday",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "We need to _________ our bags the night before the trip so we don't forget anything.",
+          "options": ["A) unpack", "B) pack", "C) wrap"],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "The plane will _________ at 8 o'clock in the morning, so we have to get up early.",
+          "options": ["A) depart", "B) arrive", "C) delay"],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "Dad showed our _________ to the lady at the airport check-in desk.",
+          "options": ["A) tickets", "B) postcards", "C) passports"],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "We put on _________ and went swimming as soon as we got to the beach.",
+          "options": ["A) sunscreen", "B) suitcases", "C) souvenirs"],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "Every morning on holiday I _________ at seven, have breakfast and go to the pool.",
+          "options": ["A) wake up", "B) check in", "C) take off"],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "Mum bought some _________ for our friends — a magnet and a small keyring from Greece.",
+          "options": ["A) luggage", "B) souvenirs", "C) brochures"],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

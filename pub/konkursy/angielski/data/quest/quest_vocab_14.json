@@ -1,0 +1,50 @@
+{
+  "title": "What Does It Mean?",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "We can't go to the park \u2014 it's raining cats and dogs! What does this mean?",
+          "options": ["A) Animals are falling from the sky.", "B) It is raining very heavily.", "C) There are cats and dogs in the park."],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "The new boy told a joke to break the ice. What does this mean?",
+          "options": ["A) He broke something made of ice.", "B) He wanted everyone to feel cold.", "C) He wanted to start a friendly conversation."],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "stem": "Don't worry about the test \u2014 it's a piece of cake! What does this mean?",
+          "options": ["A) The teacher will bring cake.", "B) It is very easy.", "C) It is very short."],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "Tom is feeling under the weather today, so he's staying in bed. What does this mean?",
+          "options": ["A) He is feeling ill.", "B) He doesn't like the weather.", "C) He is hiding from the rain."],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "Oh no, I let the cat out of the bag about the surprise party! What does this mean?",
+          "options": ["A) I lost my cat.", "B) I opened a bag.", "C) I accidentally told the secret."],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "I have a big exam tomorrow, so I need to hit the books tonight. What does this mean?",
+          "options": ["A) I need to throw my books away.", "B) I need to study hard.", "C) I need to buy new books."],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

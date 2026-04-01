@@ -1,0 +1,37 @@
+{
+  "title": "Sports Around the World",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 3,
+      "instruction": "Read the descriptions. Match each description (A-L) to the correct sport. Three descriptions do not match any sport.",
+      "options": [
+        { "letter": "A", "text": "Two teams of eleven players try to kick a ball into a goal." },
+        { "letter": "B", "text": "Players score points by throwing a ball through a high basket." },
+        { "letter": "C", "text": "Two or four players hit a small ball over a net with rackets." },
+        { "letter": "D", "text": "The World Cup is the biggest competition in this sport." },
+        { "letter": "E", "text": "The court has a three-point line far from the basket." },
+        { "letter": "F", "text": "Players must hit the ball before it bounces twice on their side." },
+        { "letter": "G", "text": "A goalkeeper stands in front of the goal and tries to stop the ball." },
+        { "letter": "H", "text": "Games are played in four quarters, and players dribble the ball by bouncing it." },
+        { "letter": "I", "text": "Wimbledon in England is one of the most famous tournaments." },
+        { "letter": "J", "text": "Players wear helmets and skate on ice during the game." },
+        { "letter": "K", "text": "You need a boat and a paddle to do this water activity." },
+        { "letter": "L", "text": "Athletes ride horses and jump over obstacles in a competition." }
+      ],
+      "items": [
+        { "id": "Football", "answers": ["A", "D", "G"] },
+        { "id": "Basketball", "answers": ["B", "E", "H"] },
+        { "id": "Tennis", "answers": ["C", "F", "I"] }
+      ],
+      "scoringScheme": {
+        "9": 3,
+        "7-8": 2,
+        "5-6": 1,
+        "0-4": 0
+      }
+    }
+  ]
+}

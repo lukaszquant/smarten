@@ -1,0 +1,50 @@
+{
+  "title": "Phrasal Verbs",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "multiple_choice",
+      "points": 6,
+      "instruction": "Choose the correct answer A, B or C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Can you _________ the TV? I want to watch the news.",
+          "options": ["A) turn on", "B) turn off", "C) turn up"],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "stem": "My grandma _________ my little sister when Mum is at work.",
+          "options": ["A) looks up", "B) looks after", "C) looks for"],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "Don't _________ ! Keep trying and you will learn to ride a bike.",
+          "options": ["A) give up", "B) give back", "C) give away"],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "It's cold outside. You should _________ a warm jacket before you go.",
+          "options": ["A) take off", "B) pick up", "C) put on"],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "We _________ that the shop was closed on Sundays, so we went on Monday.",
+          "options": ["A) ran out of", "B) found out", "C) picked up"],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "Oh no, we've _________ milk! Can you go to the shop and buy some?",
+          "options": ["A) run out of", "B) given up", "C) turned off"],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

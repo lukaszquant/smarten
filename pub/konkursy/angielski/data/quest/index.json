@@ -5,10 +5,52 @@
       "name": "Vocabulary",
       "color": "#f59e0b",
       "bridgeTypes": ["word_spelling", "word_formation"],
-      "exercises": [
-        { "id": "quest_vocab_01", "title": "Animals Around Us", "taskType": "word_spelling", "points": 6 },
-        { "id": "quest_vocab_02", "title": "At School", "taskType": "word_spelling", "points": 6 },
-        { "id": "quest_vocab_03", "title": "In the Kitchen", "taskType": "multiple_choice", "points": 6 }
+      "levels": [
+        {
+          "level": 1,
+          "title": "Basic Words",
+          "exercises": [
+            { "id": "quest_vocab_01", "title": "Animals Around Us", "taskType": "word_spelling", "points": 6 },
+            { "id": "quest_vocab_02", "title": "At School", "taskType": "word_spelling", "points": 6 },
+            { "id": "quest_vocab_03", "title": "In the Kitchen", "taskType": "multiple_choice", "points": 6 }
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Everyday Life",
+          "exercises": [
+            { "id": "quest_vocab_04", "title": "Getting Dressed", "taskType": "word_spelling", "points": 6 },
+            { "id": "quest_vocab_05", "title": "Weather Report", "taskType": "word_spelling", "points": 6 },
+            { "id": "quest_vocab_06", "title": "Going on Holiday", "taskType": "multiple_choice", "points": 6 }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Express Yourself",
+          "exercises": [
+            { "id": "quest_vocab_07", "title": "Phrasal Verbs", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_vocab_08", "title": "How Do You Feel?", "taskType": "word_spelling", "points": 6 },
+            { "id": "quest_vocab_09", "title": "Describe It!", "taskType": "multiple_choice", "points": 6 }
+          ]
+        },
+        {
+          "level": 4,
+          "title": "Word Power",
+          "exercises": [
+            { "id": "quest_vocab_10", "title": "Word Builders", "taskType": "word_spelling", "points": 6 },
+            { "id": "quest_vocab_11", "title": "Opposites", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_vocab_12", "title": "Around Town", "taskType": "multiple_choice", "points": 6 }
+          ]
+        },
+        {
+          "level": 5,
+          "title": "Competition Ready",
+          "exercises": [
+            { "id": "quest_vocab_13", "title": "Make or Do?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_vocab_14", "title": "What Does It Mean?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_vocab_15", "title": "Word Pairs", "taskType": "word_spelling", "points": 6 }
+          ]
+        }
       ]
     },
     {
@@ -16,10 +58,52 @@
       "name": "Grammar",
       "color": "#8b5cf6",
       "bridgeTypes": ["multiple_choice", "open_cloze"],
-      "exercises": [
-        { "id": "quest_grammar_01", "title": "Tense Challenge", "taskType": "multiple_choice", "points": 6 },
-        { "id": "quest_grammar_02", "title": "Tricky Prepositions", "taskType": "multiple_choice", "points": 6 },
-        { "id": "quest_grammar_03", "title": "Fill the Gap", "taskType": "open_cloze", "points": 6 }
+      "levels": [
+        {
+          "level": 1,
+          "title": "First Steps",
+          "exercises": [
+            { "id": "quest_grammar_01", "title": "Tense Challenge", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_02", "title": "Tricky Prepositions", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_03", "title": "Fill the Gap", "taskType": "open_cloze", "points": 6 }
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Past and Present",
+          "exercises": [
+            { "id": "quest_grammar_04", "title": "What Happened Yesterday?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_05", "title": "A, An or The?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_06", "title": "What's in the Room?", "taskType": "open_cloze", "points": 6 }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Mix and Match",
+          "exercises": [
+            { "id": "quest_grammar_07", "title": "Present or Past?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_08", "title": "Bigger and Better", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_09", "title": "Complete the Story", "taskType": "open_cloze", "points": 6 }
+          ]
+        },
+        {
+          "level": 4,
+          "title": "Rules and Choices",
+          "exercises": [
+            { "id": "quest_grammar_10", "title": "Must, Should or Can?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_11", "title": "If It Rains...", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_12", "title": "Fix the Mistakes", "taskType": "open_cloze", "points": 6 }
+          ]
+        },
+        {
+          "level": 5,
+          "title": "Competition Ready",
+          "exercises": [
+            { "id": "quest_grammar_13", "title": "If I Were...", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_14", "title": "It Was Made by...", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_grammar_15", "title": "Grammar Master", "taskType": "open_cloze", "points": 6 }
+          ]
+        }
       ]
     },
     {
@@ -27,10 +111,52 @@
       "name": "Reading",
       "color": "#3b82f6",
       "bridgeTypes": ["true_false_ni", "matching"],
-      "exercises": [
-        { "id": "quest_reading_01", "title": "My Pet Dog", "taskType": "true_false_ni", "points": 3 },
-        { "id": "quest_reading_02", "title": "A Day at the Beach", "taskType": "true_false_ni", "points": 3 },
-        { "id": "quest_reading_03", "title": "Match the Facts", "taskType": "matching", "points": 3 }
+      "levels": [
+        {
+          "level": 1,
+          "title": "Easy Reading",
+          "exercises": [
+            { "id": "quest_reading_01", "title": "My Pet Dog", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_02", "title": "A Day at the Beach", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_03", "title": "Match the Facts", "taskType": "matching", "points": 3 }
+          ]
+        },
+        {
+          "level": 2,
+          "title": "Longer Stories",
+          "exercises": [
+            { "id": "quest_reading_04", "title": "The School Trip", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_05", "title": "Lucy's Saturday", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_06", "title": "Sports Around the World", "taskType": "matching", "points": 3 }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Think and Answer",
+          "exercises": [
+            { "id": "quest_reading_07", "title": "The New Neighbour", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_08", "title": "The Birthday Party", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_reading_09", "title": "Amazing Animals", "taskType": "matching", "points": 3 }
+          ]
+        },
+        {
+          "level": 4,
+          "title": "Opinions and Ideas",
+          "exercises": [
+            { "id": "quest_reading_10", "title": "Should Kids Have Phones?", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_11", "title": "Homework: Yes or No?", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_reading_12", "title": "Jobs and Hobbies", "taskType": "matching", "points": 3 }
+          ]
+        },
+        {
+          "level": 5,
+          "title": "Competition Ready",
+          "exercises": [
+            { "id": "quest_reading_13", "title": "The Invention of the Internet", "taskType": "true_false_ni", "points": 3 },
+            { "id": "quest_reading_14", "title": "A Letter from London", "taskType": "multiple_choice", "points": 6 },
+            { "id": "quest_reading_15", "title": "Famous Places", "taskType": "matching", "points": 3 }
+          ]
+        }
       ]
     }
   ]
