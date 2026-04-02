@@ -1,20 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useUser } from "../../App";
+import StarDisplay from "../../components/StarDisplay";
 import { useDocumentHead } from "../../hooks";
 import { scoreTest } from "../../lib/scoring";
 import { loadProgress, saveProgress, processResult, getPlayerTitle, pushRemoteProgress } from "../../lib/questProgress";
 import { getExerciseLevel, getNextExercise } from "../../lib/questData";
 import { percentageToStars } from "../../lib/questStars";
 import TaskRenderer from "../../components/konkursy/TaskRenderer";
-
-function StarDisplay({ count, max = 5, size = 20 }) {
-  return (
-    <span style={{ fontSize: size, letterSpacing: 2 }}>
-      {"★".repeat(count)}{"☆".repeat(max - count)}
-    </span>
-  );
-}
 
 export default function QuestExercise() {
   const { branch, id } = useParams();

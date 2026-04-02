@@ -2,8 +2,17 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
+import StarDisplay from "../components/StarDisplay";
 import TaskRenderer, { AI_CHECKED_TYPES } from "../components/konkursy/TaskRenderer";
 import { scoreTest } from "../lib/scoring";
+import {
+  computePracticeStars,
+  getPracticeTitle,
+  getTypeMastery,
+  migrateFromAttempts,
+  updateBestScore,
+} from "../lib/practiceRewards";
+import { percentageToStars } from "../lib/questStars";
 
 const TYPE_COLORS = {
   knowledge_questions: "#a78bfa",
@@ -49,6 +58,12 @@ const TYPE_DESCRIPTIONS = {
   grammar_gaps: "Uzupelnij luki odpowiednia forma gramatyczna",
   writing: "Napisz e-mail lub wypowiedz na zadany temat",
 };
+
+function getResultAccent(percentage) {
+  if (percentage >= 70) return "#50d890";
+  if (percentage >= 40) return "#f5a623";
+  return "#e05050";
+}
 
 function useExercises() {
   const [exercises, setExercises] = useState(null);
@@ -252,9 +267,11 @@ function PracticeExercise() {
   const { type, id } = useParams();
   const user = useUser();
   const storageKey = `smarten_konkursy_${user?.name || "default"}`;
+  const exerciseIndex = useExercises();
   const [data, setData] = useState(null);
   const [answers, setAnswers] = useState({});
   const [result, setResult] = useState(null);
+  const [rewardInfo, setRewardInfo] = useState(null);
   const [aiChecking, setAiChecking] = useState(false);
 
   useDocumentHead("Cwiczenie", "Cwiczenie do konkursu angielskiego");
@@ -271,6 +288,14 @@ function PracticeExercise() {
   };
 
   const saveResult = (res) => {
+    const attemptStars = percentageToStars(res.percentage);
+    let rewardSummary = {
+      attemptStars,
+      starsEarned: 0,
+      masteryUp: null,
+      titleUp: null,
+    };
+
     const entry = {
       testId: `practice/${id}`,
       date: new Date().toISOString(),
@@ -286,23 +311,56 @@ function PracticeExercise() {
         skipped: t.skipped,
       })),
     };
+
     try {
       const stored = JSON.parse(localStorage.getItem(storageKey) || "{}");
-      const attempts = stored.attempts || [];
-      attempts.push(entry);
-      stored.attempts = attempts;
+      const attempts = Array.isArray(stored.attempts) ? stored.attempts : [];
+      const previousBestScores = stored.rewards?.bestScores
+        ? { ...stored.rewards.bestScores }
+        : migrateFromAttempts(attempts);
+
+      stored.attempts = [...attempts, entry];
+      stored.rewards = {
+        ...(stored.rewards || {}),
+        bestScores: { ...previousBestScores },
+      };
+
+      const bestUpdate = updateBestScore(stored, id, res.percentage);
+      const totalStarsBefore = computePracticeStars(previousBestScores);
+      const totalStarsAfter = computePracticeStars(stored.rewards.bestScores);
+      const previousTitle = getPracticeTitle(totalStarsBefore);
+      const nextTitle = getPracticeTitle(totalStarsAfter);
+      const exerciseList = exerciseIndex?.exercises || [];
+      const previousMastery = exerciseList.length > 0
+        ? getTypeMastery(previousBestScores, exerciseList, type)
+        : null;
+      const nextMastery = exerciseList.length > 0
+        ? getTypeMastery(stored.rewards.bestScores, exerciseList, type)
+        : null;
+
+      rewardSummary = {
+        attemptStars,
+        starsEarned: Math.max(0, bestUpdate.newStars - bestUpdate.prevStars),
+        masteryUp: previousMastery && nextMastery && nextMastery.level > previousMastery.level ? nextMastery : null,
+        titleUp: nextTitle.title !== previousTitle.title ? nextTitle : null,
+      };
+
       localStorage.setItem(storageKey, JSON.stringify(stored));
     } catch (e) {
       console.error("Failed to save results:", e);
     }
+
     fetch("/api/results", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ user: user?.name, ...entry }),
     }).catch(() => {});
+
+    return rewardSummary;
   };
 
   const handleSubmit = async () => {
+    setRewardInfo(null);
     const res = scoreTest(data, answers);
 
     const aiTasks = data.tasks.filter(
@@ -311,7 +369,7 @@ function PracticeExercise() {
 
     if (aiTasks.length === 0) {
       setResult(res);
-      saveResult(res);
+      setRewardInfo(saveResult(res));
       return;
     }
 
@@ -354,7 +412,7 @@ function PracticeExercise() {
 
     setResult(finalRes);
     setAiChecking(false);
-    saveResult(finalRes);
+    setRewardInfo(saveResult(finalRes));
   };
 
   if (!data) {
@@ -380,12 +438,36 @@ function PracticeExercise() {
       {result && (
         <div style={{
           ...styles.resultBanner,
-          borderColor: result.percentage >= 70 ? "#50d890" : result.percentage >= 40 ? "#f5a623" : "#e05050",
+          borderColor: getResultAccent(result.percentage),
         }}>
           <div style={{ fontSize: 36, fontWeight: 900, color: "#e8e8f0", fontFamily: "'Playfair Display', serif" }}>
             {result.earned}/{result.max}
           </div>
           <div style={{ fontSize: 20, fontWeight: 700, color: "#c8c8d8" }}>{result.percentage}%</div>
+
+          {!aiChecking && rewardInfo && (
+            <div style={styles.rewardSummary}>
+              <div style={styles.rewardRow}>
+                <StarDisplay count={rewardInfo.attemptStars} size={24} color="#f5a623" />
+                <span style={styles.rewardText}>{rewardInfo.attemptStars}/5 gwiazdek za te probe</span>
+                {rewardInfo.starsEarned > 0 && (
+                  <span style={styles.rewardBadge}>+{rewardInfo.starsEarned}★</span>
+                )}
+              </div>
+
+              {rewardInfo.masteryUp && (
+                <div style={styles.rewardNotice}>
+                  Nowy poziom: {rewardInfo.masteryUp.label} w {TYPE_LABELS[type] || type}!
+                </div>
+              )}
+
+              {rewardInfo.titleUp && (
+                <div style={styles.rewardNotice}>
+                  Nowy tytul Practice: {rewardInfo.titleUp.title}!
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
 
@@ -433,7 +515,7 @@ function PracticeExercise() {
       {result && (
         <div style={{ display: "flex", justifyContent: "center", gap: 16, marginTop: 32 }}>
           <button
-            onClick={() => { setAnswers({}); setResult(null); window.scrollTo(0, 0); }}
+            onClick={() => { setAnswers({}); setResult(null); setRewardInfo(null); window.scrollTo(0, 0); }}
             style={{ ...styles.submitBtn, background: "#2a2a3a", color: "#e8e8f0" }}
           >
             Sprobuj ponownie
@@ -497,5 +579,42 @@ const styles = {
     padding: "24px",
     textAlign: "center",
     marginBottom: 32,
+  },
+  rewardSummary: {
+    marginTop: 16,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: 10,
+  },
+  rewardRow: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 12,
+    flexWrap: "wrap",
+  },
+  rewardText: {
+    color: "#c8c8d8",
+    fontSize: 13,
+    fontWeight: 700,
+  },
+  rewardBadge: {
+    background: "rgba(245, 166, 35, 0.14)",
+    border: "1px solid rgba(245, 166, 35, 0.35)",
+    borderRadius: 999,
+    color: "#f5a623",
+    fontSize: 13,
+    fontWeight: 800,
+    padding: "6px 12px",
+  },
+  rewardNotice: {
+    background: "#161622",
+    border: "1px solid #2b2b3d",
+    borderRadius: 999,
+    color: "#e8e8f0",
+    fontSize: 13,
+    fontWeight: 700,
+    padding: "6px 12px",
   },
 };

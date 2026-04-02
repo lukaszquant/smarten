@@ -2,10 +2,18 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { useParams, Link } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
+import StarDisplay from "../components/StarDisplay";
 import TaskRenderer, { AI_CHECKED_TYPES } from "../components/konkursy/TaskRenderer";
 import { scoreTest } from "../lib/scoring";
+import { percentageToStars } from "../lib/questStars";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
+
+function getResultAccent(percentage) {
+  if (percentage >= 70) return "#50d890";
+  if (percentage >= 40) return "#f5a623";
+  return "#e05050";
+}
 
 export default function KonkursTest() {
   const { year, stage } = useParams();
@@ -186,6 +194,8 @@ export default function KonkursTest() {
     );
   }
 
+  const resultStars = result ? percentageToStars(result.percentage) : 0;
+
   return (
     <div style={styles.page}>
       <link
@@ -216,10 +226,16 @@ export default function KonkursTest() {
       {result && (
         <div style={{
           ...styles.resultBanner,
-          borderColor: result.percentage >= 70 ? "#50d890" : result.percentage >= 40 ? "#f5a623" : "#e05050",
+          borderColor: getResultAccent(result.percentage),
         }}>
           <div style={styles.resultScore}>{result.earned}/{result.max}</div>
           <div style={styles.resultPct}>{result.percentage}%</div>
+          {!aiChecking && (
+            <div style={styles.starResult}>
+              <StarDisplay count={resultStars} size={22} color="#f5a623" />
+              <span style={styles.starText}>{resultStars}/5 gwiazdek za ten test</span>
+            </div>
+          )}
           <div style={styles.resultLabel}>
             {result.percentage >= 70 ? "Swietny wynik!" : result.percentage >= 40 ? "Niezly wynik" : "Trenuj dalej!"}
           </div>
@@ -378,5 +394,18 @@ const styles = {
     fontFamily: "'Playfair Display', serif",
   },
   resultPct: { fontSize: 20, fontWeight: 700, color: "#c8c8d8", marginBottom: 4 },
+  starResult: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 12,
+    flexWrap: "wrap",
+    marginBottom: 8,
+  },
+  starText: {
+    color: "#c8c8d8",
+    fontSize: 13,
+    fontWeight: 700,
+  },
   resultLabel: { fontSize: 14, color: "#7a7a90" },
 };

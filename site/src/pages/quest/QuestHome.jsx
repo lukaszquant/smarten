@@ -1,18 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../App";
+import StarDisplay from "../../components/StarDisplay";
 import { useDocumentHead } from "../../hooks";
 import { loadProgress, saveProgress, getPlayerTitle, isBranchComplete, isLevelComplete, getHighestUnlockedLevel, fetchRemoteProgress, pushRemoteProgress, mergeProgress } from "../../lib/questProgress";
 import { STARS_TO_UNLOCK, TYPE_LABELS, flattenExercises } from "../../lib/questData";
 import { percentageToStars, computeLevelStars } from "../../lib/questStars";
-
-function StarDisplay({ count, max = 5, size = 16 }) {
-  return (
-    <span style={{ fontSize: size, letterSpacing: 1 }}>
-      {"★".repeat(count)}{"☆".repeat(max - count)}
-    </span>
-  );
-}
 
 export default function QuestHome() {
   const user = useUser();
@@ -197,7 +190,7 @@ export default function QuestHome() {
                                 ...styles.exerciseScore,
                                 color: hasBest ? "#f59e0b" : "#9ca3af",
                               }}>
-                                {hasBest ? <StarDisplay count={stars} size={14} /> : "Not started"}
+                                {hasBest ? <StarDisplay count={stars} size={14} letterSpacing={1} /> : "Not started"}
                               </span>
                             </Link>
                           );
