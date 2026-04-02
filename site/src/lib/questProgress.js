@@ -1,5 +1,5 @@
-import { XP_LEVELS, BRIDGE_THRESHOLD, flattenExercises } from "./questData";
-import { computeTotalXP } from "./questXP.js";
+import { STAR_TITLES, STARS_TO_UNLOCK } from "./questData";
+import { computeTotalStars, computeLevelStars, percentageToStars } from "./questStars.js";
 
 const STORAGE_PREFIX = "smarten_quest_";
 
@@ -8,7 +8,7 @@ function storageKey(username) {
 }
 
 const EMPTY_PROGRESS = {
-  xp: 0,
+  stars: 0,
   branches: {
     vocabulary: { bestScores: {} },
     grammar: { bestScores: {} },
@@ -36,8 +36,9 @@ export function loadProgress(username) {
         backfilled = true;
       }
     }
-    // Recompute XP from bestScores (migration + consistency)
-    parsed.xp = computeTotalXP(parsed);
+    // Migrate: remove old xp field, compute stars
+    delete parsed.xp;
+    parsed.stars = computeTotalStars(parsed);
     // Persist backfilled IDs so they stay stable across loads
     if (backfilled) {
       try { localStorage.setItem(storageKey(username), JSON.stringify(parsed)); } catch {}
@@ -56,24 +57,23 @@ export function saveProgress(username, progress) {
   }
 }
 
-export function getPlayerLevel(totalXP) {
-  let current = XP_LEVELS[0];
-  let next = XP_LEVELS[1] || null;
-  for (let i = XP_LEVELS.length - 1; i >= 0; i--) {
-    if (totalXP >= XP_LEVELS[i].xp) {
-      current = XP_LEVELS[i];
-      next = XP_LEVELS[i + 1] || null;
+export function getPlayerTitle(totalStars) {
+  let current = STAR_TITLES[0];
+  let next = STAR_TITLES[1] || null;
+  for (let i = STAR_TITLES.length - 1; i >= 0; i--) {
+    if (totalStars >= STAR_TITLES[i].stars) {
+      current = STAR_TITLES[i];
+      next = STAR_TITLES[i + 1] || null;
       break;
     }
   }
-  const xpInLevel = totalXP - current.xp;
-  const xpForNext = next ? next.xp - current.xp : 0;
+  const starsInLevel = totalStars - current.stars;
+  const starsForNext = next ? next.stars - current.stars : 0;
   return {
-    level: current.level,
     title: current.title,
-    xpInLevel,
-    xpForNext,
-    progress: next ? xpInLevel / xpForNext : 1,
+    starsInLevel,
+    starsForNext,
+    progress: next ? starsInLevel / starsForNext : 1,
   };
 }
 
@@ -88,16 +88,17 @@ export function processResult(progress, branch, exerciseId, score, maxScore) {
     branchData.bestScores[exerciseId] = percentage;
   }
 
-  // Recompute XP from best scores
-  const prevXP = progress.xp;
-  const prevLevel = getPlayerLevel(prevXP);
-  progress.xp = computeTotalXP(progress);
-  const newLevel = getPlayerLevel(progress.xp);
+  // Recompute stars from best scores
+  const prevStars = progress.stars;
+  const prevTitle = getPlayerTitle(prevStars);
+  progress.stars = computeTotalStars(progress);
+  const newTitle = getPlayerTitle(progress.stars);
 
-  const xpEarned = progress.xp - prevXP; // 0 if score didn't improve
-  const levelUp = newLevel.level > prevLevel.level;
+  const starsEarned = progress.stars - prevStars; // 0 if score didn't improve
+  const titleUp = newTitle.title !== prevTitle.title;
+  const exerciseStars = percentageToStars(percentage);
 
-  // Record attempt (history only, not XP-relevant)
+  // Record attempt
   progress.attempts.push({
     attemptId: crypto.randomUUID(),
     exerciseId,
@@ -106,19 +107,17 @@ export function processResult(progress, branch, exerciseId, score, maxScore) {
     score,
     maxScore,
     percentage,
-    xpEarned,
+    starsEarned,
   });
 
-  return { xpEarned, levelUp, newLevel };
+  return { starsEarned, exerciseStars, titleUp, newTitle };
 }
 
-/** Check if all exercises in a single level have bestScore >= threshold */
+/** Check if a level has enough stars to unlock the next */
 export function isLevelComplete(progress, branchId, levelExercises) {
   const branchData = progress.branches[branchId];
   if (!branchData) return false;
-  return levelExercises.every(
-    (ex) => (branchData.bestScores[ex.id] ?? 0) >= BRIDGE_THRESHOLD
-  );
+  return computeLevelStars(branchData.bestScores, levelExercises) >= STARS_TO_UNLOCK;
 }
 
 /** Get the highest unlocked level (1-based; level 1 always unlocked) */
@@ -143,7 +142,7 @@ export async function fetchRemoteProgress(username) {
     if (!res.ok) return null;
     return await res.json();
   } catch {
-    return null; // Offline or error — use localStorage only
+    return null;
   }
 }
 
@@ -189,24 +188,20 @@ export function mergeProgress(local, remote) {
     }
   }
 
-  merged.xp = computeTotalXP(merged);
+  merged.stars = computeTotalStars(merged);
   return merged;
 }
 
-/** Check if entire branch is complete (all levels) */
+/** Check if entire branch is complete (all levels have enough stars) */
 export function isBranchComplete(progress, branchId, branch) {
-  // Support both old flat format and new nested format
   if (branch.levels) {
     return branch.levels.every((lvl) =>
       isLevelComplete(progress, branchId, lvl.exercises)
     );
   }
-  // Flat fallback
   const exercises = branch.exercises || branch;
   const branchData = progress.branches[branchId];
   if (!branchData) return false;
   const list = Array.isArray(exercises) ? exercises : [];
-  return list.every(
-    (ex) => (branchData.bestScores[ex.id] ?? 0) >= BRIDGE_THRESHOLD
-  );
+  return computeLevelStars(branchData.bestScores, list) >= STARS_TO_UNLOCK;
 }

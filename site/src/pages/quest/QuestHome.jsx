@@ -2,14 +2,24 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../App";
 import { useDocumentHead } from "../../hooks";
-import { loadProgress, saveProgress, getPlayerLevel, isBranchComplete, isLevelComplete, getHighestUnlockedLevel, fetchRemoteProgress, pushRemoteProgress, mergeProgress } from "../../lib/questProgress";
-import { TYPE_LABELS, flattenExercises } from "../../lib/questData";
+import { loadProgress, saveProgress, getPlayerTitle, isBranchComplete, isLevelComplete, getHighestUnlockedLevel, fetchRemoteProgress, pushRemoteProgress, mergeProgress } from "../../lib/questProgress";
+import { STARS_TO_UNLOCK, TYPE_LABELS, flattenExercises } from "../../lib/questData";
+import { percentageToStars, computeLevelStars } from "../../lib/questStars";
+
+function StarDisplay({ count, max = 5, size = 16 }) {
+  return (
+    <span style={{ fontSize: size, letterSpacing: 1 }}>
+      {"★".repeat(count)}{"☆".repeat(max - count)}
+    </span>
+  );
+}
 
 export default function QuestHome() {
   const user = useUser();
   const [index, setIndex] = useState(null);
   const [progress, setProgress] = useState(null);
   const [expanded, setExpanded] = useState({}); // { "vocabulary-2": true }
+  const [showHelp, setShowHelp] = useState(false);
 
   useDocumentHead("SmartEn Quest", "Fun English practice for young learners");
 
@@ -28,13 +38,12 @@ export default function QuestHome() {
   useEffect(() => {
     if (!user) return;
     const local = loadProgress(user.name);
-    setProgress(local); // Render immediately from localStorage
+    setProgress(local);
 
     fetchRemoteProgress(user.name).then((remote) => {
       const merged = remote ? mergeProgress(local, remote) : local;
       setProgress(merged);
       saveProgress(user.name, merged);
-      // Always push merged state to KV (first-time backup or re-upload local-only progress)
       pushRemoteProgress(user.name, merged).then((serverResult) => {
         if (serverResult) {
           setProgress(serverResult);
@@ -48,7 +57,7 @@ export default function QuestHome() {
     return <div style={styles.page}><p style={{ color: "#5a5e72" }}>Loading...</p></div>;
   }
 
-  const level = getPlayerLevel(progress.xp);
+  const titleInfo = getPlayerTitle(progress.stars);
 
   return (
     <div style={styles.page}>
@@ -60,23 +69,51 @@ export default function QuestHome() {
       {/* Header */}
       <div style={styles.header}>
         <h1 style={styles.title}>SmartEn Quest</h1>
-        <p style={styles.subtitle}>Practice English, earn XP, level up!</p>
+        <p style={styles.subtitle}>Practice English, earn stars, level up!</p>
       </div>
 
-      {/* XP Bar */}
-      <div style={styles.xpCard}>
-        <div style={styles.xpTop}>
-          <span style={styles.xpLevel}>Level {level.level}</span>
-          <span style={styles.xpTitle}>{level.title}</span>
-          <span style={styles.xpAmount}>{progress.xp} XP</span>
+      {/* Stars & Title Card */}
+      <div style={styles.starsCard}>
+        <div style={styles.starsTop}>
+          <span style={styles.starsTitle}>{titleInfo.title}</span>
+          <span style={styles.starsCount}>
+            <span style={{ color: "#f59e0b", fontSize: 18 }}>★</span> {progress.stars}
+          </span>
         </div>
-        <div style={styles.xpBarOuter}>
-          <div style={{ ...styles.xpBarInner, width: `${Math.round(level.progress * 100)}%` }} />
+        <div style={styles.starsBarOuter}>
+          <div style={{ ...styles.starsBarInner, width: `${Math.round(titleInfo.progress * 100)}%` }} />
         </div>
-        {level.xpForNext > 0 && (
-          <div style={styles.xpNext}>{level.xpForNext - level.xpInLevel} XP to next level</div>
+        {titleInfo.starsForNext > 0 && (
+          <div style={styles.starsNext}>{titleInfo.starsForNext - titleInfo.starsInLevel} stars to next title</div>
         )}
       </div>
+
+      {/* How does it work? */}
+      <button
+        onClick={() => setShowHelp((v) => !v)}
+        style={styles.helpToggle}
+      >
+        How does it work? {showHelp ? "▲" : "▼"}
+      </button>
+      {showHelp && (
+        <div style={styles.helpCard}>
+          <p style={styles.helpText}>
+            <strong>Earn stars</strong> for each exercise you complete:
+          </p>
+          <div style={styles.helpStars}>
+            <span>☆☆☆☆☆ — 0%</span>
+            <span>★☆☆☆☆ — 1–39%</span>
+            <span>★★☆☆☆ — 40–59%</span>
+            <span>★★★☆☆ — 60–79%</span>
+            <span>★★★★☆ — 80–99%</span>
+            <span>★★★★★ — 100%</span>
+          </div>
+          <p style={styles.helpText}>
+            Collect <strong>{STARS_TO_UNLOCK} stars</strong> in a level to unlock the next one.
+            The more stars you earn, the higher your title!
+          </p>
+        </div>
+      )}
 
       {/* Branch Cards */}
       <div style={styles.branches}>
@@ -102,14 +139,14 @@ export default function QuestHome() {
               {branch.levels.map((lvl) => {
                 const locked = lvl.level > highestUnlocked;
                 const lvlComplete = isLevelComplete(progress, branch.id, lvl.exercises);
+                const lvlStars = computeLevelStars(branchProgress.bestScores, lvl.exercises);
+                const lvlMaxStars = lvl.exercises.length * 5;
                 const key = `${branch.id}-${lvl.level}`;
-                // Default: expand the highest unlocked incomplete level
                 const isDefaultExpanded = !locked && !lvlComplete;
                 const isExpanded = expanded[key] !== undefined ? expanded[key] : isDefaultExpanded;
 
                 return (
                   <div key={lvl.level} style={{ marginBottom: 4 }}>
-                    {/* Level header — clickable unless locked */}
                     <button
                       onClick={() => {
                         if (locked) return;
@@ -125,17 +162,24 @@ export default function QuestHome() {
                         {locked ? "\u{1F512} " : lvlComplete ? "\u2705 " : ""}
                         Level {lvl.level}: {lvl.title}
                       </span>
-                      <span style={styles.levelArrow}>
-                        {locked ? "" : isExpanded ? "\u25B2" : "\u25BC"}
+                      <span style={styles.levelStars}>
+                        {!locked && (
+                          <span style={{ color: "#f59e0b", fontSize: 12, marginRight: 4 }}>
+                            ★ {lvlStars}/{lvlMaxStars}
+                          </span>
+                        )}
+                        <span style={styles.levelArrow}>
+                          {locked ? "" : isExpanded ? "▲" : "▼"}
+                        </span>
                       </span>
                     </button>
 
-                    {/* Exercise list */}
                     {isExpanded && !locked && (
                       <div style={styles.exerciseList}>
                         {lvl.exercises.map((ex) => {
                           const best = branchProgress.bestScores[ex.id];
                           const hasBest = best !== undefined;
+                          const stars = hasBest ? percentageToStars(best) : 0;
                           return (
                             <Link
                               key={ex.id}
@@ -151,15 +195,20 @@ export default function QuestHome() {
                               <span style={styles.exerciseTitle}>{ex.title}</span>
                               <span style={{
                                 ...styles.exerciseScore,
-                                color: hasBest
-                                  ? (best >= 70 ? "#16a34a" : best >= 40 ? "#d97706" : "#dc2626")
-                                  : "#9ca3af",
+                                color: hasBest ? "#f59e0b" : "#9ca3af",
                               }}>
-                                {hasBest ? `${best}%` : "Not started"}
+                                {hasBest ? <StarDisplay count={stars} size={14} /> : "Not started"}
                               </span>
                             </Link>
                           );
                         })}
+                        {!lvlComplete && (
+                          <div style={styles.unlockHint}>
+                            {STARS_TO_UNLOCK - lvlStars > 0
+                              ? `${STARS_TO_UNLOCK - lvlStars} more star${STARS_TO_UNLOCK - lvlStars === 1 ? "" : "s"} to unlock the next level`
+                              : ""}
+                          </div>
+                        )}
                       </div>
                     )}
                   </div>
@@ -211,53 +260,86 @@ const styles = {
     color: "#5a5e72",
     fontWeight: 500,
   },
-  xpCard: {
+  starsCard: {
     background: "#ffffff",
     border: "1px solid #e2e4ea",
     borderRadius: 12,
     padding: "16px 20px",
-    marginBottom: 28,
+    marginBottom: 16,
   },
-  xpTop: {
+  starsTop: {
     display: "flex",
     alignItems: "center",
-    gap: 10,
+    justifyContent: "space-between",
     marginBottom: 10,
   },
-  xpLevel: {
+  starsTitle: {
     fontFamily: "'Fredoka', sans-serif",
     fontWeight: 600,
-    fontSize: 16,
-    color: "#1a1a2e",
-  },
-  xpTitle: {
-    fontSize: 14,
+    fontSize: 18,
     color: "#8b5cf6",
-    fontWeight: 600,
   },
-  xpAmount: {
-    marginLeft: "auto",
-    fontSize: 14,
+  starsCount: {
+    fontSize: 16,
     fontWeight: 700,
     color: "#1a1a2e",
   },
-  xpBarOuter: {
+  starsBarOuter: {
     height: 10,
     background: "#e5e7eb",
     borderRadius: 5,
     overflow: "hidden",
   },
-  xpBarInner: {
+  starsBarInner: {
     height: "100%",
-    background: "linear-gradient(90deg, #8b5cf6, #3b82f6)",
+    background: "linear-gradient(90deg, #f59e0b, #f97316)",
     borderRadius: 5,
     transition: "width 0.4s ease",
   },
-  xpNext: {
+  starsNext: {
     fontSize: 12,
     color: "#9ca3af",
     marginTop: 6,
     textAlign: "right",
+  },
+  helpToggle: {
+    display: "block",
+    width: "100%",
+    background: "none",
+    border: "none",
+    padding: "8px 0",
+    fontSize: 14,
+    fontWeight: 600,
+    color: "#6b7280",
+    cursor: "pointer",
+    textAlign: "center",
+    fontFamily: "'DM Sans', sans-serif",
+    marginBottom: 12,
+  },
+  helpCard: {
+    background: "#ffffff",
+    border: "1px solid #e2e4ea",
+    borderRadius: 12,
+    padding: "16px 20px",
+    marginBottom: 20,
+  },
+  helpText: {
+    fontSize: 14,
+    color: "#374151",
+    lineHeight: 1.5,
+    margin: "0 0 10px",
+  },
+  helpStars: {
+    display: "flex",
+    flexDirection: "column",
+    gap: 2,
+    fontSize: 13,
+    color: "#6b7280",
+    padding: "8px 12px",
+    background: "#f8f9fc",
+    borderRadius: 8,
+    marginBottom: 10,
+    fontFamily: "monospace",
   },
   branches: {
     display: "flex",
@@ -306,6 +388,11 @@ const styles = {
     fontSize: 14,
     fontWeight: 600,
   },
+  levelStars: {
+    display: "flex",
+    alignItems: "center",
+    gap: 4,
+  },
   levelArrow: {
     fontSize: 10,
     color: "#9ca3af",
@@ -333,6 +420,12 @@ const styles = {
   exerciseScore: {
     fontSize: 13,
     fontWeight: 600,
+  },
+  unlockHint: {
+    fontSize: 12,
+    color: "#9ca3af",
+    textAlign: "center",
+    padding: "6px 0 2px",
   },
   bridgeCard: {
     marginTop: 12,

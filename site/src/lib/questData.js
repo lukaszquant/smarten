@@ -1,20 +1,17 @@
-// XP constants — re-exported from shared module (used by both client and server)
-export { BASE_XP, FIRST_COMPLETION_BONUS, PERFECT_BONUS } from "./questXP.js";
+// Stars needed per level to unlock the next level (3 exercises × 3★ = 9 of 15 possible)
+export const STARS_TO_UNLOCK = 10;
 
-// Player levels — each entry: minimum XP to reach that level
-export const XP_LEVELS = [
-  { level: 1, xp: 0, title: "Explorer" },
-  { level: 2, xp: 100, title: "Learner" },
-  { level: 3, xp: 300, title: "Student" },
-  { level: 4, xp: 600, title: "Scholar" },
-  { level: 5, xp: 1000, title: "Adventurer" },
-  { level: 6, xp: 1500, title: "Champion" },
-  { level: 7, xp: 2200, title: "Master" },
-  { level: 8, xp: 3000, title: "Legend" },
+// Global titles based on total stars (max 225 = 3 branches × 5 levels × 3 exercises × 5★)
+export const STAR_TITLES = [
+  { stars: 0, title: "Explorer" },
+  { stars: 15, title: "Learner" },
+  { stars: 35, title: "Student" },
+  { stars: 60, title: "Scholar" },
+  { stars: 100, title: "Adventurer" },
+  { stars: 145, title: "Champion" },
+  { stars: 190, title: "Master" },
+  { stars: 225, title: "Legend" },
 ];
-
-// Bridge threshold — minimum % on ALL exercises in a branch to show graduation link
-export const BRIDGE_THRESHOLD = 60;
 
 // Task type display names (for bridge links)
 export const TYPE_LABELS = {

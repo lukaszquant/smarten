@@ -24,7 +24,7 @@ Live at **https://smarten.pages.dev**
 - **Server-side results** — all answers saved to Cloudflare KV, viewable via API
 - **Quest mode** — gamified lower-difficulty on-ramp for younger learners:
   - 3 branches (Vocabulary, Grammar, Reading), leveled exercises
-  - XP system with player levels (Explorer → Adventurer)
+  - Star system (0–5 per exercise) with global titles (Explorer → Legend)
   - Cross-device progress sync via Cloudflare KV
   - Bridge to full competition exercises when a branch is completed
 
@@ -46,16 +46,16 @@ site/                    # React app
       KonkursTest.jsx    # Competition test page with timer
       Progress.jsx       # Detailed progress history
       quest/
-        QuestHome.jsx    # Quest dashboard — branches, XP bar, exercise list
-        QuestExercise.jsx # Quest exercise player with XP scoring
+        QuestHome.jsx    # Quest dashboard — branches, stars, exercise list
+        QuestExercise.jsx # Quest exercise player with star scoring
     components/
       konkursy/          # Task renderers (one per task type)
       Layout.jsx         # Nav with user switcher
     lib/
       scoring.js         # Auto-scoring logic
-      questProgress.js   # Quest progress: load/save, XP, KV sync
-      questData.js       # Quest branch config, XP levels, constants
-      questXP.js         # Shared XP computation (used by client + server)
+      questProgress.js   # Quest progress: load/save, stars, KV sync
+      questData.js       # Quest branch config, star titles, constants
+      questStars.js      # Shared star computation (used by client + server)
   functions/api/
     results.js           # Cloudflare Pages Function — competition results
     quest-progress.js    # Cloudflare Pages Function — quest progress sync

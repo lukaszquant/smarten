@@ -2,7 +2,7 @@
 // PUT /api/quest-progress             — merge and store quest progress
 //   body: { user, progress }
 
-import { computeTotalXP, clampPercentage } from "../../src/lib/questXP.js";
+import { computeTotalStars, clampPercentage } from "../../src/lib/questStars.js";
 
 const ALLOWED_USERS = ["Tadzio", "Zosia", "Lidia"];
 
@@ -15,7 +15,7 @@ export async function onRequestGet(context) {
   const raw = await context.env.RESULTS.get(`quest:${user}`, "json");
   if (!raw) return Response.json(null);
   const normalized = normalizeProgress(raw);
-  normalized.xp = computeTotalXP(normalized);
+  normalized.stars = computeTotalStars(normalized);
   return Response.json(normalized);
 }
 
@@ -40,8 +40,8 @@ export async function onRequestPut(context) {
     // Server-side merge: highest bestScore wins, attempts unioned by ID
     const merged = mergeProgress(existing, incoming);
 
-    // Recompute XP server-side (never trust client)
-    merged.xp = computeTotalXP(merged);
+    // Recompute stars server-side (never trust client)
+    merged.stars = computeTotalStars(merged);
 
     await context.env.RESULTS.put(key, JSON.stringify(merged));
     return Response.json(merged);
@@ -51,7 +51,7 @@ export async function onRequestPut(context) {
 }
 
 function normalizeProgress(raw) {
-  const progress = { branches: {}, attempts: [], xp: 0 };
+  const progress = { branches: {}, attempts: [], stars: 0 };
 
   // Normalize branches and bestScores
   for (const [branchId, branchData] of Object.entries(raw?.branches || {})) {
@@ -80,7 +80,7 @@ function normalizeProgress(raw) {
       score: Number(attempt.score) || 0,
       maxScore: Number(attempt.maxScore) || 0,
       percentage: Math.max(0, Math.min(100, Math.round(Number(attempt.percentage) || 0))),
-      xpEarned: Number(attempt.xpEarned) || 0,
+      starsEarned: Number(attempt.starsEarned) || 0,
     });
   }
 

@@ -29,9 +29,9 @@ smarten/
 │   │   │   └── taskStyles.js        # Shared inline styles
 │   │   └── lib/
 │   │       ├── scoring.js           # Auto-scoring for all task types
-│   │       ├── questProgress.js     # Quest progress: load/save, XP, KV sync (fetch/push/merge)
-│   │       ├── questData.js         # Quest branch config, XP levels, bridge types
-│   │       └── questXP.js           # Shared XP computation (client + server)
+│   │       ├── questProgress.js     # Quest progress: load/save, stars, KV sync (fetch/push/merge)
+│   │       ├── questData.js         # Quest branch config, star titles, unlock thresholds
+│   │       └── questStars.js        # Shared star computation (client + server)
 │   ├── functions/api/               # Cloudflare Pages Functions (serverless)
 │   │   ├── check.js                 # AI grading via Claude API (Haiku/Sonnet)
 │   │   ├── results.js               # KV-backed competition results storage
@@ -102,7 +102,7 @@ All inline styles, no CSS files. Dark theme (`#0a0a12` bg). Shared styles in `ta
 
 Simple password gate in App.jsx (hardcoded users). User stored in localStorage as `smarten_user`. Attempt history saved to both localStorage (`smarten_konkursy_{user}`) and Cloudflare KV via `/api/results`.
 
-Quest progress stored in localStorage (`smarten_quest_{username}`) and synced to Cloudflare KV (`quest:{username}` key) via `/api/quest-progress`. Server-side merge: highest bestScore wins per exercise, attempts unioned by attemptId. XP always recomputed from bestScores (never trusted from client). Allowed users: Tadzio, Zosia, Lidia.
+Quest progress stored in localStorage (`smarten_quest_{username}`) and synced to Cloudflare KV (`quest:{username}` key) via `/api/quest-progress`. Server-side merge: highest bestScore wins per exercise, attempts unioned by attemptId. Stars always recomputed from bestScores (never trusted from client). Star system: 0-5 stars per exercise based on percentage (0%→0, 1-39%→1, 40-59%→2, 60-79%→3, 80-99%→4, 100%→5). 9 stars in a level unlocks the next. Global titles from total stars. Allowed users: Tadzio, Zosia, Lidia.
 
 ## Conventions
 

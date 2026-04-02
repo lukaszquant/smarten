@@ -3,9 +3,18 @@ import { useParams, Link } from "react-router-dom";
 import { useUser } from "../../App";
 import { useDocumentHead } from "../../hooks";
 import { scoreTest } from "../../lib/scoring";
-import { loadProgress, saveProgress, processResult, getPlayerLevel, pushRemoteProgress } from "../../lib/questProgress";
+import { loadProgress, saveProgress, processResult, getPlayerTitle, pushRemoteProgress } from "../../lib/questProgress";
 import { getExerciseLevel, getNextExercise } from "../../lib/questData";
+import { percentageToStars } from "../../lib/questStars";
 import TaskRenderer from "../../components/konkursy/TaskRenderer";
+
+function StarDisplay({ count, max = 5, size = 20 }) {
+  return (
+    <span style={{ fontSize: size, letterSpacing: 2 }}>
+      {"★".repeat(count)}{"☆".repeat(max - count)}
+    </span>
+  );
+}
 
 export default function QuestExercise() {
   const { branch, id } = useParams();
@@ -14,7 +23,7 @@ export default function QuestExercise() {
   const [index, setIndex] = useState(null);
   const [answers, setAnswers] = useState({});
   const [result, setResult] = useState(null);
-  const [xpInfo, setXpInfo] = useState(null);
+  const [starInfo, setStarInfo] = useState(null);
 
   useDocumentHead("Quest Exercise", "SmartEn Quest exercise");
 
@@ -45,13 +54,11 @@ export default function QuestExercise() {
     const res = scoreTest(data, answers);
     setResult(res);
 
-    // Calculate and save XP
     const progress = loadProgress(user?.name);
     const info = processResult(progress, branch, id, res.earned, res.max);
     saveProgress(user?.name, progress);
-    setXpInfo(info);
+    setStarInfo(info);
 
-    // Push to KV (fire-and-forget, server merges)
     pushRemoteProgress(user?.name, progress).then((merged) => {
       if (merged) {
         saveProgress(user?.name, merged);
@@ -62,7 +69,7 @@ export default function QuestExercise() {
   const handleRetry = () => {
     setAnswers({});
     setResult(null);
-    setXpInfo(null);
+    setStarInfo(null);
     window.scrollTo(0, 0);
   };
 
@@ -70,7 +77,6 @@ export default function QuestExercise() {
     return <div style={styles.page}><p style={{ color: "#5a5e72" }}>Loading...</p></div>;
   }
 
-  // Derive level context and next exercise from index
   const branchData = index?.branches?.find((b) => b.id === branch);
   const levelNum = branchData ? getExerciseLevel(branchData, id) : null;
   const next = branchData ? getNextExercise(branchData, id) : null;
@@ -84,7 +90,6 @@ export default function QuestExercise() {
 
       <Link to="/quest" style={styles.back}>&larr; Back to Quest</Link>
 
-      {/* Level context */}
       {branchData && levelNum && (
         <div style={styles.levelContext}>
           <span style={{ color: branchData.color }}>{branchData.name}</span>
@@ -102,21 +107,28 @@ export default function QuestExercise() {
         }}>
           <div style={styles.resultScore}>{result.earned}/{result.max}</div>
           <div style={styles.resultPercent}>{result.percentage}%</div>
+
+          {/* Stars earned */}
+          {starInfo && (
+            <div style={styles.starResult}>
+              <div style={{ color: "#f59e0b" }}>
+                <StarDisplay count={starInfo.exerciseStars} size={24} />
+              </div>
+              {starInfo.starsEarned > 0 && (
+                <span style={styles.starBadge}>+{starInfo.starsEarned} star{starInfo.starsEarned === 1 ? "" : "s"}</span>
+              )}
+              {starInfo.titleUp && (
+                <span style={styles.titleUpBadge}>New title: {starInfo.newTitle.title}!</span>
+              )}
+            </div>
+          )}
+
           <div style={{
             ...styles.resultLabel,
             color: result.percentage >= 70 ? "#22c55e" : result.percentage >= 40 ? "#f59e0b" : "#ef4444",
           }}>
             {result.percentage >= 70 ? "Great job!" : result.percentage >= 40 ? "Good effort!" : "Keep practising!"}
           </div>
-
-          {xpInfo && xpInfo.xpEarned > 0 && (
-            <div style={styles.xpEarned}>
-              <span style={styles.xpBadge}>+{xpInfo.xpEarned} XP</span>
-              {xpInfo.levelUp && (
-                <span style={styles.levelUpBadge}>Level Up! {xpInfo.newLevel.title}</span>
-              )}
-            </div>
-          )}
         </div>
       )}
 
@@ -150,14 +162,12 @@ export default function QuestExercise() {
         })}
       </div>
 
-      {/* Submit button */}
       {!result && (
         <div style={{ textAlign: "center", marginTop: 32 }}>
           <button onClick={handleSubmit} style={styles.submitBtn}>Check answers</button>
         </div>
       )}
 
-      {/* Post-result actions */}
       {result && (
         <div style={{ display: "flex", justifyContent: "center", gap: 16, marginTop: 32, flexWrap: "wrap" }}>
           <button onClick={handleRetry} style={styles.retryBtn}>Try again</button>
@@ -221,27 +231,27 @@ const styles = {
   resultLabel: {
     fontSize: 16,
     fontWeight: 600,
-    marginTop: 4,
+    marginTop: 8,
   },
-  xpEarned: {
+  starResult: {
     marginTop: 12,
     display: "flex",
-    justifyContent: "center",
-    gap: 10,
-    flexWrap: "wrap",
+    flexDirection: "column",
+    alignItems: "center",
+    gap: 8,
   },
-  xpBadge: {
+  starBadge: {
     display: "inline-block",
-    background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
+    background: "linear-gradient(135deg, #f59e0b, #f97316)",
     color: "#fff",
     fontWeight: 700,
     fontSize: 14,
     padding: "6px 16px",
     borderRadius: 20,
   },
-  levelUpBadge: {
+  titleUpBadge: {
     display: "inline-block",
-    background: "linear-gradient(135deg, #f59e0b, #ef4444)",
+    background: "linear-gradient(135deg, #8b5cf6, #3b82f6)",
     color: "#fff",
     fontWeight: 700,
     fontSize: 14,
