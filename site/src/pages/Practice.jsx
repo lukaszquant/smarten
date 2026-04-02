@@ -9,6 +9,7 @@ import {
   computePracticeStars,
   getPracticeTitle,
   getTypeMastery,
+  loadRewards,
   migrateFromAttempts,
   updateBestScore,
 } from "../lib/practiceRewards";
@@ -97,10 +98,30 @@ function useStats() {
   return stats;
 }
 
+function useBestScores() {
+  const user = useUser();
+  const storageKey = `smarten_konkursy_${user?.name || "default"}`;
+  const [bestScores, setBestScores] = useState({});
+  useEffect(() => {
+    setBestScores(loadRewards(storageKey));
+  }, [storageKey]);
+  return bestScores;
+}
+
+const MASTERY_COLORS = {
+  1: "#7a7a90",
+  2: "#42b4f5",
+  3: "#50d890",
+  4: "#f5a623",
+  5: "#a78bfa",
+};
+
 function PracticeList() {
   useDocumentHead("Cwiczenia", "Cwiczenia do konkursu angielskiego");
   const exercises = useExercises();
   const stats = useStats();
+  const bestScores = useBestScores();
+  const exerciseList = exercises?.exercises || [];
 
   const groups = {};
   if (exercises) {
@@ -111,13 +132,12 @@ function PracticeList() {
   }
 
   function typeStats(items) {
-    let completed = 0, totalPct = 0, bestPcts = [];
+    let completed = 0, totalPct = 0;
     for (const ex of items) {
       const attempts = stats[ex.id];
       if (attempts && attempts.length > 0) {
         completed++;
         const best = Math.max(...attempts.map((a) => a.percentage));
-        bestPcts.push(best);
         totalPct += best;
       }
     }
@@ -140,6 +160,9 @@ function PracticeList() {
         {Object.entries(groups).map(([type, items]) => {
           const color = TYPE_COLORS[type] || "#f5a623";
           const ts = typeStats(items);
+          const mastery = exerciseList.length > 0
+            ? getTypeMastery(bestScores, exerciseList, type)
+            : null;
           return (
             <Link
               key={type}
@@ -150,26 +173,42 @@ function PracticeList() {
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <div style={{ flex: 1 }}>
-                  <div style={{ color, fontSize: 17, fontWeight: 700, marginBottom: 4 }}>
-                    {TYPE_LABELS[type] || type}
+                  <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                    <span style={{ color, fontSize: 17, fontWeight: 700 }}>
+                      {TYPE_LABELS[type] || type}
+                    </span>
+                    {mastery && mastery.level > 0 && (
+                      <span style={{
+                        fontSize: 11,
+                        fontWeight: 700,
+                        color: MASTERY_COLORS[mastery.level] || "#7a7a90",
+                        background: (MASTERY_COLORS[mastery.level] || "#7a7a90") + "18",
+                        border: `1px solid ${(MASTERY_COLORS[mastery.level] || "#7a7a90")}35`,
+                        borderRadius: 999,
+                        padding: "2px 8px",
+                      }}>
+                        {mastery.label}
+                      </span>
+                    )}
                   </div>
                   <div style={{ color: "#7a7a90", fontSize: 13 }}>
                     {TYPE_DESCRIPTIONS[type] || ""}
                   </div>
                 </div>
                 <div style={{ textAlign: "right", marginLeft: 16, whiteSpace: "nowrap" }}>
-                  {ts.completed > 0 ? (
+                  {mastery && mastery.earned > 0 ? (
                     <>
-                      <div style={{ fontSize: 13, color: "#7a7a90" }}>
+                      <div style={{ fontSize: 14, fontWeight: 700, color: "#f5a623" }}>
+                        ★ {mastery.earned}/{mastery.max}
+                      </div>
+                      <div style={{ fontSize: 12, color: "#7a7a90" }}>
                         {ts.completed}/{ts.total} ukonczone
                       </div>
-                      <div style={{
-                        fontSize: 15, fontWeight: 700,
-                        color: ts.avgBest >= 70 ? "#50d890" : ts.avgBest >= 40 ? "#f5a623" : "#e05050",
-                      }}>
-                        sr. {ts.avgBest}%
-                      </div>
                     </>
+                  ) : ts.completed > 0 ? (
+                    <div style={{ fontSize: 12, color: "#7a7a90" }}>
+                      {ts.completed}/{ts.total} ukonczone
+                    </div>
                   ) : (
                     <span style={{ color: "#5a5a6a", fontSize: 13 }}>
                       {items.length} cwiczen &rarr;
@@ -202,8 +241,13 @@ function PracticeTypeList() {
   useDocumentHead(label, `Cwiczenia: ${label}`);
   const exercises = useExercises();
   const stats = useStats();
+  const bestScores = useBestScores();
+  const exerciseList = exercises?.exercises || [];
 
-  const items = exercises?.exercises.filter((ex) => ex.taskType === type) || [];
+  const items = exerciseList.filter((ex) => ex.taskType === type);
+  const mastery = exerciseList.length > 0
+    ? getTypeMastery(bestScores, exerciseList, type)
+    : null;
 
   return (
     <div style={styles.page}>
@@ -212,15 +256,38 @@ function PracticeTypeList() {
         rel="stylesheet"
       />
       <Link to="/cwiczenia" style={styles.back}>&larr; Powrot do cwiczen</Link>
-      <h1 style={{ ...styles.title, color }}>{label}</h1>
-      <p style={styles.subtitle}>{TYPE_DESCRIPTIONS[type] || ""}</p>
+      <div style={{ display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
+        <h1 style={{ ...styles.title, color, marginBottom: 0 }}>{label}</h1>
+        {mastery && mastery.level > 0 && (
+          <span style={{
+            fontSize: 13,
+            fontWeight: 700,
+            color: MASTERY_COLORS[mastery.level] || "#7a7a90",
+            background: (MASTERY_COLORS[mastery.level] || "#7a7a90") + "18",
+            border: `1px solid ${(MASTERY_COLORS[mastery.level] || "#7a7a90")}35`,
+            borderRadius: 999,
+            padding: "4px 12px",
+          }}>
+            {mastery.label}
+          </span>
+        )}
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: 16, marginTop: 4, marginBottom: 24 }}>
+        <span style={styles.subtitle}>{TYPE_DESCRIPTIONS[type] || ""}</span>
+        {mastery && mastery.max > 0 && (
+          <span style={{ color: "#f5a623", fontSize: 14, fontWeight: 700, whiteSpace: "nowrap" }}>
+            ★ {mastery.earned}/{mastery.max}
+          </span>
+        )}
+      </div>
 
       {!exercises && <p style={{ color: "#7a7a90" }}>Ladowanie...</p>}
 
       <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
         {items.map((ex) => {
           const attempts = stats[ex.id] || [];
-          const best = attempts.length > 0 ? Math.max(...attempts.map((a) => a.percentage)) : null;
+          const bestPct = bestScores[ex.id];
+          const stars = bestPct !== undefined ? percentageToStars(bestPct) : -1;
           const bestScore = attempts.length > 0 ? attempts.reduce((b, a) => a.percentage > b.percentage ? a : b).score : null;
           const bestMax = attempts.length > 0 ? attempts.reduce((b, a) => a.percentage > b.percentage ? a : b).maxScore : null;
           return (
@@ -233,8 +300,13 @@ function PracticeTypeList() {
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <div style={{ flex: 1 }}>
-                  <div style={{ color: "#e8e8f0", fontSize: 15, fontWeight: 600 }}>
-                    {ex.title}
+                  <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                    <span style={{ color: "#e8e8f0", fontSize: 15, fontWeight: 600 }}>
+                      {ex.title}
+                    </span>
+                    {stars >= 0 && (
+                      <StarDisplay count={stars} size={14} color="#f5a623" letterSpacing={1} />
+                    )}
                   </div>
                   {attempts.length > 0 && (
                     <div style={{ color: "#5a5a6a", fontSize: 12, marginTop: 2 }}>
@@ -243,10 +315,10 @@ function PracticeTypeList() {
                   )}
                 </div>
                 <div style={{ textAlign: "right", marginLeft: 12 }}>
-                  {best !== null ? (
+                  {bestScore !== null ? (
                     <span style={{
                       fontSize: 14, fontWeight: 700,
-                      color: best >= 70 ? "#50d890" : best >= 40 ? "#f5a623" : "#e05050",
+                      color: bestPct >= 70 ? "#50d890" : bestPct >= 40 ? "#f5a623" : "#e05050",
                     }}>
                       {bestScore}/{bestMax}
                     </span>
