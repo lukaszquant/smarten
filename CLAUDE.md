@@ -11,7 +11,8 @@ smarten/
 ├── pub/konkursy/angielski/data/     # Static JSON data (competition tests + practice exercises)
 │   ├── tests.json                   # Competition test index
 │   ├── 2019-2020/ .. 2025-2026/     # Competition tests by year/stage (szkolny, rejonowy, wojewodzki)
-│   └── practice/                    # 105 practice exercises + index.json
+│   ├── practice/                    # 105 practice exercises + index.json
+│   └── quest/                       # Quest exercises + index.json (branches, levels)
 ├── site/                            # React app
 │   ├── src/
 │   │   ├── App.jsx                  # Routes, user auth gate, UserContext
@@ -19,14 +20,23 @@ smarten/
 │   │   │   ├── Home.jsx             # Dashboard with stats + test list
 │   │   │   ├── Practice.jsx         # Practice exercise browser + exercise player
 │   │   │   ├── KonkursTest.jsx      # Competition test player with timer + AI grading
-│   │   │   └── Progress.jsx         # History, per-type stats, SVG chart
+│   │   │   ├── Progress.jsx         # History, per-type stats, SVG chart
+│   │   │   └── quest/
+│   │   │       ├── QuestHome.jsx    # Quest dashboard — branches, XP bar, exercise list
+│   │   │       └── QuestExercise.jsx # Quest exercise player with XP + KV sync
 │   │   ├── components/konkursy/     # Task type renderers (one per type)
 │   │   │   ├── TaskRenderer.jsx     # Dispatches to correct component by task.type
 │   │   │   └── taskStyles.js        # Shared inline styles
-│   │   └── lib/scoring.js           # Auto-scoring for all task types
+│   │   └── lib/
+│   │       ├── scoring.js           # Auto-scoring for all task types
+│   │       ├── questProgress.js     # Quest progress: load/save, XP, KV sync (fetch/push/merge)
+│   │       ├── questData.js         # Quest branch config, XP levels, bridge types
+│   │       └── questXP.js           # Shared XP computation (client + server)
 │   ├── functions/api/               # Cloudflare Pages Functions (serverless)
 │   │   ├── check.js                 # AI grading via Claude API (Haiku/Sonnet)
-│   │   └── results.js               # KV-backed results storage
+│   │   ├── results.js               # KV-backed competition results storage
+│   │   └── quest-progress.js        # Quest progress: GET/PUT with server-side merge
+│   ├── public/_routes.json          # Routes /api/* to Functions, rest to static
 │   ├── wrangler.toml                # Cloudflare config (KV binding: RESULTS)
 │   └── package.json
 ```
@@ -41,11 +51,15 @@ npm run build      # Production build -> dist/
 
 ## Deployment
 
-Deploy via wrangler (no auto-deploy from git):
+Deploy via wrangler from the `site/` directory (no auto-deploy from git):
 
 ```bash
-npx wrangler pages deploy site/dist --project-name smarten
+cd site
+npm run build
+npx wrangler pages deploy dist --project-name smarten
 ```
+
+**Must run from `site/`** so wrangler finds both `dist/` and `functions/` — running from the repo root silently skips Functions.
 
 Cloudflare secrets:
 - `ANTHROPIC_API_KEY` — Claude API key for AI grading (set via `wrangler pages secret put`)
@@ -88,10 +102,13 @@ All inline styles, no CSS files. Dark theme (`#0a0a12` bg). Shared styles in `ta
 
 Simple password gate in App.jsx (hardcoded users). User stored in localStorage as `smarten_user`. Attempt history saved to both localStorage (`smarten_konkursy_{user}`) and Cloudflare KV via `/api/results`.
 
+Quest progress stored in localStorage (`smarten_quest_{username}`) and synced to Cloudflare KV (`quest:{username}` key) via `/api/quest-progress`. Server-side merge: highest bestScore wins per exercise, attempts unioned by attemptId. XP always recomputed from bestScores (never trusted from client). Allowed users: Tadzio, Zosia, Lidia.
+
 ## Conventions
 
 - Polish UI text (instructions, labels), English content in exercises
 - Exercise instructions use ASCII (no Polish diacritics) for compatibility
 - Practice exercise IDs follow pattern: `{type}_{NNN}` (e.g. `tfni_001`, `cloze_005`)
+- Quest exercise IDs follow pattern: `quest_{branch}_{NN}` (e.g. `quest_vocab_01`)
 - All data in static JSON under `pub/` — no database for content
 - Scoring schemes use string keys for ranges: `"0-2"`, `"3"`, `"4"`

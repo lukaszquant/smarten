@@ -22,13 +22,18 @@ Live at **https://smarten.pages.dev**
 - **Per-type metrics** — completion rate, average best score, progress bars
 - **Retry** — redo any exercise without leaving the page
 - **Server-side results** — all answers saved to Cloudflare KV, viewable via API
+- **Quest mode** — gamified lower-difficulty on-ramp for younger learners:
+  - 3 branches (Vocabulary, Grammar, Reading), leveled exercises
+  - XP system with player levels (Explorer → Adventurer)
+  - Cross-device progress sync via Cloudflare KV
+  - Bridge to full competition exercises when a branch is completed
 
 ## Tech stack
 
 - React 19 + Vite + React Router 7
 - Cloudflare Pages (hosting + serverless functions)
 - Cloudflare KV (results storage)
-- No backend framework — just a single Pages Function at `/api/results`
+- No backend framework — Pages Functions at `/api/results` and `/api/quest-progress`
 
 ## Project structure
 
@@ -40,13 +45,20 @@ site/                    # React app
       Practice.jsx       # Practice list, type list, exercise views
       KonkursTest.jsx    # Competition test page with timer
       Progress.jsx       # Detailed progress history
+      quest/
+        QuestHome.jsx    # Quest dashboard — branches, XP bar, exercise list
+        QuestExercise.jsx # Quest exercise player with XP scoring
     components/
       konkursy/          # Task renderers (one per task type)
       Layout.jsx         # Nav with user switcher
     lib/
       scoring.js         # Auto-scoring logic
-  functions/
-    api/results.js       # Cloudflare Pages Function for KV storage
+      questProgress.js   # Quest progress: load/save, XP, KV sync
+      questData.js       # Quest branch config, XP levels, constants
+      questXP.js         # Shared XP computation (used by client + server)
+  functions/api/
+    results.js           # Cloudflare Pages Function — competition results
+    quest-progress.js    # Cloudflare Pages Function — quest progress sync
   wrangler.toml          # Cloudflare config with KV binding
 
 pub/                     # Static data (copied to site/public/)
@@ -64,6 +76,11 @@ pub/                     # Static data (copied to site/public/)
       gapfill_001..010.json
       dialogue_001..010.json
       matching_001..010.json
+    quest/
+      index.json         # Quest exercise index (branches + levels)
+      quest_vocab_01..N.json   # Quest exercise files
+      quest_grammar_01..N.json
+      quest_reading_01..N.json
 ```
 
 ## Development
@@ -79,8 +96,10 @@ npm run dev
 ```bash
 cd site
 npm run build
-wrangler pages deploy dist --project-name smarten
+npx wrangler pages deploy dist --project-name smarten
 ```
+
+**Important:** Run from `site/` directory so wrangler finds both `dist/` and `functions/`.
 
 ## API
 
@@ -90,4 +109,7 @@ Results are stored in Cloudflare KV and accessible via:
 GET  /api/results           # all users' results
 GET  /api/results?user=Name # single user's results
 POST /api/results           # save a result (JSON body with user, testId, score, etc.)
+
+GET  /api/quest-progress?user=Name  # fetch quest progress from KV
+PUT  /api/quest-progress            # merge and store quest progress (body: { user, progress })
 ```

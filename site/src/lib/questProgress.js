@@ -1,4 +1,5 @@
-import { BASE_XP, FIRST_COMPLETION_BONUS, PERFECT_BONUS, XP_LEVELS, BRIDGE_THRESHOLD, flattenExercises } from "./questData";
+import { XP_LEVELS, BRIDGE_THRESHOLD, flattenExercises } from "./questData";
+import { computeTotalXP } from "./questXP.js";
 
 const STORAGE_PREFIX = "smarten_quest_";
 
@@ -27,7 +28,20 @@ export function loadProgress(username) {
       if (!parsed.branches[b].bestScores) parsed.branches[b].bestScores = {};
     }
     if (!parsed.attempts) parsed.attempts = [];
-    if (typeof parsed.xp !== "number") parsed.xp = 0;
+    // Backfill missing attemptId on legacy attempts
+    let backfilled = false;
+    for (const attempt of parsed.attempts) {
+      if (!attempt.attemptId) {
+        attempt.attemptId = crypto.randomUUID();
+        backfilled = true;
+      }
+    }
+    // Recompute XP from bestScores (migration + consistency)
+    parsed.xp = computeTotalXP(parsed);
+    // Persist backfilled IDs so they stay stable across loads
+    if (backfilled) {
+      try { localStorage.setItem(storageKey(username), JSON.stringify(parsed)); } catch {}
+    }
     return parsed;
   } catch {
     return structuredClone(EMPTY_PROGRESS);
@@ -40,13 +54,6 @@ export function saveProgress(username, progress) {
   } catch (e) {
     console.error("Failed to save quest progress:", e);
   }
-}
-
-export function calculateXP(percentage, isFirstAttempt) {
-  let xp = Math.floor(BASE_XP * (percentage / 100));
-  if (isFirstAttempt) xp += FIRST_COMPLETION_BONUS;
-  if (percentage === 100) xp += PERFECT_BONUS;
-  return xp;
 }
 
 export function getPlayerLevel(totalXP) {
@@ -73,23 +80,26 @@ export function getPlayerLevel(totalXP) {
 export function processResult(progress, branch, exerciseId, score, maxScore) {
   const percentage = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
   const branchData = progress.branches[branch];
-  const isFirstAttempt = !(exerciseId in branchData.bestScores);
-  const xpEarned = calculateXP(percentage, isFirstAttempt);
 
   // Update best score (keep highest)
   const prevBest = branchData.bestScores[exerciseId] ?? -1;
-  if (percentage > prevBest) {
+  const improved = percentage > prevBest;
+  if (improved) {
     branchData.bestScores[exerciseId] = percentage;
   }
 
-  // Add XP
-  const prevLevel = getPlayerLevel(progress.xp);
-  progress.xp += xpEarned;
+  // Recompute XP from best scores
+  const prevXP = progress.xp;
+  const prevLevel = getPlayerLevel(prevXP);
+  progress.xp = computeTotalXP(progress);
   const newLevel = getPlayerLevel(progress.xp);
+
+  const xpEarned = progress.xp - prevXP; // 0 if score didn't improve
   const levelUp = newLevel.level > prevLevel.level;
 
-  // Record attempt
+  // Record attempt (history only, not XP-relevant)
   progress.attempts.push({
+    attemptId: crypto.randomUUID(),
     exerciseId,
     branch,
     date: new Date().toISOString(),
@@ -123,6 +133,64 @@ export function getHighestUnlockedLevel(progress, branchId, levels) {
     }
   }
   return highest;
+}
+
+// --- KV Sync ---
+
+export async function fetchRemoteProgress(username) {
+  try {
+    const res = await fetch(`/api/quest-progress?user=${encodeURIComponent(username)}`);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null; // Offline or error — use localStorage only
+  }
+}
+
+export function pushRemoteProgress(username, progress) {
+  return fetch("/api/quest-progress", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user: username, progress }),
+  })
+    .then((r) => r.ok ? r.json() : null)
+    .catch(() => null);
+}
+
+export function mergeProgress(local, remote) {
+  if (!remote) return local;
+  if (!local) return remote;
+
+  const merged = structuredClone(local);
+
+  // Merge bestScores: highest per exercise
+  for (const branchId of new Set([
+    ...Object.keys(local.branches),
+    ...Object.keys(remote.branches || {}),
+  ])) {
+    if (!merged.branches[branchId]) {
+      merged.branches[branchId] = remote.branches[branchId];
+      continue;
+    }
+    const remoteScores = remote.branches[branchId]?.bestScores || {};
+    const mergedScores = merged.branches[branchId].bestScores;
+    for (const [exId, score] of Object.entries(remoteScores)) {
+      if ((mergedScores[exId] ?? -1) < score) {
+        mergedScores[exId] = score;
+      }
+    }
+  }
+
+  // Merge attempts: union by attemptId
+  const seen = new Set((local.attempts || []).map((a) => a.attemptId));
+  for (const attempt of remote.attempts || []) {
+    if (attempt.attemptId && !seen.has(attempt.attemptId)) {
+      merged.attempts.push(attempt);
+    }
+  }
+
+  merged.xp = computeTotalXP(merged);
+  return merged;
 }
 
 /** Check if entire branch is complete (all levels) */

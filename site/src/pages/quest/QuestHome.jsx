@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../App";
 import { useDocumentHead } from "../../hooks";
-import { loadProgress, getPlayerLevel, isBranchComplete, isLevelComplete, getHighestUnlockedLevel } from "../../lib/questProgress";
+import { loadProgress, saveProgress, getPlayerLevel, isBranchComplete, isLevelComplete, getHighestUnlockedLevel, fetchRemoteProgress, pushRemoteProgress, mergeProgress } from "../../lib/questProgress";
 import { TYPE_LABELS, flattenExercises } from "../../lib/questData";
 
 export default function QuestHome() {
@@ -26,7 +26,22 @@ export default function QuestHome() {
   }, []);
 
   useEffect(() => {
-    if (user) setProgress(loadProgress(user.name));
+    if (!user) return;
+    const local = loadProgress(user.name);
+    setProgress(local); // Render immediately from localStorage
+
+    fetchRemoteProgress(user.name).then((remote) => {
+      const merged = remote ? mergeProgress(local, remote) : local;
+      setProgress(merged);
+      saveProgress(user.name, merged);
+      // Always push merged state to KV (first-time backup or re-upload local-only progress)
+      pushRemoteProgress(user.name, merged).then((serverResult) => {
+        if (serverResult) {
+          setProgress(serverResult);
+          saveProgress(user.name, serverResult);
+        }
+      });
+    });
   }, [user]);
 
   if (!index || !progress) {

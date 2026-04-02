@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import { useUser } from "../../App";
 import { useDocumentHead } from "../../hooks";
 import { scoreTest } from "../../lib/scoring";
-import { loadProgress, saveProgress, processResult, getPlayerLevel } from "../../lib/questProgress";
+import { loadProgress, saveProgress, processResult, getPlayerLevel, pushRemoteProgress } from "../../lib/questProgress";
 import { getExerciseLevel, getNextExercise } from "../../lib/questData";
 import TaskRenderer from "../../components/konkursy/TaskRenderer";
 
@@ -50,6 +50,13 @@ export default function QuestExercise() {
     const info = processResult(progress, branch, id, res.earned, res.max);
     saveProgress(user?.name, progress);
     setXpInfo(info);
+
+    // Push to KV (fire-and-forget, server merges)
+    pushRemoteProgress(user?.name, progress).then((merged) => {
+      if (merged) {
+        saveProgress(user?.name, merged);
+      }
+    });
   };
 
   const handleRetry = () => {
@@ -102,7 +109,7 @@ export default function QuestExercise() {
             {result.percentage >= 70 ? "Great job!" : result.percentage >= 40 ? "Good effort!" : "Keep practising!"}
           </div>
 
-          {xpInfo && (
+          {xpInfo && xpInfo.xpEarned > 0 && (
             <div style={styles.xpEarned}>
               <span style={styles.xpBadge}>+{xpInfo.xpEarned} XP</span>
               {xpInfo.levelUp && (

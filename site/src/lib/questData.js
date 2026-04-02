@@ -1,7 +1,5 @@
-// XP constants
-export const BASE_XP = 50;
-export const FIRST_COMPLETION_BONUS = 10;
-export const PERFECT_BONUS = 15;
+// XP constants — re-exported from shared module (used by both client and server)
+export { BASE_XP, FIRST_COMPLETION_BONUS, PERFECT_BONUS } from "./questXP.js";
 
 // Player levels — each entry: minimum XP to reach that level
 export const XP_LEVELS = [
