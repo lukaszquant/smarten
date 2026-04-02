@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
+import { loadRewards, computePracticeStars, getPracticeTitle, getTypeMastery } from "../lib/practiceRewards";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
 const STAGE_COLORS = { szkolny: "#50d890", rejonowy: "#42b4f5", wojewodzki: "#a78bfa" };
@@ -122,16 +123,71 @@ function ScoreChart({ attempts }) {
   );
 }
 
+function PracticeStarSummary({ bestScores }) {
+  const totalStars = computePracticeStars(bestScores);
+  if (totalStars === 0) return null;
+
+  const info = getPracticeTitle(totalStars);
+  const progressPct = info.nextStars
+    ? Math.round(((totalStars - info.stars) / (info.nextStars - info.stars)) * 100)
+    : 100;
+
+  return (
+    <div style={{
+      background: "#13131a", border: "1px solid #1e1e2e", borderRadius: 12,
+      padding: "16px 20px", marginBottom: 32,
+    }}>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+        <span style={{ color: "#e8e8f0", fontWeight: 700, fontSize: 16 }}>
+          Gwiazdki z cwiczen
+        </span>
+        <span style={{ color: "#f5a623", fontWeight: 700, fontSize: 15 }}>
+          {info.title}
+        </span>
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+        <span style={{ color: "#f5a623", fontSize: 22, fontWeight: 900, fontFamily: "'Playfair Display', serif" }}>
+          ★ {totalStars}
+        </span>
+        <span style={{ color: "#7a7a90", fontSize: 13 }}>/ 525</span>
+      </div>
+      <div style={{ height: 6, background: "#1e1e2e", borderRadius: 3, overflow: "hidden" }}>
+        <div style={{
+          height: "100%", borderRadius: 3,
+          width: `${progressPct}%`,
+          background: "linear-gradient(90deg, #f5a623, #f5c842)",
+          transition: "width 0.5s ease",
+        }} />
+      </div>
+      {info.nextTitle && (
+        <div style={{ color: "#7a7a90", fontSize: 11, marginTop: 6 }}>
+          Nastepny tytul: {info.nextTitle} ({info.nextStars}★)
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function Progress() {
   useDocumentHead("Postepy", "Twoje wyniki z testow konkursowych");
   const user = useUser();
   const storageKey = `smarten_konkursy_${user?.name || "default"}`;
   const [attempts, setAttempts] = useState([]);
   const [confirmClear, setConfirmClear] = useState(false);
+  const [bestScores, setBestScores] = useState({});
+  const [exerciseIndex, setExerciseIndex] = useState([]);
 
   useEffect(() => {
     setAttempts(getAttempts(storageKey));
+    setBestScores(loadRewards(storageKey));
   }, [storageKey]);
+
+  useEffect(() => {
+    fetch("/konkursy/angielski/data/practice/index.json")
+      .then((r) => r.json())
+      .then((data) => setExerciseIndex(data.exercises || []))
+      .catch(() => {});
+  }, []);
 
   const handleClear = () => {
     if (!confirmClear) {
@@ -140,6 +196,7 @@ export default function Progress() {
     }
     localStorage.removeItem(storageKey);
     setAttempts([]);
+    setBestScores({});
     setConfirmClear(false);
   };
 
@@ -187,6 +244,9 @@ export default function Progress() {
             </div>
           </div>
 
+          {/* Practice stars */}
+          <PracticeStarSummary bestScores={bestScores} />
+
           {/* Score over time chart */}
           <ScoreChart attempts={attempts} />
 
@@ -198,25 +258,35 @@ export default function Progress() {
                 Posortowane od najslabszych — pracuj nad nimi!
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                {skills.map((skill) => (
-                  <div key={skill.type} style={styles.skillRow}>
-                    <div style={styles.skillInfo}>
-                      <span style={styles.skillLabel}>{skill.label}</span>
-                      <span style={styles.skillScore}>
-                        {skill.earned}/{skill.max} ({skill.pct}%)
-                      </span>
+                {skills.map((skill) => {
+                  const mastery = exerciseIndex.length > 0
+                    ? getTypeMastery(bestScores, exerciseIndex, skill.type)
+                    : null;
+                  return (
+                    <div key={skill.type} style={styles.skillRow}>
+                      <div style={styles.skillInfo}>
+                        <span style={styles.skillLabel}>{skill.label}</span>
+                        <span style={styles.skillScore}>
+                          {skill.earned}/{skill.max} ({skill.pct}%)
+                          {mastery && mastery.max > 0 && (
+                            <span style={{ color: "#f5a623", marginLeft: 8 }}>
+                              ★ {mastery.earned}/{mastery.max}
+                            </span>
+                          )}
+                        </span>
+                      </div>
+                      <div style={styles.barBg}>
+                        <div
+                          style={{
+                            ...styles.barFill,
+                            width: `${skill.pct}%`,
+                            background: skill.pct >= 70 ? "#50d890" : skill.pct >= 40 ? "#f5a623" : "#e05050",
+                          }}
+                        />
+                      </div>
                     </div>
-                    <div style={styles.barBg}>
-                      <div
-                        style={{
-                          ...styles.barFill,
-                          width: `${skill.pct}%`,
-                          background: skill.pct >= 70 ? "#50d890" : skill.pct >= 40 ? "#f5a623" : "#e05050",
-                        }}
-                      />
-                    </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}

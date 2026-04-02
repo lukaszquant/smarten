@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
+import { loadRewards, computePracticeStars, getPracticeTitle } from "../lib/practiceRewards";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
 const STAGE_COLORS = { szkolny: "#50d890", rejonowy: "#42b4f5", wojewodzki: "#a78bfa" };
@@ -17,6 +18,58 @@ const TYPE_LABELS = {
   matching: "Dopasowywanie",
   dialogue_choice: "Dialogi",
 };
+
+function PracticeTitleCard() {
+  const user = useUser();
+  const storageKey = `smarten_konkursy_${user?.name || "default"}`;
+  const [info, setInfo] = useState(null);
+
+  useEffect(() => {
+    const bestScores = loadRewards(storageKey);
+    const totalStars = computePracticeStars(bestScores);
+    if (totalStars === 0) { setInfo(null); return; }
+    setInfo(getPracticeTitle(totalStars));
+  }, [storageKey]);
+
+  if (!info) return null;
+
+  const progressPct = info.nextStars
+    ? Math.round(((info.totalStars - info.stars) / (info.nextStars - info.stars)) * 100)
+    : 100;
+
+  return (
+    <Link to="/cwiczenia" style={{
+      display: "block", background: "#13131a", border: "1px solid #1e1e2e", borderRadius: 12,
+      padding: "16px 20px", marginBottom: 12, textDecoration: "none",
+      transition: "border-color 0.2s",
+    }}
+      onMouseEnter={(e) => { e.currentTarget.style.borderColor = "#f5a62366"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.borderColor = "#1e1e2e"; }}
+    >
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+        <span style={{ color: "#f5a623", fontWeight: 700, fontSize: 15 }}>
+          Cwiczenia: {info.title}
+        </span>
+        <span style={{ color: "#c8c8d8", fontSize: 13 }}>
+          ★ {info.totalStars}/525
+        </span>
+      </div>
+      <div style={{ height: 6, background: "#1e1e2e", borderRadius: 3, overflow: "hidden" }}>
+        <div style={{
+          height: "100%", borderRadius: 3,
+          width: `${progressPct}%`,
+          background: "linear-gradient(90deg, #f5a623, #f5c842)",
+          transition: "width 0.5s ease",
+        }} />
+      </div>
+      {info.nextTitle && (
+        <div style={{ color: "#7a7a90", fontSize: 11, marginTop: 6 }}>
+          Nastepny: {info.nextTitle} ({info.nextStars}★)
+        </div>
+      )}
+    </Link>
+  );
+}
 
 function useDashboardStats() {
   const user = useUser();
@@ -181,6 +234,8 @@ export default function Home() {
           </div>
         </div>
       )}
+
+      <PracticeTitleCard />
 
       <div style={{ display: "flex", gap: 12, marginBottom: 12 }}>
         <Link
