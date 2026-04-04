@@ -6,6 +6,7 @@ import StarDisplay from "../components/StarDisplay";
 import TaskRenderer, { AI_CHECKED_TYPES } from "../components/konkursy/TaskRenderer";
 import { scoreTest } from "../lib/scoring";
 import { percentageToStars } from "../lib/questStars";
+import { makeAttemptId } from "../lib/resultsModel";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
 
@@ -70,7 +71,11 @@ export default function KonkursTest() {
 
   const saveResult = (res) => {
     const entry = {
+      attemptId: makeAttemptId(),
+      kind: "competition",
       testId: `${year}/${stage}`,
+      year,
+      stage,
       date: new Date().toISOString(),
       score: res.earned,
       maxScore: res.max,

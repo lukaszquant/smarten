@@ -14,6 +14,7 @@ import {
   updateBestScore,
 } from "../lib/practiceRewards";
 import { percentageToStars } from "../lib/questStars";
+import { makeAttemptId, practiceAttempts } from "../lib/resultsModel";
 
 const TYPE_COLORS = {
   knowledge_questions: "#a78bfa",
@@ -82,18 +83,14 @@ function useStats() {
   const storageKey = `smarten_konkursy_${user?.name || "default"}`;
   const [stats, setStats] = useState({});
   useEffect(() => {
-    try {
-      const stored = JSON.parse(localStorage.getItem(storageKey) || "{}");
-      const attempts = stored.attempts || [];
-      const byExercise = {};
-      for (const a of attempts) {
-        const id = a.testId?.replace("practice/", "");
-        if (!id) continue;
-        if (!byExercise[id]) byExercise[id] = [];
-        byExercise[id].push(a);
-      }
-      setStats(byExercise);
-    } catch { setStats({}); }
+    const byExercise = {};
+    for (const a of practiceAttempts(storageKey)) {
+      const id = a.exerciseId;
+      if (!id) continue;
+      if (!byExercise[id]) byExercise[id] = [];
+      byExercise[id].push(a);
+    }
+    setStats(byExercise);
   }, [storageKey]);
   return stats;
 }
@@ -369,7 +366,11 @@ function PracticeExercise() {
     };
 
     const entry = {
+      attemptId: makeAttemptId(),
+      kind: "practice",
       testId: `practice/${id}`,
+      exerciseId: id,
+      exerciseType: type,
       date: new Date().toISOString(),
       score: res.earned,
       maxScore: res.max,

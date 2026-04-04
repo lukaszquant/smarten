@@ -7,18 +7,64 @@
       "type": "open_cloze",
       "points": 5,
       "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
-      "text": "Penguins are remarkable creatures that have adapted to some of the harshest environments on Earth. _________ (1.1) there are eighteen recognised species, they vary enormously in size, from the tiny Little Blue Penguin, which stands just 30 centimetres tall, to the Emperor Penguin, _________ (1.2) can reach well over a metre in height. What sets penguins _________ (1.3) from other birds is their complete inability to fly. Instead, their wings have evolved into powerful flippers _________ (1.4) allow them to dive to impressive depths in search of food. Emperor Penguins, in _________ (1.5), are capable of holding their _________ (1.6) for up to twenty minutes while hunting beneath the Antarctic ice. The breeding habits of penguins are equally fascinating. Males often play a key _________ (1.7) in incubating eggs, balancing them on their feet to keep them off the frozen ground. Penguin colonies can number in the hundreds of thousands, and the noise they _________ (1.8) is truly deafening. Sadly, _________ (1.9) to climate change and overfishing, several penguin species now face serious threats to their survival. Conservation efforts are under _________ (1.10) in many parts of the Southern Hemisphere, but scientists warn that much more needs to be done.",
+      "text": "Penguins are remarkable creatures that have adapted to some of the harshest environments on Earth. 1.1. _________ there are eighteen recognised species, they vary enormously in size, from the tiny Little Blue Penguin, which stands just 30 centimetres tall, to the Emperor Penguin, 1.2. _________ can reach well over a metre in height. What sets penguins 1.3. _________ from other birds is their complete inability to fly. Instead, their wings have evolved into powerful flippers 1.4. _________ allow them to dive to impressive depths in search of food. Emperor Penguins, in 1.5. _________, are capable of holding their 1.6. _________ for up to twenty minutes while hunting beneath the Antarctic ice. The breeding habits of penguins are equally fascinating. Males often play a key 1.7. _________ in incubating eggs, balancing them on their feet to keep them off the frozen ground. Penguin colonies can number in the hundreds of thousands, and the noise they 1.8. _________ is truly deafening. Sadly, 1.9. _________ to climate change and overfishing, several penguin species now face serious threats to their survival. Conservation efforts are under 1.10. _________ in many parts of the Southern Hemisphere, but scientists warn that much more needs to be done.",
       "items": [
-        { "id": "1.1", "answer": ["Although", "While", "Though"] },
-        { "id": "1.2", "answer": "which" },
-        { "id": "1.3", "answer": "apart" },
-        { "id": "1.4", "answer": ["that", "which"] },
-        { "id": "1.5", "answer": "particular" },
-        { "id": "1.6", "answer": "breath" },
-        { "id": "1.7", "answer": ["role", "part"] },
-        { "id": "1.8", "answer": ["make", "produce"] },
-        { "id": "1.9", "answer": ["due", "owing"] },
-        { "id": "1.10", "answer": "way" }
+        {
+          "id": "1.1",
+          "answer": [
+            "Although",
+            "While",
+            "Though"
+          ]
+        },
+        {
+          "id": "1.2",
+          "answer": "which"
+        },
+        {
+          "id": "1.3",
+          "answer": "apart"
+        },
+        {
+          "id": "1.4",
+          "answer": [
+            "that",
+            "which"
+          ]
+        },
+        {
+          "id": "1.5",
+          "answer": "particular"
+        },
+        {
+          "id": "1.6",
+          "answer": "breath"
+        },
+        {
+          "id": "1.7",
+          "answer": [
+            "role",
+            "part"
+          ]
+        },
+        {
+          "id": "1.8",
+          "answer": [
+            "make",
+            "produce"
+          ]
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "due",
+            "owing"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": "way"
+        }
       ],
       "scoringScheme": {
         "10": 5,

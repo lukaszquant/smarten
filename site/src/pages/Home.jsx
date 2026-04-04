@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
 import { loadRewards, computePracticeStars, getPracticeTitle } from "../lib/practiceRewards";
+import { loadAttempts } from "../lib/resultsModel";
+import { syncAttempts } from "../lib/resultsSync";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
 const STAGE_COLORS = { szkolny: "#50d890", rejonowy: "#42b4f5", wojewodzki: "#a78bfa" };
@@ -71,6 +73,62 @@ function PracticeTitleCard() {
   );
 }
 
+function computeStats(all) {
+  if (all.length === 0) return null;
+
+  const competitions = all.filter((a) => a.kind === "competition");
+  const practice = all.filter((a) => a.kind === "practice");
+
+  // Per-type stats from all attempts (competitions + practice)
+  const byType = {};
+  for (const a of all) {
+    for (const tb of (a.taskBreakdown || [])) {
+      if (tb.skipped) continue;
+      const t = tb.type;
+      if (!byType[t]) byType[t] = { earned: 0, max: 0, count: 0 };
+      byType[t].earned += tb.earned;
+      byType[t].max += tb.max;
+      byType[t].count++;
+    }
+  }
+
+  // Find weakest type (min percentage, at least 3 attempts)
+  let weakest = null, weakestPct = 101;
+  for (const [type, s] of Object.entries(byType)) {
+    if (s.count < 3 || s.max === 0) continue;
+    const pct = Math.round((s.earned / s.max) * 100);
+    if (pct < weakestPct) { weakestPct = pct; weakest = type; }
+  }
+
+  // Find strongest
+  let strongest = null, strongestPct = -1;
+  for (const [type, s] of Object.entries(byType)) {
+    if (s.count < 3 || s.max === 0) continue;
+    const pct = Math.round((s.earned / s.max) * 100);
+    if (pct > strongestPct) { strongestPct = pct; strongest = type; }
+  }
+
+  // Overall avg from best per unique competition test
+  const bestByTest = {};
+  for (const a of competitions) {
+    const key = a.testId;
+    if (!bestByTest[key] || a.percentage > bestByTest[key]) {
+      bestByTest[key] = a.percentage;
+    }
+  }
+  const allBests = Object.values(bestByTest);
+  const overallAvg = allBests.length > 0 ? Math.round(allBests.reduce((s, v) => s + v, 0) / allBests.length) : 0;
+
+  return {
+    totalAttempts: all.length,
+    competitionsDone: new Set(competitions.map((a) => a.testId)).size,
+    practicesDone: new Set(practice.map((a) => a.testId)).size,
+    overallAvg,
+    weakest: weakest ? { type: weakest, label: TYPE_LABELS[weakest] || weakest, pct: weakestPct } : null,
+    strongest: strongest ? { type: strongest, label: TYPE_LABELS[strongest] || strongest, pct: strongestPct } : null,
+  };
+}
+
 function useDashboardStats() {
   const user = useUser();
   const storageKey = `smarten_konkursy_${user?.name || "default"}`;
@@ -78,63 +136,17 @@ function useDashboardStats() {
 
   useEffect(() => {
     try {
-      const stored = JSON.parse(localStorage.getItem(storageKey) || "{}");
-      const attempts = stored.attempts || [];
-      if (attempts.length === 0) { setData(null); return; }
+      // Show local data immediately
+      setData(computeStats(loadAttempts(storageKey)));
 
-      const competitions = attempts.filter((a) => !a.testId?.startsWith("practice/"));
-      const practice = attempts.filter((a) => a.testId?.startsWith("practice/"));
-
-      // Per-type stats from both competitions and practice
-      const byType = {};
-      for (const a of attempts) {
-        for (const tb of (a.taskBreakdown || [])) {
-          if (tb.skipped) continue;
-          const t = tb.type;
-          if (!byType[t]) byType[t] = { earned: 0, max: 0, count: 0 };
-          byType[t].earned += tb.earned;
-          byType[t].max += tb.max;
-          byType[t].count++;
-        }
+      // Sync with remote if logged in, then recompute
+      if (user?.name) {
+        syncAttempts(user.name, storageKey).then((merged) => {
+          setData(computeStats(merged));
+        }).catch(() => {});
       }
-
-      // Find weakest type (min percentage, at least 3 attempts)
-      let weakest = null, weakestPct = 101;
-      for (const [type, s] of Object.entries(byType)) {
-        if (s.count < 3 || s.max === 0) continue;
-        const pct = Math.round((s.earned / s.max) * 100);
-        if (pct < weakestPct) { weakestPct = pct; weakest = type; }
-      }
-
-      // Find strongest
-      let strongest = null, strongestPct = -1;
-      for (const [type, s] of Object.entries(byType)) {
-        if (s.count < 3 || s.max === 0) continue;
-        const pct = Math.round((s.earned / s.max) * 100);
-        if (pct > strongestPct) { strongestPct = pct; strongest = type; }
-      }
-
-      // Overall avg from best per unique exercise
-      const bestByExercise = {};
-      for (const a of attempts) {
-        const key = a.testId;
-        if (!bestByExercise[key] || a.percentage > bestByExercise[key]) {
-          bestByExercise[key] = a.percentage;
-        }
-      }
-      const allBests = Object.values(bestByExercise);
-      const overallAvg = allBests.length > 0 ? Math.round(allBests.reduce((s, v) => s + v, 0) / allBests.length) : 0;
-
-      setData({
-        totalAttempts: attempts.length,
-        competitionsDone: new Set(competitions.map((a) => a.testId)).size,
-        practicesDone: new Set(practice.map((a) => a.testId)).size,
-        overallAvg,
-        weakest: weakest ? { type: weakest, label: TYPE_LABELS[weakest] || weakest, pct: weakestPct } : null,
-        strongest: strongest ? { type: strongest, label: TYPE_LABELS[strongest] || strongest, pct: strongestPct } : null,
-      });
     } catch { setData(null); }
-  }, [storageKey]);
+  }, [storageKey, user?.name]);
 
   return data;
 }

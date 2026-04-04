@@ -11,11 +11,17 @@ export async function onRequestPost(context) {
     return Response.json({ error: "API key not configured" }, { status: 500 });
   }
 
+  // Reject oversized payloads (100 KB limit)
+  const contentLength = parseInt(context.request.headers.get("content-length") || "0", 10);
+  if (contentLength > 100_000) {
+    return Response.json({ error: "payload too large" }, { status: 413 });
+  }
+
   try {
     const { type, task, answers } = await context.request.json();
 
-    if (!type || !task || !answers) {
-      return Response.json({ error: "type, task, and answers required" }, { status: 400 });
+    if (typeof type !== "string" || typeof task !== "object" || !task || typeof answers !== "object" || !answers) {
+      return Response.json({ error: "type (string), task (object), and answers (object) required" }, { status: 400 });
     }
 
     let prompt, model;

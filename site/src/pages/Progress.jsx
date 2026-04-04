@@ -1,8 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { useDocumentHead } from "../hooks";
 import { useUser } from "../App";
 import { loadRewards, computePracticeStars, getPracticeTitle, getTypeMastery } from "../lib/practiceRewards";
+import { competitionAttempts, practiceAttempts, loadAttempts } from "../lib/resultsModel";
+import { syncAttempts, clearRemoteAttempts } from "../lib/resultsSync";
 
 const STAGE_LABELS = { szkolny: "Etap szkolny", rejonowy: "Etap rejonowy", wojewodzki: "Etap wojewodzki" };
 const STAGE_COLORS = { szkolny: "#50d890", rejonowy: "#42b4f5", wojewodzki: "#a78bfa" };
@@ -21,14 +23,17 @@ const TYPE_LABELS = {
   vocab_from_text: "Slownictwo z tekstu",
 };
 
-function getAttempts(storageKey) {
-  try {
-    const stored = JSON.parse(localStorage.getItem(storageKey) || "{}");
-    return stored.attempts || [];
-  } catch {
-    return [];
-  }
-}
+const PRACTICE_TYPE_LABELS = {
+  knowledge_questions: "Wiedza o krajach",
+  true_false_ni: "Prawda / Falsz / NI",
+  gap_fill_sentences: "Luki w zdaniach",
+  multiple_choice: "Wybor A/B/C",
+  open_cloze: "Uzupelnianie luk",
+  word_spelling: "Literowanie",
+  word_formation: "Slowotworstwo",
+  matching: "Dopasowywanie",
+  dialogue_choice: "Dialogi",
+};
 
 function getSkillStats(attempts) {
   const stats = {};
@@ -68,7 +73,7 @@ function ScoreChart({ attempts }) {
     y: PAD_T + plotH - (a.percentage / 100) * plotH,
     pct: a.percentage,
     date: new Date(a.date),
-    stage: a.testId.split("/")[1],
+    stage: a.stage || a.testId?.split("/")[1],
   }));
 
   const pathD = points.map((p, i) => `${i === 0 ? "M" : "L"}${p.x},${p.y}`).join(" ");
@@ -172,15 +177,29 @@ export default function Progress() {
   useDocumentHead("Postepy", "Twoje wyniki z testow konkursowych");
   const user = useUser();
   const storageKey = `smarten_konkursy_${user?.name || "default"}`;
-  const [attempts, setAttempts] = useState([]);
+  const [competitions, setCompetitions] = useState([]);
+  const [practices, setPractices] = useState([]);
   const [confirmClear, setConfirmClear] = useState(false);
   const [bestScores, setBestScores] = useState({});
   const [exerciseIndex, setExerciseIndex] = useState([]);
+  const clearedRef = useRef(false);
 
   useEffect(() => {
-    setAttempts(getAttempts(storageKey));
+    // Show local data immediately
+    setCompetitions(competitionAttempts(storageKey));
+    setPractices(practiceAttempts(storageKey));
     setBestScores(loadRewards(storageKey));
-  }, [storageKey]);
+
+    // Sync with remote if logged in, then recompute
+    if (user?.name) {
+      clearedRef.current = false;
+      syncAttempts(user.name, storageKey).then((merged) => {
+        if (clearedRef.current) return; // user cleared history while sync was in flight
+        setCompetitions(merged.filter((a) => a.kind === "competition"));
+        setPractices(merged.filter((a) => a.kind === "practice"));
+      }).catch(() => {});
+    }
+  }, [storageKey, user?.name]);
 
   useEffect(() => {
     fetch("/konkursy/angielski/data/practice/index.json")
@@ -194,20 +213,27 @@ export default function Progress() {
       setConfirmClear(true);
       return;
     }
+    clearedRef.current = true;
     localStorage.removeItem(storageKey);
-    setAttempts([]);
+    setCompetitions([]);
+    setPractices([]);
     setBestScores({});
     setConfirmClear(false);
+    // Also clear remote so sync doesn't restore on next load
+    if (user?.name) {
+      clearRemoteAttempts(user.name).catch(() => {});
+    }
   };
 
-  const skills = getSkillStats(attempts);
-  const totalTests = attempts.length;
+  const skills = getSkillStats(competitions);
+  const totalTests = competitions.length;
   const avgScore = totalTests > 0
-    ? Math.round(attempts.reduce((s, a) => s + a.percentage, 0) / totalTests)
+    ? Math.round(competitions.reduce((s, a) => s + a.percentage, 0) / totalTests)
     : 0;
   const bestScore = totalTests > 0
-    ? Math.max(...attempts.map((a) => a.percentage))
+    ? Math.max(...competitions.map((a) => a.percentage))
     : 0;
+  const hasAnyData = competitions.length > 0 || practices.length > 0;
 
   return (
     <div style={styles.page}>
@@ -219,7 +245,7 @@ export default function Progress() {
       <Link to="/" style={styles.back}>&larr; Powrot do testow</Link>
       <h1 style={styles.title}>Twoje postepy</h1>
 
-      {totalTests === 0 ? (
+      {!hasAnyData ? (
         <div style={styles.emptyState}>
           <p style={{ color: "#7a7a90", fontSize: 15, marginBottom: 16 }}>
             Nie masz jeszcze zadnych wynikow. Rozwiaz test, zeby zobaczyc swoje postepy!
@@ -228,32 +254,34 @@ export default function Progress() {
         </div>
       ) : (
         <>
-          {/* Summary cards */}
-          <div style={styles.summaryGrid}>
-            <div style={styles.summaryCard}>
-              <div style={styles.summaryValue}>{totalTests}</div>
-              <div style={styles.summaryLabel}>Rozwiazanych testow</div>
+          {/* Competition summary cards */}
+          {totalTests > 0 && (
+            <div style={styles.summaryGrid}>
+              <div style={styles.summaryCard}>
+                <div style={styles.summaryValue}>{totalTests}</div>
+                <div style={styles.summaryLabel}>Rozwiazanych testow</div>
+              </div>
+              <div style={styles.summaryCard}>
+                <div style={{ ...styles.summaryValue, color: "#42b4f5" }}>{avgScore}%</div>
+                <div style={styles.summaryLabel}>Sredni wynik</div>
+              </div>
+              <div style={styles.summaryCard}>
+                <div style={{ ...styles.summaryValue, color: "#50d890" }}>{bestScore}%</div>
+                <div style={styles.summaryLabel}>Najlepszy wynik</div>
+              </div>
             </div>
-            <div style={styles.summaryCard}>
-              <div style={{ ...styles.summaryValue, color: "#42b4f5" }}>{avgScore}%</div>
-              <div style={styles.summaryLabel}>Sredni wynik</div>
-            </div>
-            <div style={styles.summaryCard}>
-              <div style={{ ...styles.summaryValue, color: "#50d890" }}>{bestScore}%</div>
-              <div style={styles.summaryLabel}>Najlepszy wynik</div>
-            </div>
-          </div>
+          )}
 
           {/* Practice stars */}
           <PracticeStarSummary bestScores={bestScores} />
 
-          {/* Score over time chart */}
-          <ScoreChart attempts={attempts} />
+          {/* Score over time chart — competition only */}
+          <ScoreChart attempts={competitions} />
 
-          {/* Skill breakdown */}
+          {/* Skill breakdown — competition only */}
           {skills.length > 0 && (
             <div style={{ marginBottom: 32 }}>
-              <h2 style={styles.sectionTitle}>Umiejetnosci</h2>
+              <h2 style={styles.sectionTitle}>Umiejetnosci (testy konkursowe)</h2>
               <p style={{ color: "#7a7a90", fontSize: 13, marginBottom: 16 }}>
                 Posortowane od najslabszych — pracuj nad nimi!
               </p>
@@ -291,50 +319,105 @@ export default function Progress() {
             </div>
           )}
 
-          {/* Attempt history */}
-          <h2 style={styles.sectionTitle}>Historia testow</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            {[...attempts].reverse().map((attempt, i) => {
-              const [yearPath, stage] = attempt.testId.split("/");
-              const color = STAGE_COLORS[stage] || "#50d890";
-              const pctColor = attempt.percentage >= 70 ? "#50d890" : attempt.percentage >= 40 ? "#f5a623" : "#e05050";
-              return (
-                <Link
-                  key={i}
-                  to={`/${yearPath}/${stage}`}
-                  style={{ ...styles.historyRow, textDecoration: "none" }}
-                >
-                  <div style={{ flex: 1 }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
-                      <span style={{ ...styles.stageBadge, background: color + "20", color }}>
-                        {STAGE_LABELS[stage] || stage}
-                      </span>
-                      <span style={{ color: "#c8c8d8", fontSize: 14, fontWeight: 600 }}>
-                        {yearPath}
-                      </span>
-                    </div>
-                    <span style={{ color: "#5a5a6a", fontSize: 12 }}>
-                      {new Date(attempt.date).toLocaleDateString("pl-PL", {
-                        day: "numeric",
-                        month: "long",
-                        year: "numeric",
-                        hour: "2-digit",
-                        minute: "2-digit",
-                      })}
-                    </span>
-                  </div>
-                  <div style={{ textAlign: "right" }}>
-                    <div style={{ color: pctColor, fontSize: 20, fontWeight: 800 }}>
-                      {attempt.percentage}%
-                    </div>
-                    <div style={{ color: "#7a7a90", fontSize: 12 }}>
-                      {attempt.score}/{attempt.maxScore} pkt
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
+          {/* Competition history */}
+          {competitions.length > 0 && (
+            <>
+              <h2 style={styles.sectionTitle}>Historia testow konkursowych</h2>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 32 }}>
+                {[...competitions].reverse().map((attempt, i) => {
+                  const stg = attempt.stage;
+                  const yr = attempt.year;
+                  const color = STAGE_COLORS[stg] || "#50d890";
+                  const pctColor = attempt.percentage >= 70 ? "#50d890" : attempt.percentage >= 40 ? "#f5a623" : "#e05050";
+                  return (
+                    <Link
+                      key={attempt.attemptId || i}
+                      to={`/${yr}/${stg}`}
+                      style={{ ...styles.historyRow, textDecoration: "none" }}
+                    >
+                      <div style={{ flex: 1 }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                          <span style={{ ...styles.stageBadge, background: color + "20", color }}>
+                            {STAGE_LABELS[stg] || stg}
+                          </span>
+                          <span style={{ color: "#c8c8d8", fontSize: 14, fontWeight: 600 }}>
+                            {yr}
+                          </span>
+                        </div>
+                        <span style={{ color: "#5a5a6a", fontSize: 12 }}>
+                          {new Date(attempt.date).toLocaleDateString("pl-PL", {
+                            day: "numeric",
+                            month: "long",
+                            year: "numeric",
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          })}
+                        </span>
+                      </div>
+                      <div style={{ textAlign: "right" }}>
+                        <div style={{ color: pctColor, fontSize: 20, fontWeight: 800 }}>
+                          {attempt.percentage}%
+                        </div>
+                        <div style={{ color: "#7a7a90", fontSize: 12 }}>
+                          {attempt.score}/{attempt.maxScore} pkt
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </>
+          )}
+
+          {/* Practice history */}
+          {practices.length > 0 && (
+            <>
+              <h2 style={styles.sectionTitle}>Historia cwiczen</h2>
+              <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 32 }}>
+                {[...practices].reverse().map((attempt, i) => {
+                  const exId = attempt.exerciseId || "";
+                  const exMeta = exerciseIndex.find((e) => e.id === exId);
+                  const exType = attempt.exerciseType || exMeta?.taskType || "";
+                  const pctColor = attempt.percentage >= 70 ? "#50d890" : attempt.percentage >= 40 ? "#f5a623" : "#e05050";
+                  return (
+                    <Link
+                      key={attempt.attemptId || i}
+                      to={exType ? `/cwiczenia/${exType}/${exId}` : "/cwiczenia"}
+                      style={{ ...styles.historyRow, textDecoration: "none" }}
+                    >
+                      <div style={{ flex: 1 }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
+                          <span style={{ ...styles.stageBadge, background: "#f5a62320", color: "#f5a623" }}>
+                            Cwiczenie
+                          </span>
+                          <span style={{ color: "#c8c8d8", fontSize: 14, fontWeight: 600 }}>
+                            {PRACTICE_TYPE_LABELS[exType] || exType || exId}
+                          </span>
+                        </div>
+                        <span style={{ color: "#5a5a6a", fontSize: 12 }}>
+                          {new Date(attempt.date).toLocaleDateString("pl-PL", {
+                            day: "numeric",
+                            month: "long",
+                            year: "numeric",
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          })}
+                        </span>
+                      </div>
+                      <div style={{ textAlign: "right" }}>
+                        <div style={{ color: pctColor, fontSize: 20, fontWeight: 800 }}>
+                          {attempt.percentage}%
+                        </div>
+                        <div style={{ color: "#7a7a90", fontSize: 12 }}>
+                          {attempt.score}/{attempt.maxScore} pkt
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </>
+          )}
 
           {/* Clear history */}
           <div style={{ textAlign: "center", marginTop: 32 }}>

@@ -7,18 +7,59 @@
       "type": "open_cloze",
       "points": 5,
       "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
-      "text": "Volcanoes are among the most powerful and destructive forces of _________ (1.1), yet they have also played a crucial role in shaping the world as we know it. A volcanic eruption occurs when pressure builds up deep beneath the Earth's _________ (1.2), forcing molten rock, known as magma, to rise to the surface. Once magma has been released, it is _________ (1.3) to as lava, and it can reach temperatures in _________ (1.4) of 1,000 degrees Celsius. The vast _________ (1.5) of the world's active volcanoes are located along the so-called Ring of Fire, a horseshoe-shaped zone that runs around the edges of the Pacific Ocean. Although eruptions can cause widespread devastation, volcanoes are not _________ (1.6) destructive. Volcanic ash enriches the surrounding soil, which is _________ (1.7) farmland near volcanoes tends to be exceptionally fertile. _________ (1.8), geothermal energy harnessed from volcanic activity provides a clean source of power in countries such _________ (1.9) Iceland and New Zealand. Scientists who specialise in studying volcanoes, called volcanologists, work tirelessly to develop better methods of predicting eruptions so that lives can be saved well in _________ (1.10).",
+      "text": "Volcanoes are among the most powerful and destructive forces of 1.1. _________, yet they have also played a crucial role in shaping the world as we know it. A volcanic eruption occurs when pressure builds up deep beneath the Earth's 1.2. _________, forcing molten rock, known as magma, to rise to the surface. Once magma has been released, it is 1.3. _________ to as lava, and it can reach temperatures in 1.4. _________ of 1,000 degrees Celsius. The vast 1.5. _________ of the world's active volcanoes are located along the so-called Ring of Fire, a horseshoe-shaped zone that runs around the edges of the Pacific Ocean. Although eruptions can cause widespread devastation, volcanoes are not 1.6. _________ destructive. Volcanic ash enriches the surrounding soil, which is 1.7. _________ farmland near volcanoes tends to be exceptionally fertile. 1.8. _________, geothermal energy harnessed from volcanic activity provides a clean source of power in countries such 1.9. _________ Iceland and New Zealand. Scientists who specialise in studying volcanoes, called volcanologists, work tirelessly to develop better methods of predicting eruptions so that lives can be saved well in 1.10. _________.",
       "items": [
-        { "id": "1.1", "answer": "nature" },
-        { "id": "1.2", "answer": ["surface", "crust"] },
-        { "id": "1.3", "answer": "referred" },
-        { "id": "1.4", "answer": "excess" },
-        { "id": "1.5", "answer": "majority" },
-        { "id": "1.6", "answer": ["entirely", "purely", "solely"] },
-        { "id": "1.7", "answer": "why" },
-        { "id": "1.8", "answer": ["Furthermore", "Moreover", "Additionally"] },
-        { "id": "1.9", "answer": "as" },
-        { "id": "1.10", "answer": "advance" }
+        {
+          "id": "1.1",
+          "answer": "nature"
+        },
+        {
+          "id": "1.2",
+          "answer": [
+            "surface",
+            "crust"
+          ]
+        },
+        {
+          "id": "1.3",
+          "answer": "referred"
+        },
+        {
+          "id": "1.4",
+          "answer": "excess"
+        },
+        {
+          "id": "1.5",
+          "answer": "majority"
+        },
+        {
+          "id": "1.6",
+          "answer": [
+            "entirely",
+            "purely",
+            "solely"
+          ]
+        },
+        {
+          "id": "1.7",
+          "answer": "why"
+        },
+        {
+          "id": "1.8",
+          "answer": [
+            "Furthermore",
+            "Moreover",
+            "Additionally"
+          ]
+        },
+        {
+          "id": "1.9",
+          "answer": "as"
+        },
+        {
+          "id": "1.10",
+          "answer": "advance"
+        }
       ],
       "scoringScheme": {
         "10": 5,

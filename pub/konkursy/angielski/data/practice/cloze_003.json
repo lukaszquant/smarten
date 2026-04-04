@@ -7,18 +7,55 @@
       "type": "open_cloze",
       "points": 5,
       "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
-      "text": "The London Underground, commonly referred _________ (1.1) as the Tube, holds the distinction of being the oldest underground railway in the world. When it first opened in 1863, few people believed that passengers would be willing to travel in dark tunnels _________ (1.2) the city streets. However, the system proved to be a great _________ (1.3), and within months, thousands of Londoners were using it on a daily _________ (1.4). Over the following decades, the network expanded rapidly and now _________ (1.5) of eleven colour-coded lines stretching across Greater London. One of the most iconic features of the Tube is its map, _________ (1.6) was designed by Harry Beck in 1931. Rather than showing accurate geographical distances, Beck came _________ (1.7) with a simplified diagram that made the complex network easy to understand at a _________ (1.8). His design was so effective that it has since been adopted as a _________ (1.9) for metro maps worldwide. Despite its age, the Underground continues to carry over five million passengers every day, making _________ (1.10) one of the busiest transit systems on the planet.",
+      "text": "The London Underground, commonly referred 1.1. _________ as the Tube, holds the distinction of being the oldest underground railway in the world. When it first opened in 1863, few people believed that passengers would be willing to travel in dark tunnels 1.2. _________ the city streets. However, the system proved to be a great 1.3. _________, and within months, thousands of Londoners were using it on a daily 1.4. _________. Over the following decades, the network expanded rapidly and now 1.5. _________ of eleven colour-coded lines stretching across Greater London. One of the most iconic features of the Tube is its map, 1.6. _________ was designed by Harry Beck in 1931. Rather than showing accurate geographical distances, Beck came 1.7. _________ with a simplified diagram that made the complex network easy to understand at a 1.8. _________. His design was so effective that it has since been adopted as a 1.9. _________ for metro maps worldwide. Despite its age, the Underground continues to carry over five million passengers every day, making 1.10. _________ one of the busiest transit systems on the planet.",
       "items": [
-        { "id": "1.1", "answer": "to" },
-        { "id": "1.2", "answer": ["beneath", "below", "under"] },
-        { "id": "1.3", "answer": "success" },
-        { "id": "1.4", "answer": "basis" },
-        { "id": "1.5", "answer": "consists" },
-        { "id": "1.6", "answer": "which" },
-        { "id": "1.7", "answer": "up" },
-        { "id": "1.8", "answer": "glance" },
-        { "id": "1.9", "answer": ["model", "template"] },
-        { "id": "1.10", "answer": "it" }
+        {
+          "id": "1.1",
+          "answer": "to"
+        },
+        {
+          "id": "1.2",
+          "answer": [
+            "beneath",
+            "below",
+            "under"
+          ]
+        },
+        {
+          "id": "1.3",
+          "answer": "success"
+        },
+        {
+          "id": "1.4",
+          "answer": "basis"
+        },
+        {
+          "id": "1.5",
+          "answer": "consists"
+        },
+        {
+          "id": "1.6",
+          "answer": "which"
+        },
+        {
+          "id": "1.7",
+          "answer": "up"
+        },
+        {
+          "id": "1.8",
+          "answer": "glance"
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "model",
+            "template"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": "it"
+        }
       ],
       "scoringScheme": {
         "10": 5,

@@ -7,18 +7,58 @@
       "type": "open_cloze",
       "points": 5,
       "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
-      "text": "The Olympic Games, _________ (1.1) origins date back nearly three thousand years, remain the most prestigious sporting event in the world. In ancient Greece, the Games were held every four years at Olympia in _________ (1.2) of the god Zeus. Only free Greek men were permitted to take _________ (1.3), and the competitions were limited to a handful of events such as running, wrestling and chariot racing. The modern Olympics owe their _________ (1.4) to Pierre de Coubertin, a French educator who believed that international sport could promote peace among nations. The first modern Games took _________ (1.5) in Athens in 1896, featuring just 241 athletes from fourteen countries. Since _________ (1.6), the Olympics have grown into a massive global spectacle, with thousands of competitors representing over two hundred nations. A major turning _________ (1.7) came in 1924, when the Winter Olympics were introduced to _________ (1.8) for sports that could not be held in summer. Today, host cities invest billions of dollars in _________ (1.9) for the Games, though there is growing debate about whether the long-term costs _________ (1.10) the benefits.",
+      "text": "The Olympic Games, 1.1. _________ origins date back nearly three thousand years, remain the most prestigious sporting event in the world. In ancient Greece, the Games were held every four years at Olympia in 1.2. _________ of the god Zeus. Only free Greek men were permitted to take 1.3. _________, and the competitions were limited to a handful of events such as running, wrestling and chariot racing. The modern Olympics owe their 1.4. _________ to Pierre de Coubertin, a French educator who believed that international sport could promote peace among nations. The first modern Games took 1.5. _________ in Athens in 1896, featuring just 241 athletes from fourteen countries. Since 1.6. _________, the Olympics have grown into a massive global spectacle, with thousands of competitors representing over two hundred nations. A major turning 1.7. _________ came in 1924, when the Winter Olympics were introduced to 1.8. _________ for sports that could not be held in summer. Today, host cities invest billions of dollars in 1.9. _________ for the Games, though there is growing debate about whether the long-term costs 1.10. _________ the benefits.",
       "items": [
-        { "id": "1.1", "answer": "whose" },
-        { "id": "1.2", "answer": "honour" },
-        { "id": "1.3", "answer": "part" },
-        { "id": "1.4", "answer": ["revival", "existence"] },
-        { "id": "1.5", "answer": "place" },
-        { "id": "1.6", "answer": "then" },
-        { "id": "1.7", "answer": "point" },
-        { "id": "1.8", "answer": ["cater", "account", "allow"] },
-        { "id": "1.9", "answer": ["preparation", "preparations"] },
-        { "id": "1.10", "answer": "outweigh" }
+        {
+          "id": "1.1",
+          "answer": "whose"
+        },
+        {
+          "id": "1.2",
+          "answer": "honour"
+        },
+        {
+          "id": "1.3",
+          "answer": "part"
+        },
+        {
+          "id": "1.4",
+          "answer": [
+            "revival",
+            "existence"
+          ]
+        },
+        {
+          "id": "1.5",
+          "answer": "place"
+        },
+        {
+          "id": "1.6",
+          "answer": "then"
+        },
+        {
+          "id": "1.7",
+          "answer": "point"
+        },
+        {
+          "id": "1.8",
+          "answer": [
+            "cater",
+            "account",
+            "allow"
+          ]
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "preparation",
+            "preparations"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": "outweigh"
+        }
       ],
       "scoringScheme": {
         "10": 5,
