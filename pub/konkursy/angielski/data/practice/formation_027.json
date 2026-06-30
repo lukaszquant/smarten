@@ -1,0 +1,67 @@
+{
+  "title": "Word Formation: The Rise of Electric Cars (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": [
+        "DRAMATIC",
+        "MANUFACTURE",
+        "ENVIRONMENT",
+        "RELY",
+        "NOISE",
+        "GOVERN",
+        "CHARGE",
+        "AFFORD",
+        "DRIVE",
+        "ELECTRIC"
+      ],
+      "text": "Over the past decade, the number of electric cars on the world's roads has grown 1.1. _________. Major car 1.2. _________ such as Tesla, Volkswagen and BYD now compete to build vehicles that are more 1.3. _________ friendly than traditional ones. For everyday use, drivers want a battery that is 1.4. _________ enough to cover long distances without breaking down. One surprising feature of these cars is that they are almost completely 1.5. _________, gliding through city streets in near silence. Many 1.6. _________ around the world now offer financial incentives to encourage people to switch. As demand rises, public 1.7. _________ are appearing in car parks and along motorways so that batteries can be refilled on long journeys. The dream is to make clean transport 1.8. _________ for ordinary families, not just the wealthy.",
+      "items": [
+        {
+          "id": "1.1",
+          "baseWord": "DRAMATIC",
+          "answer": "dramatically"
+        },
+        {
+          "id": "1.2",
+          "baseWord": "MANUFACTURE",
+          "answer": "manufacturers"
+        },
+        {
+          "id": "1.3",
+          "baseWord": "ENVIRONMENT",
+          "answer": "environmentally"
+        },
+        {
+          "id": "1.4",
+          "baseWord": "RELY",
+          "answer": "reliable"
+        },
+        {
+          "id": "1.5",
+          "baseWord": "NOISE",
+          "answer": "noiseless"
+        },
+        {
+          "id": "1.6",
+          "baseWord": "GOVERN",
+          "answer": "governments"
+        },
+        {
+          "id": "1.7",
+          "baseWord": "CHARGE",
+          "answer": "chargers"
+        },
+        {
+          "id": "1.8",
+          "baseWord": "AFFORD",
+          "answer": "affordable"
+        }
+      ]
+    }
+  ]
+}

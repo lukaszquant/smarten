@@ -1,0 +1,69 @@
+{
+  "title": "Open Cloze: How the Internet Began (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "The internet, 1.1. _________ we now use every single day, did not appear overnight. It grew out of a military project 1.2. _________ was started in the United States during the 1960s. 1.3. _________ first, only a handful of computers were connected to one another. Scientists wanted a network that would keep working even 1.4. _________ part of it was destroyed. Over the following decades, more and more universities joined, 1.5. _________ the system grew rapidly. 1.6. _________ the early 1990s, an Englishman named Tim Berners-Lee invented the World Wide Web. From that moment 1.7. _________, ordinary people could share information with anyone, anywhere. Today it is almost impossible to imagine a world 1.8. _________ the internet. Billions of people rely 1.9. _________ it for work, study and entertainment. Few inventions in history 1.10. _________ changed daily life so completely.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": "which"
+        },
+        {
+          "id": "1.2",
+          "answer": [
+            "that",
+            "which"
+          ]
+        },
+        {
+          "id": "1.3",
+          "answer": "At"
+        },
+        {
+          "id": "1.4",
+          "answer": "if"
+        },
+        {
+          "id": "1.5",
+          "answer": "and"
+        },
+        {
+          "id": "1.6",
+          "answer": "In"
+        },
+        {
+          "id": "1.7",
+          "answer": "on"
+        },
+        {
+          "id": "1.8",
+          "answer": "without"
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "on",
+            "upon"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": "have"
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

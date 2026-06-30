@@ -1,0 +1,71 @@
+{
+  "title": "Open Cloze: Learning a New Language (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Learning a foreign language is one of the most rewarding things you 1.1. _________ ever do. At first, it may seem almost impossible to make 1.2. _________ of all the new sounds and strange grammar. 1.3. _________ practice, however, the words slowly begin to make sense. Experts agree that the 1.4. _________ you start, the easier a language is to learn, which is why many children pick up a second language with ease. The most important thing is not 1.5. _________ be afraid of making mistakes. In fact, every mistake is a chance 1.6. _________ learn something new. Try to spend at 1.7. _________ a few minutes practising every single day. It also helps to watch films or listen 1.8. _________ songs in the language you are studying. Little 1.9. _________ little, your confidence will grow. Before long, you may find 1.10. _________ chatting happily with people from all over the world.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": [
+            "can",
+            "could",
+            "will"
+          ]
+        },
+        {
+          "id": "1.2",
+          "answer": "sense"
+        },
+        {
+          "id": "1.3",
+          "answer": "With"
+        },
+        {
+          "id": "1.4",
+          "answer": [
+            "earlier",
+            "sooner",
+            "younger"
+          ]
+        },
+        {
+          "id": "1.5",
+          "answer": "to"
+        },
+        {
+          "id": "1.6",
+          "answer": "to"
+        },
+        {
+          "id": "1.7",
+          "answer": "least"
+        },
+        {
+          "id": "1.8",
+          "answer": "to"
+        },
+        {
+          "id": "1.9",
+          "answer": "by"
+        },
+        {
+          "id": "1.10",
+          "answer": "yourself"
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

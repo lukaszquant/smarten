@@ -1,0 +1,73 @@
+{
+  "title": "Open Cloze: The History of Tea (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Tea is one of the most popular drinks in the world, second only 1.1. _________ water. According 1.2. _________ legend, it was discovered in China thousands of years ago, when a few leaves accidentally fell 1.3. _________ a pot of boiling water. The new drink quickly became so popular 1.4. _________ it spread across the whole of Asia. 1.5. _________ the seventeenth century, traders had carried it all the way to Europe. In Britain, tea was at first a luxury 1.6. _________ only the rich could afford. 1.7. _________ time, however, prices fell and it turned into the national drink. Many people cannot imagine starting the day 1.8. _________ a hot cup of tea. There are now hundreds of varieties to choose 1.9. _________, from delicate green teas to strong black ones. Whatever your taste, 1.10. _________ is surely a tea out there for you.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": "to"
+        },
+        {
+          "id": "1.2",
+          "answer": "to"
+        },
+        {
+          "id": "1.3",
+          "answer": [
+            "into",
+            "in"
+          ]
+        },
+        {
+          "id": "1.4",
+          "answer": "that"
+        },
+        {
+          "id": "1.5",
+          "answer": "By"
+        },
+        {
+          "id": "1.6",
+          "answer": [
+            "that",
+            "which"
+          ]
+        },
+        {
+          "id": "1.7",
+          "answer": [
+            "Over",
+            "In",
+            "With"
+          ]
+        },
+        {
+          "id": "1.8",
+          "answer": "without"
+        },
+        {
+          "id": "1.9",
+          "answer": "from"
+        },
+        {
+          "id": "1.10",
+          "answer": "there"
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

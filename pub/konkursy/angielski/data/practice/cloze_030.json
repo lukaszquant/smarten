@@ -1,0 +1,69 @@
+{
+  "title": "Open Cloze: Why We Dream (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Every night, as we sleep, our minds create strange and vivid stories that we call dreams. For thousands of years, people 1.1. _________ wondered what these night-time visions actually mean. Some ancient cultures believed that dreams were messages 1.2. _________ the gods. Today, scientists have a rather different 1.3. _________ of looking at them. According 1.4. _________ many researchers, dreaming helps the brain to sort 1.5. _________ the memories of the day. Most dreams take place during a stage of sleep 1.6. _________ which the eyes move quickly behind closed lids. Although we may dream several times a night, we usually remember very 1.7. _________ of what we have seen. The harder we try to recall a dream, the 1.8. _________ quickly it seems to fade. Some people are even able to control their dreams 1.9. _________ they sleep. Whatever their true purpose, dreams remain one 1.10. _________ the great mysteries of the human mind.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": "have"
+        },
+        {
+          "id": "1.2",
+          "answer": "from"
+        },
+        {
+          "id": "1.3",
+          "answer": "way"
+        },
+        {
+          "id": "1.4",
+          "answer": "to"
+        },
+        {
+          "id": "1.5",
+          "answer": "out"
+        },
+        {
+          "id": "1.6",
+          "answer": [
+            "during",
+            "in"
+          ]
+        },
+        {
+          "id": "1.7",
+          "answer": "little"
+        },
+        {
+          "id": "1.8",
+          "answer": "more"
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "as",
+            "while"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": "of"
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

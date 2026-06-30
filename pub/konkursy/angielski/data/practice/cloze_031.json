@@ -1,0 +1,67 @@
+{
+  "title": "Open Cloze: The First Photographs (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "The earliest photographs look very different 1.1. _________ the bright, colourful images we take today. The first successful picture 1.2. _________ taken in France in the 1820s, after an exposure that lasted several hours. 1.3. _________ those days, anyone who wanted their portrait taken had to sit perfectly still for a very long time. This 1.4. _________ why people in old photographs almost never smile. As the technology improved, exposure times 1.5. _________ shorter and shorter. By the end of the century, ordinary families 1.6. _________ afford to have their pictures taken. Cameras gradually became small enough 1.7. _________ carry around in a pocket. 1.8. _________ the arrival of digital technology, film slowly disappeared. Nowadays we take more photographs in a single day 1.9. _________ our great-grandparents took in their whole lives. It is hard to imagine a world 1.10. _________ this everyday piece of magic.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": "from"
+        },
+        {
+          "id": "1.2",
+          "answer": "was"
+        },
+        {
+          "id": "1.3",
+          "answer": "In"
+        },
+        {
+          "id": "1.4",
+          "answer": "is"
+        },
+        {
+          "id": "1.5",
+          "answer": [
+            "grew",
+            "got",
+            "became"
+          ]
+        },
+        {
+          "id": "1.6",
+          "answer": "could"
+        },
+        {
+          "id": "1.7",
+          "answer": "to"
+        },
+        {
+          "id": "1.8",
+          "answer": "With"
+        },
+        {
+          "id": "1.9",
+          "answer": "than"
+        },
+        {
+          "id": "1.10",
+          "answer": "without"
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

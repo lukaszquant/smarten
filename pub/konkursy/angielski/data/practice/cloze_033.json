@@ -1,0 +1,69 @@
+{
+  "title": "Open Cloze: The World of Bees (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "Bees are among the most important insects 1.1. _________ the planet. 1.2. _________ them, many of the plants we depend on simply could not grow. As they move from flower 1.3. _________ flower in search of nectar, they carry pollen with them. This process, 1.4. _________ is known as pollination, allows fruit and vegetables to develop. A single hive may contain 1.5. _________ many as fifty thousand bees, all working together. Each bee 1.6. _________ a particular job to do, whether collecting food or guarding the entrance. In recent years, however, the number of bees 1.7. _________ fallen sharply in many countries. Scientists are not entirely sure 1.8. _________ this is happening. Some blame modern farming, 1.9. _________ others point to disease or climate change. Whatever the cause, we 1.10. _________ act quickly before it is too late.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": "on"
+        },
+        {
+          "id": "1.2",
+          "answer": "Without"
+        },
+        {
+          "id": "1.3",
+          "answer": "to"
+        },
+        {
+          "id": "1.4",
+          "answer": "which"
+        },
+        {
+          "id": "1.5",
+          "answer": "as"
+        },
+        {
+          "id": "1.6",
+          "answer": "has"
+        },
+        {
+          "id": "1.7",
+          "answer": "has"
+        },
+        {
+          "id": "1.8",
+          "answer": "why"
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "while",
+            "whereas"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": [
+            "must",
+            "should"
+          ]
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

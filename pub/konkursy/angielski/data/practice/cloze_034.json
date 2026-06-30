@@ -1,0 +1,74 @@
+{
+  "title": "Open Cloze: A Short History of Money (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "open_cloze",
+      "points": 5,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.10) jednym slowem, tak aby powstal spojny i poprawny logicznie oraz gramatycznie tekst.",
+      "text": "For most of human history, people did not use money 1.1. _________ all. Instead, they simply exchanged one kind of goods 1.2. _________ another, a system known as barter. The trouble 1.3. _________ barter was that both people had to want what the other was offering. 1.4. _________ solve this problem, societies gradually began to use coins made 1.5. _________ precious metals such as gold and silver. These were valuable, easy to carry and accepted almost everywhere. 1.6. _________ time, paper money replaced heavy coins for larger payments. Today, more and 1.7. _________ people pay for things with a card or a phone rather than cash. Some experts believe that, before 1.8. _________, physical money may disappear altogether. Others argue that coins and notes will always 1.9. _________ with us in 1.10. _________ form or another.",
+      "items": [
+        {
+          "id": "1.1",
+          "answer": "at"
+        },
+        {
+          "id": "1.2",
+          "answer": "for"
+        },
+        {
+          "id": "1.3",
+          "answer": "with"
+        },
+        {
+          "id": "1.4",
+          "answer": "To"
+        },
+        {
+          "id": "1.5",
+          "answer": [
+            "of",
+            "from"
+          ]
+        },
+        {
+          "id": "1.6",
+          "answer": [
+            "Over",
+            "In",
+            "With"
+          ]
+        },
+        {
+          "id": "1.7",
+          "answer": "more"
+        },
+        {
+          "id": "1.8",
+          "answer": "long"
+        },
+        {
+          "id": "1.9",
+          "answer": [
+            "be",
+            "remain",
+            "stay"
+          ]
+        },
+        {
+          "id": "1.10",
+          "answer": "one"
+        }
+      ],
+      "scoringScheme": {
+        "0-1": 0,
+        "2-3": 1,
+        "4-5": 2,
+        "6-7": 3,
+        "8-9": 4,
+        "10": 5
+      }
+    }
+  ]
+}

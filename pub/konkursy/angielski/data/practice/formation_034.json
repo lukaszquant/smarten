@@ -1,0 +1,67 @@
+{
+  "title": "Word Formation: Festivals and Traditions (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_formation",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
+      "wordBank": [
+        "ORIGIN",
+        "CELEBRATE",
+        "COLOUR",
+        "TRADITION",
+        "GENERATE",
+        "SPECTACLE",
+        "PARTICIPATE",
+        "FORTUNATE",
+        "MUSIC",
+        "DANCE"
+      ],
+      "text": "Festivals play an important part in the life of almost every culture around the world. 1.1. _________, many of them began as ways of marking the changing seasons or a successful harvest. Each year these 1.2. _________ bring whole communities together in the streets. Performers wear bright, 1.3. _________ costumes that have been used for hundreds of years. Special dishes, 1.4. _________ eaten only on these days, are prepared in enormous quantities. Stories, songs and recipes are carefully passed down through the 1.5. _________. The highlight of many events is a 1.6. _________ display of fireworks that lights up the night sky. In some cities, thousands of 1.7. _________ take part in a single parade. 1.8. _________, even in our busy modern world, many of these ancient customs continue to thrive.",
+      "items": [
+        {
+          "id": "1.1",
+          "baseWord": "ORIGIN",
+          "answer": "Originally"
+        },
+        {
+          "id": "1.2",
+          "baseWord": "CELEBRATE",
+          "answer": "celebrations"
+        },
+        {
+          "id": "1.3",
+          "baseWord": "COLOUR",
+          "answer": "colourful"
+        },
+        {
+          "id": "1.4",
+          "baseWord": "TRADITION",
+          "answer": "traditionally"
+        },
+        {
+          "id": "1.5",
+          "baseWord": "GENERATE",
+          "answer": "generations"
+        },
+        {
+          "id": "1.6",
+          "baseWord": "SPECTACLE",
+          "answer": "spectacular"
+        },
+        {
+          "id": "1.7",
+          "baseWord": "PARTICIPATE",
+          "answer": "participants"
+        },
+        {
+          "id": "1.8",
+          "baseWord": "FORTUNATE",
+          "answer": "Fortunately"
+        }
+      ]
+    }
+  ]
+}

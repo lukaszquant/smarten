@@ -1483,6 +1483,118 @@
       "taskType": "word_spelling",
       "taskCount": 1,
       "points": 8
+    },
+    {
+      "id": "formation_027",
+      "title": "The Rise of Electric Cars (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_028",
+      "title": "The Story of the Bicycle (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_029",
+      "title": "Living in a Big City (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_030",
+      "title": "Why We Need Sleep (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_031",
+      "title": "The Age of Great Explorers (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_032",
+      "title": "Protecting Endangered Animals (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_033",
+      "title": "The Changing World of Work (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "formation_034",
+      "title": "Festivals and Traditions (poziom rejonowy/wojewodzki)",
+      "taskType": "word_formation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "cloze_028",
+      "title": "How the Internet Began (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_029",
+      "title": "The Power of Habit (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_030",
+      "title": "Why We Dream (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_031",
+      "title": "The First Photographs (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_032",
+      "title": "Learning a New Language (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_033",
+      "title": "The World of Bees (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_034",
+      "title": "A Short History of Money (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "cloze_035",
+      "title": "The History of Tea (poziom rejonowy/wojewodzki)",
+      "taskType": "open_cloze",
+      "taskCount": 1,
+      "points": 5
     }
   ]
 }
