@@ -1,0 +1,62 @@
+{
+  "title": "Idiomy i zlozenia (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Jenny is the _ _ _ t _ _ _ g image of her sister; they look exactly the same.",
+          "hint": "_ _ _ t _ _ _ g",
+          "answer": "spitting"
+        },
+        {
+          "id": "1.2",
+          "stem": "He wanted to follow in his father's _ _ _ t _ _ _ p _ and become a famous pilot.",
+          "hint": "_ _ _ t _ _ _ p _",
+          "answer": "footsteps"
+        },
+        {
+          "id": "1.3",
+          "stem": "I am going to spend a quiet weekend in the mountains to _ _ _ h _ _ _ e my batteries.",
+          "hint": "_ _ _ h _ _ _ e",
+          "answer": "recharge"
+        },
+        {
+          "id": "1.4",
+          "stem": "After his father lost his job, his mother became the only _ _ _ a _ _ _ n _ _ _ in the family.",
+          "hint": "_ _ _ a _ _ _ n _ _ _",
+          "answer": "breadwinner"
+        },
+        {
+          "id": "1.5",
+          "stem": "The police are looking for an _ _ _ w _ _ _ e _ _ who saw exactly what happened at the scene.",
+          "hint": "_ _ _ w _ _ _ e _ _",
+          "answer": "eyewitness"
+        },
+        {
+          "id": "1.6",
+          "stem": "This painting is considered the artist's greatest _ _ _ t _ _ _ i _ _ _ and hangs in the national gallery.",
+          "hint": "_ _ _ t _ _ _ i _ _ _",
+          "answer": "masterpiece"
+        },
+        {
+          "id": "1.7",
+          "stem": "Instead of listening to the lesson, he would just sit and _ _ _ d _ _ _ m about the holidays.",
+          "hint": "_ _ _ d _ _ _ m",
+          "answer": "daydream"
+        },
+        {
+          "id": "1.8",
+          "stem": "After only two days at summer camp, the youngest children already felt _ _ _ e _ _ _ k.",
+          "hint": "_ _ _ e _ _ _ k",
+          "answer": "homesick"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Uczucia i relacje (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "She felt terribly _ _ _ l _ _ _ when she saw her best friend talking to someone else.",
+          "hint": "_ _ _ l _ _ _",
+          "answer": "jealous"
+        },
+        {
+          "id": "1.2",
+          "stem": "He was extremely _ _ _ i _ _ _ before the exam and could not sleep the night before.",
+          "hint": "_ _ _ i _ _ _",
+          "answer": "anxious"
+        },
+        {
+          "id": "1.3",
+          "stem": "After the team lost the final match, the players looked completely _ _ _ e _ _ _ l _.",
+          "hint": "_ _ _ e _ _ _ l _",
+          "answer": "miserable"
+        },
+        {
+          "id": "1.4",
+          "stem": "I am very _ _ _ t _ _ _ l to you for all the help you gave me during a difficult time.",
+          "hint": "_ _ _ t _ _ _ l",
+          "answer": "grateful"
+        },
+        {
+          "id": "1.5",
+          "stem": "He was so _ _ _ a _ _ _ s _ _ _ when he forgot his lines that his face turned bright red.",
+          "hint": "_ _ _ a _ _ _ s _ _ _",
+          "answer": "embarrassed"
+        },
+        {
+          "id": "1.6",
+          "stem": "Mum was absolutely _ _ _ i _ _ _ when she discovered who had broken the window.",
+          "hint": "_ _ _ i _ _ _",
+          "answer": "furious"
+        },
+        {
+          "id": "1.7",
+          "stem": "Having a small house and a quiet life, they felt perfectly _ _ _ t _ _ _ with what they had.",
+          "hint": "_ _ _ t _ _ _",
+          "answer": "content"
+        },
+        {
+          "id": "1.8",
+          "stem": "She still feels _ _ _ e _ _ _ u _ towards her brother for taking the credit for her idea.",
+          "hint": "_ _ _ e _ _ _ u _",
+          "answer": "resentful"
+        }
+      ]
+    }
+  ]
+}

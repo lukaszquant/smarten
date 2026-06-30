@@ -1,0 +1,62 @@
+{
+  "title": "Kuchnia i zycie codzienne (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "The soup tasted rather bland, so the chef added a little more _ _ _ s _ _ _ n _.",
+          "hint": "_ _ _ s _ _ _ n _",
+          "answer": "seasoning"
+        },
+        {
+          "id": "1.2",
+          "stem": "Make sure the mushrooms you picked in the forest are actually _ _ _ b _ _ before you cook them.",
+          "hint": "_ _ _ b _ _",
+          "answer": "edible"
+        },
+        {
+          "id": "1.3",
+          "stem": "The recipe calls for one more _ _ _ r _ _ _ e _ _, but unfortunately we have run out of eggs.",
+          "hint": "_ _ _ r _ _ _ e _ _",
+          "answer": "ingredient"
+        },
+        {
+          "id": "1.4",
+          "stem": "We did not throw the meal away; we kept the _ _ _ t _ _ _ r _ and ate them the next day.",
+          "hint": "_ _ _ t _ _ _ r _",
+          "answer": "leftovers"
+        },
+        {
+          "id": "1.5",
+          "stem": "My grandmother insists that a home-cooked meal is far more _ _ _ r _ _ _ o _ _ than fast food.",
+          "hint": "_ _ _ r _ _ _ o _ _",
+          "answer": "nutritious"
+        },
+        {
+          "id": "1.6",
+          "stem": "After the long hike, the children came home with an enormous _ _ _ e _ _ _ e and ate everything.",
+          "hint": "_ _ _ e _ _ _ e",
+          "answer": "appetite"
+        },
+        {
+          "id": "1.7",
+          "stem": "On a hot summer afternoon, there is nothing better than a cold, refreshing _ _ _ e _ _ _ e.",
+          "hint": "_ _ _ e _ _ _ e",
+          "answer": "beverage"
+        },
+        {
+          "id": "1.8",
+          "stem": "She followed her grandmother's _ _ _ i _ _ exactly and the cake turned out perfectly.",
+          "hint": "_ _ _ i _ _",
+          "answer": "recipe"
+        }
+      ]
+    }
+  ]
+}

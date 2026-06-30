@@ -1,0 +1,62 @@
+{
+  "title": "Nauka, praca i abstrakcje (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Winning the national prize was the greatest _ _ _ i _ _ _ m _ _ _ of her entire career.",
+          "hint": "_ _ _ i _ _ _ m _ _ _",
+          "answer": "achievement"
+        },
+        {
+          "id": "1.2",
+          "stem": "You will need at least one foreign-language _ _ _ l _ _ _ c _ _ _ o _ to apply for this position.",
+          "hint": "_ _ _ l _ _ _ c _ _ _ o _",
+          "answer": "qualification"
+        },
+        {
+          "id": "1.3",
+          "stem": "Looking after the younger pupils is a big _ _ _ p _ _ _ i _ _ _ i _ _, and the teachers trust her completely.",
+          "hint": "_ _ _ p _ _ _ i _ _ _ i _ _",
+          "answer": "responsibility"
+        },
+        {
+          "id": "1.4",
+          "stem": "Her _ _ _ e _ _ _ r _ came to America from Ireland more than a hundred years ago.",
+          "hint": "_ _ _ e _ _ _ r _",
+          "answer": "ancestors"
+        },
+        {
+          "id": "1.5",
+          "stem": "Because of his food _ _ _ o _ _ _ a _ _ _, he cannot eat anything that contains milk or cheese.",
+          "hint": "_ _ _ o _ _ _ a _ _ _",
+          "answer": "intolerance"
+        },
+        {
+          "id": "1.6",
+          "stem": "The professor has an enormous _ _ _ w _ _ _ g _ of medieval history and European art.",
+          "hint": "_ _ _ w _ _ _ g _",
+          "answer": "knowledge"
+        },
+        {
+          "id": "1.7",
+          "stem": "If we miss the _ _ _ d _ _ _ e, the editor will not accept the article for the magazine.",
+          "hint": "_ _ _ d _ _ _ e",
+          "answer": "deadline"
+        },
+        {
+          "id": "1.8",
+          "stem": "She gets on very well with every _ _ _ l _ _ _ u _ in her office and they often have lunch together.",
+          "hint": "_ _ _ l _ _ _ u _",
+          "answer": "colleague"
+        }
+      ]
+    }
+  ]
+}

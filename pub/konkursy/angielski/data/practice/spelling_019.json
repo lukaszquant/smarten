@@ -1,0 +1,62 @@
+{
+  "title": "Czasowniki zaawansowane (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "With hard work and determination, you can _ _ _ o _ _ _ i _ _ almost any goal you set.",
+          "hint": "_ _ _ o _ _ _ i _ _",
+          "answer": "accomplish"
+        },
+        {
+          "id": "1.2",
+          "stem": "Because of the storm, the organisers had to _ _ _ t _ _ _ e the concert until next week.",
+          "hint": "_ _ _ t _ _ _ e",
+          "answer": "postpone"
+        },
+        {
+          "id": "1.3",
+          "stem": "The council decided to _ _ _ o _ _ _ h the old factory and build flats in its place.",
+          "hint": "_ _ _ o _ _ _ h",
+          "answer": "demolish"
+        },
+        {
+          "id": "1.4",
+          "stem": "It took her several months to fully _ _ _ o _ _ _ from the serious illness.",
+          "hint": "_ _ _ o _ _ _",
+          "answer": "recover"
+        },
+        {
+          "id": "1.5",
+          "stem": "Thousands of people _ _ _ m _ _ _ to the city centre by train every single morning.",
+          "hint": "_ _ _ m _ _ _",
+          "answer": "commute"
+        },
+        {
+          "id": "1.6",
+          "stem": "No matter how hard I tried, I could not _ _ _ s _ _ _ e him to change his decision.",
+          "hint": "_ _ _ s _ _ _ e",
+          "answer": "persuade"
+        },
+        {
+          "id": "1.7",
+          "stem": "With support from her family, she managed to _ _ _ r _ _ _ e her fear of speaking in public.",
+          "hint": "_ _ _ r _ _ _ e",
+          "answer": "overcome"
+        },
+        {
+          "id": "1.8",
+          "stem": "Do not _ _ _ i _ _ _ e to ask for help if you do not understand the instructions.",
+          "hint": "_ _ _ i _ _ _ e",
+          "answer": "hesitate"
+        }
+      ]
+    }
+  ]
+}

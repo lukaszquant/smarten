@@ -1,0 +1,62 @@
+{
+  "title": "Spoleczenstwo i obywatel (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "After living there for ten years, he finally applied for British _ _ _ i _ _ _ s _ _ _.",
+          "hint": "_ _ _ i _ _ _ s _ _ _",
+          "answer": "citizenship"
+        },
+        {
+          "id": "1.2",
+          "stem": "We must fight against _ _ _ j _ _ _ c _ and treat people of every background equally.",
+          "hint": "_ _ _ j _ _ _ c _",
+          "answer": "prejudice"
+        },
+        {
+          "id": "1.3",
+          "stem": "Many families in the region live in terrible _ _ _ e _ _ _ and cannot afford basic food.",
+          "hint": "_ _ _ e _ _ _",
+          "answer": "poverty"
+        },
+        {
+          "id": "1.4",
+          "stem": "Residents complained to the city _ _ _ n _ _ _ about the dangerous condition of the roads.",
+          "hint": "_ _ _ n _ _ _",
+          "answer": "council"
+        },
+        {
+          "id": "1.5",
+          "stem": "She donates a part of her salary to _ _ _ r _ _ _ every month to help homeless people.",
+          "hint": "_ _ _ r _ _ _",
+          "answer": "charity"
+        },
+        {
+          "id": "1.6",
+          "stem": "The protesters were demanding _ _ _ a _ _ _ y and equal rights for all citizens.",
+          "hint": "_ _ _ a _ _ _ y",
+          "answer": "equality"
+        },
+        {
+          "id": "1.7",
+          "stem": "The judge is respected for always making decisions based on fairness and _ _ _ t _ _ _.",
+          "hint": "_ _ _ t _ _ _",
+          "answer": "justice"
+        },
+        {
+          "id": "1.8",
+          "stem": "The new law gives the police greater _ _ _ h _ _ _ t _ to investigate serious crimes.",
+          "hint": "_ _ _ h _ _ _ t _",
+          "answer": "authority"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Charakter i postawy (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "Although everyone disagreed with him, he refused to change his mind; he is incredibly _ _ _ b _ _ _ n.",
+          "hint": "_ _ _ b _ _ _ n",
+          "answer": "stubborn"
+        },
+        {
+          "id": "1.2",
+          "stem": "She always thinks about how others feel before she acts, which makes her very _ _ _ s _ _ _ r _ _ _.",
+          "hint": "_ _ _ s _ _ _ r _ _ _",
+          "answer": "considerate"
+        },
+        {
+          "id": "1.3",
+          "stem": "The soldier received a medal for his _ _ _ r _ _ _ o _ _ actions during the rescue.",
+          "hint": "_ _ _ r _ _ _ o _ _",
+          "answer": "courageous"
+        },
+        {
+          "id": "1.4",
+          "stem": "He was _ _ _ u _ _ _ n _ to admit his mistake and only apologised after a long argument.",
+          "hint": "_ _ _ u _ _ _ n _",
+          "answer": "reluctant"
+        },
+        {
+          "id": "1.5",
+          "stem": "Despite winning many awards, she remains surprisingly _ _ _ e _ _ about her achievements.",
+          "hint": "_ _ _ e _ _",
+          "answer": "modest"
+        },
+        {
+          "id": "1.6",
+          "stem": "I trust him completely because he is always honest and _ _ _ c _ _ _ with me.",
+          "hint": "_ _ _ c _ _ _",
+          "answer": "sincere"
+        },
+        {
+          "id": "1.7",
+          "stem": "The waiter was so _ _ _ o _ _ _ t that he treated the customers as if they were beneath him.",
+          "hint": "_ _ _ o _ _ _ t",
+          "answer": "arrogant"
+        },
+        {
+          "id": "1.8",
+          "stem": "Our teacher is very _ _ _ p _ _ _ e _ _ _; she always listens when we have problems at home.",
+          "hint": "_ _ _ p _ _ _ e _ _ _",
+          "answer": "sympathetic"
+        }
+      ]
+    }
+  ]
+}

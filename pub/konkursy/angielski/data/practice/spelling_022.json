@@ -1,0 +1,62 @@
+{
+  "title": "Srodowisko i natura (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "word_spelling",
+      "points": 8,
+      "instruction": "Uzupelnij kazde z ponizszych zdan jednym pasujacym wyrazem. Wymagana jest calkowita poprawnosc ortograficzna wpisywanych wyrazow. Liczba kresek odpowiada liczbie brakujacych liter w wyrazie, a niektore litery zostaly juz podane.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "After months without rain, the long _ _ _ u _ _ _ destroyed most of the farmers' crops.",
+          "hint": "_ _ _ u _ _ _",
+          "answer": "drought"
+        },
+        {
+          "id": "1.2",
+          "stem": "Air _ _ _ l _ _ _ o _ in big cities is a serious threat to people's health.",
+          "hint": "_ _ _ l _ _ _ o _",
+          "answer": "pollution"
+        },
+        {
+          "id": "1.3",
+          "stem": "The giant panda is an _ _ _ a _ _ _ r _ _ species, with only a few thousand left in the wild.",
+          "hint": "_ _ _ a _ _ _ r _ _",
+          "answer": "endangered"
+        },
+        {
+          "id": "1.4",
+          "stem": "We could not see the sun all day because of the constant grey _ _ _ z _ _ _.",
+          "hint": "_ _ _ z _ _ _",
+          "answer": "drizzle"
+        },
+        {
+          "id": "1.5",
+          "stem": "Skiers were warned to stay away from the slope because of the risk of an _ _ _ l _ _ _ h _.",
+          "hint": "_ _ _ l _ _ _ h _",
+          "answer": "avalanche"
+        },
+        {
+          "id": "1.6",
+          "stem": "The company promised to use only _ _ _ t _ _ _ a _ _ _ energy from the sun and the wind.",
+          "hint": "_ _ _ t _ _ _ a _ _ _",
+          "answer": "sustainable"
+        },
+        {
+          "id": "1.7",
+          "stem": "Cutting down the forest destroyed the natural _ _ _ i _ _ _ of many rare animals.",
+          "hint": "_ _ _ i _ _ _",
+          "answer": "habitat"
+        },
+        {
+          "id": "1.8",
+          "stem": "If you leave fruit in a warm place for too long, it will quickly begin to _ _ c _ _.",
+          "hint": "_ _ c _ _",
+          "answer": "decay"
+        }
+      ]
+    }
+  ]
+}

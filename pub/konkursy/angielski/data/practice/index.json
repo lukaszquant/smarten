@@ -1427,6 +1427,62 @@
       "taskType": "writing",
       "taskCount": 1,
       "points": 5
+    },
+    {
+      "id": "spelling_017",
+      "title": "Charakter i postawy (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_018",
+      "title": "Spoleczenstwo i obywatel (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_019",
+      "title": "Czasowniki zaawansowane (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_020",
+      "title": "Idiomy i zlozenia (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_021",
+      "title": "Uczucia i relacje (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_022",
+      "title": "Srodowisko i natura (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_023",
+      "title": "Nauka, praca i abstrakcje (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "spelling_024",
+      "title": "Kuchnia i zycie codzienne (poziom rejonowy/wojewodzki)",
+      "taskType": "word_spelling",
+      "taskCount": 1,
+      "points": 8
     }
   ]
 }
