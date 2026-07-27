@@ -11,19 +11,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "At first it was extremely expensive, so only rich people could afford to drink it."
+          "text": "The plant was so valuable that exporting its seeds was strictly forbidden."
         },
         {
           "letter": "B",
-          "text": "Coffee, on the other hand, is grown mainly in South America and Africa."
+          "text": "Anyone who broke this rule could be punished very severely by the emperor."
         },
         {
           "letter": "C",
-          "text": "Nobody is completely certain when people first started drinking it."
+          "text": "Over time, they developed a special tea ceremony that is still performed today."
         },
         {
           "letter": "D",
-          "text": "Over time, they developed a special tea ceremony that is still performed today."
+          "text": "Each region produces leaves with its own particular flavour and colour."
         },
         {
           "letter": "E",
@@ -31,33 +31,33 @@
         },
         {
           "letter": "F",
-          "text": "Anyone who broke this rule could be punished very severely by the emperor."
+          "text": "Coffee, on the other hand, is grown mainly in South America and Africa."
         },
         {
           "letter": "G",
-          "text": "The plant was so valuable that exporting its seeds was strictly forbidden."
+          "text": "At first it was extremely expensive, so only rich people could afford to drink it."
         },
         {
           "letter": "H",
-          "text": "Each region produces leaves with its own particular flavour and colour."
+          "text": "Nobody is completely certain when people first started drinking it."
         }
       ],
       "items": [
         {
           "id": "1.1",
-          "answer": "C"
+          "answer": "H"
         },
         {
           "id": "1.2",
-          "answer": "G"
+          "answer": "A"
         },
         {
           "id": "1.3",
-          "answer": "D"
+          "answer": "C"
         },
         {
           "id": "1.4",
-          "answer": "A"
+          "answer": "G"
         },
         {
           "id": "1.5",
@@ -65,7 +65,7 @@
         },
         {
           "id": "1.6",
-          "answer": "H"
+          "answer": "D"
         }
       ]
     }

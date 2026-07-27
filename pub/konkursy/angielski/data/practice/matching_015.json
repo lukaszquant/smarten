@@ -10,27 +10,27 @@
       "options": [
         {
           "letter": "A",
-          "text": "Its national flower is the rose, and its patron saint is St George."
-        },
-        {
-          "letter": "B",
-          "text": "The maple leaf appears in the centre of its red and white flag."
-        },
-        {
-          "letter": "C",
           "text": "The kangaroo and the emu support the shield on its coat of arms."
         },
         {
+          "letter": "B",
+          "text": "The cherry blossom is its best-known flower, and Mount Fuji its famous peak."
+        },
+        {
+          "letter": "C",
+          "text": "Its capital city is London, on the River Thames."
+        },
+        {
           "letter": "D",
-          "text": "The lion is its national animal and the three lions feature on its football badge."
+          "text": "The golden wattle is its official national floral emblem."
         },
         {
           "letter": "E",
-          "text": "The beaver is one of its official national animals, valued for the old fur trade."
+          "text": "Its largest cities include Sydney and Melbourne, though Canberra is the capital."
         },
         {
           "letter": "F",
-          "text": "The golden wattle is its official national floral emblem."
+          "text": "The rose is its national flower, named the official floral emblem in 1986."
         },
         {
           "letter": "G",
@@ -38,48 +38,48 @@
         },
         {
           "letter": "H",
-          "text": "Its capital city is London, on the River Thames."
+          "text": "The maple leaf appears in the centre of its red and white flag."
         },
         {
           "letter": "I",
-          "text": "The Stars and Stripes flag has fifty stars, one for each state."
+          "text": "Its national flower is the rose, and its patron saint is St George."
         },
         {
           "letter": "J",
-          "text": "Its largest cities include Sydney and Melbourne, though Canberra is the capital."
+          "text": "The lion is its national animal and the three lions feature on its football badge."
         },
         {
           "letter": "K",
-          "text": "The cherry blossom is its best-known flower, and Mount Fuji its famous peak."
+          "text": "The Stars and Stripes flag has fifty stars, one for each state."
         },
         {
           "letter": "L",
-          "text": "The rose is its national flower, named the official floral emblem in 1986."
+          "text": "The beaver is one of its official national animals, valued for the old fur trade."
         }
       ],
       "items": [
         {
           "id": "United States of America",
           "answers": [
+            "F",
             "G",
-            "I",
-            "L"
+            "K"
           ]
         },
         {
           "id": "Australia",
           "answers": [
-            "C",
-            "F",
-            "J"
+            "A",
+            "D",
+            "E"
           ]
         },
         {
           "id": "England",
           "answers": [
-            "A",
-            "D",
-            "H"
+            "C",
+            "I",
+            "J"
           ]
         }
       ],

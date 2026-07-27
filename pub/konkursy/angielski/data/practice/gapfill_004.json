@@ -9,22 +9,64 @@
       "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
       "text": "THE MYSTERY OF STONEHENGE\n\nRising from the flat grasslands of Salisbury Plain in southern England, Stonehenge has puzzled scholars, mystics, and tourists for centuries. The monument consists of a ring of massive standing stones, some topped with horizontal lintels, arranged with a precision that seems impossible for a people who possessed neither metal tools nor the wheel. _________ (1.1) Each generation of researchers has proposed new theories, yet a complete explanation continues to elude us.\n\nThe site was constructed in several distinct phases spanning roughly 1,500 years. The earliest stage, begun around 3000 BC, was a simple circular ditch and bank. _________ (1.2) How prehistoric builders transported stones weighing up to four tonnes over such a vast distance, across mountains and rivers, remains one of archaeology's most hotly debated questions.\n\nThe later phase saw the arrival of the enormous sarsen stones, quarried from the Marlborough Downs about twenty-five kilometres to the north. Each sarsen weighs up to twenty-five tonnes, and raising them into vertical positions required extraordinary engineering. _________ (1.3) Whatever method was used, it demanded a level of social organisation and collective effort that challenges our assumptions about prehistoric societies.\n\nAstronomers have long noted that the monument is aligned with key solar events. On the summer solstice, the rising sun shines directly along the main axis of the stone circle and strikes the central altar stone. _________ (1.4) This dual alignment strongly suggests that the builders possessed sophisticated astronomical knowledge and that the monument served a calendrical function tied to the agricultural year.\n\nRecent archaeological discoveries have added new dimensions to the mystery. Analysis of human remains found at the site reveals that some individuals buried there originated in places as distant as the Mediterranean. _________ (1.5) If so, its significance may have extended far beyond the local community that built it.\n\nToday, Stonehenge is a UNESCO World Heritage Site visited by over 1.5 million people annually. _________ (1.6) For all our modern technology, we can still only guess at the full meaning of these ancient stones, and perhaps that enduring mystery is part of what makes Stonehenge so compelling.",
       "options": [
-        { "letter": "A", "text": "It is this very combination of apparent simplicity and hidden complexity that makes the monument so endlessly fascinating." },
-        { "letter": "B", "text": "Several centuries later, smaller bluestones were brought to the site from the Preseli Hills in Wales, a journey of over two hundred kilometres." },
-        { "letter": "C", "text": "Experiments using replica stones have tested theories involving wooden sledges, rollers, and even rafts, but none has proved entirely convincing." },
-        { "letter": "D", "text": "Equally significant is the fact that on the winter solstice, the setting sun aligns with the same axis when viewed from the opposite direction." },
-        { "letter": "E", "text": "This evidence has led some researchers to propose that Stonehenge functioned as a pilgrimage destination or a sacred healing centre." },
-        { "letter": "F", "text": "Yet despite decades of excavation, scanning, and computer modelling, no single interpretation has gained universal acceptance." },
-        { "letter": "G", "text": "The surrounding landscape contains hundreds of other prehistoric monuments, including burial mounds, cursus earthworks, and timber circles." },
-        { "letter": "H", "text": "Medieval writers attributed the construction of Stonehenge to the wizard Merlin, who was said to have magically transported the stones from Ireland." }
+        {
+          "letter": "A",
+          "text": "Equally significant is the fact that on the winter solstice, the setting sun aligns with the same axis when viewed from the opposite direction."
+        },
+        {
+          "letter": "B",
+          "text": "Medieval writers attributed the construction of Stonehenge to the wizard Merlin, who was said to have magically transported the stones from Ireland."
+        },
+        {
+          "letter": "C",
+          "text": "Yet despite decades of excavation, scanning, and computer modelling, no single interpretation has gained universal acceptance."
+        },
+        {
+          "letter": "D",
+          "text": "The surrounding landscape contains hundreds of other prehistoric monuments, including burial mounds, cursus earthworks, and timber circles."
+        },
+        {
+          "letter": "E",
+          "text": "Several centuries later, smaller bluestones were brought to the site from the Preseli Hills in Wales, a journey of over two hundred kilometres."
+        },
+        {
+          "letter": "F",
+          "text": "It is this very combination of apparent simplicity and hidden complexity that makes the monument so endlessly fascinating."
+        },
+        {
+          "letter": "G",
+          "text": "This evidence has led some researchers to propose that Stonehenge functioned as a pilgrimage destination or a sacred healing centre."
+        },
+        {
+          "letter": "H",
+          "text": "Experiments using replica stones have tested theories involving wooden sledges, rollers, and even rafts, but none has proved entirely convincing."
+        }
       ],
       "items": [
-        { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "B" },
-        { "id": "1.3", "answer": "C" },
-        { "id": "1.4", "answer": "D" },
-        { "id": "1.5", "answer": "E" },
-        { "id": "1.6", "answer": "F" }
+        {
+          "id": "1.1",
+          "answer": "F"
+        },
+        {
+          "id": "1.2",
+          "answer": "E"
+        },
+        {
+          "id": "1.3",
+          "answer": "H"
+        },
+        {
+          "id": "1.4",
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "answer": "G"
+        },
+        {
+          "id": "1.6",
+          "answer": "C"
+        }
       ]
     }
   ]

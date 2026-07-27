@@ -1,0 +1,103 @@
+{
+  "title": "T/F/NI + Vocabulary: From the Ballet Barre to the Boxing Ring (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1.–1.6.) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie znajdz w tekscie wyrazy lub wyrazenia, ktore odpowiadaja definicjom podanym w punktach 1.7.–1.11. Wymagana jest calkowita poprawnosc ortograficzna odpowiedzi.",
+      "text": "FROM THE BARRE TO THE RING\n\nI spent eleven years being told to make everything look effortless, and now I spend my evenings in a gym where the entire point is that nothing is hidden. It is not as strange a move as it sounds, although I accept that it raised a few eyebrows at the time.\n\nI started ballet at six, went to a vocational school at eleven, and by sixteen I had the life that ten-year-old me had drawn pictures of: five hours a day in the studio, a body that did what I asked, and a place in a company that people had heard of. What I did not have, and what I could not admit to anybody for about two years, was any real pleasure in it. Then, at twenty-three, I tore a hamstring badly enough to be out for eight months, and during those eight months I found that I did not miss the studio. I missed being good at something. That is not the same thing, and I was fortunate to work it out at twenty-three rather than at thirty-three.\n\nI went to the boxing gym because a physiotherapist suggested skipping. There was a gym near my flat that let you use the ropes for two pounds, and after about a fortnight of skipping in a corner and pretending not to watch, one of the coaches asked whether I wanted to hold the pads instead. I said yes largely out of embarrassment.\n\nWhat I discovered over the following months was that a great deal of my training transferred. Not the strength; I had none of the right kind, and I still get outmuscled by people half my size. What transferred was everything below the knee. Boxing is a footwork sport that happens to involve punching, and a dancer arrives already knowing how to turn, how to change weight without warning, and how to keep the head still while the feet do something complicated. My coach makes the same speech to every beginner: strength is what you notice and footwork is what wins, and anybody who can move can be taught to hit, whereas people who can only hit spend years learning to move. I had been given ten of those years for free.\n\nThe differences took longer. Ballet trains you to bury effort; you learn to arrive at the end of something brutal with a composed face, and to make the audience believe you could do it again immediately. Boxing has no interest in that at all. Nobody hides the breathing, nobody pretends the third round is comfortable, and there is no fourth wall to perform through. For a while I found it almost rude. Now I find it restful.\n\nMy family took some persuading. My mother, who had driven me to a studio four evenings a week for eleven years, took the view that she had not done all that so I could be hit in the face, and it took her the better part of a year to come round. What changed her mind, I think, was watching a session and noticing that most of it consists of two people being extremely careful with one another.\n\nThe punishing part is not the sparring. It is the roadwork in February and the fact that stamina, unlike flexibility, disappears the moment you stop paying attention to it. Ballet gave me a very high tolerance for repeating a thing three hundred times; it did not give me lungs.\n\nPeople sometimes ask whether I regret the eleven years, given how it ended. I don't, and I get slightly impatient with the question, because it assumes that a career you leave is a career you wasted. I was at a crossroads at twenty-three with a serious injury and no appetite for the only job I had trained for, and I could easily have thrown in the towel and done something sensible indoors. Instead I picked up a skipping rope. Everything I do in the ring, I learned at the barre.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The narrator's ballet training proved useful in the new sport.",
+          "answer": "T",
+          "explanation": "TRUE — 'a great deal of my training transferred... a dancer arrives already knowing how to turn, how to change weight without warning'."
+        },
+        {
+          "id": "1.2",
+          "statement": "The narrator left ballet mainly because of a growing lack of interest in dancing.",
+          "answer": "F",
+          "explanation": "FALSE — The narrator had already lost pleasure in it, but the leaving followed a torn hamstring and eight months out; the realisation was 'I missed being good at something', not a simple loss of interest in dance."
+        },
+        {
+          "id": "1.3",
+          "statement": "The narrator's former ballet teacher has been to watch a boxing session.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text describes the mother watching a session, but says nothing about a ballet teacher."
+        },
+        {
+          "id": "1.4",
+          "statement": "The narrator's coach argues that footwork matters more than strength for a beginner.",
+          "answer": "T",
+          "explanation": "TRUE — 'strength is what you notice and footwork is what wins, and anybody who can move can be taught to hit'."
+        },
+        {
+          "id": "1.5",
+          "statement": "The narrator's family accepted the change of sport straight away.",
+          "answer": "F",
+          "explanation": "FALSE — 'My family took some persuading', and it took the narrator's mother 'the better part of a year to come round'."
+        },
+        {
+          "id": "1.6",
+          "statement": "The narrator intends to box professionally.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text describes training, sparring and roadwork, but never mentions turning professional."
+        }
+      ],
+      "scoringScheme": {
+        "6": 3,
+        "5-4": 2,
+        "3-2": 1,
+        "0-1": 0
+      },
+      "vocabItems": [
+        {
+          "id": "1.7",
+          "definition": "to cause surprise or mild disapproval among other people",
+          "answer": [
+            "raised a few eyebrows",
+            "raise eyebrows",
+            "raised eyebrows",
+            "raise a few eyebrows"
+          ]
+        },
+        {
+          "id": "1.8",
+          "definition": "very demanding, severe and tiring",
+          "answer": [
+            "punishing",
+            "the punishing part"
+          ]
+        },
+        {
+          "id": "1.9",
+          "definition": "the physical or mental strength that lets you keep doing something for a long time",
+          "answer": [
+            "stamina"
+          ]
+        },
+        {
+          "id": "1.10",
+          "definition": "at a point where an important decision has to be made",
+          "answer": [
+            "at a crossroads",
+            "a crossroads",
+            "crossroads"
+          ]
+        },
+        {
+          "id": "1.11",
+          "definition": "to admit that you are defeated and stop trying",
+          "answer": [
+            "thrown in the towel",
+            "throw in the towel",
+            "to throw in the towel"
+          ]
+        }
+      ],
+      "vocabPoints": 5
+    }
+  ]
+}

@@ -348,70 +348,70 @@
       "title": "The Great Wall of China",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_002",
       "title": "Marie Curie",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_003",
       "title": "The Amazon Rainforest",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_004",
       "title": "The History of the Internet",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_005",
       "title": "Polar Bears",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_006",
       "title": "The Olympic Games",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_007",
       "title": "Elephants",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_008",
       "title": "William Shakespeare",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_009",
       "title": "Volcanoes and Earthquakes",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_010",
       "title": "Space Exploration",
       "taskType": "true_false_ni",
       "taskCount": 1,
-      "points": 8
+      "points": 7
     },
     {
       "id": "tfni_011",
@@ -1109,6 +1109,62 @@
     {
       "id": "tfni_020",
       "title": "A Year Volunteering Abroad",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_021",
+      "title": "The Woman Who Drew the Sea Floor (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_022",
+      "title": "Confessions of a Storm Chaser (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_023",
+      "title": "The Repair Cafe Movement (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_024",
+      "title": "Why Board Games Refuse to Die (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_025",
+      "title": "The Strange History of the Sandwich (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_026",
+      "title": "From the Ballet Barre to the Boxing Ring (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_027",
+      "title": "The Town That Took Its Streets Back (poziom rejonowy/wojewodzki)",
+      "taskType": "true_false_ni",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "tfni_028",
+      "title": "My Year as a Lighthouse Keeper (poziom rejonowy/wojewodzki)",
       "taskType": "true_false_ni",
       "taskCount": 1,
       "points": 8

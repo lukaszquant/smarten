@@ -9,22 +9,64 @@
       "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
       "text": "HOW BEES MAKE HONEY\n\nHoney is one of nature's most extraordinary products, yet few people understand the remarkable process behind its creation. A single jar of honey represents the combined effort of thousands of bees, each performing a highly specialised task within a colony that operates with astonishing efficiency. _________ (1.1) Without this division of labour, the complex chain of events that turns watery nectar into a substance that can last for millennia would be impossible.\n\nThe process begins when forager bees leave the hive in search of nectar-producing flowers. They can travel up to five kilometres from the hive and visit hundreds of blooms on a single trip. _________ (1.2) This organ is separate from the bee's digestive stomach, which means the nectar is stored without being digested.\n\nUpon returning to the hive, the forager transfers her cargo to a younger house bee through a mouth-to-mouth exchange called trophallaxis. _________ (1.3) By the time the nectar has been passed between several bees, its chemical composition has already begun to change significantly.\n\nThe partially processed nectar is then deposited into hexagonal wax cells in the honeycomb. At this stage, it still contains roughly eighty percent water, far too much for long-term storage. _________ (1.4) This collective effort generates enough warmth and airflow to reduce the water content to approximately seventeen percent within a few days.\n\nOnce the honey has reached the right consistency, the bees seal each cell with a thin cap of fresh beeswax. _________ (1.5) Its naturally low moisture, high acidity, and the presence of hydrogen peroxide produced by bee enzymes create conditions in which virtually no microorganism can survive.\n\nHumans have been harvesting honey for at least eight thousand years, as evidenced by prehistoric cave paintings in Spain. _________ (1.6) Today, honeybees pollinate roughly a third of the food crops humans consume, making their importance to agriculture arguably even greater than their role as honey producers.",
       "options": [
-        { "letter": "A", "text": "Using a specially adapted tongue, the bee sucks up nectar and stores it in a pouch called the honey stomach." },
-        { "letter": "B", "text": "During each transfer, the receiving bee adds digestive enzymes that break down complex sugars into simpler ones." },
-        { "letter": "C", "text": "To evaporate the excess moisture, thousands of worker bees position themselves around the open cells and fan their wings in unison." },
-        { "letter": "D", "text": "This airtight seal is what allows honey to remain edible almost indefinitely, even for thousands of years." },
-        { "letter": "E", "text": "The ancient Egyptians were among the first to keep bees domestically, using honey as a sweetener, a medicine, and an embalming agent." },
-        { "letter": "F", "text": "Every member of the colony, from the queen who lays the eggs to the drones whose sole purpose is reproduction, has a clearly defined role." },
-        { "letter": "G", "text": "Bees communicate the location of rich nectar sources to their hive-mates through a series of movements known as the waggle dance." },
-        { "letter": "H", "text": "The hexagonal shape of honeycomb cells is the most efficient geometric form for storing the maximum amount of honey using the least wax." }
+        {
+          "letter": "A",
+          "text": "This airtight seal is what allows honey to remain edible almost indefinitely, even for thousands of years."
+        },
+        {
+          "letter": "B",
+          "text": "To evaporate the excess moisture, thousands of worker bees position themselves around the open cells and fan their wings in unison."
+        },
+        {
+          "letter": "C",
+          "text": "The ancient Egyptians were among the first to keep bees domestically, using honey as a sweetener, a medicine, and an embalming agent."
+        },
+        {
+          "letter": "D",
+          "text": "Bees communicate the location of rich nectar sources to their hive-mates through a series of movements known as the waggle dance."
+        },
+        {
+          "letter": "E",
+          "text": "Every member of the colony, from the queen who lays the eggs to the drones whose sole purpose is reproduction, has a clearly defined role."
+        },
+        {
+          "letter": "F",
+          "text": "The hexagonal shape of honeycomb cells is the most efficient geometric form for storing the maximum amount of honey using the least wax."
+        },
+        {
+          "letter": "G",
+          "text": "Using a specially adapted tongue, the bee sucks up nectar and stores it in a pouch called the honey stomach."
+        },
+        {
+          "letter": "H",
+          "text": "During each transfer, the receiving bee adds digestive enzymes that break down complex sugars into simpler ones."
+        }
       ],
       "items": [
-        { "id": "1.1", "answer": "F" },
-        { "id": "1.2", "answer": "A" },
-        { "id": "1.3", "answer": "B" },
-        { "id": "1.4", "answer": "C" },
-        { "id": "1.5", "answer": "D" },
-        { "id": "1.6", "answer": "E" }
+        {
+          "id": "1.1",
+          "answer": "E"
+        },
+        {
+          "id": "1.2",
+          "answer": "G"
+        },
+        {
+          "id": "1.3",
+          "answer": "H"
+        },
+        {
+          "id": "1.4",
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "answer": "C"
+        }
       ]
     }
   ]

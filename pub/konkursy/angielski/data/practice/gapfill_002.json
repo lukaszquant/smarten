@@ -9,22 +9,64 @@
       "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
       "text": "LIFE IN ANCIENT ROME\n\nAt its peak in the second century AD, Rome was a city of over one million inhabitants, a figure that would not be matched by any European city for more than a thousand years. _________ (1.1) The wealthiest citizens lived in spacious townhouses with private gardens, while the vast majority were crammed into poorly built apartment blocks that frequently collapsed or caught fire.\n\nThese apartment buildings, called insulae, could rise to six or seven storeys, with conditions deteriorating the higher one climbed. _________ (1.2) Residents on the upper floors had to carry water up narrow staircases and often cooked over open flames, which explains why fire was the most feared disaster in Roman urban life.\n\nFood played a central role in Roman social customs. Wealthy Romans held elaborate banquets that lasted for hours and featured dozens of courses, from dormice dipped in honey to flamingo tongues. _________ (1.3) These were simple street-side counters selling hot stews, bread, and wine, and they reveal that Roman cities had a thriving takeaway culture remarkably similar to our own.\n\nPublic entertainment was both a passion and a political tool. The phrase 'bread and circuses' was coined to describe the government's strategy of keeping the population content through free food and spectacles. _________ (1.4) Chariot racing, held at the Circus Maximus before crowds of 250,000, aroused even fiercer loyalties, with fans forming factions that sometimes clashed violently in the streets.\n\nRoman society was built on a rigid hierarchy, at the bottom of which stood an enormous enslaved population. _________ (1.5) A household slave who served as a tutor or physician lived a vastly different life from one condemned to labour in a mine or row a warship, yet all were legally considered property.\n\nDespite its many inequalities, Roman civilisation produced lasting contributions to law, architecture, engineering, and language. _________ (1.6) Latin evolved into the Romance languages of modern Europe, and Roman legal principles still underpin the legal systems of dozens of countries today.",
       "options": [
-        { "letter": "A", "text": "This sharp contrast between luxury and squalor defined daily existence for most of the city's population." },
-        { "letter": "B", "text": "Ground-floor apartments had running water and solid walls, but upper storeys were built cheaply with timber frames and thin partitions." },
-        { "letter": "C", "text": "Ordinary Romans, however, rarely prepared meals at home and instead relied on the city's hundreds of thermopolia." },
-        { "letter": "D", "text": "Gladiatorial combat at the Colosseum drew tens of thousands of spectators who cheered for their favourite fighters much as modern fans support sports teams." },
-        { "letter": "E", "text": "Conditions varied enormously depending on the type of work a person was forced to do and the temperament of their owner." },
-        { "letter": "F", "text": "Many of these achievements outlived the empire itself and continued to shape Western civilisation long after Rome's fall." },
-        { "letter": "G", "text": "The Roman army was a highly professional force whose soldiers served for twenty-five years before earning citizenship and a plot of land." },
-        { "letter": "H", "text": "Aqueducts carried fresh water into the city from mountain sources over distances of up to ninety kilometres." }
+        {
+          "letter": "A",
+          "text": "Ordinary Romans, however, rarely prepared meals at home and instead relied on the city's hundreds of thermopolia."
+        },
+        {
+          "letter": "B",
+          "text": "Gladiatorial combat at the Colosseum drew tens of thousands of spectators who cheered for their favourite fighters much as modern fans support sports teams."
+        },
+        {
+          "letter": "C",
+          "text": "The Roman army was a highly professional force whose soldiers served for twenty-five years before earning citizenship and a plot of land."
+        },
+        {
+          "letter": "D",
+          "text": "Ground-floor apartments had running water and solid walls, but upper storeys were built cheaply with timber frames and thin partitions."
+        },
+        {
+          "letter": "E",
+          "text": "Aqueducts carried fresh water into the city from mountain sources over distances of up to ninety kilometres."
+        },
+        {
+          "letter": "F",
+          "text": "This sharp contrast between luxury and squalor defined daily existence for most of the city's population."
+        },
+        {
+          "letter": "G",
+          "text": "Conditions varied enormously depending on the type of work a person was forced to do and the temperament of their owner."
+        },
+        {
+          "letter": "H",
+          "text": "Many of these achievements outlived the empire itself and continued to shape Western civilisation long after Rome's fall."
+        }
       ],
       "items": [
-        { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "B" },
-        { "id": "1.3", "answer": "C" },
-        { "id": "1.4", "answer": "D" },
-        { "id": "1.5", "answer": "E" },
-        { "id": "1.6", "answer": "F" }
+        {
+          "id": "1.1",
+          "answer": "F"
+        },
+        {
+          "id": "1.2",
+          "answer": "D"
+        },
+        {
+          "id": "1.3",
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "answer": "G"
+        },
+        {
+          "id": "1.6",
+          "answer": "H"
+        }
       ]
     }
   ]

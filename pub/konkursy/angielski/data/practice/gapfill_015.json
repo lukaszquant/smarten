@@ -11,19 +11,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "He noticed that the workers there desperately needed tough clothing that could survive difficult conditions."
-        },
-        {
-          "letter": "B",
-          "text": "In the nineteenth century, ordinary trousers simply could not survive such tough conditions."
-        },
-        {
-          "letter": "C",
           "text": "This substance had been used to colour fabric for thousands of years before jeans existed."
         },
         {
+          "letter": "B",
+          "text": "He noticed that the workers there desperately needed tough clothing that could survive difficult conditions."
+        },
+        {
+          "letter": "C",
+          "text": "Sewing machines were already common in factories across Europe by that time."
+        },
+        {
           "letter": "D",
-          "text": "He bought cloth from Strauss and used it to make sturdy trousers for local workers."
+          "text": "In the nineteenth century, ordinary trousers simply could not survive such tough conditions."
         },
         {
           "letter": "E",
@@ -31,29 +31,29 @@
         },
         {
           "letter": "F",
-          "text": "Then, in the second half of the twentieth century, young people began to wear them simply because they liked the style."
-        },
-        {
-          "letter": "G",
           "text": "Most miners returned home with no gold at all and very little money."
         },
         {
+          "letter": "G",
+          "text": "He bought cloth from Strauss and used it to make sturdy trousers for local workers."
+        },
+        {
           "letter": "H",
-          "text": "Sewing machines were already common in factories across Europe by that time."
+          "text": "Then, in the second half of the twentieth century, young people began to wear them simply because they liked the style."
         }
       ],
       "items": [
         {
           "id": "1.1",
-          "answer": "B"
+          "answer": "D"
         },
         {
           "id": "1.2",
-          "answer": "A"
+          "answer": "B"
         },
         {
           "id": "1.3",
-          "answer": "D"
+          "answer": "G"
         },
         {
           "id": "1.4",
@@ -61,11 +61,11 @@
         },
         {
           "id": "1.5",
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.6",
-          "answer": "F"
+          "answer": "H"
         }
       ]
     }

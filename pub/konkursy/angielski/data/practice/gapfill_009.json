@@ -9,22 +9,64 @@
       "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
       "text": "THE AGE OF EXPLORATION\n\nBetween the fifteenth and seventeenth centuries, European sailors ventured into oceans that no European ship had ever crossed, connecting continents that had developed in isolation for thousands of years. _________ (1.1) The consequences of these voyages, both magnificent and devastating, continue to shape the modern world.\n\nPortugal was the first European nation to pursue systematic oceanic exploration. Under the patronage of Prince Henry the Navigator, Portuguese sailors gradually extended their knowledge of the African coast, establishing trading posts as they went. _________ (1.2) This achievement gave Portugal direct access to the lucrative spice trade and made the small nation, for a time, one of the wealthiest in Europe.\n\nWhile Portugal sailed eastward, Spain looked west. When Christopher Columbus reached the Caribbean in 1492, he was convinced he had found a western route to Asia. _________ (1.3) The realisation that two vast continents lay between Europe and Asia forced cartographers to redraw the map of the world entirely.\n\nThe first circumnavigation of the globe, completed by the remnants of Ferdinand Magellan's expedition in 1522, confirmed that the Earth was round and that all oceans were connected. _________ (1.4) Of the approximately 270 men and five ships that set sail from Spain, only eighteen men aboard a single battered vessel completed the journey.\n\nThe human cost of the Age of Exploration extended far beyond the sailors themselves. European contact brought diseases such as smallpox, measles, and influenza to populations that had no immunity. _________ (1.5) Entire civilisations, including the Aztec and Inca empires, collapsed under the combined impact of epidemic disease, military conquest, and forced labour.\n\nThe era also produced lasting advances in navigation, cartography, and natural science. _________ (1.6) The detailed maps, astronomical observations, and botanical specimens brought back by explorers laid the groundwork for the scientific revolution that followed in the seventeenth and eighteenth centuries.",
       "options": [
-        { "letter": "A", "text": "This period, driven by a volatile mixture of commercial ambition, religious zeal, and genuine curiosity, is known as the Age of Exploration." },
-        { "letter": "B", "text": "In 1498, Vasco da Gama rounded the southern tip of Africa and reached India by sea, a feat that had eluded European sailors for decades." },
-        { "letter": "C", "text": "It was only after subsequent voyages by Amerigo Vespucci and others that Europeans began to accept they had encountered previously unknown lands." },
-        { "letter": "D", "text": "The voyage was a triumph of human endurance and navigation, but it came at a staggering human price." },
-        { "letter": "E", "text": "Within a century of first contact, it is estimated that up to ninety percent of the indigenous population of the Americas had perished." },
-        { "letter": "F", "text": "Sailors learned to read ocean currents, wind patterns, and the positions of the stars with a precision that allowed them to cross thousands of kilometres of open water." },
-        { "letter": "G", "text": "The Treaty of Tordesillas, signed in 1494, attempted to divide the newly discovered territories between Spain and Portugal along a line of longitude." },
-        { "letter": "H", "text": "The plantation system established in the Americas created an enormous demand for labour, which was met through the transatlantic slave trade." }
+        {
+          "letter": "A",
+          "text": "Sailors learned to read ocean currents, wind patterns, and the positions of the stars with a precision that allowed them to cross thousands of kilometres of open water."
+        },
+        {
+          "letter": "B",
+          "text": "In 1498, Vasco da Gama rounded the southern tip of Africa and reached India by sea, a feat that had eluded European sailors for decades."
+        },
+        {
+          "letter": "C",
+          "text": "Within a century of first contact, it is estimated that up to ninety percent of the indigenous population of the Americas had perished."
+        },
+        {
+          "letter": "D",
+          "text": "This period, driven by a volatile mixture of commercial ambition, religious zeal, and genuine curiosity, is known as the Age of Exploration."
+        },
+        {
+          "letter": "E",
+          "text": "The plantation system established in the Americas created an enormous demand for labour, which was met through the transatlantic slave trade."
+        },
+        {
+          "letter": "F",
+          "text": "The Treaty of Tordesillas, signed in 1494, attempted to divide the newly discovered territories between Spain and Portugal along a line of longitude."
+        },
+        {
+          "letter": "G",
+          "text": "It was only after subsequent voyages by Amerigo Vespucci and others that Europeans began to accept they had encountered previously unknown lands."
+        },
+        {
+          "letter": "H",
+          "text": "The voyage was a triumph of human endurance and navigation, but it came at a staggering human price."
+        }
       ],
       "items": [
-        { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "B" },
-        { "id": "1.3", "answer": "C" },
-        { "id": "1.4", "answer": "D" },
-        { "id": "1.5", "answer": "E" },
-        { "id": "1.6", "answer": "F" }
+        {
+          "id": "1.1",
+          "answer": "D"
+        },
+        {
+          "id": "1.2",
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "answer": "G"
+        },
+        {
+          "id": "1.4",
+          "answer": "H"
+        },
+        {
+          "id": "1.5",
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "answer": "A"
+        }
       ]
     }
   ]

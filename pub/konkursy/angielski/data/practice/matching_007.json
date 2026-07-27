@@ -10,76 +10,76 @@
       "options": [
         {
           "letter": "A",
-          "text": "Players score by hitting a ball and running around bases"
-        },
-        {
-          "letter": "B",
           "text": "Slam dunk is one of the most exciting moves"
         },
         {
-          "letter": "C",
-          "text": "The game is played on a court with two hoops"
-        },
-        {
-          "letter": "D",
+          "letter": "B",
           "text": "The World Series is its championship event"
         },
         {
-          "letter": "E",
-          "text": "A pitcher throws the ball to a batter"
-        },
-        {
-          "letter": "F",
-          "text": "Players wear helmets and heavy padding"
-        },
-        {
-          "letter": "G",
+          "letter": "C",
           "text": "A touchdown is worth six points"
         },
         {
-          "letter": "H",
-          "text": "Players ride horses and use mallets to hit a ball"
+          "letter": "D",
+          "text": "A pitcher throws the ball to a batter"
         },
         {
-          "letter": "I",
+          "letter": "E",
           "text": "Players score goals using a stick and a puck"
         },
         {
-          "letter": "J",
-          "text": "The NBA is the top professional league"
+          "letter": "F",
+          "text": "Players ride horses and use mallets to hit a ball"
         },
         {
-          "letter": "K",
+          "letter": "G",
           "text": "The championship game is called the Super Bowl"
         },
         {
-          "letter": "L",
+          "letter": "H",
+          "text": "The NBA is the top professional league"
+        },
+        {
+          "letter": "I",
+          "text": "The game is played on a court with two hoops"
+        },
+        {
+          "letter": "J",
+          "text": "Players wear helmets and heavy padding"
+        },
+        {
+          "letter": "K",
           "text": "Each match consists of three periods of twenty minutes"
+        },
+        {
+          "letter": "L",
+          "text": "Players score by hitting a ball and running around bases"
         }
       ],
       "items": [
         {
           "id": "Baseball",
           "answers": [
-            "A",
+            "B",
             "D",
-            "E"
+            "L"
           ]
         },
         {
           "id": "Basketball",
           "answers": [
-            "B",
-            "C",
-            "J"
+            "A",
+            "H",
+            "I"
           ]
         },
         {
           "id": "American Football",
           "answers": [
-            "F",
+            "C",
             "G",
-            "K"
+            "J"
           ]
         }
       ],

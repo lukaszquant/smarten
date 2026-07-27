@@ -10,39 +10,39 @@
       "options": [
         {
           "letter": "A",
-          "text": "He proposed the theory of evolution by natural selection"
-        },
-        {
-          "letter": "B",
-          "text": "He developed calculus independently around the same time as Leibniz"
-        },
-        {
-          "letter": "C",
-          "text": "She was the first person to win two Nobel Prizes"
-        },
-        {
-          "letter": "D",
-          "text": "He published On the Origin of Species in 1859"
-        },
-        {
-          "letter": "E",
-          "text": "She discovered the elements polonium and radium"
-        },
-        {
-          "letter": "F",
-          "text": "He formulated the theory of relativity and the equation E=mc2"
-        },
-        {
-          "letter": "G",
-          "text": "She carried out pioneering research on radioactivity"
-        },
-        {
-          "letter": "H",
           "text": "He invented the first practical electric light bulb"
         },
         {
+          "letter": "B",
+          "text": "She discovered the elements polonium and radium"
+        },
+        {
+          "letter": "C",
+          "text": "He proposed the theory of evolution by natural selection"
+        },
+        {
+          "letter": "D",
+          "text": "He formulated the theory of relativity and the equation E=mc2"
+        },
+        {
+          "letter": "E",
+          "text": "He explained how gravity works after observing a falling apple"
+        },
+        {
+          "letter": "F",
+          "text": "He developed calculus independently around the same time as Leibniz"
+        },
+        {
+          "letter": "G",
+          "text": "She was the first person to win two Nobel Prizes"
+        },
+        {
+          "letter": "H",
+          "text": "She carried out pioneering research on radioactivity"
+        },
+        {
           "letter": "I",
-          "text": "He invented the phonograph and held over a thousand patents"
+          "text": "He described three laws of motion still taught in physics"
         },
         {
           "letter": "J",
@@ -50,36 +50,36 @@
         },
         {
           "letter": "K",
-          "text": "He described three laws of motion still taught in physics"
+          "text": "He invented the phonograph and held over a thousand patents"
         },
         {
           "letter": "L",
-          "text": "He explained how gravity works after observing a falling apple"
+          "text": "He published On the Origin of Species in 1859"
         }
       ],
       "items": [
         {
           "id": "Isaac Newton",
           "answers": [
-            "B",
-            "K",
-            "L"
+            "E",
+            "F",
+            "I"
           ]
         },
         {
           "id": "Marie Curie",
           "answers": [
-            "C",
-            "E",
-            "G"
+            "B",
+            "G",
+            "H"
           ]
         },
         {
           "id": "Charles Darwin",
           "answers": [
-            "A",
-            "D",
-            "J"
+            "C",
+            "J",
+            "L"
           ]
         }
       ],

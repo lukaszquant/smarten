@@ -1,0 +1,103 @@
+{
+  "title": "T/F/NI + Vocabulary: The Town That Took Its Streets Back (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1.–1.6.) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie znajdz w tekscie wyrazy lub wyrazenia, ktore odpowiadaja definicjom podanym w punktach 1.7.–1.11. Wymagana jest calkowita poprawnosc ortograficzna odpowiedzi.",
+      "text": "THE TOWN THAT TOOK ITS STREETS BACK\n\nPontevedra is a town of about eighty thousand people in Galicia, in the wet green corner of north-western Spain, and for most of the twentieth century it was known for very little. It is now visited by delegations of civil servants from all over Europe, who arrive to look at something that is not there.\n\nIn 1999 a newly elected mayor, Miguel Anxo Fernandez Lores, who had trained as a doctor, announced that the historic centre would be closed to through traffic. The reasoning he offered was medical rather than environmental. He had spent years reading accident figures and air-quality readings for his own town and had concluded that the streets were making people ill and occasionally killing them, and that the arrangement everybody accepted as normal - fourteen thousand cars a day passing through a medieval street plan built for carts - was not in fact normal at all.\n\nThe shopkeepers were up in arms. The objection was the one that is raised in every town where this is proposed: customers arrive by car, take away the cars and you take away the customers. Petitions were organised, the local press was hostile, and the mayor was told at some length that he was destroying the commercial heart of his own town. The backlash lasted, by his own account, about three years.\n\nWhat made it survive was that the scheme was not only a set of restrictions. Residents kept access, deliveries were given a window in the morning, disabled drivers were exempt, and the town built free car parks around the edge of the centre so that nobody arriving from outside was left with nowhere to go. Most of the money went not on barriers but on surfaces: pavements widened, kerbs removed so that the street ran flat from wall to wall, and the whole centre given over to a walking speed. Where cars remained, the limit was dropped to thirty kilometres an hour and later, on many streets, to ten.\n\nThe figures that the visiting delegations come for are the road deaths. In the ten years before the changes, thirty people were killed by traffic in the municipality. Between 2011 and 2018 there were three, none of them in the town centre, which has now gone more than a decade without a fatality. Emissions in the centre fell by around two-thirds. Those are the numbers on the slides.\n\nThe knock-on effects are harder to put on a slide and are what the mayor tends to talk about instead. The population of the historic centre, which had been emptying for decades, rose by several thousand as families moved back into flats that nobody had wanted. Children walk to school without an adult in numbers unheard of elsewhere in Spain; the town publishes maps showing the routes and expects six-year-olds to use them. Shops did not close. The commercial association that fought the scheme hardest now markets the town as a place to spend a Saturday, which is either a happy ending or a slightly awkward one, depending on how long a memory you have.\n\nIt would be easy to draw the wrong lesson. Pontevedra is compact, mild, and small enough to cross on foot in half an hour, and a mayor who has been re-elected six times has had a luxury of continuity that few places can offer. Officials who visit and go home planning to ban cars in a fortnight tend to be disappointed. Lores has said many times that the slow part was not the engineering but the arguing, and that the political skill involved was almost entirely a matter of being reluctant to compromise on the principle while conceding almost every detail.\n\nStill, the town thrives, and the argument that a place like this cannot work is now rather hard to make in front of a place like this.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "Local shopkeepers opposed the scheme when it was first announced.",
+          "answer": "T",
+          "explanation": "TRUE — 'The shopkeepers were up in arms', they organised petitions and told the mayor he was destroying the commercial heart of the town."
+        },
+        {
+          "id": "1.2",
+          "statement": "The number of people living in the historic centre fell after the changes were made.",
+          "answer": "F",
+          "explanation": "FALSE — 'The population of the historic centre, which had been emptying for decades, rose by several thousand'."
+        },
+        {
+          "id": "1.3",
+          "statement": "The scheme was paid for by the regional government of Galicia.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text says where most of the money went, but never says who provided it."
+        },
+        {
+          "id": "1.4",
+          "statement": "The text gives figures showing the effect of the scheme on deaths caused by traffic.",
+          "answer": "T",
+          "explanation": "TRUE — Thirty deaths in the ten years before the changes, three between 2011 and 2018, and none in the centre for over a decade."
+        },
+        {
+          "id": "1.5",
+          "statement": "All motor vehicles are now banned from the streets of Pontevedra.",
+          "answer": "F",
+          "explanation": "FALSE — 'Residents kept access, deliveries were given a window in the morning, disabled drivers were exempt', and speed limits are given for streets where cars remained."
+        },
+        {
+          "id": "1.6",
+          "statement": "Other Spanish towns have introduced the same restrictions as Pontevedra.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text says delegations come to look at the town, but not that any of them have introduced the scheme."
+        }
+      ],
+      "scoringScheme": {
+        "6": 3,
+        "5-4": 2,
+        "3-2": 1,
+        "0-1": 0
+      },
+      "vocabItems": [
+        {
+          "id": "1.7",
+          "definition": "very angry about something and protesting strongly about it",
+          "answer": [
+            "up in arms",
+            "were up in arms",
+            "be up in arms"
+          ]
+        },
+        {
+          "id": "1.8",
+          "definition": "a strong negative reaction from a large number of people",
+          "answer": [
+            "backlash",
+            "the backlash",
+            "a backlash"
+          ]
+        },
+        {
+          "id": "1.9",
+          "definition": "an indirect result of an action, which then causes other things to happen",
+          "answer": [
+            "knock-on effect",
+            "knock-on effects",
+            "the knock-on effects"
+          ]
+        },
+        {
+          "id": "1.10",
+          "definition": "unwilling to do something and therefore slow to do it",
+          "answer": [
+            "reluctant"
+          ]
+        },
+        {
+          "id": "1.11",
+          "definition": "to grow, develop or be successful",
+          "answer": [
+            "thrives",
+            "thrive",
+            "to thrive"
+          ]
+        }
+      ],
+      "vocabPoints": 5
+    }
+  ]
+}

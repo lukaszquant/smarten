@@ -14,19 +14,19 @@
         },
         {
           "letter": "B",
-          "text": "The Three Lions appear on its football badge"
-        },
-        {
-          "letter": "C",
-          "text": "Edinburgh is its capital city"
-        },
-        {
-          "letter": "D",
           "text": "The daffodil is one of its national flowers"
         },
         {
+          "letter": "C",
+          "text": "Home to the Giant's Causeway"
+        },
+        {
+          "letter": "D",
+          "text": "Its flag features a red dragon"
+        },
+        {
           "letter": "E",
-          "text": "Home to the tradition of St Patrick's Day parades"
+          "text": "The Three Lions appear on its football badge"
         },
         {
           "letter": "F",
@@ -34,52 +34,52 @@
         },
         {
           "letter": "G",
-          "text": "The red rose is its national flower"
-        },
-        {
-          "letter": "H",
-          "text": "The Highland Games are held here every year"
-        },
-        {
-          "letter": "I",
-          "text": "Home to the Giant's Causeway"
-        },
-        {
-          "letter": "J",
           "text": "Cardiff is its capital city"
         },
         {
+          "letter": "H",
+          "text": "Belfast is its capital city"
+        },
+        {
+          "letter": "I",
+          "text": "The red rose is its national flower"
+        },
+        {
+          "letter": "J",
+          "text": "Home to the tradition of St Patrick's Day parades"
+        },
+        {
           "letter": "K",
-          "text": "Its flag features a red dragon"
+          "text": "The Highland Games are held here every year"
         },
         {
           "letter": "L",
-          "text": "Belfast is its capital city"
+          "text": "Edinburgh is its capital city"
         }
       ],
       "items": [
         {
           "id": "Wales",
           "answers": [
+            "B",
             "D",
-            "J",
-            "K"
+            "G"
           ]
         },
         {
           "id": "England",
           "answers": [
             "A",
-            "B",
-            "G"
+            "E",
+            "I"
           ]
         },
         {
           "id": "Northern Ireland",
           "answers": [
-            "E",
-            "I",
-            "L"
+            "C",
+            "H",
+            "J"
           ]
         }
       ],

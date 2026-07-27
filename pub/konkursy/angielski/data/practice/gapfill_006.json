@@ -9,22 +9,64 @@
       "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
       "text": "EXTREME WEATHER\n\nThe atmosphere that surrounds our planet is a dynamic system capable of generating weather events of extraordinary violence. Tornadoes, hurricanes, droughts, and blizzards have shaped human history, destroyed cities, and altered the fates of nations. _________ (1.1) Understanding why these events occur, and whether they are becoming more frequent, is therefore one of the most urgent tasks facing modern science.\n\nTornadoes are among the most destructive phenomena in nature. They form when contrasting air masses collide: warm, humid air rises rapidly and begins to rotate within a powerful thunderstorm known as a supercell. _________ (1.2) The most violent tornadoes can generate wind speeds exceeding 300 kilometres per hour and leave a trail of devastation several kilometres wide.\n\nHurricanes operate on an entirely different scale. These vast rotating storm systems, which can span hundreds of kilometres, draw their energy from warm tropical ocean surfaces. _________ (1.3) A single hurricane can release as much energy in one day as the entire United States consumes in electricity in a year.\n\nWhile storms are dramatic and sudden, droughts inflict damage through prolonged absence rather than violent presence. _________ (1.4) The American Dust Bowl of the 1930s, in which years of drought combined with unsustainable farming practices turned fertile plains into desert, displaced hundreds of thousands of people and reshaped government agricultural policy.\n\nClimate scientists have established a clear link between rising global temperatures and the intensification of extreme weather. A warmer atmosphere holds more moisture, providing additional fuel for storms, while shifting jet-stream patterns can lock weather systems in place for weeks. _________ (1.5) Heat waves that were once statistical rarities are now occurring with alarming regularity across every continent.\n\nImproved forecasting technology has saved countless lives in recent decades. Satellites, radar networks, and computer models can now predict the path of a hurricane days in advance. _________ (1.6) Even a few additional hours of warning can mean the difference between an orderly evacuation and a catastrophe.",
       "options": [
-        { "letter": "A", "text": "As climate change accelerates, many scientists warn that the worst impacts are still to come." },
-        { "letter": "B", "text": "If the rotation tightens and descends from the cloud base to the ground, it becomes a tornado." },
-        { "letter": "C", "text": "As the water evaporates and rises, it fuels a self-sustaining cycle of intensifying winds and rainfall that can persist for weeks." },
-        { "letter": "D", "text": "Crops fail, water supplies dwindle, and ecosystems collapse, often triggering famine and mass displacement that unfold over months or years." },
-        { "letter": "E", "text": "This combination means that what were once considered hundred-year weather events may soon become commonplace." },
-        { "letter": "F", "text": "However, translating accurate forecasts into effective public response remains a significant challenge, particularly in less developed regions." },
-        { "letter": "G", "text": "Lightning strikes cause thousands of wildfires each year, particularly in regions where dry vegetation provides abundant fuel." },
-        { "letter": "H", "text": "The economic cost of weather-related disasters has risen sharply, partly because more people now live in vulnerable coastal and flood-prone areas." }
+        {
+          "letter": "A",
+          "text": "As the water evaporates and rises, it fuels a self-sustaining cycle of intensifying winds and rainfall that can persist for weeks."
+        },
+        {
+          "letter": "B",
+          "text": "Crops fail, water supplies dwindle, and ecosystems collapse, often triggering famine and mass displacement that unfold over months or years."
+        },
+        {
+          "letter": "C",
+          "text": "As climate change accelerates, many scientists warn that the worst impacts are still to come."
+        },
+        {
+          "letter": "D",
+          "text": "This combination means that what were once considered hundred-year weather events may soon become commonplace."
+        },
+        {
+          "letter": "E",
+          "text": "However, translating accurate forecasts into effective public response remains a significant challenge, particularly in less developed regions."
+        },
+        {
+          "letter": "F",
+          "text": "Lightning strikes cause thousands of wildfires each year, particularly in regions where dry vegetation provides abundant fuel."
+        },
+        {
+          "letter": "G",
+          "text": "The economic cost of weather-related disasters has risen sharply, partly because more people now live in vulnerable coastal and flood-prone areas."
+        },
+        {
+          "letter": "H",
+          "text": "If the rotation tightens and descends from the cloud base to the ground, it becomes a tornado."
+        }
       ],
       "items": [
-        { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "B" },
-        { "id": "1.3", "answer": "C" },
-        { "id": "1.4", "answer": "D" },
-        { "id": "1.5", "answer": "E" },
-        { "id": "1.6", "answer": "F" }
+        {
+          "id": "1.1",
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "answer": "H"
+        },
+        {
+          "id": "1.3",
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "answer": "D"
+        },
+        {
+          "id": "1.6",
+          "answer": "E"
+        }
       ]
     }
   ]

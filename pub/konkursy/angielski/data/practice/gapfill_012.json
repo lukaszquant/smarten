@@ -15,31 +15,31 @@
         },
         {
           "letter": "B",
-          "text": "The shape of an eruption depends mainly on how thick the magma is and how much gas it contains."
-        },
-        {
-          "letter": "C",
-          "text": "Runny magma, on the other hand, lets gas escape gently and pours out as slow rivers of lava."
-        },
-        {
-          "letter": "D",
-          "text": "Over thousands of years, cooled lava breaks down into soil that is unusually rich and fertile."
-        },
-        {
-          "letter": "E",
           "text": "This sudden release is what we call an eruption, and it can be quiet or extremely powerful."
         },
         {
-          "letter": "F",
+          "letter": "C",
+          "text": "The very first map of the ocean floor was finally completed in the middle of the last century."
+        },
+        {
+          "letter": "D",
+          "text": "The shape of an eruption depends mainly on how thick the magma is and how much gas it contains."
+        },
+        {
+          "letter": "E",
           "text": "They behave just like bubbles in a fizzy drink when the bottle is opened too quickly."
         },
         {
-          "letter": "G",
+          "letter": "F",
           "text": "Scientists who study these mountains use special instruments to predict when they might wake up."
         },
         {
+          "letter": "G",
+          "text": "Over thousands of years, cooled lava breaks down into soil that is unusually rich and fertile."
+        },
+        {
           "letter": "H",
-          "text": "The very first map of the ocean floor was finally completed in the middle of the last century."
+          "text": "Runny magma, on the other hand, lets gas escape gently and pours out as slow rivers of lava."
         }
       ],
       "items": [
@@ -49,23 +49,23 @@
         },
         {
           "id": "1.2",
-          "answer": "F"
-        },
-        {
-          "id": "1.3",
           "answer": "E"
         },
         {
-          "id": "1.4",
+          "id": "1.3",
           "answer": "B"
         },
         {
+          "id": "1.4",
+          "answer": "D"
+        },
+        {
           "id": "1.5",
-          "answer": "C"
+          "answer": "H"
         },
         {
           "id": "1.6",
-          "answer": "D"
+          "answer": "G"
         }
       ]
     }

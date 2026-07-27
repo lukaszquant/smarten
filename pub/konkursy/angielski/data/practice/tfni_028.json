@@ -1,0 +1,103 @@
+{
+  "title": "T/F/NI + Vocabulary: My Year as a Lighthouse Keeper (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1.–1.6.) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie znajdz w tekscie wyrazy lub wyrazenia, ktore odpowiadaja definicjom podanym w punktach 1.7.–1.11. Wymagana jest calkowita poprawnosc ortograficzna odpowiedzi.",
+      "text": "THE LAST WINTER ON THE ROCK\n\nPeople assume I took the job to write a book. I have been asked this so often that I have stopped correcting anybody, but the truth is duller and involves a closed shipyard, a redundancy notice and a friend of my father's who mentioned over a Sunday lunch in 1986 that the service was short of relief keepers and did not ask many questions.\n\nThe station was a tower on a reef off the west coast, six kilometres from the nearest village, in the middle of nowhere in the most literal sense the phrase allows. You reached it by boat when the sea permitted and by helicopter when it did not, and in the four months I spent there we were twice cut off for over a fortnight. There were two of us on the rock at any time, working a rotation of two months on and one month ashore, and I want to make this point early because it is the thing people get wrong: the great difficulty of the job is not being alone. It is not being alone.\n\nMy colleague was a man called Donald, who had been in the service a long time and had a great many opinions about how a kettle should be filled. I was thirty-one and had opinions of my own. Two men in a tower nine metres across, for sixty days, with weather outside that makes going up on the gallery a bad idea, will find out fairly quickly what gets on their nerves; and the discovery is generally that it is something absurd. Ours was the radio. Donald liked it on. I liked it off. We negotiated a treaty in the second week and kept to it for four months, which I think is a better record than most marriages manage under similar conditions.\n\nThe solitude, when it came, I liked very much. There were hours in the early morning, after the log entries and before Donald came down, when there was nothing to do but watch the light go round and the sea do whatever it was doing, and I have never in my life been so completely unbothered. What wore me down instead was the monotony. Every day had exactly the same shape. You checked the same instruments in the same order, you wrote the same kind of sentence in the same log, you cooked out of the same limited store cupboard, and the sameness accumulated in a way I had not anticipated. Towards the end of the second month I caught myself looking forward to the weather forecast as an event.\n\nThe other thing nobody warns you about is that you become extremely wary of the sea, in a way that people who look at it from a beach never are. I had grown up on that coast and had always thought of it as scenery. After a night in a tower that shakes - and they do shake, that is what they are designed to do - I stopped thinking of it as scenery. Donald had a phrase for people who talked about the romance of lighthouses. He said they had never had to bring a boat alongside in a swell.\n\nThe automation was already coming when I arrived. Everyone knew it. The last manned station in Britain was given up in 1998, and by the time my rock was converted the keepers had mostly gone elsewhere in the service or ashore for good. I left before the equipment arrived and did not go back for the ceremony.\n\nWhat I have from it is not what I expected. Not the solitude, which I could have found in a cottage, and certainly not any romance. What I kept was a habit of the log: at the end of a shift you write down what the weather did, what you did about it, and nothing else. No opinions. I have written something in that form nearly every evening for thirty-eight years, and it has been of more use to me than anything else I brought off the rock.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The text explains what the narrator was doing before becoming a keeper.",
+          "answer": "T",
+          "explanation": "TRUE — The narrator refers to 'a closed shipyard, a redundancy notice and a friend of my father's' who mentioned the vacancy."
+        },
+        {
+          "id": "1.2",
+          "statement": "The narrator was the only person stationed on the rock.",
+          "answer": "F",
+          "explanation": "FALSE — 'There were two of us on the rock at any time', and the narrator's colleague was a man called Donald."
+        },
+        {
+          "id": "1.3",
+          "statement": "Donald had spent more than ten years in the lighthouse service.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text says only that he 'had been in the service a long time', without giving any number of years."
+        },
+        {
+          "id": "1.4",
+          "statement": "The narrator found the unchanging routine harder to bear than the isolation.",
+          "answer": "T",
+          "explanation": "TRUE — 'The solitude, when it came, I liked very much... What wore me down instead was the monotony.'"
+        },
+        {
+          "id": "1.5",
+          "statement": "The lighthouse had already been converted to run without keepers before the narrator arrived.",
+          "answer": "F",
+          "explanation": "FALSE — 'The automation was already coming when I arrived', and the narrator 'left before the equipment arrived'."
+        },
+        {
+          "id": "1.6",
+          "statement": "The narrator would take the same job again if it were offered.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text describes what the narrator kept from the experience, but never says whether he would repeat it."
+        }
+      ],
+      "scoringScheme": {
+        "6": 3,
+        "5-4": 2,
+        "3-2": 1,
+        "0-1": 0
+      },
+      "vocabItems": [
+        {
+          "id": "1.7",
+          "definition": "in a place that is a long way from any town and where very few people live",
+          "answer": [
+            "in the middle of nowhere",
+            "the middle of nowhere",
+            "middle of nowhere"
+          ]
+        },
+        {
+          "id": "1.8",
+          "definition": "to annoy someone, especially by doing something again and again",
+          "answer": [
+            "gets on their nerves",
+            "get on their nerves",
+            "get on sb's nerves",
+            "gets on your nerves",
+            "get on your nerves"
+          ]
+        },
+        {
+          "id": "1.9",
+          "definition": "the state of being alone, especially when you find it pleasant",
+          "answer": [
+            "the solitude",
+            "solitude"
+          ]
+        },
+        {
+          "id": "1.10",
+          "definition": "a boring lack of variety, when nothing ever changes",
+          "answer": [
+            "the monotony",
+            "monotony"
+          ]
+        },
+        {
+          "id": "1.11",
+          "definition": "careful and cautious, because you think something may be dangerous",
+          "answer": [
+            "wary"
+          ]
+        }
+      ],
+      "vocabPoints": 5
+    }
+  ]
+}

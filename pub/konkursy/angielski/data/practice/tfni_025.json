@@ -1,0 +1,98 @@
+{
+  "title": "T/F/NI + Vocabulary: The Strange History of the Sandwich (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1.–1.6.) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie znajdz w tekscie wyrazy lub wyrazenia, ktore odpowiadaja definicjom podanym w punktach 1.7.–1.11. Wymagana jest calkowita poprawnosc ortograficzna odpowiedzi.",
+      "text": "THE STRANGE HISTORY OF THE SANDWICH\n\nLegend has it that on a night in 1762, John Montagu, the fourth Earl of Sandwich, was so unwilling to leave the gambling table that he told a servant to bring him some cold beef between two slices of bread. His companions, so the story goes, began ordering \"the same as Sandwich\", and a word entered the language.\n\nIt is a wonderful story and it may even be true, but it is worth noticing how thin the evidence is. The whole thing rests on a single paragraph in a book of travel notes published in 1772 by a Frenchman, Pierre-Jean Grosley, who had visited London a decade earlier and was repeating what he had heard. Grosley did not claim to have witnessed anything. Nobody who actually knew the Earl left an account of the meal, and the Earl himself, who wrote a great deal, never mentioned it.\n\nThere is also an inconvenient rival version. Montagu was not only the notorious gambler of popular memory; he was First Lord of the Admiralty during a war, a serious administrator with a reputation for spending fourteen hours at a desk, and several of his biographers have argued that the bread and beef were brought to him in his office rather than at the card table. The two accounts are not quite as different as they look. Either way the point of the thing is the same: here was a man who wanted to go on doing something with his hands and his eyes while he ate, and the food was reorganised to allow it.\n\nWhat is certainly not true is that anybody invented the idea. Putting food between bread is about as old as bread. In the first century BC the rabbi Hillel the Elder is described as wrapping bitter herbs inside flatbread at Passover; medieval European diners ate off thick slabs of stale bread called trenchers, which soaked up the juices of the meal and were afterwards eaten, given to the poor or thrown to the dogs. Nothing about the combination needed discovering. What the eighteenth century supplied was a name and, more importantly, a moment when a name became useful.\n\nThat moment was social. The sandwich arrived first at the top of society, in the late-night suppers of people rich enough to be up at four in the morning, and only afterwards travelled downwards. It took a while to catch on. For most of the eighteenth century a sandwich remained slightly disreputable in Britain, a thing associated with gambling dens and men who kept bad hours, and it appears in the household books of grand families long before it appears in the diet of anybody who worked for a living.\n\nWhat changed that was the railway and the factory. Once large numbers of people had to eat a midday meal a long way from their own kitchen, a portable, cheap, frugal lunch that required no plate, no cutlery and no reheating turned out to be exactly what was wanted. By the middle of the nineteenth century the sandwich had become a staple of the working day, sold on station platforms, wrapped in paper and carried to the mill. The British railway sandwich went on to acquire a reputation of its own, which comedians were still making jokes about a hundred and twenty years later.\n\nThe Earl, meanwhile, has had a mixed afterlife. His naval career ended in accusations of incompetence and corruption, his name was attached by Captain Cook to an island group in the Pacific that later thought better of it, and the one thing everybody now knows about him concerns a meal he may not have eaten in the manner described. It is a curious kind of immortality. There are worse ways to be remembered than as the man who let people keep their hands free.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The text offers more than one explanation of the circumstances in which the Earl was served bread and meat.",
+          "answer": "T",
+          "explanation": "TRUE — The text gives the gambling-table story and then 'an inconvenient rival version' in which the meal was brought to him at his desk in his office."
+        },
+        {
+          "id": "1.2",
+          "statement": "Historians are in agreement that the Earl asked for the meal so that he could carry on gambling.",
+          "answer": "F",
+          "explanation": "FALSE — 'several of his biographers have argued that the bread and beef were brought to him in his office rather than at the card table'."
+        },
+        {
+          "id": "1.3",
+          "statement": "Grosley's book was translated into English soon after it appeared.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text says Grosley published his travel notes in 1772 and what they contained, but nothing about a translation."
+        },
+        {
+          "id": "1.4",
+          "statement": "Food had been eaten between or inside bread long before the eighteenth century.",
+          "answer": "T",
+          "explanation": "TRUE — Hillel the Elder is described wrapping herbs in flatbread in the first century BC, and medieval diners used bread trenchers."
+        },
+        {
+          "id": "1.5",
+          "statement": "The sandwich was eaten by working people before it reached wealthy households.",
+          "answer": "F",
+          "explanation": "FALSE — 'The sandwich arrived first at the top of society... and only afterwards travelled downwards', appearing in grand households long before in working people's diet."
+        },
+        {
+          "id": "1.6",
+          "statement": "The sandwich is the most popular lunchtime food in Britain today.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text follows the sandwich to the nineteenth century and mentions its later reputation, but makes no claim about its popularity today."
+        }
+      ],
+      "scoringScheme": {
+        "6": 3,
+        "5-4": 2,
+        "3-2": 1,
+        "0-1": 0
+      },
+      "vocabItems": [
+        {
+          "id": "1.7",
+          "definition": "the story that people tell, which may or may not be true, is that",
+          "answer": [
+            "legend has it",
+            "legend has it that"
+          ]
+        },
+        {
+          "id": "1.8",
+          "definition": "well known for something bad",
+          "answer": [
+            "notorious"
+          ]
+        },
+        {
+          "id": "1.9",
+          "definition": "to become popular or fashionable",
+          "answer": [
+            "catch on",
+            "to catch on"
+          ]
+        },
+        {
+          "id": "1.10",
+          "definition": "a basic food that is eaten regularly and in large quantities",
+          "answer": [
+            "a staple",
+            "staple"
+          ]
+        },
+        {
+          "id": "1.11",
+          "definition": "using only as much money or food as is necessary, without waste",
+          "answer": [
+            "frugal"
+          ]
+        }
+      ],
+      "vocabPoints": 5
+    }
+  ]
+}

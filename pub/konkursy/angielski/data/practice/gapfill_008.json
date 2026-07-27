@@ -9,22 +9,64 @@
       "instruction": "Przeczytaj ponizszy tekst, z ktorego usunieto szesc zdan. Dobierz zdania oznaczone literami (A-H) tak, aby tekst byl spojny i logiczny. Dwa zdania zostaly podane dodatkowo i nie pasuja do zadnego fragmentu.",
       "text": "ENDANGERED SPECIES\n\nBiologists estimate that species are currently disappearing at a rate between one hundred and one thousand times faster than the natural background rate of extinction. _________ (1.1) Unlike the five previous mass extinctions, which were triggered by asteroid impacts, volcanic eruptions, or shifts in ocean chemistry, this one has a single dominant cause: human activity.\n\nHabitat destruction remains the primary driver of species loss worldwide. As forests are cleared for agriculture, wetlands drained for development, and grasslands converted to cropland, the ecosystems on which wildlife depends are fragmented into ever-smaller patches. _________ (1.2) For species that need large territories or migration corridors, such as elephants, jaguars, and migratory birds, this fragmentation can be as lethal as outright habitat removal.\n\nClimate change is compounding the crisis in ways that are difficult to predict. As temperatures rise and weather patterns shift, many species find that the conditions to which they have adapted over millennia are changing faster than they can evolve. _________ (1.3) Species that depend on sea ice, such as polar bears, or on specific temperature ranges, such as mountain-dwelling amphibians, face particularly uncertain futures.\n\nThe illegal wildlife trade continues to push iconic species toward extinction despite international enforcement efforts. _________ (1.4) This creates a perverse economic dynamic: the rarer a species becomes, the higher the price its products command, accelerating the very decline that makes them valuable.\n\nConservation programmes have nevertheless achieved significant successes. The bald eagle, once on the brink of extinction due to the pesticide DDT, has recovered dramatically since the chemical was banned. _________ (1.5) These examples demonstrate that determined intervention can reverse even severe population declines.\n\nUltimately, however, saving individual species is not enough. _________ (1.6) Clean water, pollination of crops, climate regulation, and disease control all depend on healthy ecosystems, meaning that the extinction crisis is not merely an environmental issue but a direct threat to human welfare.",
       "options": [
-        { "letter": "A", "text": "This accelerating loss has led many scientists to declare that Earth is entering its sixth mass extinction event." },
-        { "letter": "B", "text": "Populations trapped in isolated fragments lose genetic diversity and become increasingly vulnerable to disease, inbreeding, and local catastrophes." },
-        { "letter": "C", "text": "Coral reefs, which support roughly a quarter of all marine species, are bleaching and dying as ocean temperatures climb." },
-        { "letter": "D", "text": "Elephant ivory, rhinoceros horn, and pangolin scales can fetch extraordinary prices on the black market, rivalling those of gold or cocaine." },
-        { "letter": "E", "text": "Similarly, the mountain gorilla population has grown significantly thanks to decades of intensive protection in central Africa." },
-        { "letter": "F", "text": "Preserving biodiversity requires protecting entire ecosystems and recognising the services they provide to humanity." },
-        { "letter": "G", "text": "Captive breeding programmes in zoos around the world maintain insurance populations of hundreds of critically endangered species." },
-        { "letter": "H", "text": "Invasive species introduced by human travel and trade have devastated native wildlife on islands and in freshwater ecosystems." }
+        {
+          "letter": "A",
+          "text": "Populations trapped in isolated fragments lose genetic diversity and become increasingly vulnerable to disease, inbreeding, and local catastrophes."
+        },
+        {
+          "letter": "B",
+          "text": "This accelerating loss has led many scientists to declare that Earth is entering its sixth mass extinction event."
+        },
+        {
+          "letter": "C",
+          "text": "Similarly, the mountain gorilla population has grown significantly thanks to decades of intensive protection in central Africa."
+        },
+        {
+          "letter": "D",
+          "text": "Captive breeding programmes in zoos around the world maintain insurance populations of hundreds of critically endangered species."
+        },
+        {
+          "letter": "E",
+          "text": "Invasive species introduced by human travel and trade have devastated native wildlife on islands and in freshwater ecosystems."
+        },
+        {
+          "letter": "F",
+          "text": "Elephant ivory, rhinoceros horn, and pangolin scales can fetch extraordinary prices on the black market, rivalling those of gold or cocaine."
+        },
+        {
+          "letter": "G",
+          "text": "Preserving biodiversity requires protecting entire ecosystems and recognising the services they provide to humanity."
+        },
+        {
+          "letter": "H",
+          "text": "Coral reefs, which support roughly a quarter of all marine species, are bleaching and dying as ocean temperatures climb."
+        }
       ],
       "items": [
-        { "id": "1.1", "answer": "A" },
-        { "id": "1.2", "answer": "B" },
-        { "id": "1.3", "answer": "C" },
-        { "id": "1.4", "answer": "D" },
-        { "id": "1.5", "answer": "E" },
-        { "id": "1.6", "answer": "F" }
+        {
+          "id": "1.1",
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "answer": "H"
+        },
+        {
+          "id": "1.4",
+          "answer": "F"
+        },
+        {
+          "id": "1.5",
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "answer": "G"
+        }
       ]
     }
   ]

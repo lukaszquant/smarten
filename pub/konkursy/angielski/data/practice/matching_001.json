@@ -10,76 +10,76 @@
       "options": [
         {
           "letter": "A",
-          "text": "The Stars and Stripes is the name of this country's flag"
-        },
-        {
-          "letter": "B",
-          "text": "The bald eagle is the national bird of this country"
-        },
-        {
-          "letter": "C",
-          "text": "The Taj Mahal is a famous marble mausoleum in this country"
-        },
-        {
-          "letter": "D",
-          "text": "The kangaroo and emu appear on this country's coat of arms"
-        },
-        {
-          "letter": "E",
-          "text": "The Grand Canyon is one of this country's natural wonders"
-        },
-        {
-          "letter": "F",
-          "text": "Uluru is a sacred sandstone rock formation in this country"
-        },
-        {
-          "letter": "G",
-          "text": "Niagara Falls is shared between this country and the USA"
-        },
-        {
-          "letter": "H",
-          "text": "Stonehenge is located on Salisbury Plain in this country"
-        },
-        {
-          "letter": "I",
-          "text": "Big Ben is a famous clock tower in this country's capital"
-        },
-        {
-          "letter": "J",
-          "text": "The Great Barrier Reef lies off the coast of this country"
-        },
-        {
-          "letter": "K",
           "text": "The Eiffel Tower is the most visited landmark in this country"
         },
         {
-          "letter": "L",
+          "letter": "B",
+          "text": "Big Ben is a famous clock tower in this country's capital"
+        },
+        {
+          "letter": "C",
+          "text": "The kangaroo and emu appear on this country's coat of arms"
+        },
+        {
+          "letter": "D",
+          "text": "The Taj Mahal is a famous marble mausoleum in this country"
+        },
+        {
+          "letter": "E",
+          "text": "The Great Barrier Reef lies off the coast of this country"
+        },
+        {
+          "letter": "F",
+          "text": "Stonehenge is located on Salisbury Plain in this country"
+        },
+        {
+          "letter": "G",
           "text": "The Union Jack is the national flag of this country"
+        },
+        {
+          "letter": "H",
+          "text": "The Grand Canyon is one of this country's natural wonders"
+        },
+        {
+          "letter": "I",
+          "text": "Niagara Falls is shared between this country and the USA"
+        },
+        {
+          "letter": "J",
+          "text": "The Stars and Stripes is the name of this country's flag"
+        },
+        {
+          "letter": "K",
+          "text": "The bald eagle is the national bird of this country"
+        },
+        {
+          "letter": "L",
+          "text": "Uluru is a sacred sandstone rock formation in this country"
         }
       ],
       "items": [
         {
           "id": "United Kingdom",
           "answers": [
-            "H",
-            "I",
-            "L"
+            "B",
+            "F",
+            "G"
           ]
         },
         {
           "id": "United States",
           "answers": [
-            "A",
-            "B",
-            "E"
+            "H",
+            "J",
+            "K"
           ]
         },
         {
           "id": "Australia",
           "answers": [
-            "D",
-            "F",
-            "J"
+            "C",
+            "E",
+            "L"
           ]
         }
       ],

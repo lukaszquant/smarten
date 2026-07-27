@@ -10,51 +10,51 @@
       "options": [
         {
           "letter": "A",
-          "text": "Charlie and the Chocolate Factory, about a boy who wins a golden ticket"
-        },
-        {
-          "letter": "B",
-          "text": "Harry Potter and the Philosopher's Stone, the first book about a young wizard"
-        },
-        {
-          "letter": "C",
-          "text": "The BFG, about a friendly giant who collects dreams"
-        },
-        {
-          "letter": "D",
-          "text": "The Tales of Beedle the Bard, a collection of wizard fairy tales"
-        },
-        {
-          "letter": "E",
-          "text": "The Hobbit, about Bilbo Baggins and his journey to a dragon's mountain"
-        },
-        {
-          "letter": "F",
-          "text": "Oliver Twist, about an orphan boy in Victorian London"
-        },
-        {
-          "letter": "G",
-          "text": "The Lord of the Rings, a trilogy set in the world of Middle-earth"
-        },
-        {
-          "letter": "H",
           "text": "Matilda, about a clever girl with unusual powers"
         },
         {
-          "letter": "I",
-          "text": "The Silmarillion, a book about the ancient history of Middle-earth"
-        },
-        {
-          "letter": "J",
+          "letter": "B",
           "text": "Fantastic Beasts and Where to Find Them, a guide to magical creatures"
         },
         {
-          "letter": "K",
+          "letter": "C",
+          "text": "Oliver Twist, about an orphan boy in Victorian London"
+        },
+        {
+          "letter": "D",
+          "text": "Charlie and the Chocolate Factory, about a boy who wins a golden ticket"
+        },
+        {
+          "letter": "E",
+          "text": "The Silmarillion, a book about the ancient history of Middle-earth"
+        },
+        {
+          "letter": "F",
+          "text": "The Lord of the Rings, a trilogy set in the world of Middle-earth"
+        },
+        {
+          "letter": "G",
+          "text": "The Tales of Beedle the Bard, a collection of wizard fairy tales"
+        },
+        {
+          "letter": "H",
+          "text": "Alice's Adventures in Wonderland, about a girl who follows a white rabbit"
+        },
+        {
+          "letter": "I",
+          "text": "The Hobbit, about Bilbo Baggins and his journey to a dragon's mountain"
+        },
+        {
+          "letter": "J",
           "text": "The Chronicles of Narnia, about children who enter a world through a wardrobe"
         },
         {
+          "letter": "K",
+          "text": "Harry Potter and the Philosopher's Stone, the first book about a young wizard"
+        },
+        {
           "letter": "L",
-          "text": "Alice's Adventures in Wonderland, about a girl who follows a white rabbit"
+          "text": "The BFG, about a friendly giant who collects dreams"
         }
       ],
       "items": [
@@ -62,15 +62,15 @@
           "id": "Roald Dahl",
           "answers": [
             "A",
-            "C",
-            "H"
+            "D",
+            "L"
           ]
         },
         {
           "id": "J. R. R. Tolkien",
           "answers": [
             "E",
-            "G",
+            "F",
             "I"
           ]
         },
@@ -78,8 +78,8 @@
           "id": "J. K. Rowling",
           "answers": [
             "B",
-            "D",
-            "J"
+            "G",
+            "K"
           ]
         }
       ],

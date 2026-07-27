@@ -11,31 +11,31 @@
       "options": [
         {
           "letter": "A",
-          "text": "However, modern research has shown that this old idea is far from the whole truth."
-        },
-        {
-          "letter": "B",
-          "text": "Instead, you pass through several different stages, repeating the whole cycle a few times each night."
-        },
-        {
-          "letter": "C",
           "text": "As a result, falling asleep becomes much harder than it should be."
         },
         {
-          "letter": "D",
-          "text": "Strangely, your brain is then almost as busy as it is when you are wide awake."
-        },
-        {
-          "letter": "E",
-          "text": "When this clever filing job is interrupted, the facts you revised slip away and prove far harder to recall."
-        },
-        {
-          "letter": "F",
+          "letter": "B",
           "text": "Each night, it quietly sorts through everything you have experienced and decides what is worth keeping."
         },
         {
-          "letter": "G",
+          "letter": "C",
+          "text": "Strangely, your brain is then almost as busy as it is when you are wide awake."
+        },
+        {
+          "letter": "D",
           "text": "Most adults need around eight hours, although the exact amount changes with age."
+        },
+        {
+          "letter": "E",
+          "text": "However, modern research has shown that this old idea is far from the whole truth."
+        },
+        {
+          "letter": "F",
+          "text": "Instead, you pass through several different stages, repeating the whole cycle a few times each night."
+        },
+        {
+          "letter": "G",
+          "text": "When this clever filing job is interrupted, the facts you revised slip away and prove far harder to recall."
         },
         {
           "letter": "H",
@@ -45,27 +45,27 @@
       "items": [
         {
           "id": "1.1",
-          "answer": "A"
-        },
-        {
-          "id": "1.2",
-          "answer": "B"
-        },
-        {
-          "id": "1.3",
-          "answer": "D"
-        },
-        {
-          "id": "1.4",
-          "answer": "F"
-        },
-        {
-          "id": "1.5",
           "answer": "E"
         },
         {
-          "id": "1.6",
+          "id": "1.2",
+          "answer": "F"
+        },
+        {
+          "id": "1.3",
           "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "answer": "G"
+        },
+        {
+          "id": "1.6",
+          "answer": "A"
         }
       ]
     }

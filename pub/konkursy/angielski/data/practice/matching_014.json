@@ -10,7 +10,7 @@
       "options": [
         {
           "letter": "A",
-          "text": "This European capital stands on the River Seine and is famous for the Eiffel Tower."
+          "text": "This Brazilian city, famous for its Sugarloaf Mountain, is not the country's capital."
         },
         {
           "letter": "B",
@@ -18,27 +18,27 @@
         },
         {
           "letter": "C",
-          "text": "This European capital sits on the River Thames, where Big Ben and the Houses of Parliament stand."
+          "text": "The famous canals and the Anne Frank House can be found in this Dutch capital."
         },
         {
           "letter": "D",
-          "text": "This Asian capital is one of the most populous cities in the world and hosts an Imperial Palace."
+          "text": "Red Square and the Kremlin lie at the heart of this Russian capital."
         },
         {
           "letter": "E",
-          "text": "This Asian capital lies beside the Han River and is the largest city in South Korea."
-        },
-        {
-          "letter": "F",
           "text": "This Asian capital is home to the Forbidden City and the famous Tiananmen Square."
         },
         {
+          "letter": "F",
+          "text": "The Brandenburg Gate and the remains of a famous wall stand in this German capital."
+        },
+        {
           "letter": "G",
-          "text": "This is the largest city in the United States, though it is not the national capital today."
+          "text": "This European capital stands on the River Seine and is famous for the Eiffel Tower."
         },
         {
           "letter": "H",
-          "text": "This Brazilian city, famous for its Sugarloaf Mountain, is not the country's capital."
+          "text": "This is the largest city in the United States, though it is not the national capital today."
         },
         {
           "letter": "I",
@@ -46,38 +46,38 @@
         },
         {
           "letter": "J",
-          "text": "The Brandenburg Gate and the remains of a famous wall stand in this German capital."
+          "text": "This European capital sits on the River Thames, where Big Ben and the Houses of Parliament stand."
         },
         {
           "letter": "K",
-          "text": "Red Square and the Kremlin lie at the heart of this Russian capital."
+          "text": "This Asian capital lies beside the Han River and is the largest city in South Korea."
         },
         {
           "letter": "L",
-          "text": "The famous canals and the Anne Frank House can be found in this Dutch capital."
+          "text": "This Asian capital is one of the most populous cities in the world and hosts an Imperial Palace."
         }
       ],
       "items": [
         {
           "id": "European capitals standing on a named river",
           "answers": [
-            "A",
             "B",
-            "C"
+            "G",
+            "J"
           ]
         },
         {
           "id": "Capital cities in Asia",
           "answers": [
-            "D",
             "E",
-            "F"
+            "K",
+            "L"
           ]
         },
         {
           "id": "Famous cities that are NOT their country's capital",
           "answers": [
-            "G",
+            "A",
             "H",
             "I"
           ]

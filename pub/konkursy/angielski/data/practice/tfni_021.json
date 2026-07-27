@@ -1,0 +1,101 @@
+{
+  "title": "T/F/NI + Vocabulary: The Woman Who Drew the Sea Floor (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "true_false_ni",
+      "points": 8,
+      "instruction": "Przeczytaj ponizszy tekst. Zdecyduj, ktore zdania (1.1.–1.6.) sa zgodne z trescia tekstu (T – True), ktore sa niezgodne (F – False), a ktore zawieraja informacje niepodane w tekscie (NI – No Information). Nastepnie znajdz w tekscie wyrazy lub wyrazenia, ktore odpowiadaja definicjom podanym w punktach 1.7.–1.11. Wymagana jest calkowita poprawnosc ortograficzna odpowiedzi.",
+      "text": "THE WOMAN WHO DREW THE SEA FLOOR\n\nWhen Marie Tharp walked into Columbia University's geology laboratory in 1948, she was not looking for a place in history. She was looking for a job. Geology had been a men's field for as long as anyone could remember, but the war had emptied the universities of young men, and departments that would never previously have considered a female applicant were suddenly willing to take one. Tharp arrived with degrees in geology and mathematics and an unusual talent for drawing. That last qualification turned out to be worth far more than anybody in the building realised at the time.\n\nShe was not, however, allowed anywhere near the ships. Women were barred from the research vessels that criss-crossed the Atlantic dropping sounding lines to measure the depth of the ocean, on the grounds that they brought bad luck at sea. The rule survived at the laboratory until 1965. So Tharp stayed on dry land while her colleague Bruce Heezen went out on the water, and every few months a fresh pile of figures would land on her desk. Her job was to turn those columns of numbers into a picture of a landscape no human being had ever seen.\n\nThe work was painstaking. Each voyage produced a single thin line of depth readings across thousands of kilometres of ocean, and between one line and the next there was nothing at all. Tharp plotted the profiles by hand, stretched them out side by side, and began sketching in the ground that connected them. Slowly a world appeared: mountains taller than the Alps, plains flatter than anything on land, and running down the middle of the Atlantic, a ridge that seemed to go on for ever.\n\nThen she noticed something that put her at odds with almost every geologist alive. Along the crest of that ridge there was a valley. It showed up in profile after profile, a deep notch cut into the summit of the mountain chain, and to Tharp it looked like a place where the sea floor was being pulled apart. That was a dangerous thing to think in 1952. The idea that continents drift was then regarded as the province of cranks, and when she showed her drawings to Heezen he dismissed them out of hand. It was, he told her, girl talk. He made her do the whole thing again. She did, and the valley was still there.\n\nWhat settled the argument was a second map. A young assistant named Howard Foster had been marking the positions of earthquakes in the Atlantic onto a chart of the same scale, for an entirely unrelated project. When somebody laid one map over the other, the earthquakes fell in a neat line straight down the middle of Tharp's valley. There was no reasonable way to explain the coincidence except the explanation she had offered. Heezen grudgingly came round, and within a decade the rift valley had become one of the central pieces of evidence for plate tectonics, the theory that reshaped the whole of the earth sciences.\n\nThe map that Tharp and Heezen published with the painter Heinrich Berann in 1977 hangs today in schools and university corridors all over the world. For a long time the name attached to it in most people's minds was Heezen's. Tharp went on working, largely unnoticed, an unsung figure in one of the great scientific stories of the century. Only in the 1990s did the recognition arrive: in 1997 the Library of Congress named her one of the four greatest cartographers of the twentieth century, and in 2001 her old laboratory gave her its first annual award for lifetime achievement. She was eighty-one.\n\nAsked late in life what she made of it all, Tharp was cheerfully unsentimental. She had been handed a blank sheet of paper and the whole floor of the ocean to put on it. Not many people, she pointed out, get a chance like that, and it did not much matter to her who else was slow to believe what she found.",
+      "items": [
+        {
+          "id": "1.1",
+          "statement": "The text gives a reason why a geology laboratory was prepared to employ a woman in 1948.",
+          "answer": "T",
+          "explanation": "TRUE — The text explains that 'the war had emptied the universities of young men, and departments that would never previously have considered a female applicant were suddenly willing to take one'."
+        },
+        {
+          "id": "1.2",
+          "statement": "Tharp was able to join the survey voyages from the moment she started at the laboratory.",
+          "answer": "F",
+          "explanation": "FALSE — 'Women were barred from the research vessels' and 'the rule survived at the laboratory until 1965', seventeen years after she arrived in 1948."
+        },
+        {
+          "id": "1.3",
+          "statement": "Heezen later apologised to Tharp for the way he had reacted to her discovery.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text says he 'grudgingly came round' once he saw the earthquake map, but it never mentions an apology."
+        },
+        {
+          "id": "1.4",
+          "statement": "A chart produced for a different purpose supported Tharp's reading of the sea floor.",
+          "answer": "T",
+          "explanation": "TRUE — Howard Foster's map of earthquake positions was made 'for an entirely unrelated project', and the earthquakes fell along Tharp's valley."
+        },
+        {
+          "id": "1.5",
+          "statement": "Tharp's contribution was widely acknowledged as soon as the 1977 map was published.",
+          "answer": "F",
+          "explanation": "FALSE — 'For a long time the name attached to it in most people's minds was Heezen's', and the recognition only arrived in the 1990s."
+        },
+        {
+          "id": "1.6",
+          "statement": "Tharp continued to draw her maps by hand after computers became available for the task.",
+          "answer": "NI",
+          "explanation": "NO INFORMATION — The text says she plotted the early profiles by hand and that she 'went on working', but says nothing about computers."
+        }
+      ],
+      "scoringScheme": {
+        "6": 3,
+        "5-4": 2,
+        "3-2": 1,
+        "0-1": 0
+      },
+      "vocabItems": [
+        {
+          "id": "1.7",
+          "definition": "involving a lot of care, effort and attention to detail",
+          "answer": [
+            "painstaking"
+          ]
+        },
+        {
+          "id": "1.8",
+          "definition": "in disagreement or conflict with someone or something",
+          "answer": [
+            "at odds with",
+            "put her at odds with",
+            "odds with"
+          ]
+        },
+        {
+          "id": "1.9",
+          "definition": "to reject an idea or suggestion immediately, without thinking about it",
+          "answer": [
+            "dismiss out of hand",
+            "to dismiss out of hand",
+            "out of hand",
+            "dismissed them out of hand"
+          ]
+        },
+        {
+          "id": "1.10",
+          "definition": "in an unwilling or reluctant way",
+          "answer": [
+            "grudgingly"
+          ]
+        },
+        {
+          "id": "1.11",
+          "definition": "not praised or famous although deserving to be",
+          "answer": [
+            "unsung",
+            "an unsung figure"
+          ]
+        }
+      ],
+      "vocabPoints": 5
+    }
+  ]
+}

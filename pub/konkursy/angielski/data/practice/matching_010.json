@@ -10,76 +10,76 @@
       "options": [
         {
           "letter": "A",
-          "text": "Angel Falls, the world's highest waterfall, is found here"
-        },
-        {
-          "letter": "B",
-          "text": "The Amazon rainforest covers a large part of this continent"
-        },
-        {
-          "letter": "C",
-          "text": "It separates Europe from the Americas"
-        },
-        {
-          "letter": "D",
-          "text": "It is the largest and deepest ocean on Earth"
-        },
-        {
-          "letter": "E",
           "text": "It is the smallest ocean, located around the North Pole"
         },
         {
-          "letter": "F",
-          "text": "The Nile, one of the longest rivers, flows through this continent"
-        },
-        {
-          "letter": "G",
-          "text": "The Andes, the longest mountain range, runs along its west coast"
-        },
-        {
-          "letter": "H",
-          "text": "The Gulf Stream is a warm current that flows through it"
-        },
-        {
-          "letter": "I",
+          "letter": "B",
           "text": "It contains the Mariana Trench, the deepest point on Earth"
         },
         {
-          "letter": "J",
-          "text": "It is surrounded by the Ring of Fire, an area of volcanic activity"
+          "letter": "C",
+          "text": "The Andes, the longest mountain range, runs along its west coast"
         },
         {
-          "letter": "K",
+          "letter": "D",
+          "text": "The Nile, one of the longest rivers, flows through this continent"
+        },
+        {
+          "letter": "E",
+          "text": "It is the largest and deepest ocean on Earth"
+        },
+        {
+          "letter": "F",
           "text": "It is home to the Sahara, the world's largest hot desert"
         },
         {
-          "letter": "L",
+          "letter": "G",
           "text": "Mount Kilimanjaro, the tallest peak in Africa, stands here"
+        },
+        {
+          "letter": "H",
+          "text": "The Amazon rainforest covers a large part of this continent"
+        },
+        {
+          "letter": "I",
+          "text": "Angel Falls, the world's highest waterfall, is found here"
+        },
+        {
+          "letter": "J",
+          "text": "It separates Europe from the Americas"
+        },
+        {
+          "letter": "K",
+          "text": "It is surrounded by the Ring of Fire, an area of volcanic activity"
+        },
+        {
+          "letter": "L",
+          "text": "The Gulf Stream is a warm current that flows through it"
         }
       ],
       "items": [
         {
           "id": "Africa",
           "answers": [
+            "D",
             "F",
-            "K",
-            "L"
+            "G"
           ]
         },
         {
           "id": "South America",
           "answers": [
-            "A",
-            "B",
-            "G"
+            "C",
+            "H",
+            "I"
           ]
         },
         {
           "id": "Pacific Ocean",
           "answers": [
-            "D",
-            "I",
-            "J"
+            "B",
+            "E",
+            "K"
           ]
         }
       ],
