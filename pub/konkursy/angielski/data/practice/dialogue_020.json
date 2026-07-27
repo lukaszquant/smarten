@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Phrasal Verbs in Conversation 2 (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: I can't hear the television at all.\nY: Hang on, I'll ______ it up.",
+          "options": [
+            "A) put",
+            "B) get",
+            "C) turn"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: Where did you find your old photo album?\nY: I ______ across it in a box in the attic.",
+          "options": [
+            "A) came",
+            "B) went",
+            "C) got"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: The concert is only three weeks away now.\nY: I know, I'm really looking ______ to it.",
+          "options": [
+            "A) ahead",
+            "B) forward",
+            "C) up"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: My laptop died in the middle of the exam.\nY: Oh no. Did it ______ down completely?",
+          "options": [
+            "A) fall",
+            "B) put",
+            "C) break"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: Where did you get that unusual lamp?\nY: I ______ it up at a flea market in Krakow.",
+          "options": [
+            "A) picked",
+            "B) took",
+            "C) brought"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: Your cousin is taller than you now!\nY: I know, children ______ up so fast.",
+          "options": [
+            "A) get",
+            "B) grow",
+            "C) rise"
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

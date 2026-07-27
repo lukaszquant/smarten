@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Phrasal Verbs in Conversation 1 (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: Why wasn't Tomek at training yesterday?\nY: He's ______ down with flu.",
+          "options": [
+            "A) going",
+            "B) coming",
+            "C) falling"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: Have you booked that dentist's appointment yet?\nY: No, I keep ______ it off.",
+          "options": [
+            "A) taking",
+            "B) leaving",
+            "C) putting"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: Ania has exactly the same sense of humour as her dad.\nY: I know, she really ______ after him.",
+          "options": [
+            "A) takes",
+            "B) goes",
+            "C) comes"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: Why did you stop halfway through the recipe?\nY: We ______ out of eggs.",
+          "options": [
+            "A) went",
+            "B) ran",
+            "C) fell"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: Do you think he'll be punished for copying the homework?\nY: Knowing him, he'll ______ away with it.",
+          "options": [
+            "A) take",
+            "B) run",
+            "C) get"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: The school trip has been cancelled again.\nY: Really? Who ______ it off this time?",
+          "options": [
+            "A) called",
+            "B) put",
+            "C) turned"
+          ],
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

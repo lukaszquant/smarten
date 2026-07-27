@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Animal Idioms (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: Don't say anything to Mum - the trip is meant to be a surprise.\nY: Relax, I won't let the ______ out of the bag.",
+          "options": [
+            "A) dog",
+            "B) bird",
+            "C) cat"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: Shall I start loading the car now?\nY: Hold your ______! We're not leaving until six.",
+          "options": [
+            "A) horses",
+            "B) dogs",
+            "C) wolves"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: How was your first day at the new school?\nY: Awful. I felt like a fish out of ______.",
+          "options": [
+            "A) the sea",
+            "B) water",
+            "C) the river"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: Did you find the shop in the end?\nY: No, it closed years ago. The whole trip was a wild ______ chase.",
+          "options": [
+            "A) duck",
+            "B) rabbit",
+            "C) goose"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: Piotr is still complaining about that one bad mark.\nY: Of course. He always makes a mountain out of a ______.",
+          "options": [
+            "A) molehill",
+            "B) anthill",
+            "C) beehive"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: Do you think Adam will ever pay you back?\nY: When ______ fly.",
+          "options": [
+            "A) cows",
+            "B) pigs",
+            "C) sheep"
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

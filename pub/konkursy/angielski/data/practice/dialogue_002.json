@@ -11,37 +11,61 @@
         {
           "id": "1.1",
           "stem": "X: When shall we meet up?\nY: _________",
-          "options": ["A) How about Saturday afternoon?", "B) How about on Saturday afternoon?", "C) What about we meet Saturday afternoon?"],
-          "answer": "A"
+          "options": [
+            "A) I met up with them on Saturday afternoon.",
+            "B) How about on Saturday afternoon?",
+            "C) How about Saturday afternoon?"
+          ],
+          "answer": "C"
         },
         {
           "id": "1.2",
           "stem": "X: I was wondering if you'd like to come over for dinner on Friday.\nY: _________",
-          "options": ["A) That sounds lovely. What time shall I come round?", "B) That sounds lovely. What time do I come round?", "C) That sounds lovely. What time am I coming round?"],
+          "options": [
+            "A) That sounds lovely. What time shall I come round?",
+            "B) That sounds lovely. What time did you come round?",
+            "C) That sounds lovely. What time do I come round?"
+          ],
           "answer": "A"
         },
         {
           "id": "1.3",
           "stem": "X: Something's come up and I can't make it tomorrow.\nY: _________",
-          "options": ["A) Never mind. We should put it off.", "B) Never mind. Shall we put it off till next week?", "C) Never mind. We will put it off till next week."],
+          "options": [
+            "A) Never mind. Shall we put it on till next week?",
+            "B) Never mind. Shall we put it off till next week?",
+            "C) Never mind. Shall we put off it till next week?"
+          ],
           "answer": "B"
         },
         {
           "id": "1.4",
           "stem": "X: Are you still coming to the concert on Saturday?\nY: _________",
-          "options": ["A) Actually, I was thinking of drop out.", "B) Actually, I've been thinking of dropping out.", "C) Actually, I thought of to drop out."],
-          "answer": "B"
+          "options": [
+            "A) Actually, I've been thinking of dropping in.",
+            "B) Actually, I've been thinking of drop out.",
+            "C) Actually, I've been thinking of dropping out."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.5",
           "stem": "X: Let's go for a picnic if the weather's nice.\nY: _________",
-          "options": ["A) And what if it will rain?", "B) And what if it rains?", "C) And what if it is raining?"],
-          "answer": "B"
+          "options": [
+            "A) And what if it rains?",
+            "B) So what if it rains?",
+            "C) And what if it will rain?"
+          ],
+          "answer": "A"
         },
         {
           "id": "1.6",
           "stem": "X: I need to pick up the tickets before the show.\nY: _________",
-          "options": ["A) Don't worry. I'll have already picked them up by then.", "B) Don't worry. I'll have picked them up by then.", "C) Don't worry. I've been picking them up by then."],
+          "options": [
+            "A) Don't worry. I'll have been picking them up by then.",
+            "B) Don't worry. I'll have picked them up by then.",
+            "C) Don't worry. I'll have picked up them by then."
+          ],
           "answer": "B"
         }
       ]

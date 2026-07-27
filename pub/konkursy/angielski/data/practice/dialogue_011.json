@@ -10,63 +10,63 @@
       "items": [
         {
           "id": "1.1",
-          "stem": "X: Are you ready to order, or do you need a few more minutes?\nY: _________",
+          "stem": "Waiter: Are you ready to order, or would you like a little longer?\nGuest: _________",
           "options": [
-            "A) Could we have a little more time, please?",
-            "B) Yes, I am ordering you now.",
-            "C) No, I don't ready the menu yet."
+            "A) I'd rather not, thank you. I'm just looking.",
+            "B) Yes, I've already had lunch, thanks.",
+            "C) We're still deciding, actually. Could you come back in five minutes?"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "id": "1.2",
-          "stem": "X: Would you like still or sparkling water?\nY: _________",
+          "stem": "Waiter: How would you like your steak?\nGuest: _________",
           "options": [
-            "A) I would like it, thank you very water.",
-            "B) Still, please. And a glass of orange juice.",
-            "C) Yes, the water is very sparkling today."
-          ],
-          "answer": "B"
-        },
-        {
-          "id": "1.3",
-          "stem": "X: How would you like your steak cooked?\nY: _________",
-          "options": [
-            "A) On the kitchen, with a chef.",
-            "B) I like it very much, thank you.",
-            "C) Medium, please."
-          ],
-          "answer": "C"
-        },
-        {
-          "id": "1.4",
-          "stem": "X: I'm afraid the salmon is off today.\nY: _________",
-          "options": [
-            "A) Oh, that's a shame. I'll have the chicken instead, then.",
-            "B) Don't worry, I will turn the salmon on.",
-            "C) Yes, the salmon smells very off."
+            "A) Medium rare, please.",
+            "B) Very much, thank you.",
+            "C) Yes, I would like it."
           ],
           "answer": "A"
         },
         {
-          "id": "1.5",
-          "stem": "X: Could we have the bill, please?\nY: _________",
+          "id": "1.3",
+          "stem": "Guest: I'm afraid there's a mistake in the bill. We didn't order any desserts.\nWaiter: _________",
           "options": [
-            "A) No, his name is not Bill.",
-            "B) Of course. I'll bring it right over.",
-            "C) Yes, please give me the bill, please."
+            "A) Never mind, these things happen.",
+            "B) I do apologise. I'll have that corrected.",
+            "C) That's quite all right. Don't mention it."
           ],
           "answer": "B"
         },
         {
-          "id": "1.6",
-          "stem": "X: Is service included in the price?\nY: _________",
+          "id": "1.4",
+          "stem": "Waiter: Would you like anything else with that?\nGuest: _________",
           "options": [
-            "A) Yes, we are servicing you with the price.",
-            "B) No, the service is not in the restaurant.",
-            "C) No, it isn't, so it's up to you whether you leave a tip."
+            "A) Yes, that's all for me, thank you.",
+            "B) No, I'd like a bit longer to choose.",
+            "C) No, that's everything, thanks."
           ],
           "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: Shall we split the bill, or would you rather pay separately?\nY: _________",
+          "options": [
+            "A) Let's split it - that's much easier.",
+            "B) Yes, please, that would be very kind.",
+            "C) No, I haven't got a bill with me."
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "Waiter: Is everything all right with your meal?\nGuest: _________",
+          "options": [
+            "A) Yes, I'm all right, thank you.",
+            "B) Lovely, thank you. The soup is delicious.",
+            "C) Not at all, don't mention it."
+          ],
+          "answer": "B"
         }
       ]
     }

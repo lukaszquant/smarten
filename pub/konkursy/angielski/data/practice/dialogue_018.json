@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Idioms with Body Parts (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: Could you watch my rucksack for a minute?\nY: Sure, I'll keep an ______ on it.",
+          "options": [
+            "A) eye",
+            "B) ear",
+            "C) arm"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: How many pupils are there in the whole school?\nY: I couldn't say off the top of my ______.",
+          "options": [
+            "A) mind",
+            "B) head",
+            "C) brain"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: You didn't really meet the president, did you?\nY: Of course not. I'm pulling your ______.",
+          "options": [
+            "A) arm",
+            "B) foot",
+            "C) leg"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: How did you find out about the concert before anyone else?\nY: I always keep my ______ to the ground.",
+          "options": [
+            "A) ear",
+            "B) eye",
+            "C) nose"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: I'll never carry all these bags up the stairs on my own.\nY: Wait there, I'll give you a ______.",
+          "options": [
+            "A) finger",
+            "B) hand",
+            "C) shoulder"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: Should I ask her about her old job?\nY: Be careful what you say - don't put your ______ in it.",
+          "options": [
+            "A) hand",
+            "B) head",
+            "C) foot"
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

@@ -11,37 +11,61 @@
         {
           "id": "1.1",
           "stem": "X: I'm really sorry about breaking your vase.\nY: _________",
-          "options": ["A) Don't worry about it. These things happen.", "B) Don't worry about it. These things are happening.", "C) Don't worry about it. These things have happened."],
-          "answer": "A"
+          "options": [
+            "A) Don't worry about it. These things happened.",
+            "B) Don't worry about it. These things are happening.",
+            "C) Don't worry about it. These things happen."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.2",
           "stem": "X: The food we were served was absolutely disgusting.\nY: _________",
-          "options": ["A) I apologise for inconvenience.", "B) I do apologise for any inconvenience.", "C) I apologise you for the inconvenience."],
-          "answer": "B"
+          "options": [
+            "A) I do apologise for any inconvenience.",
+            "B) I do apologise for some inconvenience.",
+            "C) I apologise you for the inconvenience."
+          ],
+          "answer": "A"
         },
         {
           "id": "1.3",
           "stem": "X: I'm afraid I've lost the book you lent me.\nY: _________",
-          "options": ["A) Oh no! I wish you would have been more careful.", "B) Oh no! I wish you had been more careful.", "C) Oh no! I wish you were more careful."],
+          "options": [
+            "A) Oh no! I wish you would be more careful.",
+            "B) Oh no! I wish you had been more careful.",
+            "C) Oh no! I wish you would have been more careful."
+          ],
           "answer": "B"
         },
         {
           "id": "1.4",
           "stem": "X: I'd like to make a complaint about the noise from room 214.\nY: _________",
-          "options": ["A) I'll look into it straight away.", "B) I'll look it into straight away.", "C) I'll look after it straight away."],
-          "answer": "A"
+          "options": [
+            "A) I'll look it into straight away.",
+            "B) I'll look after it straight away.",
+            "C) I'll look into it straight away."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.5",
           "stem": "X: You promised you'd pick me up at eight, and I waited for over an hour!\nY: _________",
-          "options": ["A) I know, and I can't apologise enough. I should have called.", "B) I know, and I can't apologise enough. I should call.", "C) I know, and I can't apologise enough. I must have called."],
+          "options": [
+            "A) I know, and I can't apologise enough. I should have called.",
+            "B) I know, and I can't apologise enough. I should call.",
+            "C) I know, and I can't apologise enough. I must have called."
+          ],
           "answer": "A"
         },
         {
           "id": "1.6",
           "stem": "X: The product I ordered arrived damaged. I'd like a full refund.\nY: _________",
-          "options": ["A) I'm sorry to hear that. Let me to sort this out for you.", "B) I'm sorry to hear that. Let me sort this out for you.", "C) I'm sorry hearing that. Let me sort this out for you."],
+          "options": [
+            "A) I'm sorry to hear that. Let me sort you out for this.",
+            "B) I'm sorry to hear that. Let me sort this out for you.",
+            "C) I'm sorry to hear that. Let me to sort this out for you."
+          ],
           "answer": "B"
         }
       ]

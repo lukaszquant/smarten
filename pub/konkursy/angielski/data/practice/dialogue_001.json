@@ -11,38 +11,62 @@
         {
           "id": "1.1",
           "stem": "X: Are you enjoying your new job?\nY: _________",
-          "options": ["A) I'm getting used to it.", "B) I used to enjoy it.", "C) I'm used to enjoy it."],
-          "answer": "A"
+          "options": [
+            "A) I used to enjoy it.",
+            "B) I'm getting used to it.",
+            "C) I'm used to enjoy it."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.2",
           "stem": "X: I haven't seen Tom for ages. Do you know what he's up to?\nY: _________",
-          "options": ["A) He's been travelling since last month.", "B) He travelled since last month.", "C) He was travelling since last month."],
-          "answer": "A"
+          "options": [
+            "A) He travelled since last month.",
+            "B) He was travelling since last month.",
+            "C) He's been travelling since last month."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.3",
           "stem": "X: Could you give me a hand with these boxes?\nY: _________",
-          "options": ["A) Sure, I'll carry them for you.", "B) Sure, I carry them for you.", "C) Sure, I'm carrying them for you."],
+          "options": [
+            "A) Sure, I'll carry them for you.",
+            "B) Sure, I carry them for you.",
+            "C) Sure, I'm carrying them for you."
+          ],
           "answer": "A"
         },
         {
           "id": "1.4",
           "stem": "X: Do you fancy going to the cinema tonight?\nY: _________",
-          "options": ["A) I'd love to, but I have to work late.", "B) I'd love, but I have to work late.", "C) I love to, but I have to work late."],
-          "answer": "A"
+          "options": [
+            "A) I'd rather not, but I have to work late.",
+            "B) I'd love to, but I have to work late.",
+            "C) I'd love, but I have to work late."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.5",
           "stem": "X: I've just passed my driving test!\nY: _________",
-          "options": ["A) Well done! You should be proud of you.", "B) Well done! You must be so pleased.", "C) Well done! You must be so pleasing."],
-          "answer": "B"
+          "options": [
+            "A) Well done! You should be so pleased.",
+            "B) Well done! You must be so pleasing.",
+            "C) Well done! You must be so pleased."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.6",
           "stem": "X: Sorry, but I don't think I can make it to your party.\nY: _________",
-          "options": ["A) That's a pity. Maybe the next time.", "B) That's a pity. Maybe next time.", "C) That's pity. Maybe next time."],
-          "answer": "B"
+          "options": [
+            "A) That's a pity. Maybe next time.",
+            "B) That's a relief. Maybe next time.",
+            "C) That's a pity. Maybe the next time."
+          ],
+          "answer": "A"
         }
       ]
     }

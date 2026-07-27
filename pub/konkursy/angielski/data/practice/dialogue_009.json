@@ -11,38 +11,62 @@
         {
           "id": "1.1",
           "stem": "X: You don't look well. Are you feeling all right?\nY: _________",
-          "options": ["A) Not really. I've been coming down with something all day.", "B) Not really. I think I'm coming down with something.", "C) Not really. I come down with something."],
-          "answer": "B"
+          "options": [
+            "A) Not really. I think I'm coming down with something.",
+            "B) Not really. I think I'm coming round with something.",
+            "C) Not really. I come down with something."
+          ],
+          "answer": "A"
         },
         {
           "id": "1.2",
           "stem": "X: The doctor said I need to cut down on sugar.\nY: _________",
-          "options": ["A) That's easier said than done, isn't it?", "B) That's easier said than doing, isn't it?", "C) That's easier to say than do, isn't it?"],
-          "answer": "A"
+          "options": [
+            "A) That's easier said than doing, isn't it?",
+            "B) That's easier said than done, isn't it?",
+            "C) That's easier to say than do, isn't it?"
+          ],
+          "answer": "B"
         },
         {
           "id": "1.3",
           "stem": "X: I've been getting terrible headaches lately.\nY: _________",
-          "options": ["A) You really should get them to check out.", "B) You really ought to have them checked out.", "C) You really must have them to check out."],
-          "answer": "B"
+          "options": [
+            "A) You really should get them to check out.",
+            "B) You really must have them to check out.",
+            "C) You really ought to have them checked out."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.4",
           "stem": "X: I've signed up for a marathon next month.\nY: _________",
-          "options": ["A) Good for you! How long have you been training?", "B) Good for you! How long are you training?", "C) Good for you! How long do you train?"],
+          "options": [
+            "A) Good for you! How long have you been training?",
+            "B) Good for you! How long are you training?",
+            "C) Good for you! How long do you train?"
+          ],
           "answer": "A"
         },
         {
           "id": "1.5",
           "stem": "X: I've been so stressed that I can hardly sleep at night.\nY: _________",
-          "options": ["A) Have you tried to take up meditation?", "B) Have you tried taking up meditation?", "C) Have you tried take up meditation?"],
+          "options": [
+            "A) Have you tried taking on meditation?",
+            "B) Have you tried taking up meditation?",
+            "C) Have you tried take up meditation?"
+          ],
           "answer": "B"
         },
         {
           "id": "1.6",
           "stem": "X: My back's been playing up again since the weekend.\nY: _________",
-          "options": ["A) If I were you, I'd make an appointment with the physiotherapist.", "B) If I'd be you, I'd make an appointment with the physiotherapist.", "C) If I were you, I'd make an appointment at the physiotherapist."],
-          "answer": "A"
+          "options": [
+            "A) If I'd be you, I'd make an appointment with the physiotherapist.",
+            "B) If I were you, I'd make an appointment at the physiotherapist.",
+            "C) If I were you, I'd make an appointment with the physiotherapist."
+          ],
+          "answer": "C"
         }
       ]
     }

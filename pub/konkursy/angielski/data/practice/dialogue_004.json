@@ -11,38 +11,62 @@
         {
           "id": "1.1",
           "stem": "X: Do you think school uniforms should be compulsory?\nY: _________",
-          "options": ["A) As far as I'm concerned, they take away students' individuality.", "B) As far as I'm concerning, they take away students' individuality.", "C) As far as I concern, they take away students' individuality."],
-          "answer": "A"
+          "options": [
+            "A) As long as I'm concerned, they take away students' individuality.",
+            "B) As far as I'm concerned, they take away students' individuality.",
+            "C) As far as I'm concerning, they take away students' individuality."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.2",
           "stem": "X: I believe that social media does more harm than good.\nY: _________",
-          "options": ["A) I see what you mean, but I wouldn't go so far.", "B) I see what you mean, but I won't go so far.", "C) I see what you mean, but I'm not going so far."],
-          "answer": "A"
+          "options": [
+            "A) I see what you mean, but I wouldn't go too far.",
+            "B) I see what you mean, but I wouldn't go so far.",
+            "C) I see what you mean, but I wouldn't go that far."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.3",
           "stem": "X: The new shopping centre will ruin the character of the town.\nY: _________",
-          "options": ["A) I don't think it's quite as simply as that.", "B) I don't think it's quite as simple as that.", "C) I don't think it's quite so simply as that."],
-          "answer": "B"
+          "options": [
+            "A) I don't think it's quite as simple as that.",
+            "B) I don't think it's quite as simply as that.",
+            "C) I don't think it's quite so simply as that."
+          ],
+          "answer": "A"
         },
         {
           "id": "1.4",
           "stem": "X: What are your views on lowering the voting age to sixteen?\nY: _________",
-          "options": ["A) Personally, I'm all for it.", "B) Personally, I'm all to it.", "C) Personally, I'm all with it."],
-          "answer": "A"
+          "options": [
+            "A) Personally, I'm all against it.",
+            "B) Personally, I'm all for it.",
+            "C) Personally, I'm all with it."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.5",
           "stem": "X: Homework is a waste of time at primary school.\nY: _________",
-          "options": ["A) That's true to a point, but it does teach children discipline.", "B) That's true at a point, but it does teach children discipline.", "C) That's true in a point, but it does teach children discipline."],
-          "answer": "A"
+          "options": [
+            "A) That's true to the point, but it does teach children discipline.",
+            "B) That's true at a point, but it does teach children discipline.",
+            "C) That's true to a point, but it does teach children discipline."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.6",
           "stem": "X: I firmly believe that zoos should be banned.\nY: _________",
-          "options": ["A) I take your point, however I tend to disagree.", "B) I take your point, but I tend to disagree.", "C) I take your point, and I tend to disagree."],
-          "answer": "B"
+          "options": [
+            "A) I take your point, but I tend to disagree.",
+            "B) I take your point, so I tend to disagree.",
+            "C) I take your point, and I tend to disagree."
+          ],
+          "answer": "A"
         }
       ]
     }

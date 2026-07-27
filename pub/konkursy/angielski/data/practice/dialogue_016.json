@@ -10,63 +10,63 @@
       "items": [
         {
           "id": "1.1",
-          "stem": "X: Would you like another piece of cake?\nY: _________",
+          "stem": "X: Would you mind if I opened the window?\nY: _________",
           "options": [
-            "A) No, thanks. I'm full already.",
-            "B) Yes, I am very piece.",
-            "C) No, I don't like to another."
+            "A) Yes, of course, go ahead.",
+            "B) Not at all, go ahead.",
+            "C) Yes, I'd be delighted."
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "id": "1.2",
-          "stem": "X: I'm really sorry I broke your mug.\nY: _________",
+          "stem": "X: Marta has just got into medical school.\nY: _________",
           "options": [
-            "A) Never mind, it doesn't matter.",
-            "B) Yes, you are very sorry me.",
-            "C) Please don't mind it me."
+            "A) Did she? That's wonderful.",
+            "B) Is she? That's wonderful.",
+            "C) Has she? That's wonderful."
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "id": "1.3",
-          "stem": "X: How long does it take to get to the station?\nY: _________",
+          "stem": "X: You couldn't lend me ten zloty, could you?\nY: _________",
           "options": [
-            "A) It takes about ten minutes on foot.",
-            "B) It takes since ten minutes walking.",
-            "C) About ten minutes by the foot."
+            "A) Sure, here you are.",
+            "B) No, I couldn't.",
+            "C) Yes, you couldn't."
           ],
           "answer": "A"
         },
         {
           "id": "1.4",
-          "stem": "X: Could you turn the music down a bit?\nY: _________",
+          "stem": "X: I'm afraid I've broken your mug.\nY: _________",
           "options": [
-            "A) Yes, please turn down it more.",
-            "B) Of course, sorry it was so loud.",
-            "C) No, the music is turning me down."
+            "A) Not at all, it was a pleasure.",
+            "B) Never mind, it wasn't an expensive one.",
+            "C) Don't mention it, any time."
           ],
           "answer": "B"
         },
         {
           "id": "1.5",
-          "stem": "X: What does your new teacher look like?\nY: _________",
+          "stem": "X: It's boiling in here, isn't it?\nY: _________",
           "options": [
-            "A) She likes reading and tennis.",
-            "B) She is looking like very kind.",
-            "C) She's tall and has short brown hair."
+            "A) It is, rather. Shall I turn the heating up?",
+            "B) It isn't, rather. Shall I turn the heating down?",
+            "C) It is, rather. Shall I turn the heating down?"
           ],
           "answer": "C"
         },
         {
           "id": "1.6",
-          "stem": "X: Do you fancy going to the cinema tonight?\nY: _________",
+          "stem": "X: Do you think you could give me a hand with this?\nY: _________",
           "options": [
-            "A) Yes, I fancy it the cinema tonight.",
-            "B) That sounds great. What's on?",
-            "C) No, I don't fancy to go there."
+            "A) Of course. What do you need me to do?",
+            "B) Of course. I'll give you my hand.",
+            "C) Of course. What do you need me doing?"
           ],
-          "answer": "B"
+          "answer": "A"
         }
       ]
     }

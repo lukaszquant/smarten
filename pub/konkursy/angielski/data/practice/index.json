@@ -1595,6 +1595,62 @@
       "taskType": "open_cloze",
       "taskCount": 1,
       "points": 5
+    },
+    {
+      "id": "dialogue_017",
+      "title": "Animal Idioms (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_018",
+      "title": "Idioms with Body Parts (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_019",
+      "title": "Phrasal Verbs in Conversation 1 (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_020",
+      "title": "Phrasal Verbs in Conversation 2 (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_021",
+      "title": "Food and Drink Idioms (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_022",
+      "title": "Colour and Weather Idioms (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_023",
+      "title": "Fixed Collocations (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "dialogue_024",
+      "title": "Mixed Idioms and Expressions (poziom rejonowy/wojewodzki)",
+      "taskType": "dialogue_choice",
+      "taskCount": 1,
+      "points": 6
     }
   ]
 }

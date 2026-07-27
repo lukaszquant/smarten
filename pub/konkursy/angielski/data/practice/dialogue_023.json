@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Fixed Collocations (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: You've spelt 'receive' wrongly again.\nY: Sorry, I wasn't ______ attention.",
+          "options": [
+            "A) giving",
+            "B) making",
+            "C) paying"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: There's only one swing and there are two of them.\nY: Then they'll have to ______ turns.",
+          "options": [
+            "A) take",
+            "B) make",
+            "C) do"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: Could you ______ me a favour and post this letter?\nY: Of course, I'm going past the postbox anyway.",
+          "options": [
+            "A) make",
+            "B) do",
+            "C) give"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: Nobody has told Grandma about the accident yet.\nY: I'll ______ the news to her gently this evening.",
+          "options": [
+            "A) tell",
+            "B) give",
+            "C) break"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: Are you sure you can say nothing about this?\nY: Don't worry, I can ______ a secret.",
+          "options": [
+            "A) keep",
+            "B) hold",
+            "C) save"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: Have you chosen which school to apply to?\nY: Not yet, but I have to ______ a decision by Friday.",
+          "options": [
+            "A) do",
+            "B) make",
+            "C) take"
+          ],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

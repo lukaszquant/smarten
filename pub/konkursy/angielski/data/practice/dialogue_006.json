@@ -11,38 +11,62 @@
         {
           "id": "1.1",
           "stem": "X: I'm looking for a pair of jeans in a size 32.\nY: _________",
-          "options": ["A) I'll check if we have any left in stock.", "B) I'll check if we have some left in stock.", "C) I'll check if we have any left on stock."],
+          "options": [
+            "A) I'll check if we have any left in stock.",
+            "B) I'll check if we have some left in stock.",
+            "C) I'll check if we have any left on stock."
+          ],
           "answer": "A"
         },
         {
           "id": "1.2",
           "stem": "X: I bought this jacket last week, but the zip is broken.\nY: _________",
-          "options": ["A) Would you like to exchange it or you prefer a refund?", "B) Would you like to exchange it or would you prefer a refund?", "C) Would you like exchanging it or prefer a refund?"],
+          "options": [
+            "A) Would you like to exchange it or you prefer a refund?",
+            "B) Would you like to exchange it or would you prefer a refund?",
+            "C) Would you like exchanging it or prefer a refund?"
+          ],
           "answer": "B"
         },
         {
           "id": "1.3",
           "stem": "X: How much does it cost to have this suit dry-cleaned?\nY: _________",
-          "options": ["A) That comes to twelve pounds. It'll be ready by Thursday.", "B) That comes at twelve pounds. It'll be ready by Thursday.", "C) That goes to twelve pounds. It'll be ready by Thursday."],
-          "answer": "A"
+          "options": [
+            "A) That comes to twelve pounds. It'll be ready until Thursday.",
+            "B) That comes at twelve pounds. It'll be ready by Thursday.",
+            "C) That comes to twelve pounds. It'll be ready by Thursday."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.4",
           "stem": "X: Could I try these shoes on in a size 8?\nY: _________",
-          "options": ["A) Of course. I'm afraid we've been running out of that size, though.", "B) Of course. I'm afraid we've run out of that size, though.", "C) Of course. I'm afraid we run out of that size, though."],
-          "answer": "B"
+          "options": [
+            "A) Of course. I'm afraid we've run out of that size, though.",
+            "B) Of course. I'm afraid we've run out of that size, although.",
+            "C) Of course. I'm afraid we've been running out of that size, though."
+          ],
+          "answer": "A"
         },
         {
           "id": "1.5",
           "stem": "X: I'd like to take this dress, but it's a bit too long.\nY: _________",
-          "options": ["A) We can have it taken up for you if you like.", "B) We can have it taking up for you if you like.", "C) We can get it take up for you if you like."],
-          "answer": "A"
+          "options": [
+            "A) We can have it taken up by you if you like.",
+            "B) We can have it taken up for you if you like.",
+            "C) We can have it taking up for you if you like."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.6",
           "stem": "X: I ordered a table online, but it hasn't arrived yet.\nY: _________",
-          "options": ["A) Let me track the delivery. It should have dispatched yesterday.", "B) Let me track the delivery. It should have been dispatched yesterday.", "C) Let me track the delivery. It should be dispatching yesterday."],
-          "answer": "B"
+          "options": [
+            "A) Let me track the delivery. It must have been dispatched yesterday.",
+            "B) Let me track the delivery. It should have dispatched yesterday.",
+            "C) Let me track the delivery. It should have been dispatched yesterday."
+          ],
+          "answer": "C"
         }
       ]
     }

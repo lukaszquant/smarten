@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Mixed Idioms and Expressions (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: Losing that place on the team turned out well in the end.\nY: Yes, it was a blessing in ______.",
+          "options": [
+            "A) disguise",
+            "B) secret",
+            "C) hiding"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: Did you hear that Ania won the scholarship?\nY: She must be over the ______.",
+          "options": [
+            "A) stars",
+            "B) moon",
+            "C) sky"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: These instructions look really complicated.\nY: Don't worry, you'll soon get the ______ of it.",
+          "options": [
+            "A) hold",
+            "B) grip",
+            "C) hang"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: Should I apply even though I probably won't get in?\nY: Definitely - nothing ______, nothing gained.",
+          "options": [
+            "A) ventured",
+            "B) tried",
+            "C) risked"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: We've been working on this for hours and got nowhere.\nY: I think we should call it a ______.",
+          "options": [
+            "A) night",
+            "B) day",
+            "C) time"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: Are you nervous about telling him you broke it?\nY: A bit, but I'll just have to ______ the bullet.",
+          "options": [
+            "A) eat",
+            "B) chew",
+            "C) bite"
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}

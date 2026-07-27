@@ -11,38 +11,62 @@
         {
           "id": "1.1",
           "stem": "X: Excuse me, could you tell me how to get to the cathedral?\nY: _________",
-          "options": ["A) Go straight on and turn left at the traffic lights.", "B) Go straight on and turn at left at the traffic lights.", "C) Go straight on and turn to the left at traffic lights."],
-          "answer": "A"
+          "options": [
+            "A) Go straight on and turn left at the traffic jam.",
+            "B) Go straight on and turn left at the traffic lights.",
+            "C) Go straight on and turn to the left at traffic lights."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.2",
           "stem": "X: I'm afraid our flight has been delayed by three hours.\nY: _________",
-          "options": ["A) That's annoying. I wish we had booked a direct flight.", "B) That's annoying. I wish we booked a direct flight.", "C) That's annoying. I wish we would book a direct flight."],
-          "answer": "A"
+          "options": [
+            "A) That's annoying. I wish we booked a direct flight.",
+            "B) That's annoying. I wish we would book a direct flight.",
+            "C) That's annoying. I wish we had booked a direct flight."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.3",
           "stem": "X: Do you happen to know what time the last train leaves?\nY: _________",
-          "options": ["A) If I'm not mistaking, it departs at quarter to eleven.", "B) If I'm not mistaken, it departs at a quarter to eleven.", "C) If I'm not mistaken, it departs at quarter to eleven."],
-          "answer": "B"
+          "options": [
+            "A) If I'm not mistaken, it departs at a quarter to eleven.",
+            "B) If I don't mistake, it departs at a quarter to eleven.",
+            "C) If I'm not mistaking, it departs at a quarter to eleven."
+          ],
+          "answer": "A"
         },
         {
           "id": "1.4",
           "stem": "X: We've missed the connecting bus. What do we do now?\nY: _________",
-          "options": ["A) We might as well get a taxi. There isn't another bus until morning.", "B) We might as well to get a taxi. There isn't another bus until morning.", "C) We may as well getting a taxi. There isn't another bus until morning."],
-          "answer": "A"
+          "options": [
+            "A) We might as well to get a taxi. There isn't another bus until morning.",
+            "B) We might as well get a taxi. There isn't another bus until morning.",
+            "C) We may as well getting a taxi. There isn't another bus until morning."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.5",
           "stem": "X: I'd like to check in. I have a reservation under the name Porter.\nY: _________",
-          "options": ["A) Certainly. Could I see your passport, please?", "B) Certainly. May I see your passport, please?", "C) Certainly. Shall I see your passport, please?"],
-          "answer": "B"
+          "options": [
+            "A) Certainly. Should I see your passport, please?",
+            "B) Certainly. Would I see your passport, please?",
+            "C) Certainly. Could I see your passport, please?"
+          ],
+          "answer": "C"
         },
         {
           "id": "1.6",
           "stem": "X: Is it worth visiting the old town?\nY: _________",
-          "options": ["A) Absolutely. It's well worth to see.", "B) Absolutely. It's well worth a visit.", "C) Absolutely. It's well worthy of a visit."],
-          "answer": "B"
+          "options": [
+            "A) Absolutely. It's well worth a visit.",
+            "B) Absolutely. It's well worth of a visit.",
+            "C) Absolutely. It's well worth to see."
+          ],
+          "answer": "A"
         }
       ]
     }

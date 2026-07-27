@@ -11,37 +11,61 @@
         {
           "id": "1.1",
           "stem": "X: Would you mind if I opened the window? It's very stuffy in here.\nY: _________",
-          "options": ["A) No, go ahead.", "B) Yes, go ahead.", "C) No, I'd rather you don't."],
-          "answer": "A"
+          "options": [
+            "A) Yes, go ahead.",
+            "B) No, go ahead.",
+            "C) No, I'd rather you don't."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.2",
           "stem": "X: I hear you've been promoted. That's wonderful news!\nY: _________",
-          "options": ["A) Thanks! I'm over the moon about it.", "B) Thanks! I'm over moon about it.", "C) Thanks! I'm on the moon about it."],
-          "answer": "A"
+          "options": [
+            "A) Thanks! I'm over moon about it.",
+            "B) Thanks! I'm on the moon about it.",
+            "C) Thanks! I'm over the moon about it."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.3",
           "stem": "X: I'm a bit nervous about meeting your parents for the first time.\nY: _________",
-          "options": ["A) There's nothing to worry about. They'll love you.", "B) There's nothing to worry. They'll love you.", "C) There's nothing for worry about. They'll love you."],
+          "options": [
+            "A) There's nothing to worry about. They'll love you.",
+            "B) There's nothing to worry. They'll love you.",
+            "C) There's nothing for worry about. They'll love you."
+          ],
           "answer": "A"
         },
         {
           "id": "1.4",
           "stem": "X: Could you keep an eye on my bag while I go to the counter?\nY: _________",
-          "options": ["A) Sure, no problem. Take your time.", "B) Sure, no problem. Take the time.", "C) Sure, no problem. Have your time."],
-          "answer": "A"
+          "options": [
+            "A) Sure, no problem. Take the time.",
+            "B) Sure, no problem. Take your time.",
+            "C) Sure, no problem. Have your time."
+          ],
+          "answer": "B"
         },
         {
           "id": "1.5",
           "stem": "X: It was lovely to see you again. We really must catch up more often.\nY: _________",
-          "options": ["A) Definitely. Let's not leave it so long next time.", "B) Definitely. Let's not leave it such long next time.", "C) Definitely. Let's don't leave it so long next time."],
-          "answer": "A"
+          "options": [
+            "A) Definitely. Let's not leave it such long next time.",
+            "B) Definitely. Let's don't leave it so long next time.",
+            "C) Definitely. Let's not leave it so long next time."
+          ],
+          "answer": "C"
         },
         {
           "id": "1.6",
           "stem": "X: I wonder if you could do me a favour.\nY: _________",
-          "options": ["A) That depends on what it is.", "B) That depends of what it is.", "C) That is depending on what it is."],
+          "options": [
+            "A) That depends on what it is.",
+            "B) That depends of what it is.",
+            "C) That is depending on what it is."
+          ],
           "answer": "A"
         }
       ]

@@ -1,0 +1,74 @@
+{
+  "title": "Dialogue: Food and Drink Idioms (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "dialogue_choice",
+      "points": 6,
+      "instruction": "Uzupelnij ponizsze dialogi (1.1-1.6), wybierajac brakujace wyrazenie A, B lub C.",
+      "items": [
+        {
+          "id": "1.1",
+          "stem": "X: Was the maths test difficult?\nY: Not at all, it was a piece of ______.",
+          "options": [
+            "A) cake",
+            "B) pie",
+            "C) bread"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.2",
+          "stem": "X: Can you tell me what the book is about in a few words?\nY: In a ______, a boy discovers he can fly.",
+          "options": [
+            "A) peanut",
+            "B) nutshell",
+            "C) eggshell"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "stem": "X: Who told everyone about the surprise party?\nY: Kuba, obviously. He always ______ the beans.",
+          "options": [
+            "A) drops",
+            "B) breaks",
+            "C) spills"
+          ],
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "stem": "X: He says he swam with sharks last summer.\nY: I'd take that with a ______ of salt.",
+          "options": [
+            "A) pinch",
+            "B) spoon",
+            "C) drop"
+          ],
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "stem": "X: All the best players were chosen for the national squad.\nY: Yes, they took the ______ of the crop.",
+          "options": [
+            "A) milk",
+            "B) cream",
+            "C) butter"
+          ],
+          "answer": "B"
+        },
+        {
+          "id": "1.6",
+          "stem": "X: Is it hard to learn to ride a bike?\nY: Not really - it's as easy as ______.",
+          "options": [
+            "A) cake",
+            "B) bread",
+            "C) pie"
+          ],
+          "answer": "C"
+        }
+      ]
+    }
+  ]
+}
