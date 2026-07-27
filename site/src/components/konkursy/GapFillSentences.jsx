@@ -13,6 +13,7 @@ export default function GapFillSentences({ task, answers, onChange, showResults,
   return (
     <div style={s.card}>
       <p style={s.instruction}>{task.instruction}</p>
+      {task.title && <p style={s.passageTitle}>{task.title}</p>}
       {task.text && <div style={s.text}>{task.text}</div>}
 
       <div style={{ marginBottom: 16 }}>

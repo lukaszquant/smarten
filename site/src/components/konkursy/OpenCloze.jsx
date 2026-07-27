@@ -11,7 +11,7 @@ export default function OpenCloze({ task, answers, onChange, showResults, taskRe
   return (
     <div style={s.card}>
       <p style={s.instruction}>{task.instruction}</p>
-      {task.title && <p style={{ color: "#e8e8f0", fontWeight: 700, fontSize: 15, marginBottom: 12 }}>{task.title}</p>}
+      {task.title && <p style={s.passageTitle}>{task.title}</p>}
 
       <div style={{ ...s.text, lineHeight: 2.8 }}>
         {renderTextWithGaps(task.text, items, answers, onChange, showResults, taskResult)}

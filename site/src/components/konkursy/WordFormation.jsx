@@ -35,7 +35,7 @@ export default function WordFormation({ task, answers, onChange, showResults, ta
         </div>
       )}
 
-      {task.title && <p style={{ color: "#e8e8f0", fontWeight: 700, fontSize: 15, marginBottom: 12 }}>{task.title}</p>}
+      {task.title && <p style={s.passageTitle}>{task.title}</p>}
 
       {perSentence
         ? <SentenceList items={items} answers={answers} onChange={onChange} showResults={showResults} taskResult={taskResult} />

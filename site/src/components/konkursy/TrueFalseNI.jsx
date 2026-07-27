@@ -13,6 +13,7 @@ export default function TrueFalseNI({ task, answers, onChange, showResults, task
   return (
     <div style={s.card}>
       <p style={s.instruction}>{task.instruction}</p>
+      {task.title && <p style={s.passageTitle}>{task.title}</p>}
       {task.text && <div style={s.text}>{task.text}</div>}
 
       <table style={{ width: "100%", borderCollapse: "collapse", marginBottom: vocabItems.length ? 20 : 0 }}>

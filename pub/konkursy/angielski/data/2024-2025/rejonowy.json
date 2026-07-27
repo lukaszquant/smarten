@@ -452,7 +452,7 @@
       "items": [
         {
           "id": "8.1",
-          "text": "She _________ (usually / not / go) downtown by car. So, she would prefer _________ (we / take) the underground tomorrow.",
+          "context": "She _________ (usually / not / go) downtown by car. So, she would prefer _________ (we / take) the underground tomorrow.",
           "answer": [
             "does not (doesn't) usually go",
             "us to take"
@@ -460,7 +460,7 @@
         },
         {
           "id": "8.2",
-          "text": "During the last storm the lightning _________ (strike) the tip of the Eiffel Tower. It was the first time I _________ (see) such power in nature.",
+          "context": "During the last storm the lightning _________ (strike) the tip of the Eiffel Tower. It was the first time I _________ (see) such power in nature.",
           "answer": [
             "struck",
             "had ('d) seen"
@@ -468,7 +468,7 @@
         },
         {
           "id": "8.3",
-          "text": "You'd better _________ (hurry), otherwise you _________ (miss) the train.",
+          "context": "You'd better _________ (hurry), otherwise you _________ (miss) the train.",
           "answer": [
             "hurry (up)",
             "will ('ll) miss"
@@ -476,7 +476,7 @@
         },
         {
           "id": "8.4",
-          "text": "After we _________ (drive) through open countryside for a few hours, we _________ (run) out of petrol just before getting to the place.",
+          "context": "After we _________ (drive) through open countryside for a few hours, we _________ (run) out of petrol just before getting to the place.",
           "answer": [
             "had ('d) been driving",
             "ran"

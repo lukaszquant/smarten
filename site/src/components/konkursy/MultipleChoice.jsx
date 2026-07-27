@@ -41,7 +41,9 @@ export default function MultipleChoice({ task, answers, onChange, showResults, t
             <div key={item.id}>
               <p style={{ color: "#c8c8d8", fontSize: 14, lineHeight: 1.7, marginBottom: 8, whiteSpace: "pre-wrap" }}>
                 <span style={{ color: "#7a7a90", marginRight: 8 }}>{item.id}</span>
-                {item.stem || item.prompt}
+                {/* dialogue_choice tasks put the exchange in `context`; without
+                    it the student sees three options and no dialogue. */}
+                {item.stem || item.prompt || item.context}
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: 4, paddingLeft: 8 }}>
                 {item.options.map((opt, i) => {

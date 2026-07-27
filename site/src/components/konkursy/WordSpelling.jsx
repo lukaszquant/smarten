@@ -20,7 +20,10 @@ export default function WordSpelling({ task, answers, onChange, showResults, tas
             <div key={item.id}>
               <p style={{ color: "#c8c8d8", fontSize: 14, lineHeight: 1.7, marginBottom: 6 }}>
                 <span style={{ color: "#7a7a90", marginRight: 8 }}>{item.id}</span>
-                {item.stem}
+                {/* The papers name this field three ways; all three hold the
+                    sentence with the letter pattern already inside it. Without
+                    the fallbacks the row is a bare number and a blank box. */}
+                {item.stem || item.clue || item.sentence}
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 10, paddingLeft: 8 }}>
                 <input

@@ -13,6 +13,14 @@ export const instruction = {
   marginBottom: 16,
 };
 
+// Headline printed above a reading passage. The papers put it in task.title.
+export const passageTitle = {
+  color: "#e8e8f0",
+  fontWeight: 700,
+  fontSize: 15,
+  marginBottom: 12,
+};
+
 export const text = {
   fontSize: 14,
   color: "#c8c8d8",
