@@ -1,0 +1,77 @@
+{
+  "title": "Explorers and Expeditions (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 5,
+      "instruction": "Do podanych nazwisk podroznikow (1.1.-1.5.) dopasuj opisy ich dokonan (A-I). Cztery opisy zostaly podane dodatkowo i nie odnosza sie do zadnej osoby.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the first Englishman to sail around the world"
+        },
+        {
+          "letter": "B",
+          "text": "the leader of the Endurance expedition to Antarctica"
+        },
+        {
+          "letter": "C",
+          "text": "the missionary who explored the Zambezi in Africa"
+        },
+        {
+          "letter": "D",
+          "text": "the first man to reach the South Pole"
+        },
+        {
+          "letter": "E",
+          "text": "one of the first two men to reach the summit of Everest"
+        },
+        {
+          "letter": "F",
+          "text": "the navigator who first sailed around the Cape of Good Hope"
+        },
+        {
+          "letter": "G",
+          "text": "the naturalist who sailed on HMS Beagle"
+        },
+        {
+          "letter": "H",
+          "text": "the first European to cross Australia from south to north"
+        },
+        {
+          "letter": "I",
+          "text": "the first European to reach the east coast of Australia"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "Captain James Cook",
+          "answer": "I"
+        },
+        {
+          "id": "1.2",
+          "label": "Ernest Shackleton",
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "label": "David Livingstone",
+          "answer": "C"
+        },
+        {
+          "id": "1.4",
+          "label": "Edmund Hillary",
+          "answer": "E"
+        },
+        {
+          "id": "1.5",
+          "label": "Francis Drake",
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

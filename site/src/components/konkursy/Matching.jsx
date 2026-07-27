@@ -41,7 +41,10 @@ function SingleAnswerList({ items, options, answers, onChange, showResults, task
     const selectStyle = showResults && ir
       ? { borderColor: ir.correct ? "#50d890" : "#e05050" }
       : {};
-    const label = item.name || item.statement || item.id;
+    // `label` is what most of the competition papers use for the thing being
+    // matched (a person, a painting, a dish); without it the row shows only its
+    // number and there is nothing to match against.
+    const label = item.name || item.statement || item.label || item.id;
     return (
       <div key={item.id} style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
         <span style={{ color: "#c8c8d8", fontSize: 14, minWidth: 140 }}>{label}</span>
@@ -84,7 +87,7 @@ function MultiAnswerTable({ items, options, answers, onChange, showResults, task
           const ir = getItemResult(taskResult, item.id);
           return (
             <tr key={item.id} style={ir ? { background: ir.correct ? "#50d89008" : "#e0505008" } : {}}>
-              <td style={{ ...tdStyle, fontWeight: 600 }}>{item.id}</td>
+              <td style={{ ...tdStyle, fontWeight: 600 }}>{item.category || item.id}</td>
               {Array.from({ length: numSelects }, (_, idx) => (
                 <td key={idx} style={tdStyle}>
                   <select

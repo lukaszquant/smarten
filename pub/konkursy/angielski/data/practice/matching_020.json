@@ -1,0 +1,78 @@
+{
+  "title": "Landmarks and Their Cities (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Do podanych obiektow (1.1.-1.6.) dopasuj miasta, w ktorych sie znajduja (A-H). Dwa miasta zostaly podane dodatkowo i nie odnosza sie do zadnego obiektu.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "New York"
+        },
+        {
+          "letter": "B",
+          "text": "Rome"
+        },
+        {
+          "letter": "C",
+          "text": "Barcelona"
+        },
+        {
+          "letter": "D",
+          "text": "San Francisco"
+        },
+        {
+          "letter": "E",
+          "text": "Chicago"
+        },
+        {
+          "letter": "F",
+          "text": "Copenhagen"
+        },
+        {
+          "letter": "G",
+          "text": "Vienna"
+        },
+        {
+          "letter": "H",
+          "text": "Berlin"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "the Golden Gate Bridge",
+          "answer": "D"
+        },
+        {
+          "id": "1.2",
+          "label": "the Colosseum",
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "label": "Times Square",
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "label": "the Brandenburg Gate",
+          "answer": "H"
+        },
+        {
+          "id": "1.5",
+          "label": "the Sagrada Familia",
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "label": "the Little Mermaid statue",
+          "answer": "F"
+        }
+      ]
+    }
+  ]
+}

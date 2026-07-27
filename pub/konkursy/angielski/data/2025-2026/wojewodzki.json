@@ -481,7 +481,7 @@
     },
     {
       "id": "9",
-      "type": "matching_columns",
+      "type": "matching",
       "points": 5,
       "instruction": "Do podanych określeń (9.1.–9.5.) dopasuj ich wyjaśnienia (A–I). Cztery wyjaśnienia zostały podane dodatkowo i nie odnoszą się do żadnego określenia. Przenieś rozwiązania na kartę odpowiedzi.",
       "options": [

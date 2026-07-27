@@ -1,0 +1,78 @@
+{
+  "title": "British and Irish Writers (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Do podanych nazwisk pisarzy (1.1.-1.6.) dopasuj ich dziela (A-H). Dwa tytuly zostaly podane dodatkowo i nie odnosza sie do zadnego pisarza.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wuthering Heights"
+        },
+        {
+          "letter": "B",
+          "text": "Great Expectations"
+        },
+        {
+          "letter": "C",
+          "text": "The Picture of Dorian Gray"
+        },
+        {
+          "letter": "D",
+          "text": "Frankenstein"
+        },
+        {
+          "letter": "E",
+          "text": "Robinson Crusoe"
+        },
+        {
+          "letter": "F",
+          "text": "Oliver Twist"
+        },
+        {
+          "letter": "G",
+          "text": "Gulliver's Travels"
+        },
+        {
+          "letter": "H",
+          "text": "Jane Eyre"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "Charles Dickens",
+          "answer": "F"
+        },
+        {
+          "id": "1.2",
+          "label": "Emily Bronte",
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "label": "Jonathan Swift",
+          "answer": "G"
+        },
+        {
+          "id": "1.4",
+          "label": "Mary Shelley",
+          "answer": "D"
+        },
+        {
+          "id": "1.5",
+          "label": "Oscar Wilde",
+          "answer": "C"
+        },
+        {
+          "id": "1.6",
+          "label": "Daniel Defoe",
+          "answer": "E"
+        }
+      ]
+    }
+  ]
+}

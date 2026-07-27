@@ -1394,6 +1394,62 @@
       "points": 3
     },
     {
+      "id": "matching_017",
+      "title": "British and Irish Writers (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "matching_018",
+      "title": "Explorers and Expeditions (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "matching_019",
+      "title": "American Presidents (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "matching_020",
+      "title": "Landmarks and Their Cities (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "matching_021",
+      "title": "British Institutions (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
+      "id": "matching_022",
+      "title": "Bands and Where They Formed (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "matching_023",
+      "title": "Films and Their Directors (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "matching_024",
+      "title": "National Dishes (poziom rejonowy/wojewodzki)",
+      "taskType": "matching",
+      "taskCount": 1,
+      "points": 5
+    },
+    {
       "id": "transform_006",
       "title": "Modals & Obligation",
       "taskType": "sentence_transformation",

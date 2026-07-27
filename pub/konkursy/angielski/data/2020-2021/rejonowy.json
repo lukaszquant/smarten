@@ -161,7 +161,7 @@
     },
     {
       "id": "8",
-      "type": "matching_columns",
+      "type": "matching",
       "points": 6,
       "instruction": "Dopasuj opisy działalności brytyjskich firm (8.1.–8.6.) do ich nazw (A–J). Cztery nazwy zostały podane dodatkowo i nie pasują do żadnego opisu. Przenieś rozwiązania na kartę odpowiedzi.",
       "options": [

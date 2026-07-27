@@ -1,0 +1,86 @@
+{
+  "title": "Films and Their Directors (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Do podanych tytulow filmow (1.1.-1.6.) dopasuj nazwiska rezyserow (A-J). Cztery nazwiska zostaly podane dodatkowo i nie odnosza sie do zadnego filmu.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wes Anderson"
+        },
+        {
+          "letter": "B",
+          "text": "Martin Scorsese"
+        },
+        {
+          "letter": "C",
+          "text": "James Cameron"
+        },
+        {
+          "letter": "D",
+          "text": "Ridley Scott"
+        },
+        {
+          "letter": "E",
+          "text": "Alfred Hitchcock"
+        },
+        {
+          "letter": "F",
+          "text": "Steven Spielberg"
+        },
+        {
+          "letter": "G",
+          "text": "Tim Burton"
+        },
+        {
+          "letter": "H",
+          "text": "Christopher Nolan"
+        },
+        {
+          "letter": "I",
+          "text": "Quentin Tarantino"
+        },
+        {
+          "letter": "J",
+          "text": "Danny Boyle"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "Jaws",
+          "answer": "F"
+        },
+        {
+          "id": "1.2",
+          "label": "Psycho",
+          "answer": "E"
+        },
+        {
+          "id": "1.3",
+          "label": "The Dark Knight",
+          "answer": "H"
+        },
+        {
+          "id": "1.4",
+          "label": "Titanic",
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "label": "Pulp Fiction",
+          "answer": "I"
+        },
+        {
+          "id": "1.6",
+          "label": "Fantastic Mr Fox",
+          "answer": "A"
+        }
+      ]
+    }
+  ]
+}

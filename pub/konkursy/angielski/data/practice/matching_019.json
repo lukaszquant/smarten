@@ -1,0 +1,86 @@
+{
+  "title": "American Presidents (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Do podanych nazwisk prezydentow USA (1.1.-1.6.) dopasuj opisy (A-J). Cztery opisy zostaly podane dodatkowo i nie odnosza sie do zadnej osoby.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the main author of the Declaration of Independence"
+        },
+        {
+          "letter": "B",
+          "text": "the president who led the country through the Civil War"
+        },
+        {
+          "letter": "C",
+          "text": "the president assassinated in Dallas in 1963"
+        },
+        {
+          "letter": "D",
+          "text": "the only president elected four times"
+        },
+        {
+          "letter": "E",
+          "text": "the president who resigned over the Watergate affair"
+        },
+        {
+          "letter": "F",
+          "text": "the commander of the army in the War of Independence"
+        },
+        {
+          "letter": "G",
+          "text": "the first president to live in the White House"
+        },
+        {
+          "letter": "H",
+          "text": "the president who gave his name to the teddy bear"
+        },
+        {
+          "letter": "I",
+          "text": "the actor who became president in 1981"
+        },
+        {
+          "letter": "J",
+          "text": "the president who bought Alaska from Russia"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "Abraham Lincoln",
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "label": "Franklin D. Roosevelt",
+          "answer": "D"
+        },
+        {
+          "id": "1.3",
+          "label": "Thomas Jefferson",
+          "answer": "A"
+        },
+        {
+          "id": "1.4",
+          "label": "John F. Kennedy",
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "label": "Theodore Roosevelt",
+          "answer": "H"
+        },
+        {
+          "id": "1.6",
+          "label": "George Washington",
+          "answer": "F"
+        }
+      ]
+    }
+  ]
+}

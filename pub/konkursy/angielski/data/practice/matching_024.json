@@ -1,0 +1,77 @@
+{
+  "title": "National Dishes (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 5,
+      "instruction": "Do podanych potraw (1.1.-1.5.) dopasuj kraje, z ktorych pochodza (A-I). Cztery kraje zostaly podane dodatkowo i nie odnosza sie do zadnej potrawy.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wales"
+        },
+        {
+          "letter": "B",
+          "text": "Ireland"
+        },
+        {
+          "letter": "C",
+          "text": "Canada"
+        },
+        {
+          "letter": "D",
+          "text": "Scotland"
+        },
+        {
+          "letter": "E",
+          "text": "Australia"
+        },
+        {
+          "letter": "F",
+          "text": "the United States"
+        },
+        {
+          "letter": "G",
+          "text": "New Zealand"
+        },
+        {
+          "letter": "H",
+          "text": "England"
+        },
+        {
+          "letter": "I",
+          "text": "South Africa"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "haggis",
+          "answer": "D"
+        },
+        {
+          "id": "1.2",
+          "label": "Irish stew",
+          "answer": "B"
+        },
+        {
+          "id": "1.3",
+          "label": "the pavlova",
+          "answer": "G"
+        },
+        {
+          "id": "1.4",
+          "label": "poutine",
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "label": "the Cornish pasty",
+          "answer": "H"
+        }
+      ]
+    }
+  ]
+}

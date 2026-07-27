@@ -1,0 +1,77 @@
+{
+  "title": "British Institutions (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 5,
+      "instruction": "Do podanych nazw instytucji (1.1.-1.5.) dopasuj opisy ich dzialalnosci (A-I). Cztery opisy zostaly podane dodatkowo i nie odnosza sie do zadnej instytucji.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the postal service, founded in the sixteenth century"
+        },
+        {
+          "letter": "B",
+          "text": "the national public broadcaster, funded by a licence fee"
+        },
+        {
+          "letter": "C",
+          "text": "the upper chamber of Parliament"
+        },
+        {
+          "letter": "D",
+          "text": "a charity that looks after historic houses and coastline"
+        },
+        {
+          "letter": "E",
+          "text": "the central bank, which issues banknotes"
+        },
+        {
+          "letter": "F",
+          "text": "the service that runs the railway network"
+        },
+        {
+          "letter": "G",
+          "text": "the body that awards degrees to external students"
+        },
+        {
+          "letter": "H",
+          "text": "the organisation that manages the royal parks"
+        },
+        {
+          "letter": "I",
+          "text": "the publicly funded health service"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "the BBC",
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "label": "the National Trust",
+          "answer": "D"
+        },
+        {
+          "id": "1.3",
+          "label": "the NHS",
+          "answer": "I"
+        },
+        {
+          "id": "1.4",
+          "label": "the Royal Mail",
+          "answer": "A"
+        },
+        {
+          "id": "1.5",
+          "label": "the Bank of England",
+          "answer": "E"
+        }
+      ]
+    }
+  ]
+}

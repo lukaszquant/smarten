@@ -1,0 +1,78 @@
+{
+  "title": "Bands and Where They Formed (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "matching",
+      "points": 6,
+      "instruction": "Do podanych nazw zespolow (1.1.-1.6.) dopasuj miasta, w ktorych powstaly (A-H). Dwa miasta zostaly podane dodatkowo i nie odnosza sie do zadnego zespolu.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manchester"
+        },
+        {
+          "letter": "B",
+          "text": "Liverpool"
+        },
+        {
+          "letter": "C",
+          "text": "Aberdeen, Washington"
+        },
+        {
+          "letter": "D",
+          "text": "Dublin"
+        },
+        {
+          "letter": "E",
+          "text": "London"
+        },
+        {
+          "letter": "F",
+          "text": "Glasgow"
+        },
+        {
+          "letter": "G",
+          "text": "Detroit"
+        },
+        {
+          "letter": "H",
+          "text": "Sydney"
+        }
+      ],
+      "items": [
+        {
+          "id": "1.1",
+          "label": "The Beatles",
+          "answer": "B"
+        },
+        {
+          "id": "1.2",
+          "label": "Oasis",
+          "answer": "A"
+        },
+        {
+          "id": "1.3",
+          "label": "U2",
+          "answer": "D"
+        },
+        {
+          "id": "1.4",
+          "label": "Nirvana",
+          "answer": "C"
+        },
+        {
+          "id": "1.5",
+          "label": "The Rolling Stones",
+          "answer": "E"
+        },
+        {
+          "id": "1.6",
+          "label": "AC/DC",
+          "answer": "H"
+        }
+      ]
+    }
+  ]
+}
