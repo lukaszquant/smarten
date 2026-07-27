@@ -125,10 +125,10 @@
       "instruction": "Uzupełnij każde z poniższych zdań (1-6) jednym pasującym wyrazem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
       "items": [
         { "id": "5.1", "hint": "_ _ _ d _ _ _", "clue": "Metals __ __ __ d __ __ __ electricity and heat well as they contain free electrons that can carry an electrical charge or heat energy through the metal.", "answer": "conduct" },
-        { "id": "5.2", "hint": "_ _ _ a _ _ _ _ _ _ _ _ _", "clue": "After a series of failures the research team is hoping to achieve a __ __ __ a __ __ __ __ __ __ __ __ __ in the search for a cure.", "answer": "breakthrough" },
-        { "id": "5.3", "hint": "_ _ _ _ _ n _ _ _ _", "clue": "\"Our website is __ __ __ __ __ n __ __ __ __ under construction. We will be back soon!\" – this is all you can see when you click on this link.", "answer": "currently" },
+        { "id": "5.2", "hint": "_ _ _ a _ _ _ _ _ _ _ _", "clue": "After a series of failures the research team is hoping to achieve __ __ __ a __ __ __ __ __ __ __ __ in the search for a cure.", "answer": "breakthrough" },
+        { "id": "5.3", "hint": "_ _ _ _ _ n _ _ _", "clue": "\"Our website is __ __ __ __ __ n __ __ __ under construction. We will be back soon!\" – this is all you can see when you click on this link.", "answer": "currently" },
         { "id": "5.4", "hint": "_ _ _ i _ _ _ _", "clue": "The __ __ __ i __ __ __ __ table of elements contains a wide variety of information – you just have to know how to read it.", "answer": "periodic" },
-        { "id": "5.5", "hint": "_ _ _ _ _ _ n _ _ _", "clue": "Do you know what __ __ __ __ __ __ n __ __ Radio Zet is on?", "answer": "frequency" },
+        { "id": "5.5", "hint": "_ _ _ _ _ _ n _ _", "clue": "Do you know what __ __ __ __ __ __ n __ __ Radio Zet is on?", "answer": "frequency" },
         { "id": "5.6", "hint": "_ _ _ t _ _ _ _", "clue": "Registered users can download the __ __ __ t __ __ __ __ without charge.", "answer": "software" }
       ]
     },

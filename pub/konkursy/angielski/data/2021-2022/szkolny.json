@@ -135,7 +135,7 @@
       "items": [
         { "id": "6.1", "hint": "_ _ _ k _ _", "clue": "I lost my wallet yesterday. I think it fell out of my _ _ _ k _ _.", "answer": "pocket" },
         { "id": "6.2", "hint": "_ _ s _ _ _", "clue": "You are a great cook. The fish _ _ s _ _ _ just as good as it looks.", "answer": "tastes" },
-        { "id": "6.3", "hint": "_ _ f _ _ _ _ _ _ _", "clue": "I looked the word up in three _ _ f _ _ _ _ _ _ _ dictionaries.", "answer": "different" },
+        { "id": "6.3", "hint": "_ _ f _ _ _ _ _ _", "clue": "I looked the word up in three _ _ f _ _ _ _ _ _ dictionaries.", "answer": "different" },
         { "id": "6.4", "hint": "_ _ _ _ s _ _", "clue": "You're not _ _ _ _ s _ _ warmly enough – put a heavy coat on.", "answer": "dressed" }
       ]
     },

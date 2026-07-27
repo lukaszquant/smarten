@@ -268,8 +268,8 @@
       "items": [
         {
           "id": "6.1",
-          "stem": "Snacking _ _ t _ _ _ _ _ meals does not have to be a bad thing as long as the snacks are healthy.",
-          "hint": "_ _ t _ _ _ _ _",
+          "stem": "Snacking _ _ t _ _ _ _ meals does not have to be a bad thing as long as the snacks are healthy.",
+          "hint": "_ _ t _ _ _ _",
           "answer": "between"
         },
         {
@@ -280,14 +280,14 @@
         },
         {
           "id": "6.3",
-          "stem": "The old photograph brought back many pleasant _ _ m _ _ _ _ _ _ of her happy childhood.",
-          "hint": "_ _ m _ _ _ _ _ _",
+          "stem": "The old photograph brought back many pleasant _ _ m _ _ _ _ _ of her happy childhood.",
+          "hint": "_ _ m _ _ _ _ _",
           "answer": "memories"
         },
         {
           "id": "6.4",
-          "stem": "The sun _ _ _ _ _ _ r _ _ on the horizon, lighting up the windows of the house.",
-          "hint": "_ _ _ _ _ _ r _ _",
+          "stem": "The sun _ _ _ _ _ r _ _ on the horizon, lighting up the windows of the house.",
+          "hint": "_ _ _ _ _ r _ _",
           "answer": "appeared"
         }
       ]

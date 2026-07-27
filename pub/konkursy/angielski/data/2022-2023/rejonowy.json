@@ -120,14 +120,8 @@
       "type": "word_spelling",
       "points": 6,
       "instruction": "Uzupełnij każde z poniższych zdań (5.1.–5.6.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
-      "items": [
-        { "id": "5.1", "hint": "_ _ n _ _ _ _ _ _ e", "clue": "I have bought a beautiful landscape painting showing the mountains around the lake.", "answer": "landscape" },
-        { "id": "5.2", "hint": "_ _ p _ _ _ _ s", "clue": "What appeals to me about his painting is his use of colour.", "answer": "appeals" },
-        { "id": "5.3", "hint": "_ _ _ _ _ _ _ p _ _ _ _ _ s", "clue": "The museum houses several masterpieces by van Gogh, Monet and Renoir, and many people come to see these great works of art.", "answer": "masterpieces" },
-        { "id": "5.4", "hint": "_ _ _ l _ _ _ _ _ _", "clue": "He gave a brilliant performance, and the audience was delighted.", "answer": "brilliant" },
-        { "id": "5.5", "hint": "_ _ n _ _", "clue": "What genre does the film fall into – fantasy or science fiction?", "answer": "genre" },
-        { "id": "5.6", "hint": "_ _ a _ _ _ _ _ _ _ _", "clue": "Last year she starred in the film adaptation of Nicholas Sparks' best-selling novel.", "answer": "adaptation" }
-      ]
+      "skipped": true,
+      "items": []
     },
     {
       "id": "6",

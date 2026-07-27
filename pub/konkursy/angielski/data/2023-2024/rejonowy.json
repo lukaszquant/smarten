@@ -260,38 +260,38 @@
       "items": [
         {
           "id": "5.1",
-          "stem": "This recipe has been _ _ s _ _ _ _ down in her family for generations, so she will not share it with us.",
-          "hint": "_ _ s _ _ _ _",
+          "stem": "This recipe has been _ _ s _ _ _ down in her family for generations, so she will not share it with us.",
+          "hint": "_ _ s _ _ _",
           "answer": "passed"
         },
         {
           "id": "5.2",
-          "stem": "She has got Irish roots – her _ _ c _ _ _ _ _ _ _ came to America from Ireland about 150 years ago.",
-          "hint": "_ _ c _ _ _ _ _ _ _",
+          "stem": "She has got Irish roots – her _ _ c _ _ _ _ _ _ came to America from Ireland about 150 years ago.",
+          "hint": "_ _ c _ _ _ _ _ _",
           "answer": "ancestors"
         },
         {
           "id": "5.3",
-          "stem": "We _ r _ _ _ _ _ n _ _ _ _ disagree, but in this matter we are basically saying the same thing.",
-          "hint": "_ r _ _ _ _ _ n _ _ _ _",
+          "stem": "We _ r _ _ _ _ n _ _ _ disagree, but in this matter we are basically saying the same thing.",
+          "hint": "_ r _ _ _ _ n _ _ _",
           "answer": "frequently"
         },
         {
           "id": "5.4",
-          "stem": "Ann wanted to follow in her mother's _ _ _ _ t _ _ _ _ _ _ and be a doctor.",
-          "hint": "_ _ _ _ t _ _ _ _ _ _",
+          "stem": "Ann wanted to follow in her mother's _ _ _ t _ _ _ _ _ and be a doctor.",
+          "hint": "_ _ _ t _ _ _ _ _",
           "answer": "footsteps"
         },
         {
           "id": "5.5",
-          "stem": "The children of _ _ _ r _ _ _ _ t _ _ _ _ _ _ _ _ _ parents often do not develop the skills needed to take care of themselves when they leave home.",
-          "hint": "_ _ _ r _ _ _ _ t _ _ _ _ _ _ _ _ _",
+          "stem": "The children of _ _ _ r _ _ _ t _ _ _ _ _ _ parents often do not develop the skills needed to take care of themselves when they leave home.",
+          "hint": "_ _ _ r _ _ _ t _ _ _ _ _ _",
           "answer": "overprotective"
         },
         {
           "id": "5.6",
-          "stem": "The wedding will be held at the town hall and the _ _ _ _ p _ _ _ _ _ for 150 guests at the King's Hotel.",
-          "hint": "_ _ _ _ p _ _ _ _ _",
+          "stem": "The wedding will be held at the town hall and the _ _ _ _ p _ _ _ _ for 150 guests at the King's Hotel.",
+          "hint": "_ _ _ _ p _ _ _ _",
           "answer": "reception"
         }
       ]

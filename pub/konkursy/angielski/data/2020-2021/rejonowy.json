@@ -124,11 +124,11 @@
       "points": 6,
       "instruction": "Uzupełnij każde z poniższych zdań (5.1.–5.6.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
       "items": [
-        { "id": "5.1", "hint": "_ _ p _ _ _ _ _", "clue": "They were so __ __ p __ __ __ __ __ to get the results of the finals. They just could not wait to get them.", "answer": "impatient" },
+        { "id": "5.1", "hint": "_ _ p _ _ _ _ _ _", "clue": "They were so __ __ p __ __ __ __ __ __ to get the results of the finals. They just could not wait to get them.", "answer": "impatient" },
         { "id": "5.2", "hint": "_ _ _ i _ _ _ _", "clue": "Don't interrupt her. She is __ __ __ i __ __ __ __ for her geography exam.", "answer": "revising" },
         { "id": "5.3", "hint": "_ _ _ _ h _ _ _", "clue": "This course is mainly for __ __ __ __ h __ __ __ but students in the second year should also benefit from it.", "answer": "freshmen" },
-        { "id": "5.4", "hint": "_ _ o _ _ _ _ _ _ _ _ n _ _ _ _", "clue": "He is good enough at football to play __ __ o __ __ __ __ __ __ __ n __ __ __ __ and get paid for it.", "answer": "professionally" },
-        { "id": "5.5", "hint": "_ _ h _ _ _ _ _ _ _ _", "clue": "It is quite an __ __ h __ __ __ __ __ __ __ to be offered a place at such a good university.", "answer": "achievement" },
+        { "id": "5.4", "hint": "_ _ o _ _ _ _ _ _ n _ _ _ _", "clue": "He is good enough at football to play __ __ o __ __ __ __ __ __ n __ __ __ __ and get paid for it.", "answer": "professionally" },
+        { "id": "5.5", "hint": "_ _ h _ _ _ _ _ _ _ _", "clue": "It is quite an __ __ h __ __ __ __ __ __ __ __ to be offered a place at such a good university.", "answer": "achievement" },
         { "id": "5.6", "hint": "_ _ e _ _ _ _", "clue": "The boy received above __ __ e __ __ __ __ marks in all subjects except history.", "answer": "average" }
       ]
     },

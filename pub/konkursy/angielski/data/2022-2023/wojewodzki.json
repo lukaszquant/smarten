@@ -93,12 +93,8 @@
       "type": "word_spelling",
       "points": 4,
       "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych słów. Liczba kresek odpowiada liczbie brakujących liter w słowie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
-      "items": [
-        { "id": "6.1", "hint": "_ _ _ w _ _ _ _", "clue": "A top model fell down on the catwalk during Stella McCartney's fashion show.", "answer": "catwalk" },
-        { "id": "6.2", "hint": "_ _ _ _ g _ _ _ _ _ _", "clue": "This novel is internationally recognised as a masterpiece of English literature.", "answer": ["recognised", "recognized"] },
-        { "id": "6.3", "hint": "_ _ _ _ d _ _ _ _ _", "clue": "The interview will be broadcast live tomorrow evening.", "answer": "broadcast" },
-        { "id": "6.4", "hint": "_ _ l _ _ _ _ _ _ _ _ _", "clue": "The cookbook is beautifully illustrated with colour photographs.", "answer": "illustrated" }
-      ]
+      "skipped": true,
+      "items": []
     },
     {
       "id": "7",

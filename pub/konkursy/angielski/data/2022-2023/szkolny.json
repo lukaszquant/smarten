@@ -135,12 +135,8 @@
       "type": "word_spelling",
       "points": 4,
       "instruction": "Uzupełnij każde z poniższych zdań (6.1.–6.4.) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane. Przenieś rozwiązania na kartę odpowiedzi.",
-      "items": [
-        { "id": "6.1", "hint": "c o m _ _ _ _ _ _ _ e", "clue": "Sit down and make yourself comfortable while I make some tea for us.", "answer": "comfortable" },
-        { "id": "6.2", "hint": "_ _ _ f _ _ _ _ _ g", "clue": "A famous pop star is performing on stage in Las Vegas tonight.", "answer": "performing" },
-        { "id": "6.3", "hint": "_ _ _ _ _ a _ _ _ _ _ s", "clue": "During the press conference the journalists asked him many personal questions.", "answer": "journalists" },
-        { "id": "6.4", "hint": "_ _ l _ _ _ _ d", "clue": "The flight was delayed because of heavy snow.", "answer": "delayed" }
-      ]
+      "skipped": true,
+      "items": []
     },
     {
       "id": "7",

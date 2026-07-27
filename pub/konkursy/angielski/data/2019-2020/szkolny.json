@@ -132,10 +132,10 @@
       "instruction": "Uzupełnij każde z poniższych zdań (1-5) jednym pasującym słowem. Wymagana jest całkowita poprawność ortograficzna wpisywanych wyrazów. Liczba kresek odpowiada liczbie brakujących liter w wyrazie, a niektóre litery zostały już podane.",
       "items": [
         { "id": "6.1", "hint": "_ _ _ _ l _ _ i _ _", "clue": "I have a fair __ __ __ __ l __ __ i __ __, so in the summertime I should use plenty of sunscreen to protect my skin.", "answer": "complexion" },
-        { "id": "6.2", "hint": "_ _ r _ _ _ _ a _ _ _ _ _", "clue": "__ __ r __ __ __ __ a __ __ __ __, the injury was not serious and he was able to play in the next match.", "answer": "Fortunately" },
-        { "id": "6.3", "hint": "_ _ _ _ _ p _ _ _ _ _ _ _ _ _ _", "clue": "It rained most of the time when we were at the seaside. It was deeply __ __ __ __ __ p __ __ __ __ __ __ __ __ __ __ because we had hoped to get a golden suntan.", "answer": "disappointing" },
+        { "id": "6.2", "hint": "_ _ r _ _ _ a _ _ _ _", "clue": "__ __ r __ __ __ a __ __ __ __, the injury was not serious and he was able to play in the next match.", "answer": "Fortunately" },
+        { "id": "6.3", "hint": "_ _ _ _ _ p _ _ _ _ _ _ _", "clue": "It rained most of the time when we were at the seaside. It was deeply __ __ __ __ __ p __ __ __ __ __ __ __ because we had hoped to get a golden suntan.", "answer": "disappointing" },
         { "id": "6.4", "hint": "_ _ p _ _ _ _", "clue": "This course is meant for students who want to __ __ p __ __ __ __ their English.", "answer": "improve" },
-        { "id": "6.5", "hint": "_ _ _ _ m _ _ _ _ _ _ _ _", "clue": "The kids cooked dinner by __ __ __ __ m __ __ __ __ __ __ __, nobody helped them.", "answer": "themselves" }
+        { "id": "6.5", "hint": "_ _ _ m _ _ _ _ _ _", "clue": "The kids cooked dinner by __ __ __ m __ __ __ __ __ __, nobody helped them.", "answer": "themselves" }
       ]
     },
     {
