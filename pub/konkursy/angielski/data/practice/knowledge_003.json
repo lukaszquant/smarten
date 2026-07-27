@@ -14,10 +14,10 @@
           "options": [
             "A. Sydney",
             "B. Melbourne",
-            "C. Canberra",
-            "D. Brisbane"
+            "C. Brisbane",
+            "D. Canberra"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.2",
@@ -36,10 +36,10 @@
           "options": [
             "A. New Zealand",
             "B. South Africa",
-            "C. California",
-            "D. Australia"
+            "C. Australia",
+            "D. California"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "id": "1.4",
@@ -67,34 +67,34 @@
           "id": "1.6",
           "question": "What is the capital city of New Zealand?",
           "options": [
-            "A. Auckland",
-            "B. Christchurch",
-            "C. Wellington",
+            "A. Wellington",
+            "B. Auckland",
+            "C. Christchurch",
             "D. Queenstown"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.7",
           "question": "The traditional war dance of the Maori people of New Zealand is called the _______.",
           "options": [
-            "A. samba",
-            "B. haka",
+            "A. haka",
+            "B. samba",
             "C. waltz",
             "D. polka"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.8",
           "question": "Which famous Australian building is shaped like sails?",
           "options": [
             "A. Sydney Tower",
-            "B. Harbour Bridge",
-            "C. Sydney Opera House",
+            "B. Sydney Opera House",
+            "C. Harbour Bridge",
             "D. Royal Exhibition Building"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.9",
@@ -102,21 +102,21 @@
           "options": [
             "A. Maori",
             "B. Inuit",
-            "C. Aborigines",
-            "D. Celts"
+            "C. Celts",
+            "D. Aborigines"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.10",
           "question": "In which sport is New Zealand's national team called the 'All Blacks'?",
           "options": [
             "A. Cricket",
-            "B. Football",
-            "C. Rugby",
+            "B. Rugby",
+            "C. Football",
             "D. Hockey"
           ],
-          "answer": "C"
+          "answer": "B"
         }
       ]
     }

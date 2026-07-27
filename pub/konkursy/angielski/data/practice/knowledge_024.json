@@ -1,0 +1,65 @@
+{
+  "title": "British Customs and Festivals (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.5.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "What is the day after Christmas Day called in the United Kingdom?",
+          "answer": [
+            "Boxing Day"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.2",
+          "question": "On which date is Bonfire Night celebrated in Britain?",
+          "answer": [
+            "5th November",
+            "5 November",
+            "November 5th",
+            "November 5",
+            "the 5th of November",
+            "5th of November",
+            "the fifth of November"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.3",
+          "question": "Whose failed plot against Parliament does Bonfire Night commemorate? Give the name and the surname.",
+          "answer": [
+            "Guy Fawkes",
+            "Fawkes"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "Which food is traditionally eaten in Britain on Shrove Tuesday?",
+          "answer": [
+            "pancakes",
+            "pancake"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.5",
+          "question": "What is the Scottish name for New Year's Eve, and which song is traditionally sung at midnight?",
+          "answer": [
+            "Hogmanay"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "Auld Lang Syne"
+          ]
+        }
+      ]
+    }
+  ]
+}

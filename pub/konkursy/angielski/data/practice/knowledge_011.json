@@ -12,12 +12,12 @@
           "id": "1.1",
           "question": "Which English city is famous for its two universities and the historic 'Bridge of Sighs', and gives its name to a county in eastern England?",
           "options": [
-            "A. Oxford",
-            "B. Cambridge",
+            "A. Cambridge",
+            "B. Oxford",
             "C. Durham",
             "D. York"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.2",
@@ -35,33 +35,33 @@
           "question": "The county of Cornwall is at the south-western tip of England. What is its county town?",
           "options": [
             "A. Exeter",
-            "B. Plymouth",
-            "C. Bristol",
-            "D. Truro"
+            "B. Truro",
+            "C. Plymouth",
+            "D. Bristol"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "id": "1.4",
           "question": "Which Welsh city is the capital of Wales and stands at the mouth of the River Taff?",
           "options": [
-            "A. Cardiff",
-            "B. Swansea",
+            "A. Swansea",
+            "B. Cardiff",
             "C. Newport",
             "D. Bangor"
           ],
-          "answer": "A"
+          "answer": "B"
         },
         {
           "id": "1.5",
           "question": "The Beatles were formed in which English city, home to the famous Mersey waterfront?",
           "options": [
-            "A. Manchester",
-            "B. Liverpool",
+            "A. Liverpool",
+            "B. Manchester",
             "C. Leeds",
             "D. Sheffield"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.6",
@@ -78,34 +78,34 @@
           "id": "1.7",
           "question": "Stratford-upon-Avon, the birthplace of the playwright William Shakespeare, lies in which English county?",
           "options": [
-            "A. Warwickshire",
-            "B. Yorkshire",
-            "C. Kent",
-            "D. Devon"
+            "A. Yorkshire",
+            "B. Kent",
+            "C. Devon",
+            "D. Warwickshire"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "id": "1.8",
           "question": "Which English county, in the far south-east, is often called the 'Garden of England' and faces France across the Channel?",
           "options": [
-            "A. Surrey",
-            "B. Essex",
-            "C. Kent",
+            "A. Kent",
+            "B. Surrey",
+            "C. Essex",
             "D. Sussex"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.9",
-          "question": "The Roman baths that give the city its name can be visited in which spa city in Somerset?",
+          "question": "Which spa city in Somerset grew up around Britain's only natural hot springs, where the Romans built a temple and bathing complex?",
           "options": [
-            "A. Bath",
-            "B. Wells",
-            "C. Bristol",
-            "D. Salisbury"
+            "A. Wells",
+            "B. Bristol",
+            "C. Salisbury",
+            "D. Bath"
           ],
-          "answer": "A"
+          "answer": "D"
         },
         {
           "id": "1.10",

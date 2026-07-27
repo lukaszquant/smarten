@@ -56,12 +56,12 @@
           "id": "1.5",
           "question": "Which lake in Scotland is famous for its legendary monster?",
           "options": [
-            "A. Loch Lomond",
-            "B. Loch Ness",
+            "A. Loch Ness",
+            "B. Loch Lomond",
             "C. Loch Katrine",
             "D. Loch Tay"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.6",
@@ -69,54 +69,54 @@
           "options": [
             "A. Snowdon",
             "B. Scafell Pike",
-            "C. Ben Nevis",
-            "D. Helvellyn"
+            "C. Helvellyn",
+            "D. Ben Nevis"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.7",
           "question": "Which English city is known as the home of The Beatles?",
           "options": [
             "A. Manchester",
-            "B. London",
-            "C. Liverpool",
+            "B. Liverpool",
+            "C. London",
             "D. Birmingham"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.8",
           "question": "The Giant's Causeway, a natural landmark made of basalt columns, is located in _______.",
           "options": [
-            "A. Wales",
-            "B. Scotland",
-            "C. England",
-            "D. Northern Ireland"
+            "A. Northern Ireland",
+            "B. Wales",
+            "C. Scotland",
+            "D. England"
           ],
-          "answer": "D"
+          "answer": "A"
         },
         {
           "id": "1.9",
           "question": "Which river flows through London?",
           "options": [
             "A. Severn",
-            "B. Thames",
-            "C. Clyde",
+            "B. Clyde",
+            "C. Thames",
             "D. Avon"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "id": "1.10",
           "question": "What is the capital city of Wales?",
           "options": [
-            "A. Swansea",
-            "B. Newport",
-            "C. Cardiff",
+            "A. Cardiff",
+            "B. Swansea",
+            "C. Newport",
             "D. Bangor"
           ],
-          "answer": "C"
+          "answer": "A"
         }
       ]
     }

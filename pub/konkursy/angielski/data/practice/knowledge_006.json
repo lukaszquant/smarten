@@ -11,62 +11,112 @@
         {
           "id": "1.1",
           "question": "Who wrote the famous play 'Romeo and Juliet'?",
-          "options": ["A. Charles Dickens", "B. William Shakespeare", "C. Mark Twain", "D. Oscar Wilde"],
-          "answer": "B"
+          "options": [
+            "A. William Shakespeare",
+            "B. Charles Dickens",
+            "C. Mark Twain",
+            "D. Oscar Wilde"
+          ],
+          "answer": "A"
         },
         {
           "id": "1.2",
           "question": "Which British scientist discovered the theory of gravity after watching an apple fall?",
-          "options": ["A. Charles Darwin", "B. Michael Faraday", "C. Isaac Newton", "D. Stephen Hawking"],
-          "answer": "C"
+          "options": [
+            "A. Charles Darwin",
+            "B. Isaac Newton",
+            "C. Michael Faraday",
+            "D. Stephen Hawking"
+          ],
+          "answer": "B"
         },
         {
           "id": "1.3",
           "question": "Who is the author of the 'Harry Potter' book series?",
-          "options": ["A. Roald Dahl", "B. C.S. Lewis", "C. Enid Blyton", "D. J.K. Rowling"],
-          "answer": "D"
+          "options": [
+            "A. Roald Dahl",
+            "B. C.S. Lewis",
+            "C. J.K. Rowling",
+            "D. Enid Blyton"
+          ],
+          "answer": "C"
         },
         {
           "id": "1.4",
           "question": "Which American inventor is known for creating the electric light bulb?",
-          "options": ["A. Thomas Edison", "B. Alexander Graham Bell", "C. Benjamin Franklin", "D. Henry Ford"],
-          "answer": "A"
+          "options": [
+            "A. Alexander Graham Bell",
+            "B. Thomas Edison",
+            "C. Benjamin Franklin",
+            "D. Henry Ford"
+          ],
+          "answer": "B"
         },
         {
           "id": "1.5",
           "question": "Who painted the famous 'Campbell's Soup Cans' and was a leader of the Pop Art movement?",
-          "options": ["A. Banksy", "B. Andy Warhol", "C. David Hockney", "D. Jackson Pollock"],
+          "options": [
+            "A. Banksy",
+            "B. Andy Warhol",
+            "C. David Hockney",
+            "D. Jackson Pollock"
+          ],
           "answer": "B"
         },
         {
           "id": "1.6",
           "question": "Which author wrote 'The Chronicles of Narnia'?",
-          "options": ["A. J.R.R. Tolkien", "B. Lewis Carroll", "C. C.S. Lewis", "D. Roald Dahl"],
-          "answer": "C"
+          "options": [
+            "A. J.R.R. Tolkien",
+            "B. Lewis Carroll",
+            "C. Roald Dahl",
+            "D. C.S. Lewis"
+          ],
+          "answer": "D"
         },
         {
           "id": "1.7",
           "question": "Who was the first man to walk on the Moon in 1969?",
-          "options": ["A. Buzz Aldrin", "B. John Glenn", "C. Yuri Gagarin", "D. Neil Armstrong"],
-          "answer": "D"
+          "options": [
+            "A. Neil Armstrong",
+            "B. Buzz Aldrin",
+            "C. John Glenn",
+            "D. Yuri Gagarin"
+          ],
+          "answer": "A"
         },
         {
           "id": "1.8",
           "question": "Which British nurse became famous for her work during the Crimean War and is known as 'The Lady with the Lamp'?",
-          "options": ["A. Florence Nightingale", "B. Mary Seacole", "C. Queen Victoria", "D. Jane Austen"],
-          "answer": "A"
+          "options": [
+            "A. Mary Seacole",
+            "B. Queen Victoria",
+            "C. Florence Nightingale",
+            "D. Jane Austen"
+          ],
+          "answer": "C"
         },
         {
           "id": "1.9",
           "question": "Who is the author of 'Charlie and the Chocolate Factory'?",
-          "options": ["A. Dr. Seuss", "B. Beatrix Potter", "C. Roald Dahl", "D. A.A. Milne"],
-          "answer": "C"
+          "options": [
+            "A. Dr. Seuss",
+            "B. Beatrix Potter",
+            "C. A.A. Milne",
+            "D. Roald Dahl"
+          ],
+          "answer": "D"
         },
         {
           "id": "1.10",
           "question": "Which famous American civil rights leader gave the speech 'I Have a Dream'?",
-          "options": ["A. Rosa Parks", "B. Martin Luther King Jr.", "C. Malcolm X", "D. Barack Obama"],
-          "answer": "B"
+          "options": [
+            "A. Rosa Parks",
+            "B. Malcolm X",
+            "C. Martin Luther King Jr.",
+            "D. Barack Obama"
+          ],
+          "answer": "C"
         }
       ]
     }

@@ -1,0 +1,64 @@
+{
+  "title": "Music and Film (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.4.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "Which British band recorded the album 'Abbey Road', and in which city was the band formed?",
+          "answer": [
+            "The Beatles",
+            "Beatles"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "Liverpool"
+          ]
+        },
+        {
+          "id": "1.2",
+          "question": "Which district of Los Angeles is the historic centre of the American film industry, and what is the popular name of the awards given by the Academy?",
+          "answer": [
+            "Hollywood"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "the Oscars",
+            "Oscars",
+            "the Academy Awards",
+            "Academy Awards",
+            "the Oscar",
+            "Oscar"
+          ]
+        },
+        {
+          "id": "1.3",
+          "question": "Which music festival takes place every summer on a farm in Somerset, England?",
+          "answer": [
+            "Glastonbury",
+            "the Glastonbury Festival",
+            "Glastonbury Festival"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "What is the name of the London theatre, rebuilt in 1997, which is a reconstruction of the one where Shakespeare's plays were first performed?",
+          "answer": [
+            "the Globe",
+            "the Globe Theatre",
+            "Globe Theatre",
+            "Shakespeare's Globe",
+            "Globe"
+          ],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

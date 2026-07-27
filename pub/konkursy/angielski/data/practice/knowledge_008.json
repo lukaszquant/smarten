@@ -11,62 +11,112 @@
         {
           "id": "1.1",
           "question": "Which sport is the most popular in the United States and has the Super Bowl as its biggest event?",
-          "options": ["A. Basketball", "B. Baseball", "C. American football", "D. Ice hockey"],
+          "options": [
+            "A. Basketball",
+            "B. Baseball",
+            "C. American football",
+            "D. Ice hockey"
+          ],
           "answer": "C"
         },
         {
           "id": "1.2",
           "question": "The Wimbledon tournament, held every year in London, is associated with which sport?",
-          "options": ["A. Cricket", "B. Golf", "C. Football", "D. Tennis"],
-          "answer": "D"
+          "options": [
+            "A. Cricket",
+            "B. Tennis",
+            "C. Golf",
+            "D. Football"
+          ],
+          "answer": "B"
         },
         {
           "id": "1.3",
           "question": "Which band from Liverpool became one of the most famous music groups in history?",
-          "options": ["A. The Rolling Stones", "B. The Beatles", "C. Queen", "D. Oasis"],
-          "answer": "B"
+          "options": [
+            "A. The Rolling Stones",
+            "B. Queen",
+            "C. Oasis",
+            "D. The Beatles"
+          ],
+          "answer": "D"
         },
         {
           "id": "1.4",
           "question": "What is the national sport of New Zealand, played by the famous All Blacks team?",
-          "options": ["A. Cricket", "B. Football", "C. Rugby", "D. Netball"],
-          "answer": "C"
+          "options": [
+            "A. Cricket",
+            "B. Football",
+            "C. Netball",
+            "D. Rugby"
+          ],
+          "answer": "D"
         },
         {
           "id": "1.5",
           "question": "Hollywood, the centre of the American film industry, is located in _______.",
-          "options": ["A. New York", "B. Los Angeles", "C. Chicago", "D. Miami"],
+          "options": [
+            "A. New York",
+            "B. Los Angeles",
+            "C. Chicago",
+            "D. Miami"
+          ],
           "answer": "B"
         },
         {
           "id": "1.6",
           "question": "Which sport is played in the NBA?",
-          "options": ["A. Baseball", "B. Basketball", "C. Bowling", "D. Badminton"],
-          "answer": "B"
+          "options": [
+            "A. Basketball",
+            "B. Baseball",
+            "C. Bowling",
+            "D. Badminton"
+          ],
+          "answer": "A"
         },
         {
           "id": "1.7",
           "question": "Cricket is especially popular in England, Australia, and _______.",
-          "options": ["A. Canada", "B. Scotland", "C. India", "D. Ireland"],
+          "options": [
+            "A. Canada",
+            "B. Scotland",
+            "C. India",
+            "D. Ireland"
+          ],
           "answer": "C"
         },
         {
           "id": "1.8",
           "question": "What is the name of the famous animation studio that created 'Toy Story' and 'Finding Nemo'?",
-          "options": ["A. DreamWorks", "B. Pixar", "C. Warner Bros.", "D. Universal"],
-          "answer": "B"
+          "options": [
+            "A. Pixar",
+            "B. DreamWorks",
+            "C. Warner Bros.",
+            "D. Universal"
+          ],
+          "answer": "A"
         },
         {
           "id": "1.9",
           "question": "Which traditional dance do the New Zealand All Blacks perform before rugby matches?",
-          "options": ["A. Samba", "B. Waltz", "C. Haka", "D. Jig"],
-          "answer": "C"
+          "options": [
+            "A. Haka",
+            "B. Samba",
+            "C. Waltz",
+            "D. Jig"
+          ],
+          "answer": "A"
         },
         {
           "id": "1.10",
           "question": "The Premier League is the top football league in _______.",
-          "options": ["A. the United States", "B. Australia", "C. Canada", "D. England"],
-          "answer": "D"
+          "options": [
+            "A. the United States",
+            "B. Australia",
+            "C. England",
+            "D. Canada"
+          ],
+          "answer": "C"
         }
       ]
     }

@@ -1,0 +1,66 @@
+{
+  "title": "British and Irish Literature (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.5.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "Who wrote the novel 'Pride and Prejudice'?",
+          "answer": [
+            "Jane Austen",
+            "Austen"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.2",
+          "question": "In which English town was William Shakespeare born?",
+          "answer": [
+            "Stratford-upon-Avon",
+            "Stratford upon Avon",
+            "Stratford"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.3",
+          "question": "Which Scottish author created the detective Sherlock Holmes?",
+          "answer": [
+            "Arthur Conan Doyle",
+            "Sir Arthur Conan Doyle",
+            "Conan Doyle"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "Which Irish author wrote the novel 'Dracula'?",
+          "answer": [
+            "Bram Stoker",
+            "Stoker",
+            "Abraham Stoker"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.5",
+          "question": "Which novel by George Orwell is set on a farm, and which one is set in a country called Oceania?",
+          "answer": [
+            "Animal Farm"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "Nineteen Eighty-Four",
+            "1984",
+            "Nineteen Eighty Four"
+          ]
+        }
+      ]
+    }
+  ]
+}

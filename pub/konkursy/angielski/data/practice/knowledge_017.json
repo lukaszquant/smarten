@@ -1,0 +1,61 @@
+{
+  "title": "The British Monarchy (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.4.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "Which royal palace in London is the monarch's official residence, and what is the name of the ceremony held in front of it?",
+          "answer": [
+            "Buckingham Palace"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "the Changing of the Guard",
+            "Changing of the Guard",
+            "Changing the Guard"
+          ]
+        },
+        {
+          "id": "1.2",
+          "question": "Who was the longest-reigning British monarch, and in which year did her reign come to an end?",
+          "answer": [
+            "Queen Elizabeth II",
+            "Elizabeth II",
+            "Queen Elizabeth the Second",
+            "Elizabeth the Second",
+            "Queen Elizabeth"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "2022"
+          ]
+        },
+        {
+          "id": "1.3",
+          "question": "In which church have British monarchs been crowned since 1066?",
+          "answer": [
+            "Westminster Abbey",
+            "the Westminster Abbey"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "What is the name of the royal house to which the British royal family belongs today?",
+          "answer": [
+            "the House of Windsor",
+            "House of Windsor",
+            "Windsor"
+          ],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

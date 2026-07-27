@@ -1,0 +1,65 @@
+{
+  "title": "London (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.5.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "What is the name of the great bell inside the clock tower of the Houses of Parliament?",
+          "answer": [
+            "Big Ben",
+            "the Big Ben"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.2",
+          "question": "By what nickname do Londoners know the London Underground?",
+          "answer": [
+            "the Tube",
+            "Tube"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.3",
+          "question": "Which bridge over the Thames opens in the middle to let tall ships pass through?",
+          "answer": [
+            "Tower Bridge",
+            "the Tower Bridge"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "In which year did the Great Fire of London break out?",
+          "answer": [
+            "1666"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.5",
+          "question": "On which London street does the Prime Minister live, and at which house number?",
+          "answer": [
+            "Downing Street",
+            "Downing St",
+            "Downing St."
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "10",
+            "number 10",
+            "no. 10",
+            "ten"
+          ]
+        }
+      ]
+    }
+  ]
+}

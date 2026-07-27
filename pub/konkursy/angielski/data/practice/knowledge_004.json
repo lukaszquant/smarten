@@ -13,11 +13,11 @@
           "question": "The maple leaf is the national symbol of _______.",
           "options": [
             "A. Ireland",
-            "B. the United States",
-            "C. Canada",
+            "B. Canada",
+            "C. the United States",
             "D. Australia"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.2",
@@ -46,22 +46,22 @@
           "question": "Which plant is the traditional symbol of Ireland?",
           "options": [
             "A. Rose",
-            "B. Thistle",
-            "C. Daffodil",
-            "D. Shamrock"
+            "B. Shamrock",
+            "C. Thistle",
+            "D. Daffodil"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "id": "1.5",
           "question": "Niagara Falls is located on the border between Canada and _______.",
           "options": [
-            "A. Mexico",
-            "B. the United States",
+            "A. the United States",
+            "B. Mexico",
             "C. Alaska",
             "D. Greenland"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.6",
@@ -69,21 +69,21 @@
           "options": [
             "A. Red",
             "B. Blue",
-            "C. Orange",
-            "D. Green"
+            "C. Green",
+            "D. Orange"
           ],
-          "answer": "D"
+          "answer": "C"
         },
         {
           "id": "1.7",
           "question": "Canada has two official languages: English and _______.",
           "options": [
             "A. Spanish",
-            "B. French",
-            "C. German",
+            "B. German",
+            "C. French",
             "D. Gaelic"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "id": "1.8",
@@ -91,21 +91,21 @@
           "options": [
             "A. Skiing",
             "B. Figure skating",
-            "C. Ice hockey",
-            "D. Bobsled"
+            "C. Bobsled",
+            "D. Ice hockey"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.9",
           "question": "The famous Irish holiday, St. Patrick's Day, is celebrated on _______.",
           "options": [
-            "A. March 1st",
-            "B. March 17th",
+            "A. March 17th",
+            "B. March 1st",
             "C. April 1st",
             "D. February 14th"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.10",

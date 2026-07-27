@@ -1,0 +1,61 @@
+{
+  "title": "Inventors and Inventions (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.4.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "Who invented the World Wide Web, and at which research organisation was he working at the time?",
+          "answer": [
+            "Tim Berners-Lee",
+            "Sir Tim Berners-Lee",
+            "Timothy Berners-Lee",
+            "Berners-Lee"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "CERN",
+            "the CERN laboratory"
+          ]
+        },
+        {
+          "id": "1.2",
+          "question": "Which Scottish engineer gave his name to the unit of power, and which machine did he greatly improve?",
+          "answer": [
+            "James Watt",
+            "Watt"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "the steam engine",
+            "steam engine",
+            "a steam engine"
+          ]
+        },
+        {
+          "id": "1.3",
+          "question": "What did the Scottish scientist Alexander Fleming discover in 1928?",
+          "answer": [
+            "penicillin"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "Which American inventor is credited with the first commercially successful light bulb?",
+          "answer": [
+            "Thomas Edison",
+            "Thomas Alva Edison",
+            "Edison"
+          ],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

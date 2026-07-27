@@ -14,54 +14,54 @@
           "options": [
             "A. Thomas Jefferson",
             "B. Abraham Lincoln",
-            "C. George Washington",
-            "D. Benjamin Franklin"
+            "C. Benjamin Franklin",
+            "D. George Washington"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.2",
           "question": "The Statue of Liberty was a gift to the United States from _______.",
           "options": [
             "A. the United Kingdom",
-            "B. France",
-            "C. Spain",
+            "B. Spain",
+            "C. France",
             "D. the Netherlands"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "id": "1.3",
           "question": "On which date do Americans celebrate Independence Day?",
           "options": [
-            "A. July 1st",
-            "B. June 4th",
-            "C. July 4th",
+            "A. July 4th",
+            "B. July 1st",
+            "C. June 4th",
             "D. August 4th"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.4",
           "question": "Thanksgiving in the United States is celebrated on the fourth Thursday in _______.",
           "options": [
             "A. October",
-            "B. November",
-            "C. December",
+            "B. December",
+            "C. November",
             "D. September"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "id": "1.5",
           "question": "Which American city is famous for Hollywood and the film industry?",
           "options": [
-            "A. New York",
-            "B. Chicago",
-            "C. Los Angeles",
+            "A. Los Angeles",
+            "B. New York",
+            "C. Chicago",
             "D. San Francisco"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.6",
@@ -69,10 +69,10 @@
           "options": [
             "A. 13",
             "B. 48",
-            "C. 50",
-            "D. 52"
+            "C. 52",
+            "D. 50"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.7",
@@ -80,10 +80,10 @@
           "options": [
             "A. American football",
             "B. Basketball",
-            "C. Baseball",
-            "D. Ice hockey"
+            "C. Ice hockey",
+            "D. Baseball"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.8",
@@ -101,22 +101,22 @@
           "question": "What is the largest state in the United States by area?",
           "options": [
             "A. Texas",
-            "B. California",
-            "C. Montana",
-            "D. Alaska"
+            "B. Alaska",
+            "C. California",
+            "D. Montana"
           ],
-          "answer": "D"
+          "answer": "B"
         },
         {
           "id": "1.10",
           "question": "Which famous American building is the home of the President?",
           "options": [
-            "A. The Capitol",
-            "B. The Pentagon",
-            "C. The White House",
+            "A. The White House",
+            "B. The Capitol",
+            "C. The Pentagon",
             "D. The Empire State Building"
           ],
-          "answer": "C"
+          "answer": "A"
         }
       ]
     }

@@ -23,34 +23,34 @@
           "id": "1.2",
           "question": "The maple leaf is a famous national symbol that appears on the flag of which country?",
           "options": [
-            "A. Australia",
-            "B. New Zealand",
-            "C. Canada",
+            "A. Canada",
+            "B. Australia",
+            "C. New Zealand",
             "D. Ireland"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.3",
           "question": "Which animal is a well-known national symbol of Scotland?",
           "options": [
-            "A. The unicorn",
-            "B. The kangaroo",
-            "C. The bald eagle",
+            "A. The kangaroo",
+            "B. The bald eagle",
+            "C. The unicorn",
             "D. The kiwi"
           ],
-          "answer": "A"
+          "answer": "C"
         },
         {
           "id": "1.4",
           "question": "Whose portrait appears on most United States one-dollar bills?",
           "options": [
             "A. Abraham Lincoln",
-            "B. George Washington",
-            "C. Benjamin Franklin",
-            "D. Thomas Jefferson"
+            "B. Benjamin Franklin",
+            "C. Thomas Jefferson",
+            "D. George Washington"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "id": "1.5",
@@ -58,21 +58,21 @@
           "options": [
             "A. 13",
             "B. 48",
-            "C. 50",
-            "D. 52"
+            "C. 52",
+            "D. 50"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.6",
           "question": "The shamrock, a small green plant with three leaves, is a traditional symbol of which country?",
           "options": [
-            "A. Wales",
-            "B. England",
-            "C. Ireland",
+            "A. Ireland",
+            "B. Wales",
+            "C. England",
             "D. Canada"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.7",
@@ -90,22 +90,22 @@
           "question": "The flags of Australia and New Zealand both feature a group of white stars that form which constellation?",
           "options": [
             "A. The Great Bear",
-            "B. Orion",
-            "C. The Southern Cross",
+            "B. The Southern Cross",
+            "C. Orion",
             "D. The Plough"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.9",
           "question": "Which flower is the traditional national symbol of England?",
           "options": [
             "A. The daffodil",
-            "B. The rose",
-            "C. The thistle",
+            "B. The thistle",
+            "C. The rose",
             "D. The tulip"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "id": "1.10",

@@ -1,0 +1,59 @@
+{
+  "title": "Australia, New Zealand and Canada (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.4.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "What is the capital city of Australia, and which Australian city has the largest population?",
+          "answer": [
+            "Canberra"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "Sydney"
+          ]
+        },
+        {
+          "id": "1.2",
+          "question": "What are the indigenous people of New Zealand called, and what is the name of the ceremonial dance performed by the national rugby team?",
+          "answer": [
+            "the Maori",
+            "Maori",
+            "the Maori people"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "the haka",
+            "haka"
+          ]
+        },
+        {
+          "id": "1.3",
+          "question": "Which leaf is the national symbol shown on the flag of Canada?",
+          "answer": [
+            "the maple leaf",
+            "maple leaf",
+            "a maple leaf",
+            "maple"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "What is the name of the world's largest coral reef system, off the north-east coast of Australia?",
+          "answer": [
+            "the Great Barrier Reef",
+            "Great Barrier Reef"
+          ],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

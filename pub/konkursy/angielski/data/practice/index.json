@@ -876,6 +876,62 @@
       "points": 10
     },
     {
+      "id": "knowledge_017",
+      "title": "The British Monarchy (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_018",
+      "title": "American Symbols and Institutions (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_019",
+      "title": "Inventors and Inventions (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_020",
+      "title": "British and Irish Literature (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_021",
+      "title": "Australia, New Zealand and Canada (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_022",
+      "title": "London (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_023",
+      "title": "Music and Film (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
+      "id": "knowledge_024",
+      "title": "British Customs and Festivals (poziom rejonowy/wojewodzki)",
+      "taskType": "knowledge_questions",
+      "taskCount": 1,
+      "points": 6
+    },
+    {
       "id": "spelling_011",
       "title": "Weather & Seasons",
       "taskType": "word_spelling",

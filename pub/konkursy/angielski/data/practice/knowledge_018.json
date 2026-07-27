@@ -1,0 +1,69 @@
+{
+  "title": "American Symbols and Institutions (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "knowledge_questions",
+      "points": 6,
+      "instruction": "Rozwiaz zadania (1.1.-1.5.), udzielajac odpowiedzi w jezyku angielskim. Wymagana jest pelna poprawnosc merytoryczna i jezykowa odpowiedzi. W zadaniach za 2 punkty nalezy wpisac dwie odpowiedzi - kazda w osobnym polu.",
+      "items": [
+        {
+          "id": "1.1",
+          "question": "How many stripes are there on the flag of the United States?",
+          "answer": [
+            "13",
+            "thirteen"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.2",
+          "question": "In which building does the United States Congress meet?",
+          "answer": [
+            "the Capitol",
+            "Capitol",
+            "the United States Capitol",
+            "the US Capitol",
+            "the Capitol Building",
+            "Capitol Building"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.3",
+          "question": "Which mountain in South Dakota has the faces of four American presidents carved into it?",
+          "answer": [
+            "Mount Rushmore",
+            "Mt Rushmore",
+            "Mt. Rushmore",
+            "Rushmore"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.4",
+          "question": "What is the name of the bell in Philadelphia that became a symbol of American independence?",
+          "answer": [
+            "the Liberty Bell",
+            "Liberty Bell"
+          ],
+          "points": 1
+        },
+        {
+          "id": "1.5",
+          "question": "How many states does the United States have, and which state was the last one to join?",
+          "answer": [
+            "50",
+            "fifty"
+          ],
+          "points": 2,
+          "secondAnswer": [
+            "Hawaii",
+            "Hawai'i"
+          ]
+        }
+      ]
+    }
+  ]
+}

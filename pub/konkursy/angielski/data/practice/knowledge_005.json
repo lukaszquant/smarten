@@ -12,45 +12,45 @@
           "id": "1.1",
           "question": "Who is the current monarch of the United Kingdom (as of 2024)?",
           "options": [
-            "A. King Edward IX",
-            "B. King William V",
-            "C. King Charles III",
+            "A. King Charles III",
+            "B. King Edward IX",
+            "C. King William V",
             "D. King George VII"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.2",
           "question": "What is the official London residence of the British monarch called?",
           "options": [
             "A. Windsor Castle",
-            "B. Kensington Palace",
-            "C. Buckingham Palace",
+            "B. Buckingham Palace",
+            "C. Kensington Palace",
             "D. Hampton Court Palace"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.3",
           "question": "The British Parliament is made up of two chambers: the Commons and the _______.",
           "options": [
-            "A. House of Representatives",
-            "B. House of Lords",
+            "A. House of Lords",
+            "B. House of Representatives",
             "C. Senate",
             "D. House of Nobles"
           ],
-          "answer": "B"
+          "answer": "A"
         },
         {
           "id": "1.4",
           "question": "Queen Elizabeth II reigned for approximately _______ years.",
           "options": [
             "A. 50",
-            "B. 60",
-            "C. 70",
+            "B. 70",
+            "C. 60",
             "D. 80"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.5",
@@ -58,65 +58,65 @@
           "options": [
             "A. Buckingham Palace",
             "B. The Tower of London",
-            "C. Westminster Palace (Houses of Parliament)",
-            "D. St. James's Palace"
+            "C. St. James's Palace",
+            "D. Westminster Palace (Houses of Parliament)"
           ],
-          "answer": "C"
+          "answer": "D"
         },
         {
           "id": "1.6",
           "question": "The head of the British government is called the _______.",
           "options": [
-            "A. President",
-            "B. Chancellor",
-            "C. Prime Minister",
+            "A. Prime Minister",
+            "B. President",
+            "C. Chancellor",
             "D. Governor"
           ],
-          "answer": "C"
+          "answer": "A"
         },
         {
           "id": "1.7",
           "question": "Which famous landmark was originally built as a royal residence and later used as a prison?",
           "options": [
             "A. Big Ben",
-            "B. The Tower of London",
-            "C. Westminster Abbey",
+            "B. Westminster Abbey",
+            "C. The Tower of London",
             "D. St. Paul's Cathedral"
           ],
-          "answer": "B"
+          "answer": "C"
         },
         {
           "id": "1.8",
           "question": "The Crown Jewels of the United Kingdom are kept in _______.",
           "options": [
             "A. Buckingham Palace",
-            "B. Windsor Castle",
-            "C. The Tower of London",
+            "B. The Tower of London",
+            "C. Windsor Castle",
             "D. The British Museum"
           ],
-          "answer": "C"
+          "answer": "B"
         },
         {
           "id": "1.9",
           "question": "Which Tudor monarch ruled England for 45 years and had an entire era named after her?",
           "options": [
             "A. Queen Victoria",
-            "B. Queen Elizabeth I",
-            "C. Queen Mary I",
-            "D. Queen Anne"
+            "B. Queen Mary I",
+            "C. Queen Anne",
+            "D. Queen Elizabeth I"
           ],
-          "answer": "B"
+          "answer": "D"
         },
         {
           "id": "1.10",
           "question": "The guards who protect the Tower of London are traditionally called _______.",
           "options": [
             "A. Redcoats",
-            "B. Beefeaters (Yeoman Warders)",
-            "C. Grenadiers",
+            "B. Grenadiers",
+            "C. Beefeaters (Yeoman Warders)",
             "D. Knights"
           ],
-          "answer": "B"
+          "answer": "C"
         }
       ]
     }
