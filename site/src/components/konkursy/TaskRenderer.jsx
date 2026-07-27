@@ -35,13 +35,17 @@ const SKIPPED_TYPES = [
 
 // These types have items but need AI to grade
 // (open_cloze + word_formation are AI-graded so synonyms / spelling variants
-// beyond the official answer key can be accepted.)
+// beyond the official answer key can be accepted. knowledge_questions is here
+// for the open-text items, whose answer keys are model answers a pupil cannot
+// be expected to reproduce word for word; its multiple-choice items are still
+// marked on the letter alone.)
 export const AI_CHECKED_TYPES = [
   "sentence_transformation",
   "grammar_gaps",
   "writing",
   "open_cloze",
   "word_formation",
+  "knowledge_questions",
 ];
 
 export default function TaskRenderer({ task, answers, onChange, showResults, taskResult }) {

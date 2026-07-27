@@ -198,7 +198,9 @@ function scoreTask(task, userAnswers) {
         };
       });
       result.items = itemResults;
-      result.earned = totalEarned;
+      // Never award more than the task is worth: a few competition papers carry
+      // more 1-point items than the task's stated maximum.
+      result.earned = Math.min(totalEarned, result.max);
       break;
     }
 

@@ -32,6 +32,8 @@ export async function onRequestPost(context) {
       return Response.json(await gradeOpenCloze(apiKey, task, answers));
     } else if (type === "word_formation") {
       return Response.json(await gradeWordFormation(apiKey, task, answers));
+    } else if (type === "knowledge_questions") {
+      return Response.json(await gradeKnowledgeQuestions(apiKey, task, answers));
     } else if (type === "writing") {
       const prompt = buildWritingPrompt(task, answers);
       const result = await callClaude(apiKey, SONNET, prompt);
@@ -525,6 +527,138 @@ Respond with ONLY this JSON (no other text):
 {
   "items": [
     { "id": "...", "correct": true/false, "feedback": "brief explanation in Polish — for accepted variants note that; for wrong answers explain why briefly", "correctAnswer": "expected answer" }
+  ]
+}`;
+}
+
+// ---------- Knowledge questions ----------
+
+// Local marking, mirroring the knowledge_questions branch of src/lib/scoring.js.
+// Kept in step with it deliberately: the client overwrites its own score with
+// whatever this endpoint returns, so the endpoint must never mark lower.
+function localKnowledgeScore(item, answers) {
+  const max = item.secondAnswer ? 2 : item.points || 1;
+  const expected = Array.isArray(item.answer) ? item.answer : [item.answer];
+  const student = answers[item.id] || "";
+
+  if (item.secondAnswer) {
+    const expected2 = Array.isArray(item.secondAnswer) ? item.secondAnswer : [item.secondAnswer];
+    const student2 = answers[item.id + "_b"] || "";
+    const first = expected.some((a) => normalize(a) === normalize(student) && normalize(student) !== "");
+    const second = expected2.some((a) => normalize(a) === normalize(student2) && normalize(student2) !== "");
+    return { earned: (first ? 1 : 0) + (second ? 1 : 0), max };
+  }
+
+  // points === 2 with several keys means every key is required, typed as one
+  // comma- or semicolon-separated answer — not a list of alternatives.
+  if (max === 2 && expected.length >= 2) {
+    const parts = String(student).split(/[,;]+/).map((s) => normalize(s));
+    const hit = expected.filter((a) => parts.includes(normalize(a))).length;
+    return { earned: Math.min(hit, max), max };
+  }
+
+  const ok = expected.some((a) => normalize(a) === normalize(student) && normalize(student) !== "");
+  return { earned: ok ? max : 0, max };
+}
+
+async function gradeKnowledgeQuestions(apiKey, task, answers) {
+  const items = task.items || [];
+  const itemResults = new Array(items.length);
+  const toAI = [];
+
+  items.forEach((item, idx) => {
+    const expected = Array.isArray(item.answer) ? item.answer : [item.answer];
+    const student = answers[item.id] || "";
+    const student2 = answers[item.id + "_b"] || "";
+    const { earned, max } = localKnowledgeScore(item, answers);
+
+    const base = {
+      id: item.id,
+      correct: earned === max,
+      userAnswer: student,
+      correctAnswer: expected.join(" / "),
+      earned,
+      max,
+    };
+
+    // Multiple-choice items are letter picks — there is nothing for the AI to
+    // judge, and sending them would only invite it to second-guess the key.
+    const isMultipleChoice = Array.isArray(item.options) && item.options.length > 0;
+    const blank = !normalize(student) && !normalize(student2);
+
+    if (isMultipleChoice || earned === max || blank) {
+      itemResults[idx] = base;
+      return;
+    }
+    itemResults[idx] = base;
+    toAI.push({ idx, item });
+  });
+
+  if (toAI.length > 0) {
+    const prompt = buildKnowledgeQuestionsPrompt(task, answers, toAI.map((x) => x.item));
+    const aiResult = await callClaude(apiKey, SONNET, prompt);
+    const aiById = new Map((aiResult.items || []).map((it) => [it.id, it]));
+    for (const { idx, item } of toAI) {
+      const ai = aiById.get(item.id);
+      if (!ai) continue; // keep the local mark
+      const local = itemResults[idx];
+      const awarded = Math.max(0, Math.min(Number(ai.earned) || 0, local.max));
+      // The AI can only raise a mark, never lower one.
+      const earned = Math.max(local.earned, awarded);
+      itemResults[idx] = {
+        ...local,
+        correct: earned === local.max,
+        earned,
+        feedback: ai.feedback || "",
+      };
+    }
+  }
+
+  const max = task.points || itemResults.reduce((sum, r) => sum + r.max, 0);
+  const earned = Math.min(itemResults.reduce((sum, r) => sum + r.earned, 0), max);
+  return { items: itemResults, earned, max };
+}
+
+function buildKnowledgeQuestionsPrompt(task, answers, itemsToGrade) {
+  const items = itemsToGrade.map((item) => {
+    const expected = Array.isArray(item.answer) ? item.answer : [item.answer];
+    const out = {
+      id: item.id,
+      question: item.question,
+      acceptedAnswers: expected,
+      studentAnswer: answers[item.id] || "",
+      maxPoints: item.secondAnswer ? 2 : item.points || 1,
+    };
+    if (item.secondAnswer) {
+      out.secondPartAcceptedAnswers = Array.isArray(item.secondAnswer)
+        ? item.secondAnswer
+        : [item.secondAnswer];
+      out.studentAnswerSecondPart = answers[item.id + "_b"] || "";
+    }
+    return out;
+  });
+
+  return `You are grading a general-knowledge quiz about English-speaking countries, written in English by Polish pupils aged 10-14 for a regional competition. The pupils type their answers freely, so they will almost never match the official answer key word for word.
+
+Award points for the KNOWLEDGE shown, not for the wording. For each item you are given the question, the official accepted answer(s), the student's answer, and the maximum points.
+
+Award full points when the student's answer means the same as an accepted answer:
+1. Paraphrases and the student's own words are fine ("a cap you wear when you graduate" for an academic cap).
+2. Ignore spelling, capitalisation, articles and word order, including misspelled proper nouns that are clearly recognisable ("Filadelfia" for Philadelphia, "Bill Gats" for Bill Gates).
+3. Accept a Polish word for the key term only if the rest of the answer shows the pupil knows the fact.
+4. Accept a shorter answer than the key when it still contains the essential fact. The key is often a long model answer; the pupil does not have to reproduce all of it.
+
+Award ZERO when the answer names the wrong person, place, date or thing, is empty, or is too vague to show the fact was known ("a food", "some building").
+
+Where maxPoints is 2 the question asks for two things. Award 1 point per part the student got right. Some of these have a separate second input box (shown as studentAnswerSecondPart); others expect both parts in the one answer.
+
+Items to grade:
+${JSON.stringify(items, null, 2)}
+
+Respond with ONLY this JSON (no other text):
+{
+  "items": [
+    { "id": "...", "earned": 0, "feedback": "brief explanation in Polish - why the answer was accepted or rejected" }
   ]
 }`;
 }
