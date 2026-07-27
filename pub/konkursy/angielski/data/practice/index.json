@@ -1471,6 +1471,62 @@
       "points": 6
     },
     {
+      "id": "transform_017",
+      "title": "Idioms and Inversion (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_018",
+      "title": "Phrasal Verbs and Passives (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_019",
+      "title": "Regret, Obligation and Advice (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_020",
+      "title": "Reporting and Speculation (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_021",
+      "title": "Emphasis and Word Order (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_022",
+      "title": "Causative, Permission and Prevention (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_023",
+      "title": "Conditionals, Wishes and the Unreal Past (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
+      "id": "transform_024",
+      "title": "Fixed Expressions and Collocations (poziom rejonowy/wojewodzki)",
+      "taskType": "sentence_transformation",
+      "taskCount": 1,
+      "points": 8
+    },
+    {
       "id": "grammar_006",
       "title": "Tenses Review",
       "taskType": "grammar_gaps",

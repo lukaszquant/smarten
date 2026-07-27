@@ -1,0 +1,76 @@
+{
+  "title": "Idioms and Inversion (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "The meeting was postponed until next month.",
+          "keyword": "OFF",
+          "transformed": "The meeting _________ until next month.",
+          "answer": "was put off"
+        },
+        {
+          "id": "1.2",
+          "original": "I have a good relationship with my neighbours.",
+          "keyword": "TERMS",
+          "transformed": "I _________ with my neighbours.",
+          "answer": "am on good terms"
+        },
+        {
+          "id": "1.3",
+          "original": "She immediately started crying when she heard the news.",
+          "keyword": "BURST",
+          "transformed": "She _________ when she heard the news.",
+          "answer": [
+            "burst into tears",
+            "burst out crying"
+          ]
+        },
+        {
+          "id": "1.4",
+          "original": "People do not realise how difficult the exam is.",
+          "keyword": "REALISE",
+          "transformed": "Little _________ how difficult the exam is.",
+          "answer": "do people realise"
+        },
+        {
+          "id": "1.5",
+          "original": "As soon as we sat down, the film started.",
+          "keyword": "SOONER",
+          "transformed": "No _________ down than the film started.",
+          "answer": "sooner had we sat"
+        },
+        {
+          "id": "1.6",
+          "original": "Everyone came to the party except Tom.",
+          "keyword": "EXCEPTION",
+          "transformed": "Everyone _________ Tom came to the party.",
+          "answer": "with the exception of"
+        },
+        {
+          "id": "1.7",
+          "original": "Your advice gave me a lot to think about.",
+          "keyword": "FOOD",
+          "transformed": "Your advice gave me plenty of _________.",
+          "answer": "food for thought"
+        },
+        {
+          "id": "1.8",
+          "original": "He visits his grandmother every Sunday.",
+          "keyword": "DROPS",
+          "transformed": "He _________ every Sunday.",
+          "answer": [
+            "drops in on his grandmother",
+            "drops by his grandmother's"
+          ]
+        }
+      ]
+    }
+  ]
+}

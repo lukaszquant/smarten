@@ -1,0 +1,79 @@
+{
+  "title": "Conditionals, Wishes and the Unreal Past (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "It is a pity that I cannot drive.",
+          "keyword": "COULD",
+          "transformed": "I wish _________.",
+          "answer": "I could drive"
+        },
+        {
+          "id": "1.2",
+          "original": "The accident happened because of the fog, so we were late.",
+          "keyword": "FOR",
+          "transformed": "If it _________ the fog, we would not have been late.",
+          "answer": [
+            "had not been for",
+            "hadn't been for"
+          ]
+        },
+        {
+          "id": "1.3",
+          "original": "He did not revise, so he failed the test.",
+          "keyword": "REVISED",
+          "transformed": "If he _________, he would have passed the test.",
+          "answer": "had revised"
+        },
+        {
+          "id": "1.4",
+          "original": "I regret that I told him the truth.",
+          "keyword": "WISH",
+          "transformed": "I _________ him the truth.",
+          "answer": [
+            "wish I had not told",
+            "wish I hadn't told"
+          ]
+        },
+        {
+          "id": "1.5",
+          "original": "She behaves as though the house belongs to her.",
+          "keyword": "OWNED",
+          "transformed": "She behaves as if _________ the house.",
+          "answer": "she owned"
+        },
+        {
+          "id": "1.6",
+          "original": "It is time for you to go to bed.",
+          "keyword": "WENT",
+          "transformed": "It is time _________ to bed.",
+          "answer": "you went"
+        },
+        {
+          "id": "1.7",
+          "original": "Without your help, I would not have finished.",
+          "keyword": "NOT",
+          "transformed": "If you _________ me, I would not have finished.",
+          "answer": [
+            "had not helped",
+            "hadn't helped"
+          ]
+        },
+        {
+          "id": "1.8",
+          "original": "I would like you to be more careful.",
+          "keyword": "RATHER",
+          "transformed": "I would _________ more careful.",
+          "answer": "rather you were"
+        }
+      ]
+    }
+  ]
+}

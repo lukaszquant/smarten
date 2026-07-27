@@ -1,0 +1,82 @@
+{
+  "title": "Regret, Obligation and Advice (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "It was not necessary for you to buy tickets, but you did.",
+          "keyword": "NEED",
+          "transformed": "You _________ tickets.",
+          "answer": [
+            "need not have bought",
+            "needn't have bought"
+          ]
+        },
+        {
+          "id": "1.2",
+          "original": "It was a mistake to tell her the secret.",
+          "keyword": "SHOULD",
+          "transformed": "You _________ her the secret.",
+          "answer": [
+            "should not have told",
+            "shouldn't have told"
+          ]
+        },
+        {
+          "id": "1.3",
+          "original": "I think you ought to see a dentist soon.",
+          "keyword": "BETTER",
+          "transformed": "You _________ a dentist soon.",
+          "answer": "had better see"
+        },
+        {
+          "id": "1.4",
+          "original": "I would prefer you not to play music so loudly.",
+          "keyword": "RATHER",
+          "transformed": "I would _________ music so loudly.",
+          "answer": [
+            "rather you did not play",
+            "rather you didn't play"
+          ]
+        },
+        {
+          "id": "1.5",
+          "original": "I regret not studying harder at school.",
+          "keyword": "WISH",
+          "transformed": "I _________ harder at school.",
+          "answer": "wish I had studied"
+        },
+        {
+          "id": "1.6",
+          "original": "It is not worth complaining about the weather.",
+          "keyword": "POINT",
+          "transformed": "There _________ about the weather.",
+          "answer": [
+            "is no point complaining",
+            "is no point in complaining"
+          ]
+        },
+        {
+          "id": "1.7",
+          "original": "You are not obliged to attend the meeting.",
+          "keyword": "OBLIGATION",
+          "transformed": "You _________ to attend the meeting.",
+          "answer": "are under no obligation"
+        },
+        {
+          "id": "1.8",
+          "original": "I am sorry that I did not accept the offer.",
+          "keyword": "TURNED",
+          "transformed": "I regret _________ the offer.",
+          "answer": "having turned down"
+        }
+      ]
+    }
+  ]
+}

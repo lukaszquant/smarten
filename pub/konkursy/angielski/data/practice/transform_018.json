@@ -1,0 +1,70 @@
+{
+  "title": "Phrasal Verbs and Passives (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "Who invented this strange rule?",
+          "keyword": "CAME",
+          "transformed": "Who _________ this strange rule?",
+          "answer": "came up with"
+        },
+        {
+          "id": "1.2",
+          "original": "My neighbours are looking after our dog this week.",
+          "keyword": "BEING",
+          "transformed": "Our dog _________ by my neighbours this week.",
+          "answer": "is being looked after"
+        },
+        {
+          "id": "1.3",
+          "original": "The concert was cancelled because of the storm.",
+          "keyword": "CALLED",
+          "transformed": "The concert _________ because of the storm.",
+          "answer": "was called off"
+        },
+        {
+          "id": "1.4",
+          "original": "They are going to demolish the old factory.",
+          "keyword": "PULLED",
+          "transformed": "The old factory is going _________.",
+          "answer": "to be pulled down"
+        },
+        {
+          "id": "1.5",
+          "original": "I finally found the solution to the puzzle.",
+          "keyword": "WORKED",
+          "transformed": "I finally _________ the puzzle.",
+          "answer": "worked out how to solve"
+        },
+        {
+          "id": "1.6",
+          "original": "Somebody has to take care of these documents.",
+          "keyword": "DEALT",
+          "transformed": "These documents have _________ with.",
+          "answer": "to be dealt"
+        },
+        {
+          "id": "1.7",
+          "original": "The police are investigating the robbery.",
+          "keyword": "LOOKED",
+          "transformed": "The robbery _________ by the police.",
+          "answer": "is being looked into"
+        },
+        {
+          "id": "1.8",
+          "original": "Nobody has explained the rules to us.",
+          "keyword": "BEEN",
+          "transformed": "The rules _________ to us.",
+          "answer": "have not been explained"
+        }
+      ]
+    }
+  ]
+}

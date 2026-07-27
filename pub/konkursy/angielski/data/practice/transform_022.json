@@ -1,0 +1,74 @@
+{
+  "title": "Causative, Permission and Prevention (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "A painter decorated our kitchen last week.",
+          "keyword": "HAD",
+          "transformed": "We _________ last week.",
+          "answer": "had our kitchen decorated"
+        },
+        {
+          "id": "1.2",
+          "original": "The heavy rain stopped us from going out.",
+          "keyword": "PREVENTED",
+          "transformed": "We _________ going out by the heavy rain.",
+          "answer": "were prevented from"
+        },
+        {
+          "id": "1.3",
+          "original": "My parents do not let me stay out late.",
+          "keyword": "ALLOWED",
+          "transformed": "I _________ stay out late.",
+          "answer": "am not allowed to"
+        },
+        {
+          "id": "1.4",
+          "original": "Would you object to my opening the window?",
+          "keyword": "MIND",
+          "transformed": "Would _________ the window?",
+          "answer": [
+            "you mind my opening",
+            "you mind me opening",
+            "you mind if I opened"
+          ]
+        },
+        {
+          "id": "1.5",
+          "original": "Someone is repairing my laptop at the moment.",
+          "keyword": "GETTING",
+          "transformed": "I _________ at the moment.",
+          "answer": "am getting my laptop repaired"
+        },
+        {
+          "id": "1.6",
+          "original": "The guard did not let anyone enter the building.",
+          "keyword": "FROM",
+          "transformed": "The guard stopped everyone _________ the building.",
+          "answer": "from entering"
+        },
+        {
+          "id": "1.7",
+          "original": "My father made me apologise to the neighbour.",
+          "keyword": "MADE",
+          "transformed": "I _________ to the neighbour by my father.",
+          "answer": "was made to apologise"
+        },
+        {
+          "id": "1.8",
+          "original": "They forced him to sign the contract.",
+          "keyword": "INTO",
+          "transformed": "He _________ the contract.",
+          "answer": "was forced into signing"
+        }
+      ]
+    }
+  ]
+}

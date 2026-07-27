@@ -47,7 +47,7 @@ const TYPE_LABELS = {
 };
 
 const TYPE_DESCRIPTIONS = {
-  knowledge_questions: "Pytania wielokrotnego wyboru o krajach anglojezycznych",
+  knowledge_questions: "Pytania o krajach anglojezycznych - wybor A/B/C/D lub odpowiedz otwarta",
   word_spelling: "Uzupelnij brakujace slowo na podstawie kontekstu i podanych liter",
   word_formation: "Przeksztalc wyraz w odpowiednia forme gramatyczna",
   true_false_ni: "Przeczytaj tekst i zdecyduj: prawda, falsz lub brak informacji",

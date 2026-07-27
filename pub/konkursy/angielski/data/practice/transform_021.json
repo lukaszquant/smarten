@@ -1,0 +1,70 @@
+{
+  "title": "Emphasis and Word Order (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "She not only sings but also writes her own songs.",
+          "keyword": "ONLY",
+          "transformed": "Not _________ but she also writes her own songs.",
+          "answer": "only does she sing"
+        },
+        {
+          "id": "1.2",
+          "original": "Jenny rarely arrives late.",
+          "keyword": "DOES",
+          "transformed": "Rarely _________ late.",
+          "answer": "does Jenny arrive"
+        },
+        {
+          "id": "1.3",
+          "original": "We had hardly started when the rain came.",
+          "keyword": "HAD",
+          "transformed": "Hardly _________ when the rain came.",
+          "answer": "had we started"
+        },
+        {
+          "id": "1.4",
+          "original": "I only understood the problem when he explained it.",
+          "keyword": "DID",
+          "transformed": "Only when he explained it _________ the problem.",
+          "answer": "did I understand"
+        },
+        {
+          "id": "1.5",
+          "original": "The teacher had never seen such a good essay.",
+          "keyword": "SEEN",
+          "transformed": "Never _________ such a good essay.",
+          "answer": "had the teacher seen"
+        },
+        {
+          "id": "1.6",
+          "original": "You will not find a better restaurant anywhere.",
+          "keyword": "NOWHERE",
+          "transformed": "_________ a better restaurant.",
+          "answer": "Nowhere will you find"
+        },
+        {
+          "id": "1.7",
+          "original": "He said nothing about his plans at any time.",
+          "keyword": "DID",
+          "transformed": "At no time _________ about his plans.",
+          "answer": "did he say anything"
+        },
+        {
+          "id": "1.8",
+          "original": "If I had known about it, I would have helped.",
+          "keyword": "HAD",
+          "transformed": "_________ about it, I would have helped.",
+          "answer": "Had I known"
+        }
+      ]
+    }
+  ]
+}

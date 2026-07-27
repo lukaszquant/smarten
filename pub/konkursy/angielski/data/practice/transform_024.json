@@ -1,0 +1,73 @@
+{
+  "title": "Fixed Expressions and Collocations (poziom rejonowy/wojewodzki)",
+  "type": "practice",
+  "tasks": [
+    {
+      "id": "1",
+      "type": "sentence_transformation",
+      "points": 8,
+      "instruction": "Przeczytaj zdania (1.1.-1.8.). Wykorzystujac wyrazy podane wielkimi literami, uzupelnij kazde zdanie z luka tak, aby precyzyjnie oddac sens zdania wyjsciowego. Wymagana jest pelna poprawnosc ortograficzna i gramatyczna wpisywanych fragmentow zdan. Uwaga: nie zmieniaj formy podanych wyrazow. W kazda luke mozesz wpisac maksymalnie piec wyrazow, wliczajac w to wyraz juz podany. Formy skrocone (np. needn't, they're) sa liczone jako dwa wyrazy.",
+      "items": [
+        {
+          "id": "1.1",
+          "original": "Suddenly the whole class started laughing.",
+          "keyword": "BURST",
+          "transformed": "Suddenly the whole class _________.",
+          "answer": [
+            "burst out laughing",
+            "burst into laughter"
+          ]
+        },
+        {
+          "id": "1.2",
+          "original": "My sister is very similar to my mother.",
+          "keyword": "TAKES",
+          "transformed": "My sister _________ my mother.",
+          "answer": "takes after"
+        },
+        {
+          "id": "1.3",
+          "original": "We must consider the cost of the trip.",
+          "keyword": "ACCOUNT",
+          "transformed": "The cost of the trip must _________.",
+          "answer": "be taken into account"
+        },
+        {
+          "id": "1.4",
+          "original": "He finally admitted that he had made a mistake.",
+          "keyword": "OWNED",
+          "transformed": "He finally _________ making a mistake.",
+          "answer": "owned up to"
+        },
+        {
+          "id": "1.5",
+          "original": "The police are looking for the missing painting.",
+          "keyword": "SEARCH",
+          "transformed": "The police are _________ the missing painting.",
+          "answer": "in search of"
+        },
+        {
+          "id": "1.6",
+          "original": "I met my old teacher by chance yesterday.",
+          "keyword": "RAN",
+          "transformed": "I _________ my old teacher yesterday.",
+          "answer": "ran into"
+        },
+        {
+          "id": "1.7",
+          "original": "Nobody was surprised that he won the prize.",
+          "keyword": "SURPRISE",
+          "transformed": "It _________ that he won the prize.",
+          "answer": "came as no surprise"
+        },
+        {
+          "id": "1.8",
+          "original": "Please stop interrupting me all the time.",
+          "keyword": "CUTTING",
+          "transformed": "Please stop _________ all the time.",
+          "answer": "cutting me off"
+        }
+      ]
+    }
+  ]
+}
