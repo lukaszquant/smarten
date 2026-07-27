@@ -160,7 +160,7 @@
         {
           "id": "10.1",
           "question": "What is the name and surname of one of the richest people in the world, the co-founder of the company that revolutionised operating systems for personal computers? What is the name of this company?",
-          "answer": ["Bill Gates / Steve Jobs", "Microsoft (Corporation) / Apple"],
+          "answer": ["Bill Gates", "Steve Jobs", "Microsoft", "Microsoft Corporation", "Apple"],
           "points": 2
         },
         {

@@ -213,7 +213,7 @@
         {
           "id": "9.5",
           "question": "How many times has London hosted the Olympic Games? Give an example of one year when they did.",
-          "answer": ["3 times", "1908 / 1948 / 2012"],
+          "answer": ["3 times", "3", "three", "three times", "1908", "1948", "2012"],
           "points": 2
         }
       ]

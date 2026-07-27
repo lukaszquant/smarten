@@ -218,7 +218,7 @@
         {
           "id": "9.5",
           "question": "Haggis is usually served with neeps and tatties. What does each of these terms mean?",
-          "answer": ["neeps – (mashed) swede / turnip (rutabaga in North America)", "tatties – (mashed) potatoes"],
+          "answer": ["swede", "mashed swede", "turnip", "mashed turnip", "rutabaga", "potatoes", "mashed potatoes", "potato"],
           "points": 2
         }
       ]
