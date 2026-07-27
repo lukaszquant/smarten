@@ -11,7 +11,7 @@
         "ABLE",
         "CALM",
         "ENJOY",
-        "EXPLAIN",
+        "EXPLANATION",
         "GROW",
         "IMAGINE",
         "KNOW",
@@ -58,7 +58,7 @@
         },
         {
           "id": "1.8",
-          "baseWord": "EXPLAIN",
+          "baseWord": "EXPLANATION",
           "answer": "explain"
         }
       ]

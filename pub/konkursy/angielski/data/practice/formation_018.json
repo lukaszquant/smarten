@@ -9,13 +9,13 @@
       "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
       "wordBank": [
         "ABLE",
-        "ATHLETE",
+        "ATHLETIC",
         "COMPETE",
         "EXCITE",
         "HEALTH",
         "INJURE",
         "POPULAR",
-        "STRONG",
+        "STRENGTH",
         "TRAIN",
         "WIN"
       ],
@@ -43,7 +43,7 @@
         },
         {
           "id": "1.5",
-          "baseWord": "ATHLETE",
+          "baseWord": "ATHLETIC",
           "answer": "athlete"
         },
         {
@@ -58,7 +58,7 @@
         },
         {
           "id": "1.8",
-          "baseWord": "STRONG",
+          "baseWord": "STRENGTH",
           "answer": "strong"
         }
       ]

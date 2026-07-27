@@ -8,7 +8,7 @@
       "points": 8,
       "instruction": "Przeczytaj ponizszy tekst. Uzupelnij kazda luke (1.1-1.8), przeksztalcajac wyraz podany w ramce w taka forme, ktora logicznie i gramatycznie pasuje do kontekstu. Wymagana jest calkowita poprawnosc gramatyczna i ortograficzna wpisywanych wyrazow. Dwa wyrazy zostaly podane dodatkowo i nie pasuja do zadnej luki.",
       "wordBank": [
-        "ABLE",
+        "ABILITY",
         "CARE",
         "DANGER",
         "DISCOVER",
@@ -48,7 +48,7 @@
         },
         {
           "id": "1.6",
-          "baseWord": "ABLE",
+          "baseWord": "ABILITY",
           "answer": "able"
         },
         {

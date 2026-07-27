@@ -10,12 +10,12 @@
       "wordBank": [
         "BRIGHT",
         "CHEMISTRY",
-        "DIFFICULT",
+        "DIFFICULTY",
         "DISCOVER",
         "EXPOSE",
         "INVENT",
         "PHOTOGRAPH",
-        "POPULAR",
+        "POPULARITY",
         "PRESS",
         "REPLACE"
       ],
@@ -38,12 +38,12 @@
         },
         {
           "id": "1.4",
-          "baseWord": "POPULAR",
+          "baseWord": "POPULARITY",
           "answer": "popular"
         },
         {
           "id": "1.5",
-          "baseWord": "DIFFICULT",
+          "baseWord": "DIFFICULTY",
           "answer": "difficult"
         },
         {
